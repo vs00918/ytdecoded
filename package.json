@@ -10,7 +10,7 @@
     "build": "astro build && pagefind --site dist --output-path dist/pagefind",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test tests/*.test.js"
+    "test": "tsx --test tests/*.test.js"
   },
   "dependencies": {
     "astro": "^4.16.18",
