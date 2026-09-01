@@ -1,0 +1,11 @@
+{
+  "is_valid": true,
+  "video_id": "dGcsHMXbSOA",
+  "total_claims": 19,
+  "verified_claims": 19,
+  "unbacked_claims": 0,
+  "dangling_references": 0,
+  "total_entities": 52,
+  "errors": [],
+  "warnings": []
+}

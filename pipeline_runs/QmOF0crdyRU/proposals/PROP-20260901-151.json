@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-151",
+  "created_at": "2026-09-01T15:11:31.297Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-199",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2311",
+      "start": 6417.9,
+      "end": 6420.3,
+      "quoted_text": "of our species probably found exhausting"
+    },
+    {
+      "entity_id": "CLM-2312",
+      "start": 6420.3,
+      "end": 6422.8,
+      "quoted_text": "and probably would have preferred to just put their feet up"
+    },
+    {
+      "entity_id": "CLM-2313",
+      "start": 6422.8,
+      "end": 6424.1,
+      "quoted_text": "or soaked them in a cool stream"
+    },
+    {
+      "entity_id": "CLM-2314",
+      "start": 6424.1,
+      "end": 6426.1,
+      "quoted_text": "rather than continue to forage."
+    },
+    {
+      "entity_id": "CLM-2315",
+      "start": 6426.1,
+      "end": 6429.8,
+      "quoted_text": "The ability to access this pleasure from effort"
+    },
+    {
+      "entity_id": "CLM-2316",
+      "start": 6430.9,
+      "end": 6433.4,
+      "quoted_text": "aspect of our dopaminergic circuitry"
+    },
+    {
+      "entity_id": "CLM-2317",
+      "start": 6433.4,
+      "end": 6437.4,
+      "quoted_text": "is without question the most powerful aspect of dopamine"
+    },
+    {
+      "entity_id": "CLM-2318",
+      "start": 6437.4,
+      "end": 6439.6,
+      "quoted_text": "and our biology of dopamine."
+    },
+    {
+      "entity_id": "CLM-2319",
+      "start": 6439.6,
+      "end": 6443.1,
+      "quoted_text": "And the beautiful thing is it's accessible to all of us."
+    },
+    {
+      "entity_id": "CLM-2320",
+      "start": 6443.1,
+      "end": 6446,
+      "quoted_text": "But just to highlight the things that can interfere with,"
+    },
+    {
+      "entity_id": "CLM-2321",
+      "start": 6446,
+      "end": 6449.9,
+      "quoted_text": "and prevent you from getting dopamine release"
+    },
+    {
+      "entity_id": "CLM-2322",
+      "start": 6452.2,
+      "end": 6455.6,
+      "quoted_text": "don't spike dopamine prior to engaging in effort."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: of our species probably found exhausting\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [6417s-6420s]: \"of our species probably found exhausting\"\n  - [6420s-6422s]: \"and probably would have preferred to just put their feet up\"\n  - [6422s-6424s]: \"or soaked them in a cool stream\"\n  - [6424s-6426s]: \"rather than continue to forage.\"\n  - [6426s-6429s]: \"The ability to access this pleasure from effort\"\n  - [6430s-6433s]: \"aspect of our dopaminergic circuitry\"\n  - [6433s-6437s]: \"is without question the most powerful aspect of dopamine\"\n  - [6437s-6439s]: \"and our biology of dopamine.\"\n  - [6439s-6443s]: \"And the beautiful thing is it's accessible to all of us.\"\n  - [6443s-6446s]: \"But just to highlight the things that can interfere with,\"\n  - [6446s-6449s]: \"and prevent you from getting dopamine release\"\n  - [6452s-6455s]: \"don't spike dopamine prior to engaging in effort.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: of our species probably found exhausting\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [6417s-6420s]: \"of our species probably found exhausting\"\n+  - [6420s-6422s]: \"and probably would have preferred to just put their feet up\"\n+  - [6422s-6424s]: \"or soaked them in a cool stream\"\n+  - [6424s-6426s]: \"rather than continue to forage.\"\n+  - [6426s-6429s]: \"The ability to access this pleasure from effort\"\n+  - [6430s-6433s]: \"aspect of our dopaminergic circuitry\"\n+  - [6433s-6437s]: \"is without question the most powerful aspect of dopamine\"\n+  - [6437s-6439s]: \"and our biology of dopamine.\"\n+  - [6439s-6443s]: \"And the beautiful thing is it's accessible to all of us.\"\n+  - [6443s-6446s]: \"But just to highlight the things that can interfere with,\"\n+  - [6446s-6449s]: \"and prevent you from getting dopamine release\"\n+  - [6452s-6455s]: \"don't spike dopamine prior to engaging in effort.\"\n"
+  }
+}

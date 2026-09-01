@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-139",
+  "created_at": "2026-09-01T15:11:31.293Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-183",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 0).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2124",
+      "start": 5861.1,
+      "end": 5862.8,
+      "quoted_text": "no pharmacology whatsoever."
+    },
+    {
+      "entity_id": "CLM-2125",
+      "start": 5862.8,
+      "end": 5866,
+      "quoted_text": "Please again, approach it with a safety and caution in mind,"
+    },
+    {
+      "entity_id": "CLM-2126",
+      "start": 5866,
+      "end": 5867.9,
+      "quoted_text": "but it is a very potent stimulus."
+    },
+    {
+      "entity_id": "CLM-2127",
+      "start": 5867.9,
+      "end": 5871.4,
+      "quoted_text": "Again, 250% of a rise in baseline,"
+    },
+    {
+      "entity_id": "CLM-2128",
+      "start": 5871.4,
+      "end": 5873.9,
+      "quoted_text": "two and a half times rise in baseline rivals"
+    },
+    {
+      "entity_id": "CLM-2129",
+      "start": 5873.9,
+      "end": 5876.8,
+      "quoted_text": "that of cocaine which is really remarkable."
+    },
+    {
+      "entity_id": "EXM-062",
+      "start": 5876.8,
+      "end": 5879,
+      "quoted_text": "Now, I'd like to talk about the positive aspects"
+    },
+    {
+      "entity_id": "CLM-2130",
+      "start": 5879,
+      "end": 5880.5,
+      "quoted_text": "of rewards for our behavior,"
+    },
+    {
+      "entity_id": "CLM-2131",
+      "start": 5880.5,
+      "end": 5883.1,
+      "quoted_text": "and the negative aspects of rewards for our behavior."
+    },
+    {
+      "entity_id": "CLM-2132",
+      "start": 5883.1,
+      "end": 5886.1,
+      "quoted_text": "And from that, I will suggest a protocol"
+    },
+    {
+      "entity_id": "CLM-2133",
+      "start": 5886.1,
+      "end": 5889.2,
+      "quoted_text": "by which you can achieve a better relationship"
+    },
+    {
+      "entity_id": "CLM-2134",
+      "start": 5889.2,
+      "end": 5892.1,
+      "quoted_text": "to your activities and to your dopamine system."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: no pharmacology whatsoever.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5861s-5862s]: \"no pharmacology whatsoever.\"\n  - [5862s-5866s]: \"Please again, approach it with a safety and caution in mind,\"\n  - [5866s-5867s]: \"but it is a very potent stimulus.\"\n  - [5867s-5871s]: \"Again, 250% of a rise in baseline,\"\n  - [5871s-5873s]: \"two and a half times rise in baseline rivals\"\n  - [5873s-5876s]: \"that of cocaine which is really remarkable.\"\n  - [5876s-5879s]: \"Now, I'd like to talk about the positive aspects\"\n  - [5879s-5880s]: \"of rewards for our behavior,\"\n  - [5880s-5883s]: \"and the negative aspects of rewards for our behavior.\"\n  - [5883s-5886s]: \"And from that, I will suggest a protocol\"\n  - [5886s-5889s]: \"by which you can achieve a better relationship\"\n  - [5889s-5892s]: \"to your activities and to your dopamine system.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: no pharmacology whatsoever.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5861s-5862s]: \"no pharmacology whatsoever.\"\n+  - [5862s-5866s]: \"Please again, approach it with a safety and caution in mind,\"\n+  - [5866s-5867s]: \"but it is a very potent stimulus.\"\n+  - [5867s-5871s]: \"Again, 250% of a rise in baseline,\"\n+  - [5871s-5873s]: \"two and a half times rise in baseline rivals\"\n+  - [5873s-5876s]: \"that of cocaine which is really remarkable.\"\n+  - [5876s-5879s]: \"Now, I'd like to talk about the positive aspects\"\n+  - [5879s-5880s]: \"of rewards for our behavior,\"\n+  - [5880s-5883s]: \"and the negative aspects of rewards for our behavior.\"\n+  - [5883s-5886s]: \"And from that, I will suggest a protocol\"\n+  - [5886s-5889s]: \"by which you can achieve a better relationship\"\n+  - [5889s-5892s]: \"to your activities and to your dopamine system.\"\n"
+  }
+}

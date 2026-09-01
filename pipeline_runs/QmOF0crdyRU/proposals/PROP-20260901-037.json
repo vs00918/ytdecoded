@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-037",
+  "created_at": "2026-09-01T15:11:31.264Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-045",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "EXM-018",
+      "start": 1391,
+      "end": 1392.5,
+      "quoted_text": "There are other things like chloride and potassium."
+    },
+    {
+      "entity_id": "CLM-512",
+      "start": 1392.5,
+      "end": 1393.7,
+      "quoted_text": "If you're interested in looking this up,"
+    },
+    {
+      "entity_id": "CLM-513",
+      "start": 1393.7,
+      "end": 1397.2,
+      "quoted_text": "just look up ionic conductances in the action potential,"
+    },
+    {
+      "entity_id": "CLM-514",
+      "start": 1397.2,
+      "end": 1398.7,
+      "quoted_text": "or I could do a post on it some time"
+    },
+    {
+      "entity_id": "CLM-515",
+      "start": 1398.7,
+      "end": 1400.6,
+      "quoted_text": "and we could go into detail."
+    },
+    {
+      "entity_id": "CLM-516",
+      "start": 1400.6,
+      "end": 1402,
+      "quoted_text": "But just understand that when neurons"
+    },
+    {
+      "entity_id": "CLM-517",
+      "start": 1402,
+      "end": 1403.4,
+      "quoted_text": "want to influence each other,"
+    },
+    {
+      "entity_id": "CLM-518",
+      "start": 1403.4,
+      "end": 1406.6,
+      "quoted_text": "they can do it by way of this fast ionotropic conduction."
+    },
+    {
+      "entity_id": "CLM-519",
+      "start": 1406.6,
+      "end": 1409.6,
+      "quoted_text": "This is a really quick way for one neuron"
+    },
+    {
+      "entity_id": "CLM-520",
+      "start": 1409.6,
+      "end": 1412,
+      "quoted_text": "to influence the next."
+    },
+    {
+      "entity_id": "CLM-521",
+      "start": 1412,
+      "end": 1414.3,
+      "quoted_text": "Dopamine doesn't communicate that way."
+    },
+    {
+      "entity_id": "CLM-522",
+      "start": 1415.8,
+      "end": 1417.6,
+      "quoted_text": "It works through what are called G protein-coupled"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: If you're interested in looking this up,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1391s-1392s]: \"There are other things like chloride and potassium.\"\n  - [1392s-1393s]: \"If you're interested in looking this up,\"\n  - [1393s-1397s]: \"just look up ionic conductances in the action potential,\"\n  - [1397s-1398s]: \"or I could do a post on it some time\"\n  - [1398s-1400s]: \"and we could go into detail.\"\n  - [1400s-1402s]: \"But just understand that when neurons\"\n  - [1402s-1403s]: \"want to influence each other,\"\n  - [1403s-1406s]: \"they can do it by way of this fast ionotropic conduction.\"\n  - [1406s-1409s]: \"This is a really quick way for one neuron\"\n  - [1409s-1412s]: \"to influence the next.\"\n  - [1412s-1414s]: \"Dopamine doesn't communicate that way.\"\n  - [1415s-1417s]: \"It works through what are called G protein-coupled\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: If you're interested in looking this up,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1391s-1392s]: \"There are other things like chloride and potassium.\"\n+  - [1392s-1393s]: \"If you're interested in looking this up,\"\n+  - [1393s-1397s]: \"just look up ionic conductances in the action potential,\"\n+  - [1397s-1398s]: \"or I could do a post on it some time\"\n+  - [1398s-1400s]: \"and we could go into detail.\"\n+  - [1400s-1402s]: \"But just understand that when neurons\"\n+  - [1402s-1403s]: \"want to influence each other,\"\n+  - [1403s-1406s]: \"they can do it by way of this fast ionotropic conduction.\"\n+  - [1406s-1409s]: \"This is a really quick way for one neuron\"\n+  - [1409s-1412s]: \"to influence the next.\"\n+  - [1412s-1414s]: \"Dopamine doesn't communicate that way.\"\n+  - [1415s-1417s]: \"It works through what are called G protein-coupled\"\n"
+  }
+}

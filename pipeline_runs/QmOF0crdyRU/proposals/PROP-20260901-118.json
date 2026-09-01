@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-118",
+  "created_at": "2026-09-01T15:11:31.288Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-151",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1748",
+      "start": 4808.7,
+      "end": 4811.8,
+      "quoted_text": "because it does upregulate these D2, D3 receptors."
+    },
+    {
+      "entity_id": "CLM-1749",
+      "start": 4811.8,
+      "end": 4813.9,
+      "quoted_text": "So it actually makes whatever dopamine"
+    },
+    {
+      "entity_id": "CLM-1750",
+      "start": 4813.9,
+      "end": 4816.2,
+      "quoted_text": "is released by that activity,"
+    },
+    {
+      "entity_id": "CLM-1751",
+      "start": 4816.2,
+      "end": 4819.9,
+      "quoted_text": "more accessible or more functional within the biochemistry"
+    },
+    {
+      "entity_id": "CLM-1752",
+      "start": 4819.9,
+      "end": 4822,
+      "quoted_text": "and the pathways of your brain and body."
+    },
+    {
+      "entity_id": "CLM-1753",
+      "start": 4823.5,
+      "end": 4825.9,
+      "quoted_text": "However, a number of energy drinks"
+    },
+    {
+      "entity_id": "CLM-1754",
+      "start": 4825.9,
+      "end": 4828.4,
+      "quoted_text": "and particular pre-workouts contain things"
+    },
+    {
+      "entity_id": "CLM-1755",
+      "start": 4828.4,
+      "end": 4830.4,
+      "quoted_text": "that are precursors to dopamine,"
+    },
+    {
+      "entity_id": "CLM-1756",
+      "start": 4830.4,
+      "end": 4833.8,
+      "quoted_text": "and on their own, even if you didn't engage in the activity"
+    },
+    {
+      "entity_id": "CLM-1757",
+      "start": 4833.8,
+      "end": 4836.8,
+      "quoted_text": "would cause the release of dopamine to a substantial degree."
+    },
+    {
+      "entity_id": "CLM-1758",
+      "start": 4836.8,
+      "end": 4838.5,
+      "quoted_text": "They do cause the release of dopamine"
+    },
+    {
+      "entity_id": "CLM-1759",
+      "start": 4838.5,
+      "end": 4840.1,
+      "quoted_text": "to a substantial degree."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: because it does upregulate these D2, D3 receptors.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4808s-4811s]: \"because it does upregulate these D2, D3 receptors.\"\n  - [4811s-4813s]: \"So it actually makes whatever dopamine\"\n  - [4813s-4816s]: \"is released by that activity,\"\n  - [4816s-4819s]: \"more accessible or more functional within the biochemistry\"\n  - [4819s-4822s]: \"and the pathways of your brain and body.\"\n  - [4823s-4825s]: \"However, a number of energy drinks\"\n  - [4825s-4828s]: \"and particular pre-workouts contain things\"\n  - [4828s-4830s]: \"that are precursors to dopamine,\"\n  - [4830s-4833s]: \"and on their own, even if you didn't engage in the activity\"\n  - [4833s-4836s]: \"would cause the release of dopamine to a substantial degree.\"\n  - [4836s-4838s]: \"They do cause the release of dopamine\"\n  - [4838s-4840s]: \"to a substantial degree.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: because it does upregulate these D2, D3 receptors.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4808s-4811s]: \"because it does upregulate these D2, D3 receptors.\"\n+  - [4811s-4813s]: \"So it actually makes whatever dopamine\"\n+  - [4813s-4816s]: \"is released by that activity,\"\n+  - [4816s-4819s]: \"more accessible or more functional within the biochemistry\"\n+  - [4819s-4822s]: \"and the pathways of your brain and body.\"\n+  - [4823s-4825s]: \"However, a number of energy drinks\"\n+  - [4825s-4828s]: \"and particular pre-workouts contain things\"\n+  - [4828s-4830s]: \"that are precursors to dopamine,\"\n+  - [4830s-4833s]: \"and on their own, even if you didn't engage in the activity\"\n+  - [4833s-4836s]: \"would cause the release of dopamine to a substantial degree.\"\n+  - [4836s-4838s]: \"They do cause the release of dopamine\"\n+  - [4838s-4840s]: \"to a substantial degree.\"\n"
+  }
+}

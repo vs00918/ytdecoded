@@ -1,0 +1,1266 @@
+[
+  {
+    "segment_id": "seg-0009",
+    "start": 16.11,
+    "end": 19.65,
+    "original_text": "System two is the conscious\nslow effortful system.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0012",
+    "start": 23.82,
+    "end": 26.46,
+    "original_text": "To explore how these systems\nwork in his own head,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0013",
+    "start": 26.46,
+    "end": 29.76,
+    "original_text": "Grant decided to memorize\na hundred digits of pi.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0017",
+    "start": 36.48,
+    "end": 38.95,
+    "original_text": "in preparation to challenge\nthe north American record",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0022",
+    "start": 47.97,
+    "end": 51.66,
+    "original_text": "I have wanted to make a video\nabout experts for a long time.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0026",
+    "start": 62.07,
+    "end": 65.46,
+    "original_text": "and asked to identify the\ngame in which they occurred.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0027",
+    "start": 65.46,
+    "end": 70.32,
+    "original_text": "- This looks an awful\nlot like Tal V Botvinnik.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0030",
+    "start": 76.08,
+    "end": 78.53,
+    "original_text": "- Okay. This is the 24th\ngame from Sevilla obviously.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0032",
+    "start": 79.38,
+    "end": 82.14,
+    "original_text": "- Now I'm going to play\nthrough an opening.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0034",
+    "start": 85.05,
+    "end": 88.44,
+    "original_text": "And if you can tell me who\nwas playing black in this one.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0046",
+    "start": 106.74,
+    "end": 109.15,
+    "original_text": "what makes experts like\nchess masters special.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0048",
+    "start": 111.96,
+    "end": 114.3,
+    "original_text": "much better spatial\nreasoning than average,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0051",
+    "start": 118.56,
+    "end": 122.64,
+    "original_text": "chess masters are not exceptional\non any of these measures.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0053",
+    "start": 124.38,
+    "end": 128.1,
+    "original_text": "how their performance was\nvastly superior to amateurs.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0058",
+    "start": 138.03,
+    "end": 140.43,
+    "original_text": "A chess board was set\nup with around 25 pieces",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0069",
+    "start": 158.13,
+    "end": 161.37,
+    "original_text": "the master could recall\nthe positions of 16 pieces.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0072",
+    "start": 165.12,
+    "end": 168,
+    "original_text": "The master only needed\nhalf the number of peeks",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0073",
+    "start": 168,
+    "end": 170.73,
+    "original_text": "as the A player to get\ntheir board perfect.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0074",
+    "start": 170.73,
+    "end": 172.62,
+    "original_text": "But then the researchers\narranged the board",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0081",
+    "start": 184.02,
+    "end": 186.81,
+    "original_text": "could remember the location\nof only three pieces.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0083",
+    "start": 188.22,
+    "end": 190.98,
+    "original_text": "Chess experts don't have\nbetter memory in general,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0085",
+    "start": 192.87,
+    "end": 195.96,
+    "original_text": "for chess positions that\ncould occur in a real game.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0086",
+    "start": 195.96,
+    "end": 198.72,
+    "original_text": "The implication is what makes\nthe chess master special,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0087",
+    "start": 198.72,
+    "end": 202.11,
+    "original_text": "is that they have seen lots\nand lots of chess games.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0092",
+    "start": 208.17,
+    "end": 212.16,
+    "original_text": "they see a smaller number of\nrecognizable configurations.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0095",
+    "start": 216,
+    "end": 220.05,
+    "original_text": "allows us to recognize complex\nstimuli as just one thing.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0097",
+    "start": 222.66,
+    "end": 225,
+    "original_text": "rather than a string of\nsix unrelated numbers",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0099",
+    "start": 227.79,
+    "end": 229.98,
+    "original_text": "- There's a wonderful\nsequence I like a lot",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0101",
+    "start": 232.83,
+    "end": 237.72,
+    "original_text": "Which to me, means Stephen\nCurry number 30, won 73 games,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0104",
+    "start": 241.68,
+    "end": 245.46,
+    "original_text": "- At its core, expertise\nis about recognition.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0107",
+    "start": 250.65,
+    "end": 253.95,
+    "original_text": "And recognition leads\ndirectly to intuition.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0115",
+    "start": 272.31,
+    "end": 274.71,
+    "original_text": "- To develop the long\nterm memory of an expert",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0119",
+    "start": 280.56,
+    "end": 284.94,
+    "original_text": "but 10,000 hours of practice\nby itself is not sufficient.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0120",
+    "start": 284.94,
+    "end": 288.57,
+    "original_text": "There are four additional\ncriteria that must be met.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0121",
+    "start": 288.57,
+    "end": 291.39,
+    "original_text": "And in areas where these\ncriteria aren't met,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0123",
+    "start": 294.42,
+    "end": 298.08,
+    "original_text": "So the first one is many\nrepeated attempts with feedback.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0124",
+    "start": 298.08,
+    "end": 301.41,
+    "original_text": "Tennis players hit hundreds\nof fore hands in practice.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0127",
+    "start": 304.92,
+    "end": 308.58,
+    "original_text": "and physicists solve\nthousands of physics problems.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0130",
+    "start": 311.37,
+    "end": 314.04,
+    "original_text": "whether each shot clears\nthe net and is in or out.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0131",
+    "start": 314.04,
+    "end": 316.77,
+    "original_text": "The chess player either\nwins or loses the game.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0132",
+    "start": 316.77,
+    "end": 319.98,
+    "original_text": "And the physicist gets the\nproblem right or wrong.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0133",
+    "start": 319.98,
+    "end": 322.68,
+    "original_text": "But some professionals don't\nget repeated experience",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0135",
+    "start": 324.6,
+    "end": 328.02,
+    "original_text": "Political scientist, Philip\nTetlock picked 284 people",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0136",
+    "start": 328.02,
+    "end": 330.75,
+    "original_text": "who make their living\ncommenting or offering advice",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0144",
+    "start": 342.81,
+    "end": 345.69,
+    "original_text": "Would apartheid in South\nAfrica end peacefully?",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0147",
+    "start": 350.73,
+    "end": 353.1,
+    "original_text": "In each case, the pundits\nrated the probability",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0153",
+    "start": 364.41,
+    "end": 367.29,
+    "original_text": "These experts, most of whom\nhad post graduate degrees,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0155",
+    "start": 369.36,
+    "end": 372.48,
+    "original_text": "assigned equal probabilities\nto all the outcomes.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0158",
+    "start": 374.49,
+    "end": 377.01,
+    "original_text": "and earned their living\nstudying a particular topic,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0159",
+    "start": 377.01,
+    "end": 380.13,
+    "original_text": "produce poorer predictions\nthan random chance.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0161",
+    "start": 381.96,
+    "end": 385.26,
+    "original_text": "experts were not significantly\nbetter than non-specialists.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0163",
+    "start": 386.16,
+    "end": 388.98,
+    "original_text": "most of the events they have\nto predict are one-offs.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0167",
+    "start": 393.93,
+    "end": 396.57,
+    "original_text": "Even presidential elections\nonly happen infrequently,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0168",
+    "start": 396.57,
+    "end": 399.33,
+    "original_text": "and each one in a slightly\ndifferent environment.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0170",
+    "start": 401.85,
+    "end": 404.91,
+    "original_text": "who don't have repeated\nexperience with feedback.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0172",
+    "start": 406.32,
+    "end": 409.17,
+    "original_text": "The next requirement\nis a valid environment.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0174",
+    "start": 410.65,
+    "end": 413.53,
+    "original_text": "that make it at least\nsomewhat predictable.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0175",
+    "start": 413.52,
+    "end": 415.86,
+    "original_text": "A gambler betting at the\nroulette wheel for example,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0181",
+    "start": 423.27,
+    "end": 425.94,
+    "original_text": "but you would rightfully\nnot consider them an expert",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0184",
+    "start": 430.74,
+    "end": 433.08,
+    "original_text": "so there are no\nregularities to be learned.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0188",
+    "start": 440.13,
+    "end": 442.44,
+    "original_text": "that would outperform Wall\nStreet's best hedge funds",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0191",
+    "start": 445.38,
+    "end": 447.3,
+    "original_text": "that are actively managed\nby some of the brightest",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0192",
+    "start": 447.3,
+    "end": 449.91,
+    "original_text": "and most experienced\ntraders on Wall Street.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0193",
+    "start": 449.91,
+    "end": 452.19,
+    "original_text": "They use advanced techniques\nlike short selling,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0196",
+    "start": 456.06,
+    "end": 459.15,
+    "original_text": "And consequently, they\ncharge significant fees.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0199",
+    "start": 463.89,
+    "end": 466.65,
+    "original_text": "For his investment, he\nselected five hedge funds.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0201",
+    "start": 469.62,
+    "end": 473.51,
+    "original_text": "So in total, a collection of\nover 200 individual funds.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0202",
+    "start": 473.51,
+    "end": 476.43,
+    "original_text": "Warren Buffet took a\nvery different approach.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0209",
+    "start": 489.78,
+    "end": 492.96,
+    "original_text": "and immediately things did\nnot look good for Buffet.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0210",
+    "start": 492.96,
+    "end": 495.15,
+    "original_text": "It was the start of the\nglobal financial crisis,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0212",
+    "start": 496.65,
+    "end": 499.41,
+    "original_text": "But the hedge funds could\nchange their holdings",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0222",
+    "start": 517.23,
+    "end": 521.61,
+    "original_text": "After 10 years, Buffet's\nindex fund gained 125.8%",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0227",
+    "start": 529.56,
+    "end": 532.8,
+    "original_text": "it nearly matches the stock\nmarket's long run average.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0228",
+    "start": 532.8,
+    "end": 534.87,
+    "original_text": "So why did so many\ninvestment professionals",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0233",
+    "start": 542.04,
+    "end": 544.86,
+    "original_text": "Well because stocks are a\nlow validity environment.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0235",
+    "start": 545.73,
+    "end": 548.52,
+    "original_text": "stock price movements are\nalmost entirely random.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0236",
+    "start": 548.52,
+    "end": 550.77,
+    "original_text": "So the feedback, although\nclear and immediate",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0239",
+    "start": 555.27,
+    "end": 559.32,
+    "original_text": "It's closer to a roulette\nwheel than to Chess.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0241",
+    "start": 560.46,
+    "end": 564.06,
+    "original_text": "around 80% of all actively\nmanaged investment funds",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0246",
+    "start": 571.52,
+    "end": 574.77,
+    "original_text": "\"Well that means 10% of\nmanagers have actual skill,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0249",
+    "start": 578.49,
+    "end": 581.01,
+    "original_text": "Portfolios picked by\ncats or throwing darts",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0253",
+    "start": 585.75,
+    "end": 588.6,
+    "original_text": "from insider trading to\npump and dump schemes.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0254",
+    "start": 588.6,
+    "end": 591.11,
+    "original_text": "Now I don't mean to say there\nare no expert investors.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0259",
+    "start": 600.33,
+    "end": 603.36,
+    "original_text": "because of the low validity\nof their environment.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0262",
+    "start": 606.12,
+    "end": 609.18,
+    "original_text": "will usually yield worse\nresults over the long term,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0263",
+    "start": 609.18,
+    "end": 611.49,
+    "original_text": "and that what active\nmanagers charge in fees",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0264",
+    "start": 611.49,
+    "end": 614.17,
+    "original_text": "is rarely compensated for\nin improved performance,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0269",
+    "start": 622.53,
+    "end": 625.35,
+    "original_text": "There was an experiment carried\nout with rats and humans,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0270",
+    "start": 625.35,
+    "end": 627.21,
+    "original_text": "where there's a red\nbutton and a green button",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0272",
+    "start": 629.19,
+    "end": 631.47,
+    "original_text": "80% of the time, the\ngreen button lights up.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0273",
+    "start": 631.47,
+    "end": 634.14,
+    "original_text": "And 20% of the time the\nred button lights up,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0275",
+    "start": 635.43,
+    "end": 638.79,
+    "original_text": "So you can never be sure\nwhich button will light.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0278",
+    "start": 641.31,
+    "end": 643.62,
+    "original_text": "is to guess beforehand\nwhich button will light up",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0281",
+    "start": 645.59,
+    "end": 647.13,
+    "original_text": "if they guess right,\nthey get a bit of food.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0282",
+    "start": 647.13,
+    "end": 649.6,
+    "original_text": "And if they guess wrong,\na mild electric shock.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0283",
+    "start": 649.6,
+    "end": 652.92,
+    "original_text": "The rat quickly learns to\npress only the green button",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0288",
+    "start": 660,
+    "end": 662.55,
+    "original_text": "they try to predict when\nthe red light will go on.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0289",
+    "start": 662.55,
+    "end": 666.36,
+    "original_text": "And as a result, they guess\nright only 68% of the time.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0290",
+    "start": 666.36,
+    "end": 668.61,
+    "original_text": "We have a hard time\naccepting average results.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0291",
+    "start": 668.61,
+    "end": 671.85,
+    "original_text": "And we see patterns everywhere,\nincluding in randomness.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0292",
+    "start": 671.85,
+    "end": 675.03,
+    "original_text": "So we try to beat the average\nby predicting the pattern.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0293",
+    "start": 675.03,
+    "end": 678.9,
+    "original_text": "But when there is no pattern,\nthis is a terrible strategy.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0295",
+    "start": 680.52,
+    "end": 683.31,
+    "original_text": "you need timely feedback\nin order to learn them.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0304",
+    "start": 696.57,
+    "end": 699.51,
+    "original_text": "but you have no idea how\npowerful a reward this is",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0306",
+    "start": 700.71,
+    "end": 704.25,
+    "original_text": "is spent chasing this\nsupercharged dopamine hit.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0310",
+    "start": 709.68,
+    "end": 713.31,
+    "original_text": "the experiences of\nanesthesiologists and radiologists.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0311",
+    "start": 713.31,
+    "end": 715.71,
+    "original_text": "Anesthesiologists work\nalongside the patient",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0313",
+    "start": 717.3,
+    "end": 720.39,
+    "original_text": "Is the patient unconscious\nwith stable vital signs?",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0318",
+    "start": 726.66,
+    "end": 728.91,
+    "original_text": "don't get rapid feedback\non their diagnoses",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0320",
+    "start": 730.04,
+    "end": 732.87,
+    "original_text": "This makes it much harder\nfor them to improve.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0322",
+    "start": 735.21,
+    "end": 738.96,
+    "original_text": "breast cancer from x-rays\njust 70% of the time.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0323",
+    "start": 738.96,
+    "end": 741.27,
+    "original_text": "Delayed feedback also\nseems to be a problem",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0324",
+    "start": 741.27,
+    "end": 744.54,
+    "original_text": "for college admissions officers\nand recruitment specialists.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0327",
+    "start": 747.81,
+    "end": 751.14,
+    "original_text": "you may never, or only much\nlater find out how they did.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0328",
+    "start": 751.14,
+    "end": 753.36,
+    "original_text": "This makes it harder to\nrecognize the patterns",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0337",
+    "start": 765.3,
+    "end": 767.43,
+    "original_text": "They also had access\nto high school grades,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0340",
+    "start": 771.27,
+    "end": 774.06,
+    "original_text": "For comparison, Melton\ncreated an algorithm",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0343",
+    "start": 777.3,
+    "end": 779.94,
+    "original_text": "Just high school grades\nand one aptitude test.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0344",
+    "start": 779.94,
+    "end": 782.7,
+    "original_text": "Nevertheless, the\nformula was more accurate",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0354",
+    "start": 799.71,
+    "end": 802.2,
+    "original_text": "it feels like an expert has\nconsidered your potential",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0355",
+    "start": 802.2,
+    "end": 804.93,
+    "original_text": "and decided that you don't\nhave what it takes to succeed.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0362",
+    "start": 816.87,
+    "end": 819.03,
+    "original_text": "and you get repeated experience\nwith the same events,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0363",
+    "start": 819.03,
+    "end": 821.7,
+    "original_text": "with clear, timely\nfeedback from each attempt,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0369",
+    "start": 831.63,
+    "end": 834.66,
+    "original_text": "we can become competent in a\nfairly short period of time.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0373",
+    "start": 839.73,
+    "end": 842.61,
+    "original_text": "Bu after 50 hours or so\nit becomes automatic.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0375",
+    "start": 843.57,
+    "end": 845.94,
+    "original_text": "and you can do it without\nmuch conscious thought.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0379",
+    "start": 851.22,
+    "end": 853.44,
+    "original_text": "you would have to try driving\nin challenging situations",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0380",
+    "start": 853.44,
+    "end": 857.07,
+    "original_text": "like new terrain, higher\nspeeds, or in difficult weather.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0382",
+    "start": 858.85,
+    "end": 862.41,
+    "original_text": "but I'm not an expert because\nI usually play the same songs.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0385",
+    "start": 865.23,
+    "end": 867.75,
+    "original_text": "you have to be practicing\nat the edge of your ability,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0390",
+    "start": 875.22,
+    "end": 878.94,
+    "original_text": "- You can practice\neverything exactly as it is",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0399",
+    "start": 892.26,
+    "end": 894.6,
+    "original_text": "professionals don't engage\nin deliberate practice,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0404",
+    "start": 901.65,
+    "end": 904.32,
+    "original_text": "would you rather the\ndoctor is a recent graduate",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0408",
+    "start": 909.18,
+    "end": 911.01,
+    "original_text": "increase with their\ntime in medical school,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0413",
+    "start": 917.73,
+    "end": 920.7,
+    "original_text": "When it comes to rare diseases\nof the heart or lungs,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0414",
+    "start": 920.7,
+    "end": 923.31,
+    "original_text": "doctors with 20 years\nexperience were actually worse",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0416",
+    "start": 925.29,
+    "end": 926.97,
+    "original_text": "And that's because they\nhaven't thought about",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0418",
+    "start": 928.8,
+    "end": 931.32,
+    "original_text": "So they're less able to\nrecognize the symptoms.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0420",
+    "start": 933.06,
+    "end": 936.36,
+    "original_text": "could doctors accurately\ndiagnose these diseases.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0423",
+    "start": 940.11,
+    "end": 942.69,
+    "original_text": "is not the number of games\nor tournaments played,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0428",
+    "start": 949.92,
+    "end": 952.17,
+    "original_text": "studying their own games\nand those of others.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0435",
+    "start": 962.13,
+    "end": 965.22,
+    "original_text": "And this is why coaches and\nteachers are so valuable.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0439",
+    "start": 970.53,
+    "end": 972.63,
+    "original_text": "you have to practice\nfor thousands of hours",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0441",
+    "start": 974.04,
+    "end": 977.28,
+    "original_text": "attempting the things\nyou can't do quite yet.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0445",
+    "start": 985.23,
+    "end": 987.54,
+    "original_text": "And recognition comes\nfrom the incredible amount",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0448",
+    "start": 990.81,
+    "end": 993.42,
+    "original_text": "To build that memory,\nrequires four things:",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0449",
+    "start": 993.42,
+    "end": 997.11,
+    "original_text": "a valid environment, many\nrepetitions, timely feedback,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0450",
+    "start": 997.11,
+    "end": 1000.14,
+    "original_text": "and thousands of hours\nof deliberate practice.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0458",
+    "start": 1016.31,
+    "end": 1018.62,
+    "original_text": "you have to actively\ninteract with problems.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0460",
+    "start": 1020.42,
+    "end": 1021.83,
+    "original_text": "the sponsor of this video.",
+    "action": "REMOVED",
+    "reason": "Promotional sponsor read / call to action"
+  },
+  {
+    "segment_id": "seg-0465",
+    "start": 1028.18,
+    "end": 1031.49,
+    "original_text": "how your own strategy can be\nreplicated in a neural network.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0468",
+    "start": 1034.97,
+    "end": 1036.62,
+    "original_text": "You go from thinking\nyou understand something",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0470",
+    "start": 1038.09,
+    "end": 1040.28,
+    "original_text": "And if it feels difficult,\nthat's a good thing.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0471",
+    "start": 1040.28,
+    "end": 1043.22,
+    "original_text": "It means you're getting pushed\noutside your comfort zone.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0472",
+    "start": 1043.22,
+    "end": 1046.22,
+    "original_text": "This is how Brilliant\nfacilitates deliberate practice.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0475",
+    "start": 1049.52,
+    "end": 1052.13,
+    "original_text": "So don't fall into the trap\nof just getting comfortable",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0479",
+    "start": 1058.34,
+    "end": 1060.89,
+    "original_text": "That is the way to lifelong\nlearning and growth.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0488",
+    "start": 1074.09,
+    "end": 1076.43,
+    "original_text": "So I wanna thank Brilliant\nfor supporting Veritasium,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  }
+]

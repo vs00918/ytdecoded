@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-052",
+  "created_at": "2026-09-01T15:11:31.267Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-062",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-709",
+      "start": 1932.7,
+      "end": 1934.7,
+      "quoted_text": "this was mainly in the Central Valley in California,"
+    },
+    {
+      "entity_id": "CLM-710",
+      "start": 1934.7,
+      "end": 1936.9,
+      "quoted_text": "but elsewhere as well."
+    },
+    {
+      "entity_id": "CLM-711",
+      "start": 1936.9,
+      "end": 1940.2,
+      "quoted_text": "Somebody created MPTP,"
+    },
+    {
+      "entity_id": "CLM-712",
+      "start": 1940.2,
+      "end": 1943.9,
+      "quoted_text": "and what ended up happening was a large number"
+    },
+    {
+      "entity_id": "CLM-713",
+      "start": 1943.9,
+      "end": 1946.8,
+      "quoted_text": "of young people who were opioid addicts"
+    },
+    {
+      "entity_id": "CLM-714",
+      "start": 1946.8,
+      "end": 1950.3,
+      "quoted_text": "became completely boxed in paralyzed."
+    },
+    {
+      "entity_id": "CLM-715",
+      "start": 1950.3,
+      "end": 1952.8,
+      "quoted_text": "Couldn't speak, couldn't blink,"
+    },
+    {
+      "entity_id": "CLM-716",
+      "start": 1952.8,
+      "end": 1954.3,
+      "quoted_text": "couldn't do anything."
+    },
+    {
+      "entity_id": "CLM-717",
+      "start": 1954.3,
+      "end": 1955.8,
+      "quoted_text": "Couldn't function, couldn't move."
+    },
+    {
+      "entity_id": "CLM-718",
+      "start": 1955.8,
+      "end": 1960.8,
+      "quoted_text": "So both aspects of dopamine transmission were disrupted."
+    },
+    {
+      "entity_id": "CLM-719",
+      "start": 1961,
+      "end": 1963.3,
+      "quoted_text": "They had no motivation and drive."
+    },
+    {
+      "entity_id": "CLM-720",
+      "start": 1963.3,
+      "end": 1965.8,
+      "quoted_text": "They couldn't generate any movement of any kind."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: this was mainly in the Central Valley in California,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1932s-1934s]: \"this was mainly in the Central Valley in California,\"\n  - [1934s-1936s]: \"but elsewhere as well.\"\n  - [1936s-1940s]: \"Somebody created MPTP,\"\n  - [1940s-1943s]: \"and what ended up happening was a large number\"\n  - [1943s-1946s]: \"of young people who were opioid addicts\"\n  - [1946s-1950s]: \"became completely boxed in paralyzed.\"\n  - [1950s-1952s]: \"Couldn't speak, couldn't blink,\"\n  - [1952s-1954s]: \"couldn't do anything.\"\n  - [1954s-1955s]: \"Couldn't function, couldn't move.\"\n  - [1955s-1960s]: \"So both aspects of dopamine transmission were disrupted.\"\n  - [1961s-1963s]: \"They had no motivation and drive.\"\n  - [1963s-1965s]: \"They couldn't generate any movement of any kind.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: this was mainly in the Central Valley in California,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1932s-1934s]: \"this was mainly in the Central Valley in California,\"\n+  - [1934s-1936s]: \"but elsewhere as well.\"\n+  - [1936s-1940s]: \"Somebody created MPTP,\"\n+  - [1940s-1943s]: \"and what ended up happening was a large number\"\n+  - [1943s-1946s]: \"of young people who were opioid addicts\"\n+  - [1946s-1950s]: \"became completely boxed in paralyzed.\"\n+  - [1950s-1952s]: \"Couldn't speak, couldn't blink,\"\n+  - [1952s-1954s]: \"couldn't do anything.\"\n+  - [1954s-1955s]: \"Couldn't function, couldn't move.\"\n+  - [1955s-1960s]: \"So both aspects of dopamine transmission were disrupted.\"\n+  - [1961s-1963s]: \"They had no motivation and drive.\"\n+  - [1963s-1965s]: \"They couldn't generate any movement of any kind.\"\n"
+  }
+}

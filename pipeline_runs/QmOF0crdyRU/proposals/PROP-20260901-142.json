@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-142",
+  "created_at": "2026-09-01T15:11:31.295Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-187",
+  "target_topic_slug": "the-physics-of-outworking-and-first-principles",
+  "target_topic_title": "The Physics of Outworking — The Compounding Velocity of Effort & First-Principles Execution",
+  "target_content_hash_before": "f5f90407ca6cdf7c353337fdfc0bd38ddc67ade265df9b07f4e08707763fed36",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Substantive structural nuance, causal sequences, or tactical depth extending \"The Physics of Outworking — The Compounding Velocity of Effort & First-Principles Execution\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2169",
+      "start": 6010.7,
+      "end": 6013.3,
+      "quoted_text": "that these dopaminergic circuits work."
+    },
+    {
+      "entity_id": "CLM-2170",
+      "start": 6013.3,
+      "end": 6016.7,
+      "quoted_text": "And now understanding these peaks in baselines in dopamine"
+    },
+    {
+      "entity_id": "CLM-2171",
+      "start": 6016.7,
+      "end": 6018.7,
+      "quoted_text": "which I won't review again,"
+    },
+    {
+      "entity_id": "CLM-2172",
+      "start": 6018.7,
+      "end": 6020.3,
+      "quoted_text": "this should make sense."
+    },
+    {
+      "entity_id": "CLM-2173",
+      "start": 6020.3,
+      "end": 6024.3,
+      "quoted_text": "If you get a peak in dopamine from a reward,"
+    },
+    {
+      "entity_id": "CLM-2174",
+      "start": 6024.3,
+      "end": 6025.8,
+      "quoted_text": "it's going to lower your baseline"
+    },
+    {
+      "entity_id": "CLM-2175",
+      "start": 6025.8,
+      "end": 6029.1,
+      "quoted_text": "and the cognitive interpretation"
+    },
+    {
+      "entity_id": "CLM-2176",
+      "start": 6029.1,
+      "end": 6031.6,
+      "quoted_text": "is that you didn't really do the activity"
+    },
+    {
+      "entity_id": "CLM-2177",
+      "start": 6031.6,
+      "end": 6032.8,
+      "quoted_text": "because you enjoyed the activity."
+    },
+    {
+      "entity_id": "CLM-2178",
+      "start": 6032.8,
+      "end": 6034.4,
+      "quoted_text": "You did it for the reward."
+    },
+    {
+      "entity_id": "CLM-2179",
+      "start": 6034.4,
+      "end": 6037.4,
+      "quoted_text": "Now, this doesn't mean all rewards of all kinds are bad,"
+    },
+    {
+      "entity_id": "CLM-2180",
+      "start": 6037.4,
+      "end": 6039.8,
+      "quoted_text": "but it's also important to understand"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-physics-of-outworking-and-first-principles\"\ntitle: \"The Physics of Outworking — The Compounding Velocity of Effort & First-Principles Execution\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 25\narchetype: \"TACTICAL_FRAMEWORK\"\nreading_time_minutes: 5\nsummary_15s: \"Talent sets the floor; iteration velocity dictates the ceiling. Strip away the consensus dogma, boil every challenge down to its first principles, out-iterate the competition with relentless execution volume, and let the compounding mathematics of hard work do the rest.\"\ntags:\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\n  - \"wealth\"\nmental_models:\n  - \"The Architecture of the Rapid Feedback Loop\"\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nIn modern culture, the concept of hard work is often debated through polar extremes: either praised blindly as mindless hustle or dismissed as inefficient burnout.\n\nIn systems engineering and mathematical strategy, **relentless effort is an asymmetric multiplier of iteration velocity**. Talent, luck, and intelligence are valuable assets, but they are static initial conditions. The speed at which you test reality, absorb corrective feedback, and build physical prototypes is a direct mathematical function of your **focused weekly hours and iteration frequency**.\n\nWhen you combine **First-Principles Thinking** (reasoning from fundamental truths rather than analogy) with **Uncompromising Execution Volume**, you compress years of career and cognitive growth into months.\n\n---\n\n### The Mathematics of Iteration Velocity\n\n```mermaid\ngraph TD\n    subgraph Competitor A (Standard 40-Hour Week)\n        A1[40 Hours Focused Execution / Week] \n        --> A2[2,000 Hours / Year]\n        --> A3[50 Iteration Loops / Year]\n        --> A4[Baseline Linear Growth]\n    end\n\n    subgraph The Asymmetric Performer (80-Hour Focused Block)\n        B1[80 Hours Monastic Execution / Week]\n        --> B2[4,000 Hours / Year]\n        --> B3[100+ Iteration Loops / Year]\n        --> B4[2x Compound Velocity Every 365 Days]\n    end\n```\n\n* **The Compression Law**: If two entities start with identical capabilities, and Entity B executes twice as many focused hours as Entity A, Entity B accomplishes in **six months what takes Entity A an entire year**.\n* **Compounding Iterations**: Output is not merely additive. Every completed iteration produces proprietary diagnostic data that makes the next iteration smarter and faster. Over a 5-year window, a 2x work volume leads to a **10x divergence in real-world mastery and market leverage**.\n\n---\n\n### First-Principles Thinking vs. Reasoning by Analogy\n\nThe primary obstacle to extraordinary execution is **Reasoning by Analogy**: copying what everyone else is doing with slight cosmetic variations (*\"We should study/build this way because that is how it has always been done\"*).\n\n```mermaid\ngraph LR\n    subgraph Reasoning by Analogy (Low Leverage)\n        A1[Look at Peer Methods] --> A2[Copy Existing Flaws & Conventions] --> A3[Mediocre Incremental Result]\n    end\n\n    subgraph First-Principles Reasoning (Quantum Leverage)\n        F1[Boil Problem to Core Fundamental Truths] \n        --> F2[Strip Away Inherited Assumptions] \n        --> F3[Reason Upward from Physics / Core Mechanics] \n        --> F4[Breakthrough Architecture & Extreme Speed]\n    end\n```\n\n1. **Deconstruct to Bedrock Truths**: What are the absolute, undeniable constraints of the problem? (e.g., *“What does this exam actually test?”* or *“What is the raw material cost of this system?”*).\n2. **Eliminate Consensus Dogma**: Discard traditional advice that exists solely due to institutional inertia.\n3. **Build Upward from Zero**: Construct your study system, product, or workflow from pure logic and empirical testing.\n\n---\n\n### The Architecture of the Rapid Feedback Loop\n\nTrue \"outworking\" is not staring blankly at a screen until exhaustion; it is maximizing the frequency of **tight, closed feedback loops**.\n\n```mermaid\ngraph TD\n    S1[Step 1: Rapid Prototype / Attempt<br>Produce crude solution fast]\n    --> S2[Step 2: Stress-Test Against Cold Reality<br>Expose to timed mock / market / diagnostics]\n    --> S3[Step 3: Extract Diagnostic Error<br>Identify the exact point of breakdown]\n    --> S4[Step 4: Immediate 15-Degree Calibration<br>Rework core mechanism and launch next loop]\n    S4 --> S1\n```\n\n* **The Velocity Advantage**: The person who makes 100 imperfect attempts and corrects each error in real-time will always demolish the perfectionist who spends six months polishing a single untested plan.\n* **Embrace the Friction of Reality**: Seek out harsh, objective feedback early. A failed test score or broken prototype is the fastest way to download reality's source code.\n\n---\n\n### The Protocols for Sustainable Extreme Execution\n\n```mermaid\ngraph TD\n    P1[Protocol 1: Strip Secondary Overhead<br>Eliminate all non-essential lifestyle friction]\n    --> P2[Protocol 2: Monastic Energy Windows<br>Structure days into four 2-hour deep sprints]\n    --> P3[Protocol 3: The Cold Feedback Engine<br>Measure daily output strictly by completed iteration loops]\n```\n\n#### 1. Strip Secondary Overhead\n* High-volume execution requires ruthless lifestyle simplicity. Automate food choices, eliminate trivial social obligations, and remove decorative busywork so that 100% of cognitive RAM is reserved for core craft.\n\n#### 2. Monastic Energy Windows\n* Do not attempt to work 12 hours in a chaotic, unstructured blur. Segment your day into **four distinct 90-to-120 minute monastic deep-work blocks**, separated by physical walks, hydration, and short NSDR resets.\n\n#### 3. The Cold Feedback Metric\n* At the end of the day, do not measure hours spent sitting in a chair. Ask: **\"How many complete iteration loops did I close today? How much closer to bedrock truth is my understanding?\"**\n\n---\n\n### The Core Takeaway to Remember\n> Talent sets the floor; iteration velocity dictates the ceiling. Strip away the consensus dogma, boil every challenge down to its first principles, out-iterate the competition with relentless execution volume, and let the compounding mathematics of hard work do the rest.\n",
+  "proposed_diff": {
+    "section_name": "## Extended Mechanical Insights",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **Mechanic**: that these dopaminergic circuits work. *(Source: [QmOF0crdyRU](https://www.youtube.com/watch?v=QmOF0crdyRU))*",
+    "unified_diff": "--- a/src/content/topics/the-physics-of-outworking-and-first-principles.md\n+++ b/src/content/topics/the-physics-of-outworking-and-first-principles.md\n@@ -0,0 +1,2 @@\n+### Extended Mechanical Insight\n+- **Mechanic**: that these dopaminergic circuits work. *(Source: [QmOF0crdyRU](https://www.youtube.com/watch?v=QmOF0crdyRU))*\n"
+  }
+}

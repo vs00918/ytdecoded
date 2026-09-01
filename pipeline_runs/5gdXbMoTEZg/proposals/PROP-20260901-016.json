@@ -1,0 +1,30 @@
+{
+  "proposal_id": "PROP-20260901-016",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-pathology-of-comfort-and-progressive-friction",
+  "target_topic_title": "The Pathology of Comfort — Homeostasis, The Paradox of Safety & Progressive Friction",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending \"The Pathology of Comfort — Homeostasis, The Paradox of Safety & Progressive Friction\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-114",
+      "entity_type": "CLAIM",
+      "entity_text": "feeling uncomfortable. I felt safe.",
+      "start": 370.9,
+      "end": 378.3,
+      "quoted_text": "feeling uncomfortable. I felt safe."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Empirical Nuance & Boundary Conditions",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **CLM-114**: feeling uncomfortable. I felt safe. *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*",
+    "unified_diff": "--- a/src/content/topics/the-pathology-of-comfort-and-progressive-friction.md\n+++ b/src/content/topics/the-pathology-of-comfort-and-progressive-friction.md\n@@ -0,0 +1,4 @@\n+\n+### Extended Mechanical Insight\n+- **CLM-114**: feeling uncomfortable. I felt safe. *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+\n"
+  }
+}

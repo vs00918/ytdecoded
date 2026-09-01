@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-115",
+  "created_at": "2026-09-01T15:11:31.288Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-148",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1715",
+      "start": 4723,
+      "end": 4724.7,
+      "quoted_text": "that we are engaged in."
+    },
+    {
+      "entity_id": "CLM-1716",
+      "start": 4724.7,
+      "end": 4726.9,
+      "quoted_text": "So I know this is a hard one for many people,"
+    },
+    {
+      "entity_id": "CLM-1717",
+      "start": 4726.9,
+      "end": 4731.1,
+      "quoted_text": "but I do invite you to try removing multiple"
+    },
+    {
+      "entity_id": "CLM-1718",
+      "start": 4731.1,
+      "end": 4732.9,
+      "quoted_text": "sources of dopamine release"
+    },
+    {
+      "entity_id": "CLM-1719",
+      "start": 4732.9,
+      "end": 4736.1,
+      "quoted_text": "or what used to be multiple sources of dopamine release"
+    },
+    {
+      "entity_id": "CLM-1720",
+      "start": 4736.1,
+      "end": 4739,
+      "quoted_text": "from activities that you want to continue to enjoy,"
+    },
+    {
+      "entity_id": "CLM-1721",
+      "start": 4739,
+      "end": 4740.9,
+      "quoted_text": "or that you want to enjoy more."
+    },
+    {
+      "entity_id": "CLM-1722",
+      "start": 4740.9,
+      "end": 4743,
+      "quoted_text": "And now you understand the biological mechanisms"
+    },
+    {
+      "entity_id": "EXM-051",
+      "start": 4743,
+      "end": 4745.4,
+      "quoted_text": "that would underlie a statement like that."
+    },
+    {
+      "entity_id": "CLM-1723",
+      "start": 4745.4,
+      "end": 4747.9,
+      "quoted_text": "It takes a little bit of working with,"
+    },
+    {
+      "entity_id": "CLM-1724",
+      "start": 4747.9,
+      "end": 4750.4,
+      "quoted_text": "I know it can be challenging in the first week"
+    },
+    {
+      "entity_id": "CLM-1725",
+      "start": 4750.4,
+      "end": 4752.8,
+      "quoted_text": "or so of not engaging with the phone"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: that we are engaged in.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4723s-4724s]: \"that we are engaged in.\"\n  - [4724s-4726s]: \"So I know this is a hard one for many people,\"\n  - [4726s-4731s]: \"but I do invite you to try removing multiple\"\n  - [4731s-4732s]: \"sources of dopamine release\"\n  - [4732s-4736s]: \"or what used to be multiple sources of dopamine release\"\n  - [4736s-4739s]: \"from activities that you want to continue to enjoy,\"\n  - [4739s-4740s]: \"or that you want to enjoy more.\"\n  - [4740s-4743s]: \"And now you understand the biological mechanisms\"\n  - [4743s-4745s]: \"that would underlie a statement like that.\"\n  - [4745s-4747s]: \"It takes a little bit of working with,\"\n  - [4747s-4750s]: \"I know it can be challenging in the first week\"\n  - [4750s-4752s]: \"or so of not engaging with the phone\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: that we are engaged in.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4723s-4724s]: \"that we are engaged in.\"\n+  - [4724s-4726s]: \"So I know this is a hard one for many people,\"\n+  - [4726s-4731s]: \"but I do invite you to try removing multiple\"\n+  - [4731s-4732s]: \"sources of dopamine release\"\n+  - [4732s-4736s]: \"or what used to be multiple sources of dopamine release\"\n+  - [4736s-4739s]: \"from activities that you want to continue to enjoy,\"\n+  - [4739s-4740s]: \"or that you want to enjoy more.\"\n+  - [4740s-4743s]: \"And now you understand the biological mechanisms\"\n+  - [4743s-4745s]: \"that would underlie a statement like that.\"\n+  - [4745s-4747s]: \"It takes a little bit of working with,\"\n+  - [4747s-4750s]: \"I know it can be challenging in the first week\"\n+  - [4750s-4752s]: \"or so of not engaging with the phone\"\n"
+  }
+}

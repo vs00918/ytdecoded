@@ -1,0 +1,1539 @@
+{
+  "ir_version": "2.0.0-draft",
+  "video_id": "dGcsHMXbSOA",
+  "video_url": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
+  "title": "Science - Epistemic Philosophy",
+  "generated_at": "2026-09-01T10:11:27.117Z",
+  "metadata": {
+    "duration_seconds": 2592,
+    "word_count": 6887,
+    "high_density_segment_count": 21
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim_text": "Hey in this episode we are gonna start reaction videos a react videos what a great way to start now before we get started I just want to let you know that in this episode we're not",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 0.03,
+          "end": 25.35,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007",
+            "seg-0008",
+            "seg-0009",
+            "seg-0010"
+          ],
+          "quoted_text": "Hey in this episode we are gonna start reaction videos a react videos what a great way to start now before we get started I just want to let you know that in this episode we're not gonna take a look a"
+        }
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "claim_text": "like so because I don't want you to see all these different crazy projects going on here so I'm just gonna navigate to it like so and this already looks kind of crazy so I'm gonna",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 190.93,
+          "end": 221.11,
+          "segment_ids": [
+            "seg-0071",
+            "seg-0072",
+            "seg-0073",
+            "seg-0074",
+            "seg-0075",
+            "seg-0076",
+            "seg-0077",
+            "seg-0078",
+            "seg-0079",
+            "seg-0080"
+          ],
+          "quoted_text": "like so because I don't want you to see all these different crazy projects going on here so I'm just gonna navigate to it like so and this already looks kind of crazy so I'm gonna explain everything s"
+        }
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "claim_text": "react code so it's gonna open up obviously on the other screen so I have to drag it in here and it's gonna take a bit so let's just wait let's go back here so all we have is some b",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 455.05,
+          "end": 485.95,
+          "segment_ids": [
+            "seg-0171",
+            "seg-0172",
+            "seg-0173",
+            "seg-0174",
+            "seg-0175",
+            "seg-0176",
+            "seg-0177",
+            "seg-0178",
+            "seg-0179",
+            "seg-0180"
+          ],
+          "quoted_text": "react code so it's gonna open up obviously on the other screen so I have to drag it in here and it's gonna take a bit so let's just wait let's go back here so all we have is some basic styling in here"
+        }
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "claim_text": "in here in here and our app is okay because this is a component so I'm gonna delete everything and then it's all gonna make sense so we go back here everything is breaking but that",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 517.24,
+          "end": 551.95,
+          "segment_ids": [
+            "seg-0191",
+            "seg-0192",
+            "seg-0193",
+            "seg-0194",
+            "seg-0195",
+            "seg-0196",
+            "seg-0197",
+            "seg-0198",
+            "seg-0199",
+            "seg-0200"
+          ],
+          "quoted_text": "in here in here and our app is okay because this is a component so I'm gonna delete everything and then it's all gonna make sense so we go back here everything is breaking but that's fine so what we n"
+        }
+      ]
+    },
+    {
+      "id": "CLM-005",
+      "claim_text": "this function export it and it's gonna be rendered in here so now if we take a look here it's gonna say hello react so we've successfully rendered this function on the screen all r",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 763.02,
+          "end": 797.01,
+          "segment_ids": [
+            "seg-0271",
+            "seg-0272",
+            "seg-0273",
+            "seg-0274",
+            "seg-0275",
+            "seg-0276",
+            "seg-0277",
+            "seg-0278",
+            "seg-0279",
+            "seg-0280"
+          ],
+          "quoted_text": "this function export it and it's gonna be rendered in here so now if we take a look here it's gonna say hello react so we've successfully rendered this function on the screen all right but what's goin"
+        }
+      ]
+    },
+    {
+      "id": "CLM-006",
+      "claim_text": "but it's not HTML what react does is if we return some some code here so like a divin h1 this is automatically gonna be compiled into HTML so even though this looks like HTML it's",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 794.82,
+          "end": 826.98,
+          "segment_ids": [
+            "seg-0281",
+            "seg-0282",
+            "seg-0283",
+            "seg-0284",
+            "seg-0285",
+            "seg-0286",
+            "seg-0287",
+            "seg-0288",
+            "seg-0289",
+            "seg-0290"
+          ],
+          "quoted_text": "but it's not HTML what react does is if we return some some code here so like a divin h1 this is automatically gonna be compiled into HTML so even though this looks like HTML it's actually JavaScript "
+        }
+      ]
+    },
+    {
+      "id": "CLM-007",
+      "claim_text": "then you would get the button that says hello maybe so maybe you have a class of hello on it and then you would do hello dot the eventlistener on click you don't need to do these t",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 913.17,
+          "end": 943.19,
+          "segment_ids": [
+            "seg-0321",
+            "seg-0322",
+            "seg-0323",
+            "seg-0324",
+            "seg-0325",
+            "seg-0326",
+            "seg-0327",
+            "seg-0328",
+            "seg-0329",
+            "seg-0330"
+          ],
+          "quoted_text": "then you would get the button that says hello maybe so maybe you have a class of hello on it and then you would do hello dot the eventlistener on click you don't need to do these things anymore becaus"
+        }
+      ]
+    },
+    {
+      "id": "CLM-008",
+      "claim_text": "these curly braces and saying counter hit save and as you can see I still have 0 so that's what we can do here I'm gonna change this back to hello I'm gonna delete this counter and",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1001.36,
+          "end": 1035.44,
+          "segment_ids": [
+            "seg-0351",
+            "seg-0352",
+            "seg-0353",
+            "seg-0354",
+            "seg-0355",
+            "seg-0356",
+            "seg-0357",
+            "seg-0358",
+            "seg-0359",
+            "seg-0360"
+          ],
+          "quoted_text": "these curly braces and saying counter hit save and as you can see I still have 0 so that's what we can do here I'm gonna change this back to hello I'm gonna delete this counter and I can add an on cli"
+        }
+      ]
+    },
+    {
+      "id": "CLM-009",
+      "claim_text": "of this to you so I'm kind of kind of similar let's remove this import because we don't have that anymore I'm gonna say hello react here again hit save and what I'm gonna do is I'm",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1238.53,
+          "end": 1268.17,
+          "segment_ids": [
+            "seg-0431",
+            "seg-0432",
+            "seg-0433",
+            "seg-0434",
+            "seg-0435",
+            "seg-0436",
+            "seg-0437",
+            "seg-0438",
+            "seg-0439",
+            "seg-0440"
+          ],
+          "quoted_text": "of this to you so I'm kind of kind of similar let's remove this import because we don't have that anymore I'm gonna say hello react here again hit save and what I'm gonna do is I'm gonna add create a "
+        }
+      ]
+    },
+    {
+      "id": "CLM-010",
+      "claim_text": "dot slash tweet now all we have to do again is down here I'm gonna render this component hit save and we don't doesn't work because it says attempted import does not contain a defa",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1326.37,
+          "end": 1357.39,
+          "segment_ids": [
+            "seg-0461",
+            "seg-0462",
+            "seg-0463",
+            "seg-0464",
+            "seg-0465",
+            "seg-0466",
+            "seg-0467",
+            "seg-0468",
+            "seg-0469",
+            "seg-0470"
+          ],
+          "quoted_text": "dot slash tweet now all we have to do again is down here I'm gonna render this component hit save and we don't doesn't work because it says attempted import does not contain a default export so we hav"
+        }
+      ]
+    },
+    {
+      "id": "CLM-011",
+      "claim_text": "class name is because we are in JavaScript again you always have to remember that everything we do in here is essentially JavaScript and class means a constructor function structur",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1389.58,
+          "end": 1416.55,
+          "segment_ids": [
+            "seg-0481",
+            "seg-0482",
+            "seg-0483",
+            "seg-0484",
+            "seg-0485",
+            "seg-0486",
+            "seg-0487",
+            "seg-0488",
+            "seg-0489",
+            "seg-0490"
+          ],
+          "quoted_text": "class name is because we are in JavaScript again you always have to remember that everything we do in here is essentially JavaScript and class means a constructor function structure function in JavaSc"
+        }
+      ]
+    },
+    {
+      "id": "CLM-012",
+      "claim_text": "styles so if we take a look nothing happens because we need to import our styles as well so we can say import dot slash and we can say app dot CSS like so let's save and now as you",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1414.3,
+          "end": 1448.86,
+          "segment_ids": [
+            "seg-0491",
+            "seg-0492",
+            "seg-0493",
+            "seg-0494",
+            "seg-0495",
+            "seg-0496",
+            "seg-0497",
+            "seg-0498",
+            "seg-0499",
+            "seg-0500"
+          ],
+          "quoted_text": "styles so if we take a look nothing happens because we need to import our styles as well so we can say import dot slash and we can say app dot CSS like so let's save and now as you can see we have the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-013",
+      "claim_text": "just kind of put them like that that's ugly okay let's do it justify content space around alright there we go so something like that that looks a bit it still looks bad a line item",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1590.84,
+          "end": 1622.07,
+          "segment_ids": [
+            "seg-0551",
+            "seg-0552",
+            "seg-0553",
+            "seg-0554",
+            "seg-0555",
+            "seg-0556",
+            "seg-0557",
+            "seg-0558",
+            "seg-0559",
+            "seg-0560"
+          ],
+          "quoted_text": "just kind of put them like that that's ugly okay let's do it justify content space around alright there we go so something like that that looks a bit it still looks bad a line items in there all right"
+        }
+      ]
+    },
+    {
+      "id": "CLM-014",
+      "claim_text": "I want to add John Snow Game of Thrones is coming so we have to prepare winter is coming that's a name that's alleged name I'm not even joking delete this and let's also add mosh m",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1649.49,
+          "end": 1679.64,
+          "segment_ids": [
+            "seg-0571",
+            "seg-0572",
+            "seg-0573",
+            "seg-0574",
+            "seg-0575",
+            "seg-0576",
+            "seg-0577",
+            "seg-0578",
+            "seg-0579",
+            "seg-0580"
+          ],
+          "quoted_text": "I want to add John Snow Game of Thrones is coming so we have to prepare winter is coming that's a name that's alleged name I'm not even joking delete this and let's also add mosh mosh there we go hit "
+        }
+      ]
+    },
+    {
+      "id": "CLM-015",
+      "claim_text": "gonna create a count - we're gonna create a count and then we're gonna add a comma we're gonna say step count all right I'm gonna say set it equal to you state and we're gonna star",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 2037.28,
+          "end": 2062.48,
+          "segment_ids": [
+            "seg-0701",
+            "seg-0702",
+            "seg-0703",
+            "seg-0704",
+            "seg-0705",
+            "seg-0706",
+            "seg-0707",
+            "seg-0708",
+            "seg-0709",
+            "seg-0710"
+          ],
+          "quoted_text": "gonna create a count - we're gonna create a count and then we're gonna add a comma we're gonna say step count all right I'm gonna say set it equal to you state and we're gonna start the count from zer"
+        }
+      ]
+    },
+    {
+      "id": "CLM-016",
+      "claim_text": "well actually we are gonna have to have an array of objects because we want to have multiple objects so I'm gonna set in the array and here I'm gonna have a name of head and a mess",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 2418.09,
+          "end": 2457.1,
+          "segment_ids": [
+            "seg-0831",
+            "seg-0832",
+            "seg-0833",
+            "seg-0834",
+            "seg-0835",
+            "seg-0836",
+            "seg-0837",
+            "seg-0838",
+            "seg-0839",
+            "seg-0840"
+          ],
+          "quoted_text": "well actually we are gonna have to have an array of objects because we want to have multiple objects so I'm gonna set in the array and here I'm gonna have a name of head and a message of hello there t"
+        }
+      ]
+    },
+    {
+      "id": "CLM-017",
+      "claim_text": "as users here set users and then we would have users dot map and we would get each user in here I'm just gonna run an arrow function I'm not gonna add the curly braces here so I'm",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 2483.11,
+          "end": 2514.22,
+          "segment_ids": [
+            "seg-0851",
+            "seg-0852",
+            "seg-0853",
+            "seg-0854",
+            "seg-0855",
+            "seg-0856",
+            "seg-0857",
+            "seg-0858",
+            "seg-0859",
+            "seg-0860"
+          ],
+          "quoted_text": "as users here set users and then we would have users dot map and we would get each user in here I'm just gonna run an arrow function I'm not gonna add the curly braces here so I'm gonna leave it empty"
+        }
+      ]
+    },
+    {
+      "id": "CLM-018",
+      "claim_text": "we can add the message I believe it's set as message yeah we can get the message to be equal to user dot message and now everything just works magically look at that that's how we",
+      "epistemic_status": "SOURCE_DERIVED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 2539.78,
+          "end": 2570.26,
+          "segment_ids": [
+            "seg-0871",
+            "seg-0872",
+            "seg-0873",
+            "seg-0874",
+            "seg-0875",
+            "seg-0876",
+            "seg-0877",
+            "seg-0878",
+            "seg-0879",
+            "seg-0880"
+          ],
+          "quoted_text": "we can add the message I believe it's set as message yeah we can get the message to be equal to user dot message and now everything just works magically look at that that's how we can use the state to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-019",
+      "claim_text": "have a lot of things to cover such as fetching an eighth from an API use effect and router and state management ah there's so much more it's crazy but let me know if you want to se",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 2568.49,
+          "end": 2591.49,
+          "segment_ids": [
+            "seg-0881",
+            "seg-0882",
+            "seg-0883",
+            "seg-0884",
+            "seg-0885",
+            "seg-0886",
+            "seg-0887",
+            "seg-0888",
+            "seg-0889"
+          ],
+          "quoted_text": "have a lot of things to cover such as fetching an eighth from an API use effect and router and state management ah there's so much more it's crazy but let me know if you want to see more leave it down"
+        }
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "CPT-001",
+      "name": "that everything we do in here",
+      "definition": "JavaScript and class means a constructor function structure function in JavaScript so that's not gonna work okay so we need to make sure we do class name but something that react came up with two to let us know that this is how we can add different",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "source_spans": [
+        {
+          "start": 1389.58,
+          "end": 1416.55,
+          "segment_ids": [
+            "seg-0481",
+            "seg-0482",
+            "seg-0483",
+            "seg-0484",
+            "seg-0485",
+            "seg-0486",
+            "seg-0487",
+            "seg-0488",
+            "seg-0489",
+            "seg-0490"
+          ],
+          "quoted_text": "class name is because we are in JavaScript again you always have to remember that everything we do in here is essentially JavaScript and class means a constructor function structure function in JavaSc"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "MEC-001",
+      "title": "Causal Dynamic in [0s-25s]",
+      "trigger": "Hey in this episode we are gonna start reaction videos a rea",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "how everything works and how it's different from vanilla JavaScript because the",
+      "source_spans": [
+        {
+          "start": 0.03,
+          "end": 25.35,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007",
+            "seg-0008",
+            "seg-0009",
+            "seg-0010"
+          ],
+          "quoted_text": "Hey in this episode we are gonna start reaction videos a react videos what a great way to start now before we get started I just want to let you know that in this episode we're not gonna take a look a"
+        }
+      ]
+    },
+    {
+      "id": "MEC-002",
+      "title": "Causal Dynamic in [190s-221s]",
+      "trigger": "like so because I don't want you to see all these different",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "installed with NPM so if we take a look here we're gonna have things like babel",
+      "source_spans": [
+        {
+          "start": 190.93,
+          "end": 221.11,
+          "segment_ids": [
+            "seg-0071",
+            "seg-0072",
+            "seg-0073",
+            "seg-0074",
+            "seg-0075",
+            "seg-0076",
+            "seg-0077",
+            "seg-0078",
+            "seg-0079",
+            "seg-0080"
+          ],
+          "quoted_text": "like so because I don't want you to see all these different crazy projects going on here so I'm just gonna navigate to it like so and this already looks kind of crazy so I'm gonna explain everything s"
+        }
+      ]
+    },
+    {
+      "id": "MEC-003",
+      "title": "Causal Dynamic in [455s-485s]",
+      "trigger": "react code so it's gonna open up obviously on the other scre",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "with all this code and we're gonna start from scratch we have a test file which",
+      "source_spans": [
+        {
+          "start": 455.05,
+          "end": 485.95,
+          "segment_ids": [
+            "seg-0171",
+            "seg-0172",
+            "seg-0173",
+            "seg-0174",
+            "seg-0175",
+            "seg-0176",
+            "seg-0177",
+            "seg-0178",
+            "seg-0179",
+            "seg-0180"
+          ],
+          "quoted_text": "react code so it's gonna open up obviously on the other screen so I have to drag it in here and it's gonna take a bit so let's just wait let's go back here so all we have is some basic styling in here"
+        }
+      ]
+    },
+    {
+      "id": "MEC-004",
+      "title": "Causal Dynamic in [517s-551s]",
+      "trigger": "in here in here and our app is okay because this is a compon",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "a component now what a component basically is is a file that holds all the logic",
+      "source_spans": [
+        {
+          "start": 517.24,
+          "end": 551.95,
+          "segment_ids": [
+            "seg-0191",
+            "seg-0192",
+            "seg-0193",
+            "seg-0194",
+            "seg-0195",
+            "seg-0196",
+            "seg-0197",
+            "seg-0198",
+            "seg-0199",
+            "seg-0200"
+          ],
+          "quoted_text": "in here in here and our app is okay because this is a component so I'm gonna delete everything and then it's all gonna make sense so we go back here everything is breaking but that's fine so what we n"
+        }
+      ]
+    },
+    {
+      "id": "MEC-005",
+      "title": "Causal Dynamic in [763s-797s]",
+      "trigger": "this function export it and it's gonna be rendered in here s",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "eact here what react gives the power to us is that this does look like HTML here",
+      "source_spans": [
+        {
+          "start": 763.02,
+          "end": 797.01,
+          "segment_ids": [
+            "seg-0271",
+            "seg-0272",
+            "seg-0273",
+            "seg-0274",
+            "seg-0275",
+            "seg-0276",
+            "seg-0277",
+            "seg-0278",
+            "seg-0279",
+            "seg-0280"
+          ],
+          "quoted_text": "this function export it and it's gonna be rendered in here so now if we take a look here it's gonna say hello react so we've successfully rendered this function on the screen all right but what's goin"
+        }
+      ]
+    },
+    {
+      "id": "MEC-006",
+      "title": "Causal Dynamic in [794s-826s]",
+      "trigger": "but it's not HTML what react does is if we return some some",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "s gonna create it's gonna say react that creates element and it's gonna create a",
+      "source_spans": [
+        {
+          "start": 794.82,
+          "end": 826.98,
+          "segment_ids": [
+            "seg-0281",
+            "seg-0282",
+            "seg-0283",
+            "seg-0284",
+            "seg-0285",
+            "seg-0286",
+            "seg-0287",
+            "seg-0288",
+            "seg-0289",
+            "seg-0290"
+          ],
+          "quoted_text": "but it's not HTML what react does is if we return some some code here so like a divin h1 this is automatically gonna be compiled into HTML so even though this looks like HTML it's actually JavaScript "
+        }
+      ]
+    },
+    {
+      "id": "MEC-007",
+      "title": "Causal Dynamic in [913s-943s]",
+      "trigger": "then you would get the button that says hello maybe so maybe",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "ave to do is we're gonna look at one event listener on click that we can use and",
+      "source_spans": [
+        {
+          "start": 913.17,
+          "end": 943.19,
+          "segment_ids": [
+            "seg-0321",
+            "seg-0322",
+            "seg-0323",
+            "seg-0324",
+            "seg-0325",
+            "seg-0326",
+            "seg-0327",
+            "seg-0328",
+            "seg-0329",
+            "seg-0330"
+          ],
+          "quoted_text": "then you would get the button that says hello maybe so maybe you have a class of hello on it and then you would do hello dot the eventlistener on click you don't need to do these things anymore becaus"
+        }
+      ]
+    },
+    {
+      "id": "MEC-008",
+      "title": "Causal Dynamic in [1001s-1035s]",
+      "trigger": "these curly braces and saying counter hit save and as you ca",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "'m not gonna add parenthesis here because that would invoke the function as soon",
+      "source_spans": [
+        {
+          "start": 1001.36,
+          "end": 1035.44,
+          "segment_ids": [
+            "seg-0351",
+            "seg-0352",
+            "seg-0353",
+            "seg-0354",
+            "seg-0355",
+            "seg-0356",
+            "seg-0357",
+            "seg-0358",
+            "seg-0359",
+            "seg-0360"
+          ],
+          "quoted_text": "these curly braces and saying counter hit save and as you can see I still have 0 so that's what we can do here I'm gonna change this back to hello I'm gonna delete this counter and I can add an on cli"
+        }
+      ]
+    },
+    {
+      "id": "MEC-009",
+      "title": "Causal Dynamic in [1238s-1268s]",
+      "trigger": "of this to you so I'm kind of kind of similar let's remove t",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "ate a new file I'm gonna say tweet dot J s again all we have to do is say import",
+      "source_spans": [
+        {
+          "start": 1238.53,
+          "end": 1268.17,
+          "segment_ids": [
+            "seg-0431",
+            "seg-0432",
+            "seg-0433",
+            "seg-0434",
+            "seg-0435",
+            "seg-0436",
+            "seg-0437",
+            "seg-0438",
+            "seg-0439",
+            "seg-0440"
+          ],
+          "quoted_text": "of this to you so I'm kind of kind of similar let's remove this import because we don't have that anymore I'm gonna say hello react here again hit save and what I'm gonna do is I'm gonna add create a "
+        }
+      ]
+    },
+    {
+      "id": "MEC-010",
+      "title": "Causal Dynamic in [1326s-1357s]",
+      "trigger": "dot slash tweet now all we have to do again is down here I'm",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "om tweet and the number of likes showing up on the screen perfect and now we can",
+      "source_spans": [
+        {
+          "start": 1326.37,
+          "end": 1357.39,
+          "segment_ids": [
+            "seg-0461",
+            "seg-0462",
+            "seg-0463",
+            "seg-0464",
+            "seg-0465",
+            "seg-0466",
+            "seg-0467",
+            "seg-0468",
+            "seg-0469",
+            "seg-0470"
+          ],
+          "quoted_text": "dot slash tweet now all we have to do again is down here I'm gonna render this component hit save and we don't doesn't work because it says attempted import does not contain a default export so we hav"
+        }
+      ]
+    },
+    {
+      "id": "MEC-011",
+      "title": "Causal Dynamic in [1389s-1416s]",
+      "trigger": "class name is because we are in JavaScript again you always",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "that react came up with two to let us know that this is how we can add different",
+      "source_spans": [
+        {
+          "start": 1389.58,
+          "end": 1416.55,
+          "segment_ids": [
+            "seg-0481",
+            "seg-0482",
+            "seg-0483",
+            "seg-0484",
+            "seg-0485",
+            "seg-0486",
+            "seg-0487",
+            "seg-0488",
+            "seg-0489",
+            "seg-0490"
+          ],
+          "quoted_text": "class name is because we are in JavaScript again you always have to remember that everything we do in here is essentially JavaScript and class means a constructor function structure function in JavaSc"
+        }
+      ]
+    },
+    {
+      "id": "MEC-012",
+      "title": "Causal Dynamic in [1414s-1448s]",
+      "trigger": "styles so if we take a look nothing happens because we need",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "all of this code here and we can get the app we can just create an app and add a",
+      "source_spans": [
+        {
+          "start": 1414.3,
+          "end": 1448.86,
+          "segment_ids": [
+            "seg-0491",
+            "seg-0492",
+            "seg-0493",
+            "seg-0494",
+            "seg-0495",
+            "seg-0496",
+            "seg-0497",
+            "seg-0498",
+            "seg-0499",
+            "seg-0500"
+          ],
+          "quoted_text": "styles so if we take a look nothing happens because we need to import our styles as well so we can say import dot slash and we can say app dot CSS like so let's save and now as you can see we have the"
+        }
+      ]
+    },
+    {
+      "id": "MEC-013",
+      "title": "Causal Dynamic in [1590s-1622s]",
+      "trigger": "just kind of put them like that that's ugly okay let's do it",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "re hit save alright so there we go we have four lovely tweets going on here okay",
+      "source_spans": [
+        {
+          "start": 1590.84,
+          "end": 1622.07,
+          "segment_ids": [
+            "seg-0551",
+            "seg-0552",
+            "seg-0553",
+            "seg-0554",
+            "seg-0555",
+            "seg-0556",
+            "seg-0557",
+            "seg-0558",
+            "seg-0559",
+            "seg-0560"
+          ],
+          "quoted_text": "just kind of put them like that that's ugly okay let's do it justify content space around alright there we go so something like that that looks a bit it still looks bad a line items in there all right"
+        }
+      ]
+    },
+    {
+      "id": "MEC-014",
+      "title": "Causal Dynamic in [1649s-1679s]",
+      "trigger": "I want to add John Snow Game of Thrones is coming so we have",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "e-media there we go head saved perfect so nothing's still happening here because",
+      "source_spans": [
+        {
+          "start": 1649.49,
+          "end": 1679.64,
+          "segment_ids": [
+            "seg-0571",
+            "seg-0572",
+            "seg-0573",
+            "seg-0574",
+            "seg-0575",
+            "seg-0576",
+            "seg-0577",
+            "seg-0578",
+            "seg-0579",
+            "seg-0580"
+          ],
+          "quoted_text": "I want to add John Snow Game of Thrones is coming so we have to prepare winter is coming that's a name that's alleged name I'm not even joking delete this and let's also add mosh mosh there we go hit "
+        }
+      ]
+    },
+    {
+      "id": "MEC-015",
+      "title": "Causal Dynamic in [2037s-2062s]",
+      "trigger": "gonna create a count - we're gonna create a count and then w",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "o back let's just create let's try it with the count first because that might be",
+      "source_spans": [
+        {
+          "start": 2037.28,
+          "end": 2062.48,
+          "segment_ids": [
+            "seg-0701",
+            "seg-0702",
+            "seg-0703",
+            "seg-0704",
+            "seg-0705",
+            "seg-0706",
+            "seg-0707",
+            "seg-0708",
+            "seg-0709",
+            "seg-0710"
+          ],
+          "quoted_text": "gonna create a count - we're gonna create a count and then we're gonna add a comma we're gonna say step count all right I'm gonna say set it equal to you state and we're gonna start the count from zer"
+        }
+      ]
+    },
+    {
+      "id": "MEC-016",
+      "title": "Causal Dynamic in [2418s-2457s]",
+      "trigger": "well actually we are gonna have to have an array of objects",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "nd let's create another one we're gonna have a name of Travis E and a message of",
+      "source_spans": [
+        {
+          "start": 2418.09,
+          "end": 2457.1,
+          "segment_ids": [
+            "seg-0831",
+            "seg-0832",
+            "seg-0833",
+            "seg-0834",
+            "seg-0835",
+            "seg-0836",
+            "seg-0837",
+            "seg-0838",
+            "seg-0839",
+            "seg-0840"
+          ],
+          "quoted_text": "well actually we are gonna have to have an array of objects because we want to have multiple objects so I'm gonna set in the array and here I'm gonna have a name of head and a message of hello there t"
+        }
+      ]
+    },
+    {
+      "id": "MEC-017",
+      "title": "Causal Dynamic in [2483s-2514s]",
+      "trigger": "as users here set users and then we would have users dot map",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "s actually JavaScript and then here what I'm gonna return is actually this tweet",
+      "source_spans": [
+        {
+          "start": 2483.11,
+          "end": 2514.22,
+          "segment_ids": [
+            "seg-0851",
+            "seg-0852",
+            "seg-0853",
+            "seg-0854",
+            "seg-0855",
+            "seg-0856",
+            "seg-0857",
+            "seg-0858",
+            "seg-0859",
+            "seg-0860"
+          ],
+          "quoted_text": "as users here set users and then we would have users dot map and we would get each user in here I'm just gonna run an arrow function I'm not gonna add the curly braces here so I'm gonna leave it empty"
+        }
+      ]
+    },
+    {
+      "id": "MEC-018",
+      "title": "Causal Dynamic in [2539s-2570s]",
+      "trigger": "we can add the message I believe it's set as message yeah we",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "know because I didn't want to overwhelm you with a lot of crazy things we still",
+      "source_spans": [
+        {
+          "start": 2539.78,
+          "end": 2570.26,
+          "segment_ids": [
+            "seg-0871",
+            "seg-0872",
+            "seg-0873",
+            "seg-0874",
+            "seg-0875",
+            "seg-0876",
+            "seg-0877",
+            "seg-0878",
+            "seg-0879",
+            "seg-0880"
+          ],
+          "quoted_text": "we can add the message I believe it's set as message yeah we can get the message to be equal to user dot message and now everything just works magically look at that that's how we can use the state to"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "PRN-001",
+      "statement": "have a lot of things to cover such as fetching an eighth from an API use effect and router and state management ah there",
+      "domain": "Behavioral Cognitive Science",
+      "source_spans": [
+        {
+          "start": 2568.49,
+          "end": 2591.49,
+          "segment_ids": [
+            "seg-0881",
+            "seg-0882",
+            "seg-0883",
+            "seg-0884",
+            "seg-0885",
+            "seg-0886",
+            "seg-0887",
+            "seg-0888",
+            "seg-0889"
+          ],
+          "quoted_text": "have a lot of things to cover such as fetching an eighth from an API use effect and router and state management ah there's so much more it's crazy but let me know if you want to see more leave it down"
+        }
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "id": "MDL-001",
+      "name": "have a lot of things to cover such as fetchin",
+      "core_heuristic": "Operating decision rule identified at 2568s",
+      "source_spans": [
+        {
+          "start": 2568.49,
+          "end": 2591.49,
+          "segment_ids": [
+            "seg-0881",
+            "seg-0882",
+            "seg-0883",
+            "seg-0884",
+            "seg-0885",
+            "seg-0886",
+            "seg-0887",
+            "seg-0888",
+            "seg-0889"
+          ],
+          "quoted_text": "have a lot of things to cover such as fetching an eighth from an API use effect and router and state management ah there's so much more it's crazy but let me know if you want to see more leave it down"
+        }
+      ]
+    }
+  ],
+  "examples_and_analogies": [
+    {
+      "id": "EXM-001",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "the HTML the logic and even styling in one file so you can imagine a component as being a self-contained piece of code so may be a model is a good example you can have a model that can be a component",
+      "source_spans": [
+        {
+          "start": 547.78,
+          "end": 581.26,
+          "segment_ids": [
+            "seg-0201",
+            "seg-0202",
+            "seg-0203",
+            "seg-0204",
+            "seg-0205",
+            "seg-0206",
+            "seg-0207",
+            "seg-0208",
+            "seg-0209",
+            "seg-0210"
+          ],
+          "quoted_text": "the HTML the logic and even styling in one file so you can imagine a component as being a self-contained piece of code so may be a model is a good example you can have a model that can be a component "
+        }
+      ]
+    },
+    {
+      "id": "EXM-002",
+      "type": "ANALOGY",
+      "content": "but it's not HTML what react does is if we return some some code here so like a divin h1 this is automatically gonna be compiled into HTML so even though this looks like HTML it's actually JavaScript",
+      "source_spans": [
+        {
+          "start": 794.82,
+          "end": 826.98,
+          "segment_ids": [
+            "seg-0281",
+            "seg-0282",
+            "seg-0283",
+            "seg-0284",
+            "seg-0285",
+            "seg-0286",
+            "seg-0287",
+            "seg-0288",
+            "seg-0289",
+            "seg-0290"
+          ],
+          "quoted_text": "but it's not HTML what react does is if we return some some code here so like a divin h1 this is automatically gonna be compiled into HTML so even though this looks like HTML it's actually JavaScript "
+        }
+      ]
+    },
+    {
+      "id": "EXM-003",
+      "type": "ANALOGY",
+      "content": "as well so maybe I don't want this to be in my app maybe I want to have this hello components a like a specific code that does something in another file well we can do that we can go in our source her",
+      "source_spans": [
+        {
+          "start": 1059.23,
+          "end": 1089.89,
+          "segment_ids": [
+            "seg-0371",
+            "seg-0372",
+            "seg-0373",
+            "seg-0374",
+            "seg-0375",
+            "seg-0376",
+            "seg-0377",
+            "seg-0378",
+            "seg-0379",
+            "seg-0380"
+          ],
+          "quoted_text": "as well so maybe I don't want this to be in my app maybe I want to have this hello components a like a specific code that does something in another file well we can do that we can go in our source her"
+        }
+      ]
+    },
+    {
+      "id": "EXM-004",
+      "type": "ANALOGY",
+      "content": "component export default hello default I cannot write any more hello all right let's save go back here and now rather than doing all the logic here we can just import hello from and we can navigate to",
+      "source_spans": [
+        {
+          "start": 1146.35,
+          "end": 1185.77,
+          "segment_ids": [
+            "seg-0401",
+            "seg-0402",
+            "seg-0403",
+            "seg-0404",
+            "seg-0405",
+            "seg-0406",
+            "seg-0407",
+            "seg-0408",
+            "seg-0409",
+            "seg-0410"
+          ],
+          "quoted_text": "component export default hello default I cannot write any more hello all right let's save go back here and now rather than doing all the logic here we can just import hello from and we can navigate to"
+        }
+      ]
+    },
+    {
+      "id": "EXM-005",
+      "type": "ANALOGY",
+      "content": "of this to you so I'm kind of kind of similar let's remove this import because we don't have that anymore I'm gonna say hello react here again hit save and what I'm gonna do is I'm gonna add create a",
+      "source_spans": [
+        {
+          "start": 1238.53,
+          "end": 1268.17,
+          "segment_ids": [
+            "seg-0431",
+            "seg-0432",
+            "seg-0433",
+            "seg-0434",
+            "seg-0435",
+            "seg-0436",
+            "seg-0437",
+            "seg-0438",
+            "seg-0439",
+            "seg-0440"
+          ],
+          "quoted_text": "of this to you so I'm kind of kind of similar let's remove this import because we don't have that anymore I'm gonna say hello react here again hit save and what I'm gonna do is I'm gonna add create a "
+        }
+      ]
+    },
+    {
+      "id": "EXM-006",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "also style this so how can we style different things well we can go down to our ab dot CSS here and we can create a tweet class for example maybe I want a a border of five of two pixels solid black to",
+      "source_spans": [
+        {
+          "start": 1354.93,
+          "end": 1391.5,
+          "segment_ids": [
+            "seg-0471",
+            "seg-0472",
+            "seg-0473",
+            "seg-0474",
+            "seg-0475",
+            "seg-0476",
+            "seg-0477",
+            "seg-0478",
+            "seg-0479",
+            "seg-0480"
+          ],
+          "quoted_text": "also style this so how can we style different things well we can go down to our ab dot CSS here and we can create a tweet class for example maybe I want a a border of five of two pixels solid black to"
+        }
+      ]
+    },
+    {
+      "id": "EXM-007",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "so what state basically is is some data so you can imagine it as a variable and based on that data your app kind of renders itself based on that data so maybe you have a a is logged in a boolean that",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 1889.47,
+          "end": 1922.02,
+          "segment_ids": [
+            "seg-0651",
+            "seg-0652",
+            "seg-0653",
+            "seg-0654",
+            "seg-0655",
+            "seg-0656",
+            "seg-0657",
+            "seg-0658",
+            "seg-0659",
+            "seg-0660"
+          ],
+          "quoted_text": "so what state basically is is some data so you can imagine it as a variable and based on that data your app kind of renders itself based on that data so maybe you have a a is logged in a boolean that "
+        }
+      ]
+    },
+    {
+      "id": "EXM-008",
+      "type": "ANALOGY",
+      "content": "showing I'm gonna delete this tweet everything in here in this tweet and I'm gonna get back to the it later and what we can do we can create a state like so we can say Const so it's kind of like a var",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 1919.74,
+          "end": 1949.68,
+          "segment_ids": [
+            "seg-0661",
+            "seg-0662",
+            "seg-0663",
+            "seg-0664",
+            "seg-0665",
+            "seg-0666",
+            "seg-0667",
+            "seg-0668",
+            "seg-0669",
+            "seg-0670"
+          ],
+          "quoted_text": "showing I'm gonna delete this tweet everything in here in this tweet and I'm gonna get back to the it later and what we can do we can create a state like so we can say Const so it's kind of like a var"
+        }
+      ]
+    },
+    {
+      "id": "EXM-009",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "now we have this for a king let's also add a h1 here and we're gonna try with the the other one here and I'm gonna show you how we can actually switch classes change my color like so it's save you're",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 2215.27,
+          "end": 2250.22,
+          "segment_ids": [
+            "seg-0761",
+            "seg-0762",
+            "seg-0763",
+            "seg-0764",
+            "seg-0765",
+            "seg-0766",
+            "seg-0767",
+            "seg-0768",
+            "seg-0769",
+            "seg-0770"
+          ],
+          "quoted_text": "now we have this for a king let's also add a h1 here and we're gonna try with the the other one here and I'm gonna show you how we can actually switch classes change my color like so it's save you're "
+        }
+      ]
+    },
+    {
+      "id": "EXM-010",
+      "type": "ANALOGY",
+      "content": "class name or remove it so what we can do in here is we can add a ternary operator now we can check that is red value so we can write is red and if this is true we can add a question mark this is true",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 2279.14,
+          "end": 2311.03,
+          "segment_ids": [
+            "seg-0781",
+            "seg-0782",
+            "seg-0783",
+            "seg-0784",
+            "seg-0785",
+            "seg-0786",
+            "seg-0787",
+            "seg-0788",
+            "seg-0789",
+            "seg-0790"
+          ],
+          "quoted_text": "class name or remove it so what we can do in here is we can add a ternary operator now we can check that is red value so we can write is red and if this is true we can add a question mark this is true"
+        }
+      ]
+    },
+    {
+      "id": "EXM-011",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "I am awesome so you can imagine that we would get this from an API and then we would set it in this state so now here I'm gonna delete everything and in this app this is what I'm gonna do I'm gonna ad",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 2453.44,
+          "end": 2487.16,
+          "segment_ids": [
+            "seg-0841",
+            "seg-0842",
+            "seg-0843",
+            "seg-0844",
+            "seg-0845",
+            "seg-0846",
+            "seg-0847",
+            "seg-0848",
+            "seg-0849",
+            "seg-0850"
+          ],
+          "quoted_text": "I am awesome so you can imagine that we would get this from an API and then we would set it in this state so now here I'm gonna delete everything and in this app this is what I'm gonna do I'm gonna ad"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "ARG-001",
+      "thesis": "Hey in this episode we are gonna start reaction videos a react videos what a great way to start now before we get started I just want to let you know that in this episode we're not",
+      "premises": [
+        "like so because I don't want you to see all these different crazy projects going on here so I'm just gonna navigate to it like so and this already looks kind of crazy so I'm gonna",
+        "react code so it's gonna open up obviously on the other screen so I have to drag it in here and it's gonna take a bit so let's just wait let's go back here so all we have is some b",
+        "in here in here and our app is okay because this is a component so I'm gonna delete everything and then it's all gonna make sense so we go back here everything is breaking but that"
+      ],
+      "counterarguments": [
+        "Common assumption that discipline is purely moral rather than somatic/biological"
+      ],
+      "conclusion": "have a lot of things to cover such as fetching an eighth from an API use effect and router and state management ah there's so much more it's crazy but let me know if you want to se",
+      "source_spans": [
+        {
+          "start": 0.03,
+          "end": 25.35,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007",
+            "seg-0008",
+            "seg-0009",
+            "seg-0010"
+          ],
+          "quoted_text": "Hey in this episode we are gonna start reaction videos a react videos what a great way to start now before we get started I just want to let you know that in this episode we're not gonna take a look a"
+        }
+      ]
+    }
+  ],
+  "uncertainties": []
+}

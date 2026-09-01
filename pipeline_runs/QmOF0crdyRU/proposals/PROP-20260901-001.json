@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-001",
+  "created_at": "2026-09-01T15:11:31.255Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-001",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-001",
+      "start": 0.1,
+      "end": 2.3,
+      "quoted_text": "- Welcome to the Huberman Lab Podcast,"
+    },
+    {
+      "entity_id": "CLM-002",
+      "start": 2.3,
+      "end": 4.9,
+      "quoted_text": "where we discuss science and science-based tools"
+    },
+    {
+      "entity_id": "CLM-003",
+      "start": 10.5,
+      "end": 13.3,
+      "quoted_text": "and I'm a professor of neurobiology and ophthalmology"
+    },
+    {
+      "entity_id": "CLM-004",
+      "start": 13.3,
+      "end": 15.4,
+      "quoted_text": "at Stanford School of Medicine."
+    },
+    {
+      "entity_id": "CLM-005",
+      "start": 15.4,
+      "end": 17.6,
+      "quoted_text": "Today, we are going to talk all about dopamine"
+    },
+    {
+      "entity_id": "CLM-006",
+      "start": 17.6,
+      "end": 21.2,
+      "quoted_text": "and what drives you to do the things that you do."
+    },
+    {
+      "entity_id": "CLM-007",
+      "start": 21.2,
+      "end": 25.5,
+      "quoted_text": "We're going to talk about motivation and desire and craving,"
+    },
+    {
+      "entity_id": "CLM-008",
+      "start": 25.5,
+      "end": 29.2,
+      "quoted_text": "but also how dopamine relates to satisfaction"
+    },
+    {
+      "entity_id": "CLM-009",
+      "start": 29.2,
+      "end": 31.1,
+      "quoted_text": "and our feelings of wellbeing."
+    },
+    {
+      "entity_id": "CLM-010",
+      "start": 31.1,
+      "end": 33.6,
+      "quoted_text": "And of course, any discussion about dopamine"
+    },
+    {
+      "entity_id": "CLM-011",
+      "start": 33.6,
+      "end": 36.4,
+      "quoted_text": "has to include a discussion about the potential"
+    },
+    {
+      "entity_id": "CLM-012",
+      "start": 36.4,
+      "end": 39.5,
+      "quoted_text": "for dopamine induced addiction."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: - Welcome to the Huberman Lab Podcast,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [0s-2s]: \"- Welcome to the Huberman Lab Podcast,\"\n  - [2s-4s]: \"where we discuss science and science-based tools\"\n  - [10s-13s]: \"and I'm a professor of neurobiology and ophthalmology\"\n  - [13s-15s]: \"at Stanford School of Medicine.\"\n  - [15s-17s]: \"Today, we are going to talk all about dopamine\"\n  - [17s-21s]: \"and what drives you to do the things that you do.\"\n  - [21s-25s]: \"We're going to talk about motivation and desire and craving,\"\n  - [25s-29s]: \"but also how dopamine relates to satisfaction\"\n  - [29s-31s]: \"and our feelings of wellbeing.\"\n  - [31s-33s]: \"And of course, any discussion about dopamine\"\n  - [33s-36s]: \"has to include a discussion about the potential\"\n  - [36s-39s]: \"for dopamine induced addiction.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: - Welcome to the Huberman Lab Podcast,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [0s-2s]: \"- Welcome to the Huberman Lab Podcast,\"\n+  - [2s-4s]: \"where we discuss science and science-based tools\"\n+  - [10s-13s]: \"and I'm a professor of neurobiology and ophthalmology\"\n+  - [13s-15s]: \"at Stanford School of Medicine.\"\n+  - [15s-17s]: \"Today, we are going to talk all about dopamine\"\n+  - [17s-21s]: \"and what drives you to do the things that you do.\"\n+  - [21s-25s]: \"We're going to talk about motivation and desire and craving,\"\n+  - [25s-29s]: \"but also how dopamine relates to satisfaction\"\n+  - [29s-31s]: \"and our feelings of wellbeing.\"\n+  - [31s-33s]: \"And of course, any discussion about dopamine\"\n+  - [33s-36s]: \"has to include a discussion about the potential\"\n+  - [36s-39s]: \"for dopamine induced addiction.\"\n"
+  }
+}

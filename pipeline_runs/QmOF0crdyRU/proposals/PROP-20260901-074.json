@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-074",
+  "created_at": "2026-09-01T15:11:31.276Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-090",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "EXM-035",
+      "start": 2899,
+      "end": 2903.1,
+      "quoted_text": "like alcohol and nicotine or caffeine and nicotine"
+    },
+    {
+      "entity_id": "CLM-1035",
+      "start": 2903.1,
+      "end": 2906.7,
+      "quoted_text": "or certain behaviors and certain drugs can synergize"
+    },
+    {
+      "entity_id": "CLM-1036",
+      "start": 2906.7,
+      "end": 2908.8,
+      "quoted_text": "to give bigger dopamine increases."
+    },
+    {
+      "entity_id": "CLM-1037",
+      "start": 2908.8,
+      "end": 2910.6,
+      "quoted_text": "And this is not terribly uncommon."
+    },
+    {
+      "entity_id": "CLM-1038",
+      "start": 2910.6,
+      "end": 2912.2,
+      "quoted_text": "There are a lot of people nowadays"
+    },
+    {
+      "entity_id": "CLM-1039",
+      "start": 2912.2,
+      "end": 2914.8,
+      "quoted_text": "who for instance take pre-workout energy drinks."
+    },
+    {
+      "entity_id": "CLM-1040",
+      "start": 2916.6,
+      "end": 2918.7,
+      "quoted_text": "but they'll drink a canned energy drink"
+    },
+    {
+      "entity_id": "CLM-1041",
+      "start": 2918.7,
+      "end": 2920.5,
+      "quoted_text": "or they'll drink a pre-workout"
+    },
+    {
+      "entity_id": "CLM-1042",
+      "start": 2920.5,
+      "end": 2922.9,
+      "quoted_text": "and they'll try and get that big stimulation"
+    },
+    {
+      "entity_id": "CLM-1043",
+      "start": 2922.9,
+      "end": 2924.7,
+      "quoted_text": "that stimulant effect for the dopamine,"
+    },
+    {
+      "entity_id": "CLM-1044",
+      "start": 2924.7,
+      "end": 2927.1,
+      "quoted_text": "the norepinephrin, that family of molecules"
+    },
+    {
+      "entity_id": "CLM-1045",
+      "start": 2927.1,
+      "end": 2928.8,
+      "quoted_text": "that works together to make you motivated."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: or certain behaviors and certain drugs can synergize\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [2899s-2903s]: \"like alcohol and nicotine or caffeine and nicotine\"\n  - [2903s-2906s]: \"or certain behaviors and certain drugs can synergize\"\n  - [2906s-2908s]: \"to give bigger dopamine increases.\"\n  - [2908s-2910s]: \"And this is not terribly uncommon.\"\n  - [2910s-2912s]: \"There are a lot of people nowadays\"\n  - [2912s-2914s]: \"who for instance take pre-workout energy drinks.\"\n  - [2916s-2918s]: \"but they'll drink a canned energy drink\"\n  - [2918s-2920s]: \"or they'll drink a pre-workout\"\n  - [2920s-2922s]: \"and they'll try and get that big stimulation\"\n  - [2922s-2924s]: \"that stimulant effect for the dopamine,\"\n  - [2924s-2927s]: \"the norepinephrin, that family of molecules\"\n  - [2927s-2928s]: \"that works together to make you motivated.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: or certain behaviors and certain drugs can synergize\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [2899s-2903s]: \"like alcohol and nicotine or caffeine and nicotine\"\n+  - [2903s-2906s]: \"or certain behaviors and certain drugs can synergize\"\n+  - [2906s-2908s]: \"to give bigger dopamine increases.\"\n+  - [2908s-2910s]: \"And this is not terribly uncommon.\"\n+  - [2910s-2912s]: \"There are a lot of people nowadays\"\n+  - [2912s-2914s]: \"who for instance take pre-workout energy drinks.\"\n+  - [2916s-2918s]: \"but they'll drink a canned energy drink\"\n+  - [2918s-2920s]: \"or they'll drink a pre-workout\"\n+  - [2920s-2922s]: \"and they'll try and get that big stimulation\"\n+  - [2922s-2924s]: \"that stimulant effect for the dopamine,\"\n+  - [2924s-2927s]: \"the norepinephrin, that family of molecules\"\n+  - [2927s-2928s]: \"that works together to make you motivated.\"\n"
+  }
+}

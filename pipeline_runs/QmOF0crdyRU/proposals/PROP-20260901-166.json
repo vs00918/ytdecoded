@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-166",
+  "created_at": "2026-09-01T15:11:31.300Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-219",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2543",
+      "start": 7094.7,
+      "end": 7097.4,
+      "quoted_text": "from depression from Wellbutrin bupropion,"
+    },
+    {
+      "entity_id": "CLM-2544",
+      "start": 7097.4,
+      "end": 7099.8,
+      "quoted_text": "and many of those same people had serious trouble"
+    },
+    {
+      "entity_id": "CLM-2545",
+      "start": 7099.8,
+      "end": 7101.1,
+      "quoted_text": "with some of the SSRI."
+    },
+    {
+      "entity_id": "CLM-2546",
+      "start": 7101.1,
+      "end": 7103.2,
+      "quoted_text": "So it does seem to be a very useful drug"
+    },
+    {
+      "entity_id": "CLM-2547",
+      "start": 7104,
+      "end": 7106.9,
+      "quoted_text": "both for depression and for the treatment of smoking"
+    },
+    {
+      "entity_id": "CLM-2548",
+      "start": 7106.9,
+      "end": 7109.2,
+      "quoted_text": "for people desiring to quit smoking."
+    },
+    {
+      "entity_id": "CLM-2549",
+      "start": 7109.2,
+      "end": 7111.3,
+      "quoted_text": "And of course there are a lot of people out there"
+    },
+    {
+      "entity_id": "CLM-2550",
+      "start": 7111.3,
+      "end": 7113.6,
+      "quoted_text": "who are seeking to increase their baseline levels"
+    },
+    {
+      "entity_id": "CLM-2551",
+      "start": 7113.6,
+      "end": 7116.8,
+      "quoted_text": "of dopamine without taking any prescription"
+    },
+    {
+      "entity_id": "CLM-2552",
+      "start": 7116.8,
+      "end": 7118.7,
+      "quoted_text": "pharmaceutical compounds."
+    },
+    {
+      "entity_id": "CLM-2553",
+      "start": 7118.7,
+      "end": 7122.4,
+      "quoted_text": "And nowadays there exist a lot of supplements to do that."
+    },
+    {
+      "entity_id": "CLM-2554",
+      "start": 7122.4,
+      "end": 7124.8,
+      "quoted_text": "The two most common ones that are directly"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: from depression from Wellbutrin bupropion,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7094s-7097s]: \"from depression from Wellbutrin bupropion,\"\n  - [7097s-7099s]: \"and many of those same people had serious trouble\"\n  - [7099s-7101s]: \"with some of the SSRI.\"\n  - [7101s-7103s]: \"So it does seem to be a very useful drug\"\n  - [7104s-7106s]: \"both for depression and for the treatment of smoking\"\n  - [7106s-7109s]: \"for people desiring to quit smoking.\"\n  - [7109s-7111s]: \"And of course there are a lot of people out there\"\n  - [7111s-7113s]: \"who are seeking to increase their baseline levels\"\n  - [7113s-7116s]: \"of dopamine without taking any prescription\"\n  - [7116s-7118s]: \"pharmaceutical compounds.\"\n  - [7118s-7122s]: \"And nowadays there exist a lot of supplements to do that.\"\n  - [7122s-7124s]: \"The two most common ones that are directly\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: from depression from Wellbutrin bupropion,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7094s-7097s]: \"from depression from Wellbutrin bupropion,\"\n+  - [7097s-7099s]: \"and many of those same people had serious trouble\"\n+  - [7099s-7101s]: \"with some of the SSRI.\"\n+  - [7101s-7103s]: \"So it does seem to be a very useful drug\"\n+  - [7104s-7106s]: \"both for depression and for the treatment of smoking\"\n+  - [7106s-7109s]: \"for people desiring to quit smoking.\"\n+  - [7109s-7111s]: \"And of course there are a lot of people out there\"\n+  - [7111s-7113s]: \"who are seeking to increase their baseline levels\"\n+  - [7113s-7116s]: \"of dopamine without taking any prescription\"\n+  - [7116s-7118s]: \"pharmaceutical compounds.\"\n+  - [7118s-7122s]: \"And nowadays there exist a lot of supplements to do that.\"\n+  - [7122s-7124s]: \"The two most common ones that are directly\"\n"
+  }
+}

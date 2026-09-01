@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-018",
+  "created_at": "2026-09-01T15:11:31.260Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-024",
+  "target_topic_slug": "the-architecture-of-cognitive-biases",
+  "target_topic_title": "The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions",
+  "target_content_hash_before": "87d3e5a110ada9e6e474d609a803372b9c6bd6d371aba5d4bb107460b64c6cab",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Substantive structural nuance, causal sequences, or tactical depth extending \"The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-267",
+      "start": 718.9,
+      "end": 721.3,
+      "quoted_text": "it has everything to do with how you will feel"
+    },
+    {
+      "entity_id": "CLM-268",
+      "start": 722.6,
+      "end": 724.9,
+      "quoted_text": "has everything to do with your level of motivation"
+    },
+    {
+      "entity_id": "CLM-269",
+      "start": 724.9,
+      "end": 726.4,
+      "quoted_text": "and your level of desire,"
+    },
+    {
+      "entity_id": "CLM-270",
+      "start": 726.4,
+      "end": 728.9,
+      "quoted_text": "and your willingness to push through effort."
+    },
+    {
+      "entity_id": "CLM-271",
+      "start": 728.9,
+      "end": 730.9,
+      "quoted_text": "If ever you've interacted with somebody"
+    },
+    {
+      "entity_id": "CLM-272",
+      "start": 730.9,
+      "end": 734.7,
+      "quoted_text": "who just doesn't seem to have any drive they've given up,"
+    },
+    {
+      "entity_id": "CLM-273",
+      "start": 734.7,
+      "end": 736.2,
+      "quoted_text": "or if you've interacted with somebody"
+    },
+    {
+      "entity_id": "CLM-274",
+      "start": 736.2,
+      "end": 738.9,
+      "quoted_text": "who seems to have endless drive and energy,"
+    },
+    {
+      "entity_id": "CLM-275",
+      "start": 738.9,
+      "end": 742,
+      "quoted_text": "what you are looking at there in those two circumstances"
+    },
+    {
+      "entity_id": "CLM-276",
+      "start": 742,
+      "end": 745.3,
+      "quoted_text": "is without question a difference"
+    },
+    {
+      "entity_id": "CLM-277",
+      "start": 745.3,
+      "end": 749,
+      "quoted_text": "in the level of dopamine circulating in their system."
+    },
+    {
+      "entity_id": "CLM-278",
+      "start": 749,
+      "end": 750.9,
+      "quoted_text": "There will be other factors too,"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-architecture-of-cognitive-biases\"\ntitle: \"The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 15\narchetype: \"CANONICAL_CONCEPT\"\nreading_time_minutes: 5\nsummary_15s: \"Your brain is a survival engine, not a truth teller. It exaggerates fear, projects negative judgments, and invents catastrophic futures to keep you safe in comfort. Do not believe everything you think—cross-examine your distortions with courtroom evidence, and let disciplined physical action lead th\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nOne of the greatest milestones in mental maturity is the realization that **not every thought that arises in your mind is true**.\n\nThe human brain did not evolve to deliver objective reality, philosophical truth, or long-term fulfillment. It evolved in an environment of extreme ancestral scarcity with two primary directives: **conserve metabolic energy and survive perceived threats**.\n\nTo achieve this, the brain operates as an aggressive simulation and shortcut machine. It routinely distorts reality, amplifies fear, invents convenient rationalizations, and mispredicts future feelings. When you treat every incoming thought as a factual verdict, you become the prisoner of your own evolutionary programming. When you understand the **Master Cognitive Distortions**, you develop the meta-cognitive ability to observe the mind without being governed by its illusions.\n\n---\n\n### The Architecture of the Deceptive Mind\n\n```mermaid\ngraph TD\n    subgraph The Ancestral Directives\n        D1[Directive 1: Minimize Caloric / Metabolic Expenditure]\n        D2[Directive 2: Assume Maximum Threat / Negativity Bias]\n    end\n\n    D1 & D2 --> B[The Subconscious Brain]\n    B --> L1[1. Affective Forecasting Error<br>'If I feel tired now, work will be agony']\n    B --> L2[2. Mind Reading & Personalization<br>'They are judging and rejecting me']\n    B --> L3[3. Catastrophizing & Fortune Telling<br>'This single mistake will ruin my entire future']\n    B --> L4[4. All-or-Nothing Splitting<br>'If it is not flawless, it is a complete failure']\n    B --> L5[5. Left-Brain Rationalization<br>Fabricates clever excuses for comfort-seeking]\n\n    L1 & L2 & L3 & L4 & L5 --> C[The Conscious Observer<br>Holds the power to audit, cross-examine and override]\n```\n\n---\n\n### The Five Daily Cognitive Distortions\n\n---\n\n#### 1. The Affective Forecasting Error (The Projection Fallacy)\n* **The Illusion**: When you feel lethargic or unmotivated before sitting down to study or exercise, your brain projects that current emotional state forward, warning you: *\"If you work for the next 2 hours, it will be torturous.\"*\n* **The Neurobiological Truth**: Mood is **dynamic, not static**. The neurotransmitter cocktail in your brain changes within **180 seconds of physical action**. The discomfort you feel *before* starting has zero predictive power over how you will feel once momentum is activated.\n\n---\n\n#### 2. Mind Reading & Personalization (The Egocentric Threat Trap)\n* **The Distortion**: Assuming you know what other people are thinking—almost universally projecting disapproval, judgment, or hostility without a shred of empirical evidence.\n* **The Reality**: Human beings are deeply self-absorbed; they are not spending their cognitive bandwidth scrutinizing your flaws. Assuming silence or brief responses mean rejection is a narcissistic distortion of the threat radar.\n\n---\n\n#### 3. Catastrophizing & Fortune Telling (The Disaster Engine)\n* **The Evolutionary Origin**: In the ancestral wild, anticipating worst-case scenarios kept you alive against predators.\n* **The Modern Pathology**: Treating an unmastered concept, an awkward conversation, or an exam setback as an existential life-or-death catastrophe. Catastrophizing floods the bloodstream with cortisol and paralyzes the prefrontal cortex.\n\n---\n\n#### 4. All-or-Nothing / Black-and-White Thinking (Splitting)\n* **The Trap**: Viewing reality in extreme binaries: 100% perfection or total worthlessness.\n* **The Result**: If you plan to study 4 hours and only study 3, or miss 1 question on a practice test, the brain declares the entire endeavor a failure. This binary perfectionism triggers the \"What-the-Hell Effect,\" causing complete surrender.\n\n---\n\n#### 5. The Left-Brain Narrative Interpreter (Post-Hoc Rationalization)\nIn landmark split-brain neuroscience research by Dr. Michael Gazzaniga, scientists discovered that the left hemisphere of the brain contains an automatic **\"Interpreter Module.\"**\n\n```mermaid\ngraph LR\n    A[Subconscious Impulse: Desire for Sugar / Avoidance] \n    --> B[Action Taken: Grabbing Snack / Phone]\n    --> C[Left-Brain Interpreter Module Activated]\n    --> D[Fabricates Plausible Story: 'I needed the glucose for brainpower']\n```\n\n* **The Mechanism**: The moment your primal emotional brain makes an impulsive, comfort-seeking choice, the left-brain interpreter immediately manufactures a clever, intellectual story to justify it.\n* **The Rule**: Never debate your own rationalizations; recognize that your intellect is often acting as a defense attorney for your comfort-seeking impulses.\n\n---\n\n### The Cognitive Restructuring Protocol: The Courtroom Test\n\n```mermaid\ngraph TD\n    S1[Step 1: Catch the Automatic Thought<br>Identify the distortion: Mind reading, catastrophizing, or all-or-nothing]\n    --> S2[Step 2: The Cross-Examination<br>Demand hard empirical evidence · What is fact vs. emotional fantasy?]\n    --> S3[Step 3: The Balanced Alternative<br>Construct an objective, grounded replacement hypothesis]\n    --> S4[Step 4: Action-First Inversion<br>Move physical body immediately into craft]\n```\n\n1. **The Observer Separation**: You are not the thoughts produced by your brain; you are the **conscious awareness observing them**. Replace *\"I am a failure\"* with *\"I notice my brain is generating an all-or-nothing distortion.\"*\n2. **The Cross-Examination**: Ask: *“If this case were presented to an objective judge in a court of law, would my emotional assumption hold up as undeniable fact, or is it pure speculation?”*\n3. **The Balanced Alternative**: Replace the catastrophic thought with an objective statement: *“I struggled with this practice set, which simply highlights 2 specific formulas I need to review today.”*\n4. **Action-First Inversion**: **Act the way you want to feel, rather than waiting to feel the way you want to act.** Move your physical body into position, open the page, and let your neurochemistry follow your behavior.\n\n---\n\n### The Core Takeaway to Remember\n> Your brain is a survival engine, not a truth teller. It exaggerates fear, projects negative judgments, and invents catastrophic futures to keep you safe in comfort. Do not believe everything you think—cross-examine your distortions with courtroom evidence, and let disciplined physical action lead the way.\n",
+  "proposed_diff": {
+    "section_name": "## Extended Mechanical Insights",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **Mechanic**: it has everything to do with how you will feel *(Source: [QmOF0crdyRU](https://www.youtube.com/watch?v=QmOF0crdyRU))*",
+    "unified_diff": "--- a/src/content/topics/the-architecture-of-cognitive-biases.md\n+++ b/src/content/topics/the-architecture-of-cognitive-biases.md\n@@ -0,0 +1,2 @@\n+### Extended Mechanical Insight\n+- **Mechanic**: it has everything to do with how you will feel *(Source: [QmOF0crdyRU](https://www.youtube.com/watch?v=QmOF0crdyRU))*\n"
+  }
+}

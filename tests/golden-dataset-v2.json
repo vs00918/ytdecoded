@@ -1,0 +1,233 @@
+[
+  {
+    "id": "gold-001",
+    "domain": "neuroscience",
+    "text": "The vagus nerve serves as the primary bidirectional conduit between the enteric nervous system and the brainstem.",
+    "expected_stance": "ASSERTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "CLAIM",
+    "is_causal": true
+  },
+  {
+    "id": "gold-002",
+    "domain": "neuroscience",
+    "text": "People often claim that dopamine spikes cause laziness, but this is completely false and scientifically untrue.",
+    "expected_stance": "REFUTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-003",
+    "domain": "neuroscience",
+    "text": "If cortisol levels were to drop to zero permanently, then the human motivation system might completely collapse.",
+    "expected_stance": "HYPOTHETICAL",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-004",
+    "domain": "psychology",
+    "text": "Dr. Smith argues that neural feedback loops govern all executive functioning.",
+    "expected_stance": "ATTRIBUTED",
+    "expected_attributed_to": "Dr. Smith",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": true
+  },
+  {
+    "id": "gold-005",
+    "domain": "economics",
+    "text": "Classical economists believed market equilibrium is static because humans are rational, however modern neuroscience proves this wrong.",
+    "expected_stance": "REFUTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-006",
+    "domain": "behavioral",
+    "text": "If staring at smartphone screens for ten hours a day built cognitive genius, we would all be Nobel laureates by now.",
+    "expected_stance": "EXAMPLE_ONLY",
+    "expected_epistemic_status": "MODEL_INTERPRETATION",
+    "expected_category": "EXAMPLE",
+    "is_causal": false
+  },
+  {
+    "id": "gold-007",
+    "domain": "philosophy",
+    "text": "Could the breakdown of dopamine receptors actually be the primary cause of societal anomie?",
+    "expected_stance": "QUESTION",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-008",
+    "domain": "psychology",
+    "text": "In my previous book I argued that willpower is a finite glucose muscle, but recent clinical trials have completely refuted that theory.",
+    "expected_stance": "REFUTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-009",
+    "domain": "psychology",
+    "text": "The subconscious mind is like an advisory board chiming in with unsolicited suggestions.",
+    "expected_stance": "EXAMPLE_ONLY",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "ANALOGY",
+    "is_causal": false
+  },
+  {
+    "id": "gold-010",
+    "domain": "technical",
+    "text": "The JavaScript event loop continuously monitors the call stack and pushes callbacks from the task queue when the stack is clear.",
+    "expected_stance": "ASSERTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "MECHANISM",
+    "is_causal": true
+  },
+  {
+    "id": "gold-011",
+    "domain": "medical",
+    "text": "Higher ice cream consumption strongly correlates with drowning incidents, but this is driven by summer temperature, not causation.",
+    "expected_stance": "ASSERTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-012",
+    "domain": "sports",
+    "text": "This progressive overload protocol applies only to trained athletes with at least three years of resistance training.",
+    "expected_stance": "ASSERTED",
+    "expected_scope": "DOMAIN_SPECIFIC",
+    "expected_category": "CLAIM",
+    "is_causal": true
+  },
+  {
+    "id": "gold-013",
+    "domain": "science",
+    "text": "We currently only have observational evidence from cohort studies, so no causal conclusions can yet be drawn.",
+    "expected_stance": "UNCERTAIN",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-014",
+    "domain": "philosophy",
+    "text": "According to Epictetus, we are disturbed not by things, but by the view which we take of things.",
+    "expected_stance": "ATTRIBUTED",
+    "expected_attributed_to": "Epictetus",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": true
+  },
+  {
+    "id": "gold-015",
+    "domain": "behavioral",
+    "text": "My friend Bob took a cold shower and felt energized for two hours.",
+    "expected_stance": "EXAMPLE_ONLY",
+    "expected_scope": "INDIVIDUAL",
+    "expected_category": "EXAMPLE",
+    "is_causal": false
+  },
+  {
+    "id": "gold-016",
+    "domain": "science",
+    "text": "Either receptor downregulation or metabolic clearance could explain the observed post-stimulation trough.",
+    "expected_stance": "POSSIBLE",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-017",
+    "domain": "history",
+    "text": "In the nineteenth century, phrenologists claimed skull shape determined moral character.",
+    "expected_stance": "ATTRIBUTED",
+    "expected_attributed_to": "19th Century Phrenologists",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-018",
+    "domain": "behavioral",
+    "text": "Administering progressive friction expands the Yerkes-Dodson arousal perimeter.",
+    "expected_stance": "ASSERTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "PRINCIPLE",
+    "is_causal": true
+  },
+  {
+    "id": "gold-019",
+    "domain": "communication",
+    "text": "Topic-stress mismatch occurs when writing focuses on author topics rather than reader instability.",
+    "expected_stance": "ASSERTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CONCEPT",
+    "is_causal": true
+  },
+  {
+    "id": "gold-020",
+    "domain": "dialogue",
+    "text": "Host: Do you believe fasting cures inflammation? Guest: We do not have sufficient clinical trial data to assert that.",
+    "expected_stance": "UNCERTAIN",
+    "expected_epistemic_status": "SOURCE_EXTRACTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-021",
+    "domain": "psychology",
+    "text": "Playing it safe moves act like bandages on an open wound because they provide temporary relief without resolving the underlying issue.",
+    "expected_stance": "ASSERTED",
+    "expected_category": "ANALOGY",
+    "is_causal": true
+  },
+  {
+    "id": "gold-022",
+    "domain": "psychology",
+    "text": "Repetition is a key characteristic of all playing it safe moves.",
+    "expected_stance": "ASSERTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-023",
+    "domain": "neurobiology",
+    "text": "Enteric serotonin synthesis accounts for approximately ninety percent of total bodily serotonin production.",
+    "expected_stance": "ASSERTED",
+    "expected_scope": "UNIVERSAL",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-024",
+    "domain": "behavioral",
+    "text": "Actually, let me correct that statement: the half-life is four hours, not forty-eight hours.",
+    "expected_stance": "ASSERTED",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  },
+  {
+    "id": "gold-025",
+    "domain": "philosophy",
+    "text": "Smith argues that Jones believes in determinism, but I disagree with both of their premises.",
+    "expected_stance": "ATTRIBUTED",
+    "expected_attributed_to": "Smith and Jones",
+    "expected_category": "CLAIM",
+    "is_causal": false
+  }
+]

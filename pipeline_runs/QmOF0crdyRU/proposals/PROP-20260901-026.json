@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-026",
+  "created_at": "2026-09-01T15:11:31.263Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-032",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-362",
+      "start": 974.1,
+      "end": 975.4,
+      "quoted_text": "and the prefrontal cortex."
+    },
+    {
+      "entity_id": "CLM-363",
+      "start": 975.4,
+      "end": 976.5,
+      "quoted_text": "Now, that's a lot of language,"
+    },
+    {
+      "entity_id": "CLM-364",
+      "start": 976.5,
+      "end": 978.8,
+      "quoted_text": "but basically what we call this is the,"
+    },
+    {
+      "entity_id": "CLM-365",
+      "start": 978.8,
+      "end": 980.3,
+      "quoted_text": "mesocorticolimbic pathway."
+    },
+    {
+      "entity_id": "CLM-366",
+      "start": 980.3,
+      "end": 985.3,
+      "quoted_text": "This is the pathway by which dopamine influences motivation,"
+    },
+    {
+      "entity_id": "CLM-367",
+      "start": 987.3,
+      "end": 989.1,
+      "quoted_text": "It involves structures that some of you may have heard"
+    },
+    {
+      "entity_id": "EXM-012",
+      "start": 990,
+      "end": 992.9,
+      "quoted_text": "Things like nucleus accumbens and the prefrontal cortex."
+    },
+    {
+      "entity_id": "CLM-368",
+      "start": 992.9,
+      "end": 995.6,
+      "quoted_text": "This is the pathway that really gets disrupted"
+    },
+    {
+      "entity_id": "CLM-369",
+      "start": 995.6,
+      "end": 1000.2,
+      "quoted_text": "in addictions where in particular drugs that influence"
+    },
+    {
+      "entity_id": "EXM-013",
+      "start": 1000.2,
+      "end": 1002.6,
+      "quoted_text": "the release of dopamine like cocaine and methamphetamine."
+    },
+    {
+      "entity_id": "CLM-370",
+      "start": 1002.6,
+      "end": 1004.1,
+      "quoted_text": "We'll talk about those drugs today."
+    },
+    {
+      "entity_id": "CLM-371",
+      "start": 1004.1,
+      "end": 1005.6,
+      "quoted_text": "They tap into this pathway."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: and the prefrontal cortex.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [974s-975s]: \"and the prefrontal cortex.\"\n  - [975s-976s]: \"Now, that's a lot of language,\"\n  - [976s-978s]: \"but basically what we call this is the,\"\n  - [978s-980s]: \"mesocorticolimbic pathway.\"\n  - [980s-985s]: \"This is the pathway by which dopamine influences motivation,\"\n  - [987s-989s]: \"It involves structures that some of you may have heard\"\n  - [990s-992s]: \"Things like nucleus accumbens and the prefrontal cortex.\"\n  - [992s-995s]: \"This is the pathway that really gets disrupted\"\n  - [995s-1000s]: \"in addictions where in particular drugs that influence\"\n  - [1000s-1002s]: \"the release of dopamine like cocaine and methamphetamine.\"\n  - [1002s-1004s]: \"We'll talk about those drugs today.\"\n  - [1004s-1005s]: \"They tap into this pathway.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: and the prefrontal cortex.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [974s-975s]: \"and the prefrontal cortex.\"\n+  - [975s-976s]: \"Now, that's a lot of language,\"\n+  - [976s-978s]: \"but basically what we call this is the,\"\n+  - [978s-980s]: \"mesocorticolimbic pathway.\"\n+  - [980s-985s]: \"This is the pathway by which dopamine influences motivation,\"\n+  - [987s-989s]: \"It involves structures that some of you may have heard\"\n+  - [990s-992s]: \"Things like nucleus accumbens and the prefrontal cortex.\"\n+  - [992s-995s]: \"This is the pathway that really gets disrupted\"\n+  - [995s-1000s]: \"in addictions where in particular drugs that influence\"\n+  - [1000s-1002s]: \"the release of dopamine like cocaine and methamphetamine.\"\n+  - [1002s-1004s]: \"We'll talk about those drugs today.\"\n+  - [1004s-1005s]: \"They tap into this pathway.\"\n"
+  }
+}

@@ -1,0 +1,2200 @@
+{
+  "video_id": "nZNKnlfwuI8",
+  "cleaned_segments": [
+    {
+      "id": "seg-0001",
+      "start": 0,
+      "end": 4.28,
+      "duration": 4.28,
+      "text": "Anthony Bourdain graduated from the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0002",
+      "start": 1.6,
+      "end": 6.88,
+      "duration": 5.28,
+      "text": "Culinary Institute of America in 1978.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0003",
+      "start": 4.28,
+      "end": 9.2,
+      "duration": 4.92,
+      "text": "He was 21. His plan was to cook. So, he",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0004",
+      "start": 6.88,
+      "end": 12.16,
+      "duration": 5.28,
+      "text": "cooked. Line cook jobs across New York",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0005",
+      "start": 9.2,
+      "end": 13.84,
+      "duration": 4.64,
+      "text": "City, long shifts, loud kitchens, the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0006",
+      "start": 12.16,
+      "end": 16.32,
+      "duration": 4.16,
+      "text": "kind of work that pays just enough to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0007",
+      "start": 13.84,
+      "end": 18.08,
+      "duration": 4.24,
+      "text": "keep doing it. By the mid-1990s, he was",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0008",
+      "start": 16.32,
+      "end": 20.72,
+      "duration": 4.4,
+      "text": "running the kitchen at Les Hall, a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0009",
+      "start": 18.08,
+      "end": 23,
+      "duration": 4.92,
+      "text": "French brasserie in Manhattan. Executive",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0010",
+      "start": 20.72,
+      "end": 24.64,
+      "duration": 3.92,
+      "text": "chef. A career that from the outside",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0011",
+      "start": 23,
+      "end": 27,
+      "duration": 4,
+      "text": "looked finished in the best possible",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0012",
+      "start": 24.64,
+      "end": 29.68,
+      "duration": 5.04,
+      "text": "way. The problem was he also wanted to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0013",
+      "start": 27,
+      "end": 31.84,
+      "duration": 4.84,
+      "text": "be a writer. He tried twice. His first",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0014",
+      "start": 29.68,
+      "end": 34.72,
+      "duration": 5.04,
+      "text": "novel, Bone in the Throat, came out in",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0015",
+      "start": 31.84,
+      "end": 37.56,
+      "duration": 5.72,
+      "text": "1995. Almost completely ignored. His",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0016",
+      "start": 34.72,
+      "end": 38.96,
+      "duration": 4.24,
+      "text": "second, Gone Bamboo, followed in 1997.",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0017",
+      "start": 37.56,
+      "end": 41.2,
+      "duration": 3.64,
+      "text": "Same result. So, he kept",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0018",
+      "start": 38.96,
+      "end": 43.56,
+      "duration": 4.6,
+      "text": "cooking. He ran his kitchen. He paid his",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0019",
+      "start": 41.2,
+      "end": 45.32,
+      "duration": 4.12,
+      "text": "bills. And in 1999, he sat down and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0020",
+      "start": 43.56,
+      "end": 46.92,
+      "duration": 3.36,
+      "text": "wrote an essay about what professional",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0021",
+      "start": 45.32,
+      "end": 49.44,
+      "duration": 4.12,
+      "text": "kitchens actually look like from the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0022",
+      "start": 46.92,
+      "end": 51.4,
+      "duration": 4.48,
+      "text": "inside. Blunt, funny, occasionally",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0023",
+      "start": 49.44,
+      "end": 53.52,
+      "duration": 4.08,
+      "text": "disgusting. He called it Don't Eat",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0024",
+      "start": 51.4,
+      "end": 56,
+      "duration": 4.6,
+      "text": "Before Reading This. It ended up at The",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0025",
+      "start": 53.52,
+      "end": 57.64,
+      "duration": 4.12,
+      "text": "New Yorker. They published it. Kitchen",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0026",
+      "start": 56,
+      "end": 60.08,
+      "duration": 4.08,
+      "text": "Confidential followed. Then No",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0027",
+      "start": 57.64,
+      "end": 61.56,
+      "duration": 3.92,
+      "text": "Reservations. Then Parts Unknown. 18",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0028",
+      "start": 60.08,
+      "end": 64.08,
+      "duration": 4,
+      "text": "years of traveling the world,",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0029",
+      "start": 61.56,
+      "end": 66,
+      "duration": 4.44,
+      "text": "eating everything, talking to everyone.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0030",
+      "start": 64.08,
+      "end": 67.8,
+      "duration": 3.72,
+      "text": "A career that traced back entirely to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0031",
+      "start": 66,
+      "end": 69.43,
+      "duration": 3.43,
+      "text": "one moment where he sent something to a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0032",
+      "start": 67.8,
+      "end": 71.12,
+      "duration": 3.32,
+      "text": "place he wasn't sure he belonged.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0033",
+      "start": 69.43,
+      "end": 73.64,
+      "duration": 4.21,
+      "text": "What Bourdain did with that",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0034",
+      "start": 71.12,
+      "end": 76.36,
+      "duration": 5.24,
+      "text": "career, and what he kept saying over and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0035",
+      "start": 73.64,
+      "end": 78.92,
+      "duration": 5.28,
+      "text": "over in different ways across 18 years",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0036",
+      "start": 76.36,
+      "end": 80.48,
+      "duration": 4.12,
+      "text": "of television, was essentially one",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0037",
+      "start": 78.92,
+      "end": 82.04,
+      "duration": 3.12,
+      "text": "argument. That the life most",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0038",
+      "start": 80.48,
+      "end": 84.64,
+      "duration": 4.16,
+      "text": "people are carefully building for",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0039",
+      "start": 82.04,
+      "end": 86.76,
+      "duration": 4.72,
+      "text": "themselves is missing the most important",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0040",
+      "start": 84.64,
+      "end": 88.68,
+      "duration": 4.04,
+      "text": "thing. And that the most important thing",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0041",
+      "start": 86.76,
+      "end": 92.28,
+      "duration": 5.52,
+      "text": "is almost always on the other side of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0042",
+      "start": 88.68,
+      "end": 92.28,
+      "duration": 3.6,
+      "text": "something uncomfortable.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0043",
+      "start": 92.4,
+      "end": 96.28,
+      "duration": 3.88,
+      "text": "Most people live inside a plan they",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0044",
+      "start": 94.08,
+      "end": 98,
+      "duration": 3.92,
+      "text": "never actually made. A job that pays",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0045",
+      "start": 96.28,
+      "end": 100.64,
+      "duration": 4.36,
+      "text": "well enough. A city they know how to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0046",
+      "start": 98,
+      "end": 103,
+      "duration": 5,
+      "text": "navigate. Restaurants they like. Routes",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0047",
+      "start": 100.64,
+      "end": 105.2,
+      "duration": 4.56,
+      "text": "they've memorized. Routines that make",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0048",
+      "start": 103,
+      "end": 107,
+      "duration": 4,
+      "text": "the days feel manageable. A life that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0049",
+      "start": 105.2,
+      "end": 108.44,
+      "duration": 3.24,
+      "text": "when you describe it to someone sounds",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0050",
+      "start": 107,
+      "end": 111.12,
+      "duration": 4.12,
+      "text": "completely",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0051",
+      "start": 108.44,
+      "end": 112.88,
+      "duration": 4.44,
+      "text": "fine. Fine is the word that keeps coming",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0052",
+      "start": 111.12,
+      "end": 115.16,
+      "duration": 4.04,
+      "text": "up. And the thing about fine is it",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0053",
+      "start": 112.88,
+      "end": 117.92,
+      "duration": 5.04,
+      "text": "doesn't alarm anyone. It doesn't raise",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0054",
+      "start": 115.16,
+      "end": 119.64,
+      "duration": 4.48,
+      "text": "any flags. It's comfortable and clean",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0055",
+      "start": 117.92,
+      "end": 122.84,
+      "duration": 4.92,
+      "text": "and completely sufficient, and it will",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0056",
+      "start": 119.64,
+      "end": 124.72,
+      "duration": 5.08,
+      "text": "carry you from your 20s to your 50s",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0057",
+      "start": 122.84,
+      "end": 126.64,
+      "duration": 3.8,
+      "text": "without ever once making you feel like",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0058",
+      "start": 124.72,
+      "end": 128.16,
+      "duration": 3.44,
+      "text": "something is wrong right up until the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0059",
+      "start": 126.64,
+      "end": 130.4,
+      "duration": 3.76,
+      "text": "moment you realize that nothing",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0060",
+      "start": 128.16,
+      "end": 132,
+      "duration": 3.84,
+      "text": "surprising has happened to you in years.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0061",
+      "start": 130.4,
+      "end": 133.72,
+      "duration": 3.32,
+      "text": "Most people plan the surprising out of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0062",
+      "start": 132,
+      "end": 136.12,
+      "duration": 4.12,
+      "text": "their lives without meaning to. They",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0063",
+      "start": 133.72,
+      "end": 138.16,
+      "duration": 4.44,
+      "text": "make sensible choices. They take the job",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0064",
+      "start": 136.12,
+      "end": 140.12,
+      "duration": 4,
+      "text": "that makes obvious sense instead of the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0065",
+      "start": 138.16,
+      "end": 142.04,
+      "duration": 3.88,
+      "text": "one they're not sure they can do. They",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0066",
+      "start": 140.12,
+      "end": 143.84,
+      "duration": 3.72,
+      "text": "stay in the city where they already know",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0067",
+      "start": 142.04,
+      "end": 146.4,
+      "duration": 4.36,
+      "text": "people instead of the one they've been",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0068",
+      "start": 143.84,
+      "end": 148.56,
+      "duration": 4.72,
+      "text": "thinking about for 3 years. None of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0069",
+      "start": 146.4,
+      "end": 150.68,
+      "duration": 4.28,
+      "text": "these are bad decisions individually.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0070",
+      "start": 148.56,
+      "end": 153.6,
+      "duration": 5.04,
+      "text": "All of them stacked on top of each other",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0071",
+      "start": 150.68,
+      "end": 156.12,
+      "duration": 5.44,
+      "text": "year after year quietly add up to a life",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0072",
+      "start": 153.6,
+      "end": 158.32,
+      "duration": 4.72,
+      "text": "where nothing unexpected ever gets in.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0073",
+      "start": 156.12,
+      "end": 161.44,
+      "duration": 5.32,
+      "text": "Bourdain spent his 30s doing exactly",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0074",
+      "start": 158.32,
+      "end": 163.48,
+      "duration": 5.16,
+      "text": "this. Good at his job. Had a title. Had",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0075",
+      "start": 161.44,
+      "end": 165.12,
+      "duration": 3.68,
+      "text": "a kitchen that ran the way he wanted.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0076",
+      "start": 163.48,
+      "end": 166.92,
+      "duration": 3.44,
+      "text": "And two failed novels in a drawer",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0077",
+      "start": 165.12,
+      "end": 168.64,
+      "duration": 3.52,
+      "text": "somewhere and a writing dream he'd",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0078",
+      "start": 166.92,
+      "end": 170.32,
+      "duration": 3.4,
+      "text": "mostly made his peace with. From the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0079",
+      "start": 168.64,
+      "end": 172.52,
+      "duration": 3.88,
+      "text": "outside, it looked like a man who had",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0080",
+      "start": 170.32,
+      "end": 174.4,
+      "duration": 4.08,
+      "text": "figured out what he was and accepted it.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0081",
+      "start": 172.52,
+      "end": 176.28,
+      "duration": 3.76,
+      "text": "What actually happened is that he got",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0082",
+      "start": 174.4,
+      "end": 178.2,
+      "duration": 3.8,
+      "text": "bored enough to stop playing it",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0083",
+      "start": 176.28,
+      "end": 179.24,
+      "duration": 2.96,
+      "text": "safe and do something that made no",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0084",
+      "start": 178.2,
+      "end": 182.32,
+      "duration": 4.12,
+      "text": "obvious sense.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0085",
+      "start": 179.24,
+      "end": 183.64,
+      "duration": 4.4,
+      "text": ">> Be open to experience.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0086",
+      "start": 182.32,
+      "end": 186.36,
+      "duration": 4.04,
+      "text": "Be willing to try new things.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0087",
+      "start": 183.64,
+      "end": 188.88,
+      "duration": 5.24,
+      "text": "Don't have a rigid plan. Accept random",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0088",
+      "start": 186.36,
+      "end": 190.92,
+      "duration": 4.56,
+      "text": "acts of hospitality without judgment or",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0089",
+      "start": 188.88,
+      "end": 193.28,
+      "duration": 4.4,
+      "text": "fear. Don't be afraid to wander. Don't",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0090",
+      "start": 190.92,
+      "end": 195.2,
+      "duration": 4.28,
+      "text": "be afraid to eat a bad meal. You",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0091",
+      "start": 193.28,
+      "end": 196.24,
+      "duration": 2.96,
+      "text": "know, if you don't risk the bad meal,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0092",
+      "start": 195.2,
+      "end": 198.04,
+      "duration": 2.84,
+      "text": "you'll never get the magical",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0093",
+      "start": 196.24,
+      "end": 200.32,
+      "duration": 4.08,
+      "text": "one. But I think most important, you",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0094",
+      "start": 198.04,
+      "end": 201.08,
+      "duration": 3.04,
+      "text": "know, be humble. Be grateful. Be aware",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0095",
+      "start": 200.32,
+      "end": 202.8,
+      "duration": 2.48,
+      "text": "of the fact that you are",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0096",
+      "start": 201.08,
+      "end": 203.8,
+      "duration": 2.72,
+      "text": "probably the stupidest person in the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0097",
+      "start": 202.8,
+      "end": 205.8,
+      "duration": 3,
+      "text": "room.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0098",
+      "start": 203.8,
+      "end": 207.92,
+      "duration": 4.12,
+      "text": "As far as you are the least prepared,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0099",
+      "start": 205.8,
+      "end": 209.32,
+      "duration": 3.52,
+      "text": "least equipped person",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0100",
+      "start": 207.92,
+      "end": 210.92,
+      "duration": 3,
+      "text": "to know",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0101",
+      "start": 209.32,
+      "end": 211.96,
+      "duration": 2.64,
+      "text": "who's really in charge of what's really",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0102",
+      "start": 210.92,
+      "end": 214.04,
+      "duration": 3.12,
+      "text": "going on.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0103",
+      "start": 211.96,
+      "end": 216.12,
+      "duration": 4.16,
+      "text": ">> The rigid plan is not just a travel",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0104",
+      "start": 214.04,
+      "end": 217.96,
+      "duration": 3.92,
+      "text": "problem. It's the version of yourself",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0105",
+      "start": 216.12,
+      "end": 220.32,
+      "duration": 4.2,
+      "text": "that already knows what you're capable",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0106",
+      "start": 217.96,
+      "end": 222.48,
+      "duration": 4.52,
+      "text": "of and arranges your life accordingly.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0107",
+      "start": 220.32,
+      "end": 224.76,
+      "duration": 4.44,
+      "text": "It sets the ceiling before you've hit",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0108",
+      "start": 222.48,
+      "end": 227,
+      "duration": 4.52,
+      "text": "it. It builds the box before you've run",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0109",
+      "start": 224.76,
+      "end": 229.2,
+      "duration": 4.44,
+      "text": "out of room. And it does all of it with",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0110",
+      "start": 227,
+      "end": 231,
+      "duration": 4,
+      "text": "perfectly reasonable justifications,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0111",
+      "start": 229.2,
+      "end": 233.56,
+      "duration": 4.36,
+      "text": "which is exactly what makes it so hard",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0112",
+      "start": 231,
+      "end": 236.04,
+      "duration": 5.04,
+      "text": "to argue with. Bourdain's essay had no",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0113",
+      "start": 233.56,
+      "end": 238.2,
+      "duration": 4.64,
+      "text": "business landing where it did. His",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0114",
+      "start": 236.04,
+      "end": 240.72,
+      "duration": 4.68,
+      "text": "resume for that submission was two",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0115",
+      "start": 238.2,
+      "end": 242.76,
+      "duration": 4.56,
+      "text": "novels nobody bought and 20 years of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0116",
+      "start": 240.72,
+      "end": 244.72,
+      "duration": 4,
+      "text": "cooking professionally. The New Yorker",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0117",
+      "start": 242.76,
+      "end": 246.28,
+      "duration": 3.52,
+      "text": "published it anyway. The plan can't",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0118",
+      "start": 244.72,
+      "end": 248.96,
+      "duration": 4.24,
+      "text": "account for the things that haven't",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0119",
+      "start": 246.28,
+      "end": 248.96,
+      "duration": 2.68,
+      "text": "happened yet.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0120",
+      "start": 249.4,
+      "end": 254.6,
+      "duration": 5.2,
+      "text": "The bad meal is a specific concept. Take",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0121",
+      "start": 251.96,
+      "end": 256.68,
+      "duration": 4.72,
+      "text": "risks. Step outside your comfort zone.",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0122",
+      "start": 254.6,
+      "end": 258.64,
+      "duration": 4.04,
+      "text": "Embrace failure. All language that's",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0123",
+      "start": 256.68,
+      "end": 260.8,
+      "duration": 4.12,
+      "text": "been said so many times it's become",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0124",
+      "start": 258.64,
+      "end": 263.12,
+      "duration": 4.48,
+      "text": "background noise. Bourdain was not",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0125",
+      "start": 260.8,
+      "end": 265.16,
+      "duration": 4.36,
+      "text": "talking abstractly. He was talking about",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0126",
+      "start": 263.12,
+      "end": 267.12,
+      "duration": 4,
+      "text": "the fermented shark in Iceland that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0127",
+      "start": 265.16,
+      "end": 268.96,
+      "duration": 3.8,
+      "text": "smells like ammonia and tastes like",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0128",
+      "start": 267.12,
+      "end": 270.76,
+      "duration": 3.64,
+      "text": "something that should not legally be",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0129",
+      "start": 268.96,
+      "end": 273.52,
+      "duration": 4.56,
+      "text": "food. The unmarked restaurant",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0130",
+      "start": 270.76,
+      "end": 276.4,
+      "duration": 5.64,
+      "text": "down the alley in Hanoi with no menu and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0131",
+      "start": 273.52,
+      "end": 278.4,
+      "duration": 4.88,
+      "text": "no prices and no clear indication that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0132",
+      "start": 276.4,
+      "end": 281.12,
+      "duration": 4.72,
+      "text": "what you're about to eat won't make you",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0133",
+      "start": 278.4,
+      "end": 283.48,
+      "duration": 5.08,
+      "text": "sick for a week. Things he actually did",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0134",
+      "start": 281.12,
+      "end": 285.44,
+      "duration": 4.32,
+      "text": "repeatedly on purpose because he",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0135",
+      "start": 283.48,
+      "end": 287.4,
+      "duration": 3.92,
+      "text": "believed that the physical experience of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0136",
+      "start": 285.44,
+      "end": 290.2,
+      "duration": 4.76,
+      "text": "committing to something you weren't sure",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0137",
+      "start": 287.4,
+      "end": 292.04,
+      "duration": 4.64,
+      "text": "about was the entire point. The bad meal",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0138",
+      "start": 290.2,
+      "end": 294.4,
+      "duration": 4.2,
+      "text": "is not a metaphor for failure. It's a",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0139",
+      "start": 292.04,
+      "end": 296.12,
+      "duration": 4.08,
+      "text": "metaphor for the moment before you know",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0140",
+      "start": 294.4,
+      "end": 298.68,
+      "duration": 4.28,
+      "text": "how something is going to go. The job",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0141",
+      "start": 296.12,
+      "end": 300.96,
+      "duration": 4.84,
+      "text": "you weren't sure you were qualified for.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0142",
+      "start": 298.68,
+      "end": 302.84,
+      "duration": 4.16,
+      "text": "The move to a city where you don't know",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0143",
+      "start": 300.96,
+      "end": 304.96,
+      "duration": 4,
+      "text": "anyone. All of it lives in the same",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0144",
+      "start": 302.84,
+      "end": 306.68,
+      "duration": 3.84,
+      "text": "category. All of it requires the same",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0145",
+      "start": 304.96,
+      "end": 308,
+      "duration": 3.04,
+      "text": "thing, which is the willingness to eat",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0146",
+      "start": 306.68,
+      "end": 310.08,
+      "duration": 3.4,
+      "text": "something before you know whether it's",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0147",
+      "start": 308,
+      "end": 312.12,
+      "duration": 4.12,
+      "text": "going to be terrible or the best thing",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0148",
+      "start": 310.08,
+      "end": 313.96,
+      "duration": 3.88,
+      "text": "you've ever tasted. Most people skip",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0149",
+      "start": 312.12,
+      "end": 315.68,
+      "duration": 3.56,
+      "text": "this moment. They read the reviews",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0150",
+      "start": 313.96,
+      "end": 317.32,
+      "duration": 3.36,
+      "text": "first. They eliminate as much",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0151",
+      "start": 315.68,
+      "end": 319.4,
+      "duration": 3.72,
+      "text": "uncertainty as possible before",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0152",
+      "start": 317.32,
+      "end": 321.2,
+      "duration": 3.88,
+      "text": "committing, which feels like wisdom and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0153",
+      "start": 319.4,
+      "end": 322.88,
+      "duration": 3.48,
+      "text": "is actually just a very sophisticated",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0154",
+      "start": 321.2,
+      "end": 324.84,
+      "duration": 3.64,
+      "text": "way of making sure you never",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0155",
+      "start": 322.88,
+      "end": 326.92,
+      "duration": 4.04,
+      "text": "accidentally stumble into something",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0156",
+      "start": 324.84,
+      "end": 329.16,
+      "duration": 4.32,
+      "text": "extraordinary. Bourdain's career",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0157",
+      "start": 326.92,
+      "end": 331.48,
+      "duration": 4.56,
+      "text": "is basically a long argument against",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0158",
+      "start": 329.16,
+      "end": 333.32,
+      "duration": 4.16,
+      "text": "research. He showed up to places he knew",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0159",
+      "start": 331.48,
+      "end": 335.8,
+      "duration": 4.32,
+      "text": "nothing about and figured it out from",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0160",
+      "start": 333.32,
+      "end": 337.48,
+      "duration": 4.16,
+      "text": "there. He sat down at tables with people",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0161",
+      "start": 335.8,
+      "end": 339.29,
+      "duration": 3.49,
+      "text": "whose names he couldn't pronounce in",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0162",
+      "start": 337.48,
+      "end": 339.32,
+      "duration": 1.84,
+      "text": "languages he didn't speak",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0163",
+      "start": 339.29,
+      "end": 340.96,
+      "duration": 1.67,
+      "text": ">>",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0164",
+      "start": 339.32,
+      "end": 343.12,
+      "duration": 3.8,
+      "text": ">> and ate whatever they put in front of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0165",
+      "start": 340.96,
+      "end": 345.08,
+      "duration": 4.12,
+      "text": "him. Not because he was fearless. He",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0166",
+      "start": 343.12,
+      "end": 347.04,
+      "duration": 3.92,
+      "text": "talked about fear constantly, but",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0167",
+      "start": 345.08,
+      "end": 349.6,
+      "duration": 4.52,
+      "text": "because he understood that fear was the",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0168",
+      "start": 347.04,
+      "end": 351.28,
+      "duration": 4.24,
+      "text": "tax you paid on everything worth doing",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0169",
+      "start": 349.6,
+      "end": 353.12,
+      "duration": 3.52,
+      "text": "and there was no way around it, only",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0170",
+      "start": 351.28,
+      "end": 355.52,
+      "duration": 4.24,
+      "text": "through it. The thing he kept coming",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0171",
+      "start": 353.12,
+      "end": 357.92,
+      "duration": 4.8,
+      "text": "back to was the idea that the experience",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0172",
+      "start": 355.52,
+      "end": 360.52,
+      "duration": 5,
+      "text": "itself was the point, not the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0173",
+      "start": 357.92,
+      "end": 363.52,
+      "duration": 5.6,
+      "text": "destination, not the story you get to",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0174",
+      "start": 360.52,
+      "end": 366.08,
+      "duration": 5.56,
+      "text": "tell afterward. The actual experience of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0175",
+      "start": 363.52,
+      "end": 368.68,
+      "duration": 5.16,
+      "text": "being somewhere unfamiliar and not",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0176",
+      "start": 366.08,
+      "end": 370.84,
+      "duration": 4.76,
+      "text": "knowing how it was going to go. The bad",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0177",
+      "start": 368.68,
+      "end": 373.44,
+      "duration": 4.76,
+      "text": "meal isn't something you survive on the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0178",
+      "start": 370.84,
+      "end": 376.12,
+      "duration": 5.28,
+      "text": "way to the good one. The bad meal is the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0179",
+      "start": 373.44,
+      "end": 379.04,
+      "duration": 5.6,
+      "text": "whole lesson. Discomfort is the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0180",
+      "start": 376.12,
+      "end": 379.04,
+      "duration": 2.92,
+      "text": "education.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0181",
+      "start": 379.12,
+      "end": 382.76,
+      "duration": 3.64,
+      "text": ">> If I do have any advice for anybody, any",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0182",
+      "start": 381.32,
+      "end": 385.64,
+      "duration": 4.32,
+      "text": "final thought, if I'm an",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0183",
+      "start": 382.76,
+      "end": 388.28,
+      "duration": 5.52,
+      "text": "advocate for anything, it's to move as",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0184",
+      "start": 385.64,
+      "end": 390.64,
+      "duration": 5,
+      "text": "far as you can, as much as you can.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0185",
+      "start": 388.28,
+      "end": 392.36,
+      "duration": 4.08,
+      "text": "Across the ocean or simply across the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0186",
+      "start": 390.64,
+      "end": 394.28,
+      "duration": 3.64,
+      "text": "river. The extent to which you",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0187",
+      "start": 392.36,
+      "end": 397,
+      "duration": 4.64,
+      "text": "can walk in somebody else's shoes or at",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0188",
+      "start": 394.28,
+      "end": 398.52,
+      "duration": 4.24,
+      "text": "least eat their food, it's a plus for",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0189",
+      "start": 397,
+      "end": 400.16,
+      "duration": 3.16,
+      "text": "everybody.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0190",
+      "start": 398.52,
+      "end": 402.08,
+      "duration": 3.56,
+      "text": "Open your mind.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0191",
+      "start": 400.16,
+      "end": 403.52,
+      "duration": 3.36,
+      "text": "Get up off the couch.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0192",
+      "start": 402.08,
+      "end": 405.32,
+      "duration": 3.24,
+      "text": "Move.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0193",
+      "start": 403.52,
+      "end": 406.8,
+      "duration": 3.28,
+      "text": ">> Most people are closer to the other side",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0194",
+      "start": 405.32,
+      "end": 408.4,
+      "duration": 3.08,
+      "text": "of the world than they think. The",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0195",
+      "start": 406.8,
+      "end": 410.52,
+      "duration": 3.72,
+      "text": "neighborhood they've driven past a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0196",
+      "start": 408.4,
+      "end": 412.76,
+      "duration": 4.36,
+      "text": "hundred times and never walked through.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0197",
+      "start": 410.52,
+      "end": 414.32,
+      "duration": 3.8,
+      "text": "The restaurant with no English menu. The",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0198",
+      "start": 412.76,
+      "end": 415.72,
+      "duration": 2.96,
+      "text": "conversation they've been avoiding",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0199",
+      "start": 414.32,
+      "end": 417.96,
+      "duration": 3.64,
+      "text": "because they already know it's going to",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0200",
+      "start": 415.72,
+      "end": 420.48,
+      "duration": 4.76,
+      "text": "be uncomfortable. All of it is the other",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0201",
+      "start": 417.96,
+      "end": 422.6,
+      "duration": 4.64,
+      "text": "side of the world. All of it requires",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0202",
+      "start": 420.48,
+      "end": 424.36,
+      "duration": 3.88,
+      "text": "the same thing. The willingness to show",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0203",
+      "start": 422.6,
+      "end": 426.52,
+      "duration": 3.92,
+      "text": "up somewhere you don't entirely know",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0204",
+      "start": 424.36,
+      "end": 428.72,
+      "duration": 4.36,
+      "text": "what you're doing and stay long enough",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0205",
+      "start": 426.52,
+      "end": 431.32,
+      "duration": 4.8,
+      "text": "to find out. Most people have already",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0206",
+      "start": 428.72,
+      "end": 433.2,
+      "duration": 4.48,
+      "text": "decided how they feel about the places",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0207",
+      "start": 431.32,
+      "end": 435.52,
+      "duration": 4.2,
+      "text": "they've never been, the food they've",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0208",
+      "start": 433.2,
+      "end": 437.52,
+      "duration": 4.32,
+      "text": "never eaten, the people whose lives look",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0209",
+      "start": 435.52,
+      "end": 439.4,
+      "duration": 3.88,
+      "text": "nothing like theirs. They formed that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0210",
+      "start": 437.52,
+      "end": 441.4,
+      "duration": 3.88,
+      "text": "opinion from a distance and they're",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0211",
+      "start": 439.4,
+      "end": 444.16,
+      "duration": 4.76,
+      "text": "keeping it because going to actually",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0212",
+      "start": 441.4,
+      "end": 445.96,
+      "duration": 4.56,
+      "text": "look means risking being wrong. And",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0213",
+      "start": 444.16,
+      "end": 448.24,
+      "duration": 4.08,
+      "text": "being wrong about something you've held",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0214",
+      "start": 445.96,
+      "end": 450.08,
+      "duration": 4.12,
+      "text": "on to for years is genuinely",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0215",
+      "start": 448.24,
+      "end": 452.44,
+      "duration": 4.2,
+      "text": "uncomfortable. More uncomfortable,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0216",
+      "start": 450.08,
+      "end": 455.2,
+      "duration": 5.12,
+      "text": "honestly, than any bad meal. Anthony",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0217",
+      "start": 452.44,
+      "end": 457.4,
+      "duration": 4.96,
+      "text": "Bourdain spent 18 years arguing against",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0218",
+      "start": 455.2,
+      "end": 459.56,
+      "duration": 4.36,
+      "text": "this from every angle he could find. He",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0219",
+      "start": 457.4,
+      "end": 461.88,
+      "duration": 4.48,
+      "text": "built an entire career out of showing",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0220",
+      "start": 459.56,
+      "end": 463.92,
+      "duration": 4.36,
+      "text": "people what it actually looked like",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0221",
+      "start": 461.88,
+      "end": 466.64,
+      "duration": 4.76,
+      "text": "inside the places they'd written off.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0222",
+      "start": 463.92,
+      "end": 468.84,
+      "duration": 4.92,
+      "text": "One table at a time, one meal at a time,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0223",
+      "start": 466.64,
+      "end": 470.44,
+      "duration": 3.8,
+      "text": "and he never stopped right up until he",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0224",
+      "start": 468.84,
+      "end": 471.28,
+      "duration": 2.44,
+      "text": "did.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0225",
+      "start": 470.44,
+      "end": 473.44,
+      "duration": 3,
+      "text": ">> You're probably going to find",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0226",
+      "start": 471.28,
+      "end": 474.72,
+      "duration": 3.44,
+      "text": "out about it anyway.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0227",
+      "start": 473.44,
+      "end": 477.36,
+      "duration": 3.92,
+      "text": "So, here's a little preemptive",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0228",
+      "start": 474.72,
+      "end": 480.56,
+      "duration": 5.84,
+      "text": "truth-telling.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0229",
+      "start": 477.36,
+      "end": 480.56,
+      "duration": 3.2,
+      "text": "There's no happy ending.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    }
+  ],
+  "audit_log": [
+    {
+      "segment_id": "seg-0017",
+      "start": 37.56,
+      "end": 41.2,
+      "original_text": "Same result. [music] So, he kept",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0028",
+      "start": 60.08,
+      "end": 64.08,
+      "original_text": "years of traveling the [music] world,",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0033",
+      "start": 69.43,
+      "end": 73.64,
+      "original_text": "[music] What Bourdain did with that",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0037",
+      "start": 78.92,
+      "end": 82.04,
+      "original_text": "argument. That the life [music] most",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0082",
+      "start": 174.4,
+      "end": 178.2,
+      "original_text": "bored enough to stop [music] playing it",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0086",
+      "start": 182.32,
+      "end": 186.36,
+      "original_text": "Be willing to [music] try new things.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0090",
+      "start": 190.92,
+      "end": 195.2,
+      "original_text": "be afraid [music] to eat a bad meal. You",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0092",
+      "start": 195.2,
+      "end": 198.04,
+      "original_text": "you'll never get the magical [music]",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0095",
+      "start": 200.32,
+      "end": 202.8,
+      "original_text": "of the [music] fact that you are",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0119",
+      "start": 246.28,
+      "end": 248.96,
+      "original_text": "happened yet. [music]",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0129",
+      "start": 268.96,
+      "end": 273.52,
+      "original_text": "food. The unmarked restaurant [music]",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0156",
+      "start": 324.84,
+      "end": 329.16,
+      "original_text": "extraordinary. [music] Bourdain's career",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0163",
+      "start": 339.29,
+      "end": 340.96,
+      "original_text": ">> [music]",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0182",
+      "start": 381.32,
+      "end": 385.64,
+      "original_text": "final thought, [music] if I'm an",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0186",
+      "start": 390.64,
+      "end": 394.28,
+      "original_text": "river. [music] The extent to which you",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0225",
+      "start": 470.44,
+      "end": 473.44,
+      "original_text": ">> You're probably going [music] to find",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    }
+  ],
+  "total_raw_segments": 229,
+  "total_cleaned_segments": 229,
+  "removed_segments_count": 0,
+  "retention_rate_pct": 100
+}

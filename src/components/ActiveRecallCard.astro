@@ -1,0 +1,48 @@
+---
+interface Props {
+  questions: Array<{
+    question: string;
+    answer: string;
+    concept?: string;
+  }>;
+}
+
+const { questions } = Astro.props;
+---
+
+{questions && questions.length > 0 && (
+  <section class="recall-section" aria-label="Active Recall & Self-Testing">
+    <div class="recall-header">
+      <div class="recall-title">
+        <span aria-hidden="true">🧠</span>
+        <span>Active Retrieval & Self-Diagnostic Prompts</span>
+      </div>
+      <p class="recall-subtitle">
+        Test whether you can actively explain the core mechanism before viewing the model answer.
+      </p>
+    </div>
+    
+    <div class="recall-list">
+      {questions.map((q, idx) => (
+        <div class="recall-item">
+          <div class="recall-question">
+            <span class="recall-num">{idx + 1}.</span>
+            <span class="recall-q-text">{q.question}</span>
+            {q.concept && (
+              <span class="recall-concept-badge">{q.concept}</span>
+            )}
+          </div>
+          <details class="recall-answer-details">
+            <summary class="recall-summary-btn">
+              <span class="recall-toggle-text">Reveal First-Principles Explanation</span>
+              <span class="recall-toggle-arrow" aria-hidden="true">▾</span>
+            </summary>
+            <div class="recall-answer-body">
+              <p>{q.answer}</p>
+            </div>
+          </details>
+        </div>
+      ))}
+    </div>
+  </section>
+)}

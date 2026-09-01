@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-071",
+  "created_at": "2026-09-01T15:11:31.275Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-086",
+  "target_topic_slug": "the-diderot-effect-and-habit-cascades",
+  "target_topic_title": "The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior",
+  "target_content_hash_before": "769033a7b58114fa19923041b857e9c7f60dd3543af2eff4152efd707f0943ec",
+  "routing_decision": "EXAMPLE_OR_APPLICATION",
+  "confidence": "HIGH",
+  "confidence_score": 0.9,
+  "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-989",
+      "start": 2769.5,
+      "end": 2773.6,
+      "quoted_text": "So certain things chemicals have a universal effect."
+    },
+    {
+      "entity_id": "CLM-990",
+      "start": 2773.6,
+      "end": 2776.1,
+      "quoted_text": "They make everybody's dopamine go up."
+    },
+    {
+      "entity_id": "EXM-033",
+      "start": 2776.1,
+      "end": 2777.6,
+      "quoted_text": "So some people like chocolate,"
+    },
+    {
+      "entity_id": "CLM-991",
+      "start": 2777.6,
+      "end": 2779.4,
+      "quoted_text": "some people don't of course,"
+    },
+    {
+      "entity_id": "CLM-992",
+      "start": 2779.4,
+      "end": 2781.4,
+      "quoted_text": "but in general, it make has causes"
+    },
+    {
+      "entity_id": "CLM-993",
+      "start": 2781.4,
+      "end": 2782.9,
+      "quoted_text": "this increase in dopamine."
+    },
+    {
+      "entity_id": "CLM-994",
+      "start": 2782.9,
+      "end": 2785.4,
+      "quoted_text": "But sex, nicotine, cocaine, amphetamine,"
+    },
+    {
+      "entity_id": "CLM-995",
+      "start": 2785.4,
+      "end": 2788.1,
+      "quoted_text": "those things cause increases in dopamine"
+    },
+    {
+      "entity_id": "CLM-996",
+      "start": 2788.1,
+      "end": 2789.6,
+      "quoted_text": "and everybody that takes them."
+    },
+    {
+      "entity_id": "EXM-034",
+      "start": 2791,
+      "end": 2793.4,
+      "quoted_text": "Things like exercise, studying, hard work,"
+    },
+    {
+      "entity_id": "CLM-997",
+      "start": 2793.4,
+      "end": 2795.3,
+      "quoted_text": "working through a challenge in a relationship"
+    },
+    {
+      "entity_id": "CLM-998",
+      "start": 2795.3,
+      "end": 2798.2,
+      "quoted_text": "or working through something hard of any kind"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-diderot-effect-and-habit-cascades\"\ntitle: \"The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 3\narchetype: \"CANONICAL_CONCEPT\"\nreading_time_minutes: 5\nsummary_15s: \"You rarely have ten separate habit problems; you usually have one fragile lead domino. Protect your initial daily anchor, install circuit breakers when you stumble, and let positive behavioral cascades elevate your default standard of living.\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nMost people treat their habits as isolated events. You might believe that eating junk food, skipping a workout, mindlessly scrolling social media, and staying up late are four distinct problems requiring four separate battles of willpower. \n\nIn behavioral psychology, human actions rarely occur in isolation. Instead, they operate as **interconnected behavioral cascades**—where a single initial choice triggers an involuntary chain reaction of complementary behaviors. \n\nThis psychological mechanism is known as the **Diderot Effect**.\n\n---\n\n### The Origin of the Spiral: The Scarlet Dressing Gown\n\nIn the 18th century, the French philosopher Denis Diderot lived in modest circumstances. Upon receiving an exquisite scarlet dressing gown as a gift, he noticed a sudden psychological discord: the elegance of his new gown made his existing wooden desk, tattered chair, and simple tapestries appear shabby. \n\nCompelled to match the standard set by the gown, Diderot purchased a new leather chair, replaced his desk with expensive furniture, bought new artwork, and eventually spiraled into heavy debt. He wrote: *\"I was the absolute master of my old robe; I have become the slave of the new one.\"*\n\n```mermaid\ngraph TD\n    A[Single New Stimulus / Action] --> B[Cognitive Discord with Surrounding Context]\n    B --> C[Drive to Create Environmental Harmony]\n    C --> D[Cascade of Complementary Actions & Desires]\n    D --> E[Emergence of a New Behavioral Baseline]\n```\n\n---\n\n### The Two Directions of Behavioral Cascades\n\nThe Diderot Effect governs both destruction and mastery in daily life:\n\n```mermaid\ngraph LR\n    subgraph The Downward Spiral\n        D1[Domino 1: Eat sugary breakfast] --> D2[Blood sugar crash & lethargy]\n        D2 --> D3[Skip afternoon workout]\n        D3 --> D4[Late-night dopamine binge & poor sleep]\n    end\n\n    subgraph The Upward Spiral\n        U1[Domino 1: 5-minute morning walk] --> U2[Calibrated circadian rhythm & alert focus]\n        U2 --> U3[High-agency decision making]\n        U3 --> U4[Deep evening rest & recovery]\n    end\n```\n\n#### 1. The Downward Cascade (Negative Feedback Loops)\nA single compromise at the beginning of the day lowers your internal identity baseline. Once the first domino falls, your brain rationalizes subsequent bad choices to maintain cognitive consistency with your current compromised state (*\"I've already ruined my morning, so I might as well skip the gym and order takeout\"*).\n\n#### 2. The Upward Cascade (Positive Habit Stacking)\nConversely, one intentional, high-standard anchor action sets a high psychological baseline for the day. Cleaning your desk or completing a brief morning workout creates a standard of excellence that naturally repels low-agency behaviors throughout the afternoon.\n\n---\n\n### How to Master Habit Cascades: Three Core Protocols\n\nTo harness the Diderot Effect and prevent destructive domino chains, implement three structural protocols:\n\n#### 1. Identify and Defend the \"Lead Domino\" (Keystone Trigger)\nNever fight habits at the end of the chain. If you struggle with late-night binge-eating or phone addiction in bed, the real battle is not happening at 11:00 PM—it was decided at 7:00 PM when you brought your charger into the bedroom or skipped an evening meal.\n* **Audit the Sequence**: Trace every recurring bad habit backward to identify the specific initial trigger (*The Lead Domino*).\n* **Concentrate Defense**: Direct 100% of your conscious discipline solely to defending that first trigger. If the first domino never falls, the remaining ten downstream habits are never activated.\n\n#### 2. Install Artificial Circuit Breakers (The \"Never Twice\" Rule)\nWhen a negative lead domino inevitably falls, the goal is not perfection—it is **chain termination**.\n\n```mermaid\ngraph LR\n    A[Slip Occurs: Initial Bad Choice] --> B{Circuit Breaker Activated?}\n    B -->|Yes: Immediate Physical Reset| C[Chain Terminated at Domino 1]\n    B -->|No: Emotional Self-Criticism| D[Complete Downward Cascade]\n```\n\n* Establish a strict rule: **A bad choice is an accident; a second consecutive bad choice is the start of a new habit cascade.**\n* If you eat poorly or get distracted, execute an immediate physical circuit breaker (e.g., wash your face with cold water, take a 5-minute walk outside, or step away from screens) to reset your nervous system baseline immediately.\n\n#### 3. Identity Anchoring through Environmental Harmony\nYour physical environment constantly whispers to you about who you are.\n* If your physical workspace is cluttered with snack wrappers, open tabs, and chaotic cables, your environment invites scattered, undisciplined behavior.\n* When you curate an environment of absolute cleanliness, minimalist order, and functional tools, your subconscious mind naturally aligns its actions with that elevated standard.\n\n---\n\n### The Core Takeaway to Remember\n> You rarely have ten separate habit problems; you usually have one fragile lead domino. Protect your initial daily anchor, install circuit breakers when you stumble, and let positive behavioral cascades elevate your default standard of living.\n",
+  "proposed_diff": {
+    "section_name": "## Tactical Applications & Concrete Analogies",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Preserved Case Analogy\n> \"So certain things chemicals have a universal effect.\"\n> — *Source: [QmOF0crdyRU (2769s)](https://www.youtube.com/watch?v=QmOF0crdyRU)*",
+    "unified_diff": "--- a/src/content/topics/the-diderot-effect-and-habit-cascades.md\n+++ b/src/content/topics/the-diderot-effect-and-habit-cascades.md\n@@ -0,0 +1,3 @@\n+### Preserved Case Analogy\n+> \"So certain things chemicals have a universal effect.\"\n+> — *Source: [QmOF0crdyRU (2769s)](https://www.youtube.com/watch?v=QmOF0crdyRU)*\n"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-072",
+  "created_at": "2026-09-01T15:11:31.275Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-087",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-999",
+      "start": 2798.2,
+      "end": 2800.3,
+      "quoted_text": "that is going to be subjective"
+    },
+    {
+      "entity_id": "CLM-1000",
+      "start": 2800.3,
+      "end": 2802.8,
+      "quoted_text": "as to how much dopamine will be released."
+    },
+    {
+      "entity_id": "CLM-1001",
+      "start": 2802.8,
+      "end": 2805.4,
+      "quoted_text": "And we will return to that subjective component"
+    },
+    {
+      "entity_id": "CLM-1002",
+      "start": 2806.8,
+      "end": 2810.9,
+      "quoted_text": "But now you have a sense of how much dopamine"
+    },
+    {
+      "entity_id": "CLM-1003",
+      "start": 2810.9,
+      "end": 2813.1,
+      "quoted_text": "can be evoked by different activities"
+    },
+    {
+      "entity_id": "CLM-1004",
+      "start": 2813.1,
+      "end": 2815,
+      "quoted_text": "and by different substances."
+    },
+    {
+      "entity_id": "CLM-1005",
+      "start": 2815,
+      "end": 2817.5,
+      "quoted_text": "One that you might be wondering about is caffeine."
+    },
+    {
+      "entity_id": "CLM-1006",
+      "start": 2817.5,
+      "end": 2819.4,
+      "quoted_text": "I'm certainly drinking my caffeine today,"
+    },
+    {
+      "entity_id": "CLM-1007",
+      "start": 2819.4,
+      "end": 2823.5,
+      "quoted_text": "and I do enjoy caffeine in limited quantities."
+    },
+    {
+      "entity_id": "CLM-1008",
+      "start": 2823.5,
+      "end": 2827.4,
+      "quoted_text": "I drink yerba mate and I drink coffee and I love it."
+    },
+    {
+      "entity_id": "CLM-1009",
+      "start": 2828.5,
+      "end": 2830.1,
+      "quoted_text": "Does it increase dopamine?"
+    },
+    {
+      "entity_id": "CLM-1010",
+      "start": 2831.9,
+      "end": 2834.4,
+      "quoted_text": "Caffeine will increase dopamine to some extent,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: that is going to be subjective\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [2798s-2800s]: \"that is going to be subjective\"\n  - [2800s-2802s]: \"as to how much dopamine will be released.\"\n  - [2802s-2805s]: \"And we will return to that subjective component\"\n  - [2806s-2810s]: \"But now you have a sense of how much dopamine\"\n  - [2810s-2813s]: \"can be evoked by different activities\"\n  - [2813s-2815s]: \"and by different substances.\"\n  - [2815s-2817s]: \"One that you might be wondering about is caffeine.\"\n  - [2817s-2819s]: \"I'm certainly drinking my caffeine today,\"\n  - [2819s-2823s]: \"and I do enjoy caffeine in limited quantities.\"\n  - [2823s-2827s]: \"I drink yerba mate and I drink coffee and I love it.\"\n  - [2828s-2830s]: \"Does it increase dopamine?\"\n  - [2831s-2834s]: \"Caffeine will increase dopamine to some extent,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: that is going to be subjective\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [2798s-2800s]: \"that is going to be subjective\"\n+  - [2800s-2802s]: \"as to how much dopamine will be released.\"\n+  - [2802s-2805s]: \"And we will return to that subjective component\"\n+  - [2806s-2810s]: \"But now you have a sense of how much dopamine\"\n+  - [2810s-2813s]: \"can be evoked by different activities\"\n+  - [2813s-2815s]: \"and by different substances.\"\n+  - [2815s-2817s]: \"One that you might be wondering about is caffeine.\"\n+  - [2817s-2819s]: \"I'm certainly drinking my caffeine today,\"\n+  - [2819s-2823s]: \"and I do enjoy caffeine in limited quantities.\"\n+  - [2823s-2827s]: \"I drink yerba mate and I drink coffee and I love it.\"\n+  - [2828s-2830s]: \"Does it increase dopamine?\"\n+  - [2831s-2834s]: \"Caffeine will increase dopamine to some extent,\"\n"
+  }
+}

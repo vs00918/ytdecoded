@@ -1,0 +1,54 @@
+{
+  "proposal_id": "PROP-20260901-017",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-architecture-of-integrated-strength",
+  "target_topic_title": "The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending \"The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-156",
+      "entity_type": "CLAIM",
+      "entity_text": "others needs above yours, or you may",
+      "start": 514.6,
+      "end": 519.1,
+      "quoted_text": "others needs above yours, or you may"
+    },
+    {
+      "entity_id": "EXM-007",
+      "entity_type": "ANALOGY",
+      "entity_text": "Sometimes the advisory board of your",
+      "start": 796.5,
+      "end": 801.1,
+      "quoted_text": "Sometimes the advisory board of your"
+    },
+    {
+      "entity_id": "EXM-015",
+      "entity_type": "ANALOGY",
+      "entity_text": "When your advisory board starts talking,",
+      "start": 926.6,
+      "end": 932.4,
+      "quoted_text": "When your advisory board starts talking,"
+    },
+    {
+      "entity_id": "EXM-017",
+      "entity_type": "ANALOGY",
+      "entity_text": "and your advisory board it starts",
+      "start": 975.5,
+      "end": 978.8,
+      "quoted_text": "and your advisory board it starts"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Empirical Nuance & Boundary Conditions",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **CLM-156**: others needs above yours, or you may *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **EXM-007**: Sometimes the advisory board of your *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **EXM-015**: When your advisory board starts talking, *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **EXM-017**: and your advisory board it starts *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*",
+    "unified_diff": "--- a/src/content/topics/the-architecture-of-integrated-strength.md\n+++ b/src/content/topics/the-architecture-of-integrated-strength.md\n@@ -0,0 +1,7 @@\n+\n+### Extended Mechanical Insight\n+- **CLM-156**: others needs above yours, or you may *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **EXM-007**: Sometimes the advisory board of your *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **EXM-015**: When your advisory board starts talking, *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **EXM-017**: and your advisory board it starts *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+\n"
+  }
+}

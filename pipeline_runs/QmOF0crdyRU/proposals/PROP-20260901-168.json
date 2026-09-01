@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-168",
+  "created_at": "2026-09-01T15:11:31.301Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-221",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 5).",
+  "supporting_evidence": [
+    {
+      "entity_id": "EXM-075",
+      "start": 7161.5,
+      "end": 7165.7,
+      "quoted_text": "and they look a lot like if not identical to l-DOPA."
+    },
+    {
+      "entity_id": "CLM-2567",
+      "start": 7165.7,
+      "end": 7168.4,
+      "quoted_text": "The most obvious of those is in the context"
+    },
+    {
+      "entity_id": "CLM-2568",
+      "start": 7168.4,
+      "end": 7169.7,
+      "quoted_text": "of Parkinson's disease."
+    },
+    {
+      "entity_id": "CLM-2569",
+      "start": 7169.7,
+      "end": 7171.8,
+      "quoted_text": "There are at least five studies that have shown"
+    },
+    {
+      "entity_id": "CLM-2570",
+      "start": 7171.8,
+      "end": 7175.2,
+      "quoted_text": "that Macuna Pruriens can reduce the symptoms"
+    },
+    {
+      "entity_id": "CLM-2571",
+      "start": 7175.2,
+      "end": 7176.3,
+      "quoted_text": "of Parkinson's disease,"
+    },
+    {
+      "entity_id": "CLM-2572",
+      "start": 7176.3,
+      "end": 7179.2,
+      "quoted_text": "much in the same way that l-DOPA can reduce"
+    },
+    {
+      "entity_id": "CLM-2573",
+      "start": 7179.2,
+      "end": 7181.3,
+      "quoted_text": "the symptoms of Parkinson's disease."
+    },
+    {
+      "entity_id": "CLM-2574",
+      "start": 7181.3,
+      "end": 7183,
+      "quoted_text": "And that shouldn't come as any surprise"
+    },
+    {
+      "entity_id": "CLM-2575",
+      "start": 7183,
+      "end": 7186.9,
+      "quoted_text": "given what I just told you that is essentially l-DOPA."
+    },
+    {
+      "entity_id": "CLM-2576",
+      "start": 7186.9,
+      "end": 7190.3,
+      "quoted_text": "It also can reduce a particular hormone called prolactin."
+    },
+    {
+      "entity_id": "CLM-2577",
+      "start": 7190.3,
+      "end": 7192.9,
+      "quoted_text": "Dopamine and prolactin tend to be in somewhat"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: The most obvious of those is in the context\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7161s-7165s]: \"and they look a lot like if not identical to l-DOPA.\"\n  - [7165s-7168s]: \"The most obvious of those is in the context\"\n  - [7168s-7169s]: \"of Parkinson's disease.\"\n  - [7169s-7171s]: \"There are at least five studies that have shown\"\n  - [7171s-7175s]: \"that Macuna Pruriens can reduce the symptoms\"\n  - [7175s-7176s]: \"of Parkinson's disease,\"\n  - [7176s-7179s]: \"much in the same way that l-DOPA can reduce\"\n  - [7179s-7181s]: \"the symptoms of Parkinson's disease.\"\n  - [7181s-7183s]: \"And that shouldn't come as any surprise\"\n  - [7183s-7186s]: \"given what I just told you that is essentially l-DOPA.\"\n  - [7186s-7190s]: \"It also can reduce a particular hormone called prolactin.\"\n  - [7190s-7192s]: \"Dopamine and prolactin tend to be in somewhat\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: The most obvious of those is in the context\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7161s-7165s]: \"and they look a lot like if not identical to l-DOPA.\"\n+  - [7165s-7168s]: \"The most obvious of those is in the context\"\n+  - [7168s-7169s]: \"of Parkinson's disease.\"\n+  - [7169s-7171s]: \"There are at least five studies that have shown\"\n+  - [7171s-7175s]: \"that Macuna Pruriens can reduce the symptoms\"\n+  - [7175s-7176s]: \"of Parkinson's disease,\"\n+  - [7176s-7179s]: \"much in the same way that l-DOPA can reduce\"\n+  - [7179s-7181s]: \"the symptoms of Parkinson's disease.\"\n+  - [7181s-7183s]: \"And that shouldn't come as any surprise\"\n+  - [7183s-7186s]: \"given what I just told you that is essentially l-DOPA.\"\n+  - [7186s-7190s]: \"It also can reduce a particular hormone called prolactin.\"\n+  - [7190s-7192s]: \"Dopamine and prolactin tend to be in somewhat\"\n"
+  }
+}

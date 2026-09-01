@@ -1,0 +1,6397 @@
+{
+  "ir_version": "3.0.0-semantic",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "title": "Psychology - Dr. Patricia Zurita Ona Paradox of Safety",
+  "generated_at": "2026-09-01T14:23:41.853Z",
+  "extractor_metadata": {
+    "provider": "SemanticMock",
+    "model": "mock-semantic-engine-v2",
+    "total_chunks": 7,
+    "prompt_tokens": 4666,
+    "completion_tokens": 1750,
+    "total_tokens": 6416,
+    "total_latency_ms": 10
+  },
+  "metadata": {
+    "duration_seconds": 1050,
+    "word_count": 2390,
+    "high_density_segment_count": 15
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim_text": "I grew up drinking coffee and I used to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 7.8,
+          "end": 11.7,
+          "segment_ids": [
+            "seg-0001"
+          ],
+          "quoted_text": "I grew up drinking coffee and I used to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "claim_text": "It's part of my morning routine to have",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 11.7,
+          "end": 16.8,
+          "segment_ids": [
+            "seg-0003"
+          ],
+          "quoted_text": "It's part of my morning routine to have"
+        }
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "claim_text": "a couple sips of a dark, rich, and",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 13.7,
+          "end": 19,
+          "segment_ids": [
+            "seg-0004"
+          ],
+          "quoted_text": "a couple sips of a dark, rich, and"
+        }
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "claim_text": "One day, when completing my doctoral",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 19,
+          "end": 23.3,
+          "segment_ids": [
+            "seg-0006"
+          ],
+          "quoted_text": "One day, when completing my doctoral"
+        }
+      ]
+    },
+    {
+      "id": "CLM-005",
+      "claim_text": "internship in psychology, I noticed that",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 20.9,
+          "end": 25.6,
+          "segment_ids": [
+            "seg-0007"
+          ],
+          "quoted_text": "internship in psychology, I noticed that"
+        }
+      ]
+    },
+    {
+      "id": "CLM-006",
+      "claim_text": "my coffee maker was getting old and",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 23.3,
+          "end": 27.6,
+          "segment_ids": [
+            "seg-0008"
+          ],
+          "quoted_text": "my coffee maker was getting old and"
+        }
+      ]
+    },
+    {
+      "id": "CLM-007",
+      "claim_text": "needed to be replaced.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 25.6,
+          "end": 29.7,
+          "segment_ids": [
+            "seg-0009"
+          ],
+          "quoted_text": "needed to be replaced."
+        }
+      ]
+    },
+    {
+      "id": "CLM-008",
+      "claim_text": "As a graduate student and as an",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 27.6,
+          "end": 32.8,
+          "segment_ids": [
+            "seg-0010"
+          ],
+          "quoted_text": "As a graduate student and as an"
+        }
+      ]
+    },
+    {
+      "id": "CLM-009",
+      "claim_text": "immigrant, I was on a limited budget.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 29.7,
+          "end": 35.6,
+          "segment_ids": [
+            "seg-0011"
+          ],
+          "quoted_text": "immigrant, I was on a limited budget."
+        }
+      ]
+    },
+    {
+      "id": "CLM-010",
+      "claim_text": "I knew I needed to make a good financial",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 32.8,
+          "end": 36.9,
+          "segment_ids": [
+            "seg-0012"
+          ],
+          "quoted_text": "I knew I needed to make a good financial"
+        }
+      ]
+    },
+    {
+      "id": "CLM-011",
+      "claim_text": "So, that search for the ideal coffee",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 36.9,
+          "end": 42.2,
+          "segment_ids": [
+            "seg-0014"
+          ],
+          "quoted_text": "So, that search for the ideal coffee"
+        }
+      ]
+    },
+    {
+      "id": "CLM-012",
+      "claim_text": "I looked at all the best brands. I read",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 42.2,
+          "end": 47.7,
+          "segment_ids": [
+            "seg-0016"
+          ],
+          "quoted_text": "I looked at all the best brands. I read"
+        }
+      ]
+    },
+    {
+      "id": "CLM-013",
+      "claim_text": "many consumer reviews. I asked my",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 44.9,
+          "end": 49.9,
+          "segment_ids": [
+            "seg-0017"
+          ],
+          "quoted_text": "many consumer reviews. I asked my"
+        }
+      ]
+    },
+    {
+      "id": "CLM-014",
+      "claim_text": "about their coffee makers.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 49.9,
+          "end": 54.5,
+          "segment_ids": [
+            "seg-0019"
+          ],
+          "quoted_text": "about their coffee makers."
+        }
+      ]
+    },
+    {
+      "id": "CLM-015",
+      "claim_text": "And I even created an Excel sheet",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 52.1,
+          "end": 56.9,
+          "segment_ids": [
+            "seg-0020"
+          ],
+          "quoted_text": "And I even created an Excel sheet"
+        }
+      ]
+    },
+    {
+      "id": "CLM-016",
+      "claim_text": "listing the pros and cons of different",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 54.5,
+          "end": 59,
+          "segment_ids": [
+            "seg-0021"
+          ],
+          "quoted_text": "listing the pros and cons of different"
+        }
+      ]
+    },
+    {
+      "id": "CLM-017",
+      "claim_text": "One day, I drove myself to a store",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 59,
+          "end": 64.8,
+          "segment_ids": [
+            "seg-0023"
+          ],
+          "quoted_text": "One day, I drove myself to a store"
+        }
+      ]
+    },
+    {
+      "id": "CLM-018",
+      "claim_text": "to look at different options in person.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 62.1,
+          "end": 66.6,
+          "segment_ids": [
+            "seg-0024"
+          ],
+          "quoted_text": "to look at different options in person."
+        }
+      ]
+    },
+    {
+      "id": "CLM-019",
+      "claim_text": "At the store, I started chatting with",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 64.8,
+          "end": 68.9,
+          "segment_ids": [
+            "seg-0025"
+          ],
+          "quoted_text": "At the store, I started chatting with"
+        }
+      ]
+    },
+    {
+      "id": "CLM-020",
+      "claim_text": "And I shared with her my concerns and",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 68.9,
+          "end": 74.1,
+          "segment_ids": [
+            "seg-0027"
+          ],
+          "quoted_text": "And I shared with her my concerns and"
+        }
+      ]
+    },
+    {
+      "id": "CLM-021",
+      "claim_text": "requirements for this new coffee maker.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 71,
+          "end": 77.8,
+          "segment_ids": [
+            "seg-0028"
+          ],
+          "quoted_text": "requirements for this new coffee maker."
+        }
+      ]
+    },
+    {
+      "id": "CLM-022",
+      "claim_text": "She looked at me and said, \"Well, coffee",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 74.1,
+          "end": 81.3,
+          "segment_ids": [
+            "seg-0029"
+          ],
+          "quoted_text": "She looked at me and said, \"Well, coffee"
+        }
+      ]
+    },
+    {
+      "id": "CLM-023",
+      "claim_text": "makers aren't supposed to last forever.\"",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 77.8,
+          "end": 85.6,
+          "segment_ids": [
+            "seg-0030"
+          ],
+          "quoted_text": "makers aren't supposed to last forever.\""
+        }
+      ]
+    },
+    {
+      "id": "CLM-024",
+      "claim_text": "I know that and agree, but did I stop my",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 81.3,
+          "end": 88.4,
+          "segment_ids": [
+            "seg-0031"
+          ],
+          "quoted_text": "I know that and agree, but did I stop my"
+        }
+      ]
+    },
+    {
+      "id": "CLM-025",
+      "claim_text": "quest for the ideal coffee maker right",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 85.6,
+          "end": 90.6,
+          "segment_ids": [
+            "seg-0032"
+          ],
+          "quoted_text": "quest for the ideal coffee maker right"
+        }
+      ]
+    },
+    {
+      "id": "CLM-026",
+      "claim_text": "there and buy one on the spot?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 88.4,
+          "end": 93.4,
+          "segment_ids": [
+            "seg-0033"
+          ],
+          "quoted_text": "there and buy one on the spot?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-027",
+      "claim_text": "Nope. I went back home and continued",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 90.6,
+          "end": 94.8,
+          "segment_ids": [
+            "seg-0034"
+          ],
+          "quoted_text": "Nope. I went back home and continued"
+        }
+      ]
+    },
+    {
+      "id": "CLM-028",
+      "claim_text": "You see, I knew I needed to make a",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 94.8,
+          "end": 100.6,
+          "segment_ids": [
+            "seg-0036"
+          ],
+          "quoted_text": "You see, I knew I needed to make a"
+        }
+      ]
+    },
+    {
+      "id": "CLM-029",
+      "claim_text": "decision, but my mind was relentlessly",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 96.9,
+          "end": 104.1,
+          "segment_ids": [
+            "seg-0037"
+          ],
+          "quoted_text": "decision, but my mind was relentlessly"
+        }
+      ]
+    },
+    {
+      "id": "CLM-030",
+      "claim_text": "coming up with all types of thoughts.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 100.6,
+          "end": 106.5,
+          "segment_ids": [
+            "seg-0038"
+          ],
+          "quoted_text": "coming up with all types of thoughts."
+        }
+      ]
+    },
+    {
+      "id": "CLM-031",
+      "claim_text": "Will this be a good investment? Should I",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 104.1,
+          "end": 109.1,
+          "segment_ids": [
+            "seg-0039"
+          ],
+          "quoted_text": "Will this be a good investment? Should I"
+        }
+      ]
+    },
+    {
+      "id": "CLM-032",
+      "claim_text": "get one that brews four cups or 10 cups",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 106.5,
+          "end": 110.6,
+          "segment_ids": [
+            "seg-0040"
+          ],
+          "quoted_text": "get one that brews four cups or 10 cups"
+        }
+      ]
+    },
+    {
+      "id": "CLM-033",
+      "claim_text": "of coffee?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 109.1,
+          "end": 112.4,
+          "segment_ids": [
+            "seg-0041"
+          ],
+          "quoted_text": "of coffee?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-034",
+      "claim_text": "What does the warranty say if it breaks",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 110.6,
+          "end": 114.5,
+          "segment_ids": [
+            "seg-0042"
+          ],
+          "quoted_text": "What does the warranty say if it breaks"
+        }
+      ]
+    },
+    {
+      "id": "CLM-035",
+      "claim_text": "down after 1 year?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 112.4,
+          "end": 116.5,
+          "segment_ids": [
+            "seg-0043"
+          ],
+          "quoted_text": "down after 1 year?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-036",
+      "claim_text": "What if my coffee lover friends think",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 114.5,
+          "end": 119.4,
+          "segment_ids": [
+            "seg-0044"
+          ],
+          "quoted_text": "What if my coffee lover friends think"
+        }
+      ]
+    },
+    {
+      "id": "CLM-037",
+      "claim_text": "this isn't a good coffee maker.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 116.5,
+          "end": 122.1,
+          "segment_ids": [
+            "seg-0045"
+          ],
+          "quoted_text": "this isn't a good coffee maker."
+        }
+      ]
+    },
+    {
+      "id": "CLM-038",
+      "claim_text": "Three months pass and I had still hadn't",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 119.4,
+          "end": 124.5,
+          "segment_ids": [
+            "seg-0046"
+          ],
+          "quoted_text": "Three months pass and I had still hadn't"
+        }
+      ]
+    },
+    {
+      "id": "CLM-039",
+      "claim_text": "bought a coffee maker.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 122.1,
+          "end": 126.7,
+          "segment_ids": [
+            "seg-0047"
+          ],
+          "quoted_text": "bought a coffee maker."
+        }
+      ]
+    },
+    {
+      "id": "CLM-040",
+      "claim_text": "Even though these decisions seem easy",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 124.5,
+          "end": 129.8,
+          "segment_ids": [
+            "seg-0048"
+          ],
+          "quoted_text": "Even though these decisions seem easy"
+        }
+      ]
+    },
+    {
+      "id": "CLM-041",
+      "claim_text": "enough to make, there I was stuck in my",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 126.7,
+          "end": 131.4,
+          "segment_ids": [
+            "seg-0049"
+          ],
+          "quoted_text": "enough to make, there I was stuck in my"
+        }
+      ]
+    },
+    {
+      "id": "CLM-042",
+      "claim_text": "Have you been in my shoes?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 131.4,
+          "end": 136.4,
+          "segment_ids": [
+            "seg-0051"
+          ],
+          "quoted_text": "Have you been in my shoes?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-043",
+      "claim_text": "Yeah. Have you ever been in an ordinary",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 133.8,
+          "end": 139.2,
+          "segment_ids": [
+            "seg-0052"
+          ],
+          "quoted_text": "Yeah. Have you ever been in an ordinary"
+        }
+      ]
+    },
+    {
+      "id": "CLM-044",
+      "claim_text": "situation in which, despite your best",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 136.4,
+          "end": 142.2,
+          "segment_ids": [
+            "seg-0053"
+          ],
+          "quoted_text": "situation in which, despite your best"
+        }
+      ]
+    },
+    {
+      "id": "CLM-045",
+      "claim_text": "intentions, you overdid things and",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 139.2,
+          "end": 145.8,
+          "segment_ids": [
+            "seg-0054"
+          ],
+          "quoted_text": "intentions, you overdid things and"
+        }
+      ]
+    },
+    {
+      "id": "CLM-046",
+      "claim_text": "inadvertently got it stuck in your head?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 142.2,
+          "end": 148.8,
+          "segment_ids": [
+            "seg-0055"
+          ],
+          "quoted_text": "inadvertently got it stuck in your head?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-047",
+      "claim_text": "That's a pain, right?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 145.8,
+          "end": 152,
+          "segment_ids": [
+            "seg-0056"
+          ],
+          "quoted_text": "That's a pain, right?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-048",
+      "claim_text": "Now, imagine you wake up every morning",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 148.8,
+          "end": 154.3,
+          "segment_ids": [
+            "seg-0057"
+          ],
+          "quoted_text": "Now, imagine you wake up every morning"
+        }
+      ]
+    },
+    {
+      "id": "CLM-049",
+      "claim_text": "without worrying about saying the wrong",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 152,
+          "end": 157.2,
+          "segment_ids": [
+            "seg-0058"
+          ],
+          "quoted_text": "without worrying about saying the wrong"
+        }
+      ]
+    },
+    {
+      "id": "CLM-050",
+      "claim_text": "thing or doing the wrong thing.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 154.3,
+          "end": 159.6,
+          "segment_ids": [
+            "seg-0059"
+          ],
+          "quoted_text": "thing or doing the wrong thing."
+        }
+      ]
+    },
+    {
+      "id": "CLM-051",
+      "claim_text": "You look at everyday decisions as easy",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 157.2,
+          "end": 163.4,
+          "segment_ids": [
+            "seg-0060"
+          ],
+          "quoted_text": "You look at everyday decisions as easy"
+        }
+      ]
+    },
+    {
+      "id": "CLM-052",
+      "claim_text": "peasy, not as a life or death dilemmas.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 159.6,
+          "end": 166.1,
+          "segment_ids": [
+            "seg-0061"
+          ],
+          "quoted_text": "peasy, not as a life or death dilemmas."
+        }
+      ]
+    },
+    {
+      "id": "CLM-053",
+      "claim_text": "You will spend days anticipating things",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 163.4,
+          "end": 168.8,
+          "segment_ids": [
+            "seg-0062"
+          ],
+          "quoted_text": "You will spend days anticipating things"
+        }
+      ]
+    },
+    {
+      "id": "CLM-054",
+      "claim_text": "going well and fabulous rather than",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 166.1,
+          "end": 170.4,
+          "segment_ids": [
+            "seg-0063"
+          ],
+          "quoted_text": "going well and fabulous rather than"
+        }
+      ]
+    },
+    {
+      "id": "CLM-055",
+      "claim_text": "That would be lovely, right?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 170.4,
+          "end": 176.5,
+          "segment_ids": [
+            "seg-0065"
+          ],
+          "quoted_text": "That would be lovely, right?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-056",
+      "claim_text": "Because to be human is to be anxious.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 176.5,
+          "end": 182.7,
+          "segment_ids": [
+            "seg-0067"
+          ],
+          "quoted_text": "Because to be human is to be anxious."
+        }
+      ]
+    },
+    {
+      "id": "CLM-057",
+      "claim_text": "To be human is to be worried.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 180,
+          "end": 185.5,
+          "segment_ids": [
+            "seg-0068"
+          ],
+          "quoted_text": "To be human is to be worried."
+        }
+      ]
+    },
+    {
+      "id": "CLM-058",
+      "claim_text": "To be human is to be afraid.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 182.7,
+          "end": 188.5,
+          "segment_ids": [
+            "seg-0069"
+          ],
+          "quoted_text": "To be human is to be afraid."
+        }
+      ]
+    },
+    {
+      "id": "CLM-059",
+      "claim_text": "Yet, despite this truth, fears have a",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 185.5,
+          "end": 191.4,
+          "segment_ids": [
+            "seg-0070"
+          ],
+          "quoted_text": "Yet, despite this truth, fears have a"
+        }
+      ]
+    },
+    {
+      "id": "CLM-060",
+      "claim_text": "Often, new clients tell me that they are",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 191.4,
+          "end": 195.1,
+          "segment_ids": [
+            "seg-0072"
+          ],
+          "quoted_text": "Often, new clients tell me that they are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-061",
+      "claim_text": "However, when peeling back what they are",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 195.1,
+          "end": 200.9,
+          "segment_ids": [
+            "seg-0074"
+          ],
+          "quoted_text": "However, when peeling back what they are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-062",
+      "claim_text": "struggling with, I can clearly see that",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 198,
+          "end": 202.7,
+          "segment_ids": [
+            "seg-0075"
+          ],
+          "quoted_text": "struggling with, I can clearly see that"
+        }
+      ]
+    },
+    {
+      "id": "CLM-063",
+      "claim_text": "actually they are dealing with a",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 200.9,
+          "end": 205.7,
+          "segment_ids": [
+            "seg-0076"
+          ],
+          "quoted_text": "actually they are dealing with a"
+        }
+      ]
+    },
+    {
+      "id": "CLM-064",
+      "claim_text": "fear-based emotion and many fear-based",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 202.7,
+          "end": 208.2,
+          "segment_ids": [
+            "seg-0077"
+          ],
+          "quoted_text": "fear-based emotion and many fear-based"
+        }
+      ]
+    },
+    {
+      "id": "CLM-065",
+      "claim_text": "The reality is that our day-to-day life",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 208.2,
+          "end": 213.7,
+          "segment_ids": [
+            "seg-0079"
+          ],
+          "quoted_text": "The reality is that our day-to-day life"
+        }
+      ]
+    },
+    {
+      "id": "CLM-066",
+      "claim_text": "includes all types of fears.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 210.7,
+          "end": 216.5,
+          "segment_ids": [
+            "seg-0080"
+          ],
+          "quoted_text": "includes all types of fears."
+        }
+      ]
+    },
+    {
+      "id": "CLM-067",
+      "claim_text": "Fear of choosing the wrong partner.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 213.7,
+          "end": 221.1,
+          "segment_ids": [
+            "seg-0081"
+          ],
+          "quoted_text": "Fear of choosing the wrong partner."
+        }
+      ]
+    },
+    {
+      "id": "CLM-068",
+      "claim_text": "Fear of the unknown. Fear of flying.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 216.5,
+          "end": 223.4,
+          "segment_ids": [
+            "seg-0082"
+          ],
+          "quoted_text": "Fear of the unknown. Fear of flying."
+        }
+      ]
+    },
+    {
+      "id": "CLM-069",
+      "claim_text": "Fear of not being good enough. Fear of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 221.1,
+          "end": 224.9,
+          "segment_ids": [
+            "seg-0083"
+          ],
+          "quoted_text": "Fear of not being good enough. Fear of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-070",
+      "claim_text": "Our anxieties are limitless.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 224.9,
+          "end": 232.1,
+          "segment_ids": [
+            "seg-0085"
+          ],
+          "quoted_text": "Our anxieties are limitless."
+        }
+      ]
+    },
+    {
+      "id": "CLM-071",
+      "claim_text": "And every time we feel anxious, worried,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 227.9,
+          "end": 234.5,
+          "segment_ids": [
+            "seg-0086"
+          ],
+          "quoted_text": "And every time we feel anxious, worried,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-072",
+      "claim_text": "or afraid, it feels yucky and",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 232.1,
+          "end": 236.5,
+          "segment_ids": [
+            "seg-0087"
+          ],
+          "quoted_text": "or afraid, it feels yucky and"
+        }
+      ]
+    },
+    {
+      "id": "CLM-073",
+      "claim_text": "Have you ever met anyone who say, \"I",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 236.5,
+          "end": 240.8,
+          "segment_ids": [
+            "seg-0089"
+          ],
+          "quoted_text": "Have you ever met anyone who say, \"I"
+        }
+      ]
+    },
+    {
+      "id": "CLM-074",
+      "claim_text": "love to be anxious.\" or \"I love to be",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 238.4,
+          "end": 242.4,
+          "segment_ids": [
+            "seg-0090"
+          ],
+          "quoted_text": "love to be anxious.\" or \"I love to be"
+        }
+      ]
+    },
+    {
+      "id": "CLM-075",
+      "claim_text": "afraid.\"?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 240.8,
+          "end": 244.2,
+          "segment_ids": [
+            "seg-0091"
+          ],
+          "quoted_text": "afraid.\"?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-076",
+      "claim_text": "When we feel anxious, our hearts beat",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 244.2,
+          "end": 247.7,
+          "segment_ids": [
+            "seg-0093"
+          ],
+          "quoted_text": "When we feel anxious, our hearts beat"
+        }
+      ]
+    },
+    {
+      "id": "CLM-077",
+      "claim_text": "our hands get sweaty, we get butterflies",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 247.7,
+          "end": 253,
+          "segment_ids": [
+            "seg-0095"
+          ],
+          "quoted_text": "our hands get sweaty, we get butterflies"
+        }
+      ]
+    },
+    {
+      "id": "CLM-078",
+      "claim_text": "And then our mind pushes us to solve the",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 253,
+          "end": 259.4,
+          "segment_ids": [
+            "seg-0097"
+          ],
+          "quoted_text": "And then our mind pushes us to solve the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-079",
+      "claim_text": "discomfort, prompts us to do something",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 256.5,
+          "end": 261.8,
+          "segment_ids": [
+            "seg-0098"
+          ],
+          "quoted_text": "discomfort, prompts us to do something"
+        }
+      ]
+    },
+    {
+      "id": "CLM-080",
+      "claim_text": "about those uncomfortable sensations",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 259.4,
+          "end": 263.2,
+          "segment_ids": [
+            "seg-0099"
+          ],
+          "quoted_text": "about those uncomfortable sensations"
+        }
+      ]
+    },
+    {
+      "id": "CLM-081",
+      "claim_text": "goads us into action.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 263.2,
+          "end": 267.9,
+          "segment_ids": [
+            "seg-0101"
+          ],
+          "quoted_text": "goads us into action."
+        }
+      ]
+    },
+    {
+      "id": "CLM-082",
+      "claim_text": "And it's in those moments that we rely",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 265.8,
+          "end": 271.4,
+          "segment_ids": [
+            "seg-0102"
+          ],
+          "quoted_text": "And it's in those moments that we rely"
+        }
+      ]
+    },
+    {
+      "id": "CLM-083",
+      "claim_text": "on thinking strategies to push away, get",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 267.9,
+          "end": 274.1,
+          "segment_ids": [
+            "seg-0103"
+          ],
+          "quoted_text": "on thinking strategies to push away, get"
+        }
+      ]
+    },
+    {
+      "id": "CLM-084",
+      "claim_text": "rid of, or replace our fear-based",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 271.4,
+          "end": 276,
+          "segment_ids": [
+            "seg-0104"
+          ],
+          "quoted_text": "rid of, or replace our fear-based"
+        }
+      ]
+    },
+    {
+      "id": "CLM-085",
+      "claim_text": "I call those thinking strategies playing",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 276,
+          "end": 280,
+          "segment_ids": [
+            "seg-0106"
+          ],
+          "quoted_text": "I call those thinking strategies playing"
+        }
+      ]
+    },
+    {
+      "id": "CLM-086",
+      "claim_text": "We all play it safe in one form or",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 280,
+          "end": 285.4,
+          "segment_ids": [
+            "seg-0108"
+          ],
+          "quoted_text": "We all play it safe in one form or"
+        }
+      ]
+    },
+    {
+      "id": "CLM-087",
+      "claim_text": "Think for a moment of David.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 285.4,
+          "end": 290.3,
+          "segment_ids": [
+            "seg-0110"
+          ],
+          "quoted_text": "Think for a moment of David."
+        }
+      ]
+    },
+    {
+      "id": "CLM-088",
+      "claim_text": "He represents the clients I often work",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 287.9,
+          "end": 291.6,
+          "segment_ids": [
+            "seg-0111"
+          ],
+          "quoted_text": "He represents the clients I often work"
+        }
+      ]
+    },
+    {
+      "id": "CLM-089",
+      "claim_text": "too, he struggles with the fear of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 295,
+          "end": 299.6,
+          "segment_ids": [
+            "seg-0114"
+          ],
+          "quoted_text": "too, he struggles with the fear of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-090",
+      "claim_text": "When David is composing an email or",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 299.6,
+          "end": 304.9,
+          "segment_ids": [
+            "seg-0116"
+          ],
+          "quoted_text": "When David is composing an email or"
+        }
+      ]
+    },
+    {
+      "id": "CLM-091",
+      "claim_text": "texting his friends, he goes over his",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 302.1,
+          "end": 308.2,
+          "segment_ids": [
+            "seg-0117"
+          ],
+          "quoted_text": "texting his friends, he goes over his"
+        }
+      ]
+    },
+    {
+      "id": "CLM-092",
+      "claim_text": "writing word by word, checking what he's",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 304.9,
+          "end": 310.4,
+          "segment_ids": [
+            "seg-0118"
+          ],
+          "quoted_text": "writing word by word, checking what he's"
+        }
+      ]
+    },
+    {
+      "id": "CLM-093",
+      "claim_text": "saying and how he's saying it before he",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 308.2,
+          "end": 312.4,
+          "segment_ids": [
+            "seg-0119"
+          ],
+          "quoted_text": "saying and how he's saying it before he"
+        }
+      ]
+    },
+    {
+      "id": "CLM-094",
+      "claim_text": "When David is invited to a party, he",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 312.4,
+          "end": 317.2,
+          "segment_ids": [
+            "seg-0121"
+          ],
+          "quoted_text": "When David is invited to a party, he"
+        }
+      ]
+    },
+    {
+      "id": "CLM-095",
+      "claim_text": "sometimes plans ahead of time what he's",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 314.9,
+          "end": 319.7,
+          "segment_ids": [
+            "seg-0122"
+          ],
+          "quoted_text": "sometimes plans ahead of time what he's"
+        }
+      ]
+    },
+    {
+      "id": "CLM-096",
+      "claim_text": "going to talk about so he doesn't make a",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 317.2,
+          "end": 323.9,
+          "segment_ids": [
+            "seg-0123"
+          ],
+          "quoted_text": "going to talk about so he doesn't make a"
+        }
+      ]
+    },
+    {
+      "id": "CLM-097",
+      "claim_text": "fool of himself during the actual party.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 319.7,
+          "end": 325.9,
+          "segment_ids": [
+            "seg-0124"
+          ],
+          "quoted_text": "fool of himself during the actual party."
+        }
+      ]
+    },
+    {
+      "id": "CLM-098",
+      "claim_text": "You may be thinking, \"Wait a minute. All",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 323.9,
+          "end": 328.5,
+          "segment_ids": [
+            "seg-0125"
+          ],
+          "quoted_text": "You may be thinking, \"Wait a minute. All"
+        }
+      ]
+    },
+    {
+      "id": "CLM-099",
+      "claim_text": "those strategies make sense.\"",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 325.9,
+          "end": 331.4,
+          "segment_ids": [
+            "seg-0126"
+          ],
+          "quoted_text": "those strategies make sense.\""
+        }
+      ]
+    },
+    {
+      "id": "CLM-100",
+      "claim_text": "And you're right. I do them, too. In",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 328.5,
+          "end": 334.2,
+          "segment_ids": [
+            "seg-0127"
+          ],
+          "quoted_text": "And you're right. I do them, too. In"
+        }
+      ]
+    },
+    {
+      "id": "CLM-101",
+      "claim_text": "fact, over preparing is a classic",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 331.4,
+          "end": 337.6,
+          "segment_ids": [
+            "seg-0128"
+          ],
+          "quoted_text": "fact, over preparing is a classic"
+        }
+      ]
+    },
+    {
+      "id": "CLM-102",
+      "claim_text": "playing it safe move of mine.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 334.2,
+          "end": 339.2,
+          "segment_ids": [
+            "seg-0129"
+          ],
+          "quoted_text": "playing it safe move of mine."
+        }
+      ]
+    },
+    {
+      "id": "CLM-103",
+      "claim_text": "Sometimes playing it safe can be",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 337.6,
+          "end": 342.3,
+          "segment_ids": [
+            "seg-0130"
+          ],
+          "quoted_text": "Sometimes playing it safe can be"
+        }
+      ]
+    },
+    {
+      "id": "CLM-104",
+      "claim_text": "effective when it help us to manage our",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 339.2,
+          "end": 346,
+          "segment_ids": [
+            "seg-0131"
+          ],
+          "quoted_text": "effective when it help us to manage our"
+        }
+      ]
+    },
+    {
+      "id": "CLM-105",
+      "claim_text": "anxieties, to do better and be better it",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 342.3,
+          "end": 348.4,
+          "segment_ids": [
+            "seg-0132"
+          ],
+          "quoted_text": "anxieties, to do better and be better it"
+        }
+      ]
+    },
+    {
+      "id": "CLM-106",
+      "claim_text": "For example, after I agreed to be this",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 348.4,
+          "end": 353.2,
+          "segment_ids": [
+            "seg-0134"
+          ],
+          "quoted_text": "For example, after I agreed to be this"
+        }
+      ]
+    },
+    {
+      "id": "CLM-107",
+      "claim_text": "talk, I got very anxious.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 350.6,
+          "end": 355.7,
+          "segment_ids": [
+            "seg-0135"
+          ],
+          "quoted_text": "talk, I got very anxious."
+        }
+      ]
+    },
+    {
+      "id": "CLM-108",
+      "claim_text": "And I had this urge to play it safe by",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 353.2,
+          "end": 357.6,
+          "segment_ids": [
+            "seg-0136"
+          ],
+          "quoted_text": "And I had this urge to play it safe by"
+        }
+      ]
+    },
+    {
+      "id": "CLM-109",
+      "claim_text": "preparing and rehearsing what I would",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 355.7,
+          "end": 360.1,
+          "segment_ids": [
+            "seg-0137"
+          ],
+          "quoted_text": "preparing and rehearsing what I would"
+        }
+      ]
+    },
+    {
+      "id": "CLM-110",
+      "claim_text": "Guess what?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 360.1,
+          "end": 364,
+          "segment_ids": [
+            "seg-0139"
+          ],
+          "quoted_text": "Guess what?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-111",
+      "claim_text": "Those playing it safe strategies worked",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 361.4,
+          "end": 365.5,
+          "segment_ids": [
+            "seg-0140"
+          ],
+          "quoted_text": "Those playing it safe strategies worked"
+        }
+      ]
+    },
+    {
+      "id": "CLM-112",
+      "claim_text": "My heart had stopped beating as fast. My",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 365.5,
+          "end": 370.9,
+          "segment_ids": [
+            "seg-0142"
+          ],
+          "quoted_text": "My heart had stopped beating as fast. My"
+        }
+      ]
+    },
+    {
+      "id": "CLM-113",
+      "claim_text": "hands had stopped sweating. I stopped",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 368.2,
+          "end": 374.9,
+          "segment_ids": [
+            "seg-0143"
+          ],
+          "quoted_text": "hands had stopped sweating. I stopped"
+        }
+      ]
+    },
+    {
+      "id": "CLM-114",
+      "claim_text": "feeling uncomfortable. I felt safe.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 370.9,
+          "end": 378.3,
+          "segment_ids": [
+            "seg-0144"
+          ],
+          "quoted_text": "feeling uncomfortable. I felt safe."
+        }
+      ]
+    },
+    {
+      "id": "CLM-115",
+      "claim_text": "And I had the first draft of my talk.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 374.9,
+          "end": 379.6,
+          "segment_ids": [
+            "seg-0145"
+          ],
+          "quoted_text": "And I had the first draft of my talk."
+        }
+      ]
+    },
+    {
+      "id": "CLM-116",
+      "claim_text": "But then, what's the problem with",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 378.3,
+          "end": 381.9,
+          "segment_ids": [
+            "seg-0146"
+          ],
+          "quoted_text": "But then, what's the problem with"
+        }
+      ]
+    },
+    {
+      "id": "CLM-117",
+      "claim_text": "playing it safe?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 379.6,
+          "end": 383.4,
+          "segment_ids": [
+            "seg-0147"
+          ],
+          "quoted_text": "playing it safe?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-118",
+      "claim_text": "when David is spending most of his time",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 383.4,
+          "end": 388.9,
+          "segment_ids": [
+            "seg-0149"
+          ],
+          "quoted_text": "when David is spending most of his time"
+        }
+      ]
+    },
+    {
+      "id": "CLM-119",
+      "claim_text": "anticipating every single question he",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 386,
+          "end": 390.7,
+          "segment_ids": [
+            "seg-0150"
+          ],
+          "quoted_text": "anticipating every single question he"
+        }
+      ]
+    },
+    {
+      "id": "CLM-120",
+      "claim_text": "may get asked during a work",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 388.9,
+          "end": 392.2,
+          "segment_ids": [
+            "seg-0151"
+          ],
+          "quoted_text": "may get asked during a work"
+        }
+      ]
+    },
+    {
+      "id": "CLM-121",
+      "claim_text": "that he only gets 2 hours of a sleep at",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 392.2,
+          "end": 397.7,
+          "segment_ids": [
+            "seg-0153"
+          ],
+          "quoted_text": "that he only gets 2 hours of a sleep at"
+        }
+      ]
+    },
+    {
+      "id": "CLM-122",
+      "claim_text": "night, that's a problem.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 394.5,
+          "end": 400.4,
+          "segment_ids": [
+            "seg-0154"
+          ],
+          "quoted_text": "night, that's a problem."
+        }
+      ]
+    },
+    {
+      "id": "CLM-123",
+      "claim_text": "When David decides not to go to his",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 397.7,
+          "end": 402.6,
+          "segment_ids": [
+            "seg-0155"
+          ],
+          "quoted_text": "When David decides not to go to his"
+        }
+      ]
+    },
+    {
+      "id": "CLM-124",
+      "claim_text": "girlfriend's party because he's too",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 400.4,
+          "end": 405.4,
+          "segment_ids": [
+            "seg-0156"
+          ],
+          "quoted_text": "girlfriend's party because he's too"
+        }
+      ]
+    },
+    {
+      "id": "CLM-125",
+      "claim_text": "consumed planning what to say to others",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 402.6,
+          "end": 407.8,
+          "segment_ids": [
+            "seg-0157"
+          ],
+          "quoted_text": "consumed planning what to say to others"
+        }
+      ]
+    },
+    {
+      "id": "CLM-126",
+      "claim_text": "without sounding a stupid, that's a",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 405.4,
+          "end": 409.9,
+          "segment_ids": [
+            "seg-0158"
+          ],
+          "quoted_text": "without sounding a stupid, that's a"
+        }
+      ]
+    },
+    {
+      "id": "CLM-127",
+      "claim_text": "If I couldn't be present with my clients",
+      "stance": "HYPOTHETICAL",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 409.9,
+          "end": 414.9,
+          "segment_ids": [
+            "seg-0160"
+          ],
+          "quoted_text": "If I couldn't be present with my clients"
+        }
+      ]
+    },
+    {
+      "id": "CLM-128",
+      "claim_text": "because I couldn't stop dwelling on all",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 411.9,
+          "end": 416.9,
+          "segment_ids": [
+            "seg-0161"
+          ],
+          "quoted_text": "because I couldn't stop dwelling on all"
+        }
+      ]
+    },
+    {
+      "id": "CLM-129",
+      "claim_text": "the things that could go wrong in this",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 414.9,
+          "end": 417.9,
+          "segment_ids": [
+            "seg-0162"
+          ],
+          "quoted_text": "the things that could go wrong in this"
+        }
+      ]
+    },
+    {
+      "id": "CLM-130",
+      "claim_text": "Because it's just a matter of time that",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 425.6,
+          "end": 430.5,
+          "segment_ids": [
+            "seg-0167"
+          ],
+          "quoted_text": "Because it's just a matter of time that"
+        }
+      ]
+    },
+    {
+      "id": "CLM-131",
+      "claim_text": "ineffective playing it safe moves will",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 427.9,
+          "end": 433.5,
+          "segment_ids": [
+            "seg-0168"
+          ],
+          "quoted_text": "ineffective playing it safe moves will"
+        }
+      ]
+    },
+    {
+      "id": "CLM-132",
+      "claim_text": "affect other areas of our lives.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 430.5,
+          "end": 436.8,
+          "segment_ids": [
+            "seg-0169"
+          ],
+          "quoted_text": "affect other areas of our lives."
+        }
+      ]
+    },
+    {
+      "id": "CLM-133",
+      "claim_text": "And our fears will show up again and",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 433.5,
+          "end": 441.8,
+          "segment_ids": [
+            "seg-0170"
+          ],
+          "quoted_text": "And our fears will show up again and"
+        }
+      ]
+    },
+    {
+      "id": "CLM-134",
+      "claim_text": "again when doing what we care about.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 436.8,
+          "end": 441.8,
+          "segment_ids": [
+            "seg-0171"
+          ],
+          "quoted_text": "again when doing what we care about."
+        }
+      ]
+    },
+    {
+      "id": "CLM-135",
+      "claim_text": "contrary to what people believe, the",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 445.4,
+          "end": 452.6,
+          "segment_ids": [
+            "seg-0173"
+          ],
+          "quoted_text": "contrary to what people believe, the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-136",
+      "claim_text": "solution is not to stop feeling afraid.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 447.7,
+          "end": 452.6,
+          "segment_ids": [
+            "seg-0174"
+          ],
+          "quoted_text": "solution is not to stop feeling afraid."
+        }
+      ]
+    },
+    {
+      "id": "CLM-137",
+      "claim_text": "Because we don't have a magic wand to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 453.5,
+          "end": 459.3,
+          "segment_ids": [
+            "seg-0175"
+          ],
+          "quoted_text": "Because we don't have a magic wand to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-138",
+      "claim_text": "It is natural that our minds are going",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 463.6,
+          "end": 468.6,
+          "segment_ids": [
+            "seg-0177"
+          ],
+          "quoted_text": "It is natural that our minds are going"
+        }
+      ]
+    },
+    {
+      "id": "CLM-139",
+      "claim_text": "to play it safe to play play it safe",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 466.1,
+          "end": 470.1,
+          "segment_ids": [
+            "seg-0178"
+          ],
+          "quoted_text": "to play it safe to play play it safe"
+        }
+      ]
+    },
+    {
+      "id": "CLM-140",
+      "claim_text": "because of course they come up with",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 468.6,
+          "end": 472.3,
+          "segment_ids": [
+            "seg-0179"
+          ],
+          "quoted_text": "because of course they come up with"
+        }
+      ]
+    },
+    {
+      "id": "CLM-141",
+      "claim_text": "catastrophic thoughts, terrible",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 470.1,
+          "end": 475,
+          "segment_ids": [
+            "seg-0180"
+          ],
+          "quoted_text": "catastrophic thoughts, terrible"
+        }
+      ]
+    },
+    {
+      "id": "CLM-142",
+      "claim_text": "scenarios, and all types of potentially",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 472.3,
+          "end": 478.4,
+          "segment_ids": [
+            "seg-0181"
+          ],
+          "quoted_text": "scenarios, and all types of potentially"
+        }
+      ]
+    },
+    {
+      "id": "CLM-143",
+      "claim_text": "bad things happening.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 475,
+          "end": 478.4,
+          "segment_ids": [
+            "seg-0182"
+          ],
+          "quoted_text": "bad things happening."
+        }
+      ]
+    },
+    {
+      "id": "CLM-144",
+      "claim_text": "If there is anything I know as a human",
+      "stance": "HYPOTHETICAL",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 478.4,
+          "end": 482.6,
+          "segment_ids": [
+            "seg-0183"
+          ],
+          "quoted_text": "If there is anything I know as a human"
+        }
+      ]
+    },
+    {
+      "id": "CLM-145",
+      "claim_text": "and in my professional experience is",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 482.6,
+          "end": 487.6,
+          "segment_ids": [
+            "seg-0185"
+          ],
+          "quoted_text": "and in my professional experience is"
+        }
+      ]
+    },
+    {
+      "id": "CLM-146",
+      "claim_text": "that playing it safe is second nature.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 484.5,
+          "end": 489.8,
+          "segment_ids": [
+            "seg-0186"
+          ],
+          "quoted_text": "that playing it safe is second nature."
+        }
+      ]
+    },
+    {
+      "id": "CLM-147",
+      "claim_text": "And in my work as a psychologist, I have",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 487.6,
+          "end": 491.8,
+          "segment_ids": [
+            "seg-0187"
+          ],
+          "quoted_text": "And in my work as a psychologist, I have"
+        }
+      ]
+    },
+    {
+      "id": "CLM-148",
+      "claim_text": "witnessed many times the different ways",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 489.8,
+          "end": 493.9,
+          "segment_ids": [
+            "seg-0188"
+          ],
+          "quoted_text": "witnessed many times the different ways"
+        }
+      ]
+    },
+    {
+      "id": "CLM-149",
+      "claim_text": "in which playing it safe moves may show",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 491.8,
+          "end": 495.3,
+          "segment_ids": [
+            "seg-0189"
+          ],
+          "quoted_text": "in which playing it safe moves may show"
+        }
+      ]
+    },
+    {
+      "id": "CLM-150",
+      "claim_text": "You may try to do things flawlessly.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 495.3,
+          "end": 500.4,
+          "segment_ids": [
+            "seg-0191"
+          ],
+          "quoted_text": "You may try to do things flawlessly."
+        }
+      ]
+    },
+    {
+      "id": "CLM-151",
+      "claim_text": "You may postpone events. You may search",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 498,
+          "end": 502.8,
+          "segment_ids": [
+            "seg-0192"
+          ],
+          "quoted_text": "You may postpone events. You may search"
+        }
+      ]
+    },
+    {
+      "id": "CLM-152",
+      "claim_text": "You may criticize yourself.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 502.8,
+          "end": 508.8,
+          "segment_ids": [
+            "seg-0194"
+          ],
+          "quoted_text": "You may criticize yourself."
+        }
+      ]
+    },
+    {
+      "id": "CLM-153",
+      "claim_text": "You may worry about a past failure or",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 506,
+          "end": 511.9,
+          "segment_ids": [
+            "seg-0195"
+          ],
+          "quoted_text": "You may worry about a past failure or"
+        }
+      ]
+    },
+    {
+      "id": "CLM-154",
+      "claim_text": "worry about a negative future.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 508.8,
+          "end": 514.6,
+          "segment_ids": [
+            "seg-0196"
+          ],
+          "quoted_text": "worry about a negative future."
+        }
+      ]
+    },
+    {
+      "id": "CLM-155",
+      "claim_text": "You may ignore your needs. You may put",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 511.9,
+          "end": 517,
+          "segment_ids": [
+            "seg-0197"
+          ],
+          "quoted_text": "You may ignore your needs. You may put"
+        }
+      ]
+    },
+    {
+      "id": "CLM-156",
+      "claim_text": "others needs above yours, or you may",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 514.6,
+          "end": 519.1,
+          "segment_ids": [
+            "seg-0198"
+          ],
+          "quoted_text": "others needs above yours, or you may"
+        }
+      ]
+    },
+    {
+      "id": "CLM-157",
+      "claim_text": "question your capacity to do hard",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 517,
+          "end": 521.7,
+          "segment_ids": [
+            "seg-0199"
+          ],
+          "quoted_text": "question your capacity to do hard"
+        }
+      ]
+    },
+    {
+      "id": "CLM-158",
+      "claim_text": "Sometimes you may notice when you're",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 522,
+          "end": 526.5,
+          "segment_ids": [
+            "seg-0201"
+          ],
+          "quoted_text": "Sometimes you may notice when you're"
+        }
+      ]
+    },
+    {
+      "id": "CLM-159",
+      "claim_text": "playing it safe. Other times you may not",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 523.6,
+          "end": 528.7,
+          "segment_ids": [
+            "seg-0202"
+          ],
+          "quoted_text": "playing it safe. Other times you may not"
+        }
+      ]
+    },
+    {
+      "id": "CLM-160",
+      "claim_text": "realize that you're doing it.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 526.5,
+          "end": 531.2,
+          "segment_ids": [
+            "seg-0203"
+          ],
+          "quoted_text": "realize that you're doing it."
+        }
+      ]
+    },
+    {
+      "id": "CLM-161",
+      "claim_text": "So, to catch your playing it safe moves,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 528.7,
+          "end": 533.4,
+          "segment_ids": [
+            "seg-0204"
+          ],
+          "quoted_text": "So, to catch your playing it safe moves,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-162",
+      "claim_text": "you need to keep an eye on all those",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 531.2,
+          "end": 536.6,
+          "segment_ids": [
+            "seg-0205"
+          ],
+          "quoted_text": "you need to keep an eye on all those"
+        }
+      ]
+    },
+    {
+      "id": "CLM-163",
+      "claim_text": "moments in which you are endlessly going",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 533.4,
+          "end": 539.2,
+          "segment_ids": [
+            "seg-0206"
+          ],
+          "quoted_text": "moments in which you are endlessly going"
+        }
+      ]
+    },
+    {
+      "id": "CLM-164",
+      "claim_text": "over the same content in your head.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 536.6,
+          "end": 541,
+          "segment_ids": [
+            "seg-0207"
+          ],
+          "quoted_text": "over the same content in your head."
+        }
+      ]
+    },
+    {
+      "id": "CLM-165",
+      "claim_text": "Because repetition is a key",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 539.2,
+          "end": 543.3,
+          "segment_ids": [
+            "seg-0208"
+          ],
+          "quoted_text": "Because repetition is a key"
+        }
+      ]
+    },
+    {
+      "id": "CLM-166",
+      "claim_text": "characteristic of all playing it safe",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 541,
+          "end": 545.2,
+          "segment_ids": [
+            "seg-0209"
+          ],
+          "quoted_text": "characteristic of all playing it safe"
+        }
+      ]
+    },
+    {
+      "id": "CLM-167",
+      "claim_text": "Research has consistently shown that our",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 545.2,
+          "end": 550,
+          "segment_ids": [
+            "seg-0211"
+          ],
+          "quoted_text": "Research has consistently shown that our"
+        }
+      ]
+    },
+    {
+      "id": "CLM-168",
+      "claim_text": "playing it safe moves feed into our",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 547.8,
+          "end": 552.8,
+          "segment_ids": [
+            "seg-0212"
+          ],
+          "quoted_text": "playing it safe moves feed into our"
+        }
+      ]
+    },
+    {
+      "id": "CLM-169",
+      "claim_text": "If we play it safe too often,",
+      "stance": "HYPOTHETICAL",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 554.8,
+          "end": 560.5,
+          "segment_ids": [
+            "seg-0215"
+          ],
+          "quoted_text": "If we play it safe too often,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-170",
+      "claim_text": "too quickly, and for too long, we don't",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 557.4,
+          "end": 562.9,
+          "segment_ids": [
+            "seg-0216"
+          ],
+          "quoted_text": "too quickly, and for too long, we don't"
+        }
+      ]
+    },
+    {
+      "id": "CLM-171",
+      "claim_text": "learn how to handle effectively our",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 560.5,
+          "end": 564.1,
+          "segment_ids": [
+            "seg-0217"
+          ],
+          "quoted_text": "learn how to handle effectively our"
+        }
+      ]
+    },
+    {
+      "id": "CLM-172",
+      "claim_text": "And we're left with the consequences of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 564.1,
+          "end": 569,
+          "segment_ids": [
+            "seg-0219"
+          ],
+          "quoted_text": "And we're left with the consequences of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-173",
+      "claim_text": "overprotecting ourselves.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 566.1,
+          "end": 571.7,
+          "segment_ids": [
+            "seg-0220"
+          ],
+          "quoted_text": "overprotecting ourselves."
+        }
+      ]
+    },
+    {
+      "id": "CLM-174",
+      "claim_text": "We avoid difficult conversations.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 569,
+          "end": 574.9,
+          "segment_ids": [
+            "seg-0221"
+          ],
+          "quoted_text": "We avoid difficult conversations."
+        }
+      ]
+    },
+    {
+      "id": "CLM-175",
+      "claim_text": "We say no to what matters.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 571.7,
+          "end": 576.1,
+          "segment_ids": [
+            "seg-0222"
+          ],
+          "quoted_text": "We say no to what matters."
+        }
+      ]
+    },
+    {
+      "id": "CLM-176",
+      "claim_text": "become directionless. We are stopping",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 576.1,
+          "end": 581.1,
+          "segment_ids": [
+            "seg-0224"
+          ],
+          "quoted_text": "become directionless. We are stopping"
+        }
+      ]
+    },
+    {
+      "id": "CLM-177",
+      "claim_text": "How many of you play it safe without",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 581.1,
+          "end": 585.4,
+          "segment_ids": [
+            "seg-0226"
+          ],
+          "quoted_text": "How many of you play it safe without"
+        }
+      ]
+    },
+    {
+      "id": "CLM-178",
+      "claim_text": "checking how your playing it safe moves",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 583.3,
+          "end": 587.7,
+          "segment_ids": [
+            "seg-0227"
+          ],
+          "quoted_text": "checking how your playing it safe moves"
+        }
+      ]
+    },
+    {
+      "id": "CLM-179",
+      "claim_text": "are really working in your life,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 585.4,
+          "end": 590.1,
+          "segment_ids": [
+            "seg-0228"
+          ],
+          "quoted_text": "are really working in your life,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-180",
+      "claim_text": "in your relationship with others, and in",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 587.7,
+          "end": 593.5,
+          "segment_ids": [
+            "seg-0229"
+          ],
+          "quoted_text": "in your relationship with others, and in"
+        }
+      ]
+    },
+    {
+      "id": "CLM-181",
+      "claim_text": "the relationship with yourself?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 590.1,
+          "end": 596,
+          "segment_ids": [
+            "seg-0230"
+          ],
+          "quoted_text": "the relationship with yourself?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-182",
+      "claim_text": "Now, as I said before, contrary to what",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 593.5,
+          "end": 599,
+          "segment_ids": [
+            "seg-0231"
+          ],
+          "quoted_text": "Now, as I said before, contrary to what"
+        }
+      ]
+    },
+    {
+      "id": "CLM-183",
+      "claim_text": "people believe, the solution is not to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 596,
+          "end": 602,
+          "segment_ids": [
+            "seg-0232"
+          ],
+          "quoted_text": "people believe, the solution is not to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-184",
+      "claim_text": "stop feeling those fear-based emotions.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 599,
+          "end": 604,
+          "segment_ids": [
+            "seg-0233"
+          ],
+          "quoted_text": "stop feeling those fear-based emotions."
+        }
+      ]
+    },
+    {
+      "id": "CLM-185",
+      "claim_text": "We don't have a magic wand to stop our",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 602,
+          "end": 605.6,
+          "segment_ids": [
+            "seg-0234"
+          ],
+          "quoted_text": "We don't have a magic wand to stop our"
+        }
+      ]
+    },
+    {
+      "id": "CLM-186",
+      "claim_text": "Second, no matter how old we are, who we",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 605.6,
+          "end": 612.7,
+          "segment_ids": [
+            "seg-0236"
+          ],
+          "quoted_text": "Second, no matter how old we are, who we"
+        }
+      ]
+    },
+    {
+      "id": "CLM-187",
+      "claim_text": "are with, or where we live, we are bound",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 609.4,
+          "end": 616,
+          "segment_ids": [
+            "seg-0237"
+          ],
+          "quoted_text": "are with, or where we live, we are bound"
+        }
+      ]
+    },
+    {
+      "id": "CLM-188",
+      "claim_text": "to feel anxious, worried, and afraid,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 612.7,
+          "end": 618.7,
+          "segment_ids": [
+            "seg-0238"
+          ],
+          "quoted_text": "to feel anxious, worried, and afraid,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-189",
+      "claim_text": "and we will play it safe.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 616,
+          "end": 620.8,
+          "segment_ids": [
+            "seg-0239"
+          ],
+          "quoted_text": "and we will play it safe."
+        }
+      ]
+    },
+    {
+      "id": "CLM-190",
+      "claim_text": "You may be thinking, if we cannot",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 618.7,
+          "end": 622.9,
+          "segment_ids": [
+            "seg-0240"
+          ],
+          "quoted_text": "You may be thinking, if we cannot"
+        }
+      ]
+    },
+    {
+      "id": "CLM-191",
+      "claim_text": "control our feelings,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 620.8,
+          "end": 625.1,
+          "segment_ids": [
+            "seg-0241"
+          ],
+          "quoted_text": "control our feelings,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-192",
+      "claim_text": "if we play if we will play it safe",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 622.9,
+          "end": 626.8,
+          "segment_ids": [
+            "seg-0242"
+          ],
+          "quoted_text": "if we play if we will play it safe"
+        }
+      ]
+    },
+    {
+      "id": "CLM-193",
+      "claim_text": "and we will feel afraid anyway, then how",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 626.8,
+          "end": 633.1,
+          "segment_ids": [
+            "seg-0244"
+          ],
+          "quoted_text": "and we will feel afraid anyway, then how"
+        }
+      ]
+    },
+    {
+      "id": "CLM-194",
+      "claim_text": "do we know what to do?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 629.8,
+          "end": 634.9,
+          "segment_ids": [
+            "seg-0245"
+          ],
+          "quoted_text": "do we know what to do?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-195",
+      "claim_text": "That has been the key question of my",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 633.1,
+          "end": 636.6,
+          "segment_ids": [
+            "seg-0246"
+          ],
+          "quoted_text": "That has been the key question of my"
+        }
+      ]
+    },
+    {
+      "id": "CLM-196",
+      "claim_text": "How can we get unstuck from fear-based",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 636.6,
+          "end": 642.2,
+          "segment_ids": [
+            "seg-0248"
+          ],
+          "quoted_text": "How can we get unstuck from fear-based"
+        }
+      ]
+    },
+    {
+      "id": "CLM-197",
+      "claim_text": "emotions so we can live a fulfilling",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 639.4,
+          "end": 643.9,
+          "segment_ids": [
+            "seg-0249"
+          ],
+          "quoted_text": "emotions so we can live a fulfilling"
+        }
+      ]
+    },
+    {
+      "id": "CLM-198",
+      "claim_text": "life?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 642.2,
+          "end": 646.4,
+          "segment_ids": [
+            "seg-0250"
+          ],
+          "quoted_text": "life?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-199",
+      "claim_text": "We learn to do what matters while",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 646.4,
+          "end": 653.2,
+          "segment_ids": [
+            "seg-0252"
+          ],
+          "quoted_text": "We learn to do what matters while"
+        }
+      ]
+    },
+    {
+      "id": "CLM-200",
+      "claim_text": "feeling anxious, worried, and afraid.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 648.7,
+          "end": 655.1,
+          "segment_ids": [
+            "seg-0253"
+          ],
+          "quoted_text": "feeling anxious, worried, and afraid."
+        }
+      ]
+    },
+    {
+      "id": "CLM-201",
+      "claim_text": "We learn to not fight those yucky",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 653.2,
+          "end": 657.3,
+          "segment_ids": [
+            "seg-0254"
+          ],
+          "quoted_text": "We learn to not fight those yucky"
+        }
+      ]
+    },
+    {
+      "id": "CLM-202",
+      "claim_text": "feelings, but choose to have them in the",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 655.1,
+          "end": 659.6,
+          "segment_ids": [
+            "seg-0255"
+          ],
+          "quoted_text": "feelings, but choose to have them in the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-203",
+      "claim_text": "service of what is truly important to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 657.3,
+          "end": 661.3,
+          "segment_ids": [
+            "seg-0256"
+          ],
+          "quoted_text": "service of what is truly important to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-204",
+      "claim_text": "We learn to check how our playing it",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 661.3,
+          "end": 665.7,
+          "segment_ids": [
+            "seg-0258"
+          ],
+          "quoted_text": "We learn to check how our playing it"
+        }
+      ]
+    },
+    {
+      "id": "CLM-205",
+      "claim_text": "safe moves are really working in our",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 663.4,
+          "end": 667.4,
+          "segment_ids": [
+            "seg-0259"
+          ],
+          "quoted_text": "safe moves are really working in our"
+        }
+      ]
+    },
+    {
+      "id": "CLM-206",
+      "claim_text": "Learning these skills changed David's",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 667.4,
+          "end": 671.6,
+          "segment_ids": [
+            "seg-0261"
+          ],
+          "quoted_text": "Learning these skills changed David's"
+        }
+      ]
+    },
+    {
+      "id": "CLM-207",
+      "claim_text": "life because they changed his",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 669.9,
+          "end": 675.6,
+          "segment_ids": [
+            "seg-0262"
+          ],
+          "quoted_text": "life because they changed his"
+        }
+      ]
+    },
+    {
+      "id": "CLM-208",
+      "claim_text": "relationship to his fear-based emotions.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 671.6,
+          "end": 677.7,
+          "segment_ids": [
+            "seg-0263"
+          ],
+          "quoted_text": "relationship to his fear-based emotions."
+        }
+      ]
+    },
+    {
+      "id": "CLM-209",
+      "claim_text": "These are the same skills that have",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 675.6,
+          "end": 680.8,
+          "segment_ids": [
+            "seg-0264"
+          ],
+          "quoted_text": "These are the same skills that have"
+        }
+      ]
+    },
+    {
+      "id": "CLM-210",
+      "claim_text": "helped me to be a better psychologist",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 677.7,
+          "end": 683.2,
+          "segment_ids": [
+            "seg-0265"
+          ],
+          "quoted_text": "helped me to be a better psychologist"
+        }
+      ]
+    },
+    {
+      "id": "CLM-211",
+      "claim_text": "and a better human being.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 680.8,
+          "end": 685.2,
+          "segment_ids": [
+            "seg-0266"
+          ],
+          "quoted_text": "and a better human being."
+        }
+      ]
+    },
+    {
+      "id": "CLM-212",
+      "claim_text": "Today, I want to share with all of you",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 683.2,
+          "end": 687.2,
+          "segment_ids": [
+            "seg-0267"
+          ],
+          "quoted_text": "Today, I want to share with all of you"
+        }
+      ]
+    },
+    {
+      "id": "CLM-213",
+      "claim_text": "some of these skills.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 685.2,
+          "end": 689.1,
+          "segment_ids": [
+            "seg-0268"
+          ],
+          "quoted_text": "some of these skills."
+        }
+      ]
+    },
+    {
+      "id": "CLM-214",
+      "claim_text": "Here's the first one.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 687.2,
+          "end": 691.4,
+          "segment_ids": [
+            "seg-0269"
+          ],
+          "quoted_text": "Here's the first one."
+        }
+      ]
+    },
+    {
+      "id": "CLM-215",
+      "claim_text": "Our minds are wonderful devices that are",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 691.4,
+          "end": 697.6,
+          "segment_ids": [
+            "seg-0271"
+          ],
+          "quoted_text": "Our minds are wonderful devices that are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-216",
+      "claim_text": "always creating all types of content.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 694.1,
+          "end": 701.2,
+          "segment_ids": [
+            "seg-0272"
+          ],
+          "quoted_text": "always creating all types of content."
+        }
+      ]
+    },
+    {
+      "id": "CLM-217",
+      "claim_text": "Hypothesis, dreams, memories, opinions.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 697.6,
+          "end": 703.8,
+          "segment_ids": [
+            "seg-0273"
+          ],
+          "quoted_text": "Hypothesis, dreams, memories, opinions."
+        }
+      ]
+    },
+    {
+      "id": "CLM-218",
+      "claim_text": "Even when we are sleeping, our minds are",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 701.2,
+          "end": 707,
+          "segment_ids": [
+            "seg-0274"
+          ],
+          "quoted_text": "Even when we are sleeping, our minds are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-219",
+      "claim_text": "going on and on and on.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 703.8,
+          "end": 709.2,
+          "segment_ids": [
+            "seg-0275"
+          ],
+          "quoted_text": "going on and on and on."
+        }
+      ]
+    },
+    {
+      "id": "CLM-220",
+      "claim_text": "Right now, as you're listening to this",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 707,
+          "end": 711.6,
+          "segment_ids": [
+            "seg-0276"
+          ],
+          "quoted_text": "Right now, as you're listening to this"
+        }
+      ]
+    },
+    {
+      "id": "CLM-221",
+      "claim_text": "talk and my accent, what is your mind",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 709.2,
+          "end": 713.3,
+          "segment_ids": [
+            "seg-0277"
+          ],
+          "quoted_text": "talk and my accent, what is your mind"
+        }
+      ]
+    },
+    {
+      "id": "CLM-222",
+      "claim_text": "doing?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 711.6,
+          "end": 715.3,
+          "segment_ids": [
+            "seg-0278"
+          ],
+          "quoted_text": "doing?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-223",
+      "claim_text": "Is it in the present?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 713.3,
+          "end": 716.9,
+          "segment_ids": [
+            "seg-0279"
+          ],
+          "quoted_text": "Is it in the present?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-224",
+      "claim_text": "Are you thinking about what you had for",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 715.3,
+          "end": 718.6,
+          "segment_ids": [
+            "seg-0280"
+          ],
+          "quoted_text": "Are you thinking about what you had for"
+        }
+      ]
+    },
+    {
+      "id": "CLM-225",
+      "claim_text": "breakfast?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 716.9,
+          "end": 720.3,
+          "segment_ids": [
+            "seg-0281"
+          ],
+          "quoted_text": "breakfast?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-226",
+      "claim_text": "Are you thinking about a trip you want",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 718.6,
+          "end": 722.4,
+          "segment_ids": [
+            "seg-0282"
+          ],
+          "quoted_text": "Are you thinking about a trip you want"
+        }
+      ]
+    },
+    {
+      "id": "CLM-227",
+      "claim_text": "to take?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 720.3,
+          "end": 724.5,
+          "segment_ids": [
+            "seg-0283"
+          ],
+          "quoted_text": "to take?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-228",
+      "claim_text": "According to the National Science",
+      "stance": "ATTRIBUTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "attributed_to": "Researchers",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 722.4,
+          "end": 729,
+          "segment_ids": [
+            "seg-0284"
+          ],
+          "quoted_text": "According to the National Science"
+        }
+      ]
+    },
+    {
+      "id": "CLM-229",
+      "claim_text": "Foundation, we have between 12,000",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 724.5,
+          "end": 732.8,
+          "segment_ids": [
+            "seg-0285"
+          ],
+          "quoted_text": "Foundation, we have between 12,000"
+        }
+      ]
+    },
+    {
+      "id": "CLM-230",
+      "claim_text": "and 60,000 thoughts per day.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 729,
+          "end": 736.2,
+          "segment_ids": [
+            "seg-0286"
+          ],
+          "quoted_text": "and 60,000 thoughts per day."
+        }
+      ]
+    },
+    {
+      "id": "CLM-231",
+      "claim_text": "Yep, we have busy minds, all of us.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 732.8,
+          "end": 738.2,
+          "segment_ids": [
+            "seg-0287"
+          ],
+          "quoted_text": "Yep, we have busy minds, all of us."
+        }
+      ]
+    },
+    {
+      "id": "CLM-232",
+      "claim_text": "And our minds also tell us when we are",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 736.2,
+          "end": 739.8,
+          "segment_ids": [
+            "seg-0288"
+          ],
+          "quoted_text": "And our minds also tell us when we are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-233",
+      "claim_text": "When a fast-moving truck is speeding",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 739.8,
+          "end": 744.5,
+          "segment_ids": [
+            "seg-0290"
+          ],
+          "quoted_text": "When a fast-moving truck is speeding"
+        }
+      ]
+    },
+    {
+      "id": "CLM-234",
+      "claim_text": "towards us, our minds tell us, \"Watch",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 741.8,
+          "end": 745.4,
+          "segment_ids": [
+            "seg-0291"
+          ],
+          "quoted_text": "towards us, our minds tell us, \"Watch"
+        }
+      ]
+    },
+    {
+      "id": "CLM-235",
+      "claim_text": "But our minds also tell us, \"Watch out.\"",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 745.4,
+          "end": 751.4,
+          "segment_ids": [
+            "seg-0293"
+          ],
+          "quoted_text": "But our minds also tell us, \"Watch out.\""
+        }
+      ]
+    },
+    {
+      "id": "CLM-236",
+      "claim_text": "when imagining future danger.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 747.9,
+          "end": 752.9,
+          "segment_ids": [
+            "seg-0294"
+          ],
+          "quoted_text": "when imagining future danger."
+        }
+      ]
+    },
+    {
+      "id": "CLM-237",
+      "claim_text": "If you don't say the right things on",
+      "stance": "HYPOTHETICAL",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 751.4,
+          "end": 755.1,
+          "segment_ids": [
+            "seg-0295"
+          ],
+          "quoted_text": "If you don't say the right things on"
+        }
+      ]
+    },
+    {
+      "id": "CLM-238",
+      "claim_text": "your date, she won't go out with you",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 752.9,
+          "end": 756.8,
+          "segment_ids": [
+            "seg-0296"
+          ],
+          "quoted_text": "your date, she won't go out with you"
+        }
+      ]
+    },
+    {
+      "id": "CLM-239",
+      "claim_text": "If you don't foresee everything that",
+      "stance": "HYPOTHETICAL",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 756.8,
+          "end": 760.8,
+          "segment_ids": [
+            "seg-0298"
+          ],
+          "quoted_text": "If you don't foresee everything that"
+        }
+      ]
+    },
+    {
+      "id": "CLM-240",
+      "claim_text": "could go wrong in this talk, you will be",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 758.7,
+          "end": 762.6,
+          "segment_ids": [
+            "seg-0299"
+          ],
+          "quoted_text": "could go wrong in this talk, you will be"
+        }
+      ]
+    },
+    {
+      "id": "CLM-241",
+      "claim_text": "If you tell people what you really think",
+      "stance": "HYPOTHETICAL",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 762.6,
+          "end": 767.1,
+          "segment_ids": [
+            "seg-0301"
+          ],
+          "quoted_text": "If you tell people what you really think"
+        }
+      ]
+    },
+    {
+      "id": "CLM-242",
+      "claim_text": "about their politics, they will reject",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 765,
+          "end": 768.2,
+          "segment_ids": [
+            "seg-0302"
+          ],
+          "quoted_text": "about their politics, they will reject"
+        }
+      ]
+    },
+    {
+      "id": "CLM-243",
+      "claim_text": "And with all those thoughts expelling",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 768.2,
+          "end": 772.8,
+          "segment_ids": [
+            "seg-0304"
+          ],
+          "quoted_text": "And with all those thoughts expelling"
+        }
+      ]
+    },
+    {
+      "id": "CLM-244",
+      "claim_text": "our heads, of course,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 770.5,
+          "end": 775.5,
+          "segment_ids": [
+            "seg-0305"
+          ],
+          "quoted_text": "our heads, of course,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-245",
+      "claim_text": "our mind tell us, \"Better safe than",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 772.8,
+          "end": 776.7,
+          "segment_ids": [
+            "seg-0306"
+          ],
+          "quoted_text": "our mind tell us, \"Better safe than"
+        }
+      ]
+    },
+    {
+      "id": "CLM-246",
+      "claim_text": "Ask us to play it safe as a way of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 776.7,
+          "end": 782.1,
+          "segment_ids": [
+            "seg-0308"
+          ],
+          "quoted_text": "Ask us to play it safe as a way of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-247",
+      "claim_text": "protecting us, as a way of avoiding the",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 778.9,
+          "end": 785.5,
+          "segment_ids": [
+            "seg-0309"
+          ],
+          "quoted_text": "protecting us, as a way of avoiding the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-248",
+      "claim_text": "But our minds are not the oracle of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 787.8,
+          "end": 791.2,
+          "segment_ids": [
+            "seg-0311"
+          ],
+          "quoted_text": "But our minds are not the oracle of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-249",
+      "claim_text": "board, chiming in and giving advice.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 793.4,
+          "end": 798.4,
+          "segment_ids": [
+            "seg-0314"
+          ],
+          "quoted_text": "board, chiming in and giving advice."
+        }
+      ]
+    },
+    {
+      "id": "CLM-250",
+      "claim_text": "mind will offer you great advice.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 798.4,
+          "end": 803.9,
+          "segment_ids": [
+            "seg-0316"
+          ],
+          "quoted_text": "mind will offer you great advice."
+        }
+      ]
+    },
+    {
+      "id": "CLM-251",
+      "claim_text": "And other times, it simply doesn't.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 801.1,
+          "end": 805.8,
+          "segment_ids": [
+            "seg-0317"
+          ],
+          "quoted_text": "And other times, it simply doesn't."
+        }
+      ]
+    },
+    {
+      "id": "CLM-252",
+      "claim_text": "For example, yesterday when I was",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 803.9,
+          "end": 809.1,
+          "segment_ids": [
+            "seg-0318"
+          ],
+          "quoted_text": "For example, yesterday when I was"
+        }
+      ]
+    },
+    {
+      "id": "CLM-253",
+      "claim_text": "driving, my advisory told me, \"You are",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 805.8,
+          "end": 810.5,
+          "segment_ids": [
+            "seg-0319"
+          ],
+          "quoted_text": "driving, my advisory told me, \"You are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-254",
+      "claim_text": "And urged me to play it safe by looking",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 810.5,
+          "end": 815.9,
+          "segment_ids": [
+            "seg-0321"
+          ],
+          "quoted_text": "And urged me to play it safe by looking"
+        }
+      ]
+    },
+    {
+      "id": "CLM-255",
+      "claim_text": "both ways before making a turn. That was",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 812.6,
+          "end": 817.7,
+          "segment_ids": [
+            "seg-0322"
+          ],
+          "quoted_text": "both ways before making a turn. That was"
+        }
+      ]
+    },
+    {
+      "id": "CLM-256",
+      "claim_text": "When preparing for this talk, my",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 817.7,
+          "end": 822.1,
+          "segment_ids": [
+            "seg-0324"
+          ],
+          "quoted_text": "When preparing for this talk, my"
+        }
+      ]
+    },
+    {
+      "id": "CLM-257",
+      "claim_text": "up. You don't know what you're talking",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 822.1,
+          "end": 826.7,
+          "segment_ids": [
+            "seg-0326"
+          ],
+          "quoted_text": "up. You don't know what you're talking"
+        }
+      ]
+    },
+    {
+      "id": "CLM-258",
+      "claim_text": "about.\" And urged me to play it safe by",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 823.9,
+          "end": 829.6,
+          "segment_ids": [
+            "seg-0327"
+          ],
+          "quoted_text": "about.\" And urged me to play it safe by"
+        }
+      ]
+    },
+    {
+      "id": "CLM-259",
+      "claim_text": "avoiding this talk altogether.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 826.7,
+          "end": 831.5,
+          "segment_ids": [
+            "seg-0328"
+          ],
+          "quoted_text": "avoiding this talk altogether."
+        }
+      ]
+    },
+    {
+      "id": "CLM-260",
+      "claim_text": "That wasn't helpful advice.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 829.6,
+          "end": 833.8,
+          "segment_ids": [
+            "seg-0329"
+          ],
+          "quoted_text": "That wasn't helpful advice."
+        }
+      ]
+    },
+    {
+      "id": "CLM-261",
+      "claim_text": "Because if I had listened to my advisory",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 831.5,
+          "end": 836.9,
+          "segment_ids": [
+            "seg-0330"
+          ],
+          "quoted_text": "Because if I had listened to my advisory"
+        }
+      ]
+    },
+    {
+      "id": "CLM-262",
+      "claim_text": "board and avoided being here with all of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 833.8,
+          "end": 839.5,
+          "segment_ids": [
+            "seg-0331"
+          ],
+          "quoted_text": "board and avoided being here with all of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-263",
+      "claim_text": "you today, I would have moved farther",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 836.9,
+          "end": 842.5,
+          "segment_ids": [
+            "seg-0332"
+          ],
+          "quoted_text": "you today, I would have moved farther"
+        }
+      ]
+    },
+    {
+      "id": "CLM-264",
+      "claim_text": "away from doing what is truly important",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 839.5,
+          "end": 843.8,
+          "segment_ids": [
+            "seg-0333"
+          ],
+          "quoted_text": "away from doing what is truly important"
+        }
+      ]
+    },
+    {
+      "id": "CLM-265",
+      "claim_text": "So, what do you do when your advisory",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 843.8,
+          "end": 848,
+          "segment_ids": [
+            "seg-0335"
+          ],
+          "quoted_text": "So, what do you do when your advisory"
+        }
+      ]
+    },
+    {
+      "id": "CLM-266",
+      "claim_text": "board is starts pushing you to play it",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 846,
+          "end": 849.2,
+          "segment_ids": [
+            "seg-0336"
+          ],
+          "quoted_text": "board is starts pushing you to play it"
+        }
+      ]
+    },
+    {
+      "id": "CLM-267",
+      "claim_text": "safe?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 848,
+          "end": 851,
+          "segment_ids": [
+            "seg-0337"
+          ],
+          "quoted_text": "safe?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-268",
+      "claim_text": "Maybe even say, \"I hear you, advisory",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 854.2,
+          "end": 858,
+          "segment_ids": [
+            "seg-0341"
+          ],
+          "quoted_text": "Maybe even say, \"I hear you, advisory"
+        }
+      ]
+    },
+    {
+      "id": "CLM-269",
+      "claim_text": "Then, try another skill.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 858,
+          "end": 863.4,
+          "segment_ids": [
+            "seg-0343"
+          ],
+          "quoted_text": "Then, try another skill."
+        }
+      ]
+    },
+    {
+      "id": "CLM-270",
+      "claim_text": "your mind will always urge you to play",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 863.4,
+          "end": 867.6,
+          "segment_ids": [
+            "seg-0345"
+          ],
+          "quoted_text": "your mind will always urge you to play"
+        }
+      ]
+    },
+    {
+      "id": "CLM-271",
+      "claim_text": "You can even say, \"Hey, you're trying to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 867.6,
+          "end": 872.2,
+          "segment_ids": [
+            "seg-0347"
+          ],
+          "quoted_text": "You can even say, \"Hey, you're trying to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-272",
+      "claim_text": "convince me to play it safe again, like",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 869.6,
+          "end": 875.3,
+          "segment_ids": [
+            "seg-0348"
+          ],
+          "quoted_text": "convince me to play it safe again, like"
+        }
+      ]
+    },
+    {
+      "id": "CLM-273",
+      "claim_text": "You may be thinking, \"Mhm, but if my",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 875.3,
+          "end": 880.3,
+          "segment_ids": [
+            "seg-0350"
+          ],
+          "quoted_text": "You may be thinking, \"Mhm, but if my"
+        }
+      ]
+    },
+    {
+      "id": "CLM-274",
+      "claim_text": "bad is going to happen, how do I know",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 880.3,
+          "end": 885.4,
+          "segment_ids": [
+            "seg-0352"
+          ],
+          "quoted_text": "bad is going to happen, how do I know"
+        }
+      ]
+    },
+    {
+      "id": "CLM-275",
+      "claim_text": "Here is my response and another skill",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 887.4,
+          "end": 891,
+          "segment_ids": [
+            "seg-0355"
+          ],
+          "quoted_text": "Here is my response and another skill"
+        }
+      ]
+    },
+    {
+      "id": "CLM-276",
+      "claim_text": "You need to identify the long-term",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 891,
+          "end": 896.8,
+          "segment_ids": [
+            "seg-0357"
+          ],
+          "quoted_text": "You need to identify the long-term"
+        }
+      ]
+    },
+    {
+      "id": "CLM-277",
+      "claim_text": "consequences of doing whatever your",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 894.1,
+          "end": 899.6,
+          "segment_ids": [
+            "seg-0358"
+          ],
+          "quoted_text": "consequences of doing whatever your"
+        }
+      ]
+    },
+    {
+      "id": "CLM-278",
+      "claim_text": "I become the person I want to be?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 904.1,
+          "end": 910.3,
+          "segment_ids": [
+            "seg-0362"
+          ],
+          "quoted_text": "I become the person I want to be?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-279",
+      "claim_text": "Will my play-it-safe behaviors allow me",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 907.8,
+          "end": 913.6,
+          "segment_ids": [
+            "seg-0363"
+          ],
+          "quoted_text": "Will my play-it-safe behaviors allow me"
+        }
+      ]
+    },
+    {
+      "id": "CLM-280",
+      "claim_text": "to be the kind of friend I want to be?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 910.3,
+          "end": 916.1,
+          "segment_ids": [
+            "seg-0364"
+          ],
+          "quoted_text": "to be the kind of friend I want to be?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-281",
+      "claim_text": "The kind of worker or a student I want",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 913.6,
+          "end": 918,
+          "segment_ids": [
+            "seg-0365"
+          ],
+          "quoted_text": "The kind of worker or a student I want"
+        }
+      ]
+    },
+    {
+      "id": "CLM-282",
+      "claim_text": "to be?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 916.1,
+          "end": 921.3,
+          "segment_ids": [
+            "seg-0366"
+          ],
+          "quoted_text": "to be?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-283",
+      "claim_text": "Will my play-it-safe actions allow me to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 918,
+          "end": 924,
+          "segment_ids": [
+            "seg-0367"
+          ],
+          "quoted_text": "Will my play-it-safe actions allow me to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-284",
+      "claim_text": "be the kind of partner or parent I want",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 921.3,
+          "end": 926.4,
+          "segment_ids": [
+            "seg-0368"
+          ],
+          "quoted_text": "be the kind of partner or parent I want"
+        }
+      ]
+    },
+    {
+      "id": "CLM-285",
+      "claim_text": "debating what is accurate or not, what",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 932.4,
+          "end": 937.5,
+          "segment_ids": [
+            "seg-0372"
+          ],
+          "quoted_text": "debating what is accurate or not, what"
+        }
+      ]
+    },
+    {
+      "id": "CLM-286",
+      "claim_text": "is right or wrong, or rationalizing,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 935,
+          "end": 939.6,
+          "segment_ids": [
+            "seg-0373"
+          ],
+          "quoted_text": "is right or wrong, or rationalizing,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-287",
+      "claim_text": "because that's how you start playing it",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 937.5,
+          "end": 940.9,
+          "segment_ids": [
+            "seg-0374"
+          ],
+          "quoted_text": "because that's how you start playing it"
+        }
+      ]
+    },
+    {
+      "id": "CLM-288",
+      "claim_text": "Instead, remember that your mind cannot",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 940.9,
+          "end": 947,
+          "segment_ids": [
+            "seg-0376"
+          ],
+          "quoted_text": "Instead, remember that your mind cannot"
+        }
+      ]
+    },
+    {
+      "id": "CLM-289",
+      "claim_text": "control coming up with fearful thoughts,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 944.1,
+          "end": 949.4,
+          "segment_ids": [
+            "seg-0377"
+          ],
+          "quoted_text": "control coming up with fearful thoughts,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-290",
+      "claim_text": "but you can choose how to respond to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 947,
+          "end": 951.8,
+          "segment_ids": [
+            "seg-0378"
+          ],
+          "quoted_text": "but you can choose how to respond to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-291",
+      "claim_text": "them and whether you play it safe or",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 949.4,
+          "end": 953.8,
+          "segment_ids": [
+            "seg-0379"
+          ],
+          "quoted_text": "them and whether you play it safe or"
+        }
+      ]
+    },
+    {
+      "id": "CLM-292",
+      "claim_text": "So, what happened to my wonderful coffee",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 953.8,
+          "end": 957.4,
+          "segment_ids": [
+            "seg-0381"
+          ],
+          "quoted_text": "So, what happened to my wonderful coffee"
+        }
+      ]
+    },
+    {
+      "id": "CLM-293",
+      "claim_text": "maker?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 956,
+          "end": 959.6,
+          "segment_ids": [
+            "seg-0382"
+          ],
+          "quoted_text": "maker?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-294",
+      "claim_text": "Well, fed up with playing it safe, I",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 957.4,
+          "end": 961.9,
+          "segment_ids": [
+            "seg-0383"
+          ],
+          "quoted_text": "Well, fed up with playing it safe, I"
+        }
+      ]
+    },
+    {
+      "id": "CLM-295",
+      "claim_text": "drove back to a store and simply bought",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 959.6,
+          "end": 963.6,
+          "segment_ids": [
+            "seg-0384"
+          ],
+          "quoted_text": "drove back to a store and simply bought"
+        }
+      ]
+    },
+    {
+      "id": "CLM-296",
+      "claim_text": "I still have this kitchen gadget 15",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 963.6,
+          "end": 968.6,
+          "segment_ids": [
+            "seg-0386"
+          ],
+          "quoted_text": "I still have this kitchen gadget 15"
+        }
+      ]
+    },
+    {
+      "id": "CLM-297",
+      "claim_text": "years later and love the smell of coffee",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 966.1,
+          "end": 970.4,
+          "segment_ids": [
+            "seg-0387"
+          ],
+          "quoted_text": "years later and love the smell of coffee"
+        }
+      ]
+    },
+    {
+      "id": "CLM-298",
+      "claim_text": "What do you do when the figurative",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 970.4,
+          "end": 975.5,
+          "segment_ids": [
+            "seg-0389"
+          ],
+          "quoted_text": "What do you do when the figurative"
+        }
+      ]
+    },
+    {
+      "id": "CLM-299",
+      "claim_text": "coffee maker of your life breaks down",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 972.6,
+          "end": 977.3,
+          "segment_ids": [
+            "seg-0390"
+          ],
+          "quoted_text": "coffee maker of your life breaks down"
+        }
+      ]
+    },
+    {
+      "id": "CLM-300",
+      "claim_text": "yapping?",
+      "stance": "QUESTION",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "MEDIUM",
+      "is_speaker_endorsement": false,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 977.3,
+          "end": 980.9,
+          "segment_ids": [
+            "seg-0392"
+          ],
+          "quoted_text": "yapping?"
+        }
+      ]
+    },
+    {
+      "id": "CLM-301",
+      "claim_text": "Use the skills from this talk to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 978.8,
+          "end": 983.1,
+          "segment_ids": [
+            "seg-0393"
+          ],
+          "quoted_text": "Use the skills from this talk to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-302",
+      "claim_text": "determine whether you should listen to",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 980.9,
+          "end": 985.5,
+          "segment_ids": [
+            "seg-0394"
+          ],
+          "quoted_text": "determine whether you should listen to"
+        }
+      ]
+    },
+    {
+      "id": "CLM-303",
+      "claim_text": "its warning or shrug it off.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 983.1,
+          "end": 988.9,
+          "segment_ids": [
+            "seg-0395"
+          ],
+          "quoted_text": "its warning or shrug it off."
+        }
+      ]
+    },
+    {
+      "id": "CLM-304",
+      "claim_text": "To recap, one, watch your mind.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 985.5,
+          "end": 991,
+          "segment_ids": [
+            "seg-0396"
+          ],
+          "quoted_text": "To recap, one, watch your mind."
+        }
+      ]
+    },
+    {
+      "id": "CLM-305",
+      "claim_text": "starts to predict how your life is about",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 991,
+          "end": 996.1,
+          "segment_ids": [
+            "seg-0398"
+          ],
+          "quoted_text": "starts to predict how your life is about"
+        }
+      ]
+    },
+    {
+      "id": "CLM-306",
+      "claim_text": "to go downhill and demands that you play",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 993.7,
+          "end": 998.8,
+          "segment_ids": [
+            "seg-0399"
+          ],
+          "quoted_text": "to go downhill and demands that you play"
+        }
+      ]
+    },
+    {
+      "id": "CLM-307",
+      "claim_text": "radically accept that your advisory",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 999.7,
+          "end": 1006.6,
+          "segment_ids": [
+            "seg-0402"
+          ],
+          "quoted_text": "radically accept that your advisory"
+        }
+      ]
+    },
+    {
+      "id": "CLM-308",
+      "claim_text": "board is always trying to protect you.",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1002.4,
+          "end": 1009,
+          "segment_ids": [
+            "seg-0403"
+          ],
+          "quoted_text": "board is always trying to protect you."
+        }
+      ]
+    },
+    {
+      "id": "CLM-309",
+      "claim_text": "Catch those urges to play it safe by",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1006.6,
+          "end": 1011.3,
+          "segment_ids": [
+            "seg-0404"
+          ],
+          "quoted_text": "Catch those urges to play it safe by"
+        }
+      ]
+    },
+    {
+      "id": "CLM-310",
+      "claim_text": "using all those familiar thinking",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1009,
+          "end": 1013.8,
+          "segment_ids": [
+            "seg-0405"
+          ],
+          "quoted_text": "using all those familiar thinking"
+        }
+      ]
+    },
+    {
+      "id": "CLM-311",
+      "claim_text": "strategies without engaging in the",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1011.3,
+          "end": 1016.3,
+          "segment_ids": [
+            "seg-0406"
+          ],
+          "quoted_text": "strategies without engaging in the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-312",
+      "claim_text": "identify the long-term consequences of",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1017.7,
+          "end": 1022.9,
+          "segment_ids": [
+            "seg-0409"
+          ],
+          "quoted_text": "identify the long-term consequences of"
+        }
+      ]
+    },
+    {
+      "id": "CLM-313",
+      "claim_text": "Call on your personal values and ask",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1024.5,
+          "end": 1029.4,
+          "segment_ids": [
+            "seg-0412"
+          ],
+          "quoted_text": "Call on your personal values and ask"
+        }
+      ]
+    },
+    {
+      "id": "CLM-314",
+      "claim_text": "yourself, \"If I do what my advisory",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1026.7,
+          "end": 1031.2,
+          "segment_ids": [
+            "seg-0413"
+          ],
+          "quoted_text": "yourself, \"If I do what my advisory"
+        }
+      ]
+    },
+    {
+      "id": "CLM-315",
+      "claim_text": "board wants me to do,",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1029.4,
+          "end": 1034.6,
+          "segment_ids": [
+            "seg-0414"
+          ],
+          "quoted_text": "board wants me to do,"
+        }
+      ]
+    },
+    {
+      "id": "CLM-316",
+      "claim_text": "does it take me closer to or farther",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1031.2,
+          "end": 1037.8,
+          "segment_ids": [
+            "seg-0415"
+          ],
+          "quoted_text": "does it take me closer to or farther"
+        }
+      ]
+    },
+    {
+      "id": "CLM-317",
+      "claim_text": "away from who I want to be?\"",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1034.6,
+          "end": 1040,
+          "segment_ids": [
+            "seg-0416"
+          ],
+          "quoted_text": "away from who I want to be?\""
+        }
+      ]
+    },
+    {
+      "id": "CLM-318",
+      "claim_text": "And if you are still a struggling, ask",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1037.8,
+          "end": 1041.1,
+          "segment_ids": [
+            "seg-0417"
+          ],
+          "quoted_text": "And if you are still a struggling, ask"
+        }
+      ]
+    },
+    {
+      "id": "CLM-319",
+      "claim_text": "\"Do I want to drink a cup of coffee or",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1041.1,
+          "end": 1046.6,
+          "segment_ids": [
+            "seg-0419"
+          ],
+          "quoted_text": "\"Do I want to drink a cup of coffee or"
+        }
+      ]
+    },
+    {
+      "id": "CLM-320",
+      "claim_text": "just think about it for 3 months?\"",
+      "stance": "ASSERTED",
+      "epistemic_status": "SOURCE_EXTRACTED",
+      "confidence": "HIGH",
+      "is_speaker_endorsement": true,
+      "scope": "UNIVERSAL",
+      "source_spans": [
+        {
+          "start": 1043.7,
+          "end": 1049.1,
+          "segment_ids": [
+            "seg-0420"
+          ],
+          "quoted_text": "just think about it for 3 months?\""
+        }
+      ]
+    }
+  ],
+  "concepts": [],
+  "mechanisms": [],
+  "principles": [],
+  "mental_models": [],
+  "examples_and_analogies": [
+    {
+      "id": "EXM-001",
+      "type": "ANALOGY",
+      "content": "friends, who were coffee snobs like me,",
+      "source_spans": [
+        {
+          "start": 47.7,
+          "end": 52.1,
+          "segment_ids": [
+            "seg-0018"
+          ],
+          "quoted_text": "friends, who were coffee snobs like me,"
+        }
+      ]
+    },
+    {
+      "id": "EXM-002",
+      "type": "ANALOGY",
+      "content": "He, like me, and maybe even like you,",
+      "source_spans": [
+        {
+          "start": 291.6,
+          "end": 297.4,
+          "segment_ids": [
+            "seg-0113"
+          ],
+          "quoted_text": "He, like me, and maybe even like you,"
+        }
+      ]
+    },
+    {
+      "id": "EXM-003",
+      "type": "ANALOGY",
+      "content": "Blindly playing it safe is like using",
+      "source_spans": [
+        {
+          "start": 420.1,
+          "end": 425.6,
+          "segment_ids": [
+            "seg-0165"
+          ],
+          "quoted_text": "Blindly playing it safe is like using"
+        }
+      ]
+    },
+    {
+      "id": "EXM-004",
+      "type": "ANALOGY",
+      "content": "bandages to deal with our fears.",
+      "source_spans": [
+        {
+          "start": 422.8,
+          "end": 427.9,
+          "segment_ids": [
+            "seg-0166"
+          ],
+          "quoted_text": "bandages to deal with our fears."
+        }
+      ]
+    },
+    {
+      "id": "EXM-005",
+      "type": "ANALOGY",
+      "content": "fear-based emotions like adding logs to",
+      "source_spans": [
+        {
+          "start": 550,
+          "end": 554.8,
+          "segment_ids": [
+            "seg-0213"
+          ],
+          "quoted_text": "fear-based emotions like adding logs to"
+        }
+      ]
+    },
+    {
+      "id": "EXM-006",
+      "type": "ANALOGY",
+      "content": "Our minds are more like an advisory",
+      "source_spans": [
+        {
+          "start": 791.2,
+          "end": 796.5,
+          "segment_ids": [
+            "seg-0313"
+          ],
+          "quoted_text": "Our minds are more like an advisory"
+        }
+      ]
+    },
+    {
+      "id": "EXM-007",
+      "type": "ANALOGY",
+      "content": "Sometimes the advisory board of your",
+      "source_spans": [
+        {
+          "start": 796.5,
+          "end": 801.1,
+          "segment_ids": [
+            "seg-0315"
+          ],
+          "quoted_text": "Sometimes the advisory board of your"
+        }
+      ]
+    },
+    {
+      "id": "EXM-008",
+      "type": "ANALOGY",
+      "content": "advisory board told me, \"You will mess",
+      "source_spans": [
+        {
+          "start": 819.6,
+          "end": 823.9,
+          "segment_ids": [
+            "seg-0325"
+          ],
+          "quoted_text": "advisory board told me, \"You will mess"
+        }
+      ]
+    },
+    {
+      "id": "EXM-009",
+      "type": "ANALOGY",
+      "content": "Notice when your advisory board is",
+      "source_spans": [
+        {
+          "start": 851,
+          "end": 854.2,
+          "segment_ids": [
+            "seg-0339"
+          ],
+          "quoted_text": "Notice when your advisory board is"
+        }
+      ]
+    },
+    {
+      "id": "EXM-010",
+      "type": "ANALOGY",
+      "content": "Radically accept that advisory board of",
+      "source_spans": [
+        {
+          "start": 860.5,
+          "end": 866.1,
+          "segment_ids": [
+            "seg-0344"
+          ],
+          "quoted_text": "Radically accept that advisory board of"
+        }
+      ]
+    },
+    {
+      "id": "EXM-011",
+      "type": "ANALOGY",
+      "content": "advisory board tells me that something",
+      "source_spans": [
+        {
+          "start": 877.6,
+          "end": 882.8,
+          "segment_ids": [
+            "seg-0351"
+          ],
+          "quoted_text": "advisory board tells me that something"
+        }
+      ]
+    },
+    {
+      "id": "EXM-012",
+      "type": "ANALOGY",
+      "content": "when to listen to my advisory board and",
+      "source_spans": [
+        {
+          "start": 882.8,
+          "end": 887.4,
+          "segment_ids": [
+            "seg-0353"
+          ],
+          "quoted_text": "when to listen to my advisory board and"
+        }
+      ]
+    },
+    {
+      "id": "EXM-013",
+      "type": "ANALOGY",
+      "content": "advisory board asks you to do.",
+      "source_spans": [
+        {
+          "start": 896.8,
+          "end": 901.9,
+          "segment_ids": [
+            "seg-0359"
+          ],
+          "quoted_text": "advisory board asks you to do."
+        }
+      ]
+    },
+    {
+      "id": "EXM-014",
+      "type": "ANALOGY",
+      "content": "\"If I listen to my advisory board, will",
+      "source_spans": [
+        {
+          "start": 901.9,
+          "end": 907.8,
+          "segment_ids": [
+            "seg-0361"
+          ],
+          "quoted_text": "\"If I listen to my advisory board, will"
+        }
+      ]
+    },
+    {
+      "id": "EXM-015",
+      "type": "ANALOGY",
+      "content": "When your advisory board starts talking,",
+      "source_spans": [
+        {
+          "start": 926.6,
+          "end": 932.4,
+          "segment_ids": [
+            "seg-0370"
+          ],
+          "quoted_text": "When your advisory board starts talking,"
+        }
+      ]
+    },
+    {
+      "id": "EXM-016",
+      "type": "ANALOGY",
+      "content": "don't engage with your advisory board by",
+      "source_spans": [
+        {
+          "start": 929.6,
+          "end": 935,
+          "segment_ids": [
+            "seg-0371"
+          ],
+          "quoted_text": "don't engage with your advisory board by"
+        }
+      ]
+    },
+    {
+      "id": "EXM-017",
+      "type": "ANALOGY",
+      "content": "and your advisory board it starts",
+      "source_spans": [
+        {
+          "start": 975.5,
+          "end": 978.8,
+          "segment_ids": [
+            "seg-0391"
+          ],
+          "quoted_text": "and your advisory board it starts"
+        }
+      ]
+    },
+    {
+      "id": "EXM-018",
+      "type": "ANALOGY",
+      "content": "Notice when your advisory board it",
+      "source_spans": [
+        {
+          "start": 988.9,
+          "end": 993.7,
+          "segment_ids": [
+            "seg-0397"
+          ],
+          "quoted_text": "Notice when your advisory board it"
+        }
+      ]
+    },
+    {
+      "id": "EXM-019",
+      "type": "ANALOGY",
+      "content": "blindly doing what advisory board wants",
+      "source_spans": [
+        {
+          "start": 1020.3,
+          "end": 1024.5,
+          "segment_ids": [
+            "seg-0410"
+          ],
+          "quoted_text": "blindly doing what advisory board wants"
+        }
+      ]
+    }
+  ],
+  "arguments": [],
+  "uncertainties": []
+}

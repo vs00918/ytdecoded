@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-092",
+  "created_at": "2026-09-01T15:11:31.281Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-114",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1318",
+      "start": 3622.8,
+      "end": 3624.3,
+      "quoted_text": "And now you understand that afterward"
+    },
+    {
+      "entity_id": "CLM-1319",
+      "start": 3624.3,
+      "end": 3626.5,
+      "quoted_text": "the baseline of dopamine drops"
+    },
+    {
+      "entity_id": "CLM-1320",
+      "start": 3626.5,
+      "end": 3628.4,
+      "quoted_text": "because of depletion of dopamine,"
+    },
+    {
+      "entity_id": "CLM-1321",
+      "start": 3628.4,
+      "end": 3630.6,
+      "quoted_text": "that readily releasable pool."
+    },
+    {
+      "entity_id": "CLM-1322",
+      "start": 3630.6,
+      "end": 3633.1,
+      "quoted_text": "The dopamine is literally not around to be released,"
+    },
+    {
+      "entity_id": "CLM-1323",
+      "start": 3633.1,
+      "end": 3635.7,
+      "quoted_text": "and so people feel pretty lousy"
+    },
+    {
+      "entity_id": "CLM-1324",
+      "start": 3635.7,
+      "end": 3639.4,
+      "quoted_text": "and many people make the mistake of then going and pursuing"
+    },
+    {
+      "entity_id": "CLM-1325",
+      "start": 3639.4,
+      "end": 3642.7,
+      "quoted_text": "the dopamine evoking the dopamine releasing activity"
+    },
+    {
+      "entity_id": "CLM-1326",
+      "start": 3642.7,
+      "end": 3646.3,
+      "quoted_text": "or substance again thinking mistakenly"
+    },
+    {
+      "entity_id": "CLM-1327",
+      "start": 3646.3,
+      "end": 3648.1,
+      "quoted_text": "that it's going to bring up their baseline."
+    },
+    {
+      "entity_id": "CLM-1328",
+      "start": 3648.1,
+      "end": 3650.4,
+      "quoted_text": "It's going to give them that peak again."
+    },
+    {
+      "entity_id": "CLM-1329",
+      "start": 3650.4,
+      "end": 3652.1,
+      "quoted_text": "Not only does it not give them a peak,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: And now you understand that afterward\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3622s-3624s]: \"And now you understand that afterward\"\n  - [3624s-3626s]: \"the baseline of dopamine drops\"\n  - [3626s-3628s]: \"because of depletion of dopamine,\"\n  - [3628s-3630s]: \"that readily releasable pool.\"\n  - [3630s-3633s]: \"The dopamine is literally not around to be released,\"\n  - [3633s-3635s]: \"and so people feel pretty lousy\"\n  - [3635s-3639s]: \"and many people make the mistake of then going and pursuing\"\n  - [3639s-3642s]: \"the dopamine evoking the dopamine releasing activity\"\n  - [3642s-3646s]: \"or substance again thinking mistakenly\"\n  - [3646s-3648s]: \"that it's going to bring up their baseline.\"\n  - [3648s-3650s]: \"It's going to give them that peak again.\"\n  - [3650s-3652s]: \"Not only does it not give them a peak,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: And now you understand that afterward\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3622s-3624s]: \"And now you understand that afterward\"\n+  - [3624s-3626s]: \"the baseline of dopamine drops\"\n+  - [3626s-3628s]: \"because of depletion of dopamine,\"\n+  - [3628s-3630s]: \"that readily releasable pool.\"\n+  - [3630s-3633s]: \"The dopamine is literally not around to be released,\"\n+  - [3633s-3635s]: \"and so people feel pretty lousy\"\n+  - [3635s-3639s]: \"and many people make the mistake of then going and pursuing\"\n+  - [3639s-3642s]: \"the dopamine evoking the dopamine releasing activity\"\n+  - [3642s-3646s]: \"or substance again thinking mistakenly\"\n+  - [3646s-3648s]: \"that it's going to bring up their baseline.\"\n+  - [3648s-3650s]: \"It's going to give them that peak again.\"\n+  - [3650s-3652s]: \"Not only does it not give them a peak,\"\n"
+  }
+}

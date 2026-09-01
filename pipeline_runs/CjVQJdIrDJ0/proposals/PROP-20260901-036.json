@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-036",
+  "created_at": "2026-09-01T15:11:18.101Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-042",
+  "target_topic_slug": "the-diderot-effect-and-habit-cascades",
+  "target_topic_title": "The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior",
+  "target_content_hash_before": "769033a7b58114fa19923041b857e9c7f60dd3543af2eff4152efd707f0943ec",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Substantive structural nuance, causal sequences, or tactical depth extending \"The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-476",
+      "start": 3426.4,
+      "end": 3431.5,
+      "quoted_text": "that advertising is supposed to have an emotional effect on me activate System 1, will I be"
+    },
+    {
+      "entity_id": "CLM-477",
+      "start": 3431.5,
+      "end": 3434.6,
+      "quoted_text": "better suited to sort of ignore those things?"
+    },
+    {
+      "entity_id": "CLM-478",
+      "start": 3434.6,
+      "end": 3440,
+      "quoted_text": ">>Kahneman: I mean you certainly are going to ignore it better than if you didn't know"
+    },
+    {
+      "entity_id": "CLM-479",
+      "start": 3440,
+      "end": 3447.8,
+      "quoted_text": "it whether you're capable of ignoring it altogether, that I'm much more skeptical about. The real"
+    },
+    {
+      "entity_id": "CLM-480",
+      "start": 3447.8,
+      "end": 3454,
+      "quoted_text": "thing is not to expose yourself to it. Because once you're exposed to it, it's going to affect"
+    },
+    {
+      "entity_id": "CLM-481",
+      "start": 3454,
+      "end": 3463.2,
+      "quoted_text": "you. And you know, those effects are the cues in our world that we are not aware of can"
+    },
+    {
+      "entity_id": "CLM-482",
+      "start": 3463.2,
+      "end": 3468.3,
+      "quoted_text": "be extremely powerful. There is a whole line of study, it's not exactly to your point,"
+    },
+    {
+      "entity_id": "CLM-483",
+      "start": 3468.3,
+      "end": 3473.4,
+      "quoted_text": "but I must tell you that story. There is a whole line of studies on what happens to people"
+    },
+    {
+      "entity_id": "CLM-484",
+      "start": 3473.4,
+      "end": 3479.7,
+      "quoted_text": "when they're exposed to the idea of money. And for example, they perform one task and"
+    },
+    {
+      "entity_id": "CLM-485",
+      "start": 3479.7,
+      "end": 3485,
+      "quoted_text": "there is a computer nearby and on the computer there is a screensaver and the screensaver"
+    },
+    {
+      "entity_id": "CLM-486",
+      "start": 3485,
+      "end": 3491,
+      "quoted_text": "are dollars floating in water. Dollar bills floating in water. That makes you selfish."
+    },
+    {
+      "entity_id": "CLM-487",
+      "start": 3491,
+      "end": 3497.8,
+      "quoted_text": "It makes you reluctant to ask for the help of others. It makes you put your chair further"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-diderot-effect-and-habit-cascades\"\ntitle: \"The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 3\narchetype: \"CANONICAL_CONCEPT\"\nreading_time_minutes: 5\nsummary_15s: \"You rarely have ten separate habit problems; you usually have one fragile lead domino. Protect your initial daily anchor, install circuit breakers when you stumble, and let positive behavioral cascades elevate your default standard of living.\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nMost people treat their habits as isolated events. You might believe that eating junk food, skipping a workout, mindlessly scrolling social media, and staying up late are four distinct problems requiring four separate battles of willpower. \n\nIn behavioral psychology, human actions rarely occur in isolation. Instead, they operate as **interconnected behavioral cascades**—where a single initial choice triggers an involuntary chain reaction of complementary behaviors. \n\nThis psychological mechanism is known as the **Diderot Effect**.\n\n---\n\n### The Origin of the Spiral: The Scarlet Dressing Gown\n\nIn the 18th century, the French philosopher Denis Diderot lived in modest circumstances. Upon receiving an exquisite scarlet dressing gown as a gift, he noticed a sudden psychological discord: the elegance of his new gown made his existing wooden desk, tattered chair, and simple tapestries appear shabby. \n\nCompelled to match the standard set by the gown, Diderot purchased a new leather chair, replaced his desk with expensive furniture, bought new artwork, and eventually spiraled into heavy debt. He wrote: *\"I was the absolute master of my old robe; I have become the slave of the new one.\"*\n\n```mermaid\ngraph TD\n    A[Single New Stimulus / Action] --> B[Cognitive Discord with Surrounding Context]\n    B --> C[Drive to Create Environmental Harmony]\n    C --> D[Cascade of Complementary Actions & Desires]\n    D --> E[Emergence of a New Behavioral Baseline]\n```\n\n---\n\n### The Two Directions of Behavioral Cascades\n\nThe Diderot Effect governs both destruction and mastery in daily life:\n\n```mermaid\ngraph LR\n    subgraph The Downward Spiral\n        D1[Domino 1: Eat sugary breakfast] --> D2[Blood sugar crash & lethargy]\n        D2 --> D3[Skip afternoon workout]\n        D3 --> D4[Late-night dopamine binge & poor sleep]\n    end\n\n    subgraph The Upward Spiral\n        U1[Domino 1: 5-minute morning walk] --> U2[Calibrated circadian rhythm & alert focus]\n        U2 --> U3[High-agency decision making]\n        U3 --> U4[Deep evening rest & recovery]\n    end\n```\n\n#### 1. The Downward Cascade (Negative Feedback Loops)\nA single compromise at the beginning of the day lowers your internal identity baseline. Once the first domino falls, your brain rationalizes subsequent bad choices to maintain cognitive consistency with your current compromised state (*\"I've already ruined my morning, so I might as well skip the gym and order takeout\"*).\n\n#### 2. The Upward Cascade (Positive Habit Stacking)\nConversely, one intentional, high-standard anchor action sets a high psychological baseline for the day. Cleaning your desk or completing a brief morning workout creates a standard of excellence that naturally repels low-agency behaviors throughout the afternoon.\n\n---\n\n### How to Master Habit Cascades: Three Core Protocols\n\nTo harness the Diderot Effect and prevent destructive domino chains, implement three structural protocols:\n\n#### 1. Identify and Defend the \"Lead Domino\" (Keystone Trigger)\nNever fight habits at the end of the chain. If you struggle with late-night binge-eating or phone addiction in bed, the real battle is not happening at 11:00 PM—it was decided at 7:00 PM when you brought your charger into the bedroom or skipped an evening meal.\n* **Audit the Sequence**: Trace every recurring bad habit backward to identify the specific initial trigger (*The Lead Domino*).\n* **Concentrate Defense**: Direct 100% of your conscious discipline solely to defending that first trigger. If the first domino never falls, the remaining ten downstream habits are never activated.\n\n#### 2. Install Artificial Circuit Breakers (The \"Never Twice\" Rule)\nWhen a negative lead domino inevitably falls, the goal is not perfection—it is **chain termination**.\n\n```mermaid\ngraph LR\n    A[Slip Occurs: Initial Bad Choice] --> B{Circuit Breaker Activated?}\n    B -->|Yes: Immediate Physical Reset| C[Chain Terminated at Domino 1]\n    B -->|No: Emotional Self-Criticism| D[Complete Downward Cascade]\n```\n\n* Establish a strict rule: **A bad choice is an accident; a second consecutive bad choice is the start of a new habit cascade.**\n* If you eat poorly or get distracted, execute an immediate physical circuit breaker (e.g., wash your face with cold water, take a 5-minute walk outside, or step away from screens) to reset your nervous system baseline immediately.\n\n#### 3. Identity Anchoring through Environmental Harmony\nYour physical environment constantly whispers to you about who you are.\n* If your physical workspace is cluttered with snack wrappers, open tabs, and chaotic cables, your environment invites scattered, undisciplined behavior.\n* When you curate an environment of absolute cleanliness, minimalist order, and functional tools, your subconscious mind naturally aligns its actions with that elevated standard.\n\n---\n\n### The Core Takeaway to Remember\n> You rarely have ten separate habit problems; you usually have one fragile lead domino. Protect your initial daily anchor, install circuit breakers when you stumble, and let positive behavioral cascades elevate your default standard of living.\n",
+  "proposed_diff": {
+    "section_name": "## Extended Mechanical Insights",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **Mechanic**: that advertising is supposed to have an emotional effect on me activate System 1, will I be *(Source: [CjVQJdIrDJ0](https://www.youtube.com/watch?v=CjVQJdIrDJ0))*",
+    "unified_diff": "--- a/src/content/topics/the-diderot-effect-and-habit-cascades.md\n+++ b/src/content/topics/the-diderot-effect-and-habit-cascades.md\n@@ -0,0 +1,2 @@\n+### Extended Mechanical Insight\n+- **Mechanic**: that advertising is supposed to have an emotional effect on me activate System 1, will I be *(Source: [CjVQJdIrDJ0](https://www.youtube.com/watch?v=CjVQJdIrDJ0))*\n"
+  }
+}

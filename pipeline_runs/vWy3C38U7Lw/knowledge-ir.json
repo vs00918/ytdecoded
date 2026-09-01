@@ -1,0 +1,242 @@
+{
+  "ir_version": "2.0.0-draft",
+  "video_id": "vWy3C38U7Lw",
+  "video_url": "https://www.youtube.com/watch?v=vWy3C38U7Lw",
+  "title": "Deep Long-Form Interview",
+  "generated_at": "2026-09-01T10:06:48.850Z",
+  "metadata": {
+    "duration_seconds": 307,
+    "word_count": 797,
+    "high_density_segment_count": 4
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim_text": "One of the paradoxes of the dating game is that we know that by coming across as enthusiastic at an early stage If we bring them the next day if we're open about how attractive we",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 0.06,
+          "end": 33.09,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007"
+          ],
+          "quoted_text": "One of the paradoxes of the dating game is that we know that by coming across as enthusiastic at an early stage If we bring them the next day if we're open about how attractive we find them if we sugg"
+        }
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "claim_text": "But we can find a way out of the conundrum by drilling deeper into the philosophy That underpins the well flagged danger of being overly eager Why is detachment so often recommende",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 68.92,
+          "end": 112.05,
+          "segment_ids": [
+            "seg-0015",
+            "seg-0016",
+            "seg-0017",
+            "seg-0018",
+            "seg-0019",
+            "seg-0020",
+            "seg-0021"
+          ],
+          "quoted_text": "But we can find a way out of the conundrum by drilling deeper into the philosophy That underpins the well flagged danger of being overly eager Why is detachment so often recommended? Why are we not me"
+        }
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "claim_text": "Because their underlying priority is to ensure that they're never alone without someone Rather than with any one being in particular But we should note that what is ultimately the",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 112.45,
+          "end": 145.98,
+          "segment_ids": [
+            "seg-0022",
+            "seg-0023",
+            "seg-0024",
+            "seg-0025",
+            "seg-0026",
+            "seg-0027",
+            "seg-0028"
+          ],
+          "quoted_text": "Because their underlying priority is to ensure that they're never alone without someone Rather than with any one being in particular But we should note that what is ultimately the problem is manic dep"
+        }
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "claim_text": "They imply but they could very quickly and adroitly find something else to do if that didn't sound much like fun from our side In the way that the strongly vulnerable speak of thei",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 218.43,
+          "end": 262.17,
+          "segment_ids": [
+            "seg-0043",
+            "seg-0044",
+            "seg-0045",
+            "seg-0046",
+            "seg-0047",
+            "seg-0048",
+            "seg-0049"
+          ],
+          "quoted_text": "They imply but they could very quickly and adroitly find something else to do if that didn't sound much like fun from our side In the way that the strongly vulnerable speak of their desire for us. We "
+        }
+      ]
+    }
+  ],
+  "concepts": [],
+  "mechanisms": [
+    {
+      "id": "MEC-001",
+      "title": "Causal Dynamic in [68s-112s]",
+      "trigger": "But we can find a way out of the conundrum by drilling deepe",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "of a lover whose real identity the manically keen party doesn't much care about",
+      "source_spans": [
+        {
+          "start": 68.92,
+          "end": 112.05,
+          "segment_ids": [
+            "seg-0015",
+            "seg-0016",
+            "seg-0017",
+            "seg-0018",
+            "seg-0019",
+            "seg-0020",
+            "seg-0021"
+          ],
+          "quoted_text": "But we can find a way out of the conundrum by drilling deeper into the philosophy That underpins the well flagged danger of being overly eager Why is detachment so often recommended? Why are we not me"
+        }
+      ]
+    },
+    {
+      "id": "MEC-002",
+      "title": "Causal Dynamic in [112s-145s]",
+      "trigger": "Because their underlying priority is to ensure that they're",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "tion to disentangle the two strands that is to be able to reveal high enthusiasm",
+      "source_spans": [
+        {
+          "start": 112.45,
+          "end": 145.98,
+          "segment_ids": [
+            "seg-0022",
+            "seg-0023",
+            "seg-0024",
+            "seg-0025",
+            "seg-0026",
+            "seg-0027",
+            "seg-0028"
+          ],
+          "quoted_text": "Because their underlying priority is to ensure that they're never alone without someone Rather than with any one being in particular But we should note that what is ultimately the problem is manic dep"
+        }
+      ]
+    },
+    {
+      "id": "MEC-003",
+      "title": "Causal Dynamic in [218s-262s]",
+      "trigger": "They imply but they could very quickly and adroitly find som",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "tions other than us of not being able to survive without us manic dependence not",
+      "source_spans": [
+        {
+          "start": 218.43,
+          "end": 262.17,
+          "segment_ids": [
+            "seg-0043",
+            "seg-0044",
+            "seg-0045",
+            "seg-0046",
+            "seg-0047",
+            "seg-0048",
+            "seg-0049"
+          ],
+          "quoted_text": "They imply but they could very quickly and adroitly find something else to do if that didn't sound much like fun from our side In the way that the strongly vulnerable speak of their desire for us. We "
+        }
+      ]
+    }
+  ],
+  "principles": [],
+  "mental_models": [],
+  "examples_and_analogies": [],
+  "arguments": [
+    {
+      "id": "ARG-001",
+      "thesis": "One of the paradoxes of the dating game is that we know that by coming across as enthusiastic at an early stage If we bring them the next day if we're open about how attractive we",
+      "premises": [
+        "But we can find a way out of the conundrum by drilling deeper into the philosophy That underpins the well flagged danger of being overly eager Why is detachment so often recommende",
+        "Because their underlying priority is to ensure that they're never alone without someone Rather than with any one being in particular But we should note that what is ultimately the",
+        "They imply but they could very quickly and adroitly find something else to do if that didn't sound much like fun from our side In the way that the strongly vulnerable speak of thei"
+      ],
+      "counterarguments": [
+        "Common assumption that discipline is purely moral rather than somatic/biological"
+      ],
+      "conclusion": "They imply but they could very quickly and adroitly find something else to do if that didn't sound much like fun from our side In the way that the strongly vulnerable speak of thei",
+      "source_spans": [
+        {
+          "start": 0.06,
+          "end": 33.09,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007"
+          ],
+          "quoted_text": "One of the paradoxes of the dating game is that we know that by coming across as enthusiastic at an early stage If we bring them the next day if we're open about how attractive we find them if we sugg"
+        }
+      ]
+    }
+  ],
+  "uncertainties": []
+}

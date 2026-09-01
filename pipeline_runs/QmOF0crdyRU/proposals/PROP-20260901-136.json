@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-136",
+  "created_at": "2026-09-01T15:11:31.292Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-178",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2065",
+      "start": 5708.1,
+      "end": 5709.1,
+      "quoted_text": "To be totally honest,"
+    },
+    {
+      "entity_id": "CLM-2066",
+      "start": 5709.1,
+      "end": 5712.1,
+      "quoted_text": "it does not matter for sake of dopamine release."
+    },
+    {
+      "entity_id": "CLM-2067",
+      "start": 5712.1,
+      "end": 5714.1,
+      "quoted_text": "Because the dopamine release is triggered"
+    },
+    {
+      "entity_id": "CLM-2068",
+      "start": 5714.1,
+      "end": 5717.9,
+      "quoted_text": "and then continues even after you get out of the cold water."
+    },
+    {
+      "entity_id": "CLM-2069",
+      "start": 5717.9,
+      "end": 5722.4,
+      "quoted_text": "Now, in this study, it was long exposure to cold water."
+    },
+    {
+      "entity_id": "CLM-2070",
+      "start": 5723.5,
+      "end": 5725.6,
+      "quoted_text": "That's a long period of time."
+    },
+    {
+      "entity_id": "CLM-2071",
+      "start": 5725.6,
+      "end": 5728.9,
+      "quoted_text": "And I do warn you against getting into cold water"
+    },
+    {
+      "entity_id": "CLM-2072",
+      "start": 5728.9,
+      "end": 5732.2,
+      "quoted_text": "that's so cold that it will make your temperature drop"
+    },
+    {
+      "entity_id": "CLM-2073",
+      "start": 5732.2,
+      "end": 5733.8,
+      "quoted_text": "and make you hyperthermic for an hour."
+    },
+    {
+      "entity_id": "CLM-2074",
+      "start": 5733.8,
+      "end": 5735.5,
+      "quoted_text": "That actually could be dangerous for a lot of people."
+    },
+    {
+      "entity_id": "CLM-2075",
+      "start": 5735.5,
+      "end": 5737,
+      "quoted_text": "You might have a hard time reheating,"
+    },
+    {
+      "entity_id": "CLM-2076",
+      "start": 5737,
+      "end": 5739.6,
+      "quoted_text": "and hypothermia is not a good thing."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: To be totally honest,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5708s-5709s]: \"To be totally honest,\"\n  - [5709s-5712s]: \"it does not matter for sake of dopamine release.\"\n  - [5712s-5714s]: \"Because the dopamine release is triggered\"\n  - [5714s-5717s]: \"and then continues even after you get out of the cold water.\"\n  - [5717s-5722s]: \"Now, in this study, it was long exposure to cold water.\"\n  - [5723s-5725s]: \"That's a long period of time.\"\n  - [5725s-5728s]: \"And I do warn you against getting into cold water\"\n  - [5728s-5732s]: \"that's so cold that it will make your temperature drop\"\n  - [5732s-5733s]: \"and make you hyperthermic for an hour.\"\n  - [5733s-5735s]: \"That actually could be dangerous for a lot of people.\"\n  - [5735s-5737s]: \"You might have a hard time reheating,\"\n  - [5737s-5739s]: \"and hypothermia is not a good thing.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: To be totally honest,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5708s-5709s]: \"To be totally honest,\"\n+  - [5709s-5712s]: \"it does not matter for sake of dopamine release.\"\n+  - [5712s-5714s]: \"Because the dopamine release is triggered\"\n+  - [5714s-5717s]: \"and then continues even after you get out of the cold water.\"\n+  - [5717s-5722s]: \"Now, in this study, it was long exposure to cold water.\"\n+  - [5723s-5725s]: \"That's a long period of time.\"\n+  - [5725s-5728s]: \"And I do warn you against getting into cold water\"\n+  - [5728s-5732s]: \"that's so cold that it will make your temperature drop\"\n+  - [5732s-5733s]: \"and make you hyperthermic for an hour.\"\n+  - [5733s-5735s]: \"That actually could be dangerous for a lot of people.\"\n+  - [5735s-5737s]: \"You might have a hard time reheating,\"\n+  - [5737s-5739s]: \"and hypothermia is not a good thing.\"\n"
+  }
+}

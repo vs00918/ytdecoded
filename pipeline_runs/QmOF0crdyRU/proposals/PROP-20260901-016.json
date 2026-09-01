@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-016",
+  "created_at": "2026-09-01T15:11:31.259Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-021",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-231",
+      "start": 625,
+      "end": 626.8,
+      "quoted_text": "motivated, et cetera."
+    },
+    {
+      "entity_id": "CLM-232",
+      "start": 626.8,
+      "end": 629.9,
+      "quoted_text": "And you also can experience peaks in dopamine"
+    },
+    {
+      "entity_id": "CLM-233",
+      "start": 631.5,
+      "end": 633.3,
+      "quoted_text": "Now, this has a very specific name"
+    },
+    {
+      "entity_id": "CLM-234",
+      "start": 633.3,
+      "end": 635,
+      "quoted_text": "in the neurobiology literature,"
+    },
+    {
+      "entity_id": "CLM-235",
+      "start": 635,
+      "end": 639.4,
+      "quoted_text": "so-called tonic and phasic release of dopamine."
+    },
+    {
+      "entity_id": "CLM-236",
+      "start": 639.4,
+      "end": 641.5,
+      "quoted_text": "And I'll explain what that means in a couple of minutes."
+    },
+    {
+      "entity_id": "CLM-237",
+      "start": 641.5,
+      "end": 644.4,
+      "quoted_text": "But if you remember nothing else from this episode,"
+    },
+    {
+      "entity_id": "CLM-238",
+      "start": 644.4,
+      "end": 646.1,
+      "quoted_text": "please remember this,"
+    },
+    {
+      "entity_id": "CLM-239",
+      "start": 646.1,
+      "end": 650.4,
+      "quoted_text": "that when you experience something or you crave something"
+    },
+    {
+      "entity_id": "CLM-240",
+      "start": 650.4,
+      "end": 654.3,
+      "quoted_text": "really desirable, really exciting to you, very pleasurable."
+    },
+    {
+      "entity_id": "CLM-241",
+      "start": 655.3,
+      "end": 658.4,
+      "quoted_text": "What happens afterwards is your baseline level"
+    },
+    {
+      "entity_id": "CLM-242",
+      "start": 660.5,
+      "end": 661.4,
+      "quoted_text": "Okay?"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: motivated, et cetera.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [625s-626s]: \"motivated, et cetera.\"\n  - [626s-629s]: \"And you also can experience peaks in dopamine\"\n  - [631s-633s]: \"Now, this has a very specific name\"\n  - [633s-635s]: \"in the neurobiology literature,\"\n  - [635s-639s]: \"so-called tonic and phasic release of dopamine.\"\n  - [639s-641s]: \"And I'll explain what that means in a couple of minutes.\"\n  - [641s-644s]: \"But if you remember nothing else from this episode,\"\n  - [644s-646s]: \"please remember this,\"\n  - [646s-650s]: \"that when you experience something or you crave something\"\n  - [650s-654s]: \"really desirable, really exciting to you, very pleasurable.\"\n  - [655s-658s]: \"What happens afterwards is your baseline level\"\n  - [660s-661s]: \"Okay?\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: motivated, et cetera.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [625s-626s]: \"motivated, et cetera.\"\n+  - [626s-629s]: \"And you also can experience peaks in dopamine\"\n+  - [631s-633s]: \"Now, this has a very specific name\"\n+  - [633s-635s]: \"in the neurobiology literature,\"\n+  - [635s-639s]: \"so-called tonic and phasic release of dopamine.\"\n+  - [639s-641s]: \"And I'll explain what that means in a couple of minutes.\"\n+  - [641s-644s]: \"But if you remember nothing else from this episode,\"\n+  - [644s-646s]: \"please remember this,\"\n+  - [646s-650s]: \"that when you experience something or you crave something\"\n+  - [650s-654s]: \"really desirable, really exciting to you, very pleasurable.\"\n+  - [655s-658s]: \"What happens afterwards is your baseline level\"\n+  - [660s-661s]: \"Okay?\"\n"
+  }
+}

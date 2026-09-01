@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-088",
+  "created_at": "2026-09-01T15:11:31.280Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-109",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1259",
+      "start": 3465.8,
+      "end": 3468.7,
+      "quoted_text": "and I'm telling you that the pleasure and the pain"
+    },
+    {
+      "entity_id": "CLM-1260",
+      "start": 3468.7,
+      "end": 3470.7,
+      "quoted_text": "are governed by dopamine to some extent."
+    },
+    {
+      "entity_id": "CLM-1261",
+      "start": 3470.7,
+      "end": 3471.9,
+      "quoted_text": "Well, how could that be?"
+    },
+    {
+      "entity_id": "CLM-1262",
+      "start": 3471.9,
+      "end": 3472.7,
+      "quoted_text": "Right?"
+    },
+    {
+      "entity_id": "CLM-1263",
+      "start": 3472.7,
+      "end": 3474.9,
+      "quoted_text": "I said before, when you engage in an activity"
+    },
+    {
+      "entity_id": "CLM-1264",
+      "start": 3474.9,
+      "end": 3477,
+      "quoted_text": "or when you ingest something that increases dopamine,"
+    },
+    {
+      "entity_id": "CLM-1265",
+      "start": 3477,
+      "end": 3478.9,
+      "quoted_text": "the dopamine levels go up,"
+    },
+    {
+      "entity_id": "CLM-1266",
+      "start": 3478.9,
+      "end": 3480.3,
+      "quoted_text": "you know, to substantial degree"
+    },
+    {
+      "entity_id": "CLM-1267",
+      "start": 3480.3,
+      "end": 3482.3,
+      "quoted_text": "with all the things I listed off."
+    },
+    {
+      "entity_id": "CLM-1268",
+      "start": 3484.2,
+      "end": 3486.1,
+      "quoted_text": "Where's the pain coming from?"
+    },
+    {
+      "entity_id": "CLM-1269",
+      "start": 3486.1,
+      "end": 3489.1,
+      "quoted_text": "Well, the pain is coming from the lack of dopamine"
+    },
+    {
+      "entity_id": "CLM-1270",
+      "start": 3491,
+      "end": 3496,
+      "quoted_text": "And you now know what that lack of dopamine reflects."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: and I'm telling you that the pleasure and the pain\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3465s-3468s]: \"and I'm telling you that the pleasure and the pain\"\n  - [3468s-3470s]: \"are governed by dopamine to some extent.\"\n  - [3470s-3471s]: \"Well, how could that be?\"\n  - [3471s-3472s]: \"Right?\"\n  - [3472s-3474s]: \"I said before, when you engage in an activity\"\n  - [3474s-3477s]: \"or when you ingest something that increases dopamine,\"\n  - [3477s-3478s]: \"the dopamine levels go up,\"\n  - [3478s-3480s]: \"you know, to substantial degree\"\n  - [3480s-3482s]: \"with all the things I listed off.\"\n  - [3484s-3486s]: \"Where's the pain coming from?\"\n  - [3486s-3489s]: \"Well, the pain is coming from the lack of dopamine\"\n  - [3491s-3496s]: \"And you now know what that lack of dopamine reflects.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: and I'm telling you that the pleasure and the pain\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3465s-3468s]: \"and I'm telling you that the pleasure and the pain\"\n+  - [3468s-3470s]: \"are governed by dopamine to some extent.\"\n+  - [3470s-3471s]: \"Well, how could that be?\"\n+  - [3471s-3472s]: \"Right?\"\n+  - [3472s-3474s]: \"I said before, when you engage in an activity\"\n+  - [3474s-3477s]: \"or when you ingest something that increases dopamine,\"\n+  - [3477s-3478s]: \"the dopamine levels go up,\"\n+  - [3478s-3480s]: \"you know, to substantial degree\"\n+  - [3480s-3482s]: \"with all the things I listed off.\"\n+  - [3484s-3486s]: \"Where's the pain coming from?\"\n+  - [3486s-3489s]: \"Well, the pain is coming from the lack of dopamine\"\n+  - [3491s-3496s]: \"And you now know what that lack of dopamine reflects.\"\n"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-068",
+  "created_at": "2026-09-01T15:11:31.274Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-083",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-955",
+      "start": 2679.8,
+      "end": 2681.2,
+      "quoted_text": "to something, right?"
+    },
+    {
+      "entity_id": "CLM-956",
+      "start": 2681.2,
+      "end": 2683.3,
+      "quoted_text": "So for instance, the pen that I'm holding right now,"
+    },
+    {
+      "entity_id": "CLM-957",
+      "start": 2683.3,
+      "end": 2684.6,
+      "quoted_text": "it's one of these Pilot V5s."
+    },
+    {
+      "entity_id": "CLM-958",
+      "start": 2684.6,
+      "end": 2685.7,
+      "quoted_text": "I love these Pilot V5s."
+    },
+    {
+      "entity_id": "EXM-031",
+      "start": 2686.7,
+      "end": 2687.5,
+      "quoted_text": "I just happen to like them."
+    },
+    {
+      "entity_id": "CLM-959",
+      "start": 2687.5,
+      "end": 2688.9,
+      "quoted_text": "I liked the way that they write,"
+    },
+    {
+      "entity_id": "CLM-960",
+      "start": 2691,
+      "end": 2692.5,
+      "quoted_text": "If I spent enough time thinking about it,"
+    },
+    {
+      "entity_id": "CLM-961",
+      "start": 2693.3,
+      "end": 2694.7,
+      "quoted_text": "I could probably get a dopamine increase"
+    },
+    {
+      "entity_id": "CLM-962",
+      "start": 2694.7,
+      "end": 2696.3,
+      "quoted_text": "just talking about this Pilot V5."
+    },
+    {
+      "entity_id": "CLM-963",
+      "start": 2696.3,
+      "end": 2698.9,
+      "quoted_text": "And that's not because I have the propensity"
+    },
+    {
+      "entity_id": "CLM-964",
+      "start": 2698.9,
+      "end": 2700.3,
+      "quoted_text": "to release dopamine easily,"
+    },
+    {
+      "entity_id": "CLM-965",
+      "start": 2700.3,
+      "end": 2702.8,
+      "quoted_text": "it's that as we start to engage with something"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: to something, right?\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [2679s-2681s]: \"to something, right?\"\n  - [2681s-2683s]: \"So for instance, the pen that I'm holding right now,\"\n  - [2683s-2684s]: \"it's one of these Pilot V5s.\"\n  - [2684s-2685s]: \"I love these Pilot V5s.\"\n  - [2686s-2687s]: \"I just happen to like them.\"\n  - [2687s-2688s]: \"I liked the way that they write,\"\n  - [2691s-2692s]: \"If I spent enough time thinking about it,\"\n  - [2693s-2694s]: \"I could probably get a dopamine increase\"\n  - [2694s-2696s]: \"just talking about this Pilot V5.\"\n  - [2696s-2698s]: \"And that's not because I have the propensity\"\n  - [2698s-2700s]: \"to release dopamine easily,\"\n  - [2700s-2702s]: \"it's that as we start to engage with something\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: to something, right?\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [2679s-2681s]: \"to something, right?\"\n+  - [2681s-2683s]: \"So for instance, the pen that I'm holding right now,\"\n+  - [2683s-2684s]: \"it's one of these Pilot V5s.\"\n+  - [2684s-2685s]: \"I love these Pilot V5s.\"\n+  - [2686s-2687s]: \"I just happen to like them.\"\n+  - [2687s-2688s]: \"I liked the way that they write,\"\n+  - [2691s-2692s]: \"If I spent enough time thinking about it,\"\n+  - [2693s-2694s]: \"I could probably get a dopamine increase\"\n+  - [2694s-2696s]: \"just talking about this Pilot V5.\"\n+  - [2696s-2698s]: \"And that's not because I have the propensity\"\n+  - [2698s-2700s]: \"to release dopamine easily,\"\n+  - [2700s-2702s]: \"it's that as we start to engage with something\"\n"
+  }
+}

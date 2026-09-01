@@ -1,0 +1,3904 @@
+{
+  "video_id": "CjVQJdIrDJ0",
+  "url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "title": "Daniel Kahneman — Thinking, Fast and Slow (Talks at Google)",
+  "channel": "Talks at Google",
+  "duration_seconds": 3741,
+  "language": "en",
+  "retrieved_at": "2026-09-01T15:11:17.830Z",
+  "transcript_type": "OFFICIAL",
+  "segments": [
+    {
+      "id": "seg-0001",
+      "start": 1.55,
+      "end": 5.2,
+      "duration": 3.65,
+      "text": ">> John Boyd: All right. I'm John Boyd. It\nis my great pleasure to introduce Professor"
+    },
+    {
+      "id": "seg-0002",
+      "start": 5.2,
+      "end": 12.08,
+      "duration": 6.88,
+      "text": "Kahneman today. And I just want to give you\na brief background on his outstanding career."
+    },
+    {
+      "id": "seg-0003",
+      "start": 12.08,
+      "end": 17.31,
+      "duration": 5.23,
+      "text": "He started in 1954 received his bachelors\nin experimental psychology and mathematics"
+    },
+    {
+      "id": "seg-0004",
+      "start": 17.31,
+      "end": 23.79,
+      "duration": 6.48,
+      "text": "from the Hebrew University in Jerusalem. In\n1961, he was awarded his Ph.D. from University"
+    },
+    {
+      "id": "seg-0005",
+      "start": 23.79,
+      "end": 31.05,
+      "duration": 7.26,
+      "text": "of California Berkeley right across the bay\nin Experimental Psychology. In 1979, he and"
+    },
+    {
+      "id": "seg-0006",
+      "start": 31.05,
+      "end": 36.31,
+      "duration": 5.26,
+      "text": "his coauthor Amos Tversky published their\nseminal paper on Prospect Theory which started"
+    },
+    {
+      "id": "seg-0007",
+      "start": 36.31,
+      "end": 41.8,
+      "duration": 5.49,
+      "text": "to change the way people reframed the argument\naround gains, losses, and decision-making"
+    },
+    {
+      "id": "seg-0008",
+      "start": 41.8,
+      "end": 47.22,
+      "duration": 5.42,
+      "text": "under uncertainty. Several years later in\n2002, Professor Kahneman was awarded the Nobel"
+    },
+    {
+      "id": "seg-0009",
+      "start": 47.22,
+      "end": 54.13,
+      "duration": 6.91,
+      "text": "Prize largely on the work of Prospect Theory\nof. And Nobel Prize isn't always impressive;"
+    },
+    {
+      "id": "seg-0010",
+      "start": 54.13,
+      "end": 59.56,
+      "duration": 5.43,
+      "text": "his perhaps more so because there isn't a\nNobel Prize in psychology. He had to win his"
+    },
+    {
+      "id": "seg-0011",
+      "start": 59.56,
+      "end": 65.55,
+      "duration": 5.99,
+      "text": "Nobel Prize in economics. And as far as I\nknow, there's only one other person, one other"
+    },
+    {
+      "id": "seg-0012",
+      "start": 65.55,
+      "end": 70.83,
+      "duration": 5.28,
+      "text": "psychologist, who's won a Nobel Prize and\nthat's Ivan Pavlov. He may be a physiologist,"
+    },
+    {
+      "id": "seg-0013",
+      "start": 70.83,
+      "end": 76.94,
+      "duration": 6.11,
+      "text": "we could argue about that. Years later, in\n2007, Psychologist tried to reclaim Professor"
+    },
+    {
+      "id": "seg-0014",
+      "start": 76.94,
+      "end": 81.71,
+      "duration": 4.77,
+      "text": "Kahneman as one of their own when the American\nPsychological Association awarded him Lifetime"
+    },
+    {
+      "id": "seg-0015",
+      "start": 81.71,
+      "end": 87.25,
+      "duration": 5.54,
+      "text": "Distinguished Contribution Award. And today\nhe is a Senior Scholar at the Woodrow Wilson"
+    },
+    {
+      "id": "seg-0016",
+      "start": 87.25,
+      "end": 91.64,
+      "duration": 4.39,
+      "text": "School of Public and International Affairs\nat Princeton University and he's here to talk"
+    },
+    {
+      "id": "seg-0017",
+      "start": 91.64,
+      "end": 98.05,
+      "duration": 6.41,
+      "text": "about his new book Thinking Fast and Slow.\nNow Google's mission which we all know is"
+    },
+    {
+      "id": "seg-0018",
+      "start": 98.05,
+      "end": 103.97,
+      "duration": 5.92,
+      "text": "to take the world's information and to make\nit more useful and universally accessible."
+    },
+    {
+      "id": "seg-0019",
+      "start": 103.97,
+      "end": 110.41,
+      "duration": 6.44,
+      "text": "And all information, all knowledge, is important,\nbut I think some again is more important than"
+    },
+    {
+      "id": "seg-0020",
+      "start": 110.41,
+      "end": 114.63,
+      "duration": 4.22,
+      "text": "others. Because the information that he'll\npresent today I think it's very personal;"
+    },
+    {
+      "id": "seg-0021",
+      "start": 114.63,
+      "end": 119.74,
+      "duration": 5.11,
+      "text": "it's about each of us. And, if you'll listen\ncarefully it's going to change the way you"
+    },
+    {
+      "id": "seg-0022",
+      "start": 119.74,
+      "end": 124.34,
+      "duration": 4.6,
+      "text": "think about yourself and the world around\nyou. So please join me in welcoming Professor"
+    },
+    {
+      "id": "seg-0023",
+      "start": 124.34,
+      "end": 126.91,
+      "duration": 2.57,
+      "text": "Kahneman to Google."
+    },
+    {
+      "id": "seg-0024",
+      "start": 126.91,
+      "end": 128.91,
+      "duration": 2,
+      "text": "[Applause]"
+    },
+    {
+      "id": "seg-0025",
+      "start": 128.91,
+      "end": 143.9,
+      "duration": 14.99,
+      "text": ">> Kahneman: Thank you. Well, I think intuition\nhas been discussed a lot in recent years and"
+    },
+    {
+      "id": "seg-0026",
+      "start": 143.9,
+      "end": 150.37,
+      "duration": 6.47,
+      "text": "I'll be talking about intuition. There are\ntwo camps in this discussion naturally there"
+    },
+    {
+      "id": "seg-0027",
+      "start": 150.37,
+      "end": 157.09,
+      "duration": 6.72,
+      "text": "is the pro and the con. And of course, many\npeople here will have read Malcolm Gladwell"
+    },
+    {
+      "id": "seg-0028",
+      "start": 157.09,
+      "end": 163.53,
+      "duration": 6.44,
+      "text": "Blink which although it's not unconditional\ndefense of intuition, it certainly gave people"
+    },
+    {
+      "id": "seg-0029",
+      "start": 163.53,
+      "end": 172.85,
+      "duration": 9.32,
+      "text": "the impression that sometimes we magically\nknow things without knowing why we know them."
+    },
+    {
+      "id": "seg-0030",
+      "start": 172.85,
+      "end": 178.47,
+      "duration": 5.62,
+      "text": "Within the discipline of psychology and the\ndecision making there is a group and it is"
+    },
+    {
+      "id": "seg-0031",
+      "start": 178.47,
+      "end": 185.54,
+      "duration": 7.07,
+      "text": "headed by a very interesting figure called\nGary Kline who wrote a book that I recommend."
+    },
+    {
+      "id": "seg-0032",
+      "start": 185.54,
+      "end": 192.26,
+      "duration": 6.72,
+      "text": "Its Sources of Power is one of his books that\nI would recommend the most warmly. And they"
+    },
+    {
+      "id": "seg-0033",
+      "start": 192.26,
+      "end": 202.46,
+      "duration": 10.2,
+      "text": "are great believers in expert intuition. The\nother side there are skeptics about intuition"
+    },
+    {
+      "id": "seg-0034",
+      "start": 202.46,
+      "end": 208.01,
+      "duration": 5.55,
+      "text": "in general and including expert intuition.\nAnd I have long been counted as one of the"
+    },
+    {
+      "id": "seg-0035",
+      "start": 208.01,
+      "end": 216.44,
+      "duration": 8.43,
+      "text": "skeptics because my early work with Amos Tversky\nwas about intuitive errors and flaws and biases"
+    },
+    {
+      "id": "seg-0036",
+      "start": 216.44,
+      "end": 223.86,
+      "duration": 7.42,
+      "text": "of intuitive thinking. Today you find that\ndiscussion in many places and for example"
+    },
+    {
+      "id": "seg-0037",
+      "start": 223.86,
+      "end": 230.11,
+      "duration": 6.25,
+      "text": "in medicine among the popular writers; two\nwriters both of whom write for the New Yorker,"
+    },
+    {
+      "id": "seg-0038",
+      "start": 230.11,
+      "end": 236.88,
+      "duration": 6.77,
+      "text": "Jerome Groopman and Atul Gawande. They clearly\ndiffer. Atul Gawande is in favor of formal"
+    },
+    {
+      "id": "seg-0039",
+      "start": 236.88,
+      "end": 243.73,
+      "duration": 6.85,
+      "text": "systems, very skeptical about human judgment\nand wanting to prove all the time and Jerome"
+    },
+    {
+      "id": "seg-0040",
+      "start": 243.73,
+      "end": 250.56,
+      "duration": 6.83,
+      "text": "Groopman being in fact, although he doesn't\nquite admit he really likes good old fashioned"
+    },
+    {
+      "id": "seg-0041",
+      "start": 250.56,
+      "end": 257.4,
+      "duration": 6.84,
+      "text": "medical intuition. Of course he likes physicians\nwell-educated. But he doesn't like formal"
+    },
+    {
+      "id": "seg-0042",
+      "start": 257.4,
+      "end": 264.13,
+      "duration": 6.73,
+      "text": "system and the issue in medicine is \"What\nare the role of evidence based medicine and"
+    },
+    {
+      "id": "seg-0043",
+      "start": 264.13,
+      "end": 272.68,
+      "duration": 8.55,
+      "text": "how do you allocate that with \nthe function of intuition?\" The background"
+    },
+    {
+      "id": "seg-0044",
+      "start": 272.68,
+      "end": 276.63,
+      "duration": 3.95,
+      "text": "actually, part of the background for what\nI'll talk about today is a strange collaboration"
+    },
+    {
+      "id": "seg-0045",
+      "start": 276.63,
+      "end": 281.6,
+      "duration": 4.97,
+      "text": "in which I engaged with about eight years\nwith Gary Klein, whom I mentioned. He is a"
+    },
+    {
+      "id": "seg-0046",
+      "start": 281.6,
+      "end": 286.46,
+      "duration": 4.86,
+      "text": "guru of a group of people who really, I wouldn't\nsay they despise what I do but they certainly"
+    },
+    {
+      "id": "seg-0047",
+      "start": 286.46,
+      "end": 293.26,
+      "duration": 6.8,
+      "text": "don't like what I do because they think that\nthe emphasis and biases of judgment has drawn"
+    },
+    {
+      "id": "seg-0048",
+      "start": 293.26,
+      "end": 301.3,
+      "duration": 8.04,
+      "text": "an unjustly unfavorable picture of the human\nmind. And by and large I am inclined to agree."
+    },
+    {
+      "id": "seg-0049",
+      "start": 301.3,
+      "end": 306.26,
+      "duration": 4.96,
+      "text": "Seven or eight years ago I invited him and\nwe worked together for a number of years trying"
+    },
+    {
+      "id": "seg-0050",
+      "start": 306.26,
+      "end": 312.56,
+      "duration": 6.3,
+      "text": "to figure out where is the boundary? Where\nis intuition marvelous and where is it flawed?"
+    },
+    {
+      "id": "seg-0051",
+      "start": 312.56,
+      "end": 318.5,
+      "duration": 5.94,
+      "text": "And I think we can tell. And we wrote a paper\nat the end of six or seven years with a lot"
+    },
+    {
+      "id": "seg-0052",
+      "start": 318.5,
+      "end": 325.75,
+      "duration": 7.25,
+      "text": "of vicissitudes that we went through since\nwe basically don't agree. We wrote a paper"
+    },
+    {
+      "id": "seg-0053",
+      "start": 325.75,
+      "end": 333.02,
+      "duration": 7.27,
+      "text": "the title of which was A Failure to Disagree,\nbecause on the substance I think we know and"
+    },
+    {
+      "id": "seg-0054",
+      "start": 333.02,
+      "end": 338.57,
+      "duration": 5.55,
+      "text": "we both agree where you can trust intuition\nand where you cannot. Emotionally we haven't"
+    },
+    {
+      "id": "seg-0055",
+      "start": 338.57,
+      "end": 346.36,
+      "duration": 7.79,
+      "text": "changed. He still hates the biases and doesn't\nthink that errors of experts are very funny"
+    },
+    {
+      "id": "seg-0056",
+      "start": 346.36,
+      "end": 351.53,
+      "duration": 5.17,
+      "text": "and I think that errors of experts are quite\nfunny [laughter] so that's a difference right"
+    },
+    {
+      "id": "seg-0057",
+      "start": 351.53,
+      "end": 360.09,
+      "duration": 8.56,
+      "text": "there. There are two modes of thinking that\nall of us are familiar with. And there is"
+    },
+    {
+      "id": "seg-0058",
+      "start": 360.09,
+      "end": 366.94,
+      "duration": 6.85,
+      "text": "one mode, one way for thoughts that come to\nmind and listen to this. You know about this"
+    },
+    {
+      "id": "seg-0059",
+      "start": 366.94,
+      "end": 372.15,
+      "duration": 5.21,
+      "text": "lady that she's I think adjust as quickly\nas you know her hair is dark. And it's interesting"
+    },
+    {
+      "id": "seg-0060",
+      "start": 372.15,
+      "end": 377.82,
+      "duration": 5.67,
+      "text": "to dwell a bit about this. It is this is not\nsomething that the judgment that she is angry,"
+    },
+    {
+      "id": "seg-0061",
+      "start": 377.82,
+      "end": 383.04,
+      "duration": 5.22,
+      "text": "the impression that she is angry. Doesn't\nfeel like something you did. It feels like"
+    },
+    {
+      "id": "seg-0062",
+      "start": 383.04,
+      "end": 389.62,
+      "duration": 6.58,
+      "text": "something that happens. It happens to me.\nWe have the basic experience is a passive"
+    },
+    {
+      "id": "seg-0063",
+      "start": 389.62,
+      "end": 395.61,
+      "duration": 5.99,
+      "text": "experience in those judgments. And that is\ntrue of perception, when we see the world"
+    },
+    {
+      "id": "seg-0064",
+      "start": 395.61,
+      "end": 402.51,
+      "duration": 6.9,
+      "text": "we don't decide to see it. It is true of impression.\nAnd it is true in general what we call intuitive"
+    },
+    {
+      "id": "seg-0065",
+      "start": 402.51,
+      "end": 409.65,
+      "duration": 7.14,
+      "text": "thinking. It just happens. It comes from somewhere.\nAnd we are not the author of it. Now, there"
+    },
+    {
+      "id": "seg-0066",
+      "start": 409.65,
+      "end": 416.65,
+      "duration": 7,
+      "text": "is another way that thoughts come to mind\nand here I suppose essentially nothing came"
+    },
+    {
+      "id": "seg-0067",
+      "start": 416.65,
+      "end": 425.74,
+      "duration": 9.09,
+      "text": "to your mind, but the answer is 408. To produce\nthe 408, requires a completely different kind"
+    },
+    {
+      "id": "seg-0068",
+      "start": 425.74,
+      "end": 431.61,
+      "duration": 5.87,
+      "text": "of operation. You have to retrieve the program\nthat you learned in school. The program consists"
+    },
+    {
+      "id": "seg-0069",
+      "start": 431.61,
+      "end": 436.98,
+      "duration": 5.37,
+      "text": "of steps. You have to go through the steps.\nYou've got to pay attention successively to"
+    },
+    {
+      "id": "seg-0070",
+      "start": 436.98,
+      "end": 441.77,
+      "duration": 4.79,
+      "text": "partial products and so on. And keep things\nin mind and keep the whole program in mind."
+    },
+    {
+      "id": "seg-0071",
+      "start": 441.77,
+      "end": 446.8,
+      "duration": 5.03,
+      "text": "This is how it works. This is something that\nyou do. It is not something that happens to"
+    },
+    {
+      "id": "seg-0072",
+      "start": 446.8,
+      "end": 457.92,
+      "duration": 11.12,
+      "text": "you. And there are many indications that this\nis how it works. One is that Physiology indicates"
+    },
+    {
+      "id": "seg-0073",
+      "start": 457.92,
+      "end": 462.63,
+      "duration": 4.71,
+      "text": "and this is how it works: pupil dilates. This\nis something that I studies many, many years"
+    },
+    {
+      "id": "seg-0074",
+      "start": 462.63,
+      "end": 467.63,
+      "duration": 5,
+      "text": "ago that people really on a program like that\nif you're on a problem like that if you're"
+    },
+    {
+      "id": "seg-0075",
+      "start": 467.63,
+      "end": 476.06,
+      "duration": 8.43,
+      "text": "going to do it in your head, your pupil will\ndilate. The area will increase by about 50%"
+    },
+    {
+      "id": "seg-0076",
+      "start": 476.06,
+      "end": 481.32,
+      "duration": 5.26,
+      "text": "as soon as you engage in that. And it will\nstay dilated as long as you're working and"
+    },
+    {
+      "id": "seg-0077",
+      "start": 481.32,
+      "end": 488.87,
+      "duration": 7.55,
+      "text": "it will sort of collapse back to normal size\neither when you quit or when you find the"
+    },
+    {
+      "id": "seg-0078",
+      "start": 488.87,
+      "end": 494.74,
+      "duration": 5.87,
+      "text": "answer. So this is another way thoughts come\nto mind. And this is definitely not the intuitive"
+    },
+    {
+      "id": "seg-0079",
+      "start": 494.74,
+      "end": 501.15,
+      "duration": 6.41,
+      "text": "way. Here we are we feel a sense of urgency.\nWe feel something deliberate is happening"
+    },
+    {
+      "id": "seg-0080",
+      "start": 501.15,
+      "end": 508.96,
+      "duration": 7.81,
+      "text": "and a very important aspect of it this is\neffortful and what psychologists mean by effort"
+    },
+    {
+      "id": "seg-0081",
+      "start": 508.96,
+      "end": 515.19,
+      "duration": 6.23,
+      "text": "is basically, if you want the quick introduction\nto what effort is, this is something you cannot"
+    },
+    {
+      "id": "seg-0082",
+      "start": 515.19,
+      "end": 521.23,
+      "duration": 6.04,
+      "text": "do while making a left turn into traffic.\nYou cannot do it and you shouldn't try. And"
+    },
+    {
+      "id": "seg-0083",
+      "start": 521.23,
+      "end": 527.94,
+      "duration": 6.71,
+      "text": "the reason is that there is limited capacity\nto exert effort. And if you are engaged that"
+    },
+    {
+      "id": "seg-0084",
+      "start": 527.94,
+      "end": 537.12,
+      "duration": 9.18,
+      "text": "capacity or those resources at one task less\nis available for another task. Now, there"
+    },
+    {
+      "id": "seg-0085",
+      "start": 537.12,
+      "end": 542.35,
+      "duration": 5.23,
+      "text": "is another function of System 2. And here\nI'm going to tell you a riddle. Most of you"
+    },
+    {
+      "id": "seg-0086",
+      "start": 542.35,
+      "end": 549.79,
+      "duration": 7.44,
+      "text": "are familiar with it. A bat and a ball together\ncosts 1.10. The bat costs more than the ball."
+    },
+    {
+      "id": "seg-0087",
+      "start": 549.79,
+      "end": 556.13,
+      "duration": 6.34,
+      "text": "Of course how much does the ball cost? How\nmany people know this riddle by the way? Oh,"
+    },
+    {
+      "id": "seg-0088",
+      "start": 556.13,
+      "end": 562.79,
+      "duration": 6.66,
+      "text": "okay. So it's still usable. The point about\nthis riddle is that the number came to your"
+    },
+    {
+      "id": "seg-0089",
+      "start": 562.79,
+      "end": 570.99,
+      "duration": 8.2,
+      "text": "mind. And the number is ten cents. And everybody\njust, I think. Maybe here they're exception,"
+    },
+    {
+      "id": "seg-0090",
+      "start": 570.99,
+      "end": 575.69,
+      "duration": 4.7,
+      "text": "very few exceptions. People confess that the\nnumber ten cents immediately came to mind."
+    },
+    {
+      "id": "seg-0091",
+      "start": 575.69,
+      "end": 584.58,
+      "duration": 8.89,
+      "text": "Now, it's wrong. Ten cents and dollar 10 is\na dollar 20. The solution is five cents. What"
+    },
+    {
+      "id": "seg-0092",
+      "start": 584.58,
+      "end": 595.2,
+      "duration": 10.62,
+      "text": "is interesting here is that at Princeton,\nat MIT at Harvard and I don't know about Stanford"
+    },
+    {
+      "id": "seg-0093",
+      "start": 595.2,
+      "end": 603.06,
+      "duration": 7.86,
+      "text": "or CalTech about 50% of students asked this\nquestion of undergraduates say ten cents."
+    },
+    {
+      "id": "seg-0094",
+      "start": 603.06,
+      "end": 609.1,
+      "duration": 6.04,
+      "text": "And we learn something very interesting when\nsomebody says ten cents. We learn that they"
+    },
+    {
+      "id": "seg-0095",
+      "start": 609.1,
+      "end": 616.26,
+      "duration": 7.16,
+      "text": "didn't check because if they had checked,\nthey wouldn't say ten cents. So, there is"
+    },
+    {
+      "id": "seg-0096",
+      "start": 616.26,
+      "end": 623.13,
+      "duration": 6.87,
+      "text": "a sense of confidence that people have that\nthese people in particular have and it brings"
+    },
+    {
+      "id": "seg-0097",
+      "start": 623.13,
+      "end": 630.3,
+      "duration": 7.17,
+      "text": "us to another function of what I'll call System\n2. System 1 is the intuitive one; they perform"
+    },
+    {
+      "id": "seg-0098",
+      "start": 630.3,
+      "end": 640.71,
+      "duration": 10.41,
+      "text": "those automatic and activities and System\n2 is the effortful one the one that the deliberate"
+    },
+    {
+      "id": "seg-0099",
+      "start": 640.71,
+      "end": 648.14,
+      "duration": 7.43,
+      "text": "one. And the reason that I classify this as\nSystem 2 operation is that self-control and"
+    },
+    {
+      "id": "seg-0100",
+      "start": 648.14,
+      "end": 655.87,
+      "duration": 7.73,
+      "text": "controlling your attention and deliberate\nexertion of effort are impaired when by other"
+    },
+    {
+      "id": "seg-0101",
+      "start": 655.87,
+      "end": 664.95,
+      "duration": 9.08,
+      "text": "activities. So, if for example, a trivial\nexample, if somebody is asked to retain seven"
+    },
+    {
+      "id": "seg-0102",
+      "start": 664.95,
+      "end": 670.38,
+      "duration": 5.43,
+      "text": "digits in their head and you then give them\na choice between chocolate cake, sinful chocolate"
+    },
+    {
+      "id": "seg-0103",
+      "start": 670.38,
+      "end": 675.48,
+      "duration": 5.1,
+      "text": "cake and virtuous fruit salad they're more\nlikely to choose the chocolate cake than they"
+    },
+    {
+      "id": "seg-0104",
+      "start": 675.48,
+      "end": 680.91,
+      "duration": 5.43,
+      "text": "would if they didn't have seven digits in\ntheir head. It takes effort to control your"
+    },
+    {
+      "id": "seg-0105",
+      "start": 680.91,
+      "end": 691.73,
+      "duration": 10.82,
+      "text": "impulses even such mild impulses as a preference\nfor chocolate cake. So"
+    },
+    {
+      "id": "seg-0106",
+      "start": 691.73,
+      "end": 697.52,
+      "duration": 5.79,
+      "text": "you should be aware of that difference between\nSystem 1 operations, the automatic ones and"
+    },
+    {
+      "id": "seg-0107",
+      "start": 697.52,
+      "end": 704.63,
+      "duration": 7.11,
+      "text": "System 2 operations, the deliberate ones,\nit comes very clearly when in driving. So"
+    },
+    {
+      "id": "seg-0108",
+      "start": 704.63,
+      "end": 711.79,
+      "duration": 7.16,
+      "text": "driving is a skill. And any skilled activity\nmeasure of skill is that things begin to happen"
+    },
+    {
+      "id": "seg-0109",
+      "start": 711.79,
+      "end": 718.88,
+      "duration": 7.09,
+      "text": "automatically. So you can drive and conduct\na conversation. You cannot make a left turn"
+    },
+    {
+      "id": "seg-0110",
+      "start": 718.88,
+      "end": 725.67,
+      "duration": 6.79,
+      "text": "into traffic, but by and large, we can drive\nand talk. So driving is largely automatic."
+    },
+    {
+      "id": "seg-0111",
+      "start": 725.67,
+      "end": 731.29,
+      "duration": 5.62,
+      "text": "Braking, when there is any sign of danger,\nbraking is completely automatic. That is,"
+    },
+    {
+      "id": "seg-0112",
+      "start": 731.29,
+      "end": 737.42,
+      "duration": 6.13,
+      "text": "you can notice while you're braking, but you\nfirst respond so that the response is immediate,"
+    },
+    {
+      "id": "seg-0113",
+      "start": 737.42,
+      "end": 746.3,
+      "duration": 8.88,
+      "text": "it is fully automatic. Now, in some places,\nnot here where people drive in snow or ice,"
+    },
+    {
+      "id": "seg-0114",
+      "start": 746.3,
+      "end": 753.34,
+      "duration": 7.04,
+      "text": "they learn about skids. And then, occasionally,\nyou'll find yourself as a driver in a skid."
+    },
+    {
+      "id": "seg-0115",
+      "start": 753.34,
+      "end": 758.67,
+      "duration": 5.33,
+      "text": "And then System 2 will be mobilized because\nin a skid you're not supposed to do anything"
+    },
+    {
+      "id": "seg-0116",
+      "start": 758.67,
+      "end": 763.86,
+      "duration": 5.19,
+      "text": "that comes naturally to you. You shouldn't\nbrake and you shouldn't steer away from the"
+    },
+    {
+      "id": "seg-0117",
+      "start": 763.86,
+      "end": 768.66,
+      "duration": 4.8,
+      "text": "skid. You should leave the brakes alone and\nsteer into the skid, completely non-intuitive."
+    },
+    {
+      "id": "seg-0118",
+      "start": 768.66,
+      "end": 777.05,
+      "duration": 8.39,
+      "text": "Now, when people have a lot of practice with\nskids that too becomes automatic. So one thing"
+    },
+    {
+      "id": "seg-0119",
+      "start": 777.05,
+      "end": 783.51,
+      "duration": 6.46,
+      "text": "that we can tell about System 1 and System\n2 those two types of operations, is some of"
+    },
+    {
+      "id": "seg-0120",
+      "start": 783.51,
+      "end": 791.17,
+      "duration": 7.66,
+      "text": "the basic innate operations, functions that\nwe have such as having emotional reactions"
+    },
+    {
+      "id": "seg-0121",
+      "start": 791.17,
+      "end": 799.78,
+      "duration": 8.61,
+      "text": "to things, all this is System 1. We don't\nchoose to do it. It just happens to us. But"
+    },
+    {
+      "id": "seg-0122",
+      "start": 799.78,
+      "end": 808.09,
+      "duration": 8.31,
+      "text": "also System 1 is where skill is. That is when\nwe get to be skilled at something it becomes"
+    },
+    {
+      "id": "seg-0123",
+      "start": 808.09,
+      "end": 814.37,
+      "duration": 6.28,
+      "text": "automatic and it demands your resources and\nwe get to be very good at it. Now, the issue"
+    },
+    {
+      "id": "seg-0124",
+      "start": 814.37,
+      "end": 821.31,
+      "duration": 6.94,
+      "text": "of intuition and here I'm not sure, but I\nsuspect that Malcolm Gladwell really did us"
+    },
+    {
+      "id": "seg-0125",
+      "start": 821.31,
+      "end": 826.46,
+      "duration": 5.15,
+      "text": "a disservice by giving us a sense there is\nmagic to intuition. There really is no magic"
+    },
+    {
+      "id": "seg-0126",
+      "start": 826.46,
+      "end": 834.8,
+      "duration": 8.34,
+      "text": "at all and we should understand how it works.\nIntuition and Herbert Simon who was Psychologist"
+    },
+    {
+      "id": "seg-0127",
+      "start": 834.8,
+      "end": 840.13,
+      "duration": 5.33,
+      "text": "then and economist and a political scientist\nNobel Laureate, Herbert Simon gave a very"
+    },
+    {
+      "id": "seg-0128",
+      "start": 840.13,
+      "end": 846.3,
+      "duration": 6.17,
+      "text": "good definition about what intuition is. It\nis simply recognition. There is really no"
+    },
+    {
+      "id": "seg-0129",
+      "start": 846.3,
+      "end": 852.04,
+      "duration": 5.74,
+      "text": "difference between the physician recognizing\na disease, you know, a particular disease"
+    },
+    {
+      "id": "seg-0130",
+      "start": 852.04,
+      "end": 858.67,
+      "duration": 6.63,
+      "text": "from a facial expression or something and\na little child learning, pointing to something"
+    },
+    {
+      "id": "seg-0131",
+      "start": 858.67,
+      "end": 864.59,
+      "duration": 5.92,
+      "text": "and saying doggie. The little child has no\nidea what the clues are but he just said."
+    },
+    {
+      "id": "seg-0132",
+      "start": 864.59,
+      "end": 873,
+      "duration": 8.41,
+      "text": "He just knows this is dog without knowing\nwhy he knows. And once you think about it"
+    },
+    {
+      "id": "seg-0133",
+      "start": 873,
+      "end": 880.29,
+      "duration": 7.29,
+      "text": "this way, this really demystifies intuition\nto a very considerable extent. And it also"
+    },
+    {
+      "id": "seg-0134",
+      "start": 880.29,
+      "end": 886.47,
+      "duration": 6.18,
+      "text": "leads you to sort of a solution to the problem\nGary Klein and I were trying to solve. When"
+    },
+    {
+      "id": "seg-0135",
+      "start": 886.47,
+      "end": 893.58,
+      "duration": 7.11,
+      "text": "can you trust intuition and when can't you?\nAnd then it becomes an issue of is the world"
+    },
+    {
+      "id": "seg-0136",
+      "start": 893.58,
+      "end": 902.6,
+      "duration": 9.02,
+      "text": "regular enough so that you can learn to recognize\nthings? Or and then did that particular individual"
+    },
+    {
+      "id": "seg-0137",
+      "start": 902.6,
+      "end": 909.64,
+      "duration": 7.04,
+      "text": "have an opportunity to learn the regularities\nof the world? And so, the world of chess players"
+    },
+    {
+      "id": "seg-0138",
+      "start": 909.64,
+      "end": 914.67,
+      "duration": 5.03,
+      "text": "is highly regular. And statistically, the\nworld of poker players is very regular. So"
+    },
+    {
+      "id": "seg-0139",
+      "start": 914.67,
+      "end": 922.3,
+      "duration": 7.63,
+      "text": "there is an element of chance, but there are\nrules and the mind is so set that if there"
+    },
+    {
+      "id": "seg-0140",
+      "start": 922.3,
+      "end": 928.47,
+      "duration": 6.17,
+      "text": "are rules in the environment and we're exposed\nto them for a long time, and we get immediate"
+    },
+    {
+      "id": "seg-0141",
+      "start": 928.47,
+      "end": 934.56,
+      "duration": 6.09,
+      "text": "feedback on what is right and wrong, or fairly\nimmediate feedback, we would acquire those"
+    },
+    {
+      "id": "seg-0142",
+      "start": 934.56,
+      "end": 943.65,
+      "duration": 9.09,
+      "text": "rules. So all of us have expert intuition\neven if we are not physicians and we're not"
+    },
+    {
+      "id": "seg-0143",
+      "start": 943.65,
+      "end": 953.37,
+      "duration": 9.72,
+      "text": "master chess players. I recognize my wife's\nmood from one word on the telephone. You know,"
+    },
+    {
+      "id": "seg-0144",
+      "start": 953.37,
+      "end": 958.78,
+      "duration": 5.41,
+      "text": "most of you can do that. There's people that\nyou know very well. All of us recognize dangerous"
+    },
+    {
+      "id": "seg-0145",
+      "start": 958.78,
+      "end": 965.44,
+      "duration": 6.66,
+      "text": "driver on the next lane. And you know we get\ncues and we don't necessarily know what is"
+    },
+    {
+      "id": "seg-0146",
+      "start": 965.44,
+      "end": 971.52,
+      "duration": 6.08,
+      "text": "the cue but this person is driving erratically\nand could do something dangerous. And this"
+    },
+    {
+      "id": "seg-0147",
+      "start": 971.52,
+      "end": 980.91,
+      "duration": 9.39,
+      "text": "is a lot of reinforced practice and we're\nvery good at that. We can learn about those,"
+    },
+    {
+      "id": "seg-0148",
+      "start": 980.91,
+      "end": 991.72,
+      "duration": 10.81,
+      "text": "there are differences. Among experts, among\nprofessionals, in the level of expertise that"
+    },
+    {
+      "id": "seg-0149",
+      "start": 991.72,
+      "end": 997.64,
+      "duration": 5.92,
+      "text": "they have and they depend in the level of\nintuitive expertise that they can develop."
+    },
+    {
+      "id": "seg-0150",
+      "start": 997.64,
+      "end": 1003.65,
+      "duration": 6.01,
+      "text": "So for example, compare anesthesiologists\nto radiologists. Anesthesiologists get very"
+    },
+    {
+      "id": "seg-0151",
+      "start": 1003.65,
+      "end": 1009.1,
+      "duration": 5.45,
+      "text": "good feedback, an immediate feedback whenever\nthey do anything wrong. You know they have"
+    },
+    {
+      "id": "seg-0152",
+      "start": 1009.1,
+      "end": 1017.44,
+      "duration": 8.34,
+      "text": "those measurements in real time. Radiologists\nget really miserable feedback about whether"
+    },
+    {
+      "id": "seg-0153",
+      "start": 1017.44,
+      "end": 1023.27,
+      "duration": 5.83,
+      "text": "they're right or wrong. So you could expect\nan anesthesiologist to develop intuition much"
+    },
+    {
+      "id": "seg-0154",
+      "start": 1023.27,
+      "end": 1030.77,
+      "duration": 7.5,
+      "text": "more than you would expect radiologist to\ndevelop intuition. And so, that is part of"
+    },
+    {
+      "id": "seg-0155",
+      "start": 1030.77,
+      "end": 1038.13,
+      "duration": 7.36,
+      "text": "the answer about intuitive expertise. We don't\nneed to disagree about that because we know"
+    },
+    {
+      "id": "seg-0156",
+      "start": 1038.13,
+      "end": 1044.96,
+      "duration": 6.83,
+      "text": "pretty much when intuitive expertise is likely\nto develop. And as I said, we also that means"
+    },
+    {
+      "id": "seg-0157",
+      "start": 1044.96,
+      "end": 1051.51,
+      "duration": 6.55,
+      "text": "that intuitive expertise is not going to develop\nin a chaotic universe or in a chaotic world."
+    },
+    {
+      "id": "seg-0158",
+      "start": 1051.51,
+      "end": 1060.54,
+      "duration": 9.03,
+      "text": "So for example, I personally do not believe\nthat that's stopped because people pick stocks"
+    },
+    {
+      "id": "seg-0159",
+      "start": 1060.54,
+      "end": 1067.43,
+      "duration": 6.89,
+      "text": "to invest in can develop intuition because\nsimply the market takes care of it. There"
+    },
+    {
+      "id": "seg-0160",
+      "start": 1067.43,
+      "end": 1073.38,
+      "duration": 5.95,
+      "text": "isn't enough regularity in what's going to\nhappen to prices for intuitions to develop."
+    },
+    {
+      "id": "seg-0161",
+      "start": 1073.38,
+      "end": 1080.03,
+      "duration": 6.65,
+      "text": "We also know about political forecasters when\nthey forecast long-term, they are really no"
+    },
+    {
+      "id": "seg-0162",
+      "start": 1080.03,
+      "end": 1087,
+      "duration": 6.97,
+      "text": "better than a dart-throwing monkey. And they\nare certainly not better than the average"
+    },
+    {
+      "id": "seg-0163",
+      "start": 1087,
+      "end": 1094.41,
+      "duration": 7.41,
+      "text": "reader of the New York Times. Intuitions and\nthe reason it's not the pundit's fault. And"
+    },
+    {
+      "id": "seg-0164",
+      "start": 1094.41,
+      "end": 1100.74,
+      "duration": 6.33,
+      "text": "that research has been done with pundits and\nCIA analysts and regional experts. It is really"
+    },
+    {
+      "id": "seg-0165",
+      "start": 1100.74,
+      "end": 1106.77,
+      "duration": 6.03,
+      "text": "not their fault that they cannot predict the\nlong range future 10 or 15 years. They are"
+    },
+    {
+      "id": "seg-0166",
+      "start": 1106.77,
+      "end": 1111.82,
+      "duration": 5.05,
+      "text": "quite good at short-term predictions. They\nare really not good at all in long-term predictions."
+    },
+    {
+      "id": "seg-0167",
+      "start": 1111.82,
+      "end": 1118.55,
+      "duration": 6.73,
+      "text": "It's not their fault. It's the fault of the\nworld. The world is probably not predictable."
+    },
+    {
+      "id": "seg-0168",
+      "start": 1118.55,
+      "end": 1123.61,
+      "duration": 5.06,
+      "text": "And if the world is not predictable, then\nyou are not going to predict it. When there"
+    },
+    {
+      "id": "seg-0169",
+      "start": 1123.61,
+      "end": 1130.75,
+      "duration": 7.14,
+      "text": "are marginal situations where there is some\npredictability but poor formulas do better"
+    },
+    {
+      "id": "seg-0170",
+      "start": 1130.75,
+      "end": 1138.7,
+      "duration": 7.95,
+      "text": "than individuals. That is the domain where\nformulas beat individuals regularly is a domain"
+    },
+    {
+      "id": "seg-0171",
+      "start": 1138.7,
+      "end": 1143.92,
+      "duration": 5.22,
+      "text": "of fairly low predictability. Because when\nthere are weak cues, people are not very good"
+    },
+    {
+      "id": "seg-0172",
+      "start": 1143.92,
+      "end": 1151.51,
+      "duration": 7.59,
+      "text": "at picking them up and are not good at using\nthem consistently. But formulas can be generated"
+    },
+    {
+      "id": "seg-0173",
+      "start": 1151.51,
+      "end": 1159.06,
+      "duration": 7.55,
+      "text": "on the basis of experience and they will do\na better job than individual judgment. Okay."
+    },
+    {
+      "id": "seg-0174",
+      "start": 1159.06,
+      "end": 1166.84,
+      "duration": 7.78,
+      "text": "Now, I've introduced you to System 1 and System\n2 and I've told you something about skill"
+    },
+    {
+      "id": "seg-0175",
+      "start": 1166.84,
+      "end": 1179.89,
+      "duration": 13.05,
+      "text": "and about skill in System 1. Now I'd like\nto point out something that we sometimes have"
+    },
+    {
+      "id": "seg-0176",
+      "start": 1179.89,
+      "end": 1187.41,
+      "duration": 7.52,
+      "text": "intuitions and that applies to political forecasters\nand to stock pickers and to all of us. Quite"
+    },
+    {
+      "id": "seg-0177",
+      "start": 1187.41,
+      "end": 1194.89,
+      "duration": 7.48,
+      "text": "frequently we have intuitions that are false.\nAnd they come up and come to mind and they"
+    },
+    {
+      "id": "seg-0178",
+      "start": 1194.89,
+      "end": 1201.88,
+      "duration": 6.99,
+      "text": "are subjectively undistinguishable from expert\nintuitions. So I'm now talking of people who"
+    },
+    {
+      "id": "seg-0179",
+      "start": 1201.88,
+      "end": 1207.58,
+      "duration": 5.7,
+      "text": "have intuitions that are not based on expertise.\nAnd they come. They're System 1 in the sense"
+    },
+    {
+      "id": "seg-0180",
+      "start": 1207.58,
+      "end": 1214.49,
+      "duration": 6.91,
+      "text": "that they are effortless and automatic. And\nwhere do they come from? And that is what"
+    },
+    {
+      "id": "seg-0181",
+      "start": 1214.49,
+      "end": 1221.58,
+      "duration": 7.09,
+      "text": "I'm going to try to illuminate, shed some\nlight on in the rest of the talk. So I want"
+    },
+    {
+      "id": "seg-0182",
+      "start": 1221.58,
+      "end": 1228.6,
+      "duration": 7.02,
+      "text": "to introduce you to System 1. And first of\nall, let me get one thing clear because I"
+    },
+    {
+      "id": "seg-0183",
+      "start": 1228.6,
+      "end": 1235.95,
+      "duration": 7.35,
+      "text": "might forget. I use System 1 and System 2\nthose terms and very shocking terms in my"
+    },
+    {
+      "id": "seg-0184",
+      "start": 1235.95,
+      "end": 1242.7,
+      "duration": 6.75,
+      "text": "discipline. You are really not supposed to\ndo that. Because every psychologist gets told"
+    },
+    {
+      "id": "seg-0185",
+      "start": 1242.7,
+      "end": 1248.4,
+      "duration": 5.7,
+      "text": "fairly early you're not supposed to explain\nwhat happens in the mind by invoking little"
+    },
+    {
+      "id": "seg-0186",
+      "start": 1248.4,
+      "end": 1253.94,
+      "duration": 5.54,
+      "text": "agents inside the mind and explain what the\nmind does by what the little agents do. Those"
+    },
+    {
+      "id": "seg-0187",
+      "start": 1253.94,
+      "end": 1261.44,
+      "duration": 7.5,
+      "text": "are homunculi and that's a bad word in psychology.\nI'm going to use System 1 and System 2 absolutely"
+    },
+    {
+      "id": "seg-0188",
+      "start": 1261.44,
+      "end": 1270.44,
+      "duration": 9,
+      "text": "as homunculi. Now, what do I have to say in\nmy defense? First of all, well, I'm warning"
+    },
+    {
+      "id": "seg-0189",
+      "start": 1270.44,
+      "end": 1274.64,
+      "duration": 4.2,
+      "text": "you. Those are fictitious characters. They\ndon't exist. I don't believe there is such"
+    },
+    {
+      "id": "seg-0190",
+      "start": 1274.64,
+      "end": 1279.25,
+      "duration": 4.61,
+      "text": "a thing as System 1 and System 2. Don't look\nfor them in the brain, because they are not"
+    },
+    {
+      "id": "seg-0191",
+      "start": 1279.25,
+      "end": 1283.84,
+      "duration": 4.59,
+      "text": "two systems in the brain of which one does\none and the other does the other. So why am"
+    },
+    {
+      "id": "seg-0192",
+      "start": 1283.84,
+      "end": 1290.02,
+      "duration": 6.18,
+      "text": "I using this terrible language? I'm using\nit because I think it's helpful. It fits the"
+    },
+    {
+      "id": "seg-0193",
+      "start": 1290.02,
+      "end": 1295.9,
+      "duration": 5.88,
+      "text": "way our minds work and to explain the background\nof that decision of why I use System 1 and"
+    },
+    {
+      "id": "seg-0194",
+      "start": 1295.9,
+      "end": 1308.09,
+      "duration": 12.19,
+      "text": "System 2, I refer you to a very good book.\nIt's very entertaining. It's by Joshua Foer"
+    },
+    {
+      "id": "seg-0195",
+      "start": 1308.09,
+      "end": 1315.99,
+      "duration": 7.9,
+      "text": "and it's called Moonwalking with Einstein.\nIt came out earlier this year. And what the"
+    },
+    {
+      "id": "seg-0196",
+      "start": 1315.99,
+      "end": 1322.79,
+      "duration": 6.8,
+      "text": "book is about. Joshua Foer, he's a science\nwriter. And he went to the Memory Championship"
+    },
+    {
+      "id": "seg-0197",
+      "start": 1322.79,
+      "end": 1327.46,
+      "duration": 4.67,
+      "text": "of the United States. You might not know there\nis such a thing but there is. So people memorize"
+    },
+    {
+      "id": "seg-0198",
+      "start": 1327.46,
+      "end": 1335.82,
+      "duration": 8.36,
+      "text": "decks of cards and very, very long lists of\nthings and perform feats that we think are"
+    },
+    {
+      "id": "seg-0199",
+      "start": 1335.82,
+      "end": 1342.28,
+      "duration": 6.46,
+      "text": "completely extraordinary. Joshua Foer decided\nto find out what happens. And a year later"
+    },
+    {
+      "id": "seg-0200",
+      "start": 1342.28,
+      "end": 1346.86,
+      "duration": 4.58,
+      "text": "he was actually the champion -- the Memory\nChampion of the United States. And the book"
+    },
+    {
+      "id": "seg-0201",
+      "start": 1346.86,
+      "end": 1354.52,
+      "duration": 7.66,
+      "text": "is a story of how he did it. And basically\nthe story which was known to the Greeks in"
+    },
+    {
+      "id": "seg-0202",
+      "start": 1354.52,
+      "end": 1361.8,
+      "duration": 7.28,
+      "text": "some form is that memory is very, very good\nat something and terrible at other things."
+    },
+    {
+      "id": "seg-0203",
+      "start": 1361.8,
+      "end": 1368,
+      "duration": 6.2,
+      "text": "Memory is terrible at remembering lists. We're\nreally not good at remembering lists. Memory"
+    },
+    {
+      "id": "seg-0204",
+      "start": 1368,
+      "end": 1376.88,
+      "duration": 8.88,
+      "text": "is superb at remembering routes through space.\nThat evolution, evolution has endowed us with"
+    },
+    {
+      "id": "seg-0205",
+      "start": 1376.88,
+      "end": 1383.53,
+      "duration": 6.65,
+      "text": "an ability to remember routes and not lists.\nSo now, you can trick yourself. If mentally"
+    },
+    {
+      "id": "seg-0206",
+      "start": 1383.53,
+      "end": 1388.89,
+      "duration": 5.36,
+      "text": "you have a list and you want to remember the\nlist, then you create a mental route and you"
+    },
+    {
+      "id": "seg-0207",
+      "start": 1388.89,
+      "end": 1393,
+      "duration": 4.11,
+      "text": "distribute the items on your list along the\nroute. And then, when you want to remember"
+    },
+    {
+      "id": "seg-0208",
+      "start": 1393,
+      "end": 1397.17,
+      "duration": 4.17,
+      "text": "the deck of cards or whatever it is, then\nyou go through your route and you pick out"
+    },
+    {
+      "id": "seg-0209",
+      "start": 1397.17,
+      "end": 1403.58,
+      "duration": 6.41,
+      "text": "items one after the other, because that you\ncan do. It turns out something very similar"
+    },
+    {
+      "id": "seg-0210",
+      "start": 1403.58,
+      "end": 1412.69,
+      "duration": 9.11,
+      "text": "happens in another context. People are very\ngood thinking about agents. The mind is set"
+    },
+    {
+      "id": "seg-0211",
+      "start": 1412.69,
+      "end": 1421,
+      "duration": 8.31,
+      "text": "really beautifully to think about agent. Agents\nhave traits. Agents have behaviors. We understand"
+    },
+    {
+      "id": "seg-0212",
+      "start": 1421,
+      "end": 1428.07,
+      "duration": 7.07,
+      "text": "agents. We form global impressions of their\npersonalities. We are really not very good"
+    },
+    {
+      "id": "seg-0213",
+      "start": 1428.07,
+      "end": 1433.46,
+      "duration": 5.39,
+      "text": "at remembering sentences where the subject\nof the sentence is an abstract notion. But"
+    },
+    {
+      "id": "seg-0214",
+      "start": 1433.46,
+      "end": 1440.54,
+      "duration": 7.08,
+      "text": "an agent is very, very good. So just remember\nwhenever I say System 1 does X what I mean"
+    },
+    {
+      "id": "seg-0215",
+      "start": 1440.54,
+      "end": 1447.01,
+      "duration": 6.47,
+      "text": "is x is a mental activity that can be performed\nwithout effort. You'll remember a lot more"
+    },
+    {
+      "id": "seg-0216",
+      "start": 1447.01,
+      "end": 1452.91,
+      "duration": 5.9,
+      "text": "about System 1 if you think about it as doing\nthings than if you think of those mental activities."
+    },
+    {
+      "id": "seg-0217",
+      "start": 1452.91,
+      "end": 1457.73,
+      "duration": 4.82,
+      "text": "It helps me think and I think it helps other\npeople understand. Okay. So let me introduce"
+    },
+    {
+      "id": "seg-0218",
+      "start": 1457.73,
+      "end": 1470.87,
+      "duration": 13.14,
+      "text": "you to System 1. I begin with a study, just\nan extreme case of this study was done at"
+    },
+    {
+      "id": "seg-0219",
+      "start": 1470.87,
+      "end": 1478.6,
+      "duration": 7.73,
+      "text": "the University in the UK and like in many\ndepartment of biology actually. And like many"
+    },
+    {
+      "id": "seg-0220",
+      "start": 1478.6,
+      "end": 1483.36,
+      "duration": 4.76,
+      "text": "places in the UK, they have a small room which\nis a tearoom, coffee room, where people can"
+    },
+    {
+      "id": "seg-0221",
+      "start": 1483.36,
+      "end": 1489.48,
+      "duration": 6.12,
+      "text": "make themselves tea or coffee and get some\nbiscuits and there is an honesty box and they"
+    },
+    {
+      "id": "seg-0222",
+      "start": 1489.48,
+      "end": 1497.52,
+      "duration": 8.04,
+      "text": "pay into the honesty box. And somebody had\nthe bright idea of sticking a poster right"
+    },
+    {
+      "id": "seg-0223",
+      "start": 1497.52,
+      "end": 1503.3,
+      "duration": 5.78,
+      "text": "on top of the honesty box and of changing\nthe poster once a week. And so, this is week"
+    },
+    {
+      "id": "seg-0224",
+      "start": 1503.3,
+      "end": 1517.82,
+      "duration": 14.52,
+      "text": "one. And that's the poster. Week 2 is flowers.\nWeek 3 is eyes. And so on. Now, what is remarkable"
+    },
+    {
+      "id": "seg-0225",
+      "start": 1517.82,
+      "end": 1523.19,
+      "duration": 5.37,
+      "text": "about this is, this is something that happens\nto people. They have no idea it's happening"
+    },
+    {
+      "id": "seg-0226",
+      "start": 1523.19,
+      "end": 1528.32,
+      "duration": 5.13,
+      "text": "to them. In fact, they have no idea about\nthe posters. They are barely aware there are"
+    },
+    {
+      "id": "seg-0227",
+      "start": 1528.32,
+      "end": 1533.06,
+      "duration": 4.74,
+      "text": "posters there. They certainly don't know the\nposters change systemically. They have no"
+    },
+    {
+      "id": "seg-0228",
+      "start": 1533.06,
+      "end": 1540.57,
+      "duration": 7.51,
+      "text": "idea that the posters influence their behavior.\nSystem 1 can do those things. Those things"
+    },
+    {
+      "id": "seg-0229",
+      "start": 1540.57,
+      "end": 1546.71,
+      "duration": 6.14,
+      "text": "we, a lot is happening in our mind that we\nare not fully aware of. We are not aware of"
+    },
+    {
+      "id": "seg-0230",
+      "start": 1546.71,
+      "end": 1557.22,
+      "duration": 10.51,
+      "text": "at all in fact. And there is a link between\neyes and being watched and being watched and"
+    },
+    {
+      "id": "seg-0231",
+      "start": 1557.22,
+      "end": 1564.2,
+      "duration": 6.98,
+      "text": "not wanting to do bad things or wanting to\ndo good things. All of this is deep in our"
+    },
+    {
+      "id": "seg-0232",
+      "start": 1564.2,
+      "end": 1570.52,
+      "duration": 6.32,
+      "text": "associative memory and it gets activated.\nYou see eyes especially those large eyes on"
+    },
+    {
+      "id": "seg-0233",
+      "start": 1570.52,
+      "end": 1578.77,
+      "duration": 8.25,
+      "text": "week 1 and it does something to you that you\nmay not be aware it does. Now let me show"
+    },
+    {
+      "id": "seg-0234",
+      "start": 1578.77,
+      "end": 1591.75,
+      "duration": 12.98,
+      "text": "you something else. This, I just want to enumerate\nvery briefly what happened to you in the first"
+    },
+    {
+      "id": "seg-0235",
+      "start": 1591.75,
+      "end": 1599.82,
+      "duration": 8.07,
+      "text": "couple of seconds when I put this on the screen.\nAnd first of all, you read them. You read"
+    },
+    {
+      "id": "seg-0236",
+      "start": 1599.82,
+      "end": 1603.48,
+      "duration": 3.66,
+      "text": "the words. Now, you didn't intend to read\nthe words. You didn't have to decide. You"
+    },
+    {
+      "id": "seg-0237",
+      "start": 1603.48,
+      "end": 1610.4,
+      "duration": 6.92,
+      "text": "had to read them. You had no choice in the\nmatter. Second, ideas and images and memories"
+    },
+    {
+      "id": "seg-0238",
+      "start": 1610.4,
+      "end": 1616.83,
+      "duration": 6.43,
+      "text": "came to mind probably none of them very pleasant.\nSo that's the second thing. Another thing"
+    },
+    {
+      "id": "seg-0239",
+      "start": 1616.83,
+      "end": 1622.61,
+      "duration": 5.78,
+      "text": "that happened is physical. You recoiled. This\nis actually being measured. And when people"
+    },
+    {
+      "id": "seg-0240",
+      "start": 1622.61,
+      "end": 1629.84,
+      "duration": 7.23,
+      "text": "are exposed to threatening word, they move\nback. So the threat is to some extent to some"
+    },
+    {
+      "id": "seg-0241",
+      "start": 1629.84,
+      "end": 1638.41,
+      "duration": 8.57,
+      "text": "slight extent taken to be real. The symbolic\nthreat is taken to be real. You made a disgust"
+    },
+    {
+      "id": "seg-0242",
+      "start": 1638.41,
+      "end": 1644.48,
+      "duration": 6.07,
+      "text": "face. You experienced disgust. And that is\ngetting to be interesting because those things"
+    },
+    {
+      "id": "seg-0243",
+      "start": 1644.48,
+      "end": 1651.15,
+      "duration": 6.67,
+      "text": "are reciprocally reinforcing. So if you make\na disgust face, you are more likely to feel"
+    },
+    {
+      "id": "seg-0244",
+      "start": 1651.15,
+      "end": 1659.02,
+      "duration": 7.87,
+      "text": "disgust. If you make a smiling face, you are\nmore likely to think that things are funny."
+    },
+    {
+      "id": "seg-0245",
+      "start": 1659.02,
+      "end": 1664.32,
+      "duration": 5.3,
+      "text": "So you know, one of my favorite experiments\nalong those lines is, you take a pencil, you"
+    },
+    {
+      "id": "seg-0246",
+      "start": 1664.32,
+      "end": 1669.69,
+      "duration": 5.37,
+      "text": "stick it in your mouth like that. And cartoons\nwill appear funnier to you. Because, when"
+    },
+    {
+      "id": "seg-0247",
+      "start": 1669.69,
+      "end": 1677.22,
+      "duration": 7.53,
+      "text": "you stick a pencil into your mouth like that,\nyou're making a smile. And just the sheer"
+    },
+    {
+      "id": "seg-0248",
+      "start": 1677.22,
+      "end": 1684.63,
+      "duration": 7.41,
+      "text": "muscular change is enough to feedback into\nour emotions and our feelings. This is all"
+    },
+    {
+      "id": "seg-0249",
+      "start": 1684.63,
+      "end": 1692.81,
+      "duration": 8.18,
+      "text": "fairly important, because what it means is,\nyou can think of well, let me add something."
+    },
+    {
+      "id": "seg-0250",
+      "start": 1692.81,
+      "end": 1702.53,
+      "duration": 9.72,
+      "text": "Then I'll pull it together. I think of System\n1 very largely in terms of what happens in"
+    },
+    {
+      "id": "seg-0251",
+      "start": 1702.53,
+      "end": 1708.01,
+      "duration": 5.48,
+      "text": "associative memory. To think of associative\nmemory, you can think of a gigantic network"
+    },
+    {
+      "id": "seg-0252",
+      "start": 1708.01,
+      "end": 1712.96,
+      "duration": 4.95,
+      "text": "of ideas. And the ideas are linked to each\nother in various way, associatively, some"
+    },
+    {
+      "id": "seg-0253",
+      "start": 1712.96,
+      "end": 1721.56,
+      "duration": 8.6,
+      "text": "of them are causes of other things or categories,\nexample, instances of. There are many different"
+    },
+    {
+      "id": "seg-0254",
+      "start": 1721.56,
+      "end": 1730.35,
+      "duration": 8.79,
+      "text": "links but you have a huge representation of\nwhat we have in mind. And at any one time"
+    },
+    {
+      "id": "seg-0255",
+      "start": 1730.35,
+      "end": 1738.11,
+      "duration": 7.76,
+      "text": "the stimulus occurs, it activates a subset\nof those notes in that representation of memory"
+    },
+    {
+      "id": "seg-0256",
+      "start": 1738.11,
+      "end": 1745.37,
+      "duration": 7.26,
+      "text": "and then activation spreads through the associative\nnetwork; not a lot, but it spreads some. So"
+    },
+    {
+      "id": "seg-0257",
+      "start": 1745.37,
+      "end": 1755.45,
+      "duration": 10.08,
+      "text": "for example, you're now and we can know that\nit spreads, because we become sensitized to"
+    },
+    {
+      "id": "seg-0258",
+      "start": 1755.45,
+      "end": 1762.32,
+      "duration": 6.87,
+      "text": "other ideas that have been activated in this\nfashion. So for example, right now, if somebody"
+    },
+    {
+      "id": "seg-0259",
+      "start": 1762.32,
+      "end": 1768.76,
+      "duration": 6.44,
+      "text": "whispered words in your ears, you would be\nmuch more likely to detect and recognize words"
+    },
+    {
+      "id": "seg-0260",
+      "start": 1768.76,
+      "end": 1776.84,
+      "duration": 8.08,
+      "text": "like sickness and smell, instinct, and nausea,\nand hangover. A lot of the associations have"
+    },
+    {
+      "id": "seg-0261",
+      "start": 1776.84,
+      "end": 1781.66,
+      "duration": 4.82,
+      "text": "been activated. You're not aware of any of\nthem. You're not aware of anything. Those"
+    },
+    {
+      "id": "seg-0262",
+      "start": 1781.66,
+      "end": 1788.14,
+      "duration": 6.48,
+      "text": "are not conscious activations. But they are\nactivations nonetheless. And because those"
+    },
+    {
+      "id": "seg-0263",
+      "start": 1788.14,
+      "end": 1795.11,
+      "duration": 6.97,
+      "text": "ideas are partially activated, weak stimulus\nis going to be sufficient to bring them over"
+    },
+    {
+      "id": "seg-0264",
+      "start": 1795.11,
+      "end": 1801.26,
+      "duration": 6.15,
+      "text": "threshold. This again is a very important\nfunction of System 1 associative memory. We"
+    },
+    {
+      "id": "seg-0265",
+      "start": 1801.26,
+      "end": 1809.82,
+      "duration": 8.56,
+      "text": "are prepared basically by this spreading activation\nprepares things for what might come next."
+    },
+    {
+      "id": "seg-0266",
+      "start": 1809.82,
+      "end": 1820.14,
+      "duration": 10.32,
+      "text": "You will be able to recognize and respond\nto things more easily than before. Then something"
+    },
+    {
+      "id": "seg-0267",
+      "start": 1820.14,
+      "end": 1832.16,
+      "duration": 12.02,
+      "text": "else happens. And this is there are two words\nhere, banana vomit and you made a story. What"
+    },
+    {
+      "id": "seg-0268",
+      "start": 1832.16,
+      "end": 1838.7,
+      "duration": 6.54,
+      "text": "happens, you know, there is really no need\nto do that, but in effect, this was sufficient"
+    },
+    {
+      "id": "seg-0269",
+      "start": 1838.7,
+      "end": 1845.1,
+      "duration": 6.4,
+      "text": "to create a causal link so that somehow the\nbananas caused the vomit. You didn't make"
+    },
+    {
+      "id": "seg-0270",
+      "start": 1845.1,
+      "end": 1851.41,
+      "duration": 6.31,
+      "text": "a conscious decision for that to happen, but\nwe know that's the kind of thing that happens."
+    },
+    {
+      "id": "seg-0271",
+      "start": 1851.41,
+      "end": 1858.39,
+      "duration": 6.98,
+      "text": "As soon as a stimulus is presented, we look\nback for causes; the associative machinery"
+    },
+    {
+      "id": "seg-0272",
+      "start": 1858.39,
+      "end": 1864.63,
+      "duration": 6.24,
+      "text": "looks back and latches on possible causes.\nHere it's very simple to find a cause and"
+    },
+    {
+      "id": "seg-0273",
+      "start": 1864.63,
+      "end": 1870.85,
+      "duration": 6.22,
+      "text": "you know this has an effect. So temporarily,\nyou know, you don't like bananas because an"
+    },
+    {
+      "id": "seg-0274",
+      "start": 1870.85,
+      "end": 1889.65,
+      "duration": 18.8,
+      "text": "association has been created. And that happens\nbecause of the causal surge. So [pause] this"
+    },
+    {
+      "id": "seg-0275",
+      "start": 1889.65,
+      "end": 1901.57,
+      "duration": 11.92,
+      "text": "should give you a sense of one of the functions\nof System 1. And to complete that, let me"
+    },
+    {
+      "id": "seg-0276",
+      "start": 1901.57,
+      "end": 1908.09,
+      "duration": 6.52,
+      "text": "show you something else. So this is a famous\npsychological demonstration. Many of you might"
+    },
+    {
+      "id": "seg-0277",
+      "start": 1908.09,
+      "end": 1915.24,
+      "duration": 7.15,
+      "text": "not have seen it. You read that as A B C.\nYou read this as 12, 13, 14, but the B and"
+    },
+    {
+      "id": "seg-0278",
+      "start": 1915.24,
+      "end": 1921.32,
+      "duration": 6.08,
+      "text": "the 13 are physically identical. So this tells\nus something quite important about the way"
+    },
+    {
+      "id": "seg-0279",
+      "start": 1921.32,
+      "end": 1930.88,
+      "duration": 9.56,
+      "text": "that associative machinery in System 1 work\non new stimuli. Everything is made coherent."
+    },
+    {
+      "id": "seg-0280",
+      "start": 1930.88,
+      "end": 1937.13,
+      "duration": 6.25,
+      "text": "So, in the context of letters, that ambiguous\nstimulus is going to be read as a letter."
+    },
+    {
+      "id": "seg-0281",
+      "start": 1937.13,
+      "end": 1942.7,
+      "duration": 5.57,
+      "text": "In the context of numbers, it is going to\nbe read as a number. What is quite important,"
+    },
+    {
+      "id": "seg-0282",
+      "start": 1942.7,
+      "end": 1948.68,
+      "duration": 5.98,
+      "text": "two aspects here, one is the coherence and\nthe other is that you are not aware of the"
+    },
+    {
+      "id": "seg-0283",
+      "start": 1948.68,
+      "end": 1955.75,
+      "duration": 7.07,
+      "text": "ambiguity. The ambiguity is suppressed. That\nis, you just get one interpretation. In this"
+    },
+    {
+      "id": "seg-0284",
+      "start": 1955.75,
+      "end": 1960.97,
+      "duration": 5.22,
+      "text": "case, it's a coherent interpretation. And\nthat is the way that the system works. It"
+    },
+    {
+      "id": "seg-0285",
+      "start": 1960.97,
+      "end": 1970.82,
+      "duration": 9.85,
+      "text": "generates associatively coherent representations\nof reaction to situation. Associative memory"
+    },
+    {
+      "id": "seg-0286",
+      "start": 1970.82,
+      "end": 1979.98,
+      "duration": 9.16,
+      "text": "or System 1 is also very pository about world\nknowledge. So when an event occurs, our reaction"
+    },
+    {
+      "id": "seg-0287",
+      "start": 1979.98,
+      "end": 1985.97,
+      "duration": 5.99,
+      "text": "to it is informed by a lot of things that\nwe know. And I'll give you my favorite example"
+    },
+    {
+      "id": "seg-0288",
+      "start": 1985.97,
+      "end": 1993.64,
+      "duration": 7.67,
+      "text": "of this. This is people are listening to sentences\nwhile events in their brain are recorded."
+    },
+    {
+      "id": "seg-0289",
+      "start": 1993.64,
+      "end": 2001.61,
+      "duration": 7.97,
+      "text": "An upper class male British voice says, \"I\nhave a large tattoo, I have large tattoos"
+    },
+    {
+      "id": "seg-0290",
+      "start": 2001.61,
+      "end": 2008.83,
+      "duration": 7.22,
+      "text": "all down my back.\" And approximately 3/10th\nof a second later the brain responds with"
+    },
+    {
+      "id": "seg-0291",
+      "start": 2008.83,
+      "end": 2017.8,
+      "duration": 8.97,
+      "text": "a characteristically surprise. This is astonishing\nif you stop to think about it. There was that"
+    },
+    {
+      "id": "seg-0292",
+      "start": 2017.8,
+      "end": 2023.38,
+      "duration": 5.58,
+      "text": "voice. You have to classify it as an upper\nclass British voice. Now upper class British"
+    },
+    {
+      "id": "seg-0293",
+      "start": 2023.38,
+      "end": 2031.32,
+      "duration": 7.94,
+      "text": "men don't have tattoos down their back, something\nis odd and you get a surprised reaction. You"
+    },
+    {
+      "id": "seg-0294",
+      "start": 2031.32,
+      "end": 2037.81,
+      "duration": 6.49,
+      "text": "get a mobilization of System 2 because System\n2 is the one that pays attention. Surprise"
+    },
+    {
+      "id": "seg-0295",
+      "start": 2037.81,
+      "end": 2047.88,
+      "duration": 10.07,
+      "text": "calls attention. A male voice saying I believe\nI'm pregnant of course same thing. So this"
+    },
+    {
+      "id": "seg-0296",
+      "start": 2047.88,
+      "end": 2055.1,
+      "duration": 7.22,
+      "text": "system holds a world knowledge and uses a\nworld knowledge to classify situations as"
+    },
+    {
+      "id": "seg-0297",
+      "start": 2055.1,
+      "end": 2064.05,
+      "duration": 8.95,
+      "text": "normal or abnormal and it does that at top\nspeed. And it updates very quickly. Well,"
+    },
+    {
+      "id": "seg-0298",
+      "start": 2064.05,
+      "end": 2074.39,
+      "duration": 10.34,
+      "text": "I'll tell you a story about updating. It updates\nwhat it considers normal. Now, this is an"
+    },
+    {
+      "id": "seg-0299",
+      "start": 2074.39,
+      "end": 2079.19,
+      "duration": 4.8,
+      "text": "anecdote. You're free not to believe me. I\nbelieve it because it's a personal experience."
+    },
+    {
+      "id": "seg-0300",
+      "start": 2079.19,
+      "end": 2090.62,
+      "duration": 11.43,
+      "text": "We were some years ago on vacation in Australia\nin resort all of 40 little villas and in the"
+    },
+    {
+      "id": "seg-0301",
+      "start": 2090.62,
+      "end": 2095.83,
+      "duration": 5.21,
+      "text": "evening we go to have dinner first evening\nand we meet a psychologist from Stanford."
+    },
+    {
+      "id": "seg-0302",
+      "start": 2095.83,
+      "end": 2103.07,
+      "duration": 7.24,
+      "text": "Ah, surprise, coincidence and we are very\ndelighted to meet each other. Now, two weeks"
+    },
+    {
+      "id": "seg-0303",
+      "start": 2103.07,
+      "end": 2114.24,
+      "duration": 11.17,
+      "text": "later, we're in the theater in London. And\nit goes dark. And we watch. And then, the"
+    },
+    {
+      "id": "seg-0304",
+      "start": 2114.24,
+      "end": 2122.65,
+      "duration": 8.41,
+      "text": "lights come back on and next to me, same guy.\nNow, the important point is that I was less"
+    },
+    {
+      "id": "seg-0305",
+      "start": 2122.65,
+      "end": 2131.25,
+      "duration": 8.6,
+      "text": "surprised the second time than the first.\nBecause \"Oh, John, he is the guy I meet everywhere.\""
+    },
+    {
+      "id": "seg-0306",
+      "start": 2131.25,
+      "end": 2135.36,
+      "duration": 4.11,
+      "text": "[laughter]\nIt takes very little time to create what we"
+    },
+    {
+      "id": "seg-0307",
+      "start": 2135.36,
+      "end": 2143.78,
+      "duration": 8.42,
+      "text": "call \"a norm.\" So one event, the second event\nlinks back to the first. If I had met anybody"
+    },
+    {
+      "id": "seg-0308",
+      "start": 2143.78,
+      "end": 2151.51,
+      "duration": 7.73,
+      "text": "else, that is what's impressed me. If I had\nmet anybody else, I would have been more surprised."
+    },
+    {
+      "id": "seg-0309",
+      "start": 2151.51,
+      "end": 2158.1,
+      "duration": 6.59,
+      "text": "And that's odd if you think about statistically,\nit's crazy. But in fact, it was very clear"
+    },
+    {
+      "id": "seg-0310",
+      "start": 2158.1,
+      "end": 2164.2,
+      "duration": 6.1,
+      "text": "that and I wouldn't say that I consciously\nexpect to see John wherever I go. But, you"
+    },
+    {
+      "id": "seg-0311",
+      "start": 2164.2,
+      "end": 2169.16,
+      "duration": 4.96,
+      "text": "know, if I'm going to meet someone, I'd be\nprepared to meet John."
+    },
+    {
+      "id": "seg-0312",
+      "start": 2169.16,
+      "end": 2173.85,
+      "duration": 4.69,
+      "text": "[laughter]\nNow, I've mentioned something about causal"
+    },
+    {
+      "id": "seg-0313",
+      "start": 2173.85,
+      "end": 2180.55,
+      "duration": 6.7,
+      "text": "thinking. And I want to give you some sense\nhow that works. So it's a question, which"
+    },
+    {
+      "id": "seg-0314",
+      "start": 2180.55,
+      "end": 2187.02,
+      "duration": 6.47,
+      "text": "is more probable that a mother has blue eyes\nif her daughter has blue eyes or her daughter"
+    },
+    {
+      "id": "seg-0315",
+      "start": 2187.02,
+      "end": 2195.52,
+      "duration": 8.5,
+      "text": "has blue eyes if her mother has blue eyes?\nNow again, as in the bat and ball, there is"
+    },
+    {
+      "id": "seg-0316",
+      "start": 2195.52,
+      "end": 2200.89,
+      "duration": 5.37,
+      "text": "an intuitive response and the intuitive response\nis that it's more probable that a daughter"
+    },
+    {
+      "id": "seg-0317",
+      "start": 2200.89,
+      "end": 2205.81,
+      "duration": 4.92,
+      "text": "has blue eyes if her mother has blue eyes\nthan the other way around. If you stop to"
+    },
+    {
+      "id": "seg-0318",
+      "start": 2205.81,
+      "end": 2211.06,
+      "duration": 5.25,
+      "text": "do the math on the assumption that the incidence\nof blue eyes is the same two generations the"
+    },
+    {
+      "id": "seg-0319",
+      "start": 2211.06,
+      "end": 2218.67,
+      "duration": 7.61,
+      "text": "probabilities are strictly equal but even\nbefore you do the math, your reasoning flows"
+    },
+    {
+      "id": "seg-0320",
+      "start": 2218.67,
+      "end": 2225.93,
+      "duration": 7.26,
+      "text": "along causal lines. Your thinking flows along\ncausal lines. This happens intuitively. One"
+    },
+    {
+      "id": "seg-0321",
+      "start": 2225.93,
+      "end": 2233.71,
+      "duration": 7.78,
+      "text": "of these feels okay. It feels more coherent\nand the coherence that we experience can be"
+    },
+    {
+      "id": "seg-0322",
+      "start": 2233.71,
+      "end": 2239.87,
+      "duration": 6.16,
+      "text": "turned into a judgment of probability. That\nis, the confidence that we experience is a"
+    },
+    {
+      "id": "seg-0323",
+      "start": 2239.87,
+      "end": 2254.09,
+      "duration": 14.22,
+      "text": "judgment of probability. Now, I'm going to\nskip the other example. And I said earlier"
+    },
+    {
+      "id": "seg-0324",
+      "start": 2254.09,
+      "end": 2262.23,
+      "duration": 8.14,
+      "text": "that people have intuitions that are not necessarily\ntrue. And that people are confident in judgments"
+    },
+    {
+      "id": "seg-0325",
+      "start": 2262.23,
+      "end": 2270.9,
+      "duration": 8.67,
+      "text": "that are not necessarily true. And I would\nlike to sort of present a tentative theory"
+    },
+    {
+      "id": "seg-0326",
+      "start": 2270.9,
+      "end": 2278.78,
+      "duration": 7.88,
+      "text": "about how that happened. And the general idea\nis very straightforward. When we're asked"
+    },
+    {
+      "id": "seg-0327",
+      "start": 2278.78,
+      "end": 2286.7,
+      "duration": 7.92,
+      "text": "a question that we cannot answer, typically\nSystem 1 is going to come up with the answer"
+    },
+    {
+      "id": "seg-0328",
+      "start": 2286.7,
+      "end": 2292.31,
+      "duration": 5.61,
+      "text": "to a related question that is easier. And\nit's going to use that answer to the wrong"
+    },
+    {
+      "id": "seg-0329",
+      "start": 2292.31,
+      "end": 2299.87,
+      "duration": 7.56,
+      "text": "question, the question that hasn't been asked\nin place of the question that was asked. We"
+    },
+    {
+      "id": "seg-0330",
+      "start": 2299.87,
+      "end": 2305.89,
+      "duration": 6.02,
+      "text": "call that a mechanism of substitution: substituting\nan easier question for a hard one. It happens"
+    },
+    {
+      "id": "seg-0331",
+      "start": 2305.89,
+      "end": 2311.62,
+      "duration": 5.73,
+      "text": "automatically. People are not aware that it\nhappens and it is a source of many intuitions"
+    },
+    {
+      "id": "seg-0332",
+      "start": 2311.62,
+      "end": 2317.33,
+      "duration": 5.71,
+      "text": "that don't come from expertise and they are\nmuch less likely to be correct than the intuitions"
+    },
+    {
+      "id": "seg-0333",
+      "start": 2317.33,
+      "end": 2323.57,
+      "duration": 6.24,
+      "text": "that do come from expertise but they come\nwith equal confidence just about. So there"
+    },
+    {
+      "id": "seg-0334",
+      "start": 2323.57,
+      "end": 2328.18,
+      "duration": 4.61,
+      "text": "are several mechanisms that take part in this\nsubstitution thing and I'd like to introduce"
+    },
+    {
+      "id": "seg-0335",
+      "start": 2328.18,
+      "end": 2335.8,
+      "duration": 7.62,
+      "text": "them. One of them which I call the mental\nshotgun is that when you are instructed to"
+    },
+    {
+      "id": "seg-0336",
+      "start": 2335.8,
+      "end": 2341.47,
+      "duration": 5.67,
+      "text": "perform an operation, you typically perform\nother operations as well that are related"
+    },
+    {
+      "id": "seg-0337",
+      "start": 2341.47,
+      "end": 2348.23,
+      "duration": 6.76,
+      "text": "to it associatively, are related to the target\noperation, but they are different. My favorite"
+    },
+    {
+      "id": "seg-0338",
+      "start": 2348.23,
+      "end": 2354.52,
+      "duration": 6.29,
+      "text": "example is, I'll say words and you are to\njudge as quickly as possible whether the words"
+    },
+    {
+      "id": "seg-0339",
+      "start": 2354.52,
+      "end": 2360.56,
+      "duration": 6.04,
+      "text": "rhyme or not. And the first pair of words\nis vote note. That's easy. The second pair"
+    },
+    {
+      "id": "seg-0340",
+      "start": 2360.56,
+      "end": 2368.44,
+      "duration": 7.88,
+      "text": "of questions is vote goat. And vote goat is\nsubstantially harder than vote no. Why? Although"
+    },
+    {
+      "id": "seg-0341",
+      "start": 2368.44,
+      "end": 2376.19,
+      "duration": 7.75,
+      "text": "nobody else asked you to, you spelled. And\nvote goat, there is a mismatch in spelling."
+    },
+    {
+      "id": "seg-0342",
+      "start": 2376.19,
+      "end": 2381.93,
+      "duration": 5.74,
+      "text": "Although they rhyme at least as I pronounce\nthem just as well as vote note, you have a"
+    },
+    {
+      "id": "seg-0343",
+      "start": 2381.93,
+      "end": 2389.04,
+      "duration": 7.11,
+      "text": "conflict and the conflict slows you down.\nSo typically, we compute more than we intend"
+    },
+    {
+      "id": "seg-0344",
+      "start": 2389.04,
+      "end": 2402.23,
+      "duration": 13.19,
+      "text": "to compute. And we can and that allows for\nsubstitutions to take place. So let me give"
+    },
+    {
+      "id": "seg-0345",
+      "start": 2402.23,
+      "end": 2410.23,
+      "duration": 8,
+      "text": "you an example of the substitution here. The\nquestion here would be, \"Which of the three"
+    },
+    {
+      "id": "seg-0346",
+      "start": 2410.23,
+      "end": 2423.1,
+      "duration": 12.87,
+      "text": "figures is larger on the screen?\" And the\nanswer is, \"they're equal.\" All three figures"
+    },
+    {
+      "id": "seg-0347",
+      "start": 2423.1,
+      "end": 2430.12,
+      "duration": 7.02,
+      "text": "on the screen are of equal size. But it's\na very powerful illusion. We see the figure"
+    },
+    {
+      "id": "seg-0348",
+      "start": 2430.12,
+      "end": 2436.64,
+      "duration": 6.52,
+      "text": "on the right as larger than the figure out\nleft. And we see it because we can't help"
+    },
+    {
+      "id": "seg-0349",
+      "start": 2436.64,
+      "end": 2443.02,
+      "duration": 6.38,
+      "text": "it. Although you were told to think of it\nas a two-dimensional object, you compute the"
+    },
+    {
+      "id": "seg-0350",
+      "start": 2443.02,
+      "end": 2447.85,
+      "duration": 4.83,
+      "text": "three-dimensional solution in which the object\non the right is in fact larger than the object"
+    },
+    {
+      "id": "seg-0351",
+      "start": 2447.85,
+      "end": 2455,
+      "duration": 7.15,
+      "text": "on the left and that is what you see. There\nare many other examples of this general process."
+    },
+    {
+      "id": "seg-0352",
+      "start": 2455,
+      "end": 2464.36,
+      "duration": 9.36,
+      "text": "Another one I like is called the dating heuristic.\nStudents are asked in a survey they're asked"
+    },
+    {
+      "id": "seg-0353",
+      "start": 2464.36,
+      "end": 2468.61,
+      "duration": 4.25,
+      "text": "a couple of questions. How happy are you and\nthe other is how many dates did you have last"
+    },
+    {
+      "id": "seg-0354",
+      "start": 2468.61,
+      "end": 2476.48,
+      "duration": 7.87,
+      "text": "month? And if you ask the questions in that\norder, the correlation is essentially zero."
+    },
+    {
+      "id": "seg-0355",
+      "start": 2476.48,
+      "end": 2482.44,
+      "duration": 5.96,
+      "text": "Turns out there are many things in life that\ndetermine happiness and dating is not particularly"
+    },
+    {
+      "id": "seg-0356",
+      "start": 2482.44,
+      "end": 2487.29,
+      "duration": 4.85,
+      "text": "important. You invert the order. So you ask\npeople, \"How many dates did you have last"
+    },
+    {
+      "id": "seg-0357",
+      "start": 2487.29,
+      "end": 2492.92,
+      "duration": 5.63,
+      "text": "month and how happy are you with your life\nas a whole?\" Correlation is .66."
+    },
+    {
+      "id": "seg-0358",
+      "start": 2492.92,
+      "end": 2498.63,
+      "duration": 5.71,
+      "text": "[laughter]\nWhat has happened and this is both a heuristic"
+    },
+    {
+      "id": "seg-0359",
+      "start": 2498.63,
+      "end": 2505.52,
+      "duration": 6.89,
+      "text": "and example what I call a focus and an illusion.\nThat you have an emotional reaction to the"
+    },
+    {
+      "id": "seg-0360",
+      "start": 2505.52,
+      "end": 2510.48,
+      "duration": 4.96,
+      "text": "student has an emotional reaction to the question\nabout the number of dates. That emotional"
+    },
+    {
+      "id": "seg-0361",
+      "start": 2510.48,
+      "end": 2515.93,
+      "duration": 5.45,
+      "text": "reaction is sitting there. Then you're asked\nthe related question about happiness and without"
+    },
+    {
+      "id": "seg-0362",
+      "start": 2515.93,
+      "end": 2521.02,
+      "duration": 5.09,
+      "text": "knowing that you are doing this, you substitute\none for the other. And you can do it for many"
+    },
+    {
+      "id": "seg-0363",
+      "start": 2521.02,
+      "end": 2527.58,
+      "duration": 6.56,
+      "text": "questions. Now, it's not that people are confused\nwhat happiness is. They know happiness is"
+    },
+    {
+      "id": "seg-0364",
+      "start": 2527.58,
+      "end": 2533.22,
+      "duration": 5.64,
+      "text": "not satisfaction with the number of dates.\nIt's just that this is the answer that comes"
+    },
+    {
+      "id": "seg-0365",
+      "start": 2533.22,
+      "end": 2540.83,
+      "duration": 7.61,
+      "text": "to mind to the happiness question. There has\nbeen substitution and you are not aware of"
+    },
+    {
+      "id": "seg-0366",
+      "start": 2540.83,
+      "end": 2549.35,
+      "duration": 8.52,
+      "text": "it. Now, there is a process that is essential\nto this and this is another strange ability"
+    },
+    {
+      "id": "seg-0367",
+      "start": 2549.35,
+      "end": 2558.04,
+      "duration": 8.69,
+      "text": "of System 1. We can map intensities across\ndifferent dimensions. So I'll give you my"
+    },
+    {
+      "id": "seg-0368",
+      "start": 2558.04,
+      "end": 2564.73,
+      "duration": 6.69,
+      "text": "standard example for this. It's about Julie\nwho is a graduating senior and she read fluently"
+    },
+    {
+      "id": "seg-0369",
+      "start": 2564.73,
+      "end": 2573.33,
+      "duration": 8.6,
+      "text": "when she was age 4 and the question is what\nis her GPA? And the odd thing is that you"
+    },
+    {
+      "id": "seg-0370",
+      "start": 2573.33,
+      "end": 2577.81,
+      "duration": 4.48,
+      "text": "know what her GPA is pretty much. At least\nyou have an idea. I mean, it's clearly about"
+    },
+    {
+      "id": "seg-0371",
+      "start": 2577.81,
+      "end": 2585.42,
+      "duration": 7.61,
+      "text": "3.2. It's clearly less than 4 about 3.7 maybe\nwhich is ridiculous of course. But how do"
+    },
+    {
+      "id": "seg-0372",
+      "start": 2585.42,
+      "end": 2594.18,
+      "duration": 8.76,
+      "text": "people get to 3.7 or somewhere like that?\nWell, here is how it goes. She read fluently"
+    },
+    {
+      "id": "seg-0373",
+      "start": 2594.18,
+      "end": 2603.27,
+      "duration": 9.09,
+      "text": "at age 4. That gives us an impression of precocity.\nHow precocious was she as a reader? And that"
+    },
+    {
+      "id": "seg-0374",
+      "start": 2603.27,
+      "end": 2608.19,
+      "duration": 4.92,
+      "text": "people could express that in percentiles.\nWhat is the likelihood that you could meet"
+    },
+    {
+      "id": "seg-0375",
+      "start": 2608.19,
+      "end": 2612.94,
+      "duration": 4.75,
+      "text": "a child who would read faster than that? Then\nwhen you are asked a question about what is"
+    },
+    {
+      "id": "seg-0376",
+      "start": 2612.94,
+      "end": 2620.19,
+      "duration": 7.25,
+      "text": "her GPA? Without your knowing it, you are\nmatching the percentiles and you get the GPA"
+    },
+    {
+      "id": "seg-0377",
+      "start": 2620.19,
+      "end": 2626.55,
+      "duration": 6.36,
+      "text": "that is about as extreme in the distribution\nof GPA as reading at age 4 is in the distribution"
+    },
+    {
+      "id": "seg-0378",
+      "start": 2626.55,
+      "end": 2634.8,
+      "duration": 8.25,
+      "text": "of reading age. Completely unaware. Statistically,\ncompletely absurd. You should be much more"
+    },
+    {
+      "id": "seg-0379",
+      "start": 2634.8,
+      "end": 2642.31,
+      "duration": 7.51,
+      "text": "regressive. This is not the correct answer.\nBut this is a compelling subjective answer."
+    },
+    {
+      "id": "seg-0380",
+      "start": 2642.31,
+      "end": 2649.42,
+      "duration": 7.11,
+      "text": "This is one of the mechanisms that leads to\nintuitive errors this mechanism of substitution."
+    },
+    {
+      "id": "seg-0381",
+      "start": 2649.42,
+      "end": 2656.9,
+      "duration": 7.48,
+      "text": "And I'll give you one more example. International\ntravels, this is an experiment. The experiment"
+    },
+    {
+      "id": "seg-0382",
+      "start": 2656.9,
+      "end": 2662.95,
+      "duration": 6.05,
+      "text": "was run during a period when there were many\nterrorist incidents in Europe. So that's a"
+    },
+    {
+      "id": "seg-0383",
+      "start": 2662.95,
+      "end": 2667.26,
+      "duration": 4.31,
+      "text": "background. How much will you pay for insurance\nthat pays 100,000 dollars in case of death"
+    },
+    {
+      "id": "seg-0384",
+      "start": 2667.26,
+      "end": 2673.75,
+      "duration": 6.49,
+      "text": "for any reason? And how much would you pay\nfor insurance that pays 100,000 dollars in"
+    },
+    {
+      "id": "seg-0385",
+      "start": 2673.75,
+      "end": 2679.38,
+      "duration": 5.63,
+      "text": "case of a death in a terror incident? People\npay much more for the second than for the"
+    },
+    {
+      "id": "seg-0386",
+      "start": 2679.38,
+      "end": 2680.89,
+      "duration": 1.51,
+      "text": "first.\n[laughter]"
+    },
+    {
+      "id": "seg-0387",
+      "start": 2680.89,
+      "end": 2687.07,
+      "duration": 6.18,
+      "text": "And the reason that they do is that there\nis an immediate response which is how afraid"
+    },
+    {
+      "id": "seg-0388",
+      "start": 2687.07,
+      "end": 2693.66,
+      "duration": 6.59,
+      "text": "am I? And I am more afraid, most people are,\nI'm more afraid of the idea of dying in a"
+    },
+    {
+      "id": "seg-0389",
+      "start": 2693.66,
+      "end": 2699.43,
+      "duration": 5.77,
+      "text": "terrorist incident than they are afraid of\ndying. And that is the mapping that takes"
+    },
+    {
+      "id": "seg-0390",
+      "start": 2699.43,
+      "end": 2707.09,
+      "duration": 7.66,
+      "text": "place. Again, you know, it's that's the way\nit works. This is the associative machinery."
+    },
+    {
+      "id": "seg-0391",
+      "start": 2707.09,
+      "end": 2713.43,
+      "duration": 6.34,
+      "text": "And when beautiful thing about it it doesn't\nget stumped. It produces an answer to questions"
+    },
+    {
+      "id": "seg-0392",
+      "start": 2713.43,
+      "end": 2719.36,
+      "duration": 5.93,
+      "text": "that it doesn't know how to answer. But it\nproduces them by answering easier questions"
+    },
+    {
+      "id": "seg-0393",
+      "start": 2719.36,
+      "end": 2733.25,
+      "duration": 13.89,
+      "text": "and a lot of our mental life is conducted\nin just this way. So let me complete the circle"
+    },
+    {
+      "id": "seg-0394",
+      "start": 2733.25,
+      "end": 2743.03,
+      "duration": 9.78,
+      "text": "and talk a little bit about subjective confidence.\nSubjective confidence, which is closely related"
+    },
+    {
+      "id": "seg-0395",
+      "start": 2743.03,
+      "end": 2750.1,
+      "duration": 7.07,
+      "text": "to the probability of being correct, is actually\nnot a judgment at all. It is a feeling. It"
+    },
+    {
+      "id": "seg-0396",
+      "start": 2750.1,
+      "end": 2756.22,
+      "duration": 6.12,
+      "text": "is a feeling that people have. And I think\nwe know where the origin of that feeling is."
+    },
+    {
+      "id": "seg-0397",
+      "start": 2756.22,
+      "end": 2763.95,
+      "duration": 7.73,
+      "text": "And it is System 1 if you will assessing the\nfluency of its own processing; assessing the"
+    },
+    {
+      "id": "seg-0398",
+      "start": 2763.95,
+      "end": 2770.75,
+      "duration": 6.8,
+      "text": "coherence of the story it has created to deal\nwith the current situation. And if the story"
+    },
+    {
+      "id": "seg-0399",
+      "start": 2770.75,
+      "end": 2777.56,
+      "duration": 6.81,
+      "text": "is coherent, confidence is high. Now, this\nis disastrous in some ways, because you can"
+    },
+    {
+      "id": "seg-0400",
+      "start": 2777.56,
+      "end": 2783.42,
+      "duration": 5.86,
+      "text": "make a very coherent story out of very little\ninformation and out of information that is"
+    },
+    {
+      "id": "seg-0401",
+      "start": 2783.42,
+      "end": 2789.64,
+      "duration": 6.22,
+      "text": "in fact not reliable. The quality of the story\ndepends very little on the quality and quantity"
+    },
+    {
+      "id": "seg-0402",
+      "start": 2789.64,
+      "end": 2798.06,
+      "duration": 8.42,
+      "text": "of the information so people can be very confident\nwith very little reason. Confidence is therefore"
+    },
+    {
+      "id": "seg-0403",
+      "start": 2798.06,
+      "end": 2805.72,
+      "duration": 7.66,
+      "text": "not a good diagnostic for when you can trust\neither yourself or somebody else. And if you"
+    },
+    {
+      "id": "seg-0404",
+      "start": 2805.72,
+      "end": 2810.55,
+      "duration": 4.83,
+      "text": "are to evaluate whether you can trust somebody\nwho has a lot of confidence, that's not the"
+    },
+    {
+      "id": "seg-0405",
+      "start": 2810.55,
+      "end": 2817.9,
+      "duration": 7.35,
+      "text": "way to do it. The way to do it as I'm saying\nearlier is to ask what environment have they"
+    },
+    {
+      "id": "seg-0406",
+      "start": 2817.9,
+      "end": 2823.33,
+      "duration": 5.43,
+      "text": "been in? And have they had an opportunity\nto learn its regularities? Subjective confidence"
+    },
+    {
+      "id": "seg-0407",
+      "start": 2823.33,
+      "end": 2835.09,
+      "duration": 11.76,
+      "text": "is not a good indicator. So that's, you know,\nthe story I could tell in about 45 minutes"
+    },
+    {
+      "id": "seg-0408",
+      "start": 2835.09,
+      "end": 2841.89,
+      "duration": 6.8,
+      "text": "about the two systems. So let me remind you\nthey don't exist. But I think you should feel"
+    },
+    {
+      "id": "seg-0409",
+      "start": 2841.89,
+      "end": 2848.46,
+      "duration": 6.57,
+      "text": "free to think in those terms, because what\nyou may be beginning to do is, you may be"
+    },
+    {
+      "id": "seg-0410",
+      "start": 2848.46,
+      "end": 2854.82,
+      "duration": 6.36,
+      "text": "beginning to have an idea of the personality\nof System 1 and System 2. Now this is ridiculous,"
+    },
+    {
+      "id": "seg-0411",
+      "start": 2854.82,
+      "end": 2861.15,
+      "duration": 6.33,
+      "text": "but having an idea of those personalities\nwill actually enable you to think better about"
+    },
+    {
+      "id": "seg-0412",
+      "start": 2861.15,
+      "end": 2868.09,
+      "duration": 6.94,
+      "text": "psychological events than if you were just\nhad a long list of unrelated phenomena. So"
+    },
+    {
+      "id": "seg-0413",
+      "start": 2868.09,
+      "end": 2873.12,
+      "duration": 5.03,
+      "text": "those ideas, those personalities, have a certain\ncoherence. And, you know, they're worth something"
+    },
+    {
+      "id": "seg-0414",
+      "start": 2873.12,
+      "end": 2885.33,
+      "duration": 12.21,
+      "text": "in the coin of being able to make judgments.\nOkay. I think we should open for questions."
+    },
+    {
+      "id": "seg-0415",
+      "start": 2885.33,
+      "end": 2886.33,
+      "duration": 1,
+      "text": "So."
+    },
+    {
+      "id": "seg-0416",
+      "start": 2886.33,
+      "end": 2887.33,
+      "duration": 1,
+      "text": "[Applause]."
+    },
+    {
+      "id": "seg-0417",
+      "start": 2887.33,
+      "end": 2902.26,
+      "duration": 14.93,
+      "text": ">> John: We have the mic up there and I also\nhave hand-held mics if somebody has questions."
+    },
+    {
+      "id": "seg-0418",
+      "start": 2902.26,
+      "end": 2907.5,
+      "duration": 5.24,
+      "text": "Somebody's got to ask the first question."
+    },
+    {
+      "id": "seg-0419",
+      "start": 2907.5,
+      "end": 2915.2,
+      "duration": 7.7,
+      "text": ">> Male # 1: Hey. How fixed or plastic are\nthe System 1 processes? And are there thing"
+    },
+    {
+      "id": "seg-0420",
+      "start": 2915.2,
+      "end": 2920.03,
+      "duration": 4.83,
+      "text": "like mindfulness or emotional regulation that\nhave any effect?"
+    },
+    {
+      "id": "seg-0421",
+      "start": 2920.03,
+      "end": 2928.7,
+      "duration": 8.67,
+      "text": ">>Kahneman: As I have described it, System\n1 can be updated in terms of content very"
+    },
+    {
+      "id": "seg-0422",
+      "start": 2928.7,
+      "end": 2934.71,
+      "duration": 6.01,
+      "text": "regularly. So you can learn in one trial what\nis normal and what is not normal. What is"
+    },
+    {
+      "id": "seg-0423",
+      "start": 2934.71,
+      "end": 2945.2,
+      "duration": 10.49,
+      "text": "very difficult to do is to get control over\nhow it works, over the rules of its operation."
+    },
+    {
+      "id": "seg-0424",
+      "start": 2945.2,
+      "end": 2954.01,
+      "duration": 8.81,
+      "text": "And so, I do not know of a lot of evidence\nthat people, that System 1 can change unless"
+    },
+    {
+      "id": "seg-0425",
+      "start": 2954.01,
+      "end": 2960.26,
+      "duration": 6.25,
+      "text": "you have a quiet skill which requires reinforced\npractice. What you can do and what people"
+    },
+    {
+      "id": "seg-0426",
+      "start": 2960.26,
+      "end": 2968.68,
+      "duration": 8.42,
+      "text": "clearly can do is you can educate your System\n2. And you can educate and you can learn to"
+    },
+    {
+      "id": "seg-0427",
+      "start": 2968.68,
+      "end": 2977.21,
+      "duration": 8.53,
+      "text": "recognize situations in which System 2 takes\nover and takes control of the reaction thereby"
+    },
+    {
+      "id": "seg-0428",
+      "start": 2977.21,
+      "end": 2983.05,
+      "duration": 5.84,
+      "text": "avoid some mistakes. Can't be done too much.\nBut if I don't sound optimistic about training"
+    },
+    {
+      "id": "seg-0429",
+      "start": 2983.05,
+      "end": 2986.71,
+      "duration": 3.66,
+      "text": "System 1, it's because I'm not."
+    },
+    {
+      "id": "seg-0430",
+      "start": 2986.71,
+      "end": 2993.66,
+      "duration": 6.95,
+      "text": ">> Male #2: Another question about training\nSystem 1. You talked about reinforcement learning"
+    },
+    {
+      "id": "seg-0431",
+      "start": 2993.66,
+      "end": 3000,
+      "duration": 6.34,
+      "text": "and the time constants and the immediacy in\nbuilding expertise, but many of the practices"
+    },
+    {
+      "id": "seg-0432",
+      "start": 3000,
+      "end": 3005.73,
+      "duration": 5.73,
+      "text": "we have around building software development,\nthe time constants are somewhat longer and"
+    },
+    {
+      "id": "seg-0433",
+      "start": 3005.73,
+      "end": 3012.41,
+      "duration": 6.68,
+      "text": "in particular you gave a counterexample which\nwas your Australia/UK visit and the fact that"
+    },
+    {
+      "id": "seg-0434",
+      "start": 3012.41,
+      "end": 3021.29,
+      "duration": 8.88,
+      "text": "a single incident with John predisposed you\nto that association. And so, I wonder if there"
+    },
+    {
+      "id": "seg-0435",
+      "start": 3021.29,
+      "end": 3028.4,
+      "duration": 7.11,
+      "text": "has there been any testing to see what time\nconstants really play a role here?"
+    },
+    {
+      "id": "seg-0436",
+      "start": 3028.4,
+      "end": 3033.24,
+      "duration": 4.84,
+      "text": ">> Kahneman: No. In terms of updating and\nlearning associations, this is something we"
+    },
+    {
+      "id": "seg-0437",
+      "start": 3033.24,
+      "end": 3040.17,
+      "duration": 6.93,
+      "text": "can learn quite quickly. You can be taught\nto be afraid of something without anything"
+    },
+    {
+      "id": "seg-0438",
+      "start": 3040.17,
+      "end": 3049.75,
+      "duration": 9.58,
+      "text": "else happening. And so, in that sense, System\n1 associative memory can be updated. And you"
+    },
+    {
+      "id": "seg-0439",
+      "start": 3049.75,
+      "end": 3056.76,
+      "duration": 7.01,
+      "text": "can now be developing software expertise that\nis a somewhat different story and it's more"
+    },
+    {
+      "id": "seg-0440",
+      "start": 3056.76,
+      "end": 3064.86,
+      "duration": 8.1,
+      "text": "like learning how to be a chess master. And\nthat takes a lot of experience. So that you"
+    },
+    {
+      "id": "seg-0441",
+      "start": 3064.86,
+      "end": 3071.25,
+      "duration": 6.39,
+      "text": "and a lot of reinforcement and it had better\nbe effective reinforcement. Now, in the software"
+    },
+    {
+      "id": "seg-0442",
+      "start": 3071.25,
+      "end": 3077.03,
+      "duration": 5.78,
+      "text": "thing, the time is to some extent not a big\nproblem. Because ultimately you are going"
+    },
+    {
+      "id": "seg-0443",
+      "start": 3077.03,
+      "end": 3082.72,
+      "duration": 5.69,
+      "text": "to see it all together: the error you made\nand the correct solutions. So time is not"
+    },
+    {
+      "id": "seg-0444",
+      "start": 3082.72,
+      "end": 3092.41,
+      "duration": 9.69,
+      "text": "major factor. In learning, you know, how to\nnot steer a tanker, that's reinforcement is"
+    },
+    {
+      "id": "seg-0445",
+      "start": 3092.41,
+      "end": 3099.59,
+      "duration": 7.18,
+      "text": "very slow. And it's a lot harder to learn\nto do that than it is to learn to steer a"
+    },
+    {
+      "id": "seg-0446",
+      "start": 3099.59,
+      "end": 3100.59,
+      "duration": 1,
+      "text": "smaller ship."
+    },
+    {
+      "id": "seg-0447",
+      "start": 3100.59,
+      "end": 3104.96,
+      "duration": 4.37,
+      "text": ">> Male #3: So this is a pretty broad question\nso please take this whichever direction you"
+    },
+    {
+      "id": "seg-0448",
+      "start": 3104.96,
+      "end": 3109.86,
+      "duration": 4.9,
+      "text": "like. But I was just wondering how these systems\ncome into play and how you see it in media"
+    },
+    {
+      "id": "seg-0449",
+      "start": 3109.86,
+      "end": 3116.03,
+      "duration": 6.17,
+      "text": "and advertising and maybe I was thinking of\nhow it's changed over time."
+    },
+    {
+      "id": "seg-0450",
+      "start": 3116.03,
+      "end": 3122.66,
+      "duration": 6.63,
+      "text": ">> Kahneman: Well, it's very clear that advertising\nis here to address System 1. It doesn't convey"
+    },
+    {
+      "id": "seg-0451",
+      "start": 3122.66,
+      "end": 3128.76,
+      "duration": 6.1,
+      "text": "information for judgments. It moves your emotions\nand it creates associations. That's what it"
+    },
+    {
+      "id": "seg-0452",
+      "start": 3128.76,
+      "end": 3138.73,
+      "duration": 9.97,
+      "text": "is intended to do and it's pretty effective.\nSo, a lot of politics is addressed to System"
+    },
+    {
+      "id": "seg-0453",
+      "start": 3138.73,
+      "end": 3146.71,
+      "duration": 7.98,
+      "text": "1, a lot of political messaging. The influences\nof System 1 activities and you know which"
+    },
+    {
+      "id": "seg-0454",
+      "start": 3146.71,
+      "end": 3153,
+      "duration": 6.29,
+      "text": "are really important and we should be thinking\nabout. It's pretty frightening. One of my"
+    },
+    {
+      "id": "seg-0455",
+      "start": 3153,
+      "end": 3158.72,
+      "duration": 5.72,
+      "text": "colleagues at Princeton, my younger colleagues\nat Princeton, has done studies on the effects"
+    },
+    {
+      "id": "seg-0456",
+      "start": 3158.72,
+      "end": 3169.01,
+      "duration": 10.29,
+      "text": "of facial characteristics on political preferences.\nAnd it's utterly amazing. You take 538 pairs"
+    },
+    {
+      "id": "seg-0457",
+      "start": 3169.01,
+      "end": 3176.59,
+      "duration": 7.58,
+      "text": "of pictures of the two contestants for each\nCongressional race and you show those pairs"
+    },
+    {
+      "id": "seg-0458",
+      "start": 3176.59,
+      "end": 3181.76,
+      "duration": 5.17,
+      "text": "of pictures to Princeton students for 1/10th\nof a second and you ask, \"Which looks more"
+    },
+    {
+      "id": "seg-0459",
+      "start": 3181.76,
+      "end": 3190.37,
+      "duration": 8.61,
+      "text": "competent?\" That predicts 70% of elections.\nSo the impact of System 1 on the decisions"
+    },
+    {
+      "id": "seg-0460",
+      "start": 3190.37,
+      "end": 3195.64,
+      "duration": 5.27,
+      "text": "we make for example, how much to pay in an\nhonesty box, that is something that we're"
+    },
+    {
+      "id": "seg-0461",
+      "start": 3195.64,
+      "end": 3200.19,
+      "duration": 4.55,
+      "text": "really very rarely aware of and it's much\nmore than we think."
+    },
+    {
+      "id": "seg-0462",
+      "start": 3200.19,
+      "end": 3206.94,
+      "duration": 6.75,
+      "text": ">> Male #4: So in, although that you say System\n1 and System 2 don't show up as specific structures,"
+    },
+    {
+      "id": "seg-0463",
+      "start": 3206.94,
+      "end": 3212.95,
+      "duration": 6.01,
+      "text": "have there been functional MRI, diffusion-spectral\nimaging, diffusion-tensoral imaging studies"
+    },
+    {
+      "id": "seg-0464",
+      "start": 3212.95,
+      "end": 3220.34,
+      "duration": 7.39,
+      "text": "that highlight whether System 1 is more primal\nbrain initial activation and System 2 is more"
+    },
+    {
+      "id": "seg-0465",
+      "start": 3220.34,
+      "end": 3221.34,
+      "duration": 1,
+      "text": "neocortex?"
+    },
+    {
+      "id": "seg-0466",
+      "start": 3221.34,
+      "end": 3233.48,
+      "duration": 12.14,
+      "text": ">>Kahneman: Well, you know, System 1 is extremely\nsophisticated. So it's not, that is in part"
+    },
+    {
+      "id": "seg-0467",
+      "start": 3233.48,
+      "end": 3239.94,
+      "duration": 6.46,
+      "text": "why I don't believe there is any simple representation\nin the brain of those two systems because"
+    },
+    {
+      "id": "seg-0468",
+      "start": 3239.94,
+      "end": 3246.72,
+      "duration": 6.78,
+      "text": "what I've called System 1 operation by their\ncharacteristics include both innate responses"
+    },
+    {
+      "id": "seg-0469",
+      "start": 3246.72,
+      "end": 3254.64,
+      "duration": 7.92,
+      "text": "and highly skilled responses. And the whole\nthe representation of world knowledge is in"
+    },
+    {
+      "id": "seg-0470",
+      "start": 3254.64,
+      "end": 3262.01,
+      "duration": 7.37,
+      "text": "System 1. So it's hard to classify one as\nprimitive. And I should add that System 2,"
+    },
+    {
+      "id": "seg-0471",
+      "start": 3262.01,
+      "end": 3269.26,
+      "duration": 7.25,
+      "text": "the reasoning system as it were is not necessarily\nrational. I mean, System 2 knows what it knows."
+    },
+    {
+      "id": "seg-0472",
+      "start": 3269.26,
+      "end": 3276.89,
+      "duration": 7.63,
+      "text": "It knows what we know and we don't know a\nlot. So it's not that System 2 is infallible"
+    },
+    {
+      "id": "seg-0473",
+      "start": 3276.89,
+      "end": 3282,
+      "duration": 5.11,
+      "text": "and that all the mistakes come from System\n1. We make very significant mistakes when"
+    },
+    {
+      "id": "seg-0474",
+      "start": 3282,
+      "end": 3284.86,
+      "duration": 2.86,
+      "text": "we think very seriously. Yes."
+    },
+    {
+      "id": "seg-0475",
+      "start": 3284.86,
+      "end": 3291.68,
+      "duration": 6.82,
+      "text": ">> Male #3: So you mention that experts when\nmaking long-term forecasts and they trust"
+    },
+    {
+      "id": "seg-0476",
+      "start": 3291.68,
+      "end": 3296.78,
+      "duration": 5.1,
+      "text": "their intuition they're often wrong. But there\nare still a lot of people who listen to them."
+    },
+    {
+      "id": "seg-0477",
+      "start": 3296.78,
+      "end": 3302.74,
+      "duration": 5.96,
+      "text": "So, is it bad for the society in general that\nwe listen to experts who may be just as wrong"
+    },
+    {
+      "id": "seg-0478",
+      "start": 3302.74,
+      "end": 3308.56,
+      "duration": 5.82,
+      "text": "as we are and should we be worried? Should\nwe try to do something?"
+    },
+    {
+      "id": "seg-0479",
+      "start": 3308.56,
+      "end": 3315.8,
+      "duration": 7.24,
+      "text": ">>Kahneman: I think there is a very good reason\nfor the demand for experts. I was referring"
+    },
+    {
+      "id": "seg-0480",
+      "start": 3315.8,
+      "end": 3321.64,
+      "duration": 5.84,
+      "text": "to a particular book that you may want to\nread or you may want to look for the New Yorker"
+    },
+    {
+      "id": "seg-0481",
+      "start": 3321.64,
+      "end": 3328.07,
+      "duration": 6.43,
+      "text": "review of that book. It's a book by Phil Tetlock\non political judgment where he studied forecasts"
+    },
+    {
+      "id": "seg-0482",
+      "start": 3328.07,
+      "end": 3334.69,
+      "duration": 6.62,
+      "text": "in the time range of 10, 15 years of political\nforecasts. And one of the interesting observations"
+    },
+    {
+      "id": "seg-0483",
+      "start": 3334.69,
+      "end": 3339.92,
+      "duration": 5.23,
+      "text": "is who are the people we like to listen to\nas pundits? And there are people with very"
+    },
+    {
+      "id": "seg-0484",
+      "start": 3339.92,
+      "end": 3345.26,
+      "duration": 5.34,
+      "text": "high confidence who think they understand\nthe world. Now, they actually are worse than"
+    },
+    {
+      "id": "seg-0485",
+      "start": 3345.26,
+      "end": 3351.19,
+      "duration": 5.93,
+      "text": "chance. I mean, they are worse than people\nwho are more hesitant. But we want them. We"
+    },
+    {
+      "id": "seg-0486",
+      "start": 3351.19,
+      "end": 3358.15,
+      "duration": 6.96,
+      "text": "need them. And so, there is a real demand\nfor overconfidence. [laughter]"
+    },
+    {
+      "id": "seg-0487",
+      "start": 3358.15,
+      "end": 3365.28,
+      "duration": 7.13,
+      "text": ">> Male #5: So as you were going through all\nthe slides of the various illusions, by the"
+    },
+    {
+      "id": "seg-0488",
+      "start": 3365.28,
+      "end": 3370.3,
+      "duration": 5.02,
+      "text": "time you came to the three figures on the\nscreen, I guess I was expecting there was"
+    },
+    {
+      "id": "seg-0489",
+      "start": 3370.3,
+      "end": 3376.31,
+      "duration": 6.01,
+      "text": "something. So even though the lot on the right\nlooked bigger, I looked again okay and they're"
+    },
+    {
+      "id": "seg-0490",
+      "start": 3376.31,
+      "end": 3378.72,
+      "duration": 2.41,
+      "text": "the same. So was that System 1 or System 2."
+    },
+    {
+      "id": "seg-0491",
+      "start": 3378.72,
+      "end": 3385.03,
+      "duration": 6.31,
+      "text": ">> Kahneman: That is clearly System 2. And\nthat is the way we can learn to overcome illusions"
+    },
+    {
+      "id": "seg-0492",
+      "start": 3385.03,
+      "end": 3394.1,
+      "duration": 9.07,
+      "text": "both visual and cognitive. You still see it\nas one larger than the other, but you know"
+    },
+    {
+      "id": "seg-0493",
+      "start": 3394.1,
+      "end": 3400.39,
+      "duration": 6.29,
+      "text": "that when you see a display like that, you\nshouldn't trust your eyes. And to a similar"
+    },
+    {
+      "id": "seg-0494",
+      "start": 3400.39,
+      "end": 3406.48,
+      "duration": 6.09,
+      "text": "extent you can recognize that you're in a\nsituation where somebody is having too much"
+    },
+    {
+      "id": "seg-0495",
+      "start": 3406.48,
+      "end": 3414.41,
+      "duration": 7.93,
+      "text": "effect on you because she's very eloquent.\nBut you know the content may not be there."
+    },
+    {
+      "id": "seg-0496",
+      "start": 3414.41,
+      "end": 3416.8,
+      "duration": 2.39,
+      "text": "And so, you force yourself to be skeptical."
+    },
+    {
+      "id": "seg-0497",
+      "start": 3416.8,
+      "end": 3422.48,
+      "duration": 5.68,
+      "text": ">>Male #5: Is there any research to that effect\nthat people would avail that advertising is"
+    },
+    {
+      "id": "seg-0498",
+      "start": 3422.48,
+      "end": 3426.43,
+      "duration": 3.95,
+      "text": "going to have an emotional effect on them?\nIs there any res- let me say that I'm aware"
+    },
+    {
+      "id": "seg-0499",
+      "start": 3426.43,
+      "end": 3431.52,
+      "duration": 5.09,
+      "text": "that advertising is supposed to have an emotional\neffect on me activate System 1, will I be"
+    },
+    {
+      "id": "seg-0500",
+      "start": 3431.52,
+      "end": 3434.61,
+      "duration": 3.09,
+      "text": "better suited to sort of ignore those things?"
+    },
+    {
+      "id": "seg-0501",
+      "start": 3434.61,
+      "end": 3439.97,
+      "duration": 5.36,
+      "text": ">>Kahneman: I mean you certainly are going\nto ignore it better than if you didn't know"
+    },
+    {
+      "id": "seg-0502",
+      "start": 3439.97,
+      "end": 3447.8,
+      "duration": 7.83,
+      "text": "it whether you're capable of ignoring it altogether,\nthat I'm much more skeptical about. The real"
+    },
+    {
+      "id": "seg-0503",
+      "start": 3447.8,
+      "end": 3453.97,
+      "duration": 6.17,
+      "text": "thing is not to expose yourself to it. Because\nonce you're exposed to it, it's going to affect"
+    },
+    {
+      "id": "seg-0504",
+      "start": 3453.97,
+      "end": 3463.18,
+      "duration": 9.21,
+      "text": "you. And you know, those effects are the cues\nin our world that we are not aware of can"
+    },
+    {
+      "id": "seg-0505",
+      "start": 3463.18,
+      "end": 3468.29,
+      "duration": 5.11,
+      "text": "be extremely powerful. There is a whole line\nof study, it's not exactly to your point,"
+    },
+    {
+      "id": "seg-0506",
+      "start": 3468.29,
+      "end": 3473.36,
+      "duration": 5.07,
+      "text": "but I must tell you that story. There is a\nwhole line of studies on what happens to people"
+    },
+    {
+      "id": "seg-0507",
+      "start": 3473.36,
+      "end": 3479.68,
+      "duration": 6.32,
+      "text": "when they're exposed to the idea of money.\nAnd for example, they perform one task and"
+    },
+    {
+      "id": "seg-0508",
+      "start": 3479.68,
+      "end": 3484.99,
+      "duration": 5.31,
+      "text": "there is a computer nearby and on the computer\nthere is a screensaver and the screensaver"
+    },
+    {
+      "id": "seg-0509",
+      "start": 3484.99,
+      "end": 3491.04,
+      "duration": 6.05,
+      "text": "are dollars floating in water. Dollar bills\nfloating in water. That makes you selfish."
+    },
+    {
+      "id": "seg-0510",
+      "start": 3491.04,
+      "end": 3497.77,
+      "duration": 6.73,
+      "text": "It makes you reluctant to ask for the help\nof others. It makes you put your chair further"
+    },
+    {
+      "id": "seg-0511",
+      "start": 3497.77,
+      "end": 3503.09,
+      "duration": 5.32,
+      "text": "away from the chairs of other people when\nyou have to set up an interview situation."
+    },
+    {
+      "id": "seg-0512",
+      "start": 3503.09,
+      "end": 3508.87,
+      "duration": 5.78,
+      "text": "It has effects on all sorts of behaviors that\npeople are completely unaware of. And the"
+    },
+    {
+      "id": "seg-0513",
+      "start": 3508.87,
+      "end": 3516.49,
+      "duration": 7.62,
+      "text": "links are symbolic. And you can be aware of\nthat. How can you resist it? We are exposed"
+    },
+    {
+      "id": "seg-0514",
+      "start": 3516.49,
+      "end": 3522.1,
+      "duration": 5.61,
+      "text": "to money and it's going to have some effect.\nNow, if you're designing an organization or"
+    },
+    {
+      "id": "seg-0515",
+      "start": 3522.1,
+      "end": 3527.28,
+      "duration": 5.18,
+      "text": "if you're designing an environment for people,\nyou can create an environment that will remind"
+    },
+    {
+      "id": "seg-0516",
+      "start": 3527.28,
+      "end": 3531.98,
+      "duration": 4.7,
+      "text": "people of money all the time or you can create\nan environment that will remind them of other"
+    },
+    {
+      "id": "seg-0517",
+      "start": 3531.98,
+      "end": 3536.62,
+      "duration": 4.64,
+      "text": "things and that will control their behavior\nto some extent."
+    },
+    {
+      "id": "seg-0518",
+      "start": 3536.62,
+      "end": 3541.91,
+      "duration": 5.29,
+      "text": ">> Male #2: Although possibly not one of the\nbig five in the personality trait categories"
+    },
+    {
+      "id": "seg-0519",
+      "start": 3541.91,
+      "end": 3548.18,
+      "duration": 6.27,
+      "text": "yet, have you developed any empirical testing\nthat ranks people on a scale of one-to-two"
+    },
+    {
+      "id": "seg-0520",
+      "start": 3548.18,
+      "end": 3552.5,
+      "duration": 4.32,
+      "text": "and shows where they fall in terms of default\nbehaviors."
+    },
+    {
+      "id": "seg-0521",
+      "start": 3552.5,
+      "end": 3560.73,
+      "duration": 8.23,
+      "text": ">> Kahneman: Well, there is a relevant scale\non the activity of System 2. And the bat and"
+    },
+    {
+      "id": "seg-0522",
+      "start": 3560.73,
+      "end": 3566.95,
+      "duration": 6.22,
+      "text": "ball question is actually a very, very good\nquestion. There are several examples of this."
+    },
+    {
+      "id": "seg-0523",
+      "start": 3566.95,
+      "end": 3573.13,
+      "duration": 6.18,
+      "text": "My former colleague Shane Frederick developed\nthat test. It's called the Cognitive Reflection"
+    },
+    {
+      "id": "seg-0524",
+      "start": 3573.13,
+      "end": 3580.6,
+      "duration": 7.47,
+      "text": "Test and the people who fail that item that\nis, who say ten cents they are different in"
+    },
+    {
+      "id": "seg-0525",
+      "start": 3580.6,
+      "end": 3585.71,
+      "duration": 5.11,
+      "text": "some interesting ways from the people who\nare better able to make it. And let me give"
+    },
+    {
+      "id": "seg-0526",
+      "start": 3585.71,
+      "end": 3592.29,
+      "duration": 6.58,
+      "text": "you an example. You ask them, you know, standard\nAmazon questions. So you ordered a gift for"
+    },
+    {
+      "id": "seg-0527",
+      "start": 3592.29,
+      "end": 3596.91,
+      "duration": 4.62,
+      "text": "yourself. How much will you pay extra to have\nit tomorrow rather than the second business"
+    },
+    {
+      "id": "seg-0528",
+      "start": 3596.91,
+      "end": 3602.1,
+      "duration": 5.19,
+      "text": "day? And the people who fail this item are\nwilling to pay more to get it tomorrow. So"
+    },
+    {
+      "id": "seg-0529",
+      "start": 3602.1,
+      "end": 3611.37,
+      "duration": 9.27,
+      "text": "there are connections. What there isn't and\nI'm very surprised there isn't, I don't know"
+    },
+    {
+      "id": "seg-0530",
+      "start": 3611.37,
+      "end": 3617.32,
+      "duration": 5.95,
+      "text": "there should be tests of intelligence that\nare tests of System 1. That are tests of the"
+    },
+    {
+      "id": "seg-0531",
+      "start": 3617.32,
+      "end": 3622.91,
+      "duration": 5.59,
+      "text": "richness and subtlety of the model of the\nworld that we have. All the intelligence tests"
+    },
+    {
+      "id": "seg-0532",
+      "start": 3622.91,
+      "end": 3628.61,
+      "duration": 5.7,
+      "text": "that we have are tests for System 2. They're\nreasoning tests. We don't have and I wish"
+    },
+    {
+      "id": "seg-0533",
+      "start": 3628.61,
+      "end": 3633.28,
+      "duration": 4.67,
+      "text": "somebody would develop it and I hope somebody\nwill but, in fact, we don't have it."
+    },
+    {
+      "id": "seg-0534",
+      "start": 3633.28,
+      "end": 3640.12,
+      "duration": 6.84,
+      "text": ">>Male #6: Hi. So this is sort of a 2-part\nquestion. So do you find that people who are"
+    },
+    {
+      "id": "seg-0535",
+      "start": 3640.12,
+      "end": 3647.23,
+      "duration": 7.11,
+      "text": "more System 1 or System 2 prone for immediate\njudgments are more likely to be that way long-term"
+    },
+    {
+      "id": "seg-0536",
+      "start": 3647.23,
+      "end": 3649.4,
+      "duration": 2.17,
+      "text": "like larger decisions?"
+    },
+    {
+      "id": "seg-0537",
+      "start": 3649.4,
+      "end": 3652.58,
+      "duration": 3.18,
+      "text": ">>Kahneman: I don't know enough about this."
+    },
+    {
+      "id": "seg-0538",
+      "start": 3652.58,
+      "end": 3653.58,
+      "duration": 1,
+      "text": ">>Male #6: Yeah."
+    },
+    {
+      "id": "seg-0539",
+      "start": 3653.58,
+      "end": 3659.96,
+      "duration": 6.38,
+      "text": ">>Kahneman: We do know that self-control and\nthe general activation of System 2 is an important"
+    },
+    {
+      "id": "seg-0540",
+      "start": 3659.96,
+      "end": 3666.07,
+      "duration": 6.11,
+      "text": "personality characteristic. And you know its\npresence in a rudimentary form at age four"
+    },
+    {
+      "id": "seg-0541",
+      "start": 3666.07,
+      "end": 3674.49,
+      "duration": 8.42,
+      "text": "and has implications. The ability the test\nis called The Marshmallow Test. You ask a"
+    },
+    {
+      "id": "seg-0542",
+      "start": 3674.49,
+      "end": 3680.96,
+      "duration": 6.47,
+      "text": "child you can have one marshmallow now or\nyou can have two if you wait 15 minutes. That"
+    },
+    {
+      "id": "seg-0543",
+      "start": 3680.96,
+      "end": 3687.55,
+      "duration": 6.59,
+      "text": "predicts what they will do 20 years later\nremarkably well so there are things that are"
+    },
+    {
+      "id": "seg-0544",
+      "start": 3687.55,
+      "end": 3688.55,
+      "duration": 1,
+      "text": "quite stable."
+    },
+    {
+      "id": "seg-0545",
+      "start": 3688.55,
+      "end": 3692.78,
+      "duration": 4.23,
+      "text": ">> Male #6: And the other part is that have\nyou encountered people who would say they"
+    },
+    {
+      "id": "seg-0546",
+      "start": 3692.78,
+      "end": 3697.36,
+      "duration": 4.58,
+      "text": "have to make a decision and they're aware\nthat their System 1 mind is telling them decision"
+    },
+    {
+      "id": "seg-0547",
+      "start": 3697.36,
+      "end": 3703.63,
+      "duration": 6.27,
+      "text": "A their System 2 mind is telling them decision\nB. What do people go with?"
+    },
+    {
+      "id": "seg-0548",
+      "start": 3703.63,
+      "end": 3706.68,
+      "duration": 3.05,
+      "text": ">>Kahneman: I don't know enough."
+    },
+    {
+      "id": "seg-0549",
+      "start": 3706.68,
+      "end": 3709.3,
+      "duration": 2.62,
+      "text": ">>Male #6: No?"
+    },
+    {
+      "id": "seg-0550",
+      "start": 3709.3,
+      "end": 3715.33,
+      "duration": 6.03,
+      "text": ">>Kahneman: No, I don't know enough. [pause]\nNo, I don't know enough. It would be so dependent"
+    },
+    {
+      "id": "seg-0551",
+      "start": 3715.33,
+      "end": 3725.46,
+      "duration": 10.13,
+      "text": "on circumstance whether you impose the System\n2 judgment. In many cases, really System 2"
+    },
+    {
+      "id": "seg-0552",
+      "start": 3725.46,
+      "end": 3731.74,
+      "duration": 6.28,
+      "text": "just endorses what System 1 subjects to. That's\nthe model you have. Sometimes you can overturn"
+    },
+    {
+      "id": "seg-0553",
+      "start": 3731.74,
+      "end": 3736.07,
+      "duration": 4.33,
+      "text": "it. It's hard work."
+    },
+    {
+      "id": "seg-0554",
+      "start": 3736.07,
+      "end": 3737.15,
+      "duration": 1.08,
+      "text": "[pause]"
+    },
+    {
+      "id": "seg-0555",
+      "start": 3737.15,
+      "end": 3739.31,
+      "duration": 2.16,
+      "text": "Thank you."
+    },
+    {
+      "id": "seg-0556",
+      "start": 3739.31,
+      "end": 3740.4,
+      "duration": 1.09,
+      "text": "[Applause]"
+    }
+  ]
+}

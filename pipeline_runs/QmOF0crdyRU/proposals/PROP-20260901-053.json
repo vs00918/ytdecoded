@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-053",
+  "created_at": "2026-09-01T15:11:31.267Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-063",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-721",
+      "start": 1965.8,
+      "end": 1968.8,
+      "quoted_text": "They were literally locked in frozen."
+    },
+    {
+      "entity_id": "CLM-722",
+      "start": 1968.8,
+      "end": 1971.6,
+      "quoted_text": "And sadly, this is irreversible."
+    },
+    {
+      "entity_id": "CLM-723",
+      "start": 1972.8,
+      "end": 1977.8,
+      "quoted_text": "because what MPTP does is it kills the dopaminergic neurons"
+    },
+    {
+      "entity_id": "CLM-724",
+      "start": 1978.2,
+      "end": 1980.9,
+      "quoted_text": "of the substantia nigra that nigrostriatal pathway"
+    },
+    {
+      "entity_id": "CLM-725",
+      "start": 1980.9,
+      "end": 1982.8,
+      "quoted_text": "that's involved in generating movement."
+    },
+    {
+      "entity_id": "CLM-726",
+      "start": 1982.8,
+      "end": 1985.2,
+      "quoted_text": "And it kills the dopaminergic neurons"
+    },
+    {
+      "entity_id": "CLM-727",
+      "start": 1985.2,
+      "end": 1988,
+      "quoted_text": "of the so-called mesocorticolimbic pathway."
+    },
+    {
+      "entity_id": "CLM-728",
+      "start": 1988,
+      "end": 1991,
+      "quoted_text": "I was in college when this whole MPTP thing happened."
+    },
+    {
+      "entity_id": "CLM-729",
+      "start": 1991,
+      "end": 1993.1,
+      "quoted_text": "And I remember hearing this story."
+    },
+    {
+      "entity_id": "CLM-730",
+      "start": 1993.1,
+      "end": 1995.4,
+      "quoted_text": "At the time, I had no understanding"
+    },
+    {
+      "entity_id": "CLM-731",
+      "start": 1995.4,
+      "end": 1998.4,
+      "quoted_text": "of what it is to have very high levels of dopamine"
+    },
+    {
+      "entity_id": "CLM-732",
+      "start": 1998.4,
+      "end": 2000.7,
+      "quoted_text": "or extremely depleted levels of dopamine."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: They were literally locked in frozen.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1965s-1968s]: \"They were literally locked in frozen.\"\n  - [1968s-1971s]: \"And sadly, this is irreversible.\"\n  - [1972s-1977s]: \"because what MPTP does is it kills the dopaminergic neurons\"\n  - [1978s-1980s]: \"of the substantia nigra that nigrostriatal pathway\"\n  - [1980s-1982s]: \"that's involved in generating movement.\"\n  - [1982s-1985s]: \"And it kills the dopaminergic neurons\"\n  - [1985s-1988s]: \"of the so-called mesocorticolimbic pathway.\"\n  - [1988s-1991s]: \"I was in college when this whole MPTP thing happened.\"\n  - [1991s-1993s]: \"And I remember hearing this story.\"\n  - [1993s-1995s]: \"At the time, I had no understanding\"\n  - [1995s-1998s]: \"of what it is to have very high levels of dopamine\"\n  - [1998s-2000s]: \"or extremely depleted levels of dopamine.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: They were literally locked in frozen.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1965s-1968s]: \"They were literally locked in frozen.\"\n+  - [1968s-1971s]: \"And sadly, this is irreversible.\"\n+  - [1972s-1977s]: \"because what MPTP does is it kills the dopaminergic neurons\"\n+  - [1978s-1980s]: \"of the substantia nigra that nigrostriatal pathway\"\n+  - [1980s-1982s]: \"that's involved in generating movement.\"\n+  - [1982s-1985s]: \"And it kills the dopaminergic neurons\"\n+  - [1985s-1988s]: \"of the so-called mesocorticolimbic pathway.\"\n+  - [1988s-1991s]: \"I was in college when this whole MPTP thing happened.\"\n+  - [1991s-1993s]: \"And I remember hearing this story.\"\n+  - [1993s-1995s]: \"At the time, I had no understanding\"\n+  - [1995s-1998s]: \"of what it is to have very high levels of dopamine\"\n+  - [1998s-2000s]: \"or extremely depleted levels of dopamine.\"\n"
+  }
+}

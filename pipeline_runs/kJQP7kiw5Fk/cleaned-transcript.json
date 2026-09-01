@@ -1,0 +1,1261 @@
+{
+  "video_id": "kJQP7kiw5Fk",
+  "cleaned_segments": [
+    {
+      "id": "seg-0001",
+      "start": 0.43,
+      "end": 27.53,
+      "duration": 27.1,
+      "text": "♪ ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0002",
+      "start": 27.57,
+      "end": 29.1,
+      "duration": 1.53,
+      "text": "♪ AAAAY ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0003",
+      "start": 29.63,
+      "end": 31,
+      "duration": 1.37,
+      "text": "♪ FONSI, ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0004",
+      "start": 31.3,
+      "end": 32.23,
+      "duration": 0.93,
+      "text": "♪ D.Y. ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0005",
+      "start": 32.67,
+      "end": 36.6,
+      "duration": 3.93,
+      "text": "♪ OHH OH NO OH NOOOO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0006",
+      "start": 36.63,
+      "end": 39.53,
+      "duration": 2.9,
+      "text": "♪ EYY EYY EH ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0007",
+      "start": 41.17,
+      "end": 45.54,
+      "duration": 4.37,
+      "text": "♪ SI... SABES QUE YA LLEVO UN RATO MIRÁNDOTE ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0008",
+      "start": 46.37,
+      "end": 49.57,
+      "duration": 3.2,
+      "text": "♪ TENGO QUE BAILAR CONTIGO HOY ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0009",
+      "start": 50.67,
+      "end": 52.04,
+      "duration": 1.37,
+      "text": "♪ D.Y. ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0010",
+      "start": 52.07,
+      "end": 57.17,
+      "duration": 5.1,
+      "text": "♪ VI QUE TU MIRADA YA ESTABA LLAMÁNDOME ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0011",
+      "start": 57.2,
+      "end": 60.63,
+      "duration": 3.43,
+      "text": "♪ MUESTRAME EL CAMINO QUE YO VOY ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0012",
+      "start": 61.63,
+      "end": 63.06,
+      "duration": 1.43,
+      "text": "♪ OHH ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0013",
+      "start": 63.1,
+      "end": 65.67,
+      "duration": 2.57,
+      "text": "♪ TU... TÚ ERES EL IMÁN Y YO SOY EL METAL ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0014",
+      "start": 65.7,
+      "end": 68.57,
+      "duration": 2.87,
+      "text": "♪ ME VOY ACERCANDO Y VOY ARMANDO EL PLAN ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0015",
+      "start": 68.6,
+      "end": 71.57,
+      "duration": 2.97,
+      "text": "♪ SOLO CON PENSARLO SE ACELERA EL PULSO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0016",
+      "start": 72.37,
+      "end": 73.37,
+      "duration": 1,
+      "text": "♪ OHH YEAH ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0017",
+      "start": 73.4,
+      "end": 74.6,
+      "duration": 1.2,
+      "text": "♪ YA... ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0018",
+      "start": 74.63,
+      "end": 76.6,
+      "duration": 1.97,
+      "text": "♪ YA ME ESTÁS GUSTANDO MÁS DE LO NORMAL ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0019",
+      "start": 76.63,
+      "end": 79.23,
+      "duration": 2.6,
+      "text": "♪ TODOS MIS SENTIDOS VAN PIDIENDO MÁS ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0020",
+      "start": 79.27,
+      "end": 82.64,
+      "duration": 3.37,
+      "text": "♪ ESTO HAY QUE TOMARLO SIN NINGÚN APURO... ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0021",
+      "start": 82.67,
+      "end": 85.37,
+      "duration": 2.7,
+      "text": "♪ DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0022",
+      "start": 85.4,
+      "end": 87.7,
+      "duration": 2.3,
+      "text": "♪ QUIERO RESPIRAR TU CUELLO DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0023",
+      "start": 87.73,
+      "end": 90.56,
+      "duration": 2.83,
+      "text": "♪ DEJA QUE TE DIGA COSAS AL OÍDO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0024",
+      "start": 90.6,
+      "end": 94.13,
+      "duration": 3.53,
+      "text": "♪ PARA QUE TE ACUERDES SI NO ESTÁS CONMIGO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0025",
+      "start": 94.17,
+      "end": 96.2,
+      "duration": 2.03,
+      "text": "♪ DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0026",
+      "start": 96.23,
+      "end": 98.56,
+      "duration": 2.33,
+      "text": "♪ QUIERO DESNUDARTE A BESOS, DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0027",
+      "start": 98.6,
+      "end": 101.3,
+      "duration": 2.7,
+      "text": "♪ FIRMAR LAS PAREDES DE TU LABERINTO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0028",
+      "start": 101.33,
+      "end": 104.13,
+      "duration": 2.8,
+      "text": "♪ Y HACER DE TU CUERPO TODO UN MANUSCRITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0029",
+      "start": 104.17,
+      "end": 106.24,
+      "duration": 2.07,
+      "text": "♪ (SUBE SUBE SUBE) (SUBE SUBE) ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0030",
+      "start": 106.27,
+      "end": 109.74,
+      "duration": 3.47,
+      "text": "♪ QUIERO VER BAILAR TU PELO QUIERO SER TU RITMO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0031",
+      "start": 109.77,
+      "end": 112.64,
+      "duration": 2.87,
+      "text": "♪ QUE LE ENSEÑES A MI BOCA ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0032",
+      "start": 112.67,
+      "end": 115.34,
+      "duration": 2.67,
+      "text": "♪ TUS LUGARES FAVORITOS ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0033",
+      "start": 115.37,
+      "end": 117.14,
+      "duration": 1.77,
+      "text": "♪ FAVORITO FAVORITO EY EEH ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0034",
+      "start": 117.17,
+      "end": 118.4,
+      "duration": 1.23,
+      "text": "♪ DÉJAME SOBREPASAR ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0035",
+      "start": 118.43,
+      "end": 120.63,
+      "duration": 2.2,
+      "text": "♪ TU ZONAS DE PELIGRO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0036",
+      "start": 120.67,
+      "end": 123.37,
+      "duration": 2.7,
+      "text": "♪ HASTA PROVOCAR TUS GRITOS ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0037",
+      "start": 123.4,
+      "end": 126.13,
+      "duration": 2.73,
+      "text": "♪ Y QUE OLVIDES TU APELLIDO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0038",
+      "start": 126.17,
+      "end": 128.34,
+      "duration": 2.17,
+      "text": "♪ SI TE PIDO UN BESO VEN DAMELO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0039",
+      "start": 128.37,
+      "end": 129.6,
+      "duration": 1.23,
+      "text": "♪ YO SE QUE ESTAS PENSANDOLO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0040",
+      "start": 129.63,
+      "end": 131.13,
+      "duration": 1.5,
+      "text": "♪ LLEVO TIEMPO INTENTANDOLO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0041",
+      "start": 131.17,
+      "end": 132.44,
+      "duration": 1.27,
+      "text": "♪ MAMI ESTO ES DANDO Y DANDOLO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0042",
+      "start": 132.47,
+      "end": 135.2,
+      "duration": 2.73,
+      "text": "♪ SABES QUE TU CORAZON CONMIGO TE HACE BAM BAM ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0043",
+      "start": 135.23,
+      "end": 137.7,
+      "duration": 2.47,
+      "text": "♪ SABES QUE ESA BEBA ESTA BUSCANDO DE MI BAMBAM ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0044",
+      "start": 137.73,
+      "end": 140.43,
+      "duration": 2.7,
+      "text": "♪ VEN PRUEBA DE MI BOCA PARA VER COMO TE SABE ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0045",
+      "start": 140.47,
+      "end": 143.24,
+      "duration": 2.77,
+      "text": "♪ QUIERO QUIERO QUIERO VER CUANTO AMOR A TI TE CABE ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0046",
+      "start": 143.27,
+      "end": 145.74,
+      "duration": 2.47,
+      "text": "♪ YO NO TENGO PRISA YO ME QUIERO DAR EL VIAJE ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0047",
+      "start": 145.77,
+      "end": 148.47,
+      "duration": 2.7,
+      "text": "♪ EMPEZAMOS LENTO DESPUES SALVAJE ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0048",
+      "start": 148.5,
+      "end": 151.27,
+      "duration": 2.77,
+      "text": "♪ PASITO A PASITO SUAVE SUAVECITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0049",
+      "start": 151.3,
+      "end": 153.73,
+      "duration": 2.43,
+      "text": "♪ NOS VAMOS PEGANDO POQUITO A POQUITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0050",
+      "start": 153.77,
+      "end": 156.5,
+      "duration": 2.73,
+      "text": "♪ CUANDO TU ME BESAS CON ESA DESTREZA ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0051",
+      "start": 156.53,
+      "end": 159.4,
+      "duration": 2.87,
+      "text": "♪ CREO TU ERES MALICIA CON DELICADEZA ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0052",
+      "start": 159.43,
+      "end": 162.13,
+      "duration": 2.7,
+      "text": "♪ PASITO A PASITO SUAVE SUAVECITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0053",
+      "start": 162.17,
+      "end": 164.67,
+      "duration": 2.5,
+      "text": "♪ NOS VAMOS PEGANDO POQUITO A POQUITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0054",
+      "start": 164.7,
+      "end": 167.33,
+      "duration": 2.63,
+      "text": "♪ Y ES QUE ESA BELLEZA ES UN ROMPE CABEZA ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0055",
+      "start": 167.37,
+      "end": 171.2,
+      "duration": 3.83,
+      "text": "♪ PERO PA MONTARLO AQUI TENGO LA PIEZA (OYEEE) ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0056",
+      "start": 171.23,
+      "end": 172.73,
+      "duration": 1.5,
+      "text": "♪ DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0057",
+      "start": 172.77,
+      "end": 175.4,
+      "duration": 2.63,
+      "text": "♪ QUIERO RECORRERTE A BESOS DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0058",
+      "start": 175.43,
+      "end": 178.26,
+      "duration": 2.83,
+      "text": "♪ DEJA QUE TE DIGA COSAS AL OÍDO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0059",
+      "start": 178.3,
+      "end": 181.47,
+      "duration": 3.17,
+      "text": "♪ PARA QUE TE ACUERDES SI NO ESTÁS CONMIGO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0060",
+      "start": 181.5,
+      "end": 183.47,
+      "duration": 1.97,
+      "text": "♪ DESPECITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0061",
+      "start": 183.5,
+      "end": 186.23,
+      "duration": 2.73,
+      "text": "♪ QUIERO RECORRERTE A BESOS DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0062",
+      "start": 186.27,
+      "end": 188.74,
+      "duration": 2.47,
+      "text": "♪ DIME LAS PAREDES DE TU LABERINTO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0063",
+      "start": 188.77,
+      "end": 191.74,
+      "duration": 2.97,
+      "text": "♪ Y HACER DE TU CUERPO TODO UN MANUSCRITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0064",
+      "start": 191.77,
+      "end": 193.74,
+      "duration": 1.97,
+      "text": "♪ (SUBE SUBE SUBE) (SUBE SUBE) ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0065",
+      "start": 193.77,
+      "end": 197.4,
+      "duration": 3.63,
+      "text": "♪ QUIERO VER BAILAR TU PELO QUIERO SER TU RITMO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0066",
+      "start": 197.43,
+      "end": 202.73,
+      "duration": 5.3,
+      "text": "♪ QUE LE ENSEÑES A MI BOCA TUS LUGARES FAVORITOS ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0067",
+      "start": 202.77,
+      "end": 204.44,
+      "duration": 1.67,
+      "text": "♪ FAVORITO FAVORITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0068",
+      "start": 204.47,
+      "end": 208.5,
+      "duration": 4.03,
+      "text": "♪ DÉJAME SOBREPASAR TU ZONAS DE PELIGRO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0069",
+      "start": 208.53,
+      "end": 213.76,
+      "duration": 5.23,
+      "text": "♪ HASTA PROVOCAR TUS GRITOS Y QUE OLVIDES TU APELLIDO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0070",
+      "start": 214,
+      "end": 216,
+      "duration": 2,
+      "text": "♪ DESPACITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0071",
+      "start": 216.03,
+      "end": 218.36,
+      "duration": 2.33,
+      "text": "♪ VAMOS A HCERLO EN UNA PLAYA EN PUERTO RICO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0072",
+      "start": 218.4,
+      "end": 221.33,
+      "duration": 2.93,
+      "text": "♪ HASTA QUE LAS OLAS GRITEN: AY BENDITO! ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0073",
+      "start": 221.37,
+      "end": 225.5,
+      "duration": 4.13,
+      "text": "♪ PARA QUE MI SELLO SE QUEDE CONTIGO (BAILALOOO) ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0074",
+      "start": 225.53,
+      "end": 228.23,
+      "duration": 2.7,
+      "text": "♪ PASITO A PASITO SUAVE SUAVECITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0075",
+      "start": 228.27,
+      "end": 230.67,
+      "duration": 2.4,
+      "text": "♪ NOS VAMOS PEGANDO POQUITO A POQUITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0076",
+      "start": 230.7,
+      "end": 236.53,
+      "duration": 5.83,
+      "text": "♪ QUE LE ENSEÑES A MI BOCA TUS LUGARES FAVORITOS ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0077",
+      "start": 236.57,
+      "end": 238.77,
+      "duration": 2.2,
+      "text": "♪ PASITO A PASITO SUAVE SUAVECITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0078",
+      "start": 239,
+      "end": 241.43,
+      "duration": 2.43,
+      "text": "♪ NOS VAMOS PEGANDO POQUITO A POQUITO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0079",
+      "start": 241.47,
+      "end": 246.34,
+      "duration": 4.87,
+      "text": "♪ HASTA PROVOCAR TUS GRITOS Y QUE OLVIDES TU APELLIDO ♪",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0080",
+      "start": 246.37,
+      "end": 248.7,
+      "duration": 2.33,
+      "text": "♪ DES...PA...CI...TO... ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0081",
+      "start": 252.03,
+      "end": 253.23,
+      "duration": 1.2,
+      "text": "♪ PASITO A PASITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0082",
+      "start": 253.27,
+      "end": 254.4,
+      "duration": 1.13,
+      "text": "♪ SUAVE, SUAVECITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0083",
+      "start": 254.43,
+      "end": 256,
+      "duration": 1.57,
+      "text": "♪ NOS VAMOS PEGANDO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0084",
+      "start": 256.03,
+      "end": 257.3,
+      "duration": 1.27,
+      "text": "♪ POQUITO A POQUITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0085",
+      "start": 257.33,
+      "end": 262.73,
+      "duration": 5.4,
+      "text": "♪ (HEY, HEY, HEY, HEY) ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0086",
+      "start": 262.77,
+      "end": 264.24,
+      "duration": 1.47,
+      "text": "♪ PASITO A PASITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0087",
+      "start": 264.27,
+      "end": 265.4,
+      "duration": 1.13,
+      "text": "♪ SUAVE, SUAVECITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0088",
+      "start": 265.43,
+      "end": 266.56,
+      "duration": 1.13,
+      "text": "♪ NOS VAMOS PEGANDO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0089",
+      "start": 266.6,
+      "end": 268.27,
+      "duration": 1.67,
+      "text": "♪ POQUITO A POQUITO ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0090",
+      "start": 268.3,
+      "end": 273.5,
+      "duration": 5.2,
+      "text": "♪ (HEY, HEY, HEY, HEY) ♪",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    }
+  ],
+  "audit_log": [
+    {
+      "segment_id": "seg-0007",
+      "start": 41.17,
+      "end": 45.54,
+      "original_text": "♪ SI... SABES QUE YA LLEVO\nUN RATO MIRÁNDOTE ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0008",
+      "start": 46.37,
+      "end": 49.57,
+      "original_text": "♪ TENGO QUE\nBAILAR CONTIGO HOY ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0010",
+      "start": 52.07,
+      "end": 57.17,
+      "original_text": "♪ VI QUE TU MIRADA YA\nESTABA LLAMÁNDOME ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0011",
+      "start": 57.2,
+      "end": 60.63,
+      "original_text": "♪ MUESTRAME EL\nCAMINO QUE YO VOY ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0013",
+      "start": 63.1,
+      "end": 65.67,
+      "original_text": "♪ TU... TÚ ERES EL IMÁN\nY YO SOY EL METAL ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0014",
+      "start": 65.7,
+      "end": 68.57,
+      "original_text": "♪ ME VOY ACERCANDO Y\nVOY ARMANDO EL PLAN ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0015",
+      "start": 68.6,
+      "end": 71.57,
+      "original_text": "♪ SOLO CON PENSARLO\nSE ACELERA EL PULSO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0018",
+      "start": 74.63,
+      "end": 76.6,
+      "original_text": "♪ YA ME ESTÁS GUSTANDO\nMÁS DE LO NORMAL ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0019",
+      "start": 76.63,
+      "end": 79.23,
+      "original_text": "♪ TODOS MIS SENTIDOS\nVAN PIDIENDO MÁS ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0020",
+      "start": 79.27,
+      "end": 82.64,
+      "original_text": "♪ ESTO HAY QUE TOMARLO\nSIN NINGÚN APURO... ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0022",
+      "start": 85.4,
+      "end": 87.7,
+      "original_text": "♪ QUIERO RESPIRAR\nTU CUELLO DESPACITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0023",
+      "start": 87.73,
+      "end": 90.56,
+      "original_text": "♪ DEJA QUE TE DIGA\nCOSAS AL OÍDO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0024",
+      "start": 90.6,
+      "end": 94.13,
+      "original_text": "♪ PARA QUE TE ACUERDES\nSI NO ESTÁS CONMIGO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0026",
+      "start": 96.23,
+      "end": 98.56,
+      "original_text": "♪ QUIERO DESNUDARTE\nA BESOS, DESPACITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0027",
+      "start": 98.6,
+      "end": 101.3,
+      "original_text": "♪ FIRMAR LAS PAREDES\nDE TU LABERINTO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0028",
+      "start": 101.33,
+      "end": 104.13,
+      "original_text": "♪ Y HACER DE TU CUERPO\nTODO UN MANUSCRITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0029",
+      "start": 104.17,
+      "end": 106.24,
+      "original_text": "♪ (SUBE SUBE SUBE)\n(SUBE SUBE) ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0030",
+      "start": 106.27,
+      "end": 109.74,
+      "original_text": "♪ QUIERO VER BAILAR TU\nPELO QUIERO SER TU RITMO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0038",
+      "start": 126.17,
+      "end": 128.34,
+      "original_text": "♪ SI TE PIDO UN\nBESO VEN DAMELO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0039",
+      "start": 128.37,
+      "end": 129.6,
+      "original_text": "♪ YO SE QUE\nESTAS PENSANDOLO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0041",
+      "start": 131.17,
+      "end": 132.44,
+      "original_text": "♪ MAMI ESTO ES\nDANDO Y DANDOLO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0042",
+      "start": 132.47,
+      "end": 135.2,
+      "original_text": "♪ SABES QUE TU CORAZON\nCONMIGO TE HACE BAM BAM ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0043",
+      "start": 135.23,
+      "end": 137.7,
+      "original_text": "♪ SABES QUE ESA BEBA ESTA\nBUSCANDO DE MI BAMBAM ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0044",
+      "start": 137.73,
+      "end": 140.43,
+      "original_text": "♪ VEN PRUEBA DE MI BOCA\nPARA VER COMO TE SABE ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0045",
+      "start": 140.47,
+      "end": 143.24,
+      "original_text": "♪ QUIERO QUIERO QUIERO VER\nCUANTO AMOR A TI TE CABE ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0046",
+      "start": 143.27,
+      "end": 145.74,
+      "original_text": "♪ YO NO TENGO PRISA YO\nME QUIERO DAR EL VIAJE ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0047",
+      "start": 145.77,
+      "end": 148.47,
+      "original_text": "♪ EMPEZAMOS LENTO\nDESPUES SALVAJE ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0048",
+      "start": 148.5,
+      "end": 151.27,
+      "original_text": "♪ PASITO A PASITO\nSUAVE SUAVECITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0049",
+      "start": 151.3,
+      "end": 153.73,
+      "original_text": "♪ NOS VAMOS PEGANDO\nPOQUITO A POQUITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0050",
+      "start": 153.77,
+      "end": 156.5,
+      "original_text": "♪ CUANDO TU ME BESAS\nCON ESA DESTREZA ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0051",
+      "start": 156.53,
+      "end": 159.4,
+      "original_text": "♪ CREO TU ERES MALICIA\nCON DELICADEZA ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0052",
+      "start": 159.43,
+      "end": 162.13,
+      "original_text": "♪ PASITO A PASITO\nSUAVE SUAVECITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0053",
+      "start": 162.17,
+      "end": 164.67,
+      "original_text": "♪ NOS VAMOS PEGANDO\nPOQUITO A POQUITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0054",
+      "start": 164.7,
+      "end": 167.33,
+      "original_text": "♪ Y ES QUE ESA BELLEZA\nES UN ROMPE CABEZA ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0055",
+      "start": 167.37,
+      "end": 171.2,
+      "original_text": "♪ PERO PA MONTARLO AQUI\nTENGO LA PIEZA (OYEEE) ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0057",
+      "start": 172.77,
+      "end": 175.4,
+      "original_text": "♪ QUIERO RECORRERTE\nA BESOS DESPACITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0058",
+      "start": 175.43,
+      "end": 178.26,
+      "original_text": "♪ DEJA QUE TE DIGA\nCOSAS AL OÍDO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0059",
+      "start": 178.3,
+      "end": 181.47,
+      "original_text": "♪ PARA QUE TE ACUERDES\nSI NO ESTÁS CONMIGO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0061",
+      "start": 183.5,
+      "end": 186.23,
+      "original_text": "♪ QUIERO RECORRERTE\nA BESOS DESPACITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0062",
+      "start": 186.27,
+      "end": 188.74,
+      "original_text": "♪ DIME LAS PAREDES\nDE TU LABERINTO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0063",
+      "start": 188.77,
+      "end": 191.74,
+      "original_text": "♪ Y HACER DE TU CUERPO\nTODO UN MANUSCRITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0064",
+      "start": 191.77,
+      "end": 193.74,
+      "original_text": "♪ (SUBE SUBE SUBE)\n(SUBE SUBE) ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0065",
+      "start": 193.77,
+      "end": 197.4,
+      "original_text": "♪ QUIERO VER BAILAR TU\nPELO QUIERO SER TU RITMO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0066",
+      "start": 197.43,
+      "end": 202.73,
+      "original_text": "♪ QUE LE ENSEÑES A MI BOCA\nTUS LUGARES FAVORITOS ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0068",
+      "start": 204.47,
+      "end": 208.5,
+      "original_text": "♪ DÉJAME SOBREPASAR\nTU ZONAS DE PELIGRO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0069",
+      "start": 208.53,
+      "end": 213.76,
+      "original_text": "♪ HASTA PROVOCAR TUS GRITOS\nY QUE OLVIDES TU APELLIDO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0071",
+      "start": 216.03,
+      "end": 218.36,
+      "original_text": "♪ VAMOS A HCERLO EN UNA\nPLAYA EN PUERTO RICO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0072",
+      "start": 218.4,
+      "end": 221.33,
+      "original_text": "♪ HASTA QUE LAS OLAS\nGRITEN: AY BENDITO! ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0073",
+      "start": 221.37,
+      "end": 225.5,
+      "original_text": "♪ PARA QUE MI SELLO SE QUEDE\nCONTIGO (BAILALOOO) ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0074",
+      "start": 225.53,
+      "end": 228.23,
+      "original_text": "♪ PASITO A PASITO\nSUAVE SUAVECITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0075",
+      "start": 228.27,
+      "end": 230.67,
+      "original_text": "♪ NOS VAMOS PEGANDO\nPOQUITO A POQUITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0076",
+      "start": 230.7,
+      "end": 236.53,
+      "original_text": "♪ QUE LE ENSEÑES A MI BOCA\nTUS LUGARES FAVORITOS ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0077",
+      "start": 236.57,
+      "end": 238.77,
+      "original_text": "♪ PASITO A PASITO\nSUAVE SUAVECITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0078",
+      "start": 239,
+      "end": 241.43,
+      "original_text": "♪ NOS VAMOS PEGANDO\nPOQUITO A POQUITO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0079",
+      "start": 241.47,
+      "end": 246.34,
+      "original_text": "♪ HASTA PROVOCAR TUS GRITOS\nY QUE OLVIDES TU APELLIDO ♪",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    }
+  ],
+  "total_raw_segments": 90,
+  "total_cleaned_segments": 90,
+  "removed_segments_count": 0,
+  "retention_rate_pct": 100
+}

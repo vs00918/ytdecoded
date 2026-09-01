@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-059",
+  "created_at": "2026-09-01T15:11:31.270Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-072",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-828",
+      "start": 2281.2,
+      "end": 2283.5,
+      "quoted_text": "It's released from an area of the brainstem"
+    },
+    {
+      "entity_id": "CLM-829",
+      "start": 2283.5,
+      "end": 2285.5,
+      "quoted_text": "called locus coeruleus."
+    },
+    {
+      "entity_id": "CLM-830",
+      "start": 2285.5,
+      "end": 2288.3,
+      "quoted_text": "And its release tends to wake up neural circuits"
+    },
+    {
+      "entity_id": "CLM-831",
+      "start": 2288.3,
+      "end": 2291.9,
+      "quoted_text": "in the brain and wake up various aspects"
+    },
+    {
+      "entity_id": "CLM-832",
+      "start": 2291.9,
+      "end": 2295.8,
+      "quoted_text": "of our body's physiology and give us a readiness."
+    },
+    {
+      "entity_id": "CLM-833",
+      "start": 2295.8,
+      "end": 2297,
+      "quoted_text": "So it should come as no surprise"
+    },
+    {
+      "entity_id": "CLM-834",
+      "start": 2297,
+      "end": 2300.9,
+      "quoted_text": "that dopamine and epinephrin aka adrenaline"
+    },
+    {
+      "entity_id": "CLM-835",
+      "start": 2302.3,
+      "end": 2306.3,
+      "quoted_text": "In fact, epinephrin and adrenaline are actually manufactured"
+    },
+    {
+      "entity_id": "CLM-836",
+      "start": 2308.4,
+      "end": 2310.6,
+      "quoted_text": "There's a biochemical pathway involving dopamine"
+    },
+    {
+      "entity_id": "CLM-837",
+      "start": 2310.6,
+      "end": 2312.2,
+      "quoted_text": "which is a beautiful pathway."
+    },
+    {
+      "entity_id": "CLM-838",
+      "start": 2312.2,
+      "end": 2313.7,
+      "quoted_text": "If ever you want to look it up,"
+    },
+    {
+      "entity_id": "CLM-839",
+      "start": 2313.7,
+      "end": 2316.2,
+      "quoted_text": "you can just look up biochemistry of dopamine."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: It's released from an area of the brainstem\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [2281s-2283s]: \"It's released from an area of the brainstem\"\n  - [2283s-2285s]: \"called locus coeruleus.\"\n  - [2285s-2288s]: \"And its release tends to wake up neural circuits\"\n  - [2288s-2291s]: \"in the brain and wake up various aspects\"\n  - [2291s-2295s]: \"of our body's physiology and give us a readiness.\"\n  - [2295s-2297s]: \"So it should come as no surprise\"\n  - [2297s-2300s]: \"that dopamine and epinephrin aka adrenaline\"\n  - [2302s-2306s]: \"In fact, epinephrin and adrenaline are actually manufactured\"\n  - [2308s-2310s]: \"There's a biochemical pathway involving dopamine\"\n  - [2310s-2312s]: \"which is a beautiful pathway.\"\n  - [2312s-2313s]: \"If ever you want to look it up,\"\n  - [2313s-2316s]: \"you can just look up biochemistry of dopamine.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: It's released from an area of the brainstem\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [2281s-2283s]: \"It's released from an area of the brainstem\"\n+  - [2283s-2285s]: \"called locus coeruleus.\"\n+  - [2285s-2288s]: \"And its release tends to wake up neural circuits\"\n+  - [2288s-2291s]: \"in the brain and wake up various aspects\"\n+  - [2291s-2295s]: \"of our body's physiology and give us a readiness.\"\n+  - [2295s-2297s]: \"So it should come as no surprise\"\n+  - [2297s-2300s]: \"that dopamine and epinephrin aka adrenaline\"\n+  - [2302s-2306s]: \"In fact, epinephrin and adrenaline are actually manufactured\"\n+  - [2308s-2310s]: \"There's a biochemical pathway involving dopamine\"\n+  - [2310s-2312s]: \"which is a beautiful pathway.\"\n+  - [2312s-2313s]: \"If ever you want to look it up,\"\n+  - [2313s-2316s]: \"you can just look up biochemistry of dopamine.\"\n"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-081",
+  "created_at": "2026-09-01T15:11:31.278Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-099",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1140",
+      "start": 3159.5,
+      "end": 3161.7,
+      "quoted_text": "Maybe you hunt an animal and kill it,"
+    },
+    {
+      "entity_id": "CLM-1141",
+      "start": 3161.7,
+      "end": 3163.7,
+      "quoted_text": "or you find an animal that was recently killed"
+    },
+    {
+      "entity_id": "CLM-1142",
+      "start": 3163.7,
+      "end": 3165.3,
+      "quoted_text": "and you decide to take the meat."
+    },
+    {
+      "entity_id": "CLM-1143",
+      "start": 3166.3,
+      "end": 3168,
+      "quoted_text": "You are going to achieve,"
+    },
+    {
+      "entity_id": "CLM-1144",
+      "start": 3168,
+      "end": 3171.6,
+      "quoted_text": "or I should say, experience some sort of dopamine release."
+    },
+    {
+      "entity_id": "CLM-1145",
+      "start": 3171.6,
+      "end": 3172.9,
+      "quoted_text": "You found the reward."
+    },
+    {
+      "entity_id": "CLM-1146",
+      "start": 3174,
+      "end": 3177.5,
+      "quoted_text": "But then it needs to return to some lower level."
+    },
+    {
+      "entity_id": "CLM-1147",
+      "start": 3177.5,
+      "end": 3178.3,
+      "quoted_text": "Why?"
+    },
+    {
+      "entity_id": "CLM-1148",
+      "start": 3178.3,
+      "end": 3180.4,
+      "quoted_text": "Well, because if you just stayed there,"
+    },
+    {
+      "entity_id": "CLM-1149",
+      "start": 3180.4,
+      "end": 3182.7,
+      "quoted_text": "you would never continue to forage for more."
+    },
+    {
+      "entity_id": "CLM-1150",
+      "start": 3183.6,
+      "end": 3186.8,
+      "quoted_text": "It doesn't just increase your baseline and then stay there."
+    },
+    {
+      "entity_id": "CLM-1151",
+      "start": 3188.3,
+      "end": 3189.9,
+      "quoted_text": "And what's very important to understand"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Maybe you hunt an animal and kill it,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3159s-3161s]: \"Maybe you hunt an animal and kill it,\"\n  - [3161s-3163s]: \"or you find an animal that was recently killed\"\n  - [3163s-3165s]: \"and you decide to take the meat.\"\n  - [3166s-3168s]: \"You are going to achieve,\"\n  - [3168s-3171s]: \"or I should say, experience some sort of dopamine release.\"\n  - [3171s-3172s]: \"You found the reward.\"\n  - [3174s-3177s]: \"But then it needs to return to some lower level.\"\n  - [3177s-3178s]: \"Why?\"\n  - [3178s-3180s]: \"Well, because if you just stayed there,\"\n  - [3180s-3182s]: \"you would never continue to forage for more.\"\n  - [3183s-3186s]: \"It doesn't just increase your baseline and then stay there.\"\n  - [3188s-3189s]: \"And what's very important to understand\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Maybe you hunt an animal and kill it,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3159s-3161s]: \"Maybe you hunt an animal and kill it,\"\n+  - [3161s-3163s]: \"or you find an animal that was recently killed\"\n+  - [3163s-3165s]: \"and you decide to take the meat.\"\n+  - [3166s-3168s]: \"You are going to achieve,\"\n+  - [3168s-3171s]: \"or I should say, experience some sort of dopamine release.\"\n+  - [3171s-3172s]: \"You found the reward.\"\n+  - [3174s-3177s]: \"But then it needs to return to some lower level.\"\n+  - [3177s-3178s]: \"Why?\"\n+  - [3178s-3180s]: \"Well, because if you just stayed there,\"\n+  - [3180s-3182s]: \"you would never continue to forage for more.\"\n+  - [3183s-3186s]: \"It doesn't just increase your baseline and then stay there.\"\n+  - [3188s-3189s]: \"And what's very important to understand\"\n"
+  }
+}

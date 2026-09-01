@@ -1,0 +1,85 @@
+---
+interface Props {
+  volume: number;
+  volumeTitle: string;
+  topicTitle: string;
+}
+
+const { volume, volumeTitle, topicTitle } = Astro.props;
+---
+
+<nav aria-label="Breadcrumb" class="breadcrumbs-container">
+  <ol class="breadcrumbs-list">
+    <li class="breadcrumb-item">
+      <a href="/ytdecoded/" class="breadcrumb-link">The Living Codex</a>
+    </li>
+    <li class="breadcrumb-separator" aria-hidden="true">/</li>
+    <li class="breadcrumb-item">
+      <span class="breadcrumb-volume">Vol {volume}: {volumeTitle}</span>
+    </li>
+    <li class="breadcrumb-separator" aria-hidden="true">/</li>
+    <li class="breadcrumb-item breadcrumb-current" aria-current="page">
+      <span>{topicTitle}</span>
+    </li>
+  </ol>
+</nav>
+
+<style>
+  .breadcrumbs-container {
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+
+  .breadcrumbs-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .breadcrumb-item {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .breadcrumb-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .breadcrumb-link:hover, .breadcrumb-link:focus-visible {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .breadcrumb-volume {
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
+  .breadcrumb-separator {
+    color: var(--border);
+    user-select: none;
+  }
+
+  .breadcrumb-current {
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 280px;
+  }
+
+  @media (max-width: 640px) {
+    .breadcrumb-current {
+      max-width: 180px;
+    }
+  }
+</style>

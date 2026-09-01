@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-035",
+  "created_at": "2026-09-01T15:11:31.264Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-043",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-489",
+      "start": 1330.3,
+      "end": 1331.2,
+      "quoted_text": "that connects to this."
+    },
+    {
+      "entity_id": "CLM-490",
+      "start": 1331.2,
+      "end": 1334,
+      "quoted_text": "You can get local or more broad volumetric release."
+    },
+    {
+      "entity_id": "CLM-491",
+      "start": 1334,
+      "end": 1336.2,
+      "quoted_text": "What about the duration of release"
+    },
+    {
+      "entity_id": "CLM-492",
+      "start": 1336.2,
+      "end": 1339.1,
+      "quoted_text": "or the duration of action for dopamine?"
+    },
+    {
+      "entity_id": "CLM-493",
+      "start": 1339.1,
+      "end": 1343.3,
+      "quoted_text": "Well, dopamine is unique among chemicals in the brain,"
+    },
+    {
+      "entity_id": "EXM-017",
+      "start": 1343.3,
+      "end": 1346.7,
+      "quoted_text": "because dopamine unlike a lot of chemicals in the brain"
+    },
+    {
+      "entity_id": "CLM-494",
+      "start": 1346.7,
+      "end": 1349.5,
+      "quoted_text": "works through what are called G protein-coupled receptors."
+    },
+    {
+      "entity_id": "CLM-495",
+      "start": 1349.5,
+      "end": 1351.2,
+      "quoted_text": "And for those of you that are about to pass out"
+    },
+    {
+      "entity_id": "CLM-496",
+      "start": 1351.2,
+      "end": 1352,
+      "quoted_text": "from the amount of detail,"
+    },
+    {
+      "entity_id": "CLM-497",
+      "start": 1352,
+      "end": 1353,
+      "quoted_text": "just hang in there with me."
+    },
+    {
+      "entity_id": "CLM-498",
+      "start": 1353,
+      "end": 1355,
+      "quoted_text": "It's really not complicated."
+    },
+    {
+      "entity_id": "CLM-499",
+      "start": 1355,
+      "end": 1358.3,
+      "quoted_text": "There are two ways that neurons can communicate"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: that connects to this.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1330s-1331s]: \"that connects to this.\"\n  - [1331s-1334s]: \"You can get local or more broad volumetric release.\"\n  - [1334s-1336s]: \"What about the duration of release\"\n  - [1336s-1339s]: \"or the duration of action for dopamine?\"\n  - [1339s-1343s]: \"Well, dopamine is unique among chemicals in the brain,\"\n  - [1343s-1346s]: \"because dopamine unlike a lot of chemicals in the brain\"\n  - [1346s-1349s]: \"works through what are called G protein-coupled receptors.\"\n  - [1349s-1351s]: \"And for those of you that are about to pass out\"\n  - [1351s-1352s]: \"from the amount of detail,\"\n  - [1352s-1353s]: \"just hang in there with me.\"\n  - [1353s-1355s]: \"It's really not complicated.\"\n  - [1355s-1358s]: \"There are two ways that neurons can communicate\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: that connects to this.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1330s-1331s]: \"that connects to this.\"\n+  - [1331s-1334s]: \"You can get local or more broad volumetric release.\"\n+  - [1334s-1336s]: \"What about the duration of release\"\n+  - [1336s-1339s]: \"or the duration of action for dopamine?\"\n+  - [1339s-1343s]: \"Well, dopamine is unique among chemicals in the brain,\"\n+  - [1343s-1346s]: \"because dopamine unlike a lot of chemicals in the brain\"\n+  - [1346s-1349s]: \"works through what are called G protein-coupled receptors.\"\n+  - [1349s-1351s]: \"And for those of you that are about to pass out\"\n+  - [1351s-1352s]: \"from the amount of detail,\"\n+  - [1352s-1353s]: \"just hang in there with me.\"\n+  - [1353s-1355s]: \"It's really not complicated.\"\n+  - [1355s-1358s]: \"There are two ways that neurons can communicate\"\n"
+  }
+}

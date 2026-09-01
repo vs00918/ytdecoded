@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-174",
+  "created_at": "2026-09-01T15:11:31.302Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-229",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2661",
+      "start": 7444.1,
+      "end": 7445.5,
+      "quoted_text": "dopaminergic condition,"
+    },
+    {
+      "entity_id": "CLM-2662",
+      "start": 7445.5,
+      "end": 7448.7,
+      "quoted_text": "so schizophrenia or psychosis of any kind,"
+    },
+    {
+      "entity_id": "EXM-077",
+      "start": 7451.6,
+      "end": 7454.1,
+      "quoted_text": "things like Macuna Pruriens and L-tyrosine"
+    },
+    {
+      "entity_id": "CLM-2663",
+      "start": 7454.1,
+      "end": 7455.9,
+      "quoted_text": "will not be good for you."
+    },
+    {
+      "entity_id": "CLM-2664",
+      "start": 7455.9,
+      "end": 7460,
+      "quoted_text": "And if you don't, you should just understand and expect"
+    },
+    {
+      "entity_id": "CLM-2665",
+      "start": 7460,
+      "end": 7463.4,
+      "quoted_text": "that it's going to lead to an increase in dopamine."
+    },
+    {
+      "entity_id": "CLM-2666",
+      "start": 7463.4,
+      "end": 7465.2,
+      "quoted_text": "You'll certainly feel an elevated state"
+    },
+    {
+      "entity_id": "CLM-2667",
+      "start": 7465.2,
+      "end": 7467.9,
+      "quoted_text": "for some of you that might be agitating,"
+    },
+    {
+      "entity_id": "CLM-2668",
+      "start": 7467.9,
+      "end": 7469.6,
+      "quoted_text": "for some of you that might be really pleasureful,"
+    },
+    {
+      "entity_id": "CLM-2669",
+      "start": 7469.6,
+      "end": 7471.9,
+      "quoted_text": "and then you will feel a crash afterwards."
+    },
+    {
+      "entity_id": "CLM-2670",
+      "start": 7471.9,
+      "end": 7475.2,
+      "quoted_text": "How deep is that crash will really depend on your biology"
+    },
+    {
+      "entity_id": "CLM-2671",
+      "start": 7475.2,
+      "end": 7478.4,
+      "quoted_text": "and where your dopamine baseline began."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: dopaminergic condition,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7444s-7445s]: \"dopaminergic condition,\"\n  - [7445s-7448s]: \"so schizophrenia or psychosis of any kind,\"\n  - [7451s-7454s]: \"things like Macuna Pruriens and L-tyrosine\"\n  - [7454s-7455s]: \"will not be good for you.\"\n  - [7455s-7460s]: \"And if you don't, you should just understand and expect\"\n  - [7460s-7463s]: \"that it's going to lead to an increase in dopamine.\"\n  - [7463s-7465s]: \"You'll certainly feel an elevated state\"\n  - [7465s-7467s]: \"for some of you that might be agitating,\"\n  - [7467s-7469s]: \"for some of you that might be really pleasureful,\"\n  - [7469s-7471s]: \"and then you will feel a crash afterwards.\"\n  - [7471s-7475s]: \"How deep is that crash will really depend on your biology\"\n  - [7475s-7478s]: \"and where your dopamine baseline began.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: dopaminergic condition,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7444s-7445s]: \"dopaminergic condition,\"\n+  - [7445s-7448s]: \"so schizophrenia or psychosis of any kind,\"\n+  - [7451s-7454s]: \"things like Macuna Pruriens and L-tyrosine\"\n+  - [7454s-7455s]: \"will not be good for you.\"\n+  - [7455s-7460s]: \"And if you don't, you should just understand and expect\"\n+  - [7460s-7463s]: \"that it's going to lead to an increase in dopamine.\"\n+  - [7463s-7465s]: \"You'll certainly feel an elevated state\"\n+  - [7465s-7467s]: \"for some of you that might be agitating,\"\n+  - [7467s-7469s]: \"for some of you that might be really pleasureful,\"\n+  - [7469s-7471s]: \"and then you will feel a crash afterwards.\"\n+  - [7471s-7475s]: \"How deep is that crash will really depend on your biology\"\n+  - [7475s-7478s]: \"and where your dopamine baseline began.\"\n"
+  }
+}

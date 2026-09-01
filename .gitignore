@@ -1,0 +1,13 @@
+# Local Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Build Artifacts
+dist/
+.astro/
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*

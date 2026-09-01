@@ -1,0 +1,130 @@
+[
+  {
+    "segment_id": "seg-0017",
+    "start": 37.56,
+    "end": 41.2,
+    "original_text": "Same result. [music] So, he kept",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0028",
+    "start": 60.08,
+    "end": 64.08,
+    "original_text": "years of traveling the [music] world,",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0033",
+    "start": 69.43,
+    "end": 73.64,
+    "original_text": "[music] What Bourdain did with that",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0037",
+    "start": 78.92,
+    "end": 82.04,
+    "original_text": "argument. That the life [music] most",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0082",
+    "start": 174.4,
+    "end": 178.2,
+    "original_text": "bored enough to stop [music] playing it",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0086",
+    "start": 182.32,
+    "end": 186.36,
+    "original_text": "Be willing to [music] try new things.",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0090",
+    "start": 190.92,
+    "end": 195.2,
+    "original_text": "be afraid [music] to eat a bad meal. You",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0092",
+    "start": 195.2,
+    "end": 198.04,
+    "original_text": "you'll never get the magical [music]",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0095",
+    "start": 200.32,
+    "end": 202.8,
+    "original_text": "of the [music] fact that you are",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0119",
+    "start": 246.28,
+    "end": 248.96,
+    "original_text": "happened yet. [music]",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0129",
+    "start": 268.96,
+    "end": 273.52,
+    "original_text": "food. The unmarked restaurant [music]",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0156",
+    "start": 324.84,
+    "end": 329.16,
+    "original_text": "extraordinary. [music] Bourdain's career",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0163",
+    "start": 339.29,
+    "end": 340.96,
+    "original_text": ">> [music]",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0182",
+    "start": 381.32,
+    "end": 385.64,
+    "original_text": "final thought, [music] if I'm an",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0186",
+    "start": 390.64,
+    "end": 394.28,
+    "original_text": "river. [music] The extent to which you",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0225",
+    "start": 470.44,
+    "end": 473.44,
+    "original_text": ">> You're probably going [music] to find",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  }
+]

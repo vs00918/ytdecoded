@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-102",
+  "created_at": "2026-09-01T15:11:31.284Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-129",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1492",
+      "start": 4115.6,
+      "end": 4118.6,
+      "quoted_text": "activities in ways that are healthy and beneficial for us?"
+    },
+    {
+      "entity_id": "CLM-1493",
+      "start": 4118.6,
+      "end": 4120.3,
+      "quoted_text": "How do we achieve these peaks,"
+    },
+    {
+      "entity_id": "CLM-1494",
+      "start": 4120.3,
+      "end": 4123.1,
+      "quoted_text": "which are so central to our wellbeing and experience of life"
+    },
+    {
+      "entity_id": "CLM-1495",
+      "start": 4123.1,
+      "end": 4125.1,
+      "quoted_text": "without dropping our baseline?"
+    },
+    {
+      "entity_id": "CLM-1496",
+      "start": 4125.1,
+      "end": 4130.1,
+      "quoted_text": "And the key lies in intermittent release of dopamine."
+    },
+    {
+      "entity_id": "CLM-1497",
+      "start": 4130.3,
+      "end": 4135.3,
+      "quoted_text": "The real key is to not expect or chase high levels"
+    },
+    {
+      "entity_id": "CLM-1498",
+      "start": 4136,
+      "end": 4138.8,
+      "quoted_text": "of dopamine release every time we engage"
+    },
+    {
+      "entity_id": "CLM-1499",
+      "start": 4141.9,
+      "end": 4145.2,
+      "quoted_text": "Intermittent reward schedules are the central schedule"
+    },
+    {
+      "entity_id": "CLM-1500",
+      "start": 4145.2,
+      "end": 4148.8,
+      "quoted_text": "by which casinos keep you gambling."
+    },
+    {
+      "entity_id": "CLM-1501",
+      "start": 4148.8,
+      "end": 4152.4,
+      "quoted_text": "The central schedule by which elusive partners"
+    },
+    {
+      "entity_id": "CLM-1502",
+      "start": 4152.4,
+      "end": 4155.3,
+      "quoted_text": "or potential partners keep you texting and pursuing"
+    },
+    {
+      "entity_id": "CLM-1503",
+      "start": 4156.3,
+      "end": 4158.8,
+      "quoted_text": "on either side of the relationship."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: activities in ways that are healthy and beneficial for us?\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4115s-4118s]: \"activities in ways that are healthy and beneficial for us?\"\n  - [4118s-4120s]: \"How do we achieve these peaks,\"\n  - [4120s-4123s]: \"which are so central to our wellbeing and experience of life\"\n  - [4123s-4125s]: \"without dropping our baseline?\"\n  - [4125s-4130s]: \"And the key lies in intermittent release of dopamine.\"\n  - [4130s-4135s]: \"The real key is to not expect or chase high levels\"\n  - [4136s-4138s]: \"of dopamine release every time we engage\"\n  - [4141s-4145s]: \"Intermittent reward schedules are the central schedule\"\n  - [4145s-4148s]: \"by which casinos keep you gambling.\"\n  - [4148s-4152s]: \"The central schedule by which elusive partners\"\n  - [4152s-4155s]: \"or potential partners keep you texting and pursuing\"\n  - [4156s-4158s]: \"on either side of the relationship.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: activities in ways that are healthy and beneficial for us?\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4115s-4118s]: \"activities in ways that are healthy and beneficial for us?\"\n+  - [4118s-4120s]: \"How do we achieve these peaks,\"\n+  - [4120s-4123s]: \"which are so central to our wellbeing and experience of life\"\n+  - [4123s-4125s]: \"without dropping our baseline?\"\n+  - [4125s-4130s]: \"And the key lies in intermittent release of dopamine.\"\n+  - [4130s-4135s]: \"The real key is to not expect or chase high levels\"\n+  - [4136s-4138s]: \"of dopamine release every time we engage\"\n+  - [4141s-4145s]: \"Intermittent reward schedules are the central schedule\"\n+  - [4145s-4148s]: \"by which casinos keep you gambling.\"\n+  - [4148s-4152s]: \"The central schedule by which elusive partners\"\n+  - [4152s-4155s]: \"or potential partners keep you texting and pursuing\"\n+  - [4156s-4158s]: \"on either side of the relationship.\"\n"
+  }
+}

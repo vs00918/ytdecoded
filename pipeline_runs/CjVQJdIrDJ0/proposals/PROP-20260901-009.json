@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-009",
+  "created_at": "2026-09-01T15:11:18.093Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-010",
+  "target_topic_slug": "the-three-modes-of-execution",
+  "target_topic_title": "The Three Modes of Execution — Perception, Action, Self & The Immunity to Taking Things Personally",
+  "target_content_hash_before": "e69f3c95f97b10b42bfdbd7b946eb0440927ed86558754ea91c821e937646765",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Substantive structural nuance, causal sequences, or tactical depth extending \"The Three Modes of Execution — Perception, Action, Self & The Immunity to Taking Things Personally\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-105",
+      "start": 725.7,
+      "end": 731.3,
+      "quoted_text": "Braking, when there is any sign of danger, braking is completely automatic. That is,"
+    },
+    {
+      "entity_id": "CLM-106",
+      "start": 731.3,
+      "end": 737.4,
+      "quoted_text": "you can notice while you're braking, but you first respond so that the response is immediate,"
+    },
+    {
+      "entity_id": "CLM-107",
+      "start": 737.4,
+      "end": 746.3,
+      "quoted_text": "it is fully automatic. Now, in some places, not here where people drive in snow or ice,"
+    },
+    {
+      "entity_id": "CLM-108",
+      "start": 746.3,
+      "end": 753.3,
+      "quoted_text": "they learn about skids. And then, occasionally, you'll find yourself as a driver in a skid."
+    },
+    {
+      "entity_id": "CLM-109",
+      "start": 753.3,
+      "end": 758.7,
+      "quoted_text": "And then System 2 will be mobilized because in a skid you're not supposed to do anything"
+    },
+    {
+      "entity_id": "CLM-110",
+      "start": 758.7,
+      "end": 763.9,
+      "quoted_text": "that comes naturally to you. You shouldn't brake and you shouldn't steer away from the"
+    },
+    {
+      "entity_id": "CLM-111",
+      "start": 763.9,
+      "end": 768.7,
+      "quoted_text": "skid. You should leave the brakes alone and steer into the skid, completely non-intuitive."
+    },
+    {
+      "entity_id": "CLM-112",
+      "start": 768.7,
+      "end": 777,
+      "quoted_text": "Now, when people have a lot of practice with skids that too becomes automatic. So one thing"
+    },
+    {
+      "entity_id": "CLM-113",
+      "start": 777,
+      "end": 783.5,
+      "quoted_text": "that we can tell about System 1 and System 2 those two types of operations, is some of"
+    },
+    {
+      "entity_id": "CLM-114",
+      "start": 783.5,
+      "end": 791.2,
+      "quoted_text": "the basic innate operations, functions that we have such as having emotional reactions"
+    },
+    {
+      "entity_id": "CLM-115",
+      "start": 791.2,
+      "end": 799.8,
+      "quoted_text": "to things, all this is System 1. We don't choose to do it. It just happens to us. But"
+    },
+    {
+      "entity_id": "CLM-116",
+      "start": 799.8,
+      "end": 808.1,
+      "quoted_text": "also System 1 is where skill is. That is when we get to be skilled at something it becomes"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-three-modes-of-execution\"\ntitle: \"The Three Modes of Execution — Perception, Action, Self & The Immunity to Taking Things Personally\"\nvolume: 6\nvolume_title: \"Existential Sovereignty, Purpose & The Summit\"\norder_in_volume: 38\narchetype: \"TACTICAL_FRAMEWORK\"\nreading_time_minutes: 6\nsummary_15s: \"You cannot control the opinions, outbursts, or storms of the outside world, but you hold complete sovereignty over the vessel of your mind. Remember that other people's behavior is a reflection of their storm, your intrinsic value cannot be crumpled by external noise, and when there is no enemy with\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"resilience\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nEvery human endeavor—whether building a life's work, solving a difficult problem, or navigating interpersonal friction—is shaped by three fundamental internal variables:\n1. **The Lens of Perception (How you see reality & interpret others)**\n2. **The Nature of Action (How you execute your work)**\n3. **The Identity of the Agent (Who you believe you are while doing it)**\n\nAncient analytical psychology (*Sānkhya*) and modern cognitive science converge on this truth: **your emotional peace is dictated not by external events or opinions, but by the state of your perception**.\n\nWhen you master the **Three Modes of Execution** and cultivate **Existential Immunity (Not Taking Things Personally)**, you liberate yourself from outcome anxiety, dismantle defensiveness, and maintain supreme emotional equilibrium under any storm.\n\n---\n\n### The 3×3 Architecture of Human Execution\n\n```mermaid\ngraph TD\n    subgraph Levels of Consciousness & Execution\n        S[State 1: Clarity & Unity / Sattva]\n        R[State 2: Driven Ambition & Fragmentation / Rajas]\n        T[State 3: Inertia & Blind Reaction / Tamas]\n    end\n\n    S -->|Shapes| P1[Perception: Sees interconnected systems and unified truth]\n    S -->|Shapes| A1[Action: Executed with mastery, calm, and zero craving]\n    S -->|Shapes| D1[Agent: Resolute, humble, and unperturbed by outcomes]\n\n    R -->|Shapes| P2[Perception: Sees zero-sum competition and personal attacks]\n    R -->|Shapes| A2[Action: Driven by intense ego, friction, and anxiety over reward]\n    R -->|Shapes| D2[Agent: Attached to praise, volatile, easily elated or crushed]\n\n    T -->|Shapes| P3[Perception: Narrow obsession with trivial, distorted pieces]\n    T -->|Shapes| A3[Action: Procrastinating, destructive, and blind to consequences]\n    T -->|Shapes| D3[Agent: Lethargic, cynical, deceptive, and undisciplined]\n```\n\n---\n\n### Existential Immunity: The Psychology of Not Taking Things Personally\n\n```mermaid\ngraph LR\n    subgraph The Egocentric Trap (Fragile Reaction)\n        E1[Rude Behavior / Criticism]\n        --> E2[\"'Why are they doing this TO me?' (Narcissistic Bias)\"]\n        --> E3[Ego Injury, Resentment & Escalation]\n    end\n\n    subgraph The Sovereign Immunity (Mastery)\n        S1[Rude Behavior / Criticism]\n        --> S2[\"'What is happening WITH them?' (Curiosity Shift)\"]\n        --> S3[Unshakeable Value Invariant & Calm Poise]\n    end\n```\n\n#### 1. The Egocentric Bias (\"It Is Not About You\")\n* The human brain has an evolutionary flaw: it naturally centers itself in every external event. When someone is short-tempered, cold, or dismissive, we immediately invent a story: *\"They don't respect me; they are attacking my worth.\"*\n* **The Reality**: **95% of how people treat you is a direct projection of their internal state**—their private exhaustion, unresolved trauma, work stress, or hidden fears. It is an expression of their reality, not yours.\n\n#### 2. The Inherent Value Invariant (The €20 Bill Metaphor)\n* Take a pristine €20 note. If you crumple it, throw it on the ground, or stomp on it in the dirt, it does not lose a single cent of its value. You can still buy the exact same goods with it.\n* **Your intrinsic worth as a sovereign human being is absolute.** Insults, online criticism, or unfair rejections are merely external mud thrown at the bill; they have zero mathematical power to diminish your inherent worth.\n\n#### 3. The \"Enemy Within\" Law (Why Words Hurt)\n* If a stranger walks up to you and calls you an alien with green scales, you do not feel insulted; you laugh, because you know with 100% certainty that it is absurd.\n* An insult or critique only stings when **there is an unhealed doubt inside yourself that secretly fears the accusation is true**.\n* **The Master Law**: *When there is no enemy within, no enemy outside can harm you.* Heal internal insecurities through undeniable daily execution, and external hostility loses all traction.\n\n---\n\n### Level 1: The Three Lenses of Knowledge (How You See)\n\nThe quality of your execution can never exceed the quality of your perception:\n\n#### 1. The Fragmented Lens (Inertia)\n* Clinging dogmatically to one isolated fragment of reality as if it were the whole truth, ignoring logic, context, or wider systemic factors.\n\n#### 2. The Transactional Lens (Reactive Passion)\n* Viewing the world strictly through divisions, zero-sum competition, and personal insults.\n\n#### 3. The Unified Systems Lens (Pure Clarity)\n* Seeing the underlying unity beneath surface diversity. Recognizing that people's outbursts are reflections of their suffering, and viewing challenges through objective systems thinking.\n\n---\n\n### Level 2: The Three Qualities of Action (How You Work)\n\n```mermaid\ngraph LR\n    subgraph Friction vs Flow in Action\n        A[Inertial Action] -->|High Regret & Low Output| A_Out[Destruction & Stagnation]\n        B[Passionate Action] -->|High Effort & High Anxiety| B_Out[Burnout & Volatile Results]\n        C[Mastery Action] -->|High Flow & Low Friction| C_Out[Sustained Excellence & Peace]\n    end\n```\n\n1. **Inertial Action**: Work done haphazardly without regard for long-term consequences. Characterized by chronic procrastination and avoidance of difficult truths.\n2. **Passionate Action**: Work undertaken with heavy craving for applause and validation. Produces short bursts followed inevitably by deep burnout and anxiety.\n3. **Mastery Action**: Work performed as a matter of duty and craft, free from emotional attachment to the fruit, executed without resentment or frantic desire.\n\n---\n\n### Level 3: The Three Archetypes of the Doer (Who You Are)\n\n| Dimension | The Inertial Doer | The Reactive / Passionate Doer | The Self-Mastered Doer |\n| :--- | :--- | :--- | :--- |\n| **Motivation** | Avoidance, fear, lethargy | Validation, greed, triumph over rivals | Dedication to duty, truth, and craft |\n| **Response to Praise/Insult** | Indifference or cynicism | Volatile; elation on praise, fury on insult | Unmoved; anchors in inherent value |\n| **Response to Failure** | Blame, victimhood, depression | Rage, acute anxiety, self-pity | Objective reflection & immediate calibration |\n| **Work Ethic** | Chronic delay, undisciplined | Frenetic, chaotic, over-straining | Steady, cheerful, resolute, unshakeable |\n\n---\n\n### How to Apply the Framework Daily (The Diagnostic Pivot)\n\nWhenever you find yourself stressed, offended, or emotionally reactive, run this **3-Question Diagnostic Pivot**:\n\n```mermaid\ngraph TD\n    Q1[1. Where is my perception right now?<br>Am I taking this personally, or seeing their internal state with curiosity?]\n    --> Q2[2. Why am I doing this work right now?<br>Am I craving external applause, or focusing purely on the craft?]\n    --> Q3[3. Who is doing this work?<br>Is my fragile ego on the line, or am I acting as a calm, unshakeable steward?]\n```\n\n---\n\n### The Core Takeaway to Remember\n> You cannot control the opinions, outbursts, or storms of the outside world, but you hold complete sovereignty over the vessel of your mind. Remember that other people's behavior is a reflection of their storm, your intrinsic value cannot be crumpled by external noise, and when there is no enemy within, no enemy outside can touch your peace.\n",
+  "proposed_diff": {
+    "section_name": "## Extended Mechanical Insights",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **Mechanic**: Braking, when there is any sign of danger, braking is completely automatic. That is, *(Source: [CjVQJdIrDJ0](https://www.youtube.com/watch?v=CjVQJdIrDJ0))*",
+    "unified_diff": "--- a/src/content/topics/the-three-modes-of-execution.md\n+++ b/src/content/topics/the-three-modes-of-execution.md\n@@ -0,0 +1,2 @@\n+### Extended Mechanical Insight\n+- **Mechanic**: Braking, when there is any sign of danger, braking is completely automatic. That is, *(Source: [CjVQJdIrDJ0](https://www.youtube.com/watch?v=CjVQJdIrDJ0))*\n"
+  }
+}

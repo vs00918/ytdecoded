@@ -1,0 +1,30 @@
+{
+  "proposal_id": "PROP-20260901-021",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-architecture-of-social-connectivity",
+  "target_topic_title": "The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'",
+  "routing_decision": "EXAMPLE_OR_APPLICATION",
+  "confidence": "HIGH",
+  "confidence_score": 0.9,
+  "rationale": "Source provides a concrete illustrative analogy or application that maps directly to the mechanisms of \"The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "EXM-005",
+      "entity_type": "ANALOGY",
+      "entity_text": "fear-based emotions like adding logs to",
+      "start": 550,
+      "end": 554.8,
+      "quoted_text": "fear-based emotions like adding logs to"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Tactical Applications & Concrete Analogies",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Preserved Case Analogy\n> \"fear-based emotions like adding logs to\"\n> — *Source: [5gdXbMoTEZg (550s)](https://www.youtube.com/watch?v=5gdXbMoTEZg)*",
+    "unified_diff": "--- a/src/content/topics/the-architecture-of-social-connectivity.md\n+++ b/src/content/topics/the-architecture-of-social-connectivity.md\n@@ -0,0 +1,5 @@\n+\n+### Preserved Case Analogy\n+> \"fear-based emotions like adding logs to\"\n+> — *Source: [5gdXbMoTEZg (550s)](https://www.youtube.com/watch?v=5gdXbMoTEZg)*\n+\n"
+  }
+}

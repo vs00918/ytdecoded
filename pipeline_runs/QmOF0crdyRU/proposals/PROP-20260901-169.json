@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-169",
+  "created_at": "2026-09-01T15:11:31.301Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-223",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2590",
+      "start": 7227,
+      "end": 7229.7,
+      "quoted_text": "Sperm concentration, sperm quality"
+    },
+    {
+      "entity_id": "CLM-2591",
+      "start": 7229.7,
+      "end": 7232.6,
+      "quoted_text": "is actually greatly increased by Macuna Pruriens."
+    },
+    {
+      "entity_id": "CLM-2592",
+      "start": 7232.6,
+      "end": 7234.7,
+      "quoted_text": "These are kind of curious effects until you understand"
+    },
+    {
+      "entity_id": "CLM-2593",
+      "start": 7234.7,
+      "end": 7236.4,
+      "quoted_text": "a little bit more about the biology of dopamine"
+    },
+    {
+      "entity_id": "CLM-2594",
+      "start": 7236.4,
+      "end": 7237.9,
+      "quoted_text": "which I'll mention in a moment,"
+    },
+    {
+      "entity_id": "CLM-2595",
+      "start": 7237.9,
+      "end": 7240.3,
+      "quoted_text": "but there are several studies,"
+    },
+    {
+      "entity_id": "CLM-2596",
+      "start": 7240.3,
+      "end": 7245.3,
+      "quoted_text": "four in fact that describe how Macuna Pruriens"
+    },
+    {
+      "entity_id": "CLM-2597",
+      "start": 7245.4,
+      "end": 7248.2,
+      "quoted_text": "can increase sperm count, sperm quality,"
+    },
+    {
+      "entity_id": "CLM-2598",
+      "start": 7249.7,
+      "end": 7252,
+      "quoted_text": "So for those of you seeking to conceive children,"
+    },
+    {
+      "entity_id": "CLM-2599",
+      "start": 7252,
+      "end": 7255,
+      "quoted_text": "Macuna Pruriens might be an interesting choice"
+    },
+    {
+      "entity_id": "CLM-2600",
+      "start": 7255,
+      "end": 7256.5,
+      "quoted_text": "if you're interested in exploring"
+    },
+    {
+      "entity_id": "CLM-2601",
+      "start": 7256.5,
+      "end": 7258.1,
+      "quoted_text": "non-prescription compounds."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Sperm concentration, sperm quality\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7227s-7229s]: \"Sperm concentration, sperm quality\"\n  - [7229s-7232s]: \"is actually greatly increased by Macuna Pruriens.\"\n  - [7232s-7234s]: \"These are kind of curious effects until you understand\"\n  - [7234s-7236s]: \"a little bit more about the biology of dopamine\"\n  - [7236s-7237s]: \"which I'll mention in a moment,\"\n  - [7237s-7240s]: \"but there are several studies,\"\n  - [7240s-7245s]: \"four in fact that describe how Macuna Pruriens\"\n  - [7245s-7248s]: \"can increase sperm count, sperm quality,\"\n  - [7249s-7252s]: \"So for those of you seeking to conceive children,\"\n  - [7252s-7255s]: \"Macuna Pruriens might be an interesting choice\"\n  - [7255s-7256s]: \"if you're interested in exploring\"\n  - [7256s-7258s]: \"non-prescription compounds.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Sperm concentration, sperm quality\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7227s-7229s]: \"Sperm concentration, sperm quality\"\n+  - [7229s-7232s]: \"is actually greatly increased by Macuna Pruriens.\"\n+  - [7232s-7234s]: \"These are kind of curious effects until you understand\"\n+  - [7234s-7236s]: \"a little bit more about the biology of dopamine\"\n+  - [7236s-7237s]: \"which I'll mention in a moment,\"\n+  - [7237s-7240s]: \"but there are several studies,\"\n+  - [7240s-7245s]: \"four in fact that describe how Macuna Pruriens\"\n+  - [7245s-7248s]: \"can increase sperm count, sperm quality,\"\n+  - [7249s-7252s]: \"So for those of you seeking to conceive children,\"\n+  - [7252s-7255s]: \"Macuna Pruriens might be an interesting choice\"\n+  - [7255s-7256s]: \"if you're interested in exploring\"\n+  - [7256s-7258s]: \"non-prescription compounds.\"\n"
+  }
+}

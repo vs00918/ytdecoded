@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-033",
+  "created_at": "2026-09-01T15:11:18.100Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-039",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for CjVQJdIrDJ0",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-442",
+      "start": 3206.9,
+      "end": 3212.9,
+      "quoted_text": "have there been functional MRI, diffusion-spectral imaging, diffusion-tensoral imaging studies"
+    },
+    {
+      "entity_id": "CLM-443",
+      "start": 3212.9,
+      "end": 3220.3,
+      "quoted_text": "that highlight whether System 1 is more primal brain initial activation and System 2 is more"
+    },
+    {
+      "entity_id": "CLM-444",
+      "start": 3220.3,
+      "end": 3221.3,
+      "quoted_text": "neocortex?"
+    },
+    {
+      "entity_id": "CLM-445",
+      "start": 3221.3,
+      "end": 3233.5,
+      "quoted_text": ">>Kahneman: Well, you know, System 1 is extremely sophisticated. So it's not, that is in part"
+    },
+    {
+      "entity_id": "CLM-446",
+      "start": 3233.5,
+      "end": 3239.9,
+      "quoted_text": "why I don't believe there is any simple representation in the brain of those two systems because"
+    },
+    {
+      "entity_id": "CLM-447",
+      "start": 3239.9,
+      "end": 3246.7,
+      "quoted_text": "what I've called System 1 operation by their characteristics include both innate responses"
+    },
+    {
+      "entity_id": "CLM-448",
+      "start": 3246.7,
+      "end": 3254.6,
+      "quoted_text": "and highly skilled responses. And the whole the representation of world knowledge is in"
+    },
+    {
+      "entity_id": "CLM-449",
+      "start": 3254.6,
+      "end": 3262,
+      "quoted_text": "System 1. So it's hard to classify one as primitive. And I should add that System 2,"
+    },
+    {
+      "entity_id": "CLM-450",
+      "start": 3262,
+      "end": 3269.3,
+      "quoted_text": "the reasoning system as it were is not necessarily rational. I mean, System 2 knows what it knows."
+    },
+    {
+      "entity_id": "CLM-451",
+      "start": 3269.3,
+      "end": 3276.9,
+      "quoted_text": "It knows what we know and we don't know a lot. So it's not that System 2 is infallible"
+    },
+    {
+      "entity_id": "CLM-452",
+      "start": 3276.9,
+      "end": 3282,
+      "quoted_text": "and that all the mistakes come from System 1. We make very significant mistakes when"
+    },
+    {
+      "entity_id": "CLM-453",
+      "start": 3282,
+      "end": 3284.9,
+      "quoted_text": "we think very seriously. Yes."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for CjVQJdIrDJ0\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=CjVQJdIrDJ0.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for CjVQJdIrDJ0\n\n## Core Mechanics\n- **Core Thesis**: have there been functional MRI, diffusion-spectral imaging, diffusion-tensoral imaging studies\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CjVQJdIrDJ0)\n  - [3206s-3212s]: \"have there been functional MRI, diffusion-spectral imaging, diffusion-tensoral imaging studies\"\n  - [3212s-3220s]: \"that highlight whether System 1 is more primal brain initial activation and System 2 is more\"\n  - [3220s-3221s]: \"neocortex?\"\n  - [3221s-3233s]: \">>Kahneman: Well, you know, System 1 is extremely sophisticated. So it's not, that is in part\"\n  - [3233s-3239s]: \"why I don't believe there is any simple representation in the brain of those two systems because\"\n  - [3239s-3246s]: \"what I've called System 1 operation by their characteristics include both innate responses\"\n  - [3246s-3254s]: \"and highly skilled responses. And the whole the representation of world knowledge is in\"\n  - [3254s-3262s]: \"System 1. So it's hard to classify one as primitive. And I should add that System 2,\"\n  - [3262s-3269s]: \"the reasoning system as it were is not necessarily rational. I mean, System 2 knows what it knows.\"\n  - [3269s-3276s]: \"It knows what we know and we don't know a lot. So it's not that System 2 is infallible\"\n  - [3276s-3282s]: \"and that all the mistakes come from System 1. We make very significant mistakes when\"\n  - [3282s-3284s]: \"we think very seriously. Yes.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for CjVQJdIrDJ0\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=CjVQJdIrDJ0.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for CjVQJdIrDJ0\n+\n+## Core Mechanics\n+- **Core Thesis**: have there been functional MRI, diffusion-spectral imaging, diffusion-tensoral imaging studies\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CjVQJdIrDJ0)\n+  - [3206s-3212s]: \"have there been functional MRI, diffusion-spectral imaging, diffusion-tensoral imaging studies\"\n+  - [3212s-3220s]: \"that highlight whether System 1 is more primal brain initial activation and System 2 is more\"\n+  - [3220s-3221s]: \"neocortex?\"\n+  - [3221s-3233s]: \">>Kahneman: Well, you know, System 1 is extremely sophisticated. So it's not, that is in part\"\n+  - [3233s-3239s]: \"why I don't believe there is any simple representation in the brain of those two systems because\"\n+  - [3239s-3246s]: \"what I've called System 1 operation by their characteristics include both innate responses\"\n+  - [3246s-3254s]: \"and highly skilled responses. And the whole the representation of world knowledge is in\"\n+  - [3254s-3262s]: \"System 1. So it's hard to classify one as primitive. And I should add that System 2,\"\n+  - [3262s-3269s]: \"the reasoning system as it were is not necessarily rational. I mean, System 2 knows what it knows.\"\n+  - [3269s-3276s]: \"It knows what we know and we don't know a lot. So it's not that System 2 is infallible\"\n+  - [3276s-3282s]: \"and that all the mistakes come from System 1. We make very significant mistakes when\"\n+  - [3282s-3284s]: \"we think very seriously. Yes.\"\n"
+  }
+}

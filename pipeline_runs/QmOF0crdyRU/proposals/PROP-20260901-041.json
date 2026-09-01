@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-041",
+  "created_at": "2026-09-01T15:11:31.265Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-049",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-558",
+      "start": 1515.9,
+      "end": 1518.6,
+      "quoted_text": "Glutamate is a neurotransmitter"
+    },
+    {
+      "entity_id": "CLM-559",
+      "start": 1518.6,
+      "end": 1521.2,
+      "quoted_text": "and it's a neurotransmitter that is excitatory,"
+    },
+    {
+      "entity_id": "CLM-560",
+      "start": 1521.2,
+      "end": 1524.8,
+      "quoted_text": "meaning it stimulates neurons to be electrically active."
+    },
+    {
+      "entity_id": "CLM-561",
+      "start": 1524.8,
+      "end": 1528.4,
+      "quoted_text": "So now even if you don't know any cell biology,"
+    },
+    {
+      "entity_id": "CLM-562",
+      "start": 1528.4,
+      "end": 1530,
+      "quoted_text": "you should start to gain a picture"
+    },
+    {
+      "entity_id": "CLM-563",
+      "start": 1530,
+      "end": 1532.6,
+      "quoted_text": "that dopamine is responsible for movement,"
+    },
+    {
+      "entity_id": "CLM-564",
+      "start": 1532.6,
+      "end": 1534.1,
+      "quoted_text": "motivation and drive."
+    },
+    {
+      "entity_id": "CLM-565",
+      "start": 1534.1,
+      "end": 1535.8,
+      "quoted_text": "It does that through two pathways,"
+    },
+    {
+      "entity_id": "CLM-566",
+      "start": 1535.8,
+      "end": 1539.7,
+      "quoted_text": "but also the dopamine stimulates action in general,"
+    },
+    {
+      "entity_id": "CLM-567",
+      "start": 1539.7,
+      "end": 1542,
+      "quoted_text": "because it releases this excitatory neurotransmitter."
+    },
+    {
+      "entity_id": "CLM-568",
+      "start": 1542,
+      "end": 1545.9,
+      "quoted_text": "It tends to make certain neurons that are nearby"
+    },
+    {
+      "entity_id": "CLM-569",
+      "start": 1545.9,
+      "end": 1547.1,
+      "quoted_text": "or even that are far away,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Glutamate is a neurotransmitter\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1515s-1518s]: \"Glutamate is a neurotransmitter\"\n  - [1518s-1521s]: \"and it's a neurotransmitter that is excitatory,\"\n  - [1521s-1524s]: \"meaning it stimulates neurons to be electrically active.\"\n  - [1524s-1528s]: \"So now even if you don't know any cell biology,\"\n  - [1528s-1530s]: \"you should start to gain a picture\"\n  - [1530s-1532s]: \"that dopamine is responsible for movement,\"\n  - [1532s-1534s]: \"motivation and drive.\"\n  - [1534s-1535s]: \"It does that through two pathways,\"\n  - [1535s-1539s]: \"but also the dopamine stimulates action in general,\"\n  - [1539s-1542s]: \"because it releases this excitatory neurotransmitter.\"\n  - [1542s-1545s]: \"It tends to make certain neurons that are nearby\"\n  - [1545s-1547s]: \"or even that are far away,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Glutamate is a neurotransmitter\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1515s-1518s]: \"Glutamate is a neurotransmitter\"\n+  - [1518s-1521s]: \"and it's a neurotransmitter that is excitatory,\"\n+  - [1521s-1524s]: \"meaning it stimulates neurons to be electrically active.\"\n+  - [1524s-1528s]: \"So now even if you don't know any cell biology,\"\n+  - [1528s-1530s]: \"you should start to gain a picture\"\n+  - [1530s-1532s]: \"that dopamine is responsible for movement,\"\n+  - [1532s-1534s]: \"motivation and drive.\"\n+  - [1534s-1535s]: \"It does that through two pathways,\"\n+  - [1535s-1539s]: \"but also the dopamine stimulates action in general,\"\n+  - [1539s-1542s]: \"because it releases this excitatory neurotransmitter.\"\n+  - [1542s-1545s]: \"It tends to make certain neurons that are nearby\"\n+  - [1545s-1547s]: \"or even that are far away,\"\n"
+  }
+}

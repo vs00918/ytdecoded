@@ -1,0 +1,117 @@
+---
+import ReaderLayout from '../layouts/ReaderLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import type { SynthesisProposal } from '../pipeline/proposal-types';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ledgerPath = path.join(__dirname, '..', '..', 'data', 'proposals-ledger.json');
+
+let proposals: SynthesisProposal[] = [];
+if (fs.existsSync(ledgerPath)) {
+  try {
+    proposals = JSON.parse(fs.readFileSync(ledgerPath, 'utf8'));
+  } catch {
+    proposals = [];
+  }
+}
+
+// Sort newest first
+proposals.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+
+const pendingCount = proposals.filter((p) => p.state === 'PROPOSED' || p.state === 'HUMAN_REVIEW').length;
+const appliedCount = proposals.filter((p) => p.state === 'APPLIED').length;
+const rejectedCount = proposals.filter((p) => p.state === 'REJECTED').length;
+---
+
+<ReaderLayout title="Human Curation Workbench — Proposals" description="Inspect, review, and decide on AI-extracted synthesis proposals before canonical integration.">
+  <main class="reader-container" style="max-width: 1000px; padding: 2rem 1.5rem;">
+    <header style="margin-bottom: 2.5rem; border-bottom: 1px solid var(--border-color, #e5e7eb); padding-bottom: 1.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #b45309;">Human Curation Workbench</span>
+          <h1 style="font-family: var(--font-serif); font-size: 2.2rem; margin: 0.3rem 0; color: var(--text-color);">Synthesis Proposals Queue</h1>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin: 0;">
+            Evidence-backed candidate changes awaiting human verification before canonical integration.
+          </p>
+        </div>
+        <div style="display: flex; gap: 0.8rem;">
+          <a href="/" style="padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid var(--border-color); color: var(--text-color); text-decoration: none; font-size: 0.85rem; font-weight: 500;">← Back to Codex</a>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Summary -->
+      <div style="display: flex; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
+        <div style="padding: 0.8rem 1.2rem; border-radius: 8px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2);">
+          <div style="font-size: 0.75rem; font-weight: 600; color: #b45309; text-transform: uppercase;">Needs Review</div>
+          <div style="font-size: 1.4rem; font-weight: 700; color: #b45309;">{pendingCount}</div>
+        </div>
+        <div style="padding: 0.8rem 1.2rem; border-radius: 8px; background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.2);">
+          <div style="font-size: 0.75rem; font-weight: 600; color: #047857; text-transform: uppercase;">Applied to Codex</div>
+          <div style="font-size: 1.4rem; font-weight: 700; color: #047857;">{appliedCount}</div>
+        </div>
+        <div style="padding: 0.8rem 1.2rem; border-radius: 8px; background: rgba(107, 114, 128, 0.08); border: 1px solid rgba(107, 114, 128, 0.2);">
+          <div style="font-size: 0.75rem; font-weight: 600; color: #4b5563; text-transform: uppercase;">Rejected</div>
+          <div style="font-size: 1.4rem; font-weight: 700; color: #4b5563;">{rejectedCount}</div>
+        </div>
+      </div>
+    </header>
+
+    {proposals.length === 0 ? (
+      <div style="text-align: center; padding: 4rem 1rem; border: 2px dashed var(--border-color); border-radius: 12px;">
+        <h3 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem;">No Proposals in Ledger</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">Run the ingestion pipeline on a YouTube URL to generate synthesis candidates.</p>
+      </div>
+    ) : (
+      <div style="display: flex; flex-direction: column; gap: 1.2rem;">
+        {proposals.map((prop) => (
+          <article style="border: 1px solid var(--border-color); border-radius: 10px; padding: 1.4rem; background: var(--card-bg, #fff); box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: transform 0.15s ease;">
+            <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.8rem;">
+              <div>
+                <span style="font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; color: var(--text-muted);">{prop.proposal_id}</span>
+                <span style={`margin-left: 0.5rem; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px; ${
+                  prop.state === 'APPLIED' ? 'background: #d1fae5; color: #065f46;' :
+                  prop.state === 'REJECTED' ? 'background: #fee2e2; color: #991b1b;' :
+                  'background: #fef3c7; color: #92400e;'
+                }`}>
+                  {prop.state}
+                </span>
+                <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.5rem; border-radius: 4px; background: rgba(59, 130, 246, 0.1); color: #1d4ed8;">
+                  {prop.routing_decision}
+                </span>
+              </div>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">
+                {new Date(prop.created_at).toLocaleDateString()}
+              </div>
+            </div>
+
+            <h2 style="font-family: var(--font-serif); font-size: 1.25rem; margin: 0.3rem 0 0.6rem 0; color: var(--text-color);">
+              {prop.target_topic_title || 'Proposed New Topic'}
+            </h2>
+
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem; line-height: 1.5;">
+              <strong>Rationale:</strong> {prop.rationale}
+            </p>
+
+            <div style="background: rgba(0,0,0,0.03); border-radius: 6px; padding: 0.8rem 1rem; margin-bottom: 1rem; font-size: 0.85rem;">
+              <div style="font-weight: 600; margin-bottom: 0.3rem; color: var(--text-color);">
+                Source: <a href={prop.video_url} target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">{prop.video_title || prop.video_id} ↗</a>
+              </div>
+              <div style="color: var(--text-muted);">
+                Evidence Spans: {prop.supporting_evidence.length} quotations captured with timestamps
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: flex-end; gap: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 0.8rem;">
+              <a href={`/proposals/${prop.proposal_id}`} style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.9rem; border-radius: 6px; background: #1e293b; color: #fff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">
+                Inspect Diff & Decide →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    )}
+  </main>
+</ReaderLayout>

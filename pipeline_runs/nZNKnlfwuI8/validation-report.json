@@ -1,0 +1,11 @@
+{
+  "is_valid": true,
+  "video_id": "nZNKnlfwuI8",
+  "total_claims": 4,
+  "verified_claims": 4,
+  "unbacked_claims": 0,
+  "dangling_references": 0,
+  "total_entities": 11,
+  "errors": [],
+  "warnings": []
+}

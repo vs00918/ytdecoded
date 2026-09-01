@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-123",
+  "created_at": "2026-09-01T15:11:31.289Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-159",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1842",
+      "start": 5090,
+      "end": 5092.6,
+      "quoted_text": "Whether or not MDMA is neurotoxic"
+    },
+    {
+      "entity_id": "CLM-1843",
+      "start": 5092.6,
+      "end": 5093.9,
+      "quoted_text": "has been very controversial."
+    },
+    {
+      "entity_id": "CLM-1844",
+      "start": 5093.9,
+      "end": 5096.3,
+      "quoted_text": "Early on it was thought that it is neurotoxic"
+    },
+    {
+      "entity_id": "CLM-1845",
+      "start": 5096.3,
+      "end": 5098.9,
+      "quoted_text": "that it can destroy serotonergic neurons."
+    },
+    {
+      "entity_id": "CLM-1846",
+      "start": 5100,
+      "end": 5101.7,
+      "quoted_text": "There were other papers that came out"
+    },
+    {
+      "entity_id": "CLM-1847",
+      "start": 5101.7,
+      "end": 5104.6,
+      "quoted_text": "which argued that's not the case."
+    },
+    {
+      "entity_id": "CLM-1848",
+      "start": 5104.6,
+      "end": 5107.7,
+      "quoted_text": "And that's in particular because one of the early papers"
+    },
+    {
+      "entity_id": "CLM-1849",
+      "start": 5107.7,
+      "end": 5110.5,
+      "quoted_text": "published in science magazine claiming"
+    },
+    {
+      "entity_id": "CLM-1850",
+      "start": 5110.5,
+      "end": 5112.3,
+      "quoted_text": "that MDMA was neurotoxic."
+    },
+    {
+      "entity_id": "CLM-1851",
+      "start": 5113.4,
+      "end": 5114.7,
+      "quoted_text": "That paper was retracted."
+    },
+    {
+      "entity_id": "CLM-1852",
+      "start": 5114.7,
+      "end": 5117.4,
+      "quoted_text": "It turns out that that study had mistakenly"
+    },
+    {
+      "entity_id": "CLM-1853",
+      "start": 5117.4,
+      "end": 5119.5,
+      "quoted_text": "used methamphetamine instead,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Whether or not MDMA is neurotoxic\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5090s-5092s]: \"Whether or not MDMA is neurotoxic\"\n  - [5092s-5093s]: \"has been very controversial.\"\n  - [5093s-5096s]: \"Early on it was thought that it is neurotoxic\"\n  - [5096s-5098s]: \"that it can destroy serotonergic neurons.\"\n  - [5100s-5101s]: \"There were other papers that came out\"\n  - [5101s-5104s]: \"which argued that's not the case.\"\n  - [5104s-5107s]: \"And that's in particular because one of the early papers\"\n  - [5107s-5110s]: \"published in science magazine claiming\"\n  - [5110s-5112s]: \"that MDMA was neurotoxic.\"\n  - [5113s-5114s]: \"That paper was retracted.\"\n  - [5114s-5117s]: \"It turns out that that study had mistakenly\"\n  - [5117s-5119s]: \"used methamphetamine instead,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Whether or not MDMA is neurotoxic\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5090s-5092s]: \"Whether or not MDMA is neurotoxic\"\n+  - [5092s-5093s]: \"has been very controversial.\"\n+  - [5093s-5096s]: \"Early on it was thought that it is neurotoxic\"\n+  - [5096s-5098s]: \"that it can destroy serotonergic neurons.\"\n+  - [5100s-5101s]: \"There were other papers that came out\"\n+  - [5101s-5104s]: \"which argued that's not the case.\"\n+  - [5104s-5107s]: \"And that's in particular because one of the early papers\"\n+  - [5107s-5110s]: \"published in science magazine claiming\"\n+  - [5110s-5112s]: \"that MDMA was neurotoxic.\"\n+  - [5113s-5114s]: \"That paper was retracted.\"\n+  - [5114s-5117s]: \"It turns out that that study had mistakenly\"\n+  - [5117s-5119s]: \"used methamphetamine instead,\"\n"
+  }
+}

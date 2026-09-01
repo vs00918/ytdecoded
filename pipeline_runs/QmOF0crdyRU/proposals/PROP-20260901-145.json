@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-145",
+  "created_at": "2026-09-01T15:11:31.296Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-190",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2205",
+      "start": 6116.8,
+      "end": 6120.9,
+      "quoted_text": "but striving itself is the end goal."
+    },
+    {
+      "entity_id": "CLM-2206",
+      "start": 6120.9,
+      "end": 6123.4,
+      "quoted_text": "And that of course delivers you to tremendous performance."
+    },
+    {
+      "entity_id": "CLM-2207",
+      "start": 6123.4,
+      "end": 6125.2,
+      "quoted_text": "It's been observed over and over and over again,"
+    },
+    {
+      "entity_id": "CLM-2208",
+      "start": 6125.2,
+      "end": 6126.6,
+      "quoted_text": "that people that have growth mindset,"
+    },
+    {
+      "entity_id": "CLM-2209",
+      "start": 6126.6,
+      "end": 6129.5,
+      "quoted_text": "kids that have growth mindset end up performing very well"
+    },
+    {
+      "entity_id": "CLM-2210",
+      "start": 6129.5,
+      "end": 6131.7,
+      "quoted_text": "because they're focused on the effort itself."
+    },
+    {
+      "entity_id": "CLM-2211",
+      "start": 6131.7,
+      "end": 6135.6,
+      "quoted_text": "And all of us can cultivate growth mindset."
+    },
+    {
+      "entity_id": "CLM-2212",
+      "start": 6135.6,
+      "end": 6138.2,
+      "quoted_text": "The neural mechanism of cultivating growth mindset"
+    },
+    {
+      "entity_id": "CLM-2213",
+      "start": 6138.2,
+      "end": 6142.6,
+      "quoted_text": "involves learning to access the rewards from effort"
+    },
+    {
+      "entity_id": "CLM-2214",
+      "start": 6143.8,
+      "end": 6147.9,
+      "quoted_text": "And that's hard to do because you have to engage"
+    },
+    {
+      "entity_id": "CLM-2215",
+      "start": 6147.9,
+      "end": 6150.4,
+      "quoted_text": "this prefrontal component of the mesolimbic circuit."
+    },
+    {
+      "entity_id": "CLM-2216",
+      "start": 6150.4,
+      "end": 6153.7,
+      "quoted_text": "You have to tell yourself, okay, this effort is great,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: but striving itself is the end goal.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [6116s-6120s]: \"but striving itself is the end goal.\"\n  - [6120s-6123s]: \"And that of course delivers you to tremendous performance.\"\n  - [6123s-6125s]: \"It's been observed over and over and over again,\"\n  - [6125s-6126s]: \"that people that have growth mindset,\"\n  - [6126s-6129s]: \"kids that have growth mindset end up performing very well\"\n  - [6129s-6131s]: \"because they're focused on the effort itself.\"\n  - [6131s-6135s]: \"And all of us can cultivate growth mindset.\"\n  - [6135s-6138s]: \"The neural mechanism of cultivating growth mindset\"\n  - [6138s-6142s]: \"involves learning to access the rewards from effort\"\n  - [6143s-6147s]: \"And that's hard to do because you have to engage\"\n  - [6147s-6150s]: \"this prefrontal component of the mesolimbic circuit.\"\n  - [6150s-6153s]: \"You have to tell yourself, okay, this effort is great,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: but striving itself is the end goal.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [6116s-6120s]: \"but striving itself is the end goal.\"\n+  - [6120s-6123s]: \"And that of course delivers you to tremendous performance.\"\n+  - [6123s-6125s]: \"It's been observed over and over and over again,\"\n+  - [6125s-6126s]: \"that people that have growth mindset,\"\n+  - [6126s-6129s]: \"kids that have growth mindset end up performing very well\"\n+  - [6129s-6131s]: \"because they're focused on the effort itself.\"\n+  - [6131s-6135s]: \"And all of us can cultivate growth mindset.\"\n+  - [6135s-6138s]: \"The neural mechanism of cultivating growth mindset\"\n+  - [6138s-6142s]: \"involves learning to access the rewards from effort\"\n+  - [6143s-6147s]: \"And that's hard to do because you have to engage\"\n+  - [6147s-6150s]: \"this prefrontal component of the mesolimbic circuit.\"\n+  - [6150s-6153s]: \"You have to tell yourself, okay, this effort is great,\"\n"
+  }
+}

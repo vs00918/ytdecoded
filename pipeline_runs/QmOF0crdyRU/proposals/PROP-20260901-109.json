@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-109",
+  "created_at": "2026-09-01T15:11:31.286Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-138",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1599",
+      "start": 4416.1,
+      "end": 4418.2,
+      "quoted_text": "is that that wouldn't be intermittent."
+    },
+    {
+      "entity_id": "CLM-1600",
+      "start": 4418.2,
+      "end": 4420.7,
+      "quoted_text": "The whole basis of intermittent reinforcement"
+    },
+    {
+      "entity_id": "CLM-1601",
+      "start": 4420.7,
+      "end": 4424.5,
+      "quoted_text": "is that you don't really have a specific schedule"
+    },
+    {
+      "entity_id": "CLM-1602",
+      "start": 4424.5,
+      "end": 4426.6,
+      "quoted_text": "of when dopamine is going to be high,"
+    },
+    {
+      "entity_id": "CLM-1603",
+      "start": 4426.6,
+      "end": 4428.1,
+      "quoted_text": "and when dopamine is going to be low"
+    },
+    {
+      "entity_id": "CLM-1604",
+      "start": 4428.1,
+      "end": 4429.9,
+      "quoted_text": "and when dopamine is going to be medium."
+    },
+    {
+      "entity_id": "CLM-1605",
+      "start": 4429.9,
+      "end": 4431.4,
+      "quoted_text": "That's a predictable schedule,"
+    },
+    {
+      "entity_id": "CLM-1606",
+      "start": 4431.4,
+      "end": 4433.9,
+      "quoted_text": "not a random intermittent schedule."
+    },
+    {
+      "entity_id": "EXM-047",
+      "start": 4433.9,
+      "end": 4437.2,
+      "quoted_text": "So do like the casinos do certainly works for them"
+    },
+    {
+      "entity_id": "EXM-048",
+      "start": 4437.2,
+      "end": 4440.6,
+      "quoted_text": "and for activities that you would like to continue to engage"
+    },
+    {
+      "entity_id": "CLM-1607",
+      "start": 4441.8,
+      "end": 4444,
+      "quoted_text": "whatever those happen to be."
+    },
+    {
+      "entity_id": "CLM-1608",
+      "start": 4444,
+      "end": 4447.1,
+      "quoted_text": "Start paying attention to the amount of dopamine"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: is that that wouldn't be intermittent.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4416s-4418s]: \"is that that wouldn't be intermittent.\"\n  - [4418s-4420s]: \"The whole basis of intermittent reinforcement\"\n  - [4420s-4424s]: \"is that you don't really have a specific schedule\"\n  - [4424s-4426s]: \"of when dopamine is going to be high,\"\n  - [4426s-4428s]: \"and when dopamine is going to be low\"\n  - [4428s-4429s]: \"and when dopamine is going to be medium.\"\n  - [4429s-4431s]: \"That's a predictable schedule,\"\n  - [4431s-4433s]: \"not a random intermittent schedule.\"\n  - [4433s-4437s]: \"So do like the casinos do certainly works for them\"\n  - [4437s-4440s]: \"and for activities that you would like to continue to engage\"\n  - [4441s-4444s]: \"whatever those happen to be.\"\n  - [4444s-4447s]: \"Start paying attention to the amount of dopamine\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: is that that wouldn't be intermittent.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4416s-4418s]: \"is that that wouldn't be intermittent.\"\n+  - [4418s-4420s]: \"The whole basis of intermittent reinforcement\"\n+  - [4420s-4424s]: \"is that you don't really have a specific schedule\"\n+  - [4424s-4426s]: \"of when dopamine is going to be high,\"\n+  - [4426s-4428s]: \"and when dopamine is going to be low\"\n+  - [4428s-4429s]: \"and when dopamine is going to be medium.\"\n+  - [4429s-4431s]: \"That's a predictable schedule,\"\n+  - [4431s-4433s]: \"not a random intermittent schedule.\"\n+  - [4433s-4437s]: \"So do like the casinos do certainly works for them\"\n+  - [4437s-4440s]: \"and for activities that you would like to continue to engage\"\n+  - [4441s-4444s]: \"whatever those happen to be.\"\n+  - [4444s-4447s]: \"Start paying attention to the amount of dopamine\"\n"
+  }
+}

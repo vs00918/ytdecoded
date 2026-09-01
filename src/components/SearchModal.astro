@@ -1,0 +1,302 @@
+---
+// SearchModal.astro - Quiet, library-grade static full-text search powered by Pagefind
+---
+
+<div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Search Knowledge Base">
+  <div class="search-backdrop" id="search-backdrop"></div>
+  
+  <div class="search-container">
+    <div class="search-header">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input 
+        type="search" 
+        id="search-input" 
+        class="search-input" 
+        placeholder="Search topics, models, tags, or concepts... (Press Esc to close)" 
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <button id="search-close-btn" class="search-close-btn" aria-label="Close search">✕</button>
+    </div>
+
+    <div class="search-status" id="search-status">Type a query to search across the Living Codex...</div>
+
+    <div class="search-results-list" id="search-results-list"></div>
+  </div>
+</div>
+
+<style>
+  .search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 300;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+    font-family: var(--font-ui);
+  }
+
+  .search-modal.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .search-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+  }
+
+  .search-container {
+    position: relative;
+    width: 100%;
+    max-width: 620px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 75vh;
+    margin: 0 16px;
+  }
+
+  .search-header {
+    display: flex;
+    align-items: center;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-card);
+    gap: 12px;
+  }
+
+  .search-icon {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+  }
+
+  .search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: var(--font-ui);
+    font-size: 1.05rem;
+    color: var(--text-primary);
+  }
+
+  .search-input::placeholder {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .search-close-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    transition: all 0.15s ease;
+  }
+
+  .search-close-btn:hover, .search-close-btn:focus-visible {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent);
+    outline: none;
+  }
+
+  .search-status {
+    padding: 10px 18px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+  }
+
+  .search-results-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Result card styling injected via JS */
+  :global(.search-result-card) {
+    display: block;
+    padding: 14px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.15s ease;
+  }
+
+  :global(.search-result-card:hover), :global(.search-result-card:focus-visible) {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--shadow);
+    outline: none;
+  }
+
+  :global(.search-result-title) {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  :global(.search-result-excerpt) {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
+  }
+
+  :global(.search-result-excerpt mark) {
+    background: var(--highlight);
+    color: var(--text-primary);
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+
+  @media (max-width: 640px) {
+    .search-modal {
+      padding-top: 2vh;
+    }
+    .search-container {
+      max-height: 90vh;
+      margin: 0 8px;
+    }
+  }
+</style>
+
+<script is:inline>
+  let pagefindInstance = null;
+
+  async function loadPagefind() {
+    if (!pagefindInstance) {
+      try {
+        pagefindInstance = await import('/ytdecoded/pagefind/pagefind.js');
+        await pagefindInstance.init();
+      } catch (err) {
+        console.warn('Pagefind index not yet generated (expected in dev mode before build)');
+      }
+    }
+  }
+
+  function setupSearch() {
+    const modal = document.getElementById('search-modal');
+    const backdrop = document.getElementById('search-backdrop');
+    const input = document.getElementById('search-input');
+    const closeBtn = document.getElementById('search-close-btn');
+    const triggerBtn = document.getElementById('search-trigger-btn');
+    const status = document.getElementById('search-status');
+    const resultsList = document.getElementById('search-results-list');
+
+    function openSearch() {
+      if (modal) {
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        loadPagefind();
+        setTimeout(() => input && input.focus(), 50);
+      }
+    }
+
+    function closeSearch() {
+      if (modal) {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        if (input) input.value = '';
+        if (resultsList) resultsList.innerHTML = '';
+        if (status) status.innerText = 'Type a query to search across the Living Codex...';
+      }
+    }
+
+    if (triggerBtn) triggerBtn.addEventListener('click', openSearch);
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+    if (backdrop) backdrop.addEventListener('click', closeSearch);
+
+    // Keyboard shortcuts: / or Cmd+K or Ctrl+K to open; Esc to close
+    window.addEventListener('keydown', (e) => {
+      if ((e.key === '/' || ((e.metaKey || e.ctrlKey) && e.key === 'k')) && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        openSearch();
+      }
+      if (e.key === 'Escape' && modal && modal.classList.contains('open')) {
+        closeSearch();
+      }
+    });
+
+    let debounceTimer;
+    if (input) {
+      input.addEventListener('input', (e) => {
+        clearTimeout(debounceTimer);
+        const query = e.target.value.trim();
+
+        if (!query) {
+          resultsList.innerHTML = '';
+          status.innerText = 'Type a query to search across the Living Codex...';
+          return;
+        }
+
+        debounceTimer = setTimeout(async () => {
+          if (!pagefindInstance) await loadPagefind();
+          if (!pagefindInstance) {
+            status.innerText = 'Search index available after static build.';
+            return;
+          }
+
+          status.innerText = `Searching for "${query}"...`;
+          const search = await pagefindInstance.search(query);
+          const results = search.results;
+
+          if (results.length === 0) {
+            status.innerText = `No results found for "${query}".`;
+            resultsList.innerHTML = '';
+            return;
+          }
+
+          status.innerText = `Found ${results.length} result(s) for "${query}":`;
+          resultsList.innerHTML = '';
+
+          const topResults = results.slice(0, 10);
+          for (const res of topResults) {
+            const data = await res.data();
+            const card = document.createElement('a');
+            card.className = 'search-result-card';
+            card.href = data.url;
+            card.innerHTML = `
+              <div class="search-result-title">${data.meta.title || 'Untitled Topic'}</div>
+              <div class="search-result-excerpt">${data.excerpt}</div>
+            `;
+            resultsList.appendChild(card);
+          }
+        }, 120);
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', setupSearch);
+</script>

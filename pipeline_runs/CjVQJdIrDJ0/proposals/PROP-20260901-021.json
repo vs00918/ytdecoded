@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-021",
+  "created_at": "2026-09-01T15:11:18.097Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-027",
+  "target_topic_slug": "the-high-agency-reset-breaking-autopilot",
+  "target_topic_title": "The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars",
+  "target_content_hash_before": "f01dee504e2b0b445335f556fc84419fe49cf424ab727ab3eb094162388ac037",
+  "routing_decision": "EXAMPLE_OR_APPLICATION",
+  "confidence": "HIGH",
+  "confidence_score": 0.9,
+  "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-303",
+      "start": 2187,
+      "end": 2195.5,
+      "quoted_text": "has blue eyes if her mother has blue eyes? Now again, as in the bat and ball, there is"
+    },
+    {
+      "entity_id": "CLM-304",
+      "start": 2195.5,
+      "end": 2200.9,
+      "quoted_text": "an intuitive response and the intuitive response is that it's more probable that a daughter"
+    },
+    {
+      "entity_id": "CLM-305",
+      "start": 2200.9,
+      "end": 2205.8,
+      "quoted_text": "has blue eyes if her mother has blue eyes than the other way around. If you stop to"
+    },
+    {
+      "entity_id": "CLM-306",
+      "start": 2205.8,
+      "end": 2211.1,
+      "quoted_text": "do the math on the assumption that the incidence of blue eyes is the same two generations the"
+    },
+    {
+      "entity_id": "CLM-307",
+      "start": 2211.1,
+      "end": 2218.7,
+      "quoted_text": "probabilities are strictly equal but even before you do the math, your reasoning flows"
+    },
+    {
+      "entity_id": "CLM-308",
+      "start": 2218.7,
+      "end": 2225.9,
+      "quoted_text": "along causal lines. Your thinking flows along causal lines. This happens intuitively. One"
+    },
+    {
+      "entity_id": "CLM-309",
+      "start": 2225.9,
+      "end": 2233.7,
+      "quoted_text": "of these feels okay. It feels more coherent and the coherence that we experience can be"
+    },
+    {
+      "entity_id": "CLM-310",
+      "start": 2233.7,
+      "end": 2239.9,
+      "quoted_text": "turned into a judgment of probability. That is, the confidence that we experience is a"
+    },
+    {
+      "entity_id": "CLM-311",
+      "start": 2239.9,
+      "end": 2254.1,
+      "quoted_text": "judgment of probability. Now, I'm going to skip the other example. And I said earlier"
+    },
+    {
+      "entity_id": "CLM-312",
+      "start": 2254.1,
+      "end": 2262.2,
+      "quoted_text": "that people have intuitions that are not necessarily true. And that people are confident in judgments"
+    },
+    {
+      "entity_id": "EXM-011",
+      "start": 2262.2,
+      "end": 2270.9,
+      "quoted_text": "that are not necessarily true. And I would like to sort of present a tentative theory"
+    },
+    {
+      "entity_id": "CLM-313",
+      "start": 2270.9,
+      "end": 2278.8,
+      "quoted_text": "about how that happened. And the general idea is very straightforward. When we're asked"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-high-agency-reset-breaking-autopilot\"\ntitle: \"The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 5\narchetype: \"TACTICAL_FRAMEWORK\"\nreading_time_minutes: 5\nsummary_15s: \"Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nMost human lives are not governed by conscious choice; they are governed by **subconscious inertia, algorithmic conditioning, and default drift**.\n\nWhen you wake up and immediately react to notifications, drift through workday obligations, consume hyper-stimulating entertainment in the evening, and sleep without reflection, your brain operates inside the **Autopilot Trap** (excessive dominance of the Default Mode Network).\n\nTo break free from reactive drift, you do not need chaotic, emotional motivation. You need **Monk Mode: a deterministic, high-agency operating system** that systematically recalibrates your dopamine sensitivity, executive focus, physical baseline, and skill trajectory.\n\n---\n\n### The Monk Mode Architecture: The 5 Non-Negotiable Pillars\n\n```mermaid\ngraph TD\n    subgraph The Monk Mode Pentad\n        P1[Pillar 1: Digital Blackout & Dopamine Fasting<br>Zero cheap algorithmic stimulation · Social media purge]\n        P2[Pillar 2: Monastic Deep Work<br>90-120 Min unbroken single-task cognitive sprints]\n        P3[Pillar 3: Physical Conditioning & Hormesis<br>Daily resistance/cardio · Cold exposure · Vagal reset]\n        P4[Pillar 4: Metabolic & Circadian Discipline<br>Whole-food nutrition · Fasting windows · 10 PM sleep anchor]\n        P5[Pillar 5: Stillness & Reflective Synthesis<br>15 Mins seated meditation · Evening journaling ledger]\n    end\n\n    P1 -->|Restores Dopamine Baseline for| P2\n    P2 -->|Compounds Practical Mastery via| P3\n    P3 -->|Stabilizes Biology & Energy through| P4\n    P4 -->|Deepens Mental Clarity for| P5\n    P5 -->|Protects Sovereignty & Feeds back into| P1\n```\n\n---\n\n### Pillar 1: Digital Blackout & Dopamine Fasting (Signal Calibration)\n* **The Problem**: Constant micro-stimulation desensitizes striatal dopamine receptors, making deep study feel painfully boring.\n* **The Non-Negotiable**: Enforce a total blackout on algorithmic short-form video, video games, and frivolous group chats throughout the Monk Mode sprint. High-dopamine inputs are quarantined or eliminated entirely.\n* **The Yield**: Baseline dopamine sensitivity recovers, restoring intrinsic fascination with difficult books, complex problems, and quiet crafts.\n\n---\n\n### Pillar 2: Monastic Deep Work (Cognitive Capital)\n* **The Problem**: Shallow work (checking emails, jumping across tabs, superficial reading) gives the illusion of productivity while building zero career leverage.\n* **The Protocol**: Complete at least one **90 to 120-minute unbroken cognitive block** every morning before the world begins demanding your attention.\n* **The Rule**: A single tab open, phone isolated in another room, and zero communication tools running.\n\n---\n\n### Pillar 3: Physical Conditioning & Hormesis (The Biological Anchor)\n* **The Problem**: A sedentary body traps chronic cortisol in tissues and depresses prefrontal blood circulation.\n* **The Practice**: 30 to 45 minutes of daily resistance training, high-intensity intervals, or brisk outdoor movement combined with cold showers.\n* **The Mechanism**: Physical exertion spikes Brain-Derived Neurotrophic Factor (BDNF) and endocannabinoids, eliminating mental restlessness and anchoring emotional stability.\n\n---\n\n### Pillar 4: Metabolic & Circadian Discipline (Clean Cellular Fuel)\n* **The Problem**: Heavy processed carbohydrates, late-night meals, and erratic sleep cycles induce systemic brain inflammation and afternoon crashes.\n* **The Standard**:\n  1. Eat nutrient-dense whole foods with zero refined sugars.\n  2. Maintain a consistent 8-hour sleep window anchored at 10:00 PM.\n  3. Hydrate immediately upon waking with 500ml of mineralized water.\n\n---\n\n### Pillar 5: Daily Stillness & Reflective Synthesis (Wisdom Ledger)\n* **The Problem**: Without reflection, mistakes are repeated daily and mental loops remain unclosed.\n* **The Practice**:\n  * **Morning Stillness**: 10 to 15 minutes of seated mindfulness/breath observation to expand the gap between stimulus and response.\n  * **Evening Ledger**: 5 minutes before bed recording:\n    1. *Where did I execute with high agency today?*\n    2. *Where did I experience resistance or leaks?*\n    3. *What is my single non-negotiable lead priority for tomorrow?*\n\n---\n\n### The Three Operational Rules of Monk Mode\n\n```mermaid\ngraph LR\n    A[Monk Mode Rules] --> R1[1. Binary Execution<br>Non-negotiables are 100% done or 0% done · No grey compromises]\n    A --> R2[2. Bounded Sprints<br>Operate in 21 to 60-day cycles]\n    A --> R3[3. Controlled Decompression<br>Never celebrate completion with a dopamine binge]\n```\n\n1. **Binary Execution (Zero Negotiation)**: Non-negotiables have no middle ground. An action is either executed or not. This eliminates the energy-draining mental debate (*\"Should I study today or rest?\"*).\n2. **Bounded Sprint Horizon**: Monk Mode is not a perpetual ascetic sentence; it is a **21 to 60-day high-intensity sprint** designed to create a quantum leap in skill, rank, or health.\n3. **Controlled Decompression (The Rebound Defense)**: The biggest trap of Monk Mode is bingeing on dopamine the day after completion. Transition smoothly into a sustainable high-standard baseline.\n\n---\n\n### The 21-Day Neuroplastic Transformation Curve\n\n```mermaid\ngraph LR\n    D1[Days 1-7: The Valley of Friction<br>Old dopamine habits fight for comfort · Boredom & resistance] \n    --> D2[Days 8-14: The Stabilization Phase<br>Routines become smooth · Focus stamina doubles] \n    --> D3[Days 15-21+: The Quantum Baseline<br>High-agency focus becomes your effortless default state]\n```\n\n* **The Friction Hurdle**: During the first 7 days, your subconscious will generate dozens of excuses to break the protocol.\n* **The Breakthrough**: By day 21, previous dopamine pathways atrophy, prefrontal control becomes second nature, and monastic focus feels calm, natural, and deeply empowering.\n\n---\n\n### The Core Takeaway to Remember\n> Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable result.\n",
+  "proposed_diff": {
+    "section_name": "## Tactical Applications & Concrete Analogies",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Preserved Case Analogy\n> \"has blue eyes if her mother has blue eyes? Now again, as in the bat and ball, there is\"\n> — *Source: [CjVQJdIrDJ0 (2187s)](https://www.youtube.com/watch?v=CjVQJdIrDJ0)*",
+    "unified_diff": "--- a/src/content/topics/the-high-agency-reset-breaking-autopilot.md\n+++ b/src/content/topics/the-high-agency-reset-breaking-autopilot.md\n@@ -0,0 +1,3 @@\n+### Preserved Case Analogy\n+> \"has blue eyes if her mother has blue eyes? Now again, as in the bat and ball, there is\"\n+> — *Source: [CjVQJdIrDJ0 (2187s)](https://www.youtube.com/watch?v=CjVQJdIrDJ0)*\n"
+  }
+}

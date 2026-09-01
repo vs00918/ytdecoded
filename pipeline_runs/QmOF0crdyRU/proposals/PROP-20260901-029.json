@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-029",
+  "created_at": "2026-09-01T15:11:31.263Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-035",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-396",
+      "start": 1066.3,
+      "end": 1067.7,
+      "quoted_text": "So we've got these two pathways."
+    },
+    {
+      "entity_id": "CLM-397",
+      "start": 1067.7,
+      "end": 1069.9,
+      "quoted_text": "One, mainly for movement, right?"
+    },
+    {
+      "entity_id": "CLM-398",
+      "start": 1069.9,
+      "end": 1073.1,
+      "quoted_text": "This is the substantia nigra to dorsal striatum."
+    },
+    {
+      "entity_id": "CLM-399",
+      "start": 1073.1,
+      "end": 1075.7,
+      "quoted_text": "And we've got this other pathway,"
+    },
+    {
+      "entity_id": "CLM-400",
+      "start": 1075.7,
+      "end": 1077.3,
+      "quoted_text": "the so-called mesocorticolimbic pathway,"
+    },
+    {
+      "entity_id": "CLM-401",
+      "start": 1077.3,
+      "end": 1080,
+      "quoted_text": "that's for reward, reinforcement and motivation."
+    },
+    {
+      "entity_id": "CLM-402",
+      "start": 1081,
+      "end": 1083.8,
+      "quoted_text": "I want you to remember that there are two pathways."
+    },
+    {
+      "entity_id": "CLM-403",
+      "start": 1083.8,
+      "end": 1086,
+      "quoted_text": "If you don't remember the two pathways in detail,"
+    },
+    {
+      "entity_id": "CLM-404",
+      "start": 1086.8,
+      "end": 1088.8,
+      "quoted_text": "But please remember that there are two pathways,"
+    },
+    {
+      "entity_id": "CLM-405",
+      "start": 1088.8,
+      "end": 1090.6,
+      "quoted_text": "because that turns out to be important later."
+    },
+    {
+      "entity_id": "CLM-406",
+      "start": 1090.6,
+      "end": 1093.7,
+      "quoted_text": "Now, the other thing to understand about dopamine is that,"
+    },
+    {
+      "entity_id": "CLM-407",
+      "start": 1093.7,
+      "end": 1097.9,
+      "quoted_text": "the way that dopamine is released in the brain and body"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: So we've got these two pathways.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1066s-1067s]: \"So we've got these two pathways.\"\n  - [1067s-1069s]: \"One, mainly for movement, right?\"\n  - [1069s-1073s]: \"This is the substantia nigra to dorsal striatum.\"\n  - [1073s-1075s]: \"And we've got this other pathway,\"\n  - [1075s-1077s]: \"the so-called mesocorticolimbic pathway,\"\n  - [1077s-1080s]: \"that's for reward, reinforcement and motivation.\"\n  - [1081s-1083s]: \"I want you to remember that there are two pathways.\"\n  - [1083s-1086s]: \"If you don't remember the two pathways in detail,\"\n  - [1086s-1088s]: \"But please remember that there are two pathways,\"\n  - [1088s-1090s]: \"because that turns out to be important later.\"\n  - [1090s-1093s]: \"Now, the other thing to understand about dopamine is that,\"\n  - [1093s-1097s]: \"the way that dopamine is released in the brain and body\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: So we've got these two pathways.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1066s-1067s]: \"So we've got these two pathways.\"\n+  - [1067s-1069s]: \"One, mainly for movement, right?\"\n+  - [1069s-1073s]: \"This is the substantia nigra to dorsal striatum.\"\n+  - [1073s-1075s]: \"And we've got this other pathway,\"\n+  - [1075s-1077s]: \"the so-called mesocorticolimbic pathway,\"\n+  - [1077s-1080s]: \"that's for reward, reinforcement and motivation.\"\n+  - [1081s-1083s]: \"I want you to remember that there are two pathways.\"\n+  - [1083s-1086s]: \"If you don't remember the two pathways in detail,\"\n+  - [1086s-1088s]: \"But please remember that there are two pathways,\"\n+  - [1088s-1090s]: \"because that turns out to be important later.\"\n+  - [1090s-1093s]: \"Now, the other thing to understand about dopamine is that,\"\n+  - [1093s-1097s]: \"the way that dopamine is released in the brain and body\"\n"
+  }
+}

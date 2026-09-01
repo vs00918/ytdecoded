@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-087",
+  "created_at": "2026-09-01T15:11:31.280Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-107",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1236",
+      "start": 3413.7,
+      "end": 3414.6,
+      "quoted_text": "Has this amazing book,"
+    },
+    {
+      "entity_id": "CLM-1237",
+      "start": 3414.6,
+      "end": 3418.1,
+      "quoted_text": "\"Dopamine Nation: Finding Balance in the Age of Indulgence\"."
+    },
+    {
+      "entity_id": "CLM-1238",
+      "start": 3418.1,
+      "end": 3419.1,
+      "quoted_text": "If you haven't read the book,"
+    },
+    {
+      "entity_id": "CLM-1239",
+      "start": 3419.1,
+      "end": 3421.2,
+      "quoted_text": "I highly encourage you to check it out."
+    },
+    {
+      "entity_id": "CLM-1240",
+      "start": 3422.1,
+      "end": 3424,
+      "quoted_text": "The other terrific book about dopamine"
+    },
+    {
+      "entity_id": "CLM-1241",
+      "start": 3424,
+      "end": 3425.6,
+      "quoted_text": "is the \"Molecule of More\","
+    },
+    {
+      "entity_id": "CLM-1242",
+      "start": 3425.6,
+      "end": 3428,
+      "quoted_text": "which is a similar in some regard,"
+    },
+    {
+      "entity_id": "CLM-1243",
+      "start": 3428,
+      "end": 3429.5,
+      "quoted_text": "but isn't so much about addiction,"
+    },
+    {
+      "entity_id": "CLM-1244",
+      "start": 3429.5,
+      "end": 3431.9,
+      "quoted_text": "it's more about other types of behaviors."
+    },
+    {
+      "entity_id": "CLM-1245",
+      "start": 3431.9,
+      "end": 3435.6,
+      "quoted_text": "Both books really focus on these dopamine schedules"
+    },
+    {
+      "entity_id": "CLM-1246",
+      "start": 3435.6,
+      "end": 3436.9,
+      "quoted_text": "and the relationship between these peaks"
+    },
+    {
+      "entity_id": "CLM-1247",
+      "start": 3436.9,
+      "end": 3438.6,
+      "quoted_text": "and baselines of dopamine."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Has this amazing book,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3413s-3414s]: \"Has this amazing book,\"\n  - [3414s-3418s]: \"\"Dopamine Nation: Finding Balance in the Age of Indulgence\".\"\n  - [3418s-3419s]: \"If you haven't read the book,\"\n  - [3419s-3421s]: \"I highly encourage you to check it out.\"\n  - [3422s-3424s]: \"The other terrific book about dopamine\"\n  - [3424s-3425s]: \"is the \"Molecule of More\",\"\n  - [3425s-3428s]: \"which is a similar in some regard,\"\n  - [3428s-3429s]: \"but isn't so much about addiction,\"\n  - [3429s-3431s]: \"it's more about other types of behaviors.\"\n  - [3431s-3435s]: \"Both books really focus on these dopamine schedules\"\n  - [3435s-3436s]: \"and the relationship between these peaks\"\n  - [3436s-3438s]: \"and baselines of dopamine.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Has this amazing book,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3413s-3414s]: \"Has this amazing book,\"\n+  - [3414s-3418s]: \"\"Dopamine Nation: Finding Balance in the Age of Indulgence\".\"\n+  - [3418s-3419s]: \"If you haven't read the book,\"\n+  - [3419s-3421s]: \"I highly encourage you to check it out.\"\n+  - [3422s-3424s]: \"The other terrific book about dopamine\"\n+  - [3424s-3425s]: \"is the \"Molecule of More\",\"\n+  - [3425s-3428s]: \"which is a similar in some regard,\"\n+  - [3428s-3429s]: \"but isn't so much about addiction,\"\n+  - [3429s-3431s]: \"it's more about other types of behaviors.\"\n+  - [3431s-3435s]: \"Both books really focus on these dopamine schedules\"\n+  - [3435s-3436s]: \"and the relationship between these peaks\"\n+  - [3436s-3438s]: \"and baselines of dopamine.\"\n"
+  }
+}

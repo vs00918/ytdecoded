@@ -1,0 +1,113 @@
+---
+import type { TopicRelationshipBundle, ResolvedRelationship } from '../utils/relationships';
+
+interface Props {
+  bundle?: TopicRelationshipBundle;
+}
+
+const { bundle } = Astro.props;
+
+const hasAny = bundle && (
+  bundle.prerequisites.length > 0 ||
+  bundle.prerequisiteFor.length > 0 ||
+  bundle.buildsOn.length > 0 ||
+  bundle.extendedBy.length > 0 ||
+  bundle.contrastsWith.length > 0 ||
+  bundle.appliesTo.length > 0
+);
+---
+
+{hasAny && bundle && (
+  <section class="related-knowledge-section" aria-label="Related Knowledge & Concept Bridges">
+    <div class="related-header">
+      <span aria-hidden="true">🔗</span>
+      <span>Related Knowledge & Conceptual Bridges</span>
+    </div>
+
+    <div class="relationship-grid">
+      {/* 1. Prerequisites */}
+      {bundle.prerequisites.length > 0 && (
+        <div class="rel-group">
+          <div class="rel-group-title">🌱 Foundational Prerequisites</div>
+          <ul class="rel-list">
+            {bundle.prerequisites.map((rel: ResolvedRelationship) => (
+              <li class="rel-item">
+                <a href={`/ytdecoded/topics/${rel.targetSlug}/`} class="rel-link">
+                  <span class="rel-target-title">{rel.targetTitle}</span>
+                </a>
+                {rel.reason && <p class="rel-reason">{rel.reason}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* 2. Builds On */}
+      {bundle.buildsOn.length > 0 && (
+        <div class="rel-group">
+          <div class="rel-group-title">⚡ Builds Upon</div>
+          <ul class="rel-list">
+            {bundle.buildsOn.map((rel: ResolvedRelationship) => (
+              <li class="rel-item">
+                <a href={`/ytdecoded/topics/${rel.targetSlug}/`} class="rel-link">
+                  <span class="rel-target-title">{rel.targetTitle}</span>
+                </a>
+                {rel.reason && <p class="rel-reason">{rel.reason}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* 3. Extended By (Downstream) */}
+      {bundle.extendedBy.length > 0 && (
+        <div class="rel-group">
+          <div class="rel-group-title">🔭 Downstream Extensions</div>
+          <ul class="rel-list">
+            {bundle.extendedBy.map((rel: ResolvedRelationship) => (
+              <li class="rel-item">
+                <a href={`/ytdecoded/topics/${rel.targetSlug}/`} class="rel-link">
+                  <span class="rel-target-title">{rel.targetTitle}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* 4. Contrasts With (Dialectic Tensions) */}
+      {bundle.contrastsWith.length > 0 && (
+        <div class="rel-group">
+          <div class="rel-group-title">⚖️ Dialectic Contrasts & Tensions</div>
+          <ul class="rel-list">
+            {bundle.contrastsWith.map((rel: ResolvedRelationship) => (
+              <li class="rel-item">
+                <a href={`/ytdecoded/topics/${rel.targetSlug}/`} class="rel-link">
+                  <span class="rel-target-title">{rel.targetTitle}</span>
+                </a>
+                {rel.reason && <p class="rel-reason">{rel.reason}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* 5. Applies To (Operational Domains) */}
+      {bundle.appliesTo.length > 0 && (
+        <div class="rel-group">
+          <div class="rel-group-title">🛠️ Practical Applications</div>
+          <ul class="rel-list">
+            {bundle.appliesTo.map((rel: ResolvedRelationship) => (
+              <li class="rel-item">
+                <a href={`/ytdecoded/topics/${rel.targetSlug}/`} class="rel-link">
+                  <span class="rel-target-title">{rel.targetTitle}</span>
+                </a>
+                {rel.reason && <p class="rel-reason">{rel.reason}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  </section>
+)}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-024",
+  "created_at": "2026-09-01T15:11:31.262Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-030",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-338",
+      "start": 915.4,
+      "end": 917.3,
+      "quoted_text": "they can, not always,"
+    },
+    {
+      "entity_id": "CLM-339",
+      "start": 917.3,
+      "end": 920.4,
+      "quoted_text": "but they can recover some fluidity of movement,"
+    },
+    {
+      "entity_id": "CLM-340",
+      "start": 920.4,
+      "end": 922.2,
+      "quoted_text": "some ability to initiate movement."
+    },
+    {
+      "entity_id": "CLM-341",
+      "start": 922.2,
+      "end": 924,
+      "quoted_text": "And almost without question,"
+    },
+    {
+      "entity_id": "CLM-342",
+      "start": 924,
+      "end": 926.9,
+      "quoted_text": "those people feel better psychologically,"
+    },
+    {
+      "entity_id": "CLM-343",
+      "start": 926.9,
+      "end": 928.1,
+      "quoted_text": "not just because they can move,"
+    },
+    {
+      "entity_id": "CLM-344",
+      "start": 928.1,
+      "end": 931.7,
+      "quoted_text": "but also because dopamine impacts mood and motivation."
+    },
+    {
+      "entity_id": "CLM-345",
+      "start": 931.7,
+      "end": 935.4,
+      "quoted_text": "So what are the underlying neural circuits?"
+    },
+    {
+      "entity_id": "CLM-346",
+      "start": 935.4,
+      "end": 938.1,
+      "quoted_text": "For those of you that are not interested in biology"
+    },
+    {
+      "entity_id": "CLM-347",
+      "start": 938.1,
+      "end": 939.1,
+      "quoted_text": "and specific nomenclature,"
+    },
+    {
+      "entity_id": "CLM-348",
+      "start": 939.1,
+      "end": 940.9,
+      "quoted_text": "you can tune out now if you want,"
+    },
+    {
+      "entity_id": "CLM-349",
+      "start": 940.9,
+      "end": 942.6,
+      "quoted_text": "but it's actually pretty straightforward."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: they can, not always,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [915s-917s]: \"they can, not always,\"\n  - [917s-920s]: \"but they can recover some fluidity of movement,\"\n  - [920s-922s]: \"some ability to initiate movement.\"\n  - [922s-924s]: \"And almost without question,\"\n  - [924s-926s]: \"those people feel better psychologically,\"\n  - [926s-928s]: \"not just because they can move,\"\n  - [928s-931s]: \"but also because dopamine impacts mood and motivation.\"\n  - [931s-935s]: \"So what are the underlying neural circuits?\"\n  - [935s-938s]: \"For those of you that are not interested in biology\"\n  - [938s-939s]: \"and specific nomenclature,\"\n  - [939s-940s]: \"you can tune out now if you want,\"\n  - [940s-942s]: \"but it's actually pretty straightforward.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: they can, not always,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [915s-917s]: \"they can, not always,\"\n+  - [917s-920s]: \"but they can recover some fluidity of movement,\"\n+  - [920s-922s]: \"some ability to initiate movement.\"\n+  - [922s-924s]: \"And almost without question,\"\n+  - [924s-926s]: \"those people feel better psychologically,\"\n+  - [926s-928s]: \"not just because they can move,\"\n+  - [928s-931s]: \"but also because dopamine impacts mood and motivation.\"\n+  - [931s-935s]: \"So what are the underlying neural circuits?\"\n+  - [935s-938s]: \"For those of you that are not interested in biology\"\n+  - [938s-939s]: \"and specific nomenclature,\"\n+  - [939s-940s]: \"you can tune out now if you want,\"\n+  - [940s-942s]: \"but it's actually pretty straightforward.\"\n"
+  }
+}

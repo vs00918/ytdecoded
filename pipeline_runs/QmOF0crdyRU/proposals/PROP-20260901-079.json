@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-079",
+  "created_at": "2026-09-01T15:11:31.277Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-095",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1093",
+      "start": 3051.2,
+      "end": 3054.8,
+      "quoted_text": "Seeking water, seeking food, seeking mates."
+    },
+    {
+      "entity_id": "CLM-1094",
+      "start": 3054.8,
+      "end": 3056.3,
+      "quoted_text": "Seeking things that make us feel good"
+    },
+    {
+      "entity_id": "CLM-1095",
+      "start": 3056.3,
+      "end": 3058.3,
+      "quoted_text": "and avoiding things that don't make us feel good."
+    },
+    {
+      "entity_id": "CLM-1096",
+      "start": 3058.3,
+      "end": 3059.8,
+      "quoted_text": "But in particular seeking things"
+    },
+    {
+      "entity_id": "CLM-1097",
+      "start": 3059.8,
+      "end": 3063.8,
+      "quoted_text": "that will provide sustenance and pleasure in the short-term"
+    },
+    {
+      "entity_id": "CLM-1098",
+      "start": 3063.8,
+      "end": 3067.4,
+      "quoted_text": "and will extend the species in the long-term."
+    },
+    {
+      "entity_id": "CLM-1099",
+      "start": 3067.4,
+      "end": 3070.5,
+      "quoted_text": "Once we understand that dopamine is a driver for us"
+    },
+    {
+      "entity_id": "CLM-1100",
+      "start": 3072.3,
+      "end": 3074.3,
+      "quoted_text": "it makes perfect sense as to why"
+    },
+    {
+      "entity_id": "CLM-1101",
+      "start": 3074.3,
+      "end": 3077.4,
+      "quoted_text": "it would have a baseline level and it would have peaks."
+    },
+    {
+      "entity_id": "CLM-1102",
+      "start": 3077.4,
+      "end": 3079.9,
+      "quoted_text": "And that the baseline and peaks would be related"
+    },
+    {
+      "entity_id": "CLM-1103",
+      "start": 3079.9,
+      "end": 3082,
+      "quoted_text": "in some sort of direct way."
+    },
+    {
+      "entity_id": "CLM-1104",
+      "start": 3082,
+      "end": 3083.8,
+      "quoted_text": "Here's what I mean by that."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Seeking water, seeking food, seeking mates.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3051s-3054s]: \"Seeking water, seeking food, seeking mates.\"\n  - [3054s-3056s]: \"Seeking things that make us feel good\"\n  - [3056s-3058s]: \"and avoiding things that don't make us feel good.\"\n  - [3058s-3059s]: \"But in particular seeking things\"\n  - [3059s-3063s]: \"that will provide sustenance and pleasure in the short-term\"\n  - [3063s-3067s]: \"and will extend the species in the long-term.\"\n  - [3067s-3070s]: \"Once we understand that dopamine is a driver for us\"\n  - [3072s-3074s]: \"it makes perfect sense as to why\"\n  - [3074s-3077s]: \"it would have a baseline level and it would have peaks.\"\n  - [3077s-3079s]: \"And that the baseline and peaks would be related\"\n  - [3079s-3082s]: \"in some sort of direct way.\"\n  - [3082s-3083s]: \"Here's what I mean by that.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Seeking water, seeking food, seeking mates.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3051s-3054s]: \"Seeking water, seeking food, seeking mates.\"\n+  - [3054s-3056s]: \"Seeking things that make us feel good\"\n+  - [3056s-3058s]: \"and avoiding things that don't make us feel good.\"\n+  - [3058s-3059s]: \"But in particular seeking things\"\n+  - [3059s-3063s]: \"that will provide sustenance and pleasure in the short-term\"\n+  - [3063s-3067s]: \"and will extend the species in the long-term.\"\n+  - [3067s-3070s]: \"Once we understand that dopamine is a driver for us\"\n+  - [3072s-3074s]: \"it makes perfect sense as to why\"\n+  - [3074s-3077s]: \"it would have a baseline level and it would have peaks.\"\n+  - [3077s-3079s]: \"And that the baseline and peaks would be related\"\n+  - [3079s-3082s]: \"in some sort of direct way.\"\n+  - [3082s-3083s]: \"Here's what I mean by that.\"\n"
+  }
+}

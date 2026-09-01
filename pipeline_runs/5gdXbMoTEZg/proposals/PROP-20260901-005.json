@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-005",
+  "created_at": "2026-09-01T15:11:16.966Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "5gdXbMoTEZg",
+  "video_title": "Semantic IR for 5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "unit_id": "KU-018",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for 5gdXbMoTEZg",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-200",
+      "start": 648.7,
+      "end": 655.1,
+      "quoted_text": "feeling anxious, worried, and afraid."
+    },
+    {
+      "entity_id": "CLM-201",
+      "start": 653.2,
+      "end": 657.3,
+      "quoted_text": "We learn to not fight those yucky"
+    },
+    {
+      "entity_id": "CLM-202",
+      "start": 655.1,
+      "end": 659.6,
+      "quoted_text": "feelings, but choose to have them in the"
+    },
+    {
+      "entity_id": "CLM-203",
+      "start": 657.3,
+      "end": 661.3,
+      "quoted_text": "service of what is truly important to"
+    },
+    {
+      "entity_id": "CLM-204",
+      "start": 661.3,
+      "end": 665.7,
+      "quoted_text": "We learn to check how our playing it"
+    },
+    {
+      "entity_id": "CLM-205",
+      "start": 663.4,
+      "end": 667.4,
+      "quoted_text": "safe moves are really working in our"
+    },
+    {
+      "entity_id": "CLM-206",
+      "start": 667.4,
+      "end": 671.6,
+      "quoted_text": "Learning these skills changed David's"
+    },
+    {
+      "entity_id": "CLM-207",
+      "start": 669.9,
+      "end": 675.6,
+      "quoted_text": "life because they changed his"
+    },
+    {
+      "entity_id": "CLM-208",
+      "start": 671.6,
+      "end": 677.7,
+      "quoted_text": "relationship to his fear-based emotions."
+    },
+    {
+      "entity_id": "CLM-209",
+      "start": 675.6,
+      "end": 680.8,
+      "quoted_text": "These are the same skills that have"
+    },
+    {
+      "entity_id": "CLM-210",
+      "start": 677.7,
+      "end": 683.2,
+      "quoted_text": "helped me to be a better psychologist"
+    },
+    {
+      "entity_id": "CLM-211",
+      "start": 680.8,
+      "end": 685.2,
+      "quoted_text": "and a better human being."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for 5gdXbMoTEZg\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for 5gdXbMoTEZg\n\n## Core Mechanics\n- **Core Thesis**: feeling anxious, worried, and afraid.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)\n  - [648s-655s]: \"feeling anxious, worried, and afraid.\"\n  - [653s-657s]: \"We learn to not fight those yucky\"\n  - [655s-659s]: \"feelings, but choose to have them in the\"\n  - [657s-661s]: \"service of what is truly important to\"\n  - [661s-665s]: \"We learn to check how our playing it\"\n  - [663s-667s]: \"safe moves are really working in our\"\n  - [667s-671s]: \"Learning these skills changed David's\"\n  - [669s-675s]: \"life because they changed his\"\n  - [671s-677s]: \"relationship to his fear-based emotions.\"\n  - [675s-680s]: \"These are the same skills that have\"\n  - [677s-683s]: \"helped me to be a better psychologist\"\n  - [680s-685s]: \"and a better human being.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for 5gdXbMoTEZg\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for 5gdXbMoTEZg\n+\n+## Core Mechanics\n+- **Core Thesis**: feeling anxious, worried, and afraid.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)\n+  - [648s-655s]: \"feeling anxious, worried, and afraid.\"\n+  - [653s-657s]: \"We learn to not fight those yucky\"\n+  - [655s-659s]: \"feelings, but choose to have them in the\"\n+  - [657s-661s]: \"service of what is truly important to\"\n+  - [661s-665s]: \"We learn to check how our playing it\"\n+  - [663s-667s]: \"safe moves are really working in our\"\n+  - [667s-671s]: \"Learning these skills changed David's\"\n+  - [669s-675s]: \"life because they changed his\"\n+  - [671s-677s]: \"relationship to his fear-based emotions.\"\n+  - [675s-680s]: \"These are the same skills that have\"\n+  - [677s-683s]: \"helped me to be a better psychologist\"\n+  - [680s-685s]: \"and a better human being.\"\n"
+  }
+}

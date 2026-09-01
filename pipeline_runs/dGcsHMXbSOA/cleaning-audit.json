@@ -1,0 +1,10 @@
+[
+  {
+    "segment_id": "seg-0890",
+    "start": 2592.89,
+    "end": 2600.59,
+    "original_text": "[Music]",
+    "action": "REMOVED",
+    "reason": "Empty after non-speech audio token removal"
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-005",
+  "created_at": "2026-09-01T15:11:31.256Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-005",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-047",
+      "start": 141,
+      "end": 142.9,
+      "quoted_text": "no drugs, nothing of that sort,"
+    },
+    {
+      "entity_id": "CLM-048",
+      "start": 142.9,
+      "end": 144.1,
+      "quoted_text": "just through behaviors,"
+    },
+    {
+      "entity_id": "CLM-049",
+      "start": 144.1,
+      "end": 148,
+      "quoted_text": "we can achieve terrifically high increases in dopamine"
+    },
+    {
+      "entity_id": "CLM-050",
+      "start": 148,
+      "end": 152.3,
+      "quoted_text": "that are very long and sustained in ways that serve us."
+    },
+    {
+      "entity_id": "CLM-051",
+      "start": 152.3,
+      "end": 153.4,
+      "quoted_text": "This is a result that was published"
+    },
+    {
+      "entity_id": "CLM-052",
+      "start": 153.4,
+      "end": 155.5,
+      "quoted_text": "in the European Journal of Physiology."
+    },
+    {
+      "entity_id": "CLM-053",
+      "start": 155.5,
+      "end": 157.2,
+      "quoted_text": "I'll go into it in more detail later,"
+    },
+    {
+      "entity_id": "CLM-054",
+      "start": 157.2,
+      "end": 160.8,
+      "quoted_text": "but essentially what it involved is having human subjects"
+    },
+    {
+      "entity_id": "CLM-055",
+      "start": 160.8,
+      "end": 163.9,
+      "quoted_text": "get into water of different temperatures."
+    },
+    {
+      "entity_id": "CLM-056",
+      "start": 163.9,
+      "end": 165.5,
+      "quoted_text": "So it was warm water,"
+    },
+    {
+      "entity_id": "CLM-057",
+      "start": 165.5,
+      "end": 169.2,
+      "quoted_text": "moderately cool water and cold, cold water."
+    },
+    {
+      "entity_id": "CLM-058",
+      "start": 169.2,
+      "end": 172.2,
+      "quoted_text": "Had them stay in that water for up to an hour,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: no drugs, nothing of that sort,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [141s-142s]: \"no drugs, nothing of that sort,\"\n  - [142s-144s]: \"just through behaviors,\"\n  - [144s-148s]: \"we can achieve terrifically high increases in dopamine\"\n  - [148s-152s]: \"that are very long and sustained in ways that serve us.\"\n  - [152s-153s]: \"This is a result that was published\"\n  - [153s-155s]: \"in the European Journal of Physiology.\"\n  - [155s-157s]: \"I'll go into it in more detail later,\"\n  - [157s-160s]: \"but essentially what it involved is having human subjects\"\n  - [160s-163s]: \"get into water of different temperatures.\"\n  - [163s-165s]: \"So it was warm water,\"\n  - [165s-169s]: \"moderately cool water and cold, cold water.\"\n  - [169s-172s]: \"Had them stay in that water for up to an hour,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: no drugs, nothing of that sort,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [141s-142s]: \"no drugs, nothing of that sort,\"\n+  - [142s-144s]: \"just through behaviors,\"\n+  - [144s-148s]: \"we can achieve terrifically high increases in dopamine\"\n+  - [148s-152s]: \"that are very long and sustained in ways that serve us.\"\n+  - [152s-153s]: \"This is a result that was published\"\n+  - [153s-155s]: \"in the European Journal of Physiology.\"\n+  - [155s-157s]: \"I'll go into it in more detail later,\"\n+  - [157s-160s]: \"but essentially what it involved is having human subjects\"\n+  - [160s-163s]: \"get into water of different temperatures.\"\n+  - [163s-165s]: \"So it was warm water,\"\n+  - [165s-169s]: \"moderately cool water and cold, cold water.\"\n+  - [169s-172s]: \"Had them stay in that water for up to an hour,\"\n"
+  }
+}

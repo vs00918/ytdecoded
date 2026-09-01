@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-047",
+  "created_at": "2026-09-01T15:11:31.266Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-056",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-641",
+      "start": 1741.6,
+      "end": 1744,
+      "quoted_text": "you might find it extremely interesting."
+    },
+    {
+      "entity_id": "CLM-642",
+      "start": 1744,
+      "end": 1747.3,
+      "quoted_text": "Again, how much dopamine you experience from something"
+    },
+    {
+      "entity_id": "CLM-643",
+      "start": 1747.3,
+      "end": 1749.3,
+      "quoted_text": "depends on your baseline level of dopamine"
+    },
+    {
+      "entity_id": "CLM-644",
+      "start": 1749.3,
+      "end": 1750.8,
+      "quoted_text": "when you arrive there,"
+    },
+    {
+      "entity_id": "CLM-645",
+      "start": 1750.8,
+      "end": 1754.2,
+      "quoted_text": "and your previous dopamine peaks."
+    },
+    {
+      "entity_id": "CLM-646",
+      "start": 1754.2,
+      "end": 1755,
+      "quoted_text": "Okay?"
+    },
+    {
+      "entity_id": "CLM-647",
+      "start": 1755,
+      "end": 1756.7,
+      "quoted_text": "That's super important to understand,"
+    },
+    {
+      "entity_id": "CLM-648",
+      "start": 1756.7,
+      "end": 1759.2,
+      "quoted_text": "and it's completely neglected by the general language"
+    },
+    {
+      "entity_id": "CLM-649",
+      "start": 1760.2,
+      "end": 1763.7,
+      "quoted_text": "This is why when you repeatedly engage in something"
+    },
+    {
+      "entity_id": "CLM-650",
+      "start": 1765.3,
+      "end": 1769.1,
+      "quoted_text": "your threshold for enjoyment goes up and up and up."
+    },
+    {
+      "entity_id": "CLM-651",
+      "start": 1769.1,
+      "end": 1771,
+      "quoted_text": "So I want to talk about that process."
+    },
+    {
+      "entity_id": "CLM-652",
+      "start": 1771,
+      "end": 1772.6,
+      "quoted_text": "And I want to explain how that process works,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: you might find it extremely interesting.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1741s-1744s]: \"you might find it extremely interesting.\"\n  - [1744s-1747s]: \"Again, how much dopamine you experience from something\"\n  - [1747s-1749s]: \"depends on your baseline level of dopamine\"\n  - [1749s-1750s]: \"when you arrive there,\"\n  - [1750s-1754s]: \"and your previous dopamine peaks.\"\n  - [1754s-1755s]: \"Okay?\"\n  - [1755s-1756s]: \"That's super important to understand,\"\n  - [1756s-1759s]: \"and it's completely neglected by the general language\"\n  - [1760s-1763s]: \"This is why when you repeatedly engage in something\"\n  - [1765s-1769s]: \"your threshold for enjoyment goes up and up and up.\"\n  - [1769s-1771s]: \"So I want to talk about that process.\"\n  - [1771s-1772s]: \"And I want to explain how that process works,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: you might find it extremely interesting.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1741s-1744s]: \"you might find it extremely interesting.\"\n+  - [1744s-1747s]: \"Again, how much dopamine you experience from something\"\n+  - [1747s-1749s]: \"depends on your baseline level of dopamine\"\n+  - [1749s-1750s]: \"when you arrive there,\"\n+  - [1750s-1754s]: \"and your previous dopamine peaks.\"\n+  - [1754s-1755s]: \"Okay?\"\n+  - [1755s-1756s]: \"That's super important to understand,\"\n+  - [1756s-1759s]: \"and it's completely neglected by the general language\"\n+  - [1760s-1763s]: \"This is why when you repeatedly engage in something\"\n+  - [1765s-1769s]: \"your threshold for enjoyment goes up and up and up.\"\n+  - [1769s-1771s]: \"So I want to talk about that process.\"\n+  - [1771s-1772s]: \"And I want to explain how that process works,\"\n"
+  }
+}

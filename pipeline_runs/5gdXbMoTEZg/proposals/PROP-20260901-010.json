@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-010",
+  "created_at": "2026-09-01T15:11:16.967Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "5gdXbMoTEZg",
+  "video_title": "Semantic IR for 5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "unit_id": "KU-026",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for 5gdXbMoTEZg",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-285",
+      "start": 932.4,
+      "end": 937.5,
+      "quoted_text": "debating what is accurate or not, what"
+    },
+    {
+      "entity_id": "CLM-286",
+      "start": 935,
+      "end": 939.6,
+      "quoted_text": "is right or wrong, or rationalizing,"
+    },
+    {
+      "entity_id": "CLM-287",
+      "start": 937.5,
+      "end": 940.9,
+      "quoted_text": "because that's how you start playing it"
+    },
+    {
+      "entity_id": "CLM-288",
+      "start": 940.9,
+      "end": 947,
+      "quoted_text": "Instead, remember that your mind cannot"
+    },
+    {
+      "entity_id": "CLM-289",
+      "start": 944.1,
+      "end": 949.4,
+      "quoted_text": "control coming up with fearful thoughts,"
+    },
+    {
+      "entity_id": "CLM-290",
+      "start": 947,
+      "end": 951.8,
+      "quoted_text": "but you can choose how to respond to"
+    },
+    {
+      "entity_id": "CLM-291",
+      "start": 949.4,
+      "end": 953.8,
+      "quoted_text": "them and whether you play it safe or"
+    },
+    {
+      "entity_id": "CLM-292",
+      "start": 953.8,
+      "end": 957.4,
+      "quoted_text": "So, what happened to my wonderful coffee"
+    },
+    {
+      "entity_id": "CLM-293",
+      "start": 956,
+      "end": 959.6,
+      "quoted_text": "maker?"
+    },
+    {
+      "entity_id": "CLM-294",
+      "start": 957.4,
+      "end": 961.9,
+      "quoted_text": "Well, fed up with playing it safe, I"
+    },
+    {
+      "entity_id": "CLM-295",
+      "start": 959.6,
+      "end": 963.6,
+      "quoted_text": "drove back to a store and simply bought"
+    },
+    {
+      "entity_id": "CLM-296",
+      "start": 963.6,
+      "end": 968.6,
+      "quoted_text": "I still have this kitchen gadget 15"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for 5gdXbMoTEZg\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for 5gdXbMoTEZg\n\n## Core Mechanics\n- **Core Thesis**: debating what is accurate or not, what\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)\n  - [932s-937s]: \"debating what is accurate or not, what\"\n  - [935s-939s]: \"is right or wrong, or rationalizing,\"\n  - [937s-940s]: \"because that's how you start playing it\"\n  - [940s-947s]: \"Instead, remember that your mind cannot\"\n  - [944s-949s]: \"control coming up with fearful thoughts,\"\n  - [947s-951s]: \"but you can choose how to respond to\"\n  - [949s-953s]: \"them and whether you play it safe or\"\n  - [953s-957s]: \"So, what happened to my wonderful coffee\"\n  - [956s-959s]: \"maker?\"\n  - [957s-961s]: \"Well, fed up with playing it safe, I\"\n  - [959s-963s]: \"drove back to a store and simply bought\"\n  - [963s-968s]: \"I still have this kitchen gadget 15\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for 5gdXbMoTEZg\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for 5gdXbMoTEZg\n+\n+## Core Mechanics\n+- **Core Thesis**: debating what is accurate or not, what\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)\n+  - [932s-937s]: \"debating what is accurate or not, what\"\n+  - [935s-939s]: \"is right or wrong, or rationalizing,\"\n+  - [937s-940s]: \"because that's how you start playing it\"\n+  - [940s-947s]: \"Instead, remember that your mind cannot\"\n+  - [944s-949s]: \"control coming up with fearful thoughts,\"\n+  - [947s-951s]: \"but you can choose how to respond to\"\n+  - [949s-953s]: \"them and whether you play it safe or\"\n+  - [953s-957s]: \"So, what happened to my wonderful coffee\"\n+  - [956s-959s]: \"maker?\"\n+  - [957s-961s]: \"Well, fed up with playing it safe, I\"\n+  - [959s-963s]: \"drove back to a store and simply bought\"\n+  - [963s-968s]: \"I still have this kitchen gadget 15\"\n"
+  }
+}

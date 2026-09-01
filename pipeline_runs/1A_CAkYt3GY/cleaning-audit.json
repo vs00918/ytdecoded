@@ -1,0 +1,66 @@
+[
+  {
+    "segment_id": "seg-0019",
+    "start": 60.35,
+    "end": 64.17,
+    "original_text": "على سبيل المثال، لو أن كل قراراتي مجرد  نتاجٍ لما تربيت عليه",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0042",
+    "start": 153.25,
+    "end": 157.4,
+    "original_text": "فيلوس (الحب) وميثوس (الأسطورة)\nوهو ما نسميه اليوم العلم والحكايات",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0060",
+    "start": 223.05,
+    "end": 226.63,
+    "original_text": "أحد أول الأسئلة -ربما من الأفضل صياغته كالتالي-:\nكيف يبدو العالم؟",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0064",
+    "start": 237.92,
+    "end": 243.08,
+    "original_text": "عندما يتساءل الفيلسوف كيف يبدو العالم، فإنه يسأل عن:\nماهي طبيعة الظاهر؟",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0092",
+    "start": 354.34,
+    "end": 357.78,
+    "original_text": "من المفترض أن يتلقى دعما كبيرا؟\nلا تدعوني أبدأ بـبرقلوس",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0095",
+    "start": 364.03,
+    "end": 368.72,
+    "original_text": "عوضا عن الجلوس والحكم على الناس، الأخلاق تطرح أسئلة مثل:  كيف يجب أن أعيش؟",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0103",
+    "start": 397.36,
+    "end": 402.74,
+    "original_text": "يتناول مفهوم الجمال -عمليًا-  كل شيء، من الإعلام إلى مدارس الفن إلى كلية الحلاقة",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  },
+  {
+    "segment_id": "seg-0153",
+    "start": 605.12,
+    "end": 610.46,
+    "original_text": "قناتهم لمشاهدة المزيد من الأعمال المدهشة مثل\n(ذا قود ستف)، (بي بي سي سبيس تايم)، (فيزيكس قيرل)",
+    "action": "NORMALIZED",
+    "reason": "Audio tags stripped and spacing normalized"
+  }
+]

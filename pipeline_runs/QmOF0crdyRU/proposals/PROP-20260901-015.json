@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-015",
+  "created_at": "2026-09-01T15:11:31.259Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-020",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-219",
+      "start": 588.5,
+      "end": 593.5,
+      "quoted_text": "The event is September 30th, 2021 at 3:00 p.m Eastern."
+    },
+    {
+      "entity_id": "CLM-220",
+      "start": 594.1,
+      "end": 596.8,
+      "quoted_text": "You can find the registration link in the caption"
+    },
+    {
+      "entity_id": "CLM-221",
+      "start": 598.3,
+      "end": 600,
+      "quoted_text": "So let's talk about dopamine."
+    },
+    {
+      "entity_id": "CLM-222",
+      "start": 600,
+      "end": 601.6,
+      "quoted_text": "Most people have heard of dopamine,"
+    },
+    {
+      "entity_id": "CLM-223",
+      "start": 601.6,
+      "end": 604.3,
+      "quoted_text": "and we hear all the time now about dopamine hits."
+    },
+    {
+      "entity_id": "CLM-224",
+      "start": 604.3,
+      "end": 608.3,
+      "quoted_text": "But actually there's no such thing as a dopamine hit."
+    },
+    {
+      "entity_id": "CLM-225",
+      "start": 608.3,
+      "end": 612.3,
+      "quoted_text": "And actually the way that your body uses dopamine"
+    },
+    {
+      "entity_id": "CLM-226",
+      "start": 612.3,
+      "end": 615.6,
+      "quoted_text": "is to have a baseline level of dopamine."
+    },
+    {
+      "entity_id": "CLM-227",
+      "start": 615.6,
+      "end": 617.9,
+      "quoted_text": "Meaning an amount of dopamine that's circulating"
+    },
+    {
+      "entity_id": "CLM-228",
+      "start": 617.9,
+      "end": 620.4,
+      "quoted_text": "in your brain and body all the time."
+    },
+    {
+      "entity_id": "CLM-229",
+      "start": 620.4,
+      "end": 622.9,
+      "quoted_text": "And that turns out to be important for how you feel"
+    },
+    {
+      "entity_id": "CLM-230",
+      "start": 622.9,
+      "end": 625,
+      "quoted_text": "generally, whether or not you're in a good mood,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: The event is September 30th, 2021 at 3:00 p.m Eastern.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [588s-593s]: \"The event is September 30th, 2021 at 3:00 p.m Eastern.\"\n  - [594s-596s]: \"You can find the registration link in the caption\"\n  - [598s-600s]: \"So let's talk about dopamine.\"\n  - [600s-601s]: \"Most people have heard of dopamine,\"\n  - [601s-604s]: \"and we hear all the time now about dopamine hits.\"\n  - [604s-608s]: \"But actually there's no such thing as a dopamine hit.\"\n  - [608s-612s]: \"And actually the way that your body uses dopamine\"\n  - [612s-615s]: \"is to have a baseline level of dopamine.\"\n  - [615s-617s]: \"Meaning an amount of dopamine that's circulating\"\n  - [617s-620s]: \"in your brain and body all the time.\"\n  - [620s-622s]: \"And that turns out to be important for how you feel\"\n  - [622s-625s]: \"generally, whether or not you're in a good mood,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: The event is September 30th, 2021 at 3:00 p.m Eastern.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [588s-593s]: \"The event is September 30th, 2021 at 3:00 p.m Eastern.\"\n+  - [594s-596s]: \"You can find the registration link in the caption\"\n+  - [598s-600s]: \"So let's talk about dopamine.\"\n+  - [600s-601s]: \"Most people have heard of dopamine,\"\n+  - [601s-604s]: \"and we hear all the time now about dopamine hits.\"\n+  - [604s-608s]: \"But actually there's no such thing as a dopamine hit.\"\n+  - [608s-612s]: \"And actually the way that your body uses dopamine\"\n+  - [612s-615s]: \"is to have a baseline level of dopamine.\"\n+  - [615s-617s]: \"Meaning an amount of dopamine that's circulating\"\n+  - [617s-620s]: \"in your brain and body all the time.\"\n+  - [620s-622s]: \"And that turns out to be important for how you feel\"\n+  - [622s-625s]: \"generally, whether or not you're in a good mood,\"\n"
+  }
+}

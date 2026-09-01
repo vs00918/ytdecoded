@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-003",
+  "created_at": "2026-09-01T15:11:28.965Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "Yhn1Fe8cT0Q",
+  "video_title": "Semantic IR for Yhn1Fe8cT0Q",
+  "video_url": "https://www.youtube.com/watch?v=Yhn1Fe8cT0Q",
+  "unit_id": "KU-005",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for Yhn1Fe8cT0Q",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 0).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-048",
+      "start": 155.4,
+      "end": 157.7,
+      "quoted_text": "who was an archenemy of Julius Caesar,"
+    },
+    {
+      "entity_id": "CLM-049",
+      "start": 157.7,
+      "end": 162.8,
+      "quoted_text": "as well as the wife of Brutus, one of the co-conspirators against Caesar."
+    },
+    {
+      "entity_id": "CLM-050",
+      "start": 162.8,
+      "end": 165.1,
+      "quoted_text": "So she had a lot to deal with in her life,"
+    },
+    {
+      "entity_id": "CLM-051",
+      "start": 165.1,
+      "end": 168,
+      "quoted_text": "and she approached it in a Stoic fashion."
+    },
+    {
+      "entity_id": "EXM-002",
+      "start": 170.2,
+      "end": 174,
+      "quoted_text": "Now, Stoicism, like all ancient schools of philosophy,"
+    },
+    {
+      "entity_id": "CLM-052",
+      "start": 174,
+      "end": 177.4,
+      "quoted_text": "eventually died down or was closed with the rise of Christianity,"
+    },
+    {
+      "entity_id": "CLM-053",
+      "start": 177.4,
+      "end": 181.3,
+      "quoted_text": "but it kept influencing people throughout the following two millennia."
+    },
+    {
+      "entity_id": "CLM-054",
+      "start": 181.3,
+      "end": 184.7,
+      "quoted_text": "The reason many people today are familiar with some of the Stoic ideas"
+    },
+    {
+      "entity_id": "CLM-055",
+      "start": 184.6,
+      "end": 186.6,
+      "quoted_text": "is because they influenced Christianity,"
+    },
+    {
+      "entity_id": "CLM-056",
+      "start": 186.6,
+      "end": 190.1,
+      "quoted_text": "beginning with Paul of Tarsus, arguably the founder of Christianity,"
+    },
+    {
+      "entity_id": "CLM-057",
+      "start": 190.1,
+      "end": 192.6,
+      "quoted_text": "and continuing with Thomas Aquinas,"
+    },
+    {
+      "entity_id": "CLM-058",
+      "start": 192.7,
+      "end": 195.2,
+      "quoted_text": "the most influential theologian of the Middle Ages,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for Yhn1Fe8cT0Q\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=Yhn1Fe8cT0Q.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for Yhn1Fe8cT0Q\n\n## Core Mechanics\n- **Core Thesis**: who was an archenemy of Julius Caesar,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)\n  - [155s-157s]: \"who was an archenemy of Julius Caesar,\"\n  - [157s-162s]: \"as well as the wife of Brutus, one of the co-conspirators against Caesar.\"\n  - [162s-165s]: \"So she had a lot to deal with in her life,\"\n  - [165s-168s]: \"and she approached it in a Stoic fashion.\"\n  - [170s-174s]: \"Now, Stoicism, like all ancient schools of philosophy,\"\n  - [174s-177s]: \"eventually died down or was closed with the rise of Christianity,\"\n  - [177s-181s]: \"but it kept influencing people throughout the following two millennia.\"\n  - [181s-184s]: \"The reason many people today are familiar with some of the Stoic ideas\"\n  - [184s-186s]: \"is because they influenced Christianity,\"\n  - [186s-190s]: \"beginning with Paul of Tarsus, arguably the founder of Christianity,\"\n  - [190s-192s]: \"and continuing with Thomas Aquinas,\"\n  - [192s-195s]: \"the most influential theologian of the Middle Ages,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for Yhn1Fe8cT0Q\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=Yhn1Fe8cT0Q.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for Yhn1Fe8cT0Q\n+\n+## Core Mechanics\n+- **Core Thesis**: who was an archenemy of Julius Caesar,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)\n+  - [155s-157s]: \"who was an archenemy of Julius Caesar,\"\n+  - [157s-162s]: \"as well as the wife of Brutus, one of the co-conspirators against Caesar.\"\n+  - [162s-165s]: \"So she had a lot to deal with in her life,\"\n+  - [165s-168s]: \"and she approached it in a Stoic fashion.\"\n+  - [170s-174s]: \"Now, Stoicism, like all ancient schools of philosophy,\"\n+  - [174s-177s]: \"eventually died down or was closed with the rise of Christianity,\"\n+  - [177s-181s]: \"but it kept influencing people throughout the following two millennia.\"\n+  - [181s-184s]: \"The reason many people today are familiar with some of the Stoic ideas\"\n+  - [184s-186s]: \"is because they influenced Christianity,\"\n+  - [186s-190s]: \"beginning with Paul of Tarsus, arguably the founder of Christianity,\"\n+  - [190s-192s]: \"and continuing with Thomas Aquinas,\"\n+  - [192s-195s]: \"the most influential theologian of the Middle Ages,\"\n"
+  }
+}

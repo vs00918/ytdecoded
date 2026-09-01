@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-114",
+  "created_at": "2026-09-01T15:11:31.288Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-144",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1668",
+      "start": 4603.6,
+      "end": 4605.8,
+      "quoted_text": "as much as I could have or should have,"
+    },
+    {
+      "entity_id": "CLM-1669",
+      "start": 4605.8,
+      "end": 4609.4,
+      "quoted_text": "but also I started to lose interest in what I was doing."
+    },
+    {
+      "entity_id": "CLM-1670",
+      "start": 4609.4,
+      "end": 4610.9,
+      "quoted_text": "It wasn't as pleasureful,"
+    },
+    {
+      "entity_id": "EXM-050",
+      "start": 4610.9,
+      "end": 4613.1,
+      "quoted_text": "I would feel like it just didn't have the same"
+    },
+    {
+      "entity_id": "CLM-1671",
+      "start": 4613.9,
+      "end": 4615.8,
+      "quoted_text": "And I was beginning to question my motivation."
+    },
+    {
+      "entity_id": "CLM-1672",
+      "start": 4616.9,
+      "end": 4619.7,
+      "quoted_text": "As I started learning more about this relationship"
+    },
+    {
+      "entity_id": "CLM-1673",
+      "start": 4619.7,
+      "end": 4622.1,
+      "quoted_text": "between the peaks and the bass lines in dopamine."
+    },
+    {
+      "entity_id": "CLM-1674",
+      "start": 4622.1,
+      "end": 4624.4,
+      "quoted_text": "What I realized was that some time ago"
+    },
+    {
+      "entity_id": "CLM-1675",
+      "start": 4624.4,
+      "end": 4627.6,
+      "quoted_text": "I probably experienced a incredible increase"
+    },
+    {
+      "entity_id": "CLM-1676",
+      "start": 4627.6,
+      "end": 4629.9,
+      "quoted_text": "in the amount of dopamine during one of my workouts,"
+    },
+    {
+      "entity_id": "CLM-1677",
+      "start": 4629.9,
+      "end": 4633.8,
+      "quoted_text": "because I enjoy working out and I enjoy listening to music."
+    },
+    {
+      "entity_id": "CLM-1678",
+      "start": 4633.8,
+      "end": 4635.3,
+      "quoted_text": "I also enjoy listening to podcasts,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: as much as I could have or should have,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4603s-4605s]: \"as much as I could have or should have,\"\n  - [4605s-4609s]: \"but also I started to lose interest in what I was doing.\"\n  - [4609s-4610s]: \"It wasn't as pleasureful,\"\n  - [4610s-4613s]: \"I would feel like it just didn't have the same\"\n  - [4613s-4615s]: \"And I was beginning to question my motivation.\"\n  - [4616s-4619s]: \"As I started learning more about this relationship\"\n  - [4619s-4622s]: \"between the peaks and the bass lines in dopamine.\"\n  - [4622s-4624s]: \"What I realized was that some time ago\"\n  - [4624s-4627s]: \"I probably experienced a incredible increase\"\n  - [4627s-4629s]: \"in the amount of dopamine during one of my workouts,\"\n  - [4629s-4633s]: \"because I enjoy working out and I enjoy listening to music.\"\n  - [4633s-4635s]: \"I also enjoy listening to podcasts,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: as much as I could have or should have,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4603s-4605s]: \"as much as I could have or should have,\"\n+  - [4605s-4609s]: \"but also I started to lose interest in what I was doing.\"\n+  - [4609s-4610s]: \"It wasn't as pleasureful,\"\n+  - [4610s-4613s]: \"I would feel like it just didn't have the same\"\n+  - [4613s-4615s]: \"And I was beginning to question my motivation.\"\n+  - [4616s-4619s]: \"As I started learning more about this relationship\"\n+  - [4619s-4622s]: \"between the peaks and the bass lines in dopamine.\"\n+  - [4622s-4624s]: \"What I realized was that some time ago\"\n+  - [4624s-4627s]: \"I probably experienced a incredible increase\"\n+  - [4627s-4629s]: \"in the amount of dopamine during one of my workouts,\"\n+  - [4629s-4633s]: \"because I enjoy working out and I enjoy listening to music.\"\n+  - [4633s-4635s]: \"I also enjoy listening to podcasts,\"\n"
+  }
+}

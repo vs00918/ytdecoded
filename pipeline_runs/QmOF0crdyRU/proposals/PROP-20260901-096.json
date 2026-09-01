@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-096",
+  "created_at": "2026-09-01T15:11:31.282Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-120",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "EXM-041",
+      "start": 3814.1,
+      "end": 3815.9,
+      "quoted_text": "I'm just not feeling like I have the same energy"
+    },
+    {
+      "entity_id": "CLM-1389",
+      "start": 3815.9,
+      "end": 3817.4,
+      "quoted_text": "that I did a few years ago."
+    },
+    {
+      "entity_id": "CLM-1390",
+      "start": 3817.4,
+      "end": 3819.3,
+      "quoted_text": "And of course there are age-related reasons"
+    },
+    {
+      "entity_id": "CLM-1391",
+      "start": 3819.3,
+      "end": 3822.4,
+      "quoted_text": "why people can experience drops in energy,"
+    },
+    {
+      "entity_id": "CLM-1392",
+      "start": 3822.4,
+      "end": 3825.3,
+      "quoted_text": "but oftentimes what's happening"
+    },
+    {
+      "entity_id": "CLM-1393",
+      "start": 3825.3,
+      "end": 3828.1,
+      "quoted_text": "is not some sort of depletion and cellar metabolism"
+    },
+    {
+      "entity_id": "CLM-1394",
+      "start": 3828.1,
+      "end": 3829.1,
+      "quoted_text": "that's related to aging."
+    },
+    {
+      "entity_id": "CLM-1395",
+      "start": 3829.1,
+      "end": 3831.5,
+      "quoted_text": "What's happening is they're spiking their dopamine"
+    },
+    {
+      "entity_id": "CLM-1396",
+      "start": 3831.5,
+      "end": 3834.8,
+      "quoted_text": "through so many different activities throughout the week,"
+    },
+    {
+      "entity_id": "CLM-1397",
+      "start": 3834.8,
+      "end": 3837.3,
+      "quoted_text": "that their baseline is progressively dropping."
+    },
+    {
+      "entity_id": "CLM-1398",
+      "start": 3837.3,
+      "end": 3839.6,
+      "quoted_text": "And in this case it can be very subtle."
+    },
+    {
+      "entity_id": "CLM-1399",
+      "start": 3839.6,
+      "end": 3840.9,
+      "quoted_text": "It can be very, very subtle."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: that I did a few years ago.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3814s-3815s]: \"I'm just not feeling like I have the same energy\"\n  - [3815s-3817s]: \"that I did a few years ago.\"\n  - [3817s-3819s]: \"And of course there are age-related reasons\"\n  - [3819s-3822s]: \"why people can experience drops in energy,\"\n  - [3822s-3825s]: \"but oftentimes what's happening\"\n  - [3825s-3828s]: \"is not some sort of depletion and cellar metabolism\"\n  - [3828s-3829s]: \"that's related to aging.\"\n  - [3829s-3831s]: \"What's happening is they're spiking their dopamine\"\n  - [3831s-3834s]: \"through so many different activities throughout the week,\"\n  - [3834s-3837s]: \"that their baseline is progressively dropping.\"\n  - [3837s-3839s]: \"And in this case it can be very subtle.\"\n  - [3839s-3840s]: \"It can be very, very subtle.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: that I did a few years ago.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3814s-3815s]: \"I'm just not feeling like I have the same energy\"\n+  - [3815s-3817s]: \"that I did a few years ago.\"\n+  - [3817s-3819s]: \"And of course there are age-related reasons\"\n+  - [3819s-3822s]: \"why people can experience drops in energy,\"\n+  - [3822s-3825s]: \"but oftentimes what's happening\"\n+  - [3825s-3828s]: \"is not some sort of depletion and cellar metabolism\"\n+  - [3828s-3829s]: \"that's related to aging.\"\n+  - [3829s-3831s]: \"What's happening is they're spiking their dopamine\"\n+  - [3831s-3834s]: \"through so many different activities throughout the week,\"\n+  - [3834s-3837s]: \"that their baseline is progressively dropping.\"\n+  - [3837s-3839s]: \"And in this case it can be very subtle.\"\n+  - [3839s-3840s]: \"It can be very, very subtle.\"\n"
+  }
+}

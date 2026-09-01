@@ -1,0 +1,1025 @@
+{
+  "ir_version": "2.0.0-draft",
+  "video_id": "5eW6Eagr9XA",
+  "video_url": "https://www.youtube.com/watch?v=5eW6Eagr9XA",
+  "title": "Economics - Capital Systems",
+  "generated_at": "2026-09-01T10:11:29.841Z",
+  "metadata": {
+    "duration_seconds": 1079,
+    "word_count": 3116,
+    "high_density_segment_count": 32
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim_text": "- Do you bring this trick out at parties? - Oh no. It's a terrible party trick. Here we go. 3.141592653589793 - This is Grant Gussman. He watched an old video of mine about how we",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 21.66,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007",
+            "seg-0008",
+            "seg-0009",
+            "seg-0010"
+          ],
+          "quoted_text": "- Do you bring this trick out at parties? - Oh no. It's a terrible party trick. Here we go. 3.141592653589793 - This is Grant Gussman. He watched an old video of mine about how we think that there are"
+        }
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "claim_text": "Fast and automatic. To explore how these systems work in his own head, Grant decided to memorize a hundred digits of pi. - Three eight four four six... - Then he just kept going. H",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 21.66,
+          "end": 44.17,
+          "segment_ids": [
+            "seg-0011",
+            "seg-0012",
+            "seg-0013",
+            "seg-0014",
+            "seg-0015",
+            "seg-0016",
+            "seg-0017",
+            "seg-0018",
+            "seg-0019",
+            "seg-0020"
+          ],
+          "quoted_text": "Fast and automatic. To explore how these systems work in his own head, Grant decided to memorize a hundred digits of pi. - Three eight four four six... - Then he just kept going. He has now memorized "
+        }
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "claim_text": "And in areas where these criteria aren't met, it's impossible to become an expert. So the first one is many repeated attempts with feedback. Tennis players hit hundreds of fore han",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 288.57,
+          "end": 314.04,
+          "segment_ids": [
+            "seg-0121",
+            "seg-0122",
+            "seg-0123",
+            "seg-0124",
+            "seg-0125",
+            "seg-0126",
+            "seg-0127",
+            "seg-0128",
+            "seg-0129",
+            "seg-0130"
+          ],
+          "quoted_text": "And in areas where these criteria aren't met, it's impossible to become an expert. So the first one is many repeated attempts with feedback. Tennis players hit hundreds of fore hands in practice. Ches"
+        }
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "claim_text": "experts were not significantly better than non-specialists. The problem is, most of the events they have to predict are one-offs. They haven't had the experience of going through t",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 381.96,
+          "end": 404.91,
+          "segment_ids": [
+            "seg-0161",
+            "seg-0162",
+            "seg-0163",
+            "seg-0164",
+            "seg-0165",
+            "seg-0166",
+            "seg-0167",
+            "seg-0168",
+            "seg-0169",
+            "seg-0170"
+          ],
+          "quoted_text": "experts were not significantly better than non-specialists. The problem is, most of the events they have to predict are one-offs. They haven't had the experience of going through these events or very "
+        }
+      ]
+    },
+    {
+      "id": "CLM-005",
+      "claim_text": "(upbeat music) The next requirement is a valid environment. One that contains regularities that make it at least somewhat predictable. A gambler betting at the roulette wheel for e",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 404.91,
+          "end": 423.27,
+          "segment_ids": [
+            "seg-0171",
+            "seg-0172",
+            "seg-0173",
+            "seg-0174",
+            "seg-0175",
+            "seg-0176",
+            "seg-0177",
+            "seg-0178",
+            "seg-0179",
+            "seg-0180"
+          ],
+          "quoted_text": "(upbeat music) The next requirement is a valid environment. One that contains regularities that make it at least somewhat predictable. A gambler betting at the roulette wheel for example, may have tho"
+        }
+      ]
+    },
+    {
+      "id": "CLM-006",
+      "claim_text": "but you would rightfully not consider them an expert because the environment is low validity. A roulette wheel is essentially random, so there are no regularities to be learned. In",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 423.27,
+          "end": 445.38,
+          "segment_ids": [
+            "seg-0181",
+            "seg-0182",
+            "seg-0183",
+            "seg-0184",
+            "seg-0185",
+            "seg-0186",
+            "seg-0187",
+            "seg-0188",
+            "seg-0189",
+            "seg-0190"
+          ],
+          "quoted_text": "but you would rightfully not consider them an expert because the environment is low validity. A roulette wheel is essentially random, so there are no regularities to be learned. In 2006, legendary inv"
+        }
+      ]
+    },
+    {
+      "id": "CLM-007",
+      "claim_text": "and big financial incentives to perform, fail to beat the market? Well because stocks are a low validity environment. Over the short term, stock price movements are almost entirely",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 537.84,
+          "end": 560.46,
+          "segment_ids": [
+            "seg-0231",
+            "seg-0232",
+            "seg-0233",
+            "seg-0234",
+            "seg-0235",
+            "seg-0236",
+            "seg-0237",
+            "seg-0238",
+            "seg-0239",
+            "seg-0240"
+          ],
+          "quoted_text": "and big financial incentives to perform, fail to beat the market? Well because stocks are a low validity environment. Over the short term, stock price movements are almost entirely random. So the feed"
+        }
+      ]
+    },
+    {
+      "id": "CLM-008",
+      "claim_text": "And in addition to luck, there are nefarious practices from insider trading to pump and dump schemes. Now I don't mean to say there are no expert investors. Warren Buffet himself i",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 582.93,
+          "end": 604.74,
+          "segment_ids": [
+            "seg-0251",
+            "seg-0252",
+            "seg-0253",
+            "seg-0254",
+            "seg-0255",
+            "seg-0256",
+            "seg-0257",
+            "seg-0258",
+            "seg-0259",
+            "seg-0260"
+          ],
+          "quoted_text": "And in addition to luck, there are nefarious practices from insider trading to pump and dump schemes. Now I don't mean to say there are no expert investors. Warren Buffet himself is a clear example. B"
+        }
+      ]
+    },
+    {
+      "id": "CLM-009",
+      "claim_text": "And we see patterns everywhere, including in randomness. So we try to beat the average by predicting the pattern. But when there is no pattern, this is a terrible strategy. Even wh",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 668.61,
+          "end": 691.11,
+          "segment_ids": [
+            "seg-0291",
+            "seg-0292",
+            "seg-0293",
+            "seg-0294",
+            "seg-0295",
+            "seg-0296",
+            "seg-0297",
+            "seg-0298",
+            "seg-0299",
+            "seg-0300"
+          ],
+          "quoted_text": "And we see patterns everywhere, including in randomness. So we try to beat the average by predicting the pattern. But when there is no pattern, this is a terrible strategy. Even when there are pattern"
+        }
+      ]
+    },
+    {
+      "id": "CLM-010",
+      "claim_text": "There's even confetti fireworks when the video is number one. I know it seems like a silly thing, but you have no idea how powerful a reward this is and how much YouTuber effort is",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 691.11,
+          "end": 713.31,
+          "segment_ids": [
+            "seg-0301",
+            "seg-0302",
+            "seg-0303",
+            "seg-0304",
+            "seg-0305",
+            "seg-0306",
+            "seg-0307",
+            "seg-0308",
+            "seg-0309",
+            "seg-0310"
+          ],
+          "quoted_text": "There's even confetti fireworks when the video is number one. I know it seems like a silly thing, but you have no idea how powerful a reward this is and how much YouTuber effort is spent chasing this "
+        }
+      ]
+    },
+    {
+      "id": "CLM-011",
+      "claim_text": "Anesthesiologists work alongside the patient and get feedback straight away. Is the patient unconscious with stable vital signs? With this immediate feedback, it's easier for them",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 713.31,
+          "end": 732.87,
+          "segment_ids": [
+            "seg-0311",
+            "seg-0312",
+            "seg-0313",
+            "seg-0314",
+            "seg-0315",
+            "seg-0316",
+            "seg-0317",
+            "seg-0318",
+            "seg-0319",
+            "seg-0320"
+          ],
+          "quoted_text": "Anesthesiologists work alongside the patient and get feedback straight away. Is the patient unconscious with stable vital signs? With this immediate feedback, it's easier for them to learn the regular"
+        }
+      ]
+    },
+    {
+      "id": "CLM-012",
+      "claim_text": "Radiologists typically correctly diagnose breast cancer from x-rays just 70% of the time. Delayed feedback also seems to be a problem for college admissions officers and recruitmen",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 732.87,
+          "end": 755.97,
+          "segment_ids": [
+            "seg-0321",
+            "seg-0322",
+            "seg-0323",
+            "seg-0324",
+            "seg-0325",
+            "seg-0326",
+            "seg-0327",
+            "seg-0328",
+            "seg-0329",
+            "seg-0330"
+          ],
+          "quoted_text": "Radiologists typically correctly diagnose breast cancer from x-rays just 70% of the time. Delayed feedback also seems to be a problem for college admissions officers and recruitment specialists. After"
+        }
+      ]
+    },
+    {
+      "id": "CLM-013",
+      "claim_text": "So if you're in a valid environment, and you get repeated experience with the same events, with clear, timely feedback from each attempt, will you definitely become an expert in 10",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 814.8,
+          "end": 836.4,
+          "segment_ids": [
+            "seg-0361",
+            "seg-0362",
+            "seg-0363",
+            "seg-0364",
+            "seg-0365",
+            "seg-0366",
+            "seg-0367",
+            "seg-0368",
+            "seg-0369",
+            "seg-0370"
+          ],
+          "quoted_text": "So if you're in a valid environment, and you get repeated experience with the same events, with clear, timely feedback from each attempt, will you definitely become an expert in 10,000 hours or so? Th"
+        }
+      ]
+    },
+    {
+      "id": "CLM-014",
+      "claim_text": "initially it's pretty challenging. It takes up all of system two. Bu after 50 hours or so it becomes automatic. System one takes over, and you can do it without much conscious thou",
+      "epistemic_status": "SOURCE_DERIVED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 836.4,
+          "end": 857.07,
+          "segment_ids": [
+            "seg-0371",
+            "seg-0372",
+            "seg-0373",
+            "seg-0374",
+            "seg-0375",
+            "seg-0376",
+            "seg-0377",
+            "seg-0378",
+            "seg-0379",
+            "seg-0380"
+          ],
+          "quoted_text": "initially it's pretty challenging. It takes up all of system two. Bu after 50 hours or so it becomes automatic. System one takes over, and you can do it without much conscious thought. After that, mor"
+        }
+      ]
+    },
+    {
+      "id": "CLM-015",
+      "claim_text": "Now I have played guitar for 25 years, but I'm not an expert because I usually play the same songs. It's easier and more fun. But in order to learn, you have to be practicing at th",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 857.07,
+          "end": 878.94,
+          "segment_ids": [
+            "seg-0381",
+            "seg-0382",
+            "seg-0383",
+            "seg-0384",
+            "seg-0385",
+            "seg-0386",
+            "seg-0387",
+            "seg-0388",
+            "seg-0389",
+            "seg-0390"
+          ],
+          "quoted_text": "Now I have played guitar for 25 years, but I'm not an expert because I usually play the same songs. It's easier and more fun. But in order to learn, you have to be practicing at the edge of your abili"
+        }
+      ]
+    },
+    {
+      "id": "CLM-016",
+      "claim_text": "In fact, sometimes it declines. If you're experiencing chest pain and you walk into a hospital, would you rather the doctor is a recent graduate or someone with 20 years experience",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 896.31,
+          "end": 914.07,
+          "segment_ids": [
+            "seg-0401",
+            "seg-0402",
+            "seg-0403",
+            "seg-0404",
+            "seg-0405",
+            "seg-0406",
+            "seg-0407",
+            "seg-0408",
+            "seg-0409",
+            "seg-0410"
+          ],
+          "quoted_text": "In fact, sometimes it declines. If you're experiencing chest pain and you walk into a hospital, would you rather the doctor is a recent graduate or someone with 20 years experience? Researchers have f"
+        }
+      ]
+    },
+    {
+      "id": "CLM-017",
+      "claim_text": "the better you are at spotting patterns. But this only works up to a point. When it comes to rare diseases of the heart or lungs, doctors with 20 years experience were actually wor",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 914.07,
+          "end": 936.36,
+          "segment_ids": [
+            "seg-0411",
+            "seg-0412",
+            "seg-0413",
+            "seg-0414",
+            "seg-0415",
+            "seg-0416",
+            "seg-0417",
+            "seg-0418",
+            "seg-0419",
+            "seg-0420"
+          ],
+          "quoted_text": "the better you are at spotting patterns. But this only works up to a point. When it comes to rare diseases of the heart or lungs, doctors with 20 years experience were actually worse at diagnosing the"
+        }
+      ]
+    },
+    {
+      "id": "CLM-018",
+      "claim_text": "And you can see the same effect in chess. The best predictor of skill level, is not the number of games or tournaments played, but the number of hours dedicated to serious solitary",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 936.36,
+          "end": 954.84,
+          "segment_ids": [
+            "seg-0421",
+            "seg-0422",
+            "seg-0423",
+            "seg-0424",
+            "seg-0425",
+            "seg-0426",
+            "seg-0427",
+            "seg-0428",
+            "seg-0429",
+            "seg-0430"
+          ],
+          "quoted_text": "And you can see the same effect in chess. The best predictor of skill level, is not the number of games or tournaments played, but the number of hours dedicated to serious solitary study. Players spen"
+        }
+      ]
+    },
+    {
+      "id": "CLM-019",
+      "claim_text": "attempting the things you can't do quite yet. True expertise is amazing to watch. To me, it looks like magic, but it isn't. At its core, expertise is recognition. And recognition c",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 974.04,
+          "end": 1000.14,
+          "segment_ids": [
+            "seg-0441",
+            "seg-0442",
+            "seg-0443",
+            "seg-0444",
+            "seg-0445",
+            "seg-0446",
+            "seg-0447",
+            "seg-0448",
+            "seg-0449",
+            "seg-0450"
+          ],
+          "quoted_text": "attempting the things you can't do quite yet. True expertise is amazing to watch. To me, it looks like magic, but it isn't. At its core, expertise is recognition. And recognition comes from the incred"
+        }
+      ]
+    },
+    {
+      "id": "CLM-020",
+      "claim_text": "where you can uncover the optimal strategy for finding a key in a room. And you quickly learn how your own strategy can be replicated in a neural network. Logic is another great co",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 1023.54,
+          "end": 1043.22,
+          "segment_ids": [
+            "seg-0462",
+            "seg-0463",
+            "seg-0464",
+            "seg-0465",
+            "seg-0466",
+            "seg-0467",
+            "seg-0468",
+            "seg-0469",
+            "seg-0470",
+            "seg-0471"
+          ],
+          "quoted_text": "where you can uncover the optimal strategy for finding a key in a room. And you quickly learn how your own strategy can be replicated in a neural network. Logic is another great course that I find cha"
+        }
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "CPT-001",
+      "name": "A roulette wheel",
+      "definition": "random, so there are no regularities to be learned",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "source_spans": [
+        {
+          "start": 423.27,
+          "end": 445.38,
+          "segment_ids": [
+            "seg-0181",
+            "seg-0182",
+            "seg-0183",
+            "seg-0184",
+            "seg-0185",
+            "seg-0186",
+            "seg-0187",
+            "seg-0188",
+            "seg-0189",
+            "seg-0190"
+          ],
+          "quoted_text": "but you would rightfully not consider them an expert because the environment is low validity. A roulette wheel is essentially random, so there are no regularities to be learned. In 2006, legendary inv"
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "MEC-001",
+      "title": "Causal Dynamic in [423s-445s]",
+      "trigger": "but you would rightfully not consider them an expert because",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "Street's best hedge funds over a 10 year period. Hedge funds are pools of money",
+      "source_spans": [
+        {
+          "start": 423.27,
+          "end": 445.38,
+          "segment_ids": [
+            "seg-0181",
+            "seg-0182",
+            "seg-0183",
+            "seg-0184",
+            "seg-0185",
+            "seg-0186",
+            "seg-0187",
+            "seg-0188",
+            "seg-0189",
+            "seg-0190"
+          ],
+          "quoted_text": "but you would rightfully not consider them an expert because the environment is low validity. A roulette wheel is essentially random, so there are no regularities to be learned. In 2006, legendary inv"
+        }
+      ]
+    },
+    {
+      "id": "MEC-002",
+      "title": "Causal Dynamic in [537s-560s]",
+      "trigger": "and big financial incentives to perform, fail to beat the ma",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "on making. It's closer to a roulette wheel than to Chess. Over a 10 year period,",
+      "source_spans": [
+        {
+          "start": 537.84,
+          "end": 560.46,
+          "segment_ids": [
+            "seg-0231",
+            "seg-0232",
+            "seg-0233",
+            "seg-0234",
+            "seg-0235",
+            "seg-0236",
+            "seg-0237",
+            "seg-0238",
+            "seg-0239",
+            "seg-0240"
+          ],
+          "quoted_text": "and big financial incentives to perform, fail to beat the market? Well because stocks are a low validity environment. Over the short term, stock price movements are almost entirely random. So the feed"
+        }
+      ]
+    },
+    {
+      "id": "MEC-003",
+      "title": "Causal Dynamic in [582s-604s]",
+      "trigger": "And in addition to luck, there are nefarious practices from",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "t performance because of the low validity of their environment. Brief side note,",
+      "source_spans": [
+        {
+          "start": 582.93,
+          "end": 604.74,
+          "segment_ids": [
+            "seg-0251",
+            "seg-0252",
+            "seg-0253",
+            "seg-0254",
+            "seg-0255",
+            "seg-0256",
+            "seg-0257",
+            "seg-0258",
+            "seg-0259",
+            "seg-0260"
+          ],
+          "quoted_text": "And in addition to luck, there are nefarious practices from insider trading to pump and dump schemes. Now I don't mean to say there are no expert investors. Warren Buffet himself is a clear example. B"
+        }
+      ]
+    },
+    {
+      "id": "MEC-004",
+      "title": "Causal Dynamic in [814s-836s]",
+      "trigger": "So if you're in a valid environment, and you get repeated ex",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "come competent in a fairly short period of time. Take driving a car for example,",
+      "source_spans": [
+        {
+          "start": 814.8,
+          "end": 836.4,
+          "segment_ids": [
+            "seg-0361",
+            "seg-0362",
+            "seg-0363",
+            "seg-0364",
+            "seg-0365",
+            "seg-0366",
+            "seg-0367",
+            "seg-0368",
+            "seg-0369",
+            "seg-0370"
+          ],
+          "quoted_text": "So if you're in a valid environment, and you get repeated experience with the same events, with clear, timely feedback from each attempt, will you definitely become an expert in 10,000 hours or so? Th"
+        }
+      ]
+    },
+    {
+      "id": "MEC-005",
+      "title": "Causal Dynamic in [857s-878s]",
+      "trigger": "Now I have played guitar for 25 years, but I'm not an expert",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "ttempt things you aren't good at. - You can practice everything exactly as it is",
+      "source_spans": [
+        {
+          "start": 857.07,
+          "end": 878.94,
+          "segment_ids": [
+            "seg-0381",
+            "seg-0382",
+            "seg-0383",
+            "seg-0384",
+            "seg-0385",
+            "seg-0386",
+            "seg-0387",
+            "seg-0388",
+            "seg-0389",
+            "seg-0390"
+          ],
+          "quoted_text": "Now I have played guitar for 25 years, but I'm not an expert because I usually play the same songs. It's easier and more fun. But in order to learn, you have to be practicing at the edge of your abili"
+        }
+      ]
+    },
+    {
+      "id": "MEC-006",
+      "title": "Causal Dynamic in [914s-936s]",
+      "trigger": "the better you are at spotting patterns. But this only works",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "Only after a refresher course, could doctors accurately diagnose these diseases.",
+      "source_spans": [
+        {
+          "start": 914.07,
+          "end": 936.36,
+          "segment_ids": [
+            "seg-0411",
+            "seg-0412",
+            "seg-0413",
+            "seg-0414",
+            "seg-0415",
+            "seg-0416",
+            "seg-0417",
+            "seg-0418",
+            "seg-0419",
+            "seg-0420"
+          ],
+          "quoted_text": "the better you are at spotting patterns. But this only works up to a point. When it comes to rare diseases of the heart or lungs, doctors with 20 years experience were actually worse at diagnosing the"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "PRN-001",
+      "statement": "Chess masters recognize board positions and instinctively know the best move. - Most of the time, I know what to do. I d",
+      "domain": "Behavioral Cognitive Science",
+      "source_spans": [
+        {
+          "start": 259.32,
+          "end": 288.57,
+          "segment_ids": [
+            "seg-0111",
+            "seg-0112",
+            "seg-0113",
+            "seg-0114",
+            "seg-0115",
+            "seg-0116",
+            "seg-0117",
+            "seg-0118",
+            "seg-0119",
+            "seg-0120"
+          ],
+          "quoted_text": "Chess masters recognize board positions and instinctively know the best move. - Most of the time, I know what to do. I don't have to figure it out. - To develop the long term memory of an expert takes"
+        }
+      ]
+    },
+    {
+      "id": "PRN-002",
+      "statement": "And you can see the same effect in chess. The best predictor of skill level, is not the number of games or tournaments p",
+      "domain": "Behavioral Cognitive Science",
+      "source_spans": [
+        {
+          "start": 936.36,
+          "end": 954.84,
+          "segment_ids": [
+            "seg-0421",
+            "seg-0422",
+            "seg-0423",
+            "seg-0424",
+            "seg-0425",
+            "seg-0426",
+            "seg-0427",
+            "seg-0428",
+            "seg-0429",
+            "seg-0430"
+          ],
+          "quoted_text": "And you can see the same effect in chess. The best predictor of skill level, is not the number of games or tournaments played, but the number of hours dedicated to serious solitary study. Players spen"
+        }
+      ]
+    }
+  ],
+  "mental_models": [
+    {
+      "id": "MDL-001",
+      "name": "Chess masters recognize board positions and i",
+      "core_heuristic": "Operating decision rule identified at 259s",
+      "source_spans": [
+        {
+          "start": 259.32,
+          "end": 288.57,
+          "segment_ids": [
+            "seg-0111",
+            "seg-0112",
+            "seg-0113",
+            "seg-0114",
+            "seg-0115",
+            "seg-0116",
+            "seg-0117",
+            "seg-0118",
+            "seg-0119",
+            "seg-0120"
+          ],
+          "quoted_text": "Chess masters recognize board positions and instinctively know the best move. - Most of the time, I know what to do. I don't have to figure it out. - To develop the long term memory of an expert takes"
+        }
+      ]
+    },
+    {
+      "id": "MDL-002",
+      "name": "And you can see the same effect in chess. The",
+      "core_heuristic": "Operating decision rule identified at 936s",
+      "source_spans": [
+        {
+          "start": 936.36,
+          "end": 954.84,
+          "segment_ids": [
+            "seg-0421",
+            "seg-0422",
+            "seg-0423",
+            "seg-0424",
+            "seg-0425",
+            "seg-0426",
+            "seg-0427",
+            "seg-0428",
+            "seg-0429",
+            "seg-0430"
+          ],
+          "quoted_text": "And you can see the same effect in chess. The best predictor of skill level, is not the number of games or tournaments played, but the number of hours dedicated to serious solitary study. Players spen"
+        }
+      ]
+    }
+  ],
+  "examples_and_analogies": [
+    {
+      "id": "EXM-001",
+      "type": "ANALOGY",
+      "content": "individual pieces at individual positions, they see a smaller number of recognizable configurations. This is called 'chunking'. What we have stored in long-term memory allows us to recognize complex s",
+      "source_spans": [
+        {
+          "start": 205.65,
+          "end": 232.83,
+          "segment_ids": [
+            "seg-0091",
+            "seg-0092",
+            "seg-0093",
+            "seg-0094",
+            "seg-0095",
+            "seg-0096",
+            "seg-0097",
+            "seg-0098",
+            "seg-0099",
+            "seg-0100"
+          ],
+          "quoted_text": "individual pieces at individual positions, they see a smaller number of recognizable configurations. This is called 'chunking'. What we have stored in long-term memory allows us to recognize complex s"
+        }
+      ]
+    },
+    {
+      "id": "EXM-002",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "(upbeat music) The next requirement is a valid environment. One that contains regularities that make it at least somewhat predictable. A gambler betting at the roulette wheel for example, may have tho",
+      "source_spans": [
+        {
+          "start": 404.91,
+          "end": 423.27,
+          "segment_ids": [
+            "seg-0171",
+            "seg-0172",
+            "seg-0173",
+            "seg-0174",
+            "seg-0175",
+            "seg-0176",
+            "seg-0177",
+            "seg-0178",
+            "seg-0179",
+            "seg-0180"
+          ],
+          "quoted_text": "(upbeat music) The next requirement is a valid environment. One that contains regularities that make it at least somewhat predictable. A gambler betting at the roulette wheel for example, may have tho"
+        }
+      ]
+    },
+    {
+      "id": "EXM-003",
+      "type": "ANALOGY",
+      "content": "There's even confetti fireworks when the video is number one. I know it seems like a silly thing, but you have no idea how powerful a reward this is and how much YouTuber effort is spent chasing this",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 691.11,
+          "end": 713.31,
+          "segment_ids": [
+            "seg-0301",
+            "seg-0302",
+            "seg-0303",
+            "seg-0304",
+            "seg-0305",
+            "seg-0306",
+            "seg-0307",
+            "seg-0308",
+            "seg-0309",
+            "seg-0310"
+          ],
+          "quoted_text": "There's even confetti fireworks when the video is number one. I know it seems like a silly thing, but you have no idea how powerful a reward this is and how much YouTuber effort is spent chasing this "
+        }
+      ]
+    },
+    {
+      "id": "EXM-004",
+      "type": "ANALOGY",
+      "content": "If you've ever been denied admission to an educational institution, or turned down for a job, it feels like an expert has considered your potential and decided that you don't have what it takes to suc",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 795.24,
+          "end": 814.8,
+          "segment_ids": [
+            "seg-0351",
+            "seg-0352",
+            "seg-0353",
+            "seg-0354",
+            "seg-0355",
+            "seg-0356",
+            "seg-0357",
+            "seg-0358",
+            "seg-0359",
+            "seg-0360"
+          ],
+          "quoted_text": "If you've ever been denied admission to an educational institution, or turned down for a job, it feels like an expert has considered your potential and decided that you don't have what it takes to suc"
+        }
+      ]
+    },
+    {
+      "id": "EXM-005",
+      "type": "CONCRETE_EXAMPLE",
+      "content": "So if you're in a valid environment, and you get repeated experience with the same events, with clear, timely feedback from each attempt, will you definitely become an expert in 10,000 hours or so? Th",
+      "concept_id": "CPT-001",
+      "source_spans": [
+        {
+          "start": 814.8,
+          "end": 836.4,
+          "segment_ids": [
+            "seg-0361",
+            "seg-0362",
+            "seg-0363",
+            "seg-0364",
+            "seg-0365",
+            "seg-0366",
+            "seg-0367",
+            "seg-0368",
+            "seg-0369",
+            "seg-0370"
+          ],
+          "quoted_text": "So if you're in a valid environment, and you get repeated experience with the same events, with clear, timely feedback from each attempt, will you definitely become an expert in 10,000 hours or so? Th"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "ARG-001",
+      "thesis": "- Do you bring this trick out at parties? - Oh no. It's a terrible party trick. Here we go. 3.141592653589793 - This is Grant Gussman. He watched an old video of mine about how we",
+      "premises": [
+        "Fast and automatic. To explore how these systems work in his own head, Grant decided to memorize a hundred digits of pi. - Three eight four four six... - Then he just kept going. H",
+        "And in areas where these criteria aren't met, it's impossible to become an expert. So the first one is many repeated attempts with feedback. Tennis players hit hundreds of fore han",
+        "experts were not significantly better than non-specialists. The problem is, most of the events they have to predict are one-offs. They haven't had the experience of going through t"
+      ],
+      "counterarguments": [
+        "Common assumption that discipline is purely moral rather than somatic/biological"
+      ],
+      "conclusion": "where you can uncover the optimal strategy for finding a key in a room. And you quickly learn how your own strategy can be replicated in a neural network. Logic is another great co",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 21.66,
+          "segment_ids": [
+            "seg-0001",
+            "seg-0002",
+            "seg-0003",
+            "seg-0004",
+            "seg-0005",
+            "seg-0006",
+            "seg-0007",
+            "seg-0008",
+            "seg-0009",
+            "seg-0010"
+          ],
+          "quoted_text": "- Do you bring this trick out at parties? - Oh no. It's a terrible party trick. Here we go. 3.141592653589793 - This is Grant Gussman. He watched an old video of mine about how we think that there are"
+        }
+      ]
+    }
+  ],
+  "uncertainties": []
+}

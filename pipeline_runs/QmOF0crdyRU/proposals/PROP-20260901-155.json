@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-155",
+  "created_at": "2026-09-01T15:11:31.298Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-204",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2370",
+      "start": 6585.8,
+      "end": 6587.9,
+      "quoted_text": "and then you finally eat,"
+    },
+    {
+      "entity_id": "CLM-2371",
+      "start": 6587.9,
+      "end": 6589.7,
+      "quoted_text": "it evokes more dopamine release."
+    },
+    {
+      "entity_id": "CLM-2372",
+      "start": 6589.7,
+      "end": 6592.9,
+      "quoted_text": "So this is the big reward that comes at the end."
+    },
+    {
+      "entity_id": "CLM-2373",
+      "start": 6592.9,
+      "end": 6596.3,
+      "quoted_text": "Even bigger because you deprived yourself."
+    },
+    {
+      "entity_id": "CLM-2374",
+      "start": 6596.3,
+      "end": 6599,
+      "quoted_text": "This is true for all rewarding behaviors and activities"
+    },
+    {
+      "entity_id": "CLM-2375",
+      "start": 6600.3,
+      "end": 6603,
+      "quoted_text": "The longer you restrict yourself from that activity,"
+    },
+    {
+      "entity_id": "CLM-2376",
+      "start": 6603,
+      "end": 6606,
+      "quoted_text": "the greater the dopamine experience when the dopamine"
+    },
+    {
+      "entity_id": "CLM-2377",
+      "start": 6606.9,
+      "end": 6609.7,
+      "quoted_text": "because of an upregulation of the receptors for dopamine."
+    },
+    {
+      "entity_id": "CLM-2378",
+      "start": 6610.9,
+      "end": 6613.5,
+      "quoted_text": "but I just spent five minutes or more telling you"
+    },
+    {
+      "entity_id": "CLM-2379",
+      "start": 6613.5,
+      "end": 6616.5,
+      "quoted_text": "that you should avoid too much reward at the end,"
+    },
+    {
+      "entity_id": "CLM-2380",
+      "start": 6616.5,
+      "end": 6619.8,
+      "quoted_text": "and you should actually focus on the dopamine"
+    },
+    {
+      "entity_id": "CLM-2381",
+      "start": 6619.8,
+      "end": 6624.2,
+      "quoted_text": "that you can consciously evoke from the deprivation strain"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: and then you finally eat,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [6585s-6587s]: \"and then you finally eat,\"\n  - [6587s-6589s]: \"it evokes more dopamine release.\"\n  - [6589s-6592s]: \"So this is the big reward that comes at the end.\"\n  - [6592s-6596s]: \"Even bigger because you deprived yourself.\"\n  - [6596s-6599s]: \"This is true for all rewarding behaviors and activities\"\n  - [6600s-6603s]: \"The longer you restrict yourself from that activity,\"\n  - [6603s-6606s]: \"the greater the dopamine experience when the dopamine\"\n  - [6606s-6609s]: \"because of an upregulation of the receptors for dopamine.\"\n  - [6610s-6613s]: \"but I just spent five minutes or more telling you\"\n  - [6613s-6616s]: \"that you should avoid too much reward at the end,\"\n  - [6616s-6619s]: \"and you should actually focus on the dopamine\"\n  - [6619s-6624s]: \"that you can consciously evoke from the deprivation strain\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: and then you finally eat,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [6585s-6587s]: \"and then you finally eat,\"\n+  - [6587s-6589s]: \"it evokes more dopamine release.\"\n+  - [6589s-6592s]: \"So this is the big reward that comes at the end.\"\n+  - [6592s-6596s]: \"Even bigger because you deprived yourself.\"\n+  - [6596s-6599s]: \"This is true for all rewarding behaviors and activities\"\n+  - [6600s-6603s]: \"The longer you restrict yourself from that activity,\"\n+  - [6603s-6606s]: \"the greater the dopamine experience when the dopamine\"\n+  - [6606s-6609s]: \"because of an upregulation of the receptors for dopamine.\"\n+  - [6610s-6613s]: \"but I just spent five minutes or more telling you\"\n+  - [6613s-6616s]: \"that you should avoid too much reward at the end,\"\n+  - [6616s-6619s]: \"and you should actually focus on the dopamine\"\n+  - [6619s-6624s]: \"that you can consciously evoke from the deprivation strain\"\n"
+  }
+}

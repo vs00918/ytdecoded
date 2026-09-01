@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-177",
+  "created_at": "2026-09-01T15:11:31.303Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-232",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2695",
+      "start": 7543.9,
+      "end": 7548.6,
+      "quoted_text": "but in our discussion about melatonin on this podcast"
+    },
+    {
+      "entity_id": "CLM-2696",
+      "start": 7548.6,
+      "end": 7551.4,
+      "quoted_text": "when Matt was a guest in his book and on other podcasts,"
+    },
+    {
+      "entity_id": "CLM-2697",
+      "start": 7551.4,
+      "end": 7554.7,
+      "quoted_text": "Matt has generally stated that the use of melatonin"
+    },
+    {
+      "entity_id": "CLM-2698",
+      "start": 7554.7,
+      "end": 7556.6,
+      "quoted_text": "except for treatment of jet lag"
+    },
+    {
+      "entity_id": "CLM-2699",
+      "start": 7556.6,
+      "end": 7558.3,
+      "quoted_text": "is generally not a good idea."
+    },
+    {
+      "entity_id": "CLM-2700",
+      "start": 7559.8,
+      "end": 7563.2,
+      "quoted_text": "I think that melatonin is not often thought about"
+    },
+    {
+      "entity_id": "CLM-2701",
+      "start": 7563.2,
+      "end": 7564.8,
+      "quoted_text": "as impacting the dopamine pathway,"
+    },
+    {
+      "entity_id": "CLM-2702",
+      "start": 7564.8,
+      "end": 7568.7,
+      "quoted_text": "but there's at least one study published in 2001"
+    },
+    {
+      "entity_id": "CLM-2703",
+      "start": 7568.7,
+      "end": 7572.6,
+      "quoted_text": "first author is Nishiyama just as it sounds."
+    },
+    {
+      "entity_id": "CLM-2704",
+      "start": 7572.6,
+      "end": 7574.5,
+      "quoted_text": "It's spelled just as it sounds."
+    },
+    {
+      "entity_id": "CLM-2705",
+      "start": 7574.5,
+      "end": 7576.5,
+      "quoted_text": "Acute effects of melatonin administration"
+    },
+    {
+      "entity_id": "CLM-2706",
+      "start": 7576.5,
+      "end": 7579.1,
+      "quoted_text": "on cardiovascular autonomic regulation in healthy men."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: but in our discussion about melatonin on this podcast\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7543s-7548s]: \"but in our discussion about melatonin on this podcast\"\n  - [7548s-7551s]: \"when Matt was a guest in his book and on other podcasts,\"\n  - [7551s-7554s]: \"Matt has generally stated that the use of melatonin\"\n  - [7554s-7556s]: \"except for treatment of jet lag\"\n  - [7556s-7558s]: \"is generally not a good idea.\"\n  - [7559s-7563s]: \"I think that melatonin is not often thought about\"\n  - [7563s-7564s]: \"as impacting the dopamine pathway,\"\n  - [7564s-7568s]: \"but there's at least one study published in 2001\"\n  - [7568s-7572s]: \"first author is Nishiyama just as it sounds.\"\n  - [7572s-7574s]: \"It's spelled just as it sounds.\"\n  - [7574s-7576s]: \"Acute effects of melatonin administration\"\n  - [7576s-7579s]: \"on cardiovascular autonomic regulation in healthy men.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: but in our discussion about melatonin on this podcast\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7543s-7548s]: \"but in our discussion about melatonin on this podcast\"\n+  - [7548s-7551s]: \"when Matt was a guest in his book and on other podcasts,\"\n+  - [7551s-7554s]: \"Matt has generally stated that the use of melatonin\"\n+  - [7554s-7556s]: \"except for treatment of jet lag\"\n+  - [7556s-7558s]: \"is generally not a good idea.\"\n+  - [7559s-7563s]: \"I think that melatonin is not often thought about\"\n+  - [7563s-7564s]: \"as impacting the dopamine pathway,\"\n+  - [7564s-7568s]: \"but there's at least one study published in 2001\"\n+  - [7568s-7572s]: \"first author is Nishiyama just as it sounds.\"\n+  - [7572s-7574s]: \"It's spelled just as it sounds.\"\n+  - [7574s-7576s]: \"Acute effects of melatonin administration\"\n+  - [7576s-7579s]: \"on cardiovascular autonomic regulation in healthy men.\"\n"
+  }
+}

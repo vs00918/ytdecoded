@@ -1,0 +1,132 @@
+---
+import ThemeController from '../components/ThemeController.astro';
+import CurriculumDrawer from '../components/CurriculumDrawer.astro';
+import SearchModal from '../components/SearchModal.astro';
+import ProgressBar from '../components/ProgressBar.astro';
+import { getCollection } from 'astro:content';
+import { getVolumeGroups } from '../utils/navigation';
+import '../styles/reader.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  currentSlug?: string;
+}
+
+const { title, description = 'The Living Codex — Master Knowledge Base', currentSlug = '' } = Astro.props;
+
+const allTopics = await getCollection('topics');
+const allVolumes = getVolumeGroups(allTopics);
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} — The Living Codex</title>
+  <meta name="description" content={description} />
+  
+  <!-- Kindle-Grade Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- KaTeX CSS for LaTeX Mathematical Notation -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" />
+
+  <!-- Mermaid.js for Client-Side Diagram Rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js" is:inline></script>
+  <script is:inline>
+    function getMermaidTheme(theme) {
+      if (theme === 'dark' || theme === 'oled') return 'dark';
+      if (theme === 'paper') return 'default';
+      return 'neutral'; // warm sepia
+    }
+
+    function renderMermaidDiagrams() {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'sepia';
+      const mTheme = getMermaidTheme(currentTheme);
+
+      if (window.mermaid) {
+        window.mermaid.initialize({
+          startOnLoad: false,
+          theme: mTheme,
+          securityLevel: 'loose',
+          fontFamily: 'Inter, sans-serif'
+        });
+
+        document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
+          const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
+          if (rawCode) {
+            wrapper.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
+          }
+        });
+
+        document.querySelectorAll('pre > code.language-mermaid, pre.astro-code[data-language="mermaid"]').forEach((codeEl) => {
+          const preEl = codeEl.tagName === 'PRE' ? codeEl : codeEl.parentElement;
+          const diagramCode = codeEl.textContent || '';
+          const div = document.createElement('div');
+          div.className = 'mermaid-diagram-wrapper';
+          div.setAttribute('data-mermaid-code', diagramCode);
+          div.innerHTML = `<pre class="mermaid">${diagramCode}</pre>`;
+          if (preEl && preEl.parentNode) {
+            preEl.parentNode.replaceChild(div, preEl);
+          }
+        });
+
+        try {
+          window.mermaid.run();
+        } catch (_) {}
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', renderMermaidDiagrams);
+    window.addEventListener('theme-changed', renderMermaidDiagrams);
+  </script>
+
+  <!-- Track Last Read Topic for Continue Reading Section -->
+  {currentSlug && (
+    <script is:inline define:vars={{ currentSlug, title, description }}>
+      try {
+        localStorage.setItem('codex-last-read', JSON.stringify({
+          slug: currentSlug,
+          title: title,
+          summary: description,
+          timestamp: Date.now()
+        }));
+      } catch (_) {}
+    </script>
+  )}
+</head>
+<body>
+  <ProgressBar />
+
+  <CurriculumDrawer currentSlug={currentSlug} allVolumes={allVolumes} />
+  <SearchModal />
+
+  <header class="top-nav">
+    <div class="nav-left">
+      <button id="drawer-toggle-btn" class="drawer-toggle-btn" aria-label="Open Curriculum Drawer" title="Toggle Curriculum (Press \)">
+        <span aria-hidden="true">☰</span>
+        <span class="btn-text">Curriculum</span>
+      </button>
+      <a href="/ytdecoded/" class="brand-link">
+        <span>The Living Codex</span>
+      </a>
+    </div>
+
+    <div class="nav-right">
+      <button id="search-trigger-btn" class="search-trigger-btn" aria-label="Open Search (Press / or Cmd+K)" title="Search (Press /)">
+        <span aria-hidden="true">🔍</span>
+        <span class="btn-text">Search <kbd class="nav-kbd">/</kbd></span>
+      </button>
+      <ThemeController />
+    </div>
+  </header>
+
+  <main class="reader-container" id="main-content" data-pagefind-body>
+    <slot />
+  </main>
+</body>
+</html>

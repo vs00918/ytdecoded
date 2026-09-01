@@ -1,0 +1,30 @@
+{
+  "proposal_id": "PROP-20260901-018",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-anatomy-of-indiscipline-and-identity-anchors",
+  "target_topic_title": "The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors & The Compound Law",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending \"The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors & The Compound Law\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-186",
+      "entity_type": "CLAIM",
+      "entity_text": "Second, no matter how old we are, who we",
+      "start": 605.6,
+      "end": 612.7,
+      "quoted_text": "Second, no matter how old we are, who we"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Empirical Nuance & Boundary Conditions",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **CLM-186**: Second, no matter how old we are, who we *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*",
+    "unified_diff": "--- a/src/content/topics/the-anatomy-of-indiscipline-and-identity-anchors.md\n+++ b/src/content/topics/the-anatomy-of-indiscipline-and-identity-anchors.md\n@@ -0,0 +1,4 @@\n+\n+### Extended Mechanical Insight\n+- **CLM-186**: Second, no matter how old we are, who we *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+\n"
+  }
+}

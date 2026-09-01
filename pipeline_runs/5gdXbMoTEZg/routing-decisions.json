@@ -1,0 +1,4027 @@
+{
+  "video_id": "5gdXbMoTEZg",
+  "video_title": "Psychology - Dr. Patricia Zurita Ona Paradox of Safety",
+  "total_raw_entities": 339,
+  "total_knowledge_units": 29,
+  "decisions": [
+    {
+      "unit_id": "KU-001",
+      "title": "Knowledge Unit [7s-47s]: I grew up drinking coffee and I used to...",
+      "core_thesis": "I grew up drinking coffee and I used to",
+      "worthiness": "CONTEXT_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-001",
+        "classification": "CONTEXT_ONLY",
+        "reusability_score": 0.1,
+        "explanatory_depth": 0.1,
+        "conceptual_coherence": 0.2,
+        "rationale": "Autobiographical narrative, personal introduction, or conversational framing with zero independent canonical utility."
+      },
+      "decision": "FILTERED_NON_CANONICAL",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.98,
+      "rationale": "Filtered by Knowledge Worthiness Gate (CONTEXT_ONLY): Personal background, autobiographical narrative, or conversational framing with zero independent canonical value.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 0,
+        "existing_thesis_summary": "N/A",
+        "new_information_delta": "None (Context / Biographical noise)",
+        "relationship": "FILTERED_NON_CANONICAL",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-001",
+        "CLM-002",
+        "CLM-003",
+        "CLM-004",
+        "CLM-005",
+        "CLM-006",
+        "CLM-007",
+        "CLM-008",
+        "CLM-009",
+        "CLM-010",
+        "CLM-011",
+        "CLM-012"
+      ],
+      "source_spans": [
+        {
+          "start": 7.8,
+          "end": 11.7,
+          "segment_ids": [
+            "seg-0001"
+          ],
+          "quoted_text": "I grew up drinking coffee and I used to"
+        },
+        {
+          "start": 11.7,
+          "end": 16.8,
+          "segment_ids": [
+            "seg-0003"
+          ],
+          "quoted_text": "It's part of my morning routine to have"
+        },
+        {
+          "start": 13.7,
+          "end": 19,
+          "segment_ids": [
+            "seg-0004"
+          ],
+          "quoted_text": "a couple sips of a dark, rich, and"
+        },
+        {
+          "start": 19,
+          "end": 23.3,
+          "segment_ids": [
+            "seg-0006"
+          ],
+          "quoted_text": "One day, when completing my doctoral"
+        },
+        {
+          "start": 20.9,
+          "end": 25.6,
+          "segment_ids": [
+            "seg-0007"
+          ],
+          "quoted_text": "internship in psychology, I noticed that"
+        },
+        {
+          "start": 23.3,
+          "end": 27.6,
+          "segment_ids": [
+            "seg-0008"
+          ],
+          "quoted_text": "my coffee maker was getting old and"
+        },
+        {
+          "start": 25.6,
+          "end": 29.7,
+          "segment_ids": [
+            "seg-0009"
+          ],
+          "quoted_text": "needed to be replaced."
+        },
+        {
+          "start": 27.6,
+          "end": 32.8,
+          "segment_ids": [
+            "seg-0010"
+          ],
+          "quoted_text": "As a graduate student and as an"
+        },
+        {
+          "start": 29.7,
+          "end": 35.6,
+          "segment_ids": [
+            "seg-0011"
+          ],
+          "quoted_text": "immigrant, I was on a limited budget."
+        },
+        {
+          "start": 32.8,
+          "end": 36.9,
+          "segment_ids": [
+            "seg-0012"
+          ],
+          "quoted_text": "I knew I needed to make a good financial"
+        },
+        {
+          "start": 36.9,
+          "end": 42.2,
+          "segment_ids": [
+            "seg-0014"
+          ],
+          "quoted_text": "So, that search for the ideal coffee"
+        },
+        {
+          "start": 42.2,
+          "end": 47.7,
+          "segment_ids": [
+            "seg-0016"
+          ],
+          "quoted_text": "I looked at all the best brands. I read"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-002",
+      "title": "Knowledge Unit [44s-85s]: many consumer reviews. I asked my...",
+      "core_thesis": "many consumer reviews. I asked my",
+      "worthiness": "CONTEXT_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-002",
+        "classification": "CONTEXT_ONLY",
+        "reusability_score": 0.1,
+        "explanatory_depth": 0.1,
+        "conceptual_coherence": 0.2,
+        "rationale": "Autobiographical narrative, personal introduction, or conversational framing with zero independent canonical utility."
+      },
+      "decision": "FILTERED_NON_CANONICAL",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.98,
+      "rationale": "Filtered by Knowledge Worthiness Gate (CONTEXT_ONLY): Personal background, autobiographical narrative, or conversational framing with zero independent canonical value.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 0,
+        "existing_thesis_summary": "N/A",
+        "new_information_delta": "None (Context / Biographical noise)",
+        "relationship": "FILTERED_NON_CANONICAL",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-013",
+        "EXM-001",
+        "CLM-014",
+        "CLM-015",
+        "CLM-016",
+        "CLM-017",
+        "CLM-018",
+        "CLM-019",
+        "CLM-020",
+        "CLM-021",
+        "CLM-022",
+        "CLM-023"
+      ],
+      "source_spans": [
+        {
+          "start": 44.9,
+          "end": 49.9,
+          "segment_ids": [
+            "seg-0017"
+          ],
+          "quoted_text": "many consumer reviews. I asked my"
+        },
+        {
+          "start": 47.7,
+          "end": 52.1,
+          "segment_ids": [
+            "seg-0018"
+          ],
+          "quoted_text": "friends, who were coffee snobs like me,"
+        },
+        {
+          "start": 49.9,
+          "end": 54.5,
+          "segment_ids": [
+            "seg-0019"
+          ],
+          "quoted_text": "about their coffee makers."
+        },
+        {
+          "start": 52.1,
+          "end": 56.9,
+          "segment_ids": [
+            "seg-0020"
+          ],
+          "quoted_text": "And I even created an Excel sheet"
+        },
+        {
+          "start": 54.5,
+          "end": 59,
+          "segment_ids": [
+            "seg-0021"
+          ],
+          "quoted_text": "listing the pros and cons of different"
+        },
+        {
+          "start": 59,
+          "end": 64.8,
+          "segment_ids": [
+            "seg-0023"
+          ],
+          "quoted_text": "One day, I drove myself to a store"
+        },
+        {
+          "start": 62.1,
+          "end": 66.6,
+          "segment_ids": [
+            "seg-0024"
+          ],
+          "quoted_text": "to look at different options in person."
+        },
+        {
+          "start": 64.8,
+          "end": 68.9,
+          "segment_ids": [
+            "seg-0025"
+          ],
+          "quoted_text": "At the store, I started chatting with"
+        },
+        {
+          "start": 68.9,
+          "end": 74.1,
+          "segment_ids": [
+            "seg-0027"
+          ],
+          "quoted_text": "And I shared with her my concerns and"
+        },
+        {
+          "start": 71,
+          "end": 77.8,
+          "segment_ids": [
+            "seg-0028"
+          ],
+          "quoted_text": "requirements for this new coffee maker."
+        },
+        {
+          "start": 74.1,
+          "end": 81.3,
+          "segment_ids": [
+            "seg-0029"
+          ],
+          "quoted_text": "She looked at me and said, \"Well, coffee"
+        },
+        {
+          "start": 77.8,
+          "end": 85.6,
+          "segment_ids": [
+            "seg-0030"
+          ],
+          "quoted_text": "makers aren't supposed to last forever.\""
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-003",
+      "title": "Knowledge Unit [81s-116s]: I know that and agree, but did I stop my...",
+      "core_thesis": "I know that and agree, but did I stop my",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-003",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-architecture-of-self-knowledge",
+      "target_topic_title": "The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors\" (score: 19). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-architecture-of-self-knowledge",
+        "existing_topic_title": "The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors",
+        "candidate_score": 19,
+        "existing_thesis_summary": "Life does not begin when you satisfy society's expectations; life begins when you stop living someone else's script. Strip away the borrowed desires, audit your true energy, choose the burdens worthy of your devotion, and build your life upon the unshakeable rock of your own authentic nature.",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-024",
+        "CLM-025",
+        "CLM-026",
+        "CLM-027",
+        "CLM-028",
+        "CLM-029",
+        "CLM-030",
+        "CLM-031",
+        "CLM-032",
+        "CLM-033",
+        "CLM-034",
+        "CLM-035"
+      ],
+      "source_spans": [
+        {
+          "start": 81.3,
+          "end": 88.4,
+          "segment_ids": [
+            "seg-0031"
+          ],
+          "quoted_text": "I know that and agree, but did I stop my"
+        },
+        {
+          "start": 85.6,
+          "end": 90.6,
+          "segment_ids": [
+            "seg-0032"
+          ],
+          "quoted_text": "quest for the ideal coffee maker right"
+        },
+        {
+          "start": 88.4,
+          "end": 93.4,
+          "segment_ids": [
+            "seg-0033"
+          ],
+          "quoted_text": "there and buy one on the spot?"
+        },
+        {
+          "start": 90.6,
+          "end": 94.8,
+          "segment_ids": [
+            "seg-0034"
+          ],
+          "quoted_text": "Nope. I went back home and continued"
+        },
+        {
+          "start": 94.8,
+          "end": 100.6,
+          "segment_ids": [
+            "seg-0036"
+          ],
+          "quoted_text": "You see, I knew I needed to make a"
+        },
+        {
+          "start": 96.9,
+          "end": 104.1,
+          "segment_ids": [
+            "seg-0037"
+          ],
+          "quoted_text": "decision, but my mind was relentlessly"
+        },
+        {
+          "start": 100.6,
+          "end": 106.5,
+          "segment_ids": [
+            "seg-0038"
+          ],
+          "quoted_text": "coming up with all types of thoughts."
+        },
+        {
+          "start": 104.1,
+          "end": 109.1,
+          "segment_ids": [
+            "seg-0039"
+          ],
+          "quoted_text": "Will this be a good investment? Should I"
+        },
+        {
+          "start": 106.5,
+          "end": 110.6,
+          "segment_ids": [
+            "seg-0040"
+          ],
+          "quoted_text": "get one that brews four cups or 10 cups"
+        },
+        {
+          "start": 109.1,
+          "end": 112.4,
+          "segment_ids": [
+            "seg-0041"
+          ],
+          "quoted_text": "of coffee?"
+        },
+        {
+          "start": 110.6,
+          "end": 114.5,
+          "segment_ids": [
+            "seg-0042"
+          ],
+          "quoted_text": "What does the warranty say if it breaks"
+        },
+        {
+          "start": 112.4,
+          "end": 116.5,
+          "segment_ids": [
+            "seg-0043"
+          ],
+          "quoted_text": "down after 1 year?"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-004",
+      "title": "Knowledge Unit [114s-152s]: What if my coffee lover friends think...",
+      "core_thesis": "What if my coffee lover friends think",
+      "worthiness": "CONTEXT_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-004",
+        "classification": "CONTEXT_ONLY",
+        "reusability_score": 0.1,
+        "explanatory_depth": 0.1,
+        "conceptual_coherence": 0.2,
+        "rationale": "Autobiographical narrative, personal introduction, or conversational framing with zero independent canonical utility."
+      },
+      "decision": "FILTERED_NON_CANONICAL",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.98,
+      "rationale": "Filtered by Knowledge Worthiness Gate (CONTEXT_ONLY): Personal background, autobiographical narrative, or conversational framing with zero independent canonical value.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 0,
+        "existing_thesis_summary": "N/A",
+        "new_information_delta": "None (Context / Biographical noise)",
+        "relationship": "FILTERED_NON_CANONICAL",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-036",
+        "CLM-037",
+        "CLM-038",
+        "CLM-039",
+        "CLM-040",
+        "CLM-041",
+        "CLM-042",
+        "CLM-043",
+        "CLM-044",
+        "CLM-045",
+        "CLM-046",
+        "CLM-047"
+      ],
+      "source_spans": [
+        {
+          "start": 114.5,
+          "end": 119.4,
+          "segment_ids": [
+            "seg-0044"
+          ],
+          "quoted_text": "What if my coffee lover friends think"
+        },
+        {
+          "start": 116.5,
+          "end": 122.1,
+          "segment_ids": [
+            "seg-0045"
+          ],
+          "quoted_text": "this isn't a good coffee maker."
+        },
+        {
+          "start": 119.4,
+          "end": 124.5,
+          "segment_ids": [
+            "seg-0046"
+          ],
+          "quoted_text": "Three months pass and I had still hadn't"
+        },
+        {
+          "start": 122.1,
+          "end": 126.7,
+          "segment_ids": [
+            "seg-0047"
+          ],
+          "quoted_text": "bought a coffee maker."
+        },
+        {
+          "start": 124.5,
+          "end": 129.8,
+          "segment_ids": [
+            "seg-0048"
+          ],
+          "quoted_text": "Even though these decisions seem easy"
+        },
+        {
+          "start": 126.7,
+          "end": 131.4,
+          "segment_ids": [
+            "seg-0049"
+          ],
+          "quoted_text": "enough to make, there I was stuck in my"
+        },
+        {
+          "start": 131.4,
+          "end": 136.4,
+          "segment_ids": [
+            "seg-0051"
+          ],
+          "quoted_text": "Have you been in my shoes?"
+        },
+        {
+          "start": 133.8,
+          "end": 139.2,
+          "segment_ids": [
+            "seg-0052"
+          ],
+          "quoted_text": "Yeah. Have you ever been in an ordinary"
+        },
+        {
+          "start": 136.4,
+          "end": 142.2,
+          "segment_ids": [
+            "seg-0053"
+          ],
+          "quoted_text": "situation in which, despite your best"
+        },
+        {
+          "start": 139.2,
+          "end": 145.8,
+          "segment_ids": [
+            "seg-0054"
+          ],
+          "quoted_text": "intentions, you overdid things and"
+        },
+        {
+          "start": 142.2,
+          "end": 148.8,
+          "segment_ids": [
+            "seg-0055"
+          ],
+          "quoted_text": "inadvertently got it stuck in your head?"
+        },
+        {
+          "start": 145.8,
+          "end": 152,
+          "segment_ids": [
+            "seg-0056"
+          ],
+          "quoted_text": "That's a pain, right?"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-005",
+      "title": "Knowledge Unit [148s-191s]: Now, imagine you wake up every morning...",
+      "core_thesis": "Now, imagine you wake up every morning",
+      "worthiness": "SUBSTANTIVE_KNOWLEDGE",
+      "worthiness_assessment": {
+        "entity_id": "KU-005",
+        "classification": "SUBSTANTIVE_KNOWLEDGE",
+        "reusability_score": 0.85,
+        "explanatory_depth": 0.8,
+        "conceptual_coherence": 0.85,
+        "rationale": "Contains structured explanatory mechanics, principled heuristics, or actionable conceptual distinctions."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-high-agency-reset-breaking-autopilot",
+      "target_topic_title": "The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars\" (score: 13). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-high-agency-reset-breaking-autopilot",
+        "existing_topic_title": "The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars",
+        "candidate_score": 13,
+        "existing_thesis_summary": "Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-048",
+        "CLM-049",
+        "CLM-050",
+        "CLM-051",
+        "CLM-052",
+        "CLM-053",
+        "CLM-054",
+        "CLM-055",
+        "CLM-056",
+        "CLM-057",
+        "CLM-058",
+        "CLM-059"
+      ],
+      "source_spans": [
+        {
+          "start": 148.8,
+          "end": 154.3,
+          "segment_ids": [
+            "seg-0057"
+          ],
+          "quoted_text": "Now, imagine you wake up every morning"
+        },
+        {
+          "start": 152,
+          "end": 157.2,
+          "segment_ids": [
+            "seg-0058"
+          ],
+          "quoted_text": "without worrying about saying the wrong"
+        },
+        {
+          "start": 154.3,
+          "end": 159.6,
+          "segment_ids": [
+            "seg-0059"
+          ],
+          "quoted_text": "thing or doing the wrong thing."
+        },
+        {
+          "start": 157.2,
+          "end": 163.4,
+          "segment_ids": [
+            "seg-0060"
+          ],
+          "quoted_text": "You look at everyday decisions as easy"
+        },
+        {
+          "start": 159.6,
+          "end": 166.1,
+          "segment_ids": [
+            "seg-0061"
+          ],
+          "quoted_text": "peasy, not as a life or death dilemmas."
+        },
+        {
+          "start": 163.4,
+          "end": 168.8,
+          "segment_ids": [
+            "seg-0062"
+          ],
+          "quoted_text": "You will spend days anticipating things"
+        },
+        {
+          "start": 166.1,
+          "end": 170.4,
+          "segment_ids": [
+            "seg-0063"
+          ],
+          "quoted_text": "going well and fabulous rather than"
+        },
+        {
+          "start": 170.4,
+          "end": 176.5,
+          "segment_ids": [
+            "seg-0065"
+          ],
+          "quoted_text": "That would be lovely, right?"
+        },
+        {
+          "start": 176.5,
+          "end": 182.7,
+          "segment_ids": [
+            "seg-0067"
+          ],
+          "quoted_text": "Because to be human is to be anxious."
+        },
+        {
+          "start": 180,
+          "end": 185.5,
+          "segment_ids": [
+            "seg-0068"
+          ],
+          "quoted_text": "To be human is to be worried."
+        },
+        {
+          "start": 182.7,
+          "end": 188.5,
+          "segment_ids": [
+            "seg-0069"
+          ],
+          "quoted_text": "To be human is to be afraid."
+        },
+        {
+          "start": 185.5,
+          "end": 191.4,
+          "segment_ids": [
+            "seg-0070"
+          ],
+          "quoted_text": "Yet, despite this truth, fears have a"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-006",
+      "title": "Knowledge Unit [191s-234s]: Often, new clients tell me that they are...",
+      "core_thesis": "Often, new clients tell me that they are",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-006",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-neurobiology-of-growth-and-fixed-mindset",
+      "target_topic_title": "The Neurobiology of Growth — Dismantling the Fixed Mindset",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Neurobiology of Growth — Dismantling the Fixed Mindset\" (score: 18). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-neurobiology-of-growth-and-fixed-mindset",
+        "existing_topic_title": "The Neurobiology of Growth — Dismantling the Fixed Mindset",
+        "candidate_score": 18,
+        "existing_thesis_summary": "Intelligence and talent are not fixed biological ceilings; they are starting points. Embrace the friction of confusion, treat every mistake as diagnostic data, and realize that your brain's capacity expands precisely where the challenge begins.",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-060",
+        "CLM-061",
+        "CLM-062",
+        "CLM-063",
+        "CLM-064",
+        "CLM-065",
+        "CLM-066",
+        "CLM-067",
+        "CLM-068",
+        "CLM-069",
+        "CLM-070",
+        "CLM-071"
+      ],
+      "source_spans": [
+        {
+          "start": 191.4,
+          "end": 195.1,
+          "segment_ids": [
+            "seg-0072"
+          ],
+          "quoted_text": "Often, new clients tell me that they are"
+        },
+        {
+          "start": 195.1,
+          "end": 200.9,
+          "segment_ids": [
+            "seg-0074"
+          ],
+          "quoted_text": "However, when peeling back what they are"
+        },
+        {
+          "start": 198,
+          "end": 202.7,
+          "segment_ids": [
+            "seg-0075"
+          ],
+          "quoted_text": "struggling with, I can clearly see that"
+        },
+        {
+          "start": 200.9,
+          "end": 205.7,
+          "segment_ids": [
+            "seg-0076"
+          ],
+          "quoted_text": "actually they are dealing with a"
+        },
+        {
+          "start": 202.7,
+          "end": 208.2,
+          "segment_ids": [
+            "seg-0077"
+          ],
+          "quoted_text": "fear-based emotion and many fear-based"
+        },
+        {
+          "start": 208.2,
+          "end": 213.7,
+          "segment_ids": [
+            "seg-0079"
+          ],
+          "quoted_text": "The reality is that our day-to-day life"
+        },
+        {
+          "start": 210.7,
+          "end": 216.5,
+          "segment_ids": [
+            "seg-0080"
+          ],
+          "quoted_text": "includes all types of fears."
+        },
+        {
+          "start": 213.7,
+          "end": 221.1,
+          "segment_ids": [
+            "seg-0081"
+          ],
+          "quoted_text": "Fear of choosing the wrong partner."
+        },
+        {
+          "start": 216.5,
+          "end": 223.4,
+          "segment_ids": [
+            "seg-0082"
+          ],
+          "quoted_text": "Fear of the unknown. Fear of flying."
+        },
+        {
+          "start": 221.1,
+          "end": 224.9,
+          "segment_ids": [
+            "seg-0083"
+          ],
+          "quoted_text": "Fear of not being good enough. Fear of"
+        },
+        {
+          "start": 224.9,
+          "end": 232.1,
+          "segment_ids": [
+            "seg-0085"
+          ],
+          "quoted_text": "Our anxieties are limitless."
+        },
+        {
+          "start": 227.9,
+          "end": 234.5,
+          "segment_ids": [
+            "seg-0086"
+          ],
+          "quoted_text": "And every time we feel anxious, worried,"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-007",
+      "title": "Knowledge Unit [232s-274s]: or afraid, it feels yucky and...",
+      "core_thesis": "or afraid, it feels yucky and",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-007",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "LOW",
+      "confidence_score": 0.4,
+      "rationale": "Novel observation but lacks sufficient explanatory depth or conceptual coherence for an independent canonical chapter (depth: 0.3). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 6,
+        "existing_thesis_summary": "None",
+        "new_information_delta": "Fragmentary observation without systemic mechanics",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-072",
+        "CLM-073",
+        "CLM-074",
+        "CLM-075",
+        "CLM-076",
+        "CLM-077",
+        "CLM-078",
+        "CLM-079",
+        "CLM-080",
+        "CLM-081",
+        "CLM-082",
+        "CLM-083"
+      ],
+      "source_spans": [
+        {
+          "start": 232.1,
+          "end": 236.5,
+          "segment_ids": [
+            "seg-0087"
+          ],
+          "quoted_text": "or afraid, it feels yucky and"
+        },
+        {
+          "start": 236.5,
+          "end": 240.8,
+          "segment_ids": [
+            "seg-0089"
+          ],
+          "quoted_text": "Have you ever met anyone who say, \"I"
+        },
+        {
+          "start": 238.4,
+          "end": 242.4,
+          "segment_ids": [
+            "seg-0090"
+          ],
+          "quoted_text": "love to be anxious.\" or \"I love to be"
+        },
+        {
+          "start": 240.8,
+          "end": 244.2,
+          "segment_ids": [
+            "seg-0091"
+          ],
+          "quoted_text": "afraid.\"?"
+        },
+        {
+          "start": 244.2,
+          "end": 247.7,
+          "segment_ids": [
+            "seg-0093"
+          ],
+          "quoted_text": "When we feel anxious, our hearts beat"
+        },
+        {
+          "start": 247.7,
+          "end": 253,
+          "segment_ids": [
+            "seg-0095"
+          ],
+          "quoted_text": "our hands get sweaty, we get butterflies"
+        },
+        {
+          "start": 253,
+          "end": 259.4,
+          "segment_ids": [
+            "seg-0097"
+          ],
+          "quoted_text": "And then our mind pushes us to solve the"
+        },
+        {
+          "start": 256.5,
+          "end": 261.8,
+          "segment_ids": [
+            "seg-0098"
+          ],
+          "quoted_text": "discomfort, prompts us to do something"
+        },
+        {
+          "start": 259.4,
+          "end": 263.2,
+          "segment_ids": [
+            "seg-0099"
+          ],
+          "quoted_text": "about those uncomfortable sensations"
+        },
+        {
+          "start": 263.2,
+          "end": 267.9,
+          "segment_ids": [
+            "seg-0101"
+          ],
+          "quoted_text": "goads us into action."
+        },
+        {
+          "start": 265.8,
+          "end": 271.4,
+          "segment_ids": [
+            "seg-0102"
+          ],
+          "quoted_text": "And it's in those moments that we rely"
+        },
+        {
+          "start": 267.9,
+          "end": 274.1,
+          "segment_ids": [
+            "seg-0103"
+          ],
+          "quoted_text": "on thinking strategies to push away, get"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-008",
+      "title": "Knowledge Unit [271s-317s]: rid of, or replace our fear-based...",
+      "core_thesis": "rid of, or replace our fear-based",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-008",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "the-architecture-of-social-connectivity",
+      "target_topic_title": "The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-architecture-of-social-connectivity",
+        "existing_topic_title": "The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'",
+        "candidate_score": 13,
+        "existing_thesis_summary": "Relational depth is forged through unhurried presence and radical honesty. Abandon the fear-based games of playing it cool; state your enthusiasm with sovereign clarity, mine the hidden hooks in every sentence, and build genuine bridges everywhere you go.",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-084",
+        "CLM-085",
+        "CLM-086",
+        "CLM-087",
+        "CLM-088",
+        "EXM-002",
+        "CLM-089",
+        "CLM-090",
+        "CLM-091",
+        "CLM-092",
+        "CLM-093",
+        "CLM-094"
+      ],
+      "source_spans": [
+        {
+          "start": 271.4,
+          "end": 276,
+          "segment_ids": [
+            "seg-0104"
+          ],
+          "quoted_text": "rid of, or replace our fear-based"
+        },
+        {
+          "start": 276,
+          "end": 280,
+          "segment_ids": [
+            "seg-0106"
+          ],
+          "quoted_text": "I call those thinking strategies playing"
+        },
+        {
+          "start": 280,
+          "end": 285.4,
+          "segment_ids": [
+            "seg-0108"
+          ],
+          "quoted_text": "We all play it safe in one form or"
+        },
+        {
+          "start": 285.4,
+          "end": 290.3,
+          "segment_ids": [
+            "seg-0110"
+          ],
+          "quoted_text": "Think for a moment of David."
+        },
+        {
+          "start": 287.9,
+          "end": 291.6,
+          "segment_ids": [
+            "seg-0111"
+          ],
+          "quoted_text": "He represents the clients I often work"
+        },
+        {
+          "start": 291.6,
+          "end": 297.4,
+          "segment_ids": [
+            "seg-0113"
+          ],
+          "quoted_text": "He, like me, and maybe even like you,"
+        },
+        {
+          "start": 295,
+          "end": 299.6,
+          "segment_ids": [
+            "seg-0114"
+          ],
+          "quoted_text": "too, he struggles with the fear of"
+        },
+        {
+          "start": 299.6,
+          "end": 304.9,
+          "segment_ids": [
+            "seg-0116"
+          ],
+          "quoted_text": "When David is composing an email or"
+        },
+        {
+          "start": 302.1,
+          "end": 308.2,
+          "segment_ids": [
+            "seg-0117"
+          ],
+          "quoted_text": "texting his friends, he goes over his"
+        },
+        {
+          "start": 304.9,
+          "end": 310.4,
+          "segment_ids": [
+            "seg-0118"
+          ],
+          "quoted_text": "writing word by word, checking what he's"
+        },
+        {
+          "start": 308.2,
+          "end": 312.4,
+          "segment_ids": [
+            "seg-0119"
+          ],
+          "quoted_text": "saying and how he's saying it before he"
+        },
+        {
+          "start": 312.4,
+          "end": 317.2,
+          "segment_ids": [
+            "seg-0121"
+          ],
+          "quoted_text": "When David is invited to a party, he"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-009",
+      "title": "Knowledge Unit [314s-353s]: sometimes plans ahead of time what he's...",
+      "core_thesis": "sometimes plans ahead of time what he's",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-009",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "LOW",
+      "confidence_score": 0.4,
+      "rationale": "Novel observation but lacks sufficient explanatory depth or conceptual coherence for an independent canonical chapter (depth: 0.3). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 7,
+        "existing_thesis_summary": "None",
+        "new_information_delta": "Fragmentary observation without systemic mechanics",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-095",
+        "CLM-096",
+        "CLM-097",
+        "CLM-098",
+        "CLM-099",
+        "CLM-100",
+        "CLM-101",
+        "CLM-102",
+        "CLM-103",
+        "CLM-104",
+        "CLM-105",
+        "CLM-106"
+      ],
+      "source_spans": [
+        {
+          "start": 314.9,
+          "end": 319.7,
+          "segment_ids": [
+            "seg-0122"
+          ],
+          "quoted_text": "sometimes plans ahead of time what he's"
+        },
+        {
+          "start": 317.2,
+          "end": 323.9,
+          "segment_ids": [
+            "seg-0123"
+          ],
+          "quoted_text": "going to talk about so he doesn't make a"
+        },
+        {
+          "start": 319.7,
+          "end": 325.9,
+          "segment_ids": [
+            "seg-0124"
+          ],
+          "quoted_text": "fool of himself during the actual party."
+        },
+        {
+          "start": 323.9,
+          "end": 328.5,
+          "segment_ids": [
+            "seg-0125"
+          ],
+          "quoted_text": "You may be thinking, \"Wait a minute. All"
+        },
+        {
+          "start": 325.9,
+          "end": 331.4,
+          "segment_ids": [
+            "seg-0126"
+          ],
+          "quoted_text": "those strategies make sense.\""
+        },
+        {
+          "start": 328.5,
+          "end": 334.2,
+          "segment_ids": [
+            "seg-0127"
+          ],
+          "quoted_text": "And you're right. I do them, too. In"
+        },
+        {
+          "start": 331.4,
+          "end": 337.6,
+          "segment_ids": [
+            "seg-0128"
+          ],
+          "quoted_text": "fact, over preparing is a classic"
+        },
+        {
+          "start": 334.2,
+          "end": 339.2,
+          "segment_ids": [
+            "seg-0129"
+          ],
+          "quoted_text": "playing it safe move of mine."
+        },
+        {
+          "start": 337.6,
+          "end": 342.3,
+          "segment_ids": [
+            "seg-0130"
+          ],
+          "quoted_text": "Sometimes playing it safe can be"
+        },
+        {
+          "start": 339.2,
+          "end": 346,
+          "segment_ids": [
+            "seg-0131"
+          ],
+          "quoted_text": "effective when it help us to manage our"
+        },
+        {
+          "start": 342.3,
+          "end": 348.4,
+          "segment_ids": [
+            "seg-0132"
+          ],
+          "quoted_text": "anxieties, to do better and be better it"
+        },
+        {
+          "start": 348.4,
+          "end": 353.2,
+          "segment_ids": [
+            "seg-0134"
+          ],
+          "quoted_text": "For example, after I agreed to be this"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-010",
+      "title": "Knowledge Unit [350s-388s]: talk, I got very anxious....",
+      "core_thesis": "talk, I got very anxious.",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-010",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-architecture-of-integrated-strength",
+      "target_topic_title": "The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect\" (score: 12). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-architecture-of-integrated-strength",
+        "existing_topic_title": "The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect",
+        "candidate_score": 12,
+        "existing_thesis_summary": "Respect is not given; it is earned through an unshakeable track record of competence, internal integrity, and calm boundaries. Stop chasing the fleeting approval of others. Keep every promise you make to yourself, take radical ownership of every outcome, let your results do the talking, and become a",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-107",
+        "CLM-108",
+        "CLM-109",
+        "CLM-110",
+        "CLM-111",
+        "CLM-112",
+        "CLM-113",
+        "CLM-114",
+        "CLM-115",
+        "CLM-116",
+        "CLM-117",
+        "CLM-118"
+      ],
+      "source_spans": [
+        {
+          "start": 350.6,
+          "end": 355.7,
+          "segment_ids": [
+            "seg-0135"
+          ],
+          "quoted_text": "talk, I got very anxious."
+        },
+        {
+          "start": 353.2,
+          "end": 357.6,
+          "segment_ids": [
+            "seg-0136"
+          ],
+          "quoted_text": "And I had this urge to play it safe by"
+        },
+        {
+          "start": 355.7,
+          "end": 360.1,
+          "segment_ids": [
+            "seg-0137"
+          ],
+          "quoted_text": "preparing and rehearsing what I would"
+        },
+        {
+          "start": 360.1,
+          "end": 364,
+          "segment_ids": [
+            "seg-0139"
+          ],
+          "quoted_text": "Guess what?"
+        },
+        {
+          "start": 361.4,
+          "end": 365.5,
+          "segment_ids": [
+            "seg-0140"
+          ],
+          "quoted_text": "Those playing it safe strategies worked"
+        },
+        {
+          "start": 365.5,
+          "end": 370.9,
+          "segment_ids": [
+            "seg-0142"
+          ],
+          "quoted_text": "My heart had stopped beating as fast. My"
+        },
+        {
+          "start": 368.2,
+          "end": 374.9,
+          "segment_ids": [
+            "seg-0143"
+          ],
+          "quoted_text": "hands had stopped sweating. I stopped"
+        },
+        {
+          "start": 370.9,
+          "end": 378.3,
+          "segment_ids": [
+            "seg-0144"
+          ],
+          "quoted_text": "feeling uncomfortable. I felt safe."
+        },
+        {
+          "start": 374.9,
+          "end": 379.6,
+          "segment_ids": [
+            "seg-0145"
+          ],
+          "quoted_text": "And I had the first draft of my talk."
+        },
+        {
+          "start": 378.3,
+          "end": 381.9,
+          "segment_ids": [
+            "seg-0146"
+          ],
+          "quoted_text": "But then, what's the problem with"
+        },
+        {
+          "start": 379.6,
+          "end": 383.4,
+          "segment_ids": [
+            "seg-0147"
+          ],
+          "quoted_text": "playing it safe?"
+        },
+        {
+          "start": 383.4,
+          "end": 388.9,
+          "segment_ids": [
+            "seg-0149"
+          ],
+          "quoted_text": "when David is spending most of his time"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-011",
+      "title": "Knowledge Unit [386s-425s]: anticipating every single question he...",
+      "core_thesis": "anticipating every single question he",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-011",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "the-architecture-of-cognitive-biases",
+      "target_topic_title": "The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-architecture-of-cognitive-biases",
+        "existing_topic_title": "The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions",
+        "candidate_score": 9,
+        "existing_thesis_summary": "Your brain is a survival engine, not a truth teller. It exaggerates fear, projects negative judgments, and invents catastrophic futures to keep you safe in comfort. Do not believe everything you think—cross-examine your distortions with courtroom evidence, and let disciplined physical action lead th",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-119",
+        "CLM-120",
+        "CLM-121",
+        "CLM-122",
+        "CLM-123",
+        "CLM-124",
+        "CLM-125",
+        "CLM-126",
+        "CLM-127",
+        "CLM-128",
+        "CLM-129",
+        "EXM-003"
+      ],
+      "source_spans": [
+        {
+          "start": 386,
+          "end": 390.7,
+          "segment_ids": [
+            "seg-0150"
+          ],
+          "quoted_text": "anticipating every single question he"
+        },
+        {
+          "start": 388.9,
+          "end": 392.2,
+          "segment_ids": [
+            "seg-0151"
+          ],
+          "quoted_text": "may get asked during a work"
+        },
+        {
+          "start": 392.2,
+          "end": 397.7,
+          "segment_ids": [
+            "seg-0153"
+          ],
+          "quoted_text": "that he only gets 2 hours of a sleep at"
+        },
+        {
+          "start": 394.5,
+          "end": 400.4,
+          "segment_ids": [
+            "seg-0154"
+          ],
+          "quoted_text": "night, that's a problem."
+        },
+        {
+          "start": 397.7,
+          "end": 402.6,
+          "segment_ids": [
+            "seg-0155"
+          ],
+          "quoted_text": "When David decides not to go to his"
+        },
+        {
+          "start": 400.4,
+          "end": 405.4,
+          "segment_ids": [
+            "seg-0156"
+          ],
+          "quoted_text": "girlfriend's party because he's too"
+        },
+        {
+          "start": 402.6,
+          "end": 407.8,
+          "segment_ids": [
+            "seg-0157"
+          ],
+          "quoted_text": "consumed planning what to say to others"
+        },
+        {
+          "start": 405.4,
+          "end": 409.9,
+          "segment_ids": [
+            "seg-0158"
+          ],
+          "quoted_text": "without sounding a stupid, that's a"
+        },
+        {
+          "start": 409.9,
+          "end": 414.9,
+          "segment_ids": [
+            "seg-0160"
+          ],
+          "quoted_text": "If I couldn't be present with my clients"
+        },
+        {
+          "start": 411.9,
+          "end": 416.9,
+          "segment_ids": [
+            "seg-0161"
+          ],
+          "quoted_text": "because I couldn't stop dwelling on all"
+        },
+        {
+          "start": 414.9,
+          "end": 417.9,
+          "segment_ids": [
+            "seg-0162"
+          ],
+          "quoted_text": "the things that could go wrong in this"
+        },
+        {
+          "start": 420.1,
+          "end": 425.6,
+          "segment_ids": [
+            "seg-0165"
+          ],
+          "quoted_text": "Blindly playing it safe is like using"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-012",
+      "title": "Knowledge Unit [422s-472s]: Because it's just a matter of time that...",
+      "core_thesis": "Because it's just a matter of time that",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-012",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "the-anatomy-of-indiscipline-and-identity-anchors",
+      "target_topic_title": "The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors & The Compound Law",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors & The Compound Law\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-anatomy-of-indiscipline-and-identity-anchors",
+        "existing_topic_title": "The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors & The Compound Law",
+        "candidate_score": 14,
+        "existing_thesis_summary": "Indiscipline is not a lack of knowledge; it is a habit of negotiating with your own standards. Never hesitate longer than 3 seconds, anchor your discipline to your identity rather than fleeting emotions, and recognize that small daily compromises compound into massive lifetime decay.",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "EXM-004",
+        "CLM-130",
+        "CLM-131",
+        "CLM-132",
+        "CLM-133",
+        "CLM-134",
+        "CLM-135",
+        "CLM-136",
+        "CLM-137",
+        "CLM-138",
+        "CLM-139",
+        "CLM-140"
+      ],
+      "source_spans": [
+        {
+          "start": 422.8,
+          "end": 427.9,
+          "segment_ids": [
+            "seg-0166"
+          ],
+          "quoted_text": "bandages to deal with our fears."
+        },
+        {
+          "start": 425.6,
+          "end": 430.5,
+          "segment_ids": [
+            "seg-0167"
+          ],
+          "quoted_text": "Because it's just a matter of time that"
+        },
+        {
+          "start": 427.9,
+          "end": 433.5,
+          "segment_ids": [
+            "seg-0168"
+          ],
+          "quoted_text": "ineffective playing it safe moves will"
+        },
+        {
+          "start": 430.5,
+          "end": 436.8,
+          "segment_ids": [
+            "seg-0169"
+          ],
+          "quoted_text": "affect other areas of our lives."
+        },
+        {
+          "start": 433.5,
+          "end": 441.8,
+          "segment_ids": [
+            "seg-0170"
+          ],
+          "quoted_text": "And our fears will show up again and"
+        },
+        {
+          "start": 436.8,
+          "end": 441.8,
+          "segment_ids": [
+            "seg-0171"
+          ],
+          "quoted_text": "again when doing what we care about."
+        },
+        {
+          "start": 445.4,
+          "end": 452.6,
+          "segment_ids": [
+            "seg-0173"
+          ],
+          "quoted_text": "contrary to what people believe, the"
+        },
+        {
+          "start": 447.7,
+          "end": 452.6,
+          "segment_ids": [
+            "seg-0174"
+          ],
+          "quoted_text": "solution is not to stop feeling afraid."
+        },
+        {
+          "start": 453.5,
+          "end": 459.3,
+          "segment_ids": [
+            "seg-0175"
+          ],
+          "quoted_text": "Because we don't have a magic wand to"
+        },
+        {
+          "start": 463.6,
+          "end": 468.6,
+          "segment_ids": [
+            "seg-0177"
+          ],
+          "quoted_text": "It is natural that our minds are going"
+        },
+        {
+          "start": 466.1,
+          "end": 470.1,
+          "segment_ids": [
+            "seg-0178"
+          ],
+          "quoted_text": "to play it safe to play play it safe"
+        },
+        {
+          "start": 468.6,
+          "end": 472.3,
+          "segment_ids": [
+            "seg-0179"
+          ],
+          "quoted_text": "because of course they come up with"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-013",
+      "title": "Knowledge Unit [470s-508s]: catastrophic thoughts, terrible...",
+      "core_thesis": "catastrophic thoughts, terrible",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-013",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "LOW",
+      "confidence_score": 0.4,
+      "rationale": "Novel observation but lacks sufficient explanatory depth or conceptual coherence for an independent canonical chapter (depth: 0.3). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 7,
+        "existing_thesis_summary": "None",
+        "new_information_delta": "Fragmentary observation without systemic mechanics",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-141",
+        "CLM-142",
+        "CLM-143",
+        "CLM-144",
+        "CLM-145",
+        "CLM-146",
+        "CLM-147",
+        "CLM-148",
+        "CLM-149",
+        "CLM-150",
+        "CLM-151",
+        "CLM-152"
+      ],
+      "source_spans": [
+        {
+          "start": 470.1,
+          "end": 475,
+          "segment_ids": [
+            "seg-0180"
+          ],
+          "quoted_text": "catastrophic thoughts, terrible"
+        },
+        {
+          "start": 472.3,
+          "end": 478.4,
+          "segment_ids": [
+            "seg-0181"
+          ],
+          "quoted_text": "scenarios, and all types of potentially"
+        },
+        {
+          "start": 475,
+          "end": 478.4,
+          "segment_ids": [
+            "seg-0182"
+          ],
+          "quoted_text": "bad things happening."
+        },
+        {
+          "start": 478.4,
+          "end": 482.6,
+          "segment_ids": [
+            "seg-0183"
+          ],
+          "quoted_text": "If there is anything I know as a human"
+        },
+        {
+          "start": 482.6,
+          "end": 487.6,
+          "segment_ids": [
+            "seg-0185"
+          ],
+          "quoted_text": "and in my professional experience is"
+        },
+        {
+          "start": 484.5,
+          "end": 489.8,
+          "segment_ids": [
+            "seg-0186"
+          ],
+          "quoted_text": "that playing it safe is second nature."
+        },
+        {
+          "start": 487.6,
+          "end": 491.8,
+          "segment_ids": [
+            "seg-0187"
+          ],
+          "quoted_text": "And in my work as a psychologist, I have"
+        },
+        {
+          "start": 489.8,
+          "end": 493.9,
+          "segment_ids": [
+            "seg-0188"
+          ],
+          "quoted_text": "witnessed many times the different ways"
+        },
+        {
+          "start": 491.8,
+          "end": 495.3,
+          "segment_ids": [
+            "seg-0189"
+          ],
+          "quoted_text": "in which playing it safe moves may show"
+        },
+        {
+          "start": 495.3,
+          "end": 500.4,
+          "segment_ids": [
+            "seg-0191"
+          ],
+          "quoted_text": "You may try to do things flawlessly."
+        },
+        {
+          "start": 498,
+          "end": 502.8,
+          "segment_ids": [
+            "seg-0192"
+          ],
+          "quoted_text": "You may postpone events. You may search"
+        },
+        {
+          "start": 502.8,
+          "end": 508.8,
+          "segment_ids": [
+            "seg-0194"
+          ],
+          "quoted_text": "You may criticize yourself."
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-014",
+      "title": "Knowledge Unit [506s-541s]: You may worry about a past failure or...",
+      "core_thesis": "You may worry about a past failure or",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-014",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-neurobiology-of-meditation",
+      "target_topic_title": "The Neurobiology of Meditation — Structural Rewiring & The Attention Loop",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Neurobiology of Meditation — Structural Rewiring & The Attention Loop\" (score: 8). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-neurobiology-of-meditation",
+        "existing_topic_title": "The Neurobiology of Meditation — Structural Rewiring & The Attention Loop",
+        "candidate_score": 8,
+        "existing_thesis_summary": "Meditation is not about stopping thoughts; it is about changing your relationship to them. Every time you notice your mind has wandered and calmly return to the present moment, you physically rewire your brain—shrinking fear, strengthening focus, and building an unshakeable inner anchor.",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-153",
+        "CLM-154",
+        "CLM-155",
+        "CLM-156",
+        "CLM-157",
+        "CLM-158",
+        "CLM-159",
+        "CLM-160",
+        "CLM-161",
+        "CLM-162",
+        "CLM-163",
+        "CLM-164"
+      ],
+      "source_spans": [
+        {
+          "start": 506,
+          "end": 511.9,
+          "segment_ids": [
+            "seg-0195"
+          ],
+          "quoted_text": "You may worry about a past failure or"
+        },
+        {
+          "start": 508.8,
+          "end": 514.6,
+          "segment_ids": [
+            "seg-0196"
+          ],
+          "quoted_text": "worry about a negative future."
+        },
+        {
+          "start": 511.9,
+          "end": 517,
+          "segment_ids": [
+            "seg-0197"
+          ],
+          "quoted_text": "You may ignore your needs. You may put"
+        },
+        {
+          "start": 514.6,
+          "end": 519.1,
+          "segment_ids": [
+            "seg-0198"
+          ],
+          "quoted_text": "others needs above yours, or you may"
+        },
+        {
+          "start": 517,
+          "end": 521.7,
+          "segment_ids": [
+            "seg-0199"
+          ],
+          "quoted_text": "question your capacity to do hard"
+        },
+        {
+          "start": 522,
+          "end": 526.5,
+          "segment_ids": [
+            "seg-0201"
+          ],
+          "quoted_text": "Sometimes you may notice when you're"
+        },
+        {
+          "start": 523.6,
+          "end": 528.7,
+          "segment_ids": [
+            "seg-0202"
+          ],
+          "quoted_text": "playing it safe. Other times you may not"
+        },
+        {
+          "start": 526.5,
+          "end": 531.2,
+          "segment_ids": [
+            "seg-0203"
+          ],
+          "quoted_text": "realize that you're doing it."
+        },
+        {
+          "start": 528.7,
+          "end": 533.4,
+          "segment_ids": [
+            "seg-0204"
+          ],
+          "quoted_text": "So, to catch your playing it safe moves,"
+        },
+        {
+          "start": 531.2,
+          "end": 536.6,
+          "segment_ids": [
+            "seg-0205"
+          ],
+          "quoted_text": "you need to keep an eye on all those"
+        },
+        {
+          "start": 533.4,
+          "end": 539.2,
+          "segment_ids": [
+            "seg-0206"
+          ],
+          "quoted_text": "moments in which you are endlessly going"
+        },
+        {
+          "start": 536.6,
+          "end": 541,
+          "segment_ids": [
+            "seg-0207"
+          ],
+          "quoted_text": "over the same content in your head."
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-015",
+      "title": "Knowledge Unit [539s-576s]: Because repetition is a key...",
+      "core_thesis": "Because repetition is a key",
+      "worthiness": "SUBSTANTIVE_KNOWLEDGE",
+      "worthiness_assessment": {
+        "entity_id": "KU-015",
+        "classification": "SUBSTANTIVE_KNOWLEDGE",
+        "reusability_score": 0.85,
+        "explanatory_depth": 0.8,
+        "conceptual_coherence": 0.85,
+        "rationale": "Contains structured explanatory mechanics, principled heuristics, or actionable conceptual distinctions."
+      },
+      "decision": "NEW_TOPIC",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.92,
+      "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 6,
+        "existing_thesis_summary": "None in current corpus",
+        "new_information_delta": "Standalone independent conceptual framework",
+        "relationship": "NEW_TOPIC",
+        "explanatory_gain": "HIGH"
+      },
+      "constituent_entity_ids": [
+        "CLM-165",
+        "CLM-166",
+        "CLM-167",
+        "CLM-168",
+        "EXM-005",
+        "CLM-169",
+        "CLM-170",
+        "CLM-171",
+        "CLM-172",
+        "CLM-173",
+        "CLM-174",
+        "CLM-175"
+      ],
+      "source_spans": [
+        {
+          "start": 539.2,
+          "end": 543.3,
+          "segment_ids": [
+            "seg-0208"
+          ],
+          "quoted_text": "Because repetition is a key"
+        },
+        {
+          "start": 541,
+          "end": 545.2,
+          "segment_ids": [
+            "seg-0209"
+          ],
+          "quoted_text": "characteristic of all playing it safe"
+        },
+        {
+          "start": 545.2,
+          "end": 550,
+          "segment_ids": [
+            "seg-0211"
+          ],
+          "quoted_text": "Research has consistently shown that our"
+        },
+        {
+          "start": 547.8,
+          "end": 552.8,
+          "segment_ids": [
+            "seg-0212"
+          ],
+          "quoted_text": "playing it safe moves feed into our"
+        },
+        {
+          "start": 550,
+          "end": 554.8,
+          "segment_ids": [
+            "seg-0213"
+          ],
+          "quoted_text": "fear-based emotions like adding logs to"
+        },
+        {
+          "start": 554.8,
+          "end": 560.5,
+          "segment_ids": [
+            "seg-0215"
+          ],
+          "quoted_text": "If we play it safe too often,"
+        },
+        {
+          "start": 557.4,
+          "end": 562.9,
+          "segment_ids": [
+            "seg-0216"
+          ],
+          "quoted_text": "too quickly, and for too long, we don't"
+        },
+        {
+          "start": 560.5,
+          "end": 564.1,
+          "segment_ids": [
+            "seg-0217"
+          ],
+          "quoted_text": "learn how to handle effectively our"
+        },
+        {
+          "start": 564.1,
+          "end": 569,
+          "segment_ids": [
+            "seg-0219"
+          ],
+          "quoted_text": "And we're left with the consequences of"
+        },
+        {
+          "start": 566.1,
+          "end": 571.7,
+          "segment_ids": [
+            "seg-0220"
+          ],
+          "quoted_text": "overprotecting ourselves."
+        },
+        {
+          "start": 569,
+          "end": 574.9,
+          "segment_ids": [
+            "seg-0221"
+          ],
+          "quoted_text": "We avoid difficult conversations."
+        },
+        {
+          "start": 571.7,
+          "end": 576.1,
+          "segment_ids": [
+            "seg-0222"
+          ],
+          "quoted_text": "We say no to what matters."
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-016",
+      "title": "Knowledge Unit [576s-616s]: become directionless. We are stopping...",
+      "core_thesis": "become directionless. We are stopping",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-016",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "LOW",
+      "confidence_score": 0.4,
+      "rationale": "Novel observation but lacks sufficient explanatory depth or conceptual coherence for an independent canonical chapter (depth: 0.3). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 6,
+        "existing_thesis_summary": "None",
+        "new_information_delta": "Fragmentary observation without systemic mechanics",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-176",
+        "CLM-177",
+        "CLM-178",
+        "CLM-179",
+        "CLM-180",
+        "CLM-181",
+        "CLM-182",
+        "CLM-183",
+        "CLM-184",
+        "CLM-185",
+        "CLM-186",
+        "CLM-187"
+      ],
+      "source_spans": [
+        {
+          "start": 576.1,
+          "end": 581.1,
+          "segment_ids": [
+            "seg-0224"
+          ],
+          "quoted_text": "become directionless. We are stopping"
+        },
+        {
+          "start": 581.1,
+          "end": 585.4,
+          "segment_ids": [
+            "seg-0226"
+          ],
+          "quoted_text": "How many of you play it safe without"
+        },
+        {
+          "start": 583.3,
+          "end": 587.7,
+          "segment_ids": [
+            "seg-0227"
+          ],
+          "quoted_text": "checking how your playing it safe moves"
+        },
+        {
+          "start": 585.4,
+          "end": 590.1,
+          "segment_ids": [
+            "seg-0228"
+          ],
+          "quoted_text": "are really working in your life,"
+        },
+        {
+          "start": 587.7,
+          "end": 593.5,
+          "segment_ids": [
+            "seg-0229"
+          ],
+          "quoted_text": "in your relationship with others, and in"
+        },
+        {
+          "start": 590.1,
+          "end": 596,
+          "segment_ids": [
+            "seg-0230"
+          ],
+          "quoted_text": "the relationship with yourself?"
+        },
+        {
+          "start": 593.5,
+          "end": 599,
+          "segment_ids": [
+            "seg-0231"
+          ],
+          "quoted_text": "Now, as I said before, contrary to what"
+        },
+        {
+          "start": 596,
+          "end": 602,
+          "segment_ids": [
+            "seg-0232"
+          ],
+          "quoted_text": "people believe, the solution is not to"
+        },
+        {
+          "start": 599,
+          "end": 604,
+          "segment_ids": [
+            "seg-0233"
+          ],
+          "quoted_text": "stop feeling those fear-based emotions."
+        },
+        {
+          "start": 602,
+          "end": 605.6,
+          "segment_ids": [
+            "seg-0234"
+          ],
+          "quoted_text": "We don't have a magic wand to stop our"
+        },
+        {
+          "start": 605.6,
+          "end": 612.7,
+          "segment_ids": [
+            "seg-0236"
+          ],
+          "quoted_text": "Second, no matter how old we are, who we"
+        },
+        {
+          "start": 609.4,
+          "end": 616,
+          "segment_ids": [
+            "seg-0237"
+          ],
+          "quoted_text": "are with, or where we live, we are bound"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-017",
+      "title": "Knowledge Unit [612s-653s]: to feel anxious, worried, and afraid,...",
+      "core_thesis": "to feel anxious, worried, and afraid,",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-017",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-second-brain-and-the-gut-mind-axis",
+      "target_topic_title": "The Second Brain — The Gut-Mind Axis",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Second Brain — The Gut-Mind Axis\" (score: 12). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-second-brain-and-the-gut-mind-axis",
+        "existing_topic_title": "The Second Brain — The Gut-Mind Axis",
+        "candidate_score": 12,
+        "existing_thesis_summary": "Your mental clarity is not isolated to your thoughts. When the gut is inflamed, the mind feels anxious and foggy; when the gut is nourished and calm, the mind naturally returns to ease, focus, and sustained energy.",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-188",
+        "CLM-189",
+        "CLM-190",
+        "CLM-191",
+        "CLM-192",
+        "CLM-193",
+        "CLM-194",
+        "CLM-195",
+        "CLM-196",
+        "CLM-197",
+        "CLM-198",
+        "CLM-199"
+      ],
+      "source_spans": [
+        {
+          "start": 612.7,
+          "end": 618.7,
+          "segment_ids": [
+            "seg-0238"
+          ],
+          "quoted_text": "to feel anxious, worried, and afraid,"
+        },
+        {
+          "start": 616,
+          "end": 620.8,
+          "segment_ids": [
+            "seg-0239"
+          ],
+          "quoted_text": "and we will play it safe."
+        },
+        {
+          "start": 618.7,
+          "end": 622.9,
+          "segment_ids": [
+            "seg-0240"
+          ],
+          "quoted_text": "You may be thinking, if we cannot"
+        },
+        {
+          "start": 620.8,
+          "end": 625.1,
+          "segment_ids": [
+            "seg-0241"
+          ],
+          "quoted_text": "control our feelings,"
+        },
+        {
+          "start": 622.9,
+          "end": 626.8,
+          "segment_ids": [
+            "seg-0242"
+          ],
+          "quoted_text": "if we play if we will play it safe"
+        },
+        {
+          "start": 626.8,
+          "end": 633.1,
+          "segment_ids": [
+            "seg-0244"
+          ],
+          "quoted_text": "and we will feel afraid anyway, then how"
+        },
+        {
+          "start": 629.8,
+          "end": 634.9,
+          "segment_ids": [
+            "seg-0245"
+          ],
+          "quoted_text": "do we know what to do?"
+        },
+        {
+          "start": 633.1,
+          "end": 636.6,
+          "segment_ids": [
+            "seg-0246"
+          ],
+          "quoted_text": "That has been the key question of my"
+        },
+        {
+          "start": 636.6,
+          "end": 642.2,
+          "segment_ids": [
+            "seg-0248"
+          ],
+          "quoted_text": "How can we get unstuck from fear-based"
+        },
+        {
+          "start": 639.4,
+          "end": 643.9,
+          "segment_ids": [
+            "seg-0249"
+          ],
+          "quoted_text": "emotions so we can live a fulfilling"
+        },
+        {
+          "start": 642.2,
+          "end": 646.4,
+          "segment_ids": [
+            "seg-0250"
+          ],
+          "quoted_text": "life?"
+        },
+        {
+          "start": 646.4,
+          "end": 653.2,
+          "segment_ids": [
+            "seg-0252"
+          ],
+          "quoted_text": "We learn to do what matters while"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-018",
+      "title": "Knowledge Unit [648s-685s]: feeling anxious, worried, and afraid....",
+      "core_thesis": "feeling anxious, worried, and afraid.",
+      "worthiness": "SUBSTANTIVE_KNOWLEDGE",
+      "worthiness_assessment": {
+        "entity_id": "KU-018",
+        "classification": "SUBSTANTIVE_KNOWLEDGE",
+        "reusability_score": 0.85,
+        "explanatory_depth": 0.8,
+        "conceptual_coherence": 0.85,
+        "rationale": "Contains structured explanatory mechanics, principled heuristics, or actionable conceptual distinctions."
+      },
+      "decision": "NEW_TOPIC",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.92,
+      "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 7,
+        "existing_thesis_summary": "None in current corpus",
+        "new_information_delta": "Standalone independent conceptual framework",
+        "relationship": "NEW_TOPIC",
+        "explanatory_gain": "HIGH"
+      },
+      "constituent_entity_ids": [
+        "CLM-200",
+        "CLM-201",
+        "CLM-202",
+        "CLM-203",
+        "CLM-204",
+        "CLM-205",
+        "CLM-206",
+        "CLM-207",
+        "CLM-208",
+        "CLM-209",
+        "CLM-210",
+        "CLM-211"
+      ],
+      "source_spans": [
+        {
+          "start": 648.7,
+          "end": 655.1,
+          "segment_ids": [
+            "seg-0253"
+          ],
+          "quoted_text": "feeling anxious, worried, and afraid."
+        },
+        {
+          "start": 653.2,
+          "end": 657.3,
+          "segment_ids": [
+            "seg-0254"
+          ],
+          "quoted_text": "We learn to not fight those yucky"
+        },
+        {
+          "start": 655.1,
+          "end": 659.6,
+          "segment_ids": [
+            "seg-0255"
+          ],
+          "quoted_text": "feelings, but choose to have them in the"
+        },
+        {
+          "start": 657.3,
+          "end": 661.3,
+          "segment_ids": [
+            "seg-0256"
+          ],
+          "quoted_text": "service of what is truly important to"
+        },
+        {
+          "start": 661.3,
+          "end": 665.7,
+          "segment_ids": [
+            "seg-0258"
+          ],
+          "quoted_text": "We learn to check how our playing it"
+        },
+        {
+          "start": 663.4,
+          "end": 667.4,
+          "segment_ids": [
+            "seg-0259"
+          ],
+          "quoted_text": "safe moves are really working in our"
+        },
+        {
+          "start": 667.4,
+          "end": 671.6,
+          "segment_ids": [
+            "seg-0261"
+          ],
+          "quoted_text": "Learning these skills changed David's"
+        },
+        {
+          "start": 669.9,
+          "end": 675.6,
+          "segment_ids": [
+            "seg-0262"
+          ],
+          "quoted_text": "life because they changed his"
+        },
+        {
+          "start": 671.6,
+          "end": 677.7,
+          "segment_ids": [
+            "seg-0263"
+          ],
+          "quoted_text": "relationship to his fear-based emotions."
+        },
+        {
+          "start": 675.6,
+          "end": 680.8,
+          "segment_ids": [
+            "seg-0264"
+          ],
+          "quoted_text": "These are the same skills that have"
+        },
+        {
+          "start": 677.7,
+          "end": 683.2,
+          "segment_ids": [
+            "seg-0265"
+          ],
+          "quoted_text": "helped me to be a better psychologist"
+        },
+        {
+          "start": 680.8,
+          "end": 685.2,
+          "segment_ids": [
+            "seg-0266"
+          ],
+          "quoted_text": "and a better human being."
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-019",
+      "title": "Knowledge Unit [683s-716s]: Today, I want to share with all of you...",
+      "core_thesis": "Today, I want to share with all of you",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-019",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "the-neurochemistry-of-focus-and-dopamine-transition",
+      "target_topic_title": "The Neurochemistry of Focus — The Dopamine-Attention Transition & Dopamine Loading",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Neurochemistry of Focus — The Dopamine-Attention Transition & Dopamine Loading\" (score: 11). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-neurochemistry-of-focus-and-dopamine-transition",
+        "existing_topic_title": "The Neurochemistry of Focus — The Dopamine-Attention Transition & Dopamine Loading",
+        "candidate_score": 11,
+        "existing_thesis_summary": "Distraction is not a character flaw; it is an addiction to dopamine anticipation. Sequence your day with effort first, isolate the morning from digital inputs, load your dopamine through micro-milestones, restore your reserves through NSDR, and quarantine high-stimulation rewards to a protected even",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-212",
+        "CLM-213",
+        "CLM-214",
+        "CLM-215",
+        "CLM-216",
+        "CLM-217",
+        "CLM-218",
+        "CLM-219",
+        "CLM-220",
+        "CLM-221",
+        "CLM-222",
+        "CLM-223"
+      ],
+      "source_spans": [
+        {
+          "start": 683.2,
+          "end": 687.2,
+          "segment_ids": [
+            "seg-0267"
+          ],
+          "quoted_text": "Today, I want to share with all of you"
+        },
+        {
+          "start": 685.2,
+          "end": 689.1,
+          "segment_ids": [
+            "seg-0268"
+          ],
+          "quoted_text": "some of these skills."
+        },
+        {
+          "start": 687.2,
+          "end": 691.4,
+          "segment_ids": [
+            "seg-0269"
+          ],
+          "quoted_text": "Here's the first one."
+        },
+        {
+          "start": 691.4,
+          "end": 697.6,
+          "segment_ids": [
+            "seg-0271"
+          ],
+          "quoted_text": "Our minds are wonderful devices that are"
+        },
+        {
+          "start": 694.1,
+          "end": 701.2,
+          "segment_ids": [
+            "seg-0272"
+          ],
+          "quoted_text": "always creating all types of content."
+        },
+        {
+          "start": 697.6,
+          "end": 703.8,
+          "segment_ids": [
+            "seg-0273"
+          ],
+          "quoted_text": "Hypothesis, dreams, memories, opinions."
+        },
+        {
+          "start": 701.2,
+          "end": 707,
+          "segment_ids": [
+            "seg-0274"
+          ],
+          "quoted_text": "Even when we are sleeping, our minds are"
+        },
+        {
+          "start": 703.8,
+          "end": 709.2,
+          "segment_ids": [
+            "seg-0275"
+          ],
+          "quoted_text": "going on and on and on."
+        },
+        {
+          "start": 707,
+          "end": 711.6,
+          "segment_ids": [
+            "seg-0276"
+          ],
+          "quoted_text": "Right now, as you're listening to this"
+        },
+        {
+          "start": 709.2,
+          "end": 713.3,
+          "segment_ids": [
+            "seg-0277"
+          ],
+          "quoted_text": "talk and my accent, what is your mind"
+        },
+        {
+          "start": 711.6,
+          "end": 715.3,
+          "segment_ids": [
+            "seg-0278"
+          ],
+          "quoted_text": "doing?"
+        },
+        {
+          "start": 713.3,
+          "end": 716.9,
+          "segment_ids": [
+            "seg-0279"
+          ],
+          "quoted_text": "Is it in the present?"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-020",
+      "title": "Knowledge Unit [715s-751s]: Are you thinking about what you had for...",
+      "core_thesis": "Are you thinking about what you had for",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-020",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": "dismantling-the-overthinking-loop",
+      "target_topic_title": "The Architecture of Metacognition — Dismantling the Overthinking Loop",
+      "confidence": "LOW",
+      "confidence_score": 0.45,
+      "rationale": "Weak semantic linkage to candidate \"The Architecture of Metacognition — Dismantling the Overthinking Loop\" (score: 16). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": "dismantling-the-overthinking-loop",
+        "existing_topic_title": "The Architecture of Metacognition — Dismantling the Overthinking Loop",
+        "candidate_score": 16,
+        "existing_thesis_summary": "Analysis that leads to action is wisdom; analysis that leads to more analysis is a prison. Never solve worries inside your head—write them down, make the call at 70% certainty, ground your body in physical reality, and let execution silence the noise.",
+        "new_information_delta": "Ambiguous relevance",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-224",
+        "CLM-225",
+        "CLM-226",
+        "CLM-227",
+        "CLM-228",
+        "CLM-229",
+        "CLM-230",
+        "CLM-231",
+        "CLM-232",
+        "CLM-233",
+        "CLM-234",
+        "CLM-235"
+      ],
+      "source_spans": [
+        {
+          "start": 715.3,
+          "end": 718.6,
+          "segment_ids": [
+            "seg-0280"
+          ],
+          "quoted_text": "Are you thinking about what you had for"
+        },
+        {
+          "start": 716.9,
+          "end": 720.3,
+          "segment_ids": [
+            "seg-0281"
+          ],
+          "quoted_text": "breakfast?"
+        },
+        {
+          "start": 718.6,
+          "end": 722.4,
+          "segment_ids": [
+            "seg-0282"
+          ],
+          "quoted_text": "Are you thinking about a trip you want"
+        },
+        {
+          "start": 720.3,
+          "end": 724.5,
+          "segment_ids": [
+            "seg-0283"
+          ],
+          "quoted_text": "to take?"
+        },
+        {
+          "start": 722.4,
+          "end": 729,
+          "segment_ids": [
+            "seg-0284"
+          ],
+          "quoted_text": "According to the National Science"
+        },
+        {
+          "start": 724.5,
+          "end": 732.8,
+          "segment_ids": [
+            "seg-0285"
+          ],
+          "quoted_text": "Foundation, we have between 12,000"
+        },
+        {
+          "start": 729,
+          "end": 736.2,
+          "segment_ids": [
+            "seg-0286"
+          ],
+          "quoted_text": "and 60,000 thoughts per day."
+        },
+        {
+          "start": 732.8,
+          "end": 738.2,
+          "segment_ids": [
+            "seg-0287"
+          ],
+          "quoted_text": "Yep, we have busy minds, all of us."
+        },
+        {
+          "start": 736.2,
+          "end": 739.8,
+          "segment_ids": [
+            "seg-0288"
+          ],
+          "quoted_text": "And our minds also tell us when we are"
+        },
+        {
+          "start": 739.8,
+          "end": 744.5,
+          "segment_ids": [
+            "seg-0290"
+          ],
+          "quoted_text": "When a fast-moving truck is speeding"
+        },
+        {
+          "start": 741.8,
+          "end": 745.4,
+          "segment_ids": [
+            "seg-0291"
+          ],
+          "quoted_text": "towards us, our minds tell us, \"Watch"
+        },
+        {
+          "start": 745.4,
+          "end": 751.4,
+          "segment_ids": [
+            "seg-0293"
+          ],
+          "quoted_text": "But our minds also tell us, \"Watch out.\""
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-021",
+      "title": "Knowledge Unit [747s-785s]: when imagining future danger....",
+      "core_thesis": "when imagining future danger.",
+      "worthiness": "CONTEXT_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-021",
+        "classification": "CONTEXT_ONLY",
+        "reusability_score": 0.1,
+        "explanatory_depth": 0.1,
+        "conceptual_coherence": 0.2,
+        "rationale": "Autobiographical narrative, personal introduction, or conversational framing with zero independent canonical utility."
+      },
+      "decision": "FILTERED_NON_CANONICAL",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.98,
+      "rationale": "Filtered by Knowledge Worthiness Gate (CONTEXT_ONLY): Personal background, autobiographical narrative, or conversational framing with zero independent canonical value.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 0,
+        "existing_thesis_summary": "N/A",
+        "new_information_delta": "None (Context / Biographical noise)",
+        "relationship": "FILTERED_NON_CANONICAL",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-236",
+        "CLM-237",
+        "CLM-238",
+        "CLM-239",
+        "CLM-240",
+        "CLM-241",
+        "CLM-242",
+        "CLM-243",
+        "CLM-244",
+        "CLM-245",
+        "CLM-246",
+        "CLM-247"
+      ],
+      "source_spans": [
+        {
+          "start": 747.9,
+          "end": 752.9,
+          "segment_ids": [
+            "seg-0294"
+          ],
+          "quoted_text": "when imagining future danger."
+        },
+        {
+          "start": 751.4,
+          "end": 755.1,
+          "segment_ids": [
+            "seg-0295"
+          ],
+          "quoted_text": "If you don't say the right things on"
+        },
+        {
+          "start": 752.9,
+          "end": 756.8,
+          "segment_ids": [
+            "seg-0296"
+          ],
+          "quoted_text": "your date, she won't go out with you"
+        },
+        {
+          "start": 756.8,
+          "end": 760.8,
+          "segment_ids": [
+            "seg-0298"
+          ],
+          "quoted_text": "If you don't foresee everything that"
+        },
+        {
+          "start": 758.7,
+          "end": 762.6,
+          "segment_ids": [
+            "seg-0299"
+          ],
+          "quoted_text": "could go wrong in this talk, you will be"
+        },
+        {
+          "start": 762.6,
+          "end": 767.1,
+          "segment_ids": [
+            "seg-0301"
+          ],
+          "quoted_text": "If you tell people what you really think"
+        },
+        {
+          "start": 765,
+          "end": 768.2,
+          "segment_ids": [
+            "seg-0302"
+          ],
+          "quoted_text": "about their politics, they will reject"
+        },
+        {
+          "start": 768.2,
+          "end": 772.8,
+          "segment_ids": [
+            "seg-0304"
+          ],
+          "quoted_text": "And with all those thoughts expelling"
+        },
+        {
+          "start": 770.5,
+          "end": 775.5,
+          "segment_ids": [
+            "seg-0305"
+          ],
+          "quoted_text": "our heads, of course,"
+        },
+        {
+          "start": 772.8,
+          "end": 776.7,
+          "segment_ids": [
+            "seg-0306"
+          ],
+          "quoted_text": "our mind tell us, \"Better safe than"
+        },
+        {
+          "start": 776.7,
+          "end": 782.1,
+          "segment_ids": [
+            "seg-0308"
+          ],
+          "quoted_text": "Ask us to play it safe as a way of"
+        },
+        {
+          "start": 778.9,
+          "end": 785.5,
+          "segment_ids": [
+            "seg-0309"
+          ],
+          "quoted_text": "protecting us, as a way of avoiding the"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-022",
+      "title": "Knowledge Unit [787s-823s]: But our minds are not the oracle of...",
+      "core_thesis": "But our minds are not the oracle of",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-022",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "the-neurobiology-of-growth-and-fixed-mindset",
+      "target_topic_title": "The Neurobiology of Growth — Dismantling the Fixed Mindset",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Neurobiology of Growth — Dismantling the Fixed Mindset\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-neurobiology-of-growth-and-fixed-mindset",
+        "existing_topic_title": "The Neurobiology of Growth — Dismantling the Fixed Mindset",
+        "candidate_score": 11,
+        "existing_thesis_summary": "Intelligence and talent are not fixed biological ceilings; they are starting points. Embrace the friction of confusion, treat every mistake as diagnostic data, and realize that your brain's capacity expands precisely where the challenge begins.",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-248",
+        "EXM-006",
+        "CLM-249",
+        "EXM-007",
+        "CLM-250",
+        "CLM-251",
+        "CLM-252",
+        "CLM-253",
+        "CLM-254",
+        "CLM-255",
+        "CLM-256",
+        "EXM-008"
+      ],
+      "source_spans": [
+        {
+          "start": 787.8,
+          "end": 791.2,
+          "segment_ids": [
+            "seg-0311"
+          ],
+          "quoted_text": "But our minds are not the oracle of"
+        },
+        {
+          "start": 791.2,
+          "end": 796.5,
+          "segment_ids": [
+            "seg-0313"
+          ],
+          "quoted_text": "Our minds are more like an advisory"
+        },
+        {
+          "start": 793.4,
+          "end": 798.4,
+          "segment_ids": [
+            "seg-0314"
+          ],
+          "quoted_text": "board, chiming in and giving advice."
+        },
+        {
+          "start": 796.5,
+          "end": 801.1,
+          "segment_ids": [
+            "seg-0315"
+          ],
+          "quoted_text": "Sometimes the advisory board of your"
+        },
+        {
+          "start": 798.4,
+          "end": 803.9,
+          "segment_ids": [
+            "seg-0316"
+          ],
+          "quoted_text": "mind will offer you great advice."
+        },
+        {
+          "start": 801.1,
+          "end": 805.8,
+          "segment_ids": [
+            "seg-0317"
+          ],
+          "quoted_text": "And other times, it simply doesn't."
+        },
+        {
+          "start": 803.9,
+          "end": 809.1,
+          "segment_ids": [
+            "seg-0318"
+          ],
+          "quoted_text": "For example, yesterday when I was"
+        },
+        {
+          "start": 805.8,
+          "end": 810.5,
+          "segment_ids": [
+            "seg-0319"
+          ],
+          "quoted_text": "driving, my advisory told me, \"You are"
+        },
+        {
+          "start": 810.5,
+          "end": 815.9,
+          "segment_ids": [
+            "seg-0321"
+          ],
+          "quoted_text": "And urged me to play it safe by looking"
+        },
+        {
+          "start": 812.6,
+          "end": 817.7,
+          "segment_ids": [
+            "seg-0322"
+          ],
+          "quoted_text": "both ways before making a turn. That was"
+        },
+        {
+          "start": 817.7,
+          "end": 822.1,
+          "segment_ids": [
+            "seg-0324"
+          ],
+          "quoted_text": "When preparing for this talk, my"
+        },
+        {
+          "start": 819.6,
+          "end": 823.9,
+          "segment_ids": [
+            "seg-0325"
+          ],
+          "quoted_text": "advisory board told me, \"You will mess"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-023",
+      "title": "Knowledge Unit [822s-854s]: up. You don't know what you're talking...",
+      "core_thesis": "up. You don't know what you're talking",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-023",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "the-architecture-of-high-impact-pedagogy",
+      "target_topic_title": "The Architecture of High-Impact Pedagogy & Sovereign Writing — The MIT Formula, Reader-Centric Value & Cognitive Fences",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Architecture of High-Impact Pedagogy & Sovereign Writing — The MIT Formula, Reader-Centric Value & Cognitive Fences\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-architecture-of-high-impact-pedagogy",
+        "existing_topic_title": "The Architecture of High-Impact Pedagogy & Sovereign Writing — The MIT Formula, Reader-Centric Value & Cognitive Fences",
+        "candidate_score": 12,
+        "existing_thesis_summary": "Writing and speaking are not acts of self-expression; they are acts of reader transformation. Strip away the school habit of showing what you know. Create instability by exposing hidden flaws, anchor your sentences in topic-stress alignment, fence your ideas with surgical precision, and deliver sove",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-257",
+        "CLM-258",
+        "CLM-259",
+        "CLM-260",
+        "CLM-261",
+        "CLM-262",
+        "CLM-263",
+        "CLM-264",
+        "CLM-265",
+        "CLM-266",
+        "CLM-267",
+        "EXM-009"
+      ],
+      "source_spans": [
+        {
+          "start": 822.1,
+          "end": 826.7,
+          "segment_ids": [
+            "seg-0326"
+          ],
+          "quoted_text": "up. You don't know what you're talking"
+        },
+        {
+          "start": 823.9,
+          "end": 829.6,
+          "segment_ids": [
+            "seg-0327"
+          ],
+          "quoted_text": "about.\" And urged me to play it safe by"
+        },
+        {
+          "start": 826.7,
+          "end": 831.5,
+          "segment_ids": [
+            "seg-0328"
+          ],
+          "quoted_text": "avoiding this talk altogether."
+        },
+        {
+          "start": 829.6,
+          "end": 833.8,
+          "segment_ids": [
+            "seg-0329"
+          ],
+          "quoted_text": "That wasn't helpful advice."
+        },
+        {
+          "start": 831.5,
+          "end": 836.9,
+          "segment_ids": [
+            "seg-0330"
+          ],
+          "quoted_text": "Because if I had listened to my advisory"
+        },
+        {
+          "start": 833.8,
+          "end": 839.5,
+          "segment_ids": [
+            "seg-0331"
+          ],
+          "quoted_text": "board and avoided being here with all of"
+        },
+        {
+          "start": 836.9,
+          "end": 842.5,
+          "segment_ids": [
+            "seg-0332"
+          ],
+          "quoted_text": "you today, I would have moved farther"
+        },
+        {
+          "start": 839.5,
+          "end": 843.8,
+          "segment_ids": [
+            "seg-0333"
+          ],
+          "quoted_text": "away from doing what is truly important"
+        },
+        {
+          "start": 843.8,
+          "end": 848,
+          "segment_ids": [
+            "seg-0335"
+          ],
+          "quoted_text": "So, what do you do when your advisory"
+        },
+        {
+          "start": 846,
+          "end": 849.2,
+          "segment_ids": [
+            "seg-0336"
+          ],
+          "quoted_text": "board is starts pushing you to play it"
+        },
+        {
+          "start": 848,
+          "end": 851,
+          "segment_ids": [
+            "seg-0337"
+          ],
+          "quoted_text": "safe?"
+        },
+        {
+          "start": 851,
+          "end": 854.2,
+          "segment_ids": [
+            "seg-0339"
+          ],
+          "quoted_text": "Notice when your advisory board is"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-024",
+      "title": "Knowledge Unit [854s-896s]: Maybe even say, \"I hear you, advisory...",
+      "core_thesis": "Maybe even say, \"I hear you, advisory",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-024",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "the-morning-architecture-and-discipline",
+      "target_topic_title": "The Circadian Architecture — The Science of Early Waking, Evening De-escalation & The Zero-Input Sanctuary",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Circadian Architecture — The Science of Early Waking, Evening De-escalation & The Zero-Input Sanctuary\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "the-morning-architecture-and-discipline",
+        "existing_topic_title": "The Circadian Architecture — The Science of Early Waking, Evening De-escalation & The Zero-Input Sanctuary",
+        "candidate_score": 17,
+        "existing_thesis_summary": "Early waking is an engineering problem, not a character test. Win the evening by clearing blue light and dropping your core temperature, eliminate the snooze trap with a single across-the-room alarm, ignite your biology with light and water, and turn the quiet morning hours into your unfair competit",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-268",
+        "CLM-269",
+        "EXM-010",
+        "CLM-270",
+        "CLM-271",
+        "CLM-272",
+        "CLM-273",
+        "EXM-011",
+        "CLM-274",
+        "EXM-012",
+        "CLM-275",
+        "CLM-276"
+      ],
+      "source_spans": [
+        {
+          "start": 854.2,
+          "end": 858,
+          "segment_ids": [
+            "seg-0341"
+          ],
+          "quoted_text": "Maybe even say, \"I hear you, advisory"
+        },
+        {
+          "start": 858,
+          "end": 863.4,
+          "segment_ids": [
+            "seg-0343"
+          ],
+          "quoted_text": "Then, try another skill."
+        },
+        {
+          "start": 860.5,
+          "end": 866.1,
+          "segment_ids": [
+            "seg-0344"
+          ],
+          "quoted_text": "Radically accept that advisory board of"
+        },
+        {
+          "start": 863.4,
+          "end": 867.6,
+          "segment_ids": [
+            "seg-0345"
+          ],
+          "quoted_text": "your mind will always urge you to play"
+        },
+        {
+          "start": 867.6,
+          "end": 872.2,
+          "segment_ids": [
+            "seg-0347"
+          ],
+          "quoted_text": "You can even say, \"Hey, you're trying to"
+        },
+        {
+          "start": 869.6,
+          "end": 875.3,
+          "segment_ids": [
+            "seg-0348"
+          ],
+          "quoted_text": "convince me to play it safe again, like"
+        },
+        {
+          "start": 875.3,
+          "end": 880.3,
+          "segment_ids": [
+            "seg-0350"
+          ],
+          "quoted_text": "You may be thinking, \"Mhm, but if my"
+        },
+        {
+          "start": 877.6,
+          "end": 882.8,
+          "segment_ids": [
+            "seg-0351"
+          ],
+          "quoted_text": "advisory board tells me that something"
+        },
+        {
+          "start": 880.3,
+          "end": 885.4,
+          "segment_ids": [
+            "seg-0352"
+          ],
+          "quoted_text": "bad is going to happen, how do I know"
+        },
+        {
+          "start": 882.8,
+          "end": 887.4,
+          "segment_ids": [
+            "seg-0353"
+          ],
+          "quoted_text": "when to listen to my advisory board and"
+        },
+        {
+          "start": 887.4,
+          "end": 891,
+          "segment_ids": [
+            "seg-0355"
+          ],
+          "quoted_text": "Here is my response and another skill"
+        },
+        {
+          "start": 891,
+          "end": 896.8,
+          "segment_ids": [
+            "seg-0357"
+          ],
+          "quoted_text": "You need to identify the long-term"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-025",
+      "title": "Knowledge Unit [894s-935s]: consequences of doing whatever your...",
+      "core_thesis": "consequences of doing whatever your",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-025",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "asymmetric-leverage-and-the-pareto-principle",
+      "target_topic_title": "Asymmetric Leverage — The Pareto Principle and Doing More by Doing Less",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"Asymmetric Leverage — The Pareto Principle and Doing More by Doing Less\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "asymmetric-leverage-and-the-pareto-principle",
+        "existing_topic_title": "Asymmetric Leverage — The Pareto Principle and Doing More by Doing Less",
+        "candidate_score": 22,
+        "existing_thesis_summary": "Doing more is not the path to greatness; doing the vital few with uncompromised depth is. Strip away the trivial 80%, concentrate your firepower on the asymmetric 20%, and achieve effortless leverage.",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-277",
+        "EXM-013",
+        "EXM-014",
+        "CLM-278",
+        "CLM-279",
+        "CLM-280",
+        "CLM-281",
+        "CLM-282",
+        "CLM-283",
+        "CLM-284",
+        "EXM-015",
+        "EXM-016"
+      ],
+      "source_spans": [
+        {
+          "start": 894.1,
+          "end": 899.6,
+          "segment_ids": [
+            "seg-0358"
+          ],
+          "quoted_text": "consequences of doing whatever your"
+        },
+        {
+          "start": 896.8,
+          "end": 901.9,
+          "segment_ids": [
+            "seg-0359"
+          ],
+          "quoted_text": "advisory board asks you to do."
+        },
+        {
+          "start": 901.9,
+          "end": 907.8,
+          "segment_ids": [
+            "seg-0361"
+          ],
+          "quoted_text": "\"If I listen to my advisory board, will"
+        },
+        {
+          "start": 904.1,
+          "end": 910.3,
+          "segment_ids": [
+            "seg-0362"
+          ],
+          "quoted_text": "I become the person I want to be?"
+        },
+        {
+          "start": 907.8,
+          "end": 913.6,
+          "segment_ids": [
+            "seg-0363"
+          ],
+          "quoted_text": "Will my play-it-safe behaviors allow me"
+        },
+        {
+          "start": 910.3,
+          "end": 916.1,
+          "segment_ids": [
+            "seg-0364"
+          ],
+          "quoted_text": "to be the kind of friend I want to be?"
+        },
+        {
+          "start": 913.6,
+          "end": 918,
+          "segment_ids": [
+            "seg-0365"
+          ],
+          "quoted_text": "The kind of worker or a student I want"
+        },
+        {
+          "start": 916.1,
+          "end": 921.3,
+          "segment_ids": [
+            "seg-0366"
+          ],
+          "quoted_text": "to be?"
+        },
+        {
+          "start": 918,
+          "end": 924,
+          "segment_ids": [
+            "seg-0367"
+          ],
+          "quoted_text": "Will my play-it-safe actions allow me to"
+        },
+        {
+          "start": 921.3,
+          "end": 926.4,
+          "segment_ids": [
+            "seg-0368"
+          ],
+          "quoted_text": "be the kind of partner or parent I want"
+        },
+        {
+          "start": 926.6,
+          "end": 932.4,
+          "segment_ids": [
+            "seg-0370"
+          ],
+          "quoted_text": "When your advisory board starts talking,"
+        },
+        {
+          "start": 929.6,
+          "end": 935,
+          "segment_ids": [
+            "seg-0371"
+          ],
+          "quoted_text": "don't engage with your advisory board by"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-026",
+      "title": "Knowledge Unit [932s-968s]: debating what is accurate or not, what...",
+      "core_thesis": "debating what is accurate or not, what",
+      "worthiness": "SUBSTANTIVE_KNOWLEDGE",
+      "worthiness_assessment": {
+        "entity_id": "KU-026",
+        "classification": "SUBSTANTIVE_KNOWLEDGE",
+        "reusability_score": 0.85,
+        "explanatory_depth": 0.8,
+        "conceptual_coherence": 0.85,
+        "rationale": "Contains structured explanatory mechanics, principled heuristics, or actionable conceptual distinctions."
+      },
+      "decision": "NEW_TOPIC",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "HIGH",
+      "confidence_score": 0.92,
+      "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 7,
+        "existing_thesis_summary": "None in current corpus",
+        "new_information_delta": "Standalone independent conceptual framework",
+        "relationship": "NEW_TOPIC",
+        "explanatory_gain": "HIGH"
+      },
+      "constituent_entity_ids": [
+        "CLM-285",
+        "CLM-286",
+        "CLM-287",
+        "CLM-288",
+        "CLM-289",
+        "CLM-290",
+        "CLM-291",
+        "CLM-292",
+        "CLM-293",
+        "CLM-294",
+        "CLM-295",
+        "CLM-296"
+      ],
+      "source_spans": [
+        {
+          "start": 932.4,
+          "end": 937.5,
+          "segment_ids": [
+            "seg-0372"
+          ],
+          "quoted_text": "debating what is accurate or not, what"
+        },
+        {
+          "start": 935,
+          "end": 939.6,
+          "segment_ids": [
+            "seg-0373"
+          ],
+          "quoted_text": "is right or wrong, or rationalizing,"
+        },
+        {
+          "start": 937.5,
+          "end": 940.9,
+          "segment_ids": [
+            "seg-0374"
+          ],
+          "quoted_text": "because that's how you start playing it"
+        },
+        {
+          "start": 940.9,
+          "end": 947,
+          "segment_ids": [
+            "seg-0376"
+          ],
+          "quoted_text": "Instead, remember that your mind cannot"
+        },
+        {
+          "start": 944.1,
+          "end": 949.4,
+          "segment_ids": [
+            "seg-0377"
+          ],
+          "quoted_text": "control coming up with fearful thoughts,"
+        },
+        {
+          "start": 947,
+          "end": 951.8,
+          "segment_ids": [
+            "seg-0378"
+          ],
+          "quoted_text": "but you can choose how to respond to"
+        },
+        {
+          "start": 949.4,
+          "end": 953.8,
+          "segment_ids": [
+            "seg-0379"
+          ],
+          "quoted_text": "them and whether you play it safe or"
+        },
+        {
+          "start": 953.8,
+          "end": 957.4,
+          "segment_ids": [
+            "seg-0381"
+          ],
+          "quoted_text": "So, what happened to my wonderful coffee"
+        },
+        {
+          "start": 956,
+          "end": 959.6,
+          "segment_ids": [
+            "seg-0382"
+          ],
+          "quoted_text": "maker?"
+        },
+        {
+          "start": 957.4,
+          "end": 961.9,
+          "segment_ids": [
+            "seg-0383"
+          ],
+          "quoted_text": "Well, fed up with playing it safe, I"
+        },
+        {
+          "start": 959.6,
+          "end": 963.6,
+          "segment_ids": [
+            "seg-0384"
+          ],
+          "quoted_text": "drove back to a store and simply bought"
+        },
+        {
+          "start": 963.6,
+          "end": 968.6,
+          "segment_ids": [
+            "seg-0386"
+          ],
+          "quoted_text": "I still have this kitchen gadget 15"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-027",
+      "title": "Knowledge Unit [966s-998s]: years later and love the smell of coffee...",
+      "core_thesis": "years later and love the smell of coffee",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-027",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "LOW",
+      "confidence_score": 0.4,
+      "rationale": "Novel observation but lacks sufficient explanatory depth or conceptual coherence for an independent canonical chapter (depth: 0.4). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 6,
+        "existing_thesis_summary": "None",
+        "new_information_delta": "Fragmentary observation without systemic mechanics",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-297",
+        "CLM-298",
+        "CLM-299",
+        "EXM-017",
+        "CLM-300",
+        "CLM-301",
+        "CLM-302",
+        "CLM-303",
+        "CLM-304",
+        "EXM-018",
+        "CLM-305",
+        "CLM-306"
+      ],
+      "source_spans": [
+        {
+          "start": 966.1,
+          "end": 970.4,
+          "segment_ids": [
+            "seg-0387"
+          ],
+          "quoted_text": "years later and love the smell of coffee"
+        },
+        {
+          "start": 970.4,
+          "end": 975.5,
+          "segment_ids": [
+            "seg-0389"
+          ],
+          "quoted_text": "What do you do when the figurative"
+        },
+        {
+          "start": 972.6,
+          "end": 977.3,
+          "segment_ids": [
+            "seg-0390"
+          ],
+          "quoted_text": "coffee maker of your life breaks down"
+        },
+        {
+          "start": 975.5,
+          "end": 978.8,
+          "segment_ids": [
+            "seg-0391"
+          ],
+          "quoted_text": "and your advisory board it starts"
+        },
+        {
+          "start": 977.3,
+          "end": 980.9,
+          "segment_ids": [
+            "seg-0392"
+          ],
+          "quoted_text": "yapping?"
+        },
+        {
+          "start": 978.8,
+          "end": 983.1,
+          "segment_ids": [
+            "seg-0393"
+          ],
+          "quoted_text": "Use the skills from this talk to"
+        },
+        {
+          "start": 980.9,
+          "end": 985.5,
+          "segment_ids": [
+            "seg-0394"
+          ],
+          "quoted_text": "determine whether you should listen to"
+        },
+        {
+          "start": 983.1,
+          "end": 988.9,
+          "segment_ids": [
+            "seg-0395"
+          ],
+          "quoted_text": "its warning or shrug it off."
+        },
+        {
+          "start": 985.5,
+          "end": 991,
+          "segment_ids": [
+            "seg-0396"
+          ],
+          "quoted_text": "To recap, one, watch your mind."
+        },
+        {
+          "start": 988.9,
+          "end": 993.7,
+          "segment_ids": [
+            "seg-0397"
+          ],
+          "quoted_text": "Notice when your advisory board it"
+        },
+        {
+          "start": 991,
+          "end": 996.1,
+          "segment_ids": [
+            "seg-0398"
+          ],
+          "quoted_text": "starts to predict how your life is about"
+        },
+        {
+          "start": 993.7,
+          "end": 998.8,
+          "segment_ids": [
+            "seg-0399"
+          ],
+          "quoted_text": "to go downhill and demands that you play"
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-028",
+      "title": "Knowledge Unit [999s-1040s]: radically accept that your advisory...",
+      "core_thesis": "radically accept that your advisory",
+      "worthiness": "EXAMPLE_ONLY",
+      "worthiness_assessment": {
+        "entity_id": "KU-028",
+        "classification": "EXAMPLE_ONLY",
+        "reusability_score": 0.5,
+        "explanatory_depth": 0.4,
+        "conceptual_coherence": 0.6,
+        "rationale": "Concrete illustration, case study, or metaphor. Subordinate to a parent concept."
+      },
+      "decision": "EXAMPLE_OR_APPLICATION",
+      "target_topic_slug": "dismantling-the-overthinking-loop",
+      "target_topic_title": "The Architecture of Metacognition — Dismantling the Overthinking Loop",
+      "confidence": "HIGH",
+      "confidence_score": 0.9,
+      "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Architecture of Metacognition — Dismantling the Overthinking Loop\".",
+      "semantic_comparison": {
+        "existing_topic_slug": "dismantling-the-overthinking-loop",
+        "existing_topic_title": "The Architecture of Metacognition — Dismantling the Overthinking Loop",
+        "candidate_score": 12,
+        "existing_thesis_summary": "Analysis that leads to action is wisdom; analysis that leads to more analysis is a prison. Never solve worries inside your head—write them down, make the call at 70% certainty, ground your body in physical reality, and let execution silence the noise.",
+        "new_information_delta": "Concrete case illustration / metaphor",
+        "relationship": "EXAMPLE_OR_APPLICATION",
+        "explanatory_gain": "MODERATE"
+      },
+      "constituent_entity_ids": [
+        "CLM-307",
+        "CLM-308",
+        "CLM-309",
+        "CLM-310",
+        "CLM-311",
+        "CLM-312",
+        "EXM-019",
+        "CLM-313",
+        "CLM-314",
+        "CLM-315",
+        "CLM-316",
+        "CLM-317"
+      ],
+      "source_spans": [
+        {
+          "start": 999.7,
+          "end": 1006.6,
+          "segment_ids": [
+            "seg-0402"
+          ],
+          "quoted_text": "radically accept that your advisory"
+        },
+        {
+          "start": 1002.4,
+          "end": 1009,
+          "segment_ids": [
+            "seg-0403"
+          ],
+          "quoted_text": "board is always trying to protect you."
+        },
+        {
+          "start": 1006.6,
+          "end": 1011.3,
+          "segment_ids": [
+            "seg-0404"
+          ],
+          "quoted_text": "Catch those urges to play it safe by"
+        },
+        {
+          "start": 1009,
+          "end": 1013.8,
+          "segment_ids": [
+            "seg-0405"
+          ],
+          "quoted_text": "using all those familiar thinking"
+        },
+        {
+          "start": 1011.3,
+          "end": 1016.3,
+          "segment_ids": [
+            "seg-0406"
+          ],
+          "quoted_text": "strategies without engaging in the"
+        },
+        {
+          "start": 1017.7,
+          "end": 1022.9,
+          "segment_ids": [
+            "seg-0409"
+          ],
+          "quoted_text": "identify the long-term consequences of"
+        },
+        {
+          "start": 1020.3,
+          "end": 1024.5,
+          "segment_ids": [
+            "seg-0410"
+          ],
+          "quoted_text": "blindly doing what advisory board wants"
+        },
+        {
+          "start": 1024.5,
+          "end": 1029.4,
+          "segment_ids": [
+            "seg-0412"
+          ],
+          "quoted_text": "Call on your personal values and ask"
+        },
+        {
+          "start": 1026.7,
+          "end": 1031.2,
+          "segment_ids": [
+            "seg-0413"
+          ],
+          "quoted_text": "yourself, \"If I do what my advisory"
+        },
+        {
+          "start": 1029.4,
+          "end": 1034.6,
+          "segment_ids": [
+            "seg-0414"
+          ],
+          "quoted_text": "board wants me to do,"
+        },
+        {
+          "start": 1031.2,
+          "end": 1037.8,
+          "segment_ids": [
+            "seg-0415"
+          ],
+          "quoted_text": "does it take me closer to or farther"
+        },
+        {
+          "start": 1034.6,
+          "end": 1040,
+          "segment_ids": [
+            "seg-0416"
+          ],
+          "quoted_text": "away from who I want to be?\""
+        }
+      ]
+    },
+    {
+      "unit_id": "KU-029",
+      "title": "Knowledge Unit [1037s-1049s]: And if you are still a struggling, ask...",
+      "core_thesis": "And if you are still a struggling, ask",
+      "worthiness": "SUPPORTING_DETAIL",
+      "worthiness_assessment": {
+        "entity_id": "KU-029",
+        "classification": "SUPPORTING_DETAIL",
+        "reusability_score": 0.4,
+        "explanatory_depth": 0.3,
+        "conceptual_coherence": 0.4,
+        "rationale": "Secondary detail or observation without standalone conceptual depth."
+      },
+      "decision": "INSUFFICIENT_CONFIDENCE",
+      "target_topic_slug": null,
+      "target_topic_title": null,
+      "confidence": "LOW",
+      "confidence_score": 0.4,
+      "rationale": "Novel observation but lacks sufficient explanatory depth or conceptual coherence for an independent canonical chapter (depth: 0.3). Quarantined.",
+      "semantic_comparison": {
+        "existing_topic_slug": null,
+        "existing_topic_title": null,
+        "candidate_score": 6,
+        "existing_thesis_summary": "None",
+        "new_information_delta": "Fragmentary observation without systemic mechanics",
+        "relationship": "INSUFFICIENT_CONFIDENCE",
+        "explanatory_gain": "NEGLIGIBLE"
+      },
+      "constituent_entity_ids": [
+        "CLM-318",
+        "CLM-319",
+        "CLM-320"
+      ],
+      "source_spans": [
+        {
+          "start": 1037.8,
+          "end": 1041.1,
+          "segment_ids": [
+            "seg-0417"
+          ],
+          "quoted_text": "And if you are still a struggling, ask"
+        },
+        {
+          "start": 1041.1,
+          "end": 1046.6,
+          "segment_ids": [
+            "seg-0419"
+          ],
+          "quoted_text": "\"Do I want to drink a cup of coffee or"
+        },
+        {
+          "start": 1043.7,
+          "end": 1049.1,
+          "segment_ids": [
+            "seg-0420"
+          ],
+          "quoted_text": "just think about it for 3 months?\""
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "new_topics": 3,
+    "enrichtargets": {},
+    "contradictions": 0,
+    "qualifications": 0,
+    "supporting_evidence": 0,
+    "examples": 8,
+    "already_covered": 0,
+    "filtered_non_canonical": 4,
+    "quarantined": 14
+  }
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "gold-01-negation",
+    "text": "People often claim that dopamine spikes cause laziness, but this is completely false and scientifically untrue.",
+    "expected_stance": "REFUTED",
+    "expected_epistemic_status": "SOURCE_EXTRACTED"
+  },
+  {
+    "id": "gold-02-hypothetical",
+    "text": "If cortisol levels were to drop to zero permanently, then the human motivation system might completely collapse.",
+    "expected_stance": "HYPOTHETICAL",
+    "expected_epistemic_status": "SOURCE_EXTRACTED"
+  },
+  {
+    "id": "gold-03-attribution",
+    "text": "Dr. Smith argues that neural feedback loops govern all executive functioning.",
+    "expected_stance": "ATTRIBUTED",
+    "expected_attributed_to": "Dr. Smith"
+  },
+  {
+    "id": "gold-04-counterargument",
+    "text": "Classical economists believed market equilibrium is static, however modern neuroscience proves this wrong.",
+    "expected_stance": "REFUTED"
+  },
+  {
+    "id": "gold-05-sarcasm",
+    "text": "If staring at smartphone screens for ten hours a day built cognitive genius, we would all be Nobel laureates by now.",
+    "expected_stance": "EXAMPLE_ONLY"
+  },
+  {
+    "id": "gold-06-rhetorical-question",
+    "text": "Could the breakdown of dopamine receptors actually be the primary cause of societal anomie?",
+    "expected_stance": "QUESTION"
+  },
+  {
+    "id": "gold-07-retraction",
+    "text": "In my previous book I argued that willpower is a finite glucose muscle, but recent clinical trials have completely refuted that theory.",
+    "expected_stance": "REFUTED"
+  },
+  {
+    "id": "gold-08-analogy",
+    "text": "The subconscious mind is like an advisory board chiming in with unsolicited suggestions.",
+    "expected_type": "ANALOGY"
+  }
+]

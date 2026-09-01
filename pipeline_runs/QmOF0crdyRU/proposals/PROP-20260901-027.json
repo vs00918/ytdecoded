@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-027",
+  "created_at": "2026-09-01T15:11:31.263Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-033",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-372",
+      "start": 1005.6,
+      "end": 1009.5,
+      "quoted_text": "But if you are pursuing a partner,"
+    },
+    {
+      "entity_id": "CLM-373",
+      "start": 1009.5,
+      "end": 1010.5,
+      "quoted_text": "a boyfriend or girlfriend,"
+    },
+    {
+      "entity_id": "CLM-374",
+      "start": 1010.5,
+      "end": 1012.4,
+      "quoted_text": "if you're pursuing a degree in school,"
+    },
+    {
+      "entity_id": "CLM-375",
+      "start": 1012.4,
+      "end": 1014.8,
+      "quoted_text": "if you're pursuing a finish line in a race,"
+    },
+    {
+      "entity_id": "CLM-376",
+      "start": 1014.8,
+      "end": 1016.3,
+      "quoted_text": "you are tapping into this so-called"
+    },
+    {
+      "entity_id": "CLM-377",
+      "start": 1016.3,
+      "end": 1018.4,
+      "quoted_text": "mesecorticolimbic pathway."
+    },
+    {
+      "entity_id": "CLM-378",
+      "start": 1018.4,
+      "end": 1023.4,
+      "quoted_text": "This is the classic reward pathway in all mammals."
+    },
+    {
+      "entity_id": "CLM-379",
+      "start": 1023.5,
+      "end": 1026.9,
+      "quoted_text": "The other pathway emerges from an area in the brain"
+    },
+    {
+      "entity_id": "CLM-380",
+      "start": 1026.9,
+      "end": 1028.7,
+      "quoted_text": "called the substantia nigra."
+    },
+    {
+      "entity_id": "CLM-381",
+      "start": 1028.7,
+      "end": 1033.6,
+      "quoted_text": "So-called because the cells in that area are dark,"
+    },
+    {
+      "entity_id": "CLM-382",
+      "start": 1033.6,
+      "end": 1037.1,
+      "quoted_text": "and the substantia nigra connects to an area of the brain"
+    },
+    {
+      "entity_id": "CLM-383",
+      "start": 1037.1,
+      "end": 1038.5,
+      "quoted_text": "called the dorsal striatum."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: But if you are pursuing a partner,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1005s-1009s]: \"But if you are pursuing a partner,\"\n  - [1009s-1010s]: \"a boyfriend or girlfriend,\"\n  - [1010s-1012s]: \"if you're pursuing a degree in school,\"\n  - [1012s-1014s]: \"if you're pursuing a finish line in a race,\"\n  - [1014s-1016s]: \"you are tapping into this so-called\"\n  - [1016s-1018s]: \"mesecorticolimbic pathway.\"\n  - [1018s-1023s]: \"This is the classic reward pathway in all mammals.\"\n  - [1023s-1026s]: \"The other pathway emerges from an area in the brain\"\n  - [1026s-1028s]: \"called the substantia nigra.\"\n  - [1028s-1033s]: \"So-called because the cells in that area are dark,\"\n  - [1033s-1037s]: \"and the substantia nigra connects to an area of the brain\"\n  - [1037s-1038s]: \"called the dorsal striatum.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: But if you are pursuing a partner,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1005s-1009s]: \"But if you are pursuing a partner,\"\n+  - [1009s-1010s]: \"a boyfriend or girlfriend,\"\n+  - [1010s-1012s]: \"if you're pursuing a degree in school,\"\n+  - [1012s-1014s]: \"if you're pursuing a finish line in a race,\"\n+  - [1014s-1016s]: \"you are tapping into this so-called\"\n+  - [1016s-1018s]: \"mesecorticolimbic pathway.\"\n+  - [1018s-1023s]: \"This is the classic reward pathway in all mammals.\"\n+  - [1023s-1026s]: \"The other pathway emerges from an area in the brain\"\n+  - [1026s-1028s]: \"called the substantia nigra.\"\n+  - [1028s-1033s]: \"So-called because the cells in that area are dark,\"\n+  - [1033s-1037s]: \"and the substantia nigra connects to an area of the brain\"\n+  - [1037s-1038s]: \"called the dorsal striatum.\"\n"
+  }
+}

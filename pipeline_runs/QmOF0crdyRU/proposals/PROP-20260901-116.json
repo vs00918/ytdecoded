@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-116",
+  "created_at": "2026-09-01T15:11:31.288Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-149",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1726",
+      "start": 4752.8,
+      "end": 4754.2,
+      "quoted_text": "during any kind of workout."
+    },
+    {
+      "entity_id": "CLM-1727",
+      "start": 4754.2,
+      "end": 4756.1,
+      "quoted_text": "That actually was really tough,"
+    },
+    {
+      "entity_id": "CLM-1728",
+      "start": 4756.1,
+      "end": 4759,
+      "quoted_text": "but now I'm back to a place where I enjoy it that much more."
+    },
+    {
+      "entity_id": "CLM-1729",
+      "start": 4759,
+      "end": 4760.6,
+      "quoted_text": "I also feel as if I conquered something"
+    },
+    {
+      "entity_id": "CLM-1730",
+      "start": 4760.6,
+      "end": 4763.3,
+      "quoted_text": "in terms of the circuitry related to dopamine."
+    },
+    {
+      "entity_id": "CLM-1731",
+      "start": 4763.3,
+      "end": 4765.8,
+      "quoted_text": "I now understand why something"
+    },
+    {
+      "entity_id": "CLM-1732",
+      "start": 4765.8,
+      "end": 4769.4,
+      "quoted_text": "that I enjoyed so much had become less pleasureful for me."
+    },
+    {
+      "entity_id": "CLM-1733",
+      "start": 4769.4,
+      "end": 4771.6,
+      "quoted_text": "And there's a deep, deep satisfaction"
+    },
+    {
+      "entity_id": "CLM-1734",
+      "start": 4771.6,
+      "end": 4772.6,
+      "quoted_text": "that comes from understanding,"
+    },
+    {
+      "entity_id": "CLM-1735",
+      "start": 4772.6,
+      "end": 4774.7,
+      "quoted_text": "okay, there wasn't anything wrong with me"
+    },
+    {
+      "entity_id": "CLM-1736",
+      "start": 4774.7,
+      "end": 4778.5,
+      "quoted_text": "or what I was doing or anything at all."
+    },
+    {
+      "entity_id": "CLM-1737",
+      "start": 4778.5,
+      "end": 4780.8,
+      "quoted_text": "It was just there was something wrong with the approach"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: during any kind of workout.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4752s-4754s]: \"during any kind of workout.\"\n  - [4754s-4756s]: \"That actually was really tough,\"\n  - [4756s-4759s]: \"but now I'm back to a place where I enjoy it that much more.\"\n  - [4759s-4760s]: \"I also feel as if I conquered something\"\n  - [4760s-4763s]: \"in terms of the circuitry related to dopamine.\"\n  - [4763s-4765s]: \"I now understand why something\"\n  - [4765s-4769s]: \"that I enjoyed so much had become less pleasureful for me.\"\n  - [4769s-4771s]: \"And there's a deep, deep satisfaction\"\n  - [4771s-4772s]: \"that comes from understanding,\"\n  - [4772s-4774s]: \"okay, there wasn't anything wrong with me\"\n  - [4774s-4778s]: \"or what I was doing or anything at all.\"\n  - [4778s-4780s]: \"It was just there was something wrong with the approach\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: during any kind of workout.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4752s-4754s]: \"during any kind of workout.\"\n+  - [4754s-4756s]: \"That actually was really tough,\"\n+  - [4756s-4759s]: \"but now I'm back to a place where I enjoy it that much more.\"\n+  - [4759s-4760s]: \"I also feel as if I conquered something\"\n+  - [4760s-4763s]: \"in terms of the circuitry related to dopamine.\"\n+  - [4763s-4765s]: \"I now understand why something\"\n+  - [4765s-4769s]: \"that I enjoyed so much had become less pleasureful for me.\"\n+  - [4769s-4771s]: \"And there's a deep, deep satisfaction\"\n+  - [4771s-4772s]: \"that comes from understanding,\"\n+  - [4772s-4774s]: \"okay, there wasn't anything wrong with me\"\n+  - [4774s-4778s]: \"or what I was doing or anything at all.\"\n+  - [4778s-4780s]: \"It was just there was something wrong with the approach\"\n"
+  }
+}

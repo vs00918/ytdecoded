@@ -1,0 +1,1479 @@
+{
+  "video_id": "1A_CAkYt3GY",
+  "cleaned_segments": [
+    {
+      "id": "seg-0001",
+      "start": 3.02,
+      "end": 5.96,
+      "duration": 2.94,
+      "text": "كراش كورس الفلسفة مُقدَّمة لك من سكوير سبيس",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0002",
+      "start": 5.96,
+      "end": 9.02,
+      "duration": 3.06,
+      "text": "سكوير سبيس: شارك شغفك مع العالم.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0003",
+      "start": 9.02,
+      "end": 10.08,
+      "duration": 1.06,
+      "text": "أنا (هانك جرين)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0004",
+      "start": 10.18,
+      "end": 12.18,
+      "duration": 2,
+      "text": "وأنا وإياك على وشك الشروع في رحلة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0005",
+      "start": 12.54,
+      "end": 15.76,
+      "duration": 3.22,
+      "text": "رحلة تحقق من العالم بأكمله. عالمك أنت.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0006",
+      "start": 15.76,
+      "end": 19.4,
+      "duration": 3.64,
+      "text": "في محاولة لمعرفة: ما الذي يجعل للعالم معنى، ما الذي يجعله جميلًا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0007",
+      "start": 19.4,
+      "end": 24.42,
+      "duration": 5.02,
+      "text": "ومن أين يأتي الشر، و في النهاية ما هي طبيعة الواقع في ذاته؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0008",
+      "start": 24.42,
+      "end": 28.64,
+      "duration": 4.22,
+      "text": "وفي الطريق، سوف نطرح سؤالًا عن كل جانب من جوانب حياتك -",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0009",
+      "start": 28.64,
+      "end": 33.2,
+      "duration": 4.56,
+      "text": "لمَ تفعل ما تفعله، ولمَ تفكر بما تفكر به، ولمَ تشعر بما تشعر به؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0010",
+      "start": 33.2,
+      "end": 35.28,
+      "duration": 2.08,
+      "text": "الآن إذا كنت قد انضممت إلى (كراش كورس) من قبل",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0011",
+      "start": 35.28,
+      "end": 37.64,
+      "duration": 2.36,
+      "text": "فربما تقول أننا قد تعلمنا كل هذه الأمور سابقًا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0012",
+      "start": 37.74,
+      "end": 41.12,
+      "duration": 3.38,
+      "text": "علم النفس وعلم الأحياء وعلم التشريح وعلم وظائف الأعضاء",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0013",
+      "start": 41.12,
+      "end": 44.5,
+      "duration": 3.38,
+      "text": "وهذا صحيح، العلم -بالطبع- يستطيع أن يساعدنا على فهم أفكارنا ومشاعرنا وأفعالنا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0014",
+      "start": 44.5,
+      "end": 48.5,
+      "duration": 4,
+      "text": "ولكن في هذه الرحلة تحديدًا سوف نستكشف جوانباً من طبيعة الإنسان",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0015",
+      "start": 48.5,
+      "end": 51.9,
+      "duration": 3.4,
+      "text": "لا يمكن شرحها فقط عن طريق دراسة الهرمونات أو الناقلات العصبية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0016",
+      "start": 52.1,
+      "end": 54.7,
+      "duration": 2.6,
+      "text": "أو بالتجارب الشخصيَّة أو الحالات الوراثية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0017",
+      "start": 54.96,
+      "end": 57.94,
+      "duration": 2.98,
+      "text": "لأن كل هذه المواد الكيميائية والتجارب التي تساهم في تكويننا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0018",
+      "start": 57.94,
+      "end": 60.34,
+      "duration": 2.4,
+      "text": "يمكنها أن تطرح من الأسئلة عدد ما تقدمه من أجوبة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0019",
+      "start": 60.35,
+      "end": 64.17,
+      "duration": 3.82,
+      "text": "على سبيل المثال، لو أن كل قراراتي مجرد نتاجٍ لما تربيت عليه",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0020",
+      "start": 64.17,
+      "end": 68.83,
+      "duration": 4.66,
+      "text": "ولِما تسببه المواد الكميائية الموجودة في عقلي، إذن هل خياراتي حرة حقاً؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0021",
+      "start": 68.83,
+      "end": 73.3,
+      "duration": 4.47,
+      "text": "و اذا لم أكن حُراً بحق في اتخاذ قراراتي أو اختيار أفعالي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0022",
+      "start": 73.3,
+      "end": 75.09,
+      "duration": 1.79,
+      "text": "إذن كيف يمكن أن أحاسب عليهم؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0023",
+      "start": 75.09,
+      "end": 76.87,
+      "duration": 1.78,
+      "text": "نعم، ستكون الرحلة من ذاك النوع",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0024",
+      "start": 76.87,
+      "end": 80.74,
+      "duration": 3.87,
+      "text": "فبدلًا من مجرد النظر إلى العالم ووصف ما نشاهده سوف نقيّمه",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0025",
+      "start": 80.74,
+      "end": 85.34,
+      "duration": 4.6,
+      "text": "لن نأخذ أي أمرٍ كمسّلم، لندع افتراضاتنا جانبًا، أو على الأقل فلنحاول بجدية فعل ذلك",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0026",
+      "start": 85.34,
+      "end": 88.08,
+      "duration": 2.74,
+      "text": "لنبذل أقصى جهدنا لنرى العالم كما لم نره من قبل",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0027",
+      "start": 88.08,
+      "end": 90.52,
+      "duration": 2.44,
+      "text": "سنتحدث عن (باتمان)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0028",
+      "start": 90.52,
+      "end": 93.42,
+      "duration": 2.9,
+      "text": "وعن ما يمكن لـ(ديك جرايسون) أن يخبرنا عن مفهوم الهوية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0029",
+      "start": 93.42,
+      "end": 97.22,
+      "duration": 3.8,
+      "text": "وسنتعلم كيف يمكن لـ(ماتريكس) أن يساعدنا في فهم الحياة، وسنتعلم عن كتابات (رينيه ديكارت)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0030",
+      "start": 97.22,
+      "end": 103.78,
+      "duration": 6.56,
+      "text": "وسنحاول أيضاً أن نجيب على أسئلة لا إجابة لها، ونحتار أمام المفارقات التي اُبتلي بها العباقرة على مر آلاف السنين",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0031",
+      "start": 103.78,
+      "end": 107.91,
+      "duration": 4.13,
+      "text": "سيكون الأمر صعباً، وتنويريًا، ومحبطاً، وإذا أديت واجبي على أكمل وجه فربما",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0032",
+      "start": 107.91,
+      "end": 111.43,
+      "duration": 3.52,
+      "text": "أتركك مع أثرٍ يبقى حتى بعدما نفترق. لأننا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0033",
+      "start": 111.43,
+      "end": 113.61,
+      "duration": 2.18,
+      "text": "سنمارس... الفلسفة!",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0034",
+      "start": 123.9,
+      "end": 127.62,
+      "duration": 3.72,
+      "text": "في هذه الأيام يستخدم الأشخاص كلمة (الفلسفة) لوصف رأي يملكونه",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0035",
+      "start": 127.62,
+      "end": 129.6,
+      "duration": 1.98,
+      "text": "أو نهجٍ يتخذونه في موضوع معين",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0036",
+      "start": 129.6,
+      "end": 133.86,
+      "duration": 4.26,
+      "text": "مثلا يمكن أن تمتلك (فلسفة) في لعبة الجولف. أنا شخصيا لا أملك ذلك",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0037",
+      "start": 133.86,
+      "end": 137.56,
+      "duration": 3.7,
+      "text": "ولكننا سنستخدم هذه الكلمة في صورة أكثر تحديدًا، لوصف طريقة رؤيتنا للعالَم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0038",
+      "start": 137.57,
+      "end": 141.71,
+      "duration": 4.14,
+      "text": "والتي سنتتبع جذورها بالرجوع إلى بلاد الأغريق (اليونان) القديمة، 500 سنة قبل العصر الحالي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0039",
+      "start": 141.71,
+      "end": 145.65,
+      "duration": 3.94,
+      "text": "كان هذا وقت حركات عظماء المفكرين حول العالم. البوذية واليانية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0040",
+      "start": 145.65,
+      "end": 149.63,
+      "duration": 3.98,
+      "text": "التي تطورت في آسيا في ذات الوقت الذي نشأت فيه الأفكار الفلسفية في الأغريق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0041",
+      "start": 149.63,
+      "end": 153.25,
+      "duration": 3.62,
+      "text": "وهناك، اختلف العلماء في التمييز -الذي بدأوا بوضعه- بين",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0042",
+      "start": 153.25,
+      "end": 157.4,
+      "duration": 4.15,
+      "text": "فيلوس (الحب) وميثوس (الأسطورة) وهو ما نسميه اليوم العلم والحكايات",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0043",
+      "start": 157.4,
+      "end": 161.24,
+      "duration": 3.84,
+      "text": "في ذلك الوقت كان هناك شعراء، مثل هومر، الذي حاول أن يفهم ويفسر",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0044",
+      "start": 161.24,
+      "end": 164.62,
+      "duration": 3.38,
+      "text": "العالم عن طريق القصص، بينما كان الفلاسفة الأوائل يستخدمون طرق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0045",
+      "start": 164.62,
+      "end": 169.1,
+      "duration": 4.48,
+      "text": "أكثر تحليلية وعلمية، على الرغم من أنهم لم يمتلكوا مفهوم \"العلم\" في ذلك الوقت،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0046",
+      "start": 169.1,
+      "end": 174.62,
+      "duration": 5.52,
+      "text": "لذا الفلسفة -حرفيا هي \"حب الحكمة\"- كانت طريقة جديدة لمحاولة فهم العالم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0047",
+      "start": 174.63,
+      "end": 178.47,
+      "duration": 3.84,
+      "text": "عندما استخدم الفلاسفة الأوائل كلمة \"فلسفة\" كانوا أساسًا يقصدون",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0048",
+      "start": 178.47,
+      "end": 179.96,
+      "duration": 1.49,
+      "text": "\"الدراسة الأكاديمية لأي شَيء\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0049",
+      "start": 179.97,
+      "end": 182.1,
+      "duration": 2.13,
+      "text": "والتي كما أعتقد تتضمن الجولف",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0050",
+      "start": 182.1,
+      "end": 186.15,
+      "duration": 4.05,
+      "text": "ولكن ما يمكن أن نسميه أول الجامعات في العالم الغربي: أكاديمية أفلاطون",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0051",
+      "start": 186.15,
+      "end": 190.77,
+      "duration": 4.62,
+      "text": "ومنافسها، قاعة محاضرات أرسطو: الرياضيات والأحياء والفيزياء والشعر والعلوم السياسية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0052",
+      "start": 190.77,
+      "end": 193.43,
+      "duration": 2.66,
+      "text": "وعلم الفلك، كلها اعتبرت فلسفة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0053",
+      "start": 193.43,
+      "end": 197.42,
+      "duration": 3.99,
+      "text": "أخيرًا، بدأ العلماء في التفكير بالنظر لهذه المجالات بنظرة مختلفة كتخصصات منفصلة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0054",
+      "start": 197.43,
+      "end": 201.84,
+      "duration": 4.41,
+      "text": "الدراسات التي تملك عناصر تجريبية قوية اعتبرت علمًا -بحث عن الأجوبة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0055",
+      "start": 201.84,
+      "end": 207.24,
+      "duration": 5.4,
+      "text": "لكن الفلسفة أصبحت مفهمومة كطريقة للتفكير في الأسئلة، أسئلة عظيمة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0056",
+      "start": 207.24,
+      "end": 210.54,
+      "duration": 3.3,
+      "text": "والآن بعد 2500 سنة من طرح اليونانيين القدماء للأسئلة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0057",
+      "start": 210.54,
+      "end": 214.92,
+      "duration": 4.38,
+      "text": "لازال الفلاسفة يحبون طرح الأسئلة -غالبا الأسئلة ذاتها-",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0058",
+      "start": 214.92,
+      "end": 217.68,
+      "duration": 2.76,
+      "text": "ولا يمانعون إذا لم يحصلوا على جواب أبدًا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0059",
+      "start": 217.68,
+      "end": 223.04,
+      "duration": 5.36,
+      "text": "إذن، ما هي هذه الأسئلة الكبيرة التي أسرت الفلاسفة وأربكتهم لوقت طويل؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0060",
+      "start": 223.05,
+      "end": 226.63,
+      "duration": 3.58,
+      "text": "أحد أول الأسئلة -ربما من الأفضل صياغته كالتالي-: كيف يبدو العالم؟",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0061",
+      "start": 226.63,
+      "end": 230.15,
+      "duration": 3.52,
+      "text": "تبدو الإجابة سهلة، صحيح؟ فقط انظر حولك، انظر لكل الأشياء",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0062",
+      "start": 230.15,
+      "end": 231.8,
+      "duration": 1.65,
+      "text": "حسنا، هكذا يبدو العالم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0063",
+      "start": 231.81,
+      "end": 237.92,
+      "duration": 6.11,
+      "text": "لكن المنهج الفلسفي لا يعتمد على الملاحظة فقط، فلديه أسئلة معقدة مكتظة بداخله",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0064",
+      "start": 237.92,
+      "end": 243.08,
+      "duration": 5.16,
+      "text": "عندما يتساءل الفيلسوف كيف يبدو العالم، فإنه يسأل عن: ماهي طبيعة الظاهر؟",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0065",
+      "start": 243.08,
+      "end": 247.18,
+      "duration": 4.1,
+      "text": "مثل، هل العالم مصنوع من مادة وطاقة، أو هناك شيء آخر يحدث؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0066",
+      "start": 247.18,
+      "end": 250.54,
+      "duration": 3.36,
+      "text": "ولو كان من مادة وطاقة، فمن أين أتت؟ هل هناك إله؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0067",
+      "start": 250.54,
+      "end": 253.4,
+      "duration": 2.86,
+      "text": "وإذا كان هناك، فأين هو، أو هي؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0068",
+      "start": 253.41,
+      "end": 256.94,
+      "duration": 3.53,
+      "text": "وأيضًا، عندما تسأل عن العالم، هل تستطيع السؤال عن",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0069",
+      "start": 256.94,
+      "end": 260.1,
+      "duration": 3.16,
+      "text": "طبيعة نفسك، كمواطن لهذا العالم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0070",
+      "start": 260.1,
+      "end": 262.03,
+      "duration": 1.93,
+      "text": "إذن، أي نوع من الكائنات أنا؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0071",
+      "start": 262.03,
+      "end": 266.35,
+      "duration": 4.32,
+      "text": "هل أمتلك روح؟ هل هناك شيء غير مادي فيني سينجو بعد موتي؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0072",
+      "start": 266.35,
+      "end": 270.26,
+      "duration": 3.91,
+      "text": "كل هذه الأسئلة طرق لاكتشاف ما وراء الطبيعة (الميتافيزقا) كما ما يسميه الفلاسفة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0073",
+      "start": 270.26,
+      "end": 277.66,
+      "duration": 7.4,
+      "text": "واحد من فروع الفلسفة الأساسية، محاولة لفهم الطبيعة الأساسية للعالم، وللكون، وللكائنات",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0074",
+      "start": 277.66,
+      "end": 282.2,
+      "duration": 4.54,
+      "text": "الآن، إذا كانت هذه الأسئلة ليست مثيرة بما فيه الكفاية لك، نحن كدارسين للفلسفة أيضا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0075",
+      "start": 282.2,
+      "end": 287.82,
+      "duration": 5.62,
+      "text": "لدينا مجموعة منفصلة من الأسئلة، عن كيف نحصل على إجابات لهذه الأسئلة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0076",
+      "start": 287.82,
+      "end": 293.1,
+      "duration": 5.28,
+      "text": "هذا الفرع من الفلسفة، المعرفة عن المعرفة، يسمى نظرية المعرفة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0077",
+      "start": 293.11,
+      "end": 296.77,
+      "duration": 3.66,
+      "text": "حرفيا دراسة المعرفة، وهو القسم الثاني من الفلسفة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0078",
+      "start": 296.77,
+      "end": 300.82,
+      "duration": 4.05,
+      "text": "وهو يطرح أسئلة مثل: هل العالم هو حقا ما أعتقد أنه هو؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0079",
+      "start": 300.82,
+      "end": 305.6,
+      "duration": 4.78,
+      "text": "هل كل شيء أراه وأفكر فيه واختبره، هل هو حقا... حقيقي؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0080",
+      "start": 305.6,
+      "end": 311.1,
+      "duration": 5.5,
+      "text": "إذا لم يكن كذلك، إذن ما الحقيقي؟ وماهي أفضل وسيلة لاكتشاف الحقيقة؟ هل العلم هو أفضل طريقة؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0081",
+      "start": 311.1,
+      "end": 315.64,
+      "duration": 4.54,
+      "text": "أو أن هنالك طرقًا غير مادية للحقيقة؟ طرق لا يمكن للعلم أن يقطعها؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0082",
+      "start": 315.65,
+      "end": 319.69,
+      "duration": 4.04,
+      "text": "دعنا نقول، بعد الكثير من البحث وطرح الأسئلة، بدأتُ بتطوير بعض",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0083",
+      "start": 319.69,
+      "end": 322.41,
+      "duration": 2.72,
+      "text": "الأفكار، معرفة محدودة عن ما يمكن أن يكون حقيقي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0084",
+      "start": 322.41,
+      "end": 326.87,
+      "duration": 4.46,
+      "text": "إذن، كيف أعرف أني محق؟ وكيف أعرف أني مخطئ؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0085",
+      "start": 326.87,
+      "end": 329.08,
+      "duration": 2.21,
+      "text": "هل أستطيع أن أكون متأكدًا من أي شيء؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0086",
+      "start": 329.09,
+      "end": 332.98,
+      "duration": 3.89,
+      "text": "الآن لن ألومك لو كنت تفكر \"هل أنا حقيقي؟\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0087",
+      "start": 332.98,
+      "end": 338.06,
+      "duration": 5.08,
+      "text": "\" هل.. هل أعرف أي شيء؟ حسنا، هذه الأسئلة لا تبدو عملية جدًا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0088",
+      "start": 338.06,
+      "end": 341.68,
+      "duration": 3.62,
+      "text": "لكن هناك منطقة أخرى من الفلسفة تساعدك في تأطير تفكيرك حول",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0089",
+      "start": 341.69,
+      "end": 346.08,
+      "duration": 4.39,
+      "text": "ما تفعله حقا، مثل كيف يجب أن تتصرف، وما الشيء الذي تربط القيمة به",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0090",
+      "start": 346.08,
+      "end": 350.62,
+      "duration": 4.54,
+      "text": "تدعى نظرية القيمة، وهي تقسم إلى فرعين أساسيين، الأول: الأخلاق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0091",
+      "start": 350.62,
+      "end": 354.34,
+      "duration": 3.72,
+      "text": "لقد سمعت عنه، إنه الشيء الذي يقال دائما أن السياسيين يفتقرون له، وجيدي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0092",
+      "start": 354.34,
+      "end": 357.78,
+      "duration": 3.44,
+      "text": "من المفترض أن يتلقى دعما كبيرا؟ لا تدعوني أبدأ بـبرقلوس",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0093",
+      "start": 357.79,
+      "end": 361.36,
+      "duration": 3.57,
+      "text": "في الفلسفة، الأخلاق ليست فقط عن معرفة ما هو الصواب وما هو الخطأ",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0094",
+      "start": 361.36,
+      "end": 364.03,
+      "duration": 2.67,
+      "text": "إنها دراسة كيف يمكن للناس أن يعيشوا مع بعضهم البعض.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0095",
+      "start": 364.03,
+      "end": 368.72,
+      "duration": 4.69,
+      "text": "عوضا عن الجلوس والحكم على الناس، الأخلاق تطرح أسئلة مثل: كيف يجب أن أعيش؟",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0096",
+      "start": 368.72,
+      "end": 373.16,
+      "duration": 4.44,
+      "text": "هل هناك أي سبب لمعاملة الغريب بطريقة مختلفة عن الناس الذين أحبهم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0097",
+      "start": 373.17,
+      "end": 377.75,
+      "duration": 4.58,
+      "text": "وبالنسبة لهذا الأمر، هل أدين بأي شيء لنفسي؟ ماذا عن الحيوانات؟ أو الأرض",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0098",
+      "start": 377.75,
+      "end": 381.83,
+      "duration": 4.08,
+      "text": "وإذا كان لدي أي من هذه الالتزامات، من أين أتت؟ من قال؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0099",
+      "start": 381.83,
+      "end": 386.61,
+      "duration": 4.78,
+      "text": "في النهاية، أي نظام تستخدمه لتقرر ما هو الخير والشر، كسلوك إنساني",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0100",
+      "start": 386.61,
+      "end": 390.8,
+      "duration": 4.19,
+      "text": "هو مصمم اعتمادًا على قيمَك، ولهذا الأخلاق تعتبر جزءًا من نظرية القيمة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0101",
+      "start": 390.8,
+      "end": 395.14,
+      "duration": 4.34,
+      "text": "لكن الجزء الآخر من النظرية ليس عن ما هو صحيح، إنه عن ماهية الجمال",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0102",
+      "start": 395.14,
+      "end": 397.36,
+      "duration": 2.22,
+      "text": "علم الجمال (استطيقا) هو دراسة الجمال والفن",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0103",
+      "start": 397.36,
+      "end": 402.74,
+      "duration": 5.38,
+      "text": "يتناول مفهوم الجمال -عمليًا- كل شيء، من الإعلام إلى مدارس الفن إلى كلية الحلاقة",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0104",
+      "start": 402.74,
+      "end": 408.6,
+      "duration": 5.86,
+      "text": "لكن بالنسبة للفلاسفة، الاهتمام بالجماليات تتضمن اعتبار ماهو الجمال، هل هو موجود أصلًا؟",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0105",
+      "start": 408.6,
+      "end": 413.24,
+      "duration": 4.64,
+      "text": "علم الجمال هو جزء من نظرية القيمة؛ لأن الجمال والفن أشياء نقدرها",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0106",
+      "start": 413.25,
+      "end": 417.99,
+      "duration": 4.74,
+      "text": "ونقيمها، والكثير من الناس الذين يدرسون هذا النوع من الفلسفة معروفون بـفلاسفة علم الجمال (استطيقيون)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0107",
+      "start": 417.99,
+      "end": 423.02,
+      "duration": 5.03,
+      "text": "يؤمنون بشيء كالجمال شيء لايعتمد على",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0108",
+      "start": 423.02,
+      "end": 426.92,
+      "duration": 3.9,
+      "text": "ماتجده أنت جذابًا، لكنه شيء حقيقي موضوعيًا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0109",
+      "start": 426.92,
+      "end": 429.7,
+      "duration": 2.78,
+      "text": "وأخيرا، هناك منظور آخر في الفلسفة يجب علي ذكره، لأنه",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0110",
+      "start": 429.71,
+      "end": 434.37,
+      "duration": 4.66,
+      "text": "لا يطرح أسئلة كثيرا كما يساعدنا على إيجاد أجوبة. نعم أخيرا، بعض الأجوبة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0111",
+      "start": 434.37,
+      "end": 438.4,
+      "duration": 4.03,
+      "text": "وهذا الشيء، أعتقد أنه جميل بطريقته الخاصة، هو المنطق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0112",
+      "start": 438.4,
+      "end": 443.62,
+      "duration": 5.22,
+      "text": "المنطق صندوق أدوات الفلاسفة. يحتوي على المناشير والمطارق، والميكروسكوب (المجهر)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0113",
+      "start": 443.62,
+      "end": 448.98,
+      "duration": 5.36,
+      "text": "و أنابيب الاختبار، التي يستخدمها الفلاسفة لإجابة أسئلتهم بطريقة واضحة ومنظمة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0114",
+      "start": 448.99,
+      "end": 453.98,
+      "duration": 4.99,
+      "text": "المنطق قائم على البراهين، وإعطاء حجج قوية لا تقع ضحية للمغالطات",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0115",
+      "start": 453.98,
+      "end": 457.66,
+      "duration": 3.68,
+      "text": "التي كما ستتعلم، عدو لدود للدقة الفلسفية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0116",
+      "start": 457.66,
+      "end": 463.52,
+      "duration": 5.86,
+      "text": "حسنا، ما وراء الطبيعة، ونظرية المعرفة، ونظرية القيمة، قد تبدو جميعها مبهجة وتجريدية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0117",
+      "start": 463.53,
+      "end": 467.4,
+      "duration": 3.87,
+      "text": "لكن لا تقلق، لأنك قد مارست الفلسفة، حتى لو لم تدرك ذلك",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0118",
+      "start": 467.4,
+      "end": 469.76,
+      "duration": 2.36,
+      "text": "أنت تتفلسف في كل جانب من حياتك تقريبا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0119",
+      "start": 469.77,
+      "end": 473.74,
+      "duration": 3.97,
+      "text": "في كل مرة تتجادل مع والديك، أو تتساءل إن كان يجب أن تواعد أحدهم، أو تقرر",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0120",
+      "start": 473.74,
+      "end": 477.77,
+      "duration": 4.03,
+      "text": "أن تأكل سلطة بدلا من هامبرجر بالجبنة، أو الهوت بوكيت، أنت تمارس الفلسفة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0121",
+      "start": 477.77,
+      "end": 481.46,
+      "duration": 3.69,
+      "text": "لأنك تفكر في العالم، ومكانك فيه، أنت تستكشف قيمتك",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0122",
+      "start": 481.46,
+      "end": 484.84,
+      "duration": 3.38,
+      "text": "لماذا تستحقها وما الذي يجب عليك فعله بها",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0123",
+      "start": 484.84,
+      "end": 488.3,
+      "duration": 3.46,
+      "text": "إذن إليكم خطتنا: سنتعلم عن التخصصات الأساسية في مجالات الفلسفة، نطرح",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0124",
+      "start": 488.31,
+      "end": 494.12,
+      "duration": 5.81,
+      "text": "الأسئلة ونأخذ بعين الاعتبار الأجوبة المحتملة طوال الطريق. وفي كل مرة سنستخدم طريقة الخطوتين",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0125",
+      "start": 494.12,
+      "end": 495.95,
+      "duration": 1.83,
+      "text": "أولا، سنحاول أن نفهم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0126",
+      "start": 495.95,
+      "end": 499.9,
+      "duration": 3.95,
+      "text": "لن تتفق مع كل الأفكار التي أقدمها لك، ولن",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0127",
+      "start": 499.9,
+      "end": 504.37,
+      "duration": 4.47,
+      "text": "أتفق أنا أيضا معها! ولكنها ليست الفكرة. الفكرة، في الخطوة الأولى: أن نحاول جديا في",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0128",
+      "start": 504.37,
+      "end": 508.39,
+      "duration": 4.02,
+      "text": "الغوص في الفكرة، أن نفهم الفكرة جيدًا قدر المستطاع",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0129",
+      "start": 508.39,
+      "end": 514,
+      "duration": 5.61,
+      "text": "بعدها في الخطوة الثانية: ستُخضع فهمك لبعض التقييم النقدي الجدي، ببساطة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0130",
+      "start": 514,
+      "end": 518.68,
+      "duration": 4.68,
+      "text": "ستحاول أن تضع جانبا ماتعتقد أنك تعرفه عن مظاهر معينة من العالم",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0131",
+      "start": 518.68,
+      "end": 521.48,
+      "duration": 2.8,
+      "text": "وستفعلها سواء اتفقت مع المنظور أو لا",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0132",
+      "start": 521.48,
+      "end": 525.98,
+      "duration": 4.5,
+      "text": "لماذا؟ لأنه فقط عندما تتحدى فهمك عن كيفية رؤية بعض الناس",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0133",
+      "start": 525.99,
+      "end": 529.43,
+      "duration": 3.44,
+      "text": "العالم، عندها فقط ستقرر بنفسك إذا ما كان منظورهم يستحق امتلاكه",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0134",
+      "start": 529.43,
+      "end": 533.34,
+      "duration": 3.91,
+      "text": "مما يؤدي بنا إلى نقطتي الأخيرة، الفلسفة ليست مجالك المعتاد من الدراسة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0135",
+      "start": 533.34,
+      "end": 537.54,
+      "duration": 4.2,
+      "text": "لن أقوم بتعليمك الدليل المعرفي عندما يعني النجاح معرفتك بعدة أمور",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0136",
+      "start": 537.54,
+      "end": 540.5,
+      "duration": 2.96,
+      "text": "النجاح في هذا المقرر يعني أنك تعرف كيف تفكر",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0137",
+      "start": 540.5,
+      "end": 545.26,
+      "duration": 4.76,
+      "text": "كل ما لدينا الأسئلة. وكل ما لديك العقل، وهدف الفلسفة هو",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0138",
+      "start": 545.27,
+      "end": 548.76,
+      "duration": 3.49,
+      "text": "أن تستخدم عقلك وتصل لإجابات ذات معنى بالنسبة لك",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0139",
+      "start": 548.76,
+      "end": 553.42,
+      "duration": 4.66,
+      "text": "ستتعلم كيف تصوغ الحجج لتدعم أفكارك، وعليه ستستطيع أن تشرح لماذا تعتقد أنك محق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0140",
+      "start": 553.42,
+      "end": 557.18,
+      "duration": 3.76,
+      "text": "وإذا كنت يوما ما على الإنترنت، ستعلم أن هذا الشيء لا يجيده الكثير من الناس",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0141",
+      "start": 557.18,
+      "end": 560.4,
+      "duration": 3.22,
+      "text": "ولعمل ذلك، ستحتاج أن تفهم البرهان الفلسفي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0142",
+      "start": 560.4,
+      "end": 565.26,
+      "duration": 4.86,
+      "text": "الأداة التي نستخدمها لنتحرى عن أكثر الأسئلة إرباكا!",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0143",
+      "start": 565.26,
+      "end": 566.89,
+      "duration": 1.63,
+      "text": "وهذا ماسنوجهك له في المرة القادمة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0144",
+      "start": 566.89,
+      "end": 570.45,
+      "duration": 3.56,
+      "text": "للآن، تعلمت الأصول التاريخية للفلسفة الإغريقية",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0145",
+      "start": 570.45,
+      "end": 575.72,
+      "duration": 5.27,
+      "text": "وتقسيماتها الأساسية الثلاثة: ماوراء الطبيعة، ونظرية المعرفة، ونظرية القيمة، وتكلمنا أيضا عن المنطق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0146",
+      "start": 575.72,
+      "end": 581.34,
+      "duration": 5.62,
+      "text": "وكيف ستسخدمه لفهم وتقييم العديد من وجهات النظر العالمية المختلفة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0147",
+      "start": 581.34,
+      "end": 583.54,
+      "duration": 2.2,
+      "text": "لكن ليس عن الجولف",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0148",
+      "start": 583.54,
+      "end": 587.48,
+      "duration": 3.94,
+      "text": "هذه الحلقة من كراش كورس كانت ممكنة بسبب سكوير سبيس.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0149",
+      "start": 587.48,
+      "end": 592.25,
+      "duration": 4.77,
+      "text": "سكوير سبيس طريقة لإنشاء المواقع أو مدونة أو متجر إلكتروني لك وأفكارك.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0150",
+      "start": 592.25,
+      "end": 597.25,
+      "duration": 5,
+      "text": "يقدم واجهات سهلة الاستخدام وقوالب مخصصة، وخدمة عملاء على مدار الساعة، جرب سكوير سبيس",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0151",
+      "start": 597.25,
+      "end": 600.86,
+      "duration": 3.61,
+      "text": "عن طريق squarespace.com/crashcourse لتلقي عروض مميزة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0152",
+      "start": 600.86,
+      "end": 605.12,
+      "duration": 4.26,
+      "text": "أُنتج هذا الكورس بالتعاون مع استديوهات (بي بي إس ديجيتال)، ويمكنكم زيارة",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0153",
+      "start": 605.12,
+      "end": 610.46,
+      "duration": 5.34,
+      "text": "قناتهم لمشاهدة المزيد من الأعمال المدهشة مثل (ذا قود ستف)، (بي بي سي سبيس تايم)، (فيزيكس قيرل)",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0154",
+      "start": 610.46,
+      "end": 613.84,
+      "duration": 3.38,
+      "text": "صُورت هذه الحلقة في استوديو الدكتور (شيرل سي كيني)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0155",
+      "start": 613.85,
+      "end": 617.59,
+      "duration": 3.74,
+      "text": "بمساعدة هؤلاء الأشخاص المذهلين، وفريق التصميم (ثوت كافيه)",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0156",
+      "start": 617.59,
+      "end": 621.84,
+      "duration": 4.25,
+      "text": "ترجمة: فريق أُترجم autrjim@",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    }
+  ],
+  "audit_log": [
+    {
+      "segment_id": "seg-0019",
+      "start": 60.35,
+      "end": 64.17,
+      "original_text": "على سبيل المثال، لو أن كل قراراتي مجرد  نتاجٍ لما تربيت عليه",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0042",
+      "start": 153.25,
+      "end": 157.4,
+      "original_text": "فيلوس (الحب) وميثوس (الأسطورة)\nوهو ما نسميه اليوم العلم والحكايات",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0060",
+      "start": 223.05,
+      "end": 226.63,
+      "original_text": "أحد أول الأسئلة -ربما من الأفضل صياغته كالتالي-:\nكيف يبدو العالم؟",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0064",
+      "start": 237.92,
+      "end": 243.08,
+      "original_text": "عندما يتساءل الفيلسوف كيف يبدو العالم، فإنه يسأل عن:\nماهي طبيعة الظاهر؟",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0092",
+      "start": 354.34,
+      "end": 357.78,
+      "original_text": "من المفترض أن يتلقى دعما كبيرا؟\nلا تدعوني أبدأ بـبرقلوس",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0095",
+      "start": 364.03,
+      "end": 368.72,
+      "original_text": "عوضا عن الجلوس والحكم على الناس، الأخلاق تطرح أسئلة مثل:  كيف يجب أن أعيش؟",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0103",
+      "start": 397.36,
+      "end": 402.74,
+      "original_text": "يتناول مفهوم الجمال -عمليًا-  كل شيء، من الإعلام إلى مدارس الفن إلى كلية الحلاقة",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0153",
+      "start": 605.12,
+      "end": 610.46,
+      "original_text": "قناتهم لمشاهدة المزيد من الأعمال المدهشة مثل\n(ذا قود ستف)، (بي بي سي سبيس تايم)، (فيزيكس قيرل)",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    }
+  ],
+  "total_raw_segments": 156,
+  "total_cleaned_segments": 156,
+  "removed_segments_count": 0,
+  "retention_rate_pct": 100
+}

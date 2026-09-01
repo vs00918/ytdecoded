@@ -1,0 +1,104 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  prev: CollectionEntry<'topics'> | null;
+  next: CollectionEntry<'topics'> | null;
+}
+
+const { prev, next } = Astro.props;
+---
+
+<nav aria-label="Sequential Chapter Navigation" class="nav-footer-container">
+  <div class="nav-footer-grid">
+    {prev ? (
+      <a href={`/ytdecoded/topics/${prev.slug}/`} class="nav-card nav-prev">
+        <span class="nav-direction">← Previous Chapter</span>
+        <span class="nav-vol">Vol {prev.data.volume}: {prev.data.volume_title}</span>
+        <span class="nav-title">{prev.data.title}</span>
+      </a>
+    ) : (
+      <div class="nav-card-placeholder" aria-hidden="true"></div>
+    )}
+
+    {next ? (
+      <a href={`/ytdecoded/topics/${next.slug}/`} class="nav-card nav-next">
+        <span class="nav-direction">Next Chapter →</span>
+        <span class="nav-vol">Vol {next.data.volume}: {next.data.volume_title}</span>
+        <span class="nav-title">{next.data.title}</span>
+      </a>
+    ) : (
+      <div class="nav-card-placeholder" aria-hidden="true"></div>
+    )}
+  </div>
+</nav>
+
+<style>
+  .nav-footer-container {
+    margin-top: 64px;
+    padding-top: 36px;
+    border-top: 1px solid var(--border);
+    font-family: var(--font-ui);
+  }
+
+  .nav-footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  @media (max-width: 600px) {
+    .nav-footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .nav-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .nav-card:hover, .nav-card:focus-visible {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
+    outline: none;
+  }
+
+  .nav-prev {
+    text-align: left;
+  }
+
+  .nav-next {
+    text-align: right;
+  }
+
+  .nav-direction {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  .nav-vol {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+  }
+
+  .nav-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.35;
+  }
+</style>

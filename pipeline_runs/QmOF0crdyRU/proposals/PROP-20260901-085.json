@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-085",
+  "created_at": "2026-09-01T15:11:31.279Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-105",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1212",
+      "start": 3348.3,
+      "end": 3352.7,
+      "quoted_text": "but afterward the drop in baseline occurs,"
+    },
+    {
+      "entity_id": "CLM-1213",
+      "start": 3352.7,
+      "end": 3355.9,
+      "quoted_text": "and it always takes a little while to get back"
+    },
+    {
+      "entity_id": "CLM-1214",
+      "start": 3355.9,
+      "end": 3358.2,
+      "quoted_text": "to our stable baseline."
+    },
+    {
+      "entity_id": "CLM-1215",
+      "start": 3358.2,
+      "end": 3361.5,
+      "quoted_text": "We really all have a sort of dopamine set point."
+    },
+    {
+      "entity_id": "CLM-1216",
+      "start": 3361.5,
+      "end": 3364.8,
+      "quoted_text": "And if we continue to indulge in the same behaviors"
+    },
+    {
+      "entity_id": "CLM-1217",
+      "start": 3364.8,
+      "end": 3367.5,
+      "quoted_text": "or even different behaviors that increase our dopamine"
+    },
+    {
+      "entity_id": "CLM-1218",
+      "start": 3367.5,
+      "end": 3370,
+      "quoted_text": "in these big peaks over and over and over again,"
+    },
+    {
+      "entity_id": "CLM-1219",
+      "start": 3370,
+      "end": 3372.6,
+      "quoted_text": "we won't experience the same level of joy"
+    },
+    {
+      "entity_id": "CLM-1220",
+      "start": 3372.6,
+      "end": 3376.4,
+      "quoted_text": "from those behaviors or from anything at all."
+    },
+    {
+      "entity_id": "CLM-1221",
+      "start": 3376.4,
+      "end": 3377.3,
+      "quoted_text": "Now, that has a name."
+    },
+    {
+      "entity_id": "CLM-1222",
+      "start": 3377.3,
+      "end": 3378.6,
+      "quoted_text": "It's called addiction."
+    },
+    {
+      "entity_id": "CLM-1223",
+      "start": 3378.6,
+      "end": 3382,
+      "quoted_text": "But even for people who aren't addicted,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: but afterward the drop in baseline occurs,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3348s-3352s]: \"but afterward the drop in baseline occurs,\"\n  - [3352s-3355s]: \"and it always takes a little while to get back\"\n  - [3355s-3358s]: \"to our stable baseline.\"\n  - [3358s-3361s]: \"We really all have a sort of dopamine set point.\"\n  - [3361s-3364s]: \"And if we continue to indulge in the same behaviors\"\n  - [3364s-3367s]: \"or even different behaviors that increase our dopamine\"\n  - [3367s-3370s]: \"in these big peaks over and over and over again,\"\n  - [3370s-3372s]: \"we won't experience the same level of joy\"\n  - [3372s-3376s]: \"from those behaviors or from anything at all.\"\n  - [3376s-3377s]: \"Now, that has a name.\"\n  - [3377s-3378s]: \"It's called addiction.\"\n  - [3378s-3382s]: \"But even for people who aren't addicted,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: but afterward the drop in baseline occurs,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3348s-3352s]: \"but afterward the drop in baseline occurs,\"\n+  - [3352s-3355s]: \"and it always takes a little while to get back\"\n+  - [3355s-3358s]: \"to our stable baseline.\"\n+  - [3358s-3361s]: \"We really all have a sort of dopamine set point.\"\n+  - [3361s-3364s]: \"And if we continue to indulge in the same behaviors\"\n+  - [3364s-3367s]: \"or even different behaviors that increase our dopamine\"\n+  - [3367s-3370s]: \"in these big peaks over and over and over again,\"\n+  - [3370s-3372s]: \"we won't experience the same level of joy\"\n+  - [3372s-3376s]: \"from those behaviors or from anything at all.\"\n+  - [3376s-3377s]: \"Now, that has a name.\"\n+  - [3377s-3378s]: \"It's called addiction.\"\n+  - [3378s-3382s]: \"But even for people who aren't addicted,\"\n"
+  }
+}

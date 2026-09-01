@@ -1,0 +1,54 @@
+---
+// ThemeController.astro - Handles Sepia, Paper, Dark, OLED themes with LocalStorage persistence
+---
+
+<div class="theme-controller">
+  <button class="theme-btn swatch-sepia" onclick="setTheme('sepia')" title="Sepia Warm" aria-label="Sepia Theme"></button>
+  <button class="theme-btn swatch-paper" onclick="setTheme('paper')" title="Paper White" aria-label="Paper Theme"></button>
+  <button class="theme-btn swatch-dark" onclick="setTheme('dark')" title="Charcoal Night" aria-label="Dark Theme"></button>
+  <button class="theme-btn swatch-oled" onclick="setTheme('oled')" title="Pitch Black OLED" aria-label="OLED Theme"></button>
+</div>
+
+<style>
+  .theme-controller {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    padding: 4px 8px;
+    border-radius: 20px;
+  }
+
+  .theme-btn {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+
+  .theme-btn:hover {
+    transform: scale(1.15);
+  }
+
+  .swatch-sepia { background-color: #fbf0d9; border-color: #d8c29d; }
+  .swatch-paper { background-color: #ffffff; border-color: #d1d5db; }
+  .swatch-dark  { background-color: #27272a; border-color: #52525b; }
+  .swatch-oled  { background-color: #000000; border-color: #3f3f46; }
+</style>
+
+<script is:inline>
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('codex-theme', theme);
+    window.dispatchEvent(new CustomEvent('theme-changed', { detail: { theme } }));
+  }
+
+  // Initialize theme immediately to prevent flashing
+  (function() {
+    const saved = localStorage.getItem('codex-theme') || 'sepia';
+    document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-122",
+  "created_at": "2026-09-01T15:11:31.289Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-158",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1830",
+      "start": 5052.6,
+      "end": 5054,
+      "quoted_text": "And in addition to that,"
+    },
+    {
+      "entity_id": "CLM-1831",
+      "start": 5054,
+      "end": 5056.2,
+      "quoted_text": "because your yerba mate does appear"
+    },
+    {
+      "entity_id": "CLM-1832",
+      "start": 5056.2,
+      "end": 5058.6,
+      "quoted_text": "to have some sort of neuroprotective"
+    },
+    {
+      "entity_id": "CLM-1833",
+      "start": 5058.6,
+      "end": 5062.1,
+      "quoted_text": "and a particular dopamine neuron protective properties."
+    },
+    {
+      "entity_id": "CLM-1834",
+      "start": 5062.1,
+      "end": 5064.6,
+      "quoted_text": "Now, that doesn't mean that caffeine is always beneficial."
+    },
+    {
+      "entity_id": "CLM-1835",
+      "start": 5064.6,
+      "end": 5067.6,
+      "quoted_text": "And actually there's one instance related to dopamine"
+    },
+    {
+      "entity_id": "CLM-1836",
+      "start": 5067.6,
+      "end": 5070.8,
+      "quoted_text": "where caffeine can be particularly dangerous."
+    },
+    {
+      "entity_id": "CLM-1837",
+      "start": 5070.8,
+      "end": 5073.4,
+      "quoted_text": "And this relates to MDMA so-called ecstasy."
+    },
+    {
+      "entity_id": "CLM-1838",
+      "start": 5073.4,
+      "end": 5077.5,
+      "quoted_text": "MDMA is under investigation in various clinical trials"
+    },
+    {
+      "entity_id": "CLM-1839",
+      "start": 5077.5,
+      "end": 5080.4,
+      "quoted_text": "for its potential to treat trauma and depression."
+    },
+    {
+      "entity_id": "CLM-1840",
+      "start": 5081.9,
+      "end": 5084.8,
+      "quoted_text": "It's also of course, a drug that's used recreationally."
+    },
+    {
+      "entity_id": "CLM-1841",
+      "start": 5084.8,
+      "end": 5087.6,
+      "quoted_text": "It's still illegal at least in the United States."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: And in addition to that,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5052s-5054s]: \"And in addition to that,\"\n  - [5054s-5056s]: \"because your yerba mate does appear\"\n  - [5056s-5058s]: \"to have some sort of neuroprotective\"\n  - [5058s-5062s]: \"and a particular dopamine neuron protective properties.\"\n  - [5062s-5064s]: \"Now, that doesn't mean that caffeine is always beneficial.\"\n  - [5064s-5067s]: \"And actually there's one instance related to dopamine\"\n  - [5067s-5070s]: \"where caffeine can be particularly dangerous.\"\n  - [5070s-5073s]: \"And this relates to MDMA so-called ecstasy.\"\n  - [5073s-5077s]: \"MDMA is under investigation in various clinical trials\"\n  - [5077s-5080s]: \"for its potential to treat trauma and depression.\"\n  - [5081s-5084s]: \"It's also of course, a drug that's used recreationally.\"\n  - [5084s-5087s]: \"It's still illegal at least in the United States.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: And in addition to that,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5052s-5054s]: \"And in addition to that,\"\n+  - [5054s-5056s]: \"because your yerba mate does appear\"\n+  - [5056s-5058s]: \"to have some sort of neuroprotective\"\n+  - [5058s-5062s]: \"and a particular dopamine neuron protective properties.\"\n+  - [5062s-5064s]: \"Now, that doesn't mean that caffeine is always beneficial.\"\n+  - [5064s-5067s]: \"And actually there's one instance related to dopamine\"\n+  - [5067s-5070s]: \"where caffeine can be particularly dangerous.\"\n+  - [5070s-5073s]: \"And this relates to MDMA so-called ecstasy.\"\n+  - [5073s-5077s]: \"MDMA is under investigation in various clinical trials\"\n+  - [5077s-5080s]: \"for its potential to treat trauma and depression.\"\n+  - [5081s-5084s]: \"It's also of course, a drug that's used recreationally.\"\n+  - [5084s-5087s]: \"It's still illegal at least in the United States.\"\n"
+  }
+}

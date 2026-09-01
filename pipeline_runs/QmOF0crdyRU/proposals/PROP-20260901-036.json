@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-036",
+  "created_at": "2026-09-01T15:11:31.264Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-044",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-500",
+      "start": 1359.5,
+      "end": 1360.7,
+      "quoted_text": "There are third and fourth,"
+    },
+    {
+      "entity_id": "CLM-501",
+      "start": 1360.7,
+      "end": 1365.7,
+      "quoted_text": "but mostly neurons communicate by two modes."
+    },
+    {
+      "entity_id": "CLM-502",
+      "start": 1365.7,
+      "end": 1369,
+      "quoted_text": "One, are what we call fast electrical synapses"
+    },
+    {
+      "entity_id": "CLM-503",
+      "start": 1369,
+      "end": 1371,
+      "quoted_text": "ionotropic conduction."
+    },
+    {
+      "entity_id": "CLM-504",
+      "start": 1371,
+      "end": 1371.8,
+      "quoted_text": "All right?"
+    },
+    {
+      "entity_id": "CLM-505",
+      "start": 1371.8,
+      "end": 1372.6,
+      "quoted_text": "You don't need to know what that means,"
+    },
+    {
+      "entity_id": "CLM-506",
+      "start": 1372.6,
+      "end": 1376.3,
+      "quoted_text": "but basically one neuron activates another neuron"
+    },
+    {
+      "entity_id": "CLM-507",
+      "start": 1376.3,
+      "end": 1378.9,
+      "quoted_text": "and little holes open up in that neuron,"
+    },
+    {
+      "entity_id": "CLM-508",
+      "start": 1380.7,
+      "end": 1383.8,
+      "quoted_text": "Sodium is the main ion salt"
+    },
+    {
+      "entity_id": "CLM-509",
+      "start": 1383.8,
+      "end": 1386.7,
+      "quoted_text": "by which one neuron influences the electrical activity"
+    },
+    {
+      "entity_id": "CLM-510",
+      "start": 1386.7,
+      "end": 1390,
+      "quoted_text": "of another neuron because sodium ions contain a charge."
+    },
+    {
+      "entity_id": "CLM-511",
+      "start": 1390,
+      "end": 1391,
+      "quoted_text": "Okay?"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: There are third and fourth,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1359s-1360s]: \"There are third and fourth,\"\n  - [1360s-1365s]: \"but mostly neurons communicate by two modes.\"\n  - [1365s-1369s]: \"One, are what we call fast electrical synapses\"\n  - [1369s-1371s]: \"ionotropic conduction.\"\n  - [1371s-1371s]: \"All right?\"\n  - [1371s-1372s]: \"You don't need to know what that means,\"\n  - [1372s-1376s]: \"but basically one neuron activates another neuron\"\n  - [1376s-1378s]: \"and little holes open up in that neuron,\"\n  - [1380s-1383s]: \"Sodium is the main ion salt\"\n  - [1383s-1386s]: \"by which one neuron influences the electrical activity\"\n  - [1386s-1390s]: \"of another neuron because sodium ions contain a charge.\"\n  - [1390s-1391s]: \"Okay?\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: There are third and fourth,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1359s-1360s]: \"There are third and fourth,\"\n+  - [1360s-1365s]: \"but mostly neurons communicate by two modes.\"\n+  - [1365s-1369s]: \"One, are what we call fast electrical synapses\"\n+  - [1369s-1371s]: \"ionotropic conduction.\"\n+  - [1371s-1371s]: \"All right?\"\n+  - [1371s-1372s]: \"You don't need to know what that means,\"\n+  - [1372s-1376s]: \"but basically one neuron activates another neuron\"\n+  - [1376s-1378s]: \"and little holes open up in that neuron,\"\n+  - [1380s-1383s]: \"Sodium is the main ion salt\"\n+  - [1383s-1386s]: \"by which one neuron influences the electrical activity\"\n+  - [1386s-1390s]: \"of another neuron because sodium ions contain a charge.\"\n+  - [1390s-1391s]: \"Okay?\"\n"
+  }
+}

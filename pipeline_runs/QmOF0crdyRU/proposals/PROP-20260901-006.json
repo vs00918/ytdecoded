@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-006",
+  "created_at": "2026-09-01T15:11:31.256Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-006",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-059",
+      "start": 172.2,
+      "end": 175,
+      "quoted_text": "and they measured by way of blood draw"
+    },
+    {
+      "entity_id": "EXM-003",
+      "start": 175,
+      "end": 178.4,
+      "quoted_text": "things like cortisol, norepinephrine and dopamine."
+    },
+    {
+      "entity_id": "CLM-060",
+      "start": 180.1,
+      "end": 183.6,
+      "quoted_text": "What was fascinating is that cold water exposure"
+    },
+    {
+      "entity_id": "CLM-061",
+      "start": 183.6,
+      "end": 187.3,
+      "quoted_text": "led to very rapid increases in norepinephrine"
+    },
+    {
+      "entity_id": "CLM-062",
+      "start": 188.4,
+      "end": 190.7,
+      "quoted_text": "which is also just called adrenaline."
+    },
+    {
+      "entity_id": "CLM-063",
+      "start": 190.7,
+      "end": 193.5,
+      "quoted_text": "It also led to increases in dopamine."
+    },
+    {
+      "entity_id": "CLM-064",
+      "start": 193.5,
+      "end": 196.9,
+      "quoted_text": "And these increases in dopamine were very significant."
+    },
+    {
+      "entity_id": "CLM-065",
+      "start": 196.9,
+      "end": 200.3,
+      "quoted_text": "They kicked in around 10 or 15 minutes after submersion"
+    },
+    {
+      "entity_id": "CLM-066",
+      "start": 201.5,
+      "end": 203.1,
+      "quoted_text": "And I should mention the head wasn't below water"
+    },
+    {
+      "entity_id": "CLM-067",
+      "start": 203.1,
+      "end": 204.9,
+      "quoted_text": "is just up to the neck."
+    },
+    {
+      "entity_id": "CLM-068",
+      "start": 204.9,
+      "end": 209.5,
+      "quoted_text": "And the dopamine release continued to rise"
+    },
+    {
+      "entity_id": "CLM-069",
+      "start": 210.5,
+      "end": 213.8,
+      "quoted_text": "and eventually reached 250% above baseline."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: and they measured by way of blood draw\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [172s-175s]: \"and they measured by way of blood draw\"\n  - [175s-178s]: \"things like cortisol, norepinephrine and dopamine.\"\n  - [180s-183s]: \"What was fascinating is that cold water exposure\"\n  - [183s-187s]: \"led to very rapid increases in norepinephrine\"\n  - [188s-190s]: \"which is also just called adrenaline.\"\n  - [190s-193s]: \"It also led to increases in dopamine.\"\n  - [193s-196s]: \"And these increases in dopamine were very significant.\"\n  - [196s-200s]: \"They kicked in around 10 or 15 minutes after submersion\"\n  - [201s-203s]: \"And I should mention the head wasn't below water\"\n  - [203s-204s]: \"is just up to the neck.\"\n  - [204s-209s]: \"And the dopamine release continued to rise\"\n  - [210s-213s]: \"and eventually reached 250% above baseline.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: and they measured by way of blood draw\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [172s-175s]: \"and they measured by way of blood draw\"\n+  - [175s-178s]: \"things like cortisol, norepinephrine and dopamine.\"\n+  - [180s-183s]: \"What was fascinating is that cold water exposure\"\n+  - [183s-187s]: \"led to very rapid increases in norepinephrine\"\n+  - [188s-190s]: \"which is also just called adrenaline.\"\n+  - [190s-193s]: \"It also led to increases in dopamine.\"\n+  - [193s-196s]: \"And these increases in dopamine were very significant.\"\n+  - [196s-200s]: \"They kicked in around 10 or 15 minutes after submersion\"\n+  - [201s-203s]: \"And I should mention the head wasn't below water\"\n+  - [203s-204s]: \"is just up to the neck.\"\n+  - [204s-209s]: \"And the dopamine release continued to rise\"\n+  - [210s-213s]: \"and eventually reached 250% above baseline.\"\n"
+  }
+}

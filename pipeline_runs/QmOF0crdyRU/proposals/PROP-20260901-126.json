@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-126",
+  "created_at": "2026-09-01T15:11:31.289Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-162",
+  "target_topic_slug": "the-high-agency-reset-breaking-autopilot",
+  "target_topic_title": "The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars",
+  "target_content_hash_before": "f01dee504e2b0b445335f556fc84419fe49cf424ab727ab3eb094162388ac037",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Substantive structural nuance, causal sequences, or tactical depth extending \"The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1878",
+      "start": 5193.3,
+      "end": 5197,
+      "quoted_text": "a very high tier stringent journal."
+    },
+    {
+      "entity_id": "CLM-1879",
+      "start": 5197,
+      "end": 5198.9,
+      "quoted_text": "First author is Kolb, K-O-L-B."
+    },
+    {
+      "entity_id": "CLM-1880",
+      "start": 5198.9,
+      "end": 5202.4,
+      "quoted_text": "And the title of the paper pretty much tells the story."
+    },
+    {
+      "entity_id": "CLM-1881",
+      "start": 5202.4,
+      "end": 5205.2,
+      "quoted_text": "Amphetamine or cocaine limits the ability"
+    },
+    {
+      "entity_id": "CLM-1882",
+      "start": 5205.2,
+      "end": 5207.9,
+      "quoted_text": "of later experience to promote structural plasticity"
+    },
+    {
+      "entity_id": "CLM-1883",
+      "start": 5207.9,
+      "end": 5209.4,
+      "quoted_text": "in the neocortex and nucleus accumbens."
+    },
+    {
+      "entity_id": "CLM-1884",
+      "start": 5209.4,
+      "end": 5214.1,
+      "quoted_text": "Neocortex is the outer shell of the brain more or less."
+    },
+    {
+      "entity_id": "CLM-1885",
+      "start": 5214.1,
+      "end": 5216.2,
+      "quoted_text": "And the nucleus accumbens is part of that,"
+    },
+    {
+      "entity_id": "CLM-1886",
+      "start": 5216.2,
+      "end": 5219.9,
+      "quoted_text": "mesolimbic dopamine pathway for motivation drive"
+    },
+    {
+      "entity_id": "CLM-1887",
+      "start": 5221.4,
+      "end": 5224.2,
+      "quoted_text": "Neuroplasticity of course, is the brain's ability to change"
+    },
+    {
+      "entity_id": "CLM-1888",
+      "start": 5224.2,
+      "end": 5225.3,
+      "quoted_text": "in response to experience."
+    },
+    {
+      "entity_id": "CLM-1889",
+      "start": 5225.3,
+      "end": 5229.6,
+      "quoted_text": "And neuroplasticity is the basis of learning and memory"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-high-agency-reset-breaking-autopilot\"\ntitle: \"The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 5\narchetype: \"TACTICAL_FRAMEWORK\"\nreading_time_minutes: 5\nsummary_15s: \"Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nMost human lives are not governed by conscious choice; they are governed by **subconscious inertia, algorithmic conditioning, and default drift**.\n\nWhen you wake up and immediately react to notifications, drift through workday obligations, consume hyper-stimulating entertainment in the evening, and sleep without reflection, your brain operates inside the **Autopilot Trap** (excessive dominance of the Default Mode Network).\n\nTo break free from reactive drift, you do not need chaotic, emotional motivation. You need **Monk Mode: a deterministic, high-agency operating system** that systematically recalibrates your dopamine sensitivity, executive focus, physical baseline, and skill trajectory.\n\n---\n\n### The Monk Mode Architecture: The 5 Non-Negotiable Pillars\n\n```mermaid\ngraph TD\n    subgraph The Monk Mode Pentad\n        P1[Pillar 1: Digital Blackout & Dopamine Fasting<br>Zero cheap algorithmic stimulation · Social media purge]\n        P2[Pillar 2: Monastic Deep Work<br>90-120 Min unbroken single-task cognitive sprints]\n        P3[Pillar 3: Physical Conditioning & Hormesis<br>Daily resistance/cardio · Cold exposure · Vagal reset]\n        P4[Pillar 4: Metabolic & Circadian Discipline<br>Whole-food nutrition · Fasting windows · 10 PM sleep anchor]\n        P5[Pillar 5: Stillness & Reflective Synthesis<br>15 Mins seated meditation · Evening journaling ledger]\n    end\n\n    P1 -->|Restores Dopamine Baseline for| P2\n    P2 -->|Compounds Practical Mastery via| P3\n    P3 -->|Stabilizes Biology & Energy through| P4\n    P4 -->|Deepens Mental Clarity for| P5\n    P5 -->|Protects Sovereignty & Feeds back into| P1\n```\n\n---\n\n### Pillar 1: Digital Blackout & Dopamine Fasting (Signal Calibration)\n* **The Problem**: Constant micro-stimulation desensitizes striatal dopamine receptors, making deep study feel painfully boring.\n* **The Non-Negotiable**: Enforce a total blackout on algorithmic short-form video, video games, and frivolous group chats throughout the Monk Mode sprint. High-dopamine inputs are quarantined or eliminated entirely.\n* **The Yield**: Baseline dopamine sensitivity recovers, restoring intrinsic fascination with difficult books, complex problems, and quiet crafts.\n\n---\n\n### Pillar 2: Monastic Deep Work (Cognitive Capital)\n* **The Problem**: Shallow work (checking emails, jumping across tabs, superficial reading) gives the illusion of productivity while building zero career leverage.\n* **The Protocol**: Complete at least one **90 to 120-minute unbroken cognitive block** every morning before the world begins demanding your attention.\n* **The Rule**: A single tab open, phone isolated in another room, and zero communication tools running.\n\n---\n\n### Pillar 3: Physical Conditioning & Hormesis (The Biological Anchor)\n* **The Problem**: A sedentary body traps chronic cortisol in tissues and depresses prefrontal blood circulation.\n* **The Practice**: 30 to 45 minutes of daily resistance training, high-intensity intervals, or brisk outdoor movement combined with cold showers.\n* **The Mechanism**: Physical exertion spikes Brain-Derived Neurotrophic Factor (BDNF) and endocannabinoids, eliminating mental restlessness and anchoring emotional stability.\n\n---\n\n### Pillar 4: Metabolic & Circadian Discipline (Clean Cellular Fuel)\n* **The Problem**: Heavy processed carbohydrates, late-night meals, and erratic sleep cycles induce systemic brain inflammation and afternoon crashes.\n* **The Standard**:\n  1. Eat nutrient-dense whole foods with zero refined sugars.\n  2. Maintain a consistent 8-hour sleep window anchored at 10:00 PM.\n  3. Hydrate immediately upon waking with 500ml of mineralized water.\n\n---\n\n### Pillar 5: Daily Stillness & Reflective Synthesis (Wisdom Ledger)\n* **The Problem**: Without reflection, mistakes are repeated daily and mental loops remain unclosed.\n* **The Practice**:\n  * **Morning Stillness**: 10 to 15 minutes of seated mindfulness/breath observation to expand the gap between stimulus and response.\n  * **Evening Ledger**: 5 minutes before bed recording:\n    1. *Where did I execute with high agency today?*\n    2. *Where did I experience resistance or leaks?*\n    3. *What is my single non-negotiable lead priority for tomorrow?*\n\n---\n\n### The Three Operational Rules of Monk Mode\n\n```mermaid\ngraph LR\n    A[Monk Mode Rules] --> R1[1. Binary Execution<br>Non-negotiables are 100% done or 0% done · No grey compromises]\n    A --> R2[2. Bounded Sprints<br>Operate in 21 to 60-day cycles]\n    A --> R3[3. Controlled Decompression<br>Never celebrate completion with a dopamine binge]\n```\n\n1. **Binary Execution (Zero Negotiation)**: Non-negotiables have no middle ground. An action is either executed or not. This eliminates the energy-draining mental debate (*\"Should I study today or rest?\"*).\n2. **Bounded Sprint Horizon**: Monk Mode is not a perpetual ascetic sentence; it is a **21 to 60-day high-intensity sprint** designed to create a quantum leap in skill, rank, or health.\n3. **Controlled Decompression (The Rebound Defense)**: The biggest trap of Monk Mode is bingeing on dopamine the day after completion. Transition smoothly into a sustainable high-standard baseline.\n\n---\n\n### The 21-Day Neuroplastic Transformation Curve\n\n```mermaid\ngraph LR\n    D1[Days 1-7: The Valley of Friction<br>Old dopamine habits fight for comfort · Boredom & resistance] \n    --> D2[Days 8-14: The Stabilization Phase<br>Routines become smooth · Focus stamina doubles] \n    --> D3[Days 15-21+: The Quantum Baseline<br>High-agency focus becomes your effortless default state]\n```\n\n* **The Friction Hurdle**: During the first 7 days, your subconscious will generate dozens of excuses to break the protocol.\n* **The Breakthrough**: By day 21, previous dopamine pathways atrophy, prefrontal control becomes second nature, and monastic focus feels calm, natural, and deeply empowering.\n\n---\n\n### The Core Takeaway to Remember\n> Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable result.\n",
+  "proposed_diff": {
+    "section_name": "## Extended Mechanical Insights",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **Mechanic**: a very high tier stringent journal. *(Source: [QmOF0crdyRU](https://www.youtube.com/watch?v=QmOF0crdyRU))*",
+    "unified_diff": "--- a/src/content/topics/the-high-agency-reset-breaking-autopilot.md\n+++ b/src/content/topics/the-high-agency-reset-breaking-autopilot.md\n@@ -0,0 +1,2 @@\n+### Extended Mechanical Insight\n+- **Mechanic**: a very high tier stringent journal. *(Source: [QmOF0crdyRU](https://www.youtube.com/watch?v=QmOF0crdyRU))*\n"
+  }
+}

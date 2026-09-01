@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-001",
+  "created_at": "2026-09-01T15:11:18.090Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-001",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for CjVQJdIrDJ0",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-001",
+      "start": 1.6,
+      "end": 5.2,
+      "quoted_text": ">> John Boyd: All right. I'm John Boyd. It is my great pleasure to introduce Professor"
+    },
+    {
+      "entity_id": "CLM-002",
+      "start": 5.2,
+      "end": 12.1,
+      "quoted_text": "Kahneman today. And I just want to give you a brief background on his outstanding career."
+    },
+    {
+      "entity_id": "CLM-003",
+      "start": 12.1,
+      "end": 17.3,
+      "quoted_text": "He started in 1954 received his bachelors in experimental psychology and mathematics"
+    },
+    {
+      "entity_id": "CLM-004",
+      "start": 17.3,
+      "end": 23.8,
+      "quoted_text": "from the Hebrew University in Jerusalem. In 1961, he was awarded his Ph.D. from University"
+    },
+    {
+      "entity_id": "CLM-005",
+      "start": 23.8,
+      "end": 31.1,
+      "quoted_text": "of California Berkeley right across the bay in Experimental Psychology. In 1979, he and"
+    },
+    {
+      "entity_id": "CLM-006",
+      "start": 31.1,
+      "end": 36.3,
+      "quoted_text": "his coauthor Amos Tversky published their seminal paper on Prospect Theory which started"
+    },
+    {
+      "entity_id": "CLM-007",
+      "start": 36.3,
+      "end": 41.8,
+      "quoted_text": "to change the way people reframed the argument around gains, losses, and decision-making"
+    },
+    {
+      "entity_id": "CLM-008",
+      "start": 41.8,
+      "end": 47.2,
+      "quoted_text": "under uncertainty. Several years later in 2002, Professor Kahneman was awarded the Nobel"
+    },
+    {
+      "entity_id": "CLM-009",
+      "start": 47.2,
+      "end": 54.1,
+      "quoted_text": "Prize largely on the work of Prospect Theory of. And Nobel Prize isn't always impressive;"
+    },
+    {
+      "entity_id": "CLM-010",
+      "start": 54.1,
+      "end": 59.6,
+      "quoted_text": "his perhaps more so because there isn't a Nobel Prize in psychology. He had to win his"
+    },
+    {
+      "entity_id": "CLM-011",
+      "start": 59.6,
+      "end": 65.5,
+      "quoted_text": "Nobel Prize in economics. And as far as I know, there's only one other person, one other"
+    },
+    {
+      "entity_id": "CLM-012",
+      "start": 65.5,
+      "end": 70.8,
+      "quoted_text": "psychologist, who's won a Nobel Prize and that's Ivan Pavlov. He may be a physiologist,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for CjVQJdIrDJ0\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=CjVQJdIrDJ0.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for CjVQJdIrDJ0\n\n## Core Mechanics\n- **Core Thesis**: >> John Boyd: All right. I'm John Boyd. It is my great pleasure to introduce Professor\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CjVQJdIrDJ0)\n  - [1s-5s]: \">> John Boyd: All right. I'm John Boyd. It is my great pleasure to introduce Professor\"\n  - [5s-12s]: \"Kahneman today. And I just want to give you a brief background on his outstanding career.\"\n  - [12s-17s]: \"He started in 1954 received his bachelors in experimental psychology and mathematics\"\n  - [17s-23s]: \"from the Hebrew University in Jerusalem. In 1961, he was awarded his Ph.D. from University\"\n  - [23s-31s]: \"of California Berkeley right across the bay in Experimental Psychology. In 1979, he and\"\n  - [31s-36s]: \"his coauthor Amos Tversky published their seminal paper on Prospect Theory which started\"\n  - [36s-41s]: \"to change the way people reframed the argument around gains, losses, and decision-making\"\n  - [41s-47s]: \"under uncertainty. Several years later in 2002, Professor Kahneman was awarded the Nobel\"\n  - [47s-54s]: \"Prize largely on the work of Prospect Theory of. And Nobel Prize isn't always impressive;\"\n  - [54s-59s]: \"his perhaps more so because there isn't a Nobel Prize in psychology. He had to win his\"\n  - [59s-65s]: \"Nobel Prize in economics. And as far as I know, there's only one other person, one other\"\n  - [65s-70s]: \"psychologist, who's won a Nobel Prize and that's Ivan Pavlov. He may be a physiologist,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for CjVQJdIrDJ0\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=CjVQJdIrDJ0.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for CjVQJdIrDJ0\n+\n+## Core Mechanics\n+- **Core Thesis**: >> John Boyd: All right. I'm John Boyd. It is my great pleasure to introduce Professor\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CjVQJdIrDJ0)\n+  - [1s-5s]: \">> John Boyd: All right. I'm John Boyd. It is my great pleasure to introduce Professor\"\n+  - [5s-12s]: \"Kahneman today. And I just want to give you a brief background on his outstanding career.\"\n+  - [12s-17s]: \"He started in 1954 received his bachelors in experimental psychology and mathematics\"\n+  - [17s-23s]: \"from the Hebrew University in Jerusalem. In 1961, he was awarded his Ph.D. from University\"\n+  - [23s-31s]: \"of California Berkeley right across the bay in Experimental Psychology. In 1979, he and\"\n+  - [31s-36s]: \"his coauthor Amos Tversky published their seminal paper on Prospect Theory which started\"\n+  - [36s-41s]: \"to change the way people reframed the argument around gains, losses, and decision-making\"\n+  - [41s-47s]: \"under uncertainty. Several years later in 2002, Professor Kahneman was awarded the Nobel\"\n+  - [47s-54s]: \"Prize largely on the work of Prospect Theory of. And Nobel Prize isn't always impressive;\"\n+  - [54s-59s]: \"his perhaps more so because there isn't a Nobel Prize in psychology. He had to win his\"\n+  - [59s-65s]: \"Nobel Prize in economics. And as far as I know, there's only one other person, one other\"\n+  - [65s-70s]: \"psychologist, who's won a Nobel Prize and that's Ivan Pavlov. He may be a physiologist,\"\n"
+  }
+}

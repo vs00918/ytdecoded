@@ -1,0 +1,514 @@
+{
+  "video_id": "vWy3C38U7Lw",
+  "cleaned_segments": [
+    {
+      "id": "seg-0001",
+      "start": 0.06,
+      "end": 5.31,
+      "duration": 5.25,
+      "text": "One of the paradoxes of the dating game is that we know that by coming across as",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0002",
+      "start": 5.74,
+      "end": 7.36,
+      "duration": 1.62,
+      "text": "enthusiastic at an early stage",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0003",
+      "start": 7.36,
+      "end": 14.46,
+      "duration": 7.1,
+      "text": "If we bring them the next day if we're open about how attractive we find them if we suggest meeting them again very soon",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0004",
+      "start": 14.86,
+      "end": 17.79,
+      "duration": 2.93,
+      "text": "we are putting ourselves at a high risk of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0005",
+      "start": 18.16,
+      "end": 23.25,
+      "duration": 5.09,
+      "text": "disgusting the very person we would so like to build a relationship with",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0006",
+      "start": 23.92,
+      "end": 27.81,
+      "duration": 3.89,
+      "text": "It is in order to counter this risk that early on in our dating lives",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0007",
+      "start": 28.18,
+      "end": 33.09,
+      "duration": 4.91,
+      "text": "we are taught by well-meaning friends to adopt a facade of cruel and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0008",
+      "start": 33.52,
+      "end": 40.83,
+      "duration": 7.31,
+      "text": "indifference we become experts are deliberately not phoning or sending messages are treating our dates in a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0009",
+      "start": 41.02,
+      "end": 47.1,
+      "duration": 6.08,
+      "text": "Carefully offhand manner and in subtly pretending we don't much care if we never cross their paths again",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0010",
+      "start": 47.41,
+      "end": 54.18,
+      "duration": 6.77,
+      "text": "we are told that the only way to get them to care about us is to pretend not to care for them and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0011",
+      "start": 54.88,
+      "end": 55.98,
+      "duration": 1.1,
+      "text": "in the process",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0012",
+      "start": 55.98,
+      "end": 58.02,
+      "duration": 2.04,
+      "text": "We waste a lot of time",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0013",
+      "start": 58.18,
+      "end": 65.64,
+      "duration": 7.46,
+      "text": "We may lose them altogether and we have to suffer the indignity of denying that we feel a desire that should never have been",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0014",
+      "start": 65.92,
+      "end": 68.07,
+      "duration": 2.15,
+      "text": "associated with shame in the first place",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0015",
+      "start": 68.92,
+      "end": 73.83,
+      "duration": 4.91,
+      "text": "But we can find a way out of the conundrum by drilling deeper into the philosophy",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0016",
+      "start": 73.96,
+      "end": 78.42,
+      "duration": 4.46,
+      "text": "That underpins the well flagged danger of being overly eager",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0017",
+      "start": 79.06,
+      "end": 85.68,
+      "duration": 6.62,
+      "text": "Why is detachment so often recommended? Why are we not meant to call too soon?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0018",
+      "start": 86.35,
+      "end": 94.2,
+      "duration": 7.85,
+      "text": "High levels of enthusiasm are generally not recommended for one central reason because they have been equated with what is a true",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0019",
+      "start": 94.66,
+      "end": 101.76,
+      "duration": 7.1,
+      "text": "Psychological problem manic dependence in other words calling too soon has become a symbol of weakness",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0020",
+      "start": 102.31,
+      "end": 105.6,
+      "duration": 3.29,
+      "text": "Desperation and the inability to deal adequately with life's challenges",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0021",
+      "start": 105.94,
+      "end": 112.05,
+      "duration": 6.11,
+      "text": "without the constant support of a lover whose real identity the manically keen party doesn't much care about",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0022",
+      "start": 112.45,
+      "end": 117.42,
+      "duration": 4.97,
+      "text": "Because their underlying priority is to ensure that they're never alone without someone",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0023",
+      "start": 117.73,
+      "end": 121.2,
+      "duration": 3.47,
+      "text": "Rather than with any one being in particular",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0024",
+      "start": 121.93,
+      "end": 126.51,
+      "duration": 4.58,
+      "text": "But we should note that what is ultimately the problem is manic dependence not",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0025",
+      "start": 127.15,
+      "end": 129.1,
+      "duration": 1.95,
+      "text": "high enthusiasm",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0026",
+      "start": 129.1,
+      "end": 133.32,
+      "duration": 4.22,
+      "text": "The difficulty is that our cultural narratives have unfairly glued",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0027",
+      "start": 133.77,
+      "end": 139.89,
+      "duration": 6.12,
+      "text": "These two elements together with an unnecessarily strong a none budging kind of adhesive yet",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0028",
+      "start": 139.89,
+      "end": 145.98,
+      "duration": 6.09,
+      "text": "There should logically be an option to disentangle the two strands that is to be able to reveal high enthusiasm",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0029",
+      "start": 146.26,
+      "end": 151.89,
+      "duration": 5.63,
+      "text": "And at the same time not thereby to imply manic dependence",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0030",
+      "start": 152.14,
+      "end": 155.67,
+      "duration": 3.53,
+      "text": "there should be an option to appear at once very keen and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0031",
+      "start": 156.61,
+      "end": 158.38,
+      "duration": 1.77,
+      "text": "very sane",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0032",
+      "start": 158.38,
+      "end": 165.69,
+      "duration": 7.31,
+      "text": "The ability to do so depends on a little-known emotional art to which we seldom have recourse or introduction",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0033",
+      "start": 166,
+      "end": 168,
+      "duration": 2,
+      "text": "We call it strong",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0034",
+      "start": 168.58,
+      "end": 176.34,
+      "duration": 7.76,
+      "text": "Vulnerability the strongly vulnerable person is a diplomat of the emotions who manages carefully to unite on the one hand",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0035",
+      "start": 177.07,
+      "end": 182.82,
+      "duration": 5.75,
+      "text": "self-confidence and independence and on the other a capacity for closeness self revelation and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0036",
+      "start": 183.19,
+      "end": 183.88,
+      "duration": 0.69,
+      "text": "honesty",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0037",
+      "start": 183.88,
+      "end": 191.19,
+      "duration": 7.31,
+      "text": "It is a balancing act the strongly vulnerable know how to confess with authority to a sense of feeling small",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0038",
+      "start": 191.32,
+      "end": 196.68,
+      "duration": 5.36,
+      "text": "They can sound in control even while revealing that they have an impression of being lost",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0039",
+      "start": 196.96,
+      "end": 201.24,
+      "duration": 4.28,
+      "text": "They can talk as adults about their childlike dimensions",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0040",
+      "start": 201.7,
+      "end": 207.06,
+      "duration": 5.36,
+      "text": "they can be unfrightening at the same time as admitting to their own fears and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0041",
+      "start": 207.61,
+      "end": 211.41,
+      "duration": 3.8,
+      "text": "they can tell us of their immense desire for us while simultaneously",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0042",
+      "start": 211.84,
+      "end": 218.43,
+      "duration": 6.59,
+      "text": "Leaving us under the impression that they could fully survive a frank rejection. They would love to build a life with us",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0043",
+      "start": 218.43,
+      "end": 226.08,
+      "duration": 7.65,
+      "text": "They imply but they could very quickly and adroitly find something else to do if that didn't sound much like fun from our side",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0044",
+      "start": 226.24,
+      "end": 233.79,
+      "duration": 7.55,
+      "text": "In the way that the strongly vulnerable speak of their desire for us. We sense a beguiling mixture of candor and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0045",
+      "start": 234.31,
+      "end": 242.25,
+      "duration": 7.94,
+      "text": "Independence, they don't need to play it cool because they carry off high enthusiasm in a way which sidesteps the dangers",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0046",
+      "start": 242.25,
+      "end": 247.92,
+      "duration": 5.67,
+      "text": "That playing cool has traditionally and nefariously been associated with what is off-putting",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0047",
+      "start": 248.37,
+      "end": 251.07,
+      "duration": 2.7,
+      "text": "Is never in fact that someone likes us",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0048",
+      "start": 251.32,
+      "end": 259.23,
+      "duration": 7.91,
+      "text": "What is frightening is that they seem in danger of having no options other than us of not being able to survive without us",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0049",
+      "start": 260.17,
+      "end": 262.17,
+      "duration": 2,
+      "text": "manic dependence not",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0050",
+      "start": 262.42,
+      "end": 269.4,
+      "duration": 6.98,
+      "text": "Enthusiasm is only ever the problem with this distinction in mind. We should to tell those we like that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0051",
+      "start": 269.4,
+      "end": 276.45,
+      "duration": 7.05,
+      "text": "we're really extremely keen to see them again perhaps as early as tomorrow night and find them exceptionally marvelous while simultaneously",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0052",
+      "start": 277.06,
+      "end": 280.65,
+      "duration": 3.59,
+      "text": "Leaving them in no doubt that we could if the answer were no",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0053",
+      "start": 280.99,
+      "end": 287.28,
+      "duration": 6.29,
+      "text": "without trouble and at high speed find some equally enchanting people to play with and be bewitched by",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0054",
+      "start": 288.7,
+      "end": 294.72,
+      "duration": 6.02,
+      "text": "If you enjoyed our film, please subscribe to our channel and click the bell icon to turn on notifications",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0055",
+      "start": 295.63,
+      "end": 299.76,
+      "duration": 4.13,
+      "text": "To learn more about love try our book on how to find love",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0056",
+      "start": 300.01,
+      "end": 306.75,
+      "duration": 6.74,
+      "text": "Which explains why we have the types we do and how our early experiences shape how and whom we love",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    }
+  ],
+  "audit_log": [],
+  "total_raw_segments": 56,
+  "total_cleaned_segments": 56,
+  "removed_segments_count": 0,
+  "retention_rate_pct": 100
+}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-082",
+  "created_at": "2026-09-01T15:11:31.278Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-101",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1164",
+      "start": 3217.2,
+      "end": 3218.2,
+      "quoted_text": "I'm going to feel so much better,"
+    },
+    {
+      "entity_id": "CLM-1165",
+      "start": 3218.2,
+      "end": 3220.2,
+      "quoted_text": "I'm going to feel this accomplishment in my body,"
+    },
+    {
+      "entity_id": "CLM-1166",
+      "start": 3220.2,
+      "end": 3221.5,
+      "quoted_text": "it's going to be so great."
+    },
+    {
+      "entity_id": "CLM-1167",
+      "start": 3221.5,
+      "end": 3222.9,
+      "quoted_text": "That's not what happens."
+    },
+    {
+      "entity_id": "CLM-1168",
+      "start": 3222.9,
+      "end": 3224.4,
+      "quoted_text": "You might feel some of those things,"
+    },
+    {
+      "entity_id": "CLM-1169",
+      "start": 3224.4,
+      "end": 3226.8,
+      "quoted_text": "but your level of dopamine has actually dropped"
+    },
+    {
+      "entity_id": "CLM-1170",
+      "start": 3228.5,
+      "end": 3231.4,
+      "quoted_text": "Now, eventually it will ratchet back up."
+    },
+    {
+      "entity_id": "CLM-1171",
+      "start": 3231.4,
+      "end": 3232.7,
+      "quoted_text": "But two things are really important."
+    },
+    {
+      "entity_id": "CLM-1172",
+      "start": 3232.7,
+      "end": 3235.8,
+      "quoted_text": "First of all, the extent to which it drops below baseline"
+    },
+    {
+      "entity_id": "CLM-1173",
+      "start": 3235.8,
+      "end": 3239.1,
+      "quoted_text": "is proportional to how high the peak was."
+    },
+    {
+      "entity_id": "CLM-1174",
+      "start": 3239.1,
+      "end": 3242.8,
+      "quoted_text": "So if you cross the finish line pretty happy,"
+    },
+    {
+      "entity_id": "CLM-1175",
+      "start": 3242.8,
+      "end": 3246,
+      "quoted_text": "it won't drop that much below baseline afterward."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: I'm going to feel so much better,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3217s-3218s]: \"I'm going to feel so much better,\"\n  - [3218s-3220s]: \"I'm going to feel this accomplishment in my body,\"\n  - [3220s-3221s]: \"it's going to be so great.\"\n  - [3221s-3222s]: \"That's not what happens.\"\n  - [3222s-3224s]: \"You might feel some of those things,\"\n  - [3224s-3226s]: \"but your level of dopamine has actually dropped\"\n  - [3228s-3231s]: \"Now, eventually it will ratchet back up.\"\n  - [3231s-3232s]: \"But two things are really important.\"\n  - [3232s-3235s]: \"First of all, the extent to which it drops below baseline\"\n  - [3235s-3239s]: \"is proportional to how high the peak was.\"\n  - [3239s-3242s]: \"So if you cross the finish line pretty happy,\"\n  - [3242s-3246s]: \"it won't drop that much below baseline afterward.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: I'm going to feel so much better,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3217s-3218s]: \"I'm going to feel so much better,\"\n+  - [3218s-3220s]: \"I'm going to feel this accomplishment in my body,\"\n+  - [3220s-3221s]: \"it's going to be so great.\"\n+  - [3221s-3222s]: \"That's not what happens.\"\n+  - [3222s-3224s]: \"You might feel some of those things,\"\n+  - [3224s-3226s]: \"but your level of dopamine has actually dropped\"\n+  - [3228s-3231s]: \"Now, eventually it will ratchet back up.\"\n+  - [3231s-3232s]: \"But two things are really important.\"\n+  - [3232s-3235s]: \"First of all, the extent to which it drops below baseline\"\n+  - [3235s-3239s]: \"is proportional to how high the peak was.\"\n+  - [3239s-3242s]: \"So if you cross the finish line pretty happy,\"\n+  - [3242s-3246s]: \"it won't drop that much below baseline afterward.\"\n"
+  }
+}

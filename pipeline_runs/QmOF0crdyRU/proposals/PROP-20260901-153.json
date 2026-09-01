@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-153",
+  "created_at": "2026-09-01T15:11:31.298Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-201",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2334",
+      "start": 6492.7,
+      "end": 6494.1,
+      "quoted_text": "I tend to skip one meal a day,"
+    },
+    {
+      "entity_id": "CLM-2335",
+      "start": 6494.1,
+      "end": 6495.4,
+      "quoted_text": "either breakfast or lunch,"
+    },
+    {
+      "entity_id": "CLM-2336",
+      "start": 6495.4,
+      "end": 6496.9,
+      "quoted_text": "and then I eat the other two meals of the day"
+    },
+    {
+      "entity_id": "CLM-2337",
+      "start": 6496.9,
+      "end": 6498.2,
+      "quoted_text": "depending on which meal I skipped."
+    },
+    {
+      "entity_id": "CLM-2338",
+      "start": 6498.2,
+      "end": 6499.8,
+      "quoted_text": "So it's either breakfast, lunch"
+    },
+    {
+      "entity_id": "CLM-2339",
+      "start": 6499.8,
+      "end": 6502.3,
+      "quoted_text": "and maybe a little something in the evening,"
+    },
+    {
+      "entity_id": "CLM-2340",
+      "start": 6502.3,
+      "end": 6505.7,
+      "quoted_text": "or I'll skip breakfast and do lunch and dinner and so on."
+    },
+    {
+      "entity_id": "CLM-2341",
+      "start": 6505.7,
+      "end": 6508.8,
+      "quoted_text": "Many people are now eating this way in part,"
+    },
+    {
+      "entity_id": "CLM-2342",
+      "start": 6508.8,
+      "end": 6512.9,
+      "quoted_text": "because many people find it easier to not eat at all"
+    },
+    {
+      "entity_id": "CLM-2343",
+      "start": 6512.9,
+      "end": 6516,
+      "quoted_text": "than to eat a smaller portion of some food."
+    },
+    {
+      "entity_id": "CLM-2344",
+      "start": 6516,
+      "end": 6519.4,
+      "quoted_text": "And that has everything to do with the dopamine reward"
+    },
+    {
+      "entity_id": "CLM-2345",
+      "start": 6519.4,
+      "end": 6522.1,
+      "quoted_text": "evoking properties of food."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: I tend to skip one meal a day,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [6492s-6494s]: \"I tend to skip one meal a day,\"\n  - [6494s-6495s]: \"either breakfast or lunch,\"\n  - [6495s-6496s]: \"and then I eat the other two meals of the day\"\n  - [6496s-6498s]: \"depending on which meal I skipped.\"\n  - [6498s-6499s]: \"So it's either breakfast, lunch\"\n  - [6499s-6502s]: \"and maybe a little something in the evening,\"\n  - [6502s-6505s]: \"or I'll skip breakfast and do lunch and dinner and so on.\"\n  - [6505s-6508s]: \"Many people are now eating this way in part,\"\n  - [6508s-6512s]: \"because many people find it easier to not eat at all\"\n  - [6512s-6516s]: \"than to eat a smaller portion of some food.\"\n  - [6516s-6519s]: \"And that has everything to do with the dopamine reward\"\n  - [6519s-6522s]: \"evoking properties of food.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: I tend to skip one meal a day,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [6492s-6494s]: \"I tend to skip one meal a day,\"\n+  - [6494s-6495s]: \"either breakfast or lunch,\"\n+  - [6495s-6496s]: \"and then I eat the other two meals of the day\"\n+  - [6496s-6498s]: \"depending on which meal I skipped.\"\n+  - [6498s-6499s]: \"So it's either breakfast, lunch\"\n+  - [6499s-6502s]: \"and maybe a little something in the evening,\"\n+  - [6502s-6505s]: \"or I'll skip breakfast and do lunch and dinner and so on.\"\n+  - [6505s-6508s]: \"Many people are now eating this way in part,\"\n+  - [6508s-6512s]: \"because many people find it easier to not eat at all\"\n+  - [6512s-6516s]: \"than to eat a smaller portion of some food.\"\n+  - [6516s-6519s]: \"And that has everything to do with the dopamine reward\"\n+  - [6519s-6522s]: \"evoking properties of food.\"\n"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-187",
+  "created_at": "2026-09-01T15:11:31.305Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-245",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2846",
+      "start": 7966.4,
+      "end": 7967.7,
+      "quoted_text": "you will find for instance,"
+    },
+    {
+      "entity_id": "EXM-084",
+      "start": 7967.7,
+      "end": 7970.3,
+      "quoted_text": "that things like Maca root can increase dopamine."
+    },
+    {
+      "entity_id": "EXM-085",
+      "start": 7970.3,
+      "end": 7973.6,
+      "quoted_text": "Things like the gut microbiome can influence dopamine."
+    },
+    {
+      "entity_id": "CLM-2847",
+      "start": 7974.9,
+      "end": 7977.1,
+      "quoted_text": "but they do that through indirect mechanisms."
+    },
+    {
+      "entity_id": "CLM-2848",
+      "start": 7977.1,
+      "end": 7979,
+      "quoted_text": "By creating a environment,"
+    },
+    {
+      "entity_id": "CLM-2849",
+      "start": 7979,
+      "end": 7982.2,
+      "quoted_text": "a milieu in which dopamine and dopamine circuits"
+    },
+    {
+      "entity_id": "CLM-2850",
+      "start": 7983.5,
+      "end": 7984.8,
+      "quoted_text": "Maca is a good example of that."
+    },
+    {
+      "entity_id": "CLM-2851",
+      "start": 7984.8,
+      "end": 7988.2,
+      "quoted_text": "It will reduce cortisol and through some indirect pathways"
+    },
+    {
+      "entity_id": "CLM-2852",
+      "start": 7988.2,
+      "end": 7990.9,
+      "quoted_text": "related to cortisol can increase dopamine."
+    },
+    {
+      "entity_id": "CLM-2853",
+      "start": 7990.9,
+      "end": 7993.1,
+      "quoted_text": "But it's not a direct increase in dopamine."
+    },
+    {
+      "entity_id": "CLM-2854",
+      "start": 7993.1,
+      "end": 7995.2,
+      "quoted_text": "And so as a consequence, it's rather subtle"
+    },
+    {
+      "entity_id": "CLM-2855",
+      "start": 7995.2,
+      "end": 7997.4,
+      "quoted_text": "compared to the various compounds and behaviors"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: you will find for instance,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7966s-7967s]: \"you will find for instance,\"\n  - [7967s-7970s]: \"that things like Maca root can increase dopamine.\"\n  - [7970s-7973s]: \"Things like the gut microbiome can influence dopamine.\"\n  - [7974s-7977s]: \"but they do that through indirect mechanisms.\"\n  - [7977s-7979s]: \"By creating a environment,\"\n  - [7979s-7982s]: \"a milieu in which dopamine and dopamine circuits\"\n  - [7983s-7984s]: \"Maca is a good example of that.\"\n  - [7984s-7988s]: \"It will reduce cortisol and through some indirect pathways\"\n  - [7988s-7990s]: \"related to cortisol can increase dopamine.\"\n  - [7990s-7993s]: \"But it's not a direct increase in dopamine.\"\n  - [7993s-7995s]: \"And so as a consequence, it's rather subtle\"\n  - [7995s-7997s]: \"compared to the various compounds and behaviors\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: you will find for instance,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7966s-7967s]: \"you will find for instance,\"\n+  - [7967s-7970s]: \"that things like Maca root can increase dopamine.\"\n+  - [7970s-7973s]: \"Things like the gut microbiome can influence dopamine.\"\n+  - [7974s-7977s]: \"but they do that through indirect mechanisms.\"\n+  - [7977s-7979s]: \"By creating a environment,\"\n+  - [7979s-7982s]: \"a milieu in which dopamine and dopamine circuits\"\n+  - [7983s-7984s]: \"Maca is a good example of that.\"\n+  - [7984s-7988s]: \"It will reduce cortisol and through some indirect pathways\"\n+  - [7988s-7990s]: \"related to cortisol can increase dopamine.\"\n+  - [7990s-7993s]: \"But it's not a direct increase in dopamine.\"\n+  - [7993s-7995s]: \"And so as a consequence, it's rather subtle\"\n+  - [7995s-7997s]: \"compared to the various compounds and behaviors\"\n"
+  }
+}

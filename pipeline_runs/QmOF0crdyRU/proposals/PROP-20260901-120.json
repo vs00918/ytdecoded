@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-120",
+  "created_at": "2026-09-01T15:11:31.289Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-156",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1806",
+      "start": 4984.7,
+      "end": 4987.8,
+      "quoted_text": "which is favorable for management of blood sugar levels."
+    },
+    {
+      "entity_id": "CLM-1807",
+      "start": 4990.2,
+      "end": 4993,
+      "quoted_text": "Yerba mate turns out has also been shown"
+    },
+    {
+      "entity_id": "CLM-1808",
+      "start": 4993,
+      "end": 4998,
+      "quoted_text": "to be neuroprotective specifically for dopaminergic neurons."
+    },
+    {
+      "entity_id": "CLM-1809",
+      "start": 4998,
+      "end": 5000.1,
+      "quoted_text": "Now, I should mention this is just a couple of studies,"
+    },
+    {
+      "entity_id": "CLM-1810",
+      "start": 5000.1,
+      "end": 5003.1,
+      "quoted_text": "so we don't want to conclude too much from these studies"
+    },
+    {
+      "entity_id": "CLM-1811",
+      "start": 5003.1,
+      "end": 5004.5,
+      "quoted_text": "more needs to be done."
+    },
+    {
+      "entity_id": "CLM-1812",
+      "start": 5004.5,
+      "end": 5007.8,
+      "quoted_text": "But they showed that in a model of damage"
+    },
+    {
+      "entity_id": "CLM-1813",
+      "start": 5007.8,
+      "end": 5011.3,
+      "quoted_text": "to dopamine neurons, ingestion of yerba mate,"
+    },
+    {
+      "entity_id": "CLM-1814",
+      "start": 5011.3,
+      "end": 5013.3,
+      "quoted_text": "and some of the compounds within yerba mate"
+    },
+    {
+      "entity_id": "CLM-1815",
+      "start": 5013.3,
+      "end": 5015.8,
+      "quoted_text": "can actually serve to preserve the survival"
+    },
+    {
+      "entity_id": "CLM-1816",
+      "start": 5015.8,
+      "end": 5018.9,
+      "quoted_text": "of dopamine neurons in both the movement related pathway"
+    },
+    {
+      "entity_id": "CLM-1817",
+      "start": 5018.9,
+      "end": 5021.3,
+      "quoted_text": "and the motivation pathway."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: which is favorable for management of blood sugar levels.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4984s-4987s]: \"which is favorable for management of blood sugar levels.\"\n  - [4990s-4993s]: \"Yerba mate turns out has also been shown\"\n  - [4993s-4998s]: \"to be neuroprotective specifically for dopaminergic neurons.\"\n  - [4998s-5000s]: \"Now, I should mention this is just a couple of studies,\"\n  - [5000s-5003s]: \"so we don't want to conclude too much from these studies\"\n  - [5003s-5004s]: \"more needs to be done.\"\n  - [5004s-5007s]: \"But they showed that in a model of damage\"\n  - [5007s-5011s]: \"to dopamine neurons, ingestion of yerba mate,\"\n  - [5011s-5013s]: \"and some of the compounds within yerba mate\"\n  - [5013s-5015s]: \"can actually serve to preserve the survival\"\n  - [5015s-5018s]: \"of dopamine neurons in both the movement related pathway\"\n  - [5018s-5021s]: \"and the motivation pathway.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: which is favorable for management of blood sugar levels.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4984s-4987s]: \"which is favorable for management of blood sugar levels.\"\n+  - [4990s-4993s]: \"Yerba mate turns out has also been shown\"\n+  - [4993s-4998s]: \"to be neuroprotective specifically for dopaminergic neurons.\"\n+  - [4998s-5000s]: \"Now, I should mention this is just a couple of studies,\"\n+  - [5000s-5003s]: \"so we don't want to conclude too much from these studies\"\n+  - [5003s-5004s]: \"more needs to be done.\"\n+  - [5004s-5007s]: \"But they showed that in a model of damage\"\n+  - [5007s-5011s]: \"to dopamine neurons, ingestion of yerba mate,\"\n+  - [5011s-5013s]: \"and some of the compounds within yerba mate\"\n+  - [5013s-5015s]: \"can actually serve to preserve the survival\"\n+  - [5015s-5018s]: \"of dopamine neurons in both the movement related pathway\"\n+  - [5018s-5021s]: \"and the motivation pathway.\"\n"
+  }
+}

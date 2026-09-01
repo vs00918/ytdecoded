@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-137",
+  "created_at": "2026-09-01T15:11:31.292Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-181",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2101",
+      "start": 5806,
+      "end": 5807.3,
+      "quoted_text": "It can be very stimulating."
+    },
+    {
+      "entity_id": "CLM-2102",
+      "start": 5807.3,
+      "end": 5810,
+      "quoted_text": "So typically doing it early in the day,"
+    },
+    {
+      "entity_id": "CLM-2103",
+      "start": 5810,
+      "end": 5810.8,
+      "quoted_text": "it's going to be better."
+    },
+    {
+      "entity_id": "CLM-2104",
+      "start": 5810.8,
+      "end": 5813.7,
+      "quoted_text": "I don't necessarily recommend doing it right before sleep,"
+    },
+    {
+      "entity_id": "CLM-2105",
+      "start": 5813.7,
+      "end": 5815.6,
+      "quoted_text": "but some people do it in the afternoon."
+    },
+    {
+      "entity_id": "CLM-2106",
+      "start": 5815.6,
+      "end": 5818.5,
+      "quoted_text": "And some people will indeed do that seven days a week,"
+    },
+    {
+      "entity_id": "CLM-2107",
+      "start": 5818.5,
+      "end": 5819.7,
+      "quoted_text": "other people three days a week,"
+    },
+    {
+      "entity_id": "CLM-2108",
+      "start": 5819.7,
+      "end": 5821.3,
+      "quoted_text": "other people every once in a while."
+    },
+    {
+      "entity_id": "CLM-2109",
+      "start": 5821.3,
+      "end": 5825.3,
+      "quoted_text": "What I can say is once you become cold water adapted,"
+    },
+    {
+      "entity_id": "CLM-2110",
+      "start": 5825.3,
+      "end": 5829.1,
+      "quoted_text": "once it no longer has the same impact of novelty"
+    },
+    {
+      "entity_id": "EXM-061",
+      "start": 5829.1,
+      "end": 5830.9,
+      "quoted_text": "and feeling a bit like a,"
+    },
+    {
+      "entity_id": "CLM-2111",
+      "start": 5830.9,
+      "end": 5832.3,
+      "quoted_text": "I don't want to say a shock to your system,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: It can be very stimulating.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5806s-5807s]: \"It can be very stimulating.\"\n  - [5807s-5810s]: \"So typically doing it early in the day,\"\n  - [5810s-5810s]: \"it's going to be better.\"\n  - [5810s-5813s]: \"I don't necessarily recommend doing it right before sleep,\"\n  - [5813s-5815s]: \"but some people do it in the afternoon.\"\n  - [5815s-5818s]: \"And some people will indeed do that seven days a week,\"\n  - [5818s-5819s]: \"other people three days a week,\"\n  - [5819s-5821s]: \"other people every once in a while.\"\n  - [5821s-5825s]: \"What I can say is once you become cold water adapted,\"\n  - [5825s-5829s]: \"once it no longer has the same impact of novelty\"\n  - [5829s-5830s]: \"and feeling a bit like a,\"\n  - [5830s-5832s]: \"I don't want to say a shock to your system,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: It can be very stimulating.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5806s-5807s]: \"It can be very stimulating.\"\n+  - [5807s-5810s]: \"So typically doing it early in the day,\"\n+  - [5810s-5810s]: \"it's going to be better.\"\n+  - [5810s-5813s]: \"I don't necessarily recommend doing it right before sleep,\"\n+  - [5813s-5815s]: \"but some people do it in the afternoon.\"\n+  - [5815s-5818s]: \"And some people will indeed do that seven days a week,\"\n+  - [5818s-5819s]: \"other people three days a week,\"\n+  - [5819s-5821s]: \"other people every once in a while.\"\n+  - [5821s-5825s]: \"What I can say is once you become cold water adapted,\"\n+  - [5825s-5829s]: \"once it no longer has the same impact of novelty\"\n+  - [5829s-5830s]: \"and feeling a bit like a,\"\n+  - [5830s-5832s]: \"I don't want to say a shock to your system,\"\n"
+  }
+}

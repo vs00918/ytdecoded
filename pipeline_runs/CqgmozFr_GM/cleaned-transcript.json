@@ -1,0 +1,1084 @@
+{
+  "video_id": "CqgmozFr_GM",
+  "cleaned_segments": [
+    {
+      "id": "seg-0001",
+      "start": 0,
+      "end": 7,
+      "duration": 7,
+      "text": "المترجم: Hanan Abu Rashed المدقّق: Nada Qanbar",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0002",
+      "start": 6.83,
+      "end": 10.49,
+      "duration": 3.66,
+      "text": "لاعبك الرياضي المُفضّل قريب من لحظة النصر الحاسمة.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0003",
+      "start": 10.49,
+      "end": 12.3,
+      "duration": 1.81,
+      "text": "تحبس الحشود أنفاسها،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0004",
+      "start": 12.3,
+      "end": 15.66,
+      "duration": 3.36,
+      "text": "وفي اللحظة الحاسمة، تضيع فرصة النصر.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0005",
+      "start": 15.66,
+      "end": 19.47,
+      "duration": 3.81,
+      "text": "هذا المتنافس اختبر للتو الظاهرة المسماة \"الاختناق\"",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0006",
+      "start": 19.46,
+      "end": 22.22,
+      "duration": 2.76,
+      "text": "حيث بالرغم من الشهور، أو حتى سنوات من التدريب،",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0007",
+      "start": 22.23,
+      "end": 24.97,
+      "duration": 2.74,
+      "text": "يفشل الشخص حينما يكون الأمر في غاية الأهمية.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0008",
+      "start": 24.96,
+      "end": 26.59,
+      "duration": 1.63,
+      "text": "الاختناق أمر شائع في الرياضة،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0009",
+      "start": 26.59,
+      "end": 29.71,
+      "duration": 3.12,
+      "text": "حيث يتم الانجاز عادةً تحت الضغظ الشديد",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0010",
+      "start": 29.71,
+      "end": 31.57,
+      "duration": 1.86,
+      "text": "ويعتمد على لحظات مهمة.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0011",
+      "start": 31.57,
+      "end": 35.54,
+      "duration": 3.97,
+      "text": "وتصيب حالة ضغط الانجاز المتحدثين أمام الجمهور",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0012",
+      "start": 35.54,
+      "end": 37.46,
+      "duration": 1.92,
+      "text": "المتنافسين في مسابقات التهجئة،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0013",
+      "start": 37.46,
+      "end": 39.75,
+      "duration": 2.29,
+      "text": "وحتى الموسيقيين العالميين المشهورين أيضاً.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0014",
+      "start": 39.75,
+      "end": 42.8,
+      "duration": 3.05,
+      "text": "يضع معظم الناس اللوم على أعصابهم لهذه الحالة.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0015",
+      "start": 42.8,
+      "end": 46.89,
+      "duration": 4.09,
+      "text": "ولكن لماذا تسبب الحالة العصبية ضعفاً عند أصحاب الأداء العالي؟",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0016",
+      "start": 46.89,
+      "end": 48.69,
+      "duration": 1.8,
+      "text": "هناك مجموعتان من النظريات لتفسير ذلك،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0017",
+      "start": 48.69,
+      "end": 54.27,
+      "duration": 5.58,
+      "text": "حيث تقول كلاهما أن الاختناق تحت الضغط يتلخص في التركيز.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0018",
+      "start": 54.27,
+      "end": 57.15,
+      "duration": 2.88,
+      "text": "أولاً، هناك نظريات الإلهاء.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0019",
+      "start": 57.15,
+      "end": 60.74,
+      "duration": 3.59,
+      "text": "وهذه تقترح أن الأداء يتأثر حينما يكون الذهن مشغولاً",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0020",
+      "start": 60.74,
+      "end": 62.85,
+      "duration": 2.11,
+      "text": "بالأمور المُقلقة، الشكوك، أو المخاوف،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0021",
+      "start": 62.85,
+      "end": 67.68,
+      "duration": 4.83,
+      "text": "بدلاً من تركيز اهتمامه على المهمة التي يجب انجازها عملياً.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0022",
+      "start": 67.68,
+      "end": 71.14,
+      "duration": 3.46,
+      "text": "عندما تتنافس الأفكار المرتبطة بالأمر مع غير المرتبطة على نفس النقطة",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0023",
+      "start": 71.14,
+      "end": 73.19,
+      "duration": 2.05,
+      "text": "على إحداها أن تتنحى جانباً.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0024",
+      "start": 73.19,
+      "end": 76.69,
+      "duration": 3.5,
+      "text": "يستطيع الدماغ أن يعالج مجموعة واحدة من المعلومات في وقت واحد.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0025",
+      "start": 76.69,
+      "end": 78.79,
+      "duration": 2.1,
+      "text": "المهام التي تتحدى ذاكرة الإنسان،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0026",
+      "start": 78.79,
+      "end": 80.68,
+      "duration": 1.89,
+      "text": "\"دفتر المذكرات\" العقلية الذي نستخدمه",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0027",
+      "start": 80.68,
+      "end": 83.78,
+      "duration": 3.1,
+      "text": "مؤقتاً لتخزين أرقام الهاتف وقوائم الشراء،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0028",
+      "start": 83.78,
+      "end": 86.9,
+      "duration": 3.12,
+      "text": "معرض للعطب تحت الضغط.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0029",
+      "start": 86.89,
+      "end": 90.32,
+      "duration": 3.43,
+      "text": "في عام 2004، أجريت دراسة على مجموعة من طلاب جامعة",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0030",
+      "start": 90.33,
+      "end": 92.22,
+      "duration": 1.89,
+      "text": "طُلب منهم حل مسائل رياضية،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0031",
+      "start": 92.22,
+      "end": 96.19,
+      "duration": 3.97,
+      "text": "بعضها سهل، وبعضها الآخر معقد ويحتاج إلى ذاكرة كبيرة.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0032",
+      "start": 96.19,
+      "end": 100.64,
+      "duration": 4.45,
+      "text": "أنجز نصف الطلاب كلا المهمتين بدون أي ملاحظات",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0033",
+      "start": 100.64,
+      "end": 104.99,
+      "duration": 4.35,
+      "text": "أما البقية فأنجزوا المهمتين بهدوء وتحت الضغط.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0034",
+      "start": 104.99,
+      "end": 107.53,
+      "duration": 2.54,
+      "text": "بينما أنجز الجميع المهمات السهلة بشكل جيد،",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0035",
+      "start": 107.53,
+      "end": 109.58,
+      "duration": 2.05,
+      "text": "كان الانجاز سيئاً بالنسبة لمن كانوا متوترين",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0036",
+      "start": 109.58,
+      "end": 112.39,
+      "duration": 2.81,
+      "text": "في المهمات المعقدة التي تحتاج إلى ذاكرة كبيرة.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0037",
+      "start": 112.39,
+      "end": 116.44,
+      "duration": 4.05,
+      "text": "نظريات المراقبة المحددة شكلت المجموعة الثانية من التفسيرات",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0038",
+      "start": 116.44,
+      "end": 118.12,
+      "duration": 1.68,
+      "text": "لحالة الاختناق تحت الضغط.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0039",
+      "start": 118.12,
+      "end": 119.48,
+      "duration": 1.36,
+      "text": "حيث اهتموا كيف أن الضغط",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0040",
+      "start": 119.47,
+      "end": 123.18,
+      "duration": 3.71,
+      "text": "يجعل الناس يحللون المهمات العملية بتفصيل كبير.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0041",
+      "start": 123.18,
+      "end": 126.71,
+      "duration": 3.53,
+      "text": "هنا، يثبت المنطق أن المهارة كلما اتخذت صفة الاتوماتيكية",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0042",
+      "start": 126.71,
+      "end": 131.34,
+      "duration": 4.63,
+      "text": "كلما زادت القدرة على تنفيذها بشكل أدق.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0043",
+      "start": 131.34,
+      "end": 136.65,
+      "duration": 5.31,
+      "text": "إن المهام التي ننفذها بشكل تلقائي بعيدة عن هذا النوع من حالات الاختناق.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0044",
+      "start": 136.66,
+      "end": 140.01,
+      "duration": 3.35,
+      "text": "في دراسة أجريت على متنافسي الغولف لمقارنة أدائهم",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0045",
+      "start": 140.01,
+      "end": 143.94,
+      "duration": 3.93,
+      "text": "حينما يكون تركيزهم فقط على وضع الكرة في الهدف",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0046",
+      "start": 143.94,
+      "end": 146.88,
+      "duration": 2.94,
+      "text": "مقابل أن يستعدوا تماماً ويفكروا بشكل دقيق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0047",
+      "start": 146.88,
+      "end": 149.33,
+      "duration": 2.45,
+      "text": "بالميكانيكية التي سيتبعونها لضربتهم.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0048",
+      "start": 149.33,
+      "end": 152.47,
+      "duration": 3.14,
+      "text": "عادةً ما يؤدي لاعبو الغولف ضرباتهم بشكل لا شعوري",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0049",
+      "start": 152.47,
+      "end": 156.55,
+      "duration": 4.08,
+      "text": "لذلك، أولئك الذين يفكرون بشكل تفصيلي في حركاتهم",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0050",
+      "start": 156.55,
+      "end": 159.92,
+      "duration": 3.37,
+      "text": "يصبحون أسوأ في تنفيذ ضربات أدق.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0051",
+      "start": 159.91,
+      "end": 162.79,
+      "duration": 2.88,
+      "text": "إن حالة الاختناق قد لا تكون حالة حتمية للجميع.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0052",
+      "start": 162.79,
+      "end": 166.17,
+      "duration": 3.38,
+      "text": "ترى الأبحاث أن البعض أكثر عرضة للإصابة بالحالة من الآخرين،",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0053",
+      "start": 166.17,
+      "end": 168.17,
+      "duration": 2,
+      "text": "خصوصاً أولئك الذين يملكون وعياً للذات",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0054",
+      "start": 168.17,
+      "end": 169.23,
+      "duration": 1.06,
+      "text": "والقلقون",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0055",
+      "start": 169.22,
+      "end": 172.09,
+      "duration": 2.87,
+      "text": "ويخافون من التعرض للحكم السيىء من قبل الآخرين.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0056",
+      "start": 172.09,
+      "end": 175.38,
+      "duration": 3.29,
+      "text": "إذاً، كيف يمكن تجنب حالة الاختناق عندما يكون الأمر مهماً؟",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0057",
+      "start": 175.39,
+      "end": 178.93,
+      "duration": 3.54,
+      "text": "أولاً، من المهم التدريب تحت الضغط.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0058",
+      "start": 178.93,
+      "end": 181.14,
+      "duration": 2.21,
+      "text": "في دراسة أجريت على لاعبي رمي السهام المحترفين",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0059",
+      "start": 181.14,
+      "end": 184.76,
+      "duration": 3.62,
+      "text": "وجد الباحثون أن أولئك الذين لم يتدربوا تحت الضغط",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0060",
+      "start": 184.76,
+      "end": 186.7,
+      "duration": 1.94,
+      "text": "كان أداؤهم أسوأ عند القلق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0061",
+      "start": 186.69,
+      "end": 190.14,
+      "duration": 3.45,
+      "text": "بالمقارنة مع أولئك الذين أصبحوا متعودين على الأداء تحت الضغط",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0062",
+      "start": 190.15,
+      "end": 195.12,
+      "duration": 4.97,
+      "text": "ثانياً، يمجد الكثيرون مزايا إجراء بعض الحركات الروتينية قبل الأداء",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0063",
+      "start": 195.12,
+      "end": 197.51,
+      "duration": 2.39,
+      "text": "كأخذ نفس عميق،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0064",
+      "start": 197.51,
+      "end": 199.06,
+      "duration": 1.55,
+      "text": "وتكرار مجموعة من الكلمات،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0065",
+      "start": 199.06,
+      "end": 201.8,
+      "duration": 2.74,
+      "text": "أو أداء مجموعة من الحركات ذات التسلسل الإيقاعي.",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0066",
+      "start": 201.8,
+      "end": 204.56,
+      "duration": 2.76,
+      "text": "الدراسات التي أجريت على لعبة الغولف، البولينغ، وكرة الماء",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0067",
+      "start": 204.56,
+      "end": 207.89,
+      "duration": 3.33,
+      "text": "وجدت أن الطقوس القصيرة تؤدي إلى مزيد من حالة التناغم",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0068",
+      "start": 207.89,
+      "end": 210.22,
+      "duration": 2.33,
+      "text": "وتضبط الأداء تحت الضغط.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0069",
+      "start": 210.22,
+      "end": 212,
+      "duration": 1.78,
+      "text": "وثالثاً، أظهر الباحثون",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0070",
+      "start": 212,
+      "end": 215.23,
+      "duration": 3.23,
+      "text": "أن التركيز الخارجي على الهدف النهائي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0071",
+      "start": 215.23,
+      "end": 217.54,
+      "duration": 2.31,
+      "text": "يعمل بشكل أفضل من التركيز الداخلي",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0072",
+      "start": 217.54,
+      "end": 221.17,
+      "duration": 3.63,
+      "text": "حيث أن الفرد يُضبط على الآلية لما يقوم بفعله",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0073",
+      "start": 221.17,
+      "end": 224.93,
+      "duration": 3.76,
+      "text": "كشفت دراسة على لاعبي الغولف المحترفين أن أولئك الذين ينفذون ضربات رقيقة",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0074",
+      "start": 224.93,
+      "end": 227.04,
+      "duration": 2.11,
+      "text": "ويركزون على الكرة أثناء طيرانها",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0075",
+      "start": 227.04,
+      "end": 231.46,
+      "duration": 4.42,
+      "text": "يكون أداؤهم أفضل بكثير من أولئك الذين يركزون على حركات الذراعين",
+      "density_tier": "LOW",
+      "status": "NORMALIZED"
+    },
+    {
+      "id": "seg-0076",
+      "start": 231.46,
+      "end": 234.59,
+      "duration": 3.13,
+      "text": "لذلك، ربما عدّلنا على القول القديم:",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0077",
+      "start": 234.59,
+      "end": 235.42,
+      "duration": 0.83,
+      "text": "التدريب،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0078",
+      "start": 235.42,
+      "end": 236.43,
+      "duration": 1.01,
+      "text": "تحت الضغط،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0079",
+      "start": 236.43,
+      "end": 237.79,
+      "duration": 1.36,
+      "text": "مع التركيز،",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0080",
+      "start": 237.79,
+      "end": 240.21,
+      "duration": 2.42,
+      "text": "مع ذلك الهدف النهائي المتألق في الأفق",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0081",
+      "start": 240.21,
+      "end": 241.75,
+      "duration": 1.54,
+      "text": "سيكون مثالياً.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    }
+  ],
+  "audit_log": [
+    {
+      "segment_id": "seg-0001",
+      "start": 0,
+      "end": 7,
+      "original_text": "المترجم: Hanan Abu Rashed\nالمدقّق: Nada Qanbar",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0002",
+      "start": 6.83,
+      "end": 10.49,
+      "original_text": "لاعبك الرياضي المُفضّل قريب \nمن لحظة النصر الحاسمة.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0005",
+      "start": 15.66,
+      "end": 19.47,
+      "original_text": "هذا المتنافس اختبر للتو\nالظاهرة المسماة \"الاختناق\"",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0006",
+      "start": 19.46,
+      "end": 22.22,
+      "original_text": "حيث بالرغم من الشهور، \nأو حتى سنوات من التدريب،",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0007",
+      "start": 22.23,
+      "end": 24.97,
+      "original_text": "يفشل الشخص حينما \nيكون الأمر في غاية الأهمية.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0009",
+      "start": 26.59,
+      "end": 29.71,
+      "original_text": "حيث يتم الانجاز عادةً\nتحت الضغظ الشديد",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0011",
+      "start": 31.57,
+      "end": 35.54,
+      "original_text": "وتصيب حالة ضغط الانجاز\nالمتحدثين أمام الجمهور",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0014",
+      "start": 39.75,
+      "end": 42.8,
+      "original_text": "يضع معظم الناس اللوم \nعلى أعصابهم لهذه الحالة.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0015",
+      "start": 42.8,
+      "end": 46.89,
+      "original_text": "ولكن لماذا تسبب الحالة العصبية\nضعفاً عند أصحاب الأداء العالي؟",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0017",
+      "start": 48.69,
+      "end": 54.27,
+      "original_text": "حيث تقول كلاهما أن الاختناق\nتحت الضغط يتلخص في التركيز.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0019",
+      "start": 57.15,
+      "end": 60.74,
+      "original_text": "وهذه تقترح أن الأداء يتأثر\nحينما يكون الذهن مشغولاً",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0021",
+      "start": 62.85,
+      "end": 67.68,
+      "original_text": "بدلاً من تركيز اهتمامه على المهمة\nالتي يجب انجازها عملياً.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0022",
+      "start": 67.68,
+      "end": 71.14,
+      "original_text": "عندما تتنافس الأفكار المرتبطة بالأمر \nمع غير المرتبطة على نفس النقطة",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0024",
+      "start": 73.19,
+      "end": 76.69,
+      "original_text": "يستطيع الدماغ أن يعالج مجموعة \nواحدة من المعلومات في وقت واحد.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0029",
+      "start": 86.89,
+      "end": 90.32,
+      "original_text": "في عام 2004، أجريت دراسة \nعلى مجموعة من طلاب جامعة",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0031",
+      "start": 92.22,
+      "end": 96.19,
+      "original_text": "بعضها سهل، وبعضها الآخر\nمعقد ويحتاج إلى ذاكرة كبيرة.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0032",
+      "start": 96.19,
+      "end": 100.64,
+      "original_text": "أنجز نصف الطلاب كلا \nالمهمتين بدون أي ملاحظات",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0033",
+      "start": 100.64,
+      "end": 104.99,
+      "original_text": "أما البقية فأنجزوا المهمتين \nبهدوء وتحت الضغط.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0034",
+      "start": 104.99,
+      "end": 107.53,
+      "original_text": "بينما أنجز الجميع المهمات\nالسهلة بشكل جيد،",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0035",
+      "start": 107.53,
+      "end": 109.58,
+      "original_text": "كان الانجاز سيئاً بالنسبة \nلمن كانوا متوترين",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0036",
+      "start": 109.58,
+      "end": 112.39,
+      "original_text": "في المهمات المعقدة\nالتي تحتاج إلى ذاكرة كبيرة.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0037",
+      "start": 112.39,
+      "end": 116.44,
+      "original_text": "نظريات المراقبة المحددة\nشكلت المجموعة الثانية من التفسيرات",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0040",
+      "start": 119.47,
+      "end": 123.18,
+      "original_text": "يجعل الناس يحللون المهمات \nالعملية بتفصيل كبير.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0041",
+      "start": 123.18,
+      "end": 126.71,
+      "original_text": "هنا، يثبت المنطق أن المهارة \nكلما اتخذت صفة الاتوماتيكية",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0043",
+      "start": 131.34,
+      "end": 136.65,
+      "original_text": "إن المهام التي ننفذها بشكل تلقائي\nبعيدة عن هذا النوع من حالات الاختناق.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0044",
+      "start": 136.66,
+      "end": 140.01,
+      "original_text": "في دراسة أجريت \nعلى متنافسي الغولف لمقارنة أدائهم",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0045",
+      "start": 140.01,
+      "end": 143.94,
+      "original_text": "حينما يكون تركيزهم فقط \nعلى وضع الكرة في الهدف",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0048",
+      "start": 149.33,
+      "end": 152.47,
+      "original_text": "عادةً ما يؤدي لاعبو الغولف \nضرباتهم بشكل لا شعوري",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0049",
+      "start": 152.47,
+      "end": 156.55,
+      "original_text": "لذلك، أولئك الذين يفكرون بشكل\nتفصيلي في حركاتهم",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0051",
+      "start": 159.91,
+      "end": 162.79,
+      "original_text": "إن حالة الاختناق قد لا تكون\nحالة حتمية للجميع.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0052",
+      "start": 162.79,
+      "end": 166.17,
+      "original_text": "ترى الأبحاث أن البعض أكثر\nعرضة للإصابة بالحالة من الآخرين،",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0055",
+      "start": 169.22,
+      "end": 172.09,
+      "original_text": "ويخافون من التعرض للحكم\nالسيىء من قبل الآخرين.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0056",
+      "start": 172.09,
+      "end": 175.38,
+      "original_text": "إذاً، كيف يمكن تجنب حالة \nالاختناق عندما يكون الأمر مهماً؟",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0058",
+      "start": 178.93,
+      "end": 181.14,
+      "original_text": "في دراسة أجريت على لاعبي\nرمي السهام المحترفين",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0059",
+      "start": 181.14,
+      "end": 184.76,
+      "original_text": "وجد الباحثون أن أولئك \nالذين لم يتدربوا تحت الضغط",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0061",
+      "start": 186.69,
+      "end": 190.14,
+      "original_text": "بالمقارنة مع أولئك الذين أصبحوا \nمتعودين على الأداء تحت الضغط",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0062",
+      "start": 190.15,
+      "end": 195.12,
+      "original_text": "ثانياً، يمجد الكثيرون مزايا إجراء بعض \nالحركات الروتينية قبل الأداء",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0065",
+      "start": 199.06,
+      "end": 201.8,
+      "original_text": "أو أداء مجموعة من الحركات\nذات التسلسل الإيقاعي.",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0066",
+      "start": 201.8,
+      "end": 204.56,
+      "original_text": "الدراسات التي أجريت على لعبة \nالغولف، البولينغ، وكرة الماء",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0067",
+      "start": 204.56,
+      "end": 207.89,
+      "original_text": "وجدت أن الطقوس القصيرة تؤدي\nإلى مزيد من حالة التناغم",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0072",
+      "start": 217.54,
+      "end": 221.17,
+      "original_text": "حيث أن الفرد يُضبط على الآلية \nلما يقوم بفعله",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0073",
+      "start": 221.17,
+      "end": 224.93,
+      "original_text": "كشفت دراسة على لاعبي الغولف المحترفين\nأن أولئك الذين ينفذون ضربات رقيقة",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    },
+    {
+      "segment_id": "seg-0075",
+      "start": 227.04,
+      "end": 231.46,
+      "original_text": "يكون أداؤهم أفضل بكثير من أولئك \nالذين يركزون على حركات الذراعين",
+      "action": "NORMALIZED",
+      "reason": "Audio tags stripped and spacing normalized"
+    }
+  ],
+  "total_raw_segments": 81,
+  "total_cleaned_segments": 81,
+  "removed_segments_count": 0,
+  "retention_rate_pct": 100
+}

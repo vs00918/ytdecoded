@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-004",
+  "created_at": "2026-09-01T15:11:28.965Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "Yhn1Fe8cT0Q",
+  "video_title": "Semantic IR for Yhn1Fe8cT0Q",
+  "video_url": "https://www.youtube.com/watch?v=Yhn1Fe8cT0Q",
+  "unit_id": "KU-011",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for Yhn1Fe8cT0Q",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-119",
+      "start": 381.2,
+      "end": 382.8,
+      "quoted_text": "as we would say today."
+    },
+    {
+      "entity_id": "CLM-120",
+      "start": 383.1,
+      "end": 386.9,
+      "quoted_text": "So Epictetus moved and went to Nicopolis, in northwestern Greece,"
+    },
+    {
+      "entity_id": "CLM-121",
+      "start": 386.9,
+      "end": 388.1,
+      "quoted_text": "reestablished his school"
+    },
+    {
+      "entity_id": "CLM-122",
+      "start": 388.1,
+      "end": 390.8,
+      "quoted_text": "and became one of the most famous teachers of antiquity."
+    },
+    {
+      "entity_id": "EXM-003",
+      "start": 390.8,
+      "end": 393.2,
+      "quoted_text": "The reason I like Epictetus is because he's blunt"
+    },
+    {
+      "entity_id": "CLM-123",
+      "start": 393.2,
+      "end": 395.8,
+      "quoted_text": "and he has a sarcastic sense of humor."
+    },
+    {
+      "entity_id": "CLM-124",
+      "start": 396.3,
+      "end": 398.4,
+      "quoted_text": "And I'll give you a taste of this in a second."
+    },
+    {
+      "entity_id": "CLM-125",
+      "start": 398.4,
+      "end": 401.3,
+      "quoted_text": "Here's what he says in \"The Discourses\":"
+    },
+    {
+      "entity_id": "CLM-126",
+      "start": 402.6,
+      "end": 405.2,
+      "quoted_text": "If it is now, well, then I die now."
+    },
+    {
+      "entity_id": "CLM-127",
+      "start": 405.2,
+      "end": 408.4,
+      "quoted_text": "If later, then now I will take my lunch,"
+    },
+    {
+      "entity_id": "CLM-128",
+      "start": 408.4,
+      "end": 410.2,
+      "quoted_text": "since the hour for lunch has arrived,"
+    },
+    {
+      "entity_id": "CLM-129",
+      "start": 410.2,
+      "end": 412.5,
+      "quoted_text": "and dying, I will tend to later.\""
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for Yhn1Fe8cT0Q\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=Yhn1Fe8cT0Q.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for Yhn1Fe8cT0Q\n\n## Core Mechanics\n- **Core Thesis**: as we would say today.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)\n  - [381s-382s]: \"as we would say today.\"\n  - [383s-386s]: \"So Epictetus moved and went to Nicopolis, in northwestern Greece,\"\n  - [386s-388s]: \"reestablished his school\"\n  - [388s-390s]: \"and became one of the most famous teachers of antiquity.\"\n  - [390s-393s]: \"The reason I like Epictetus is because he's blunt\"\n  - [393s-395s]: \"and he has a sarcastic sense of humor.\"\n  - [396s-398s]: \"And I'll give you a taste of this in a second.\"\n  - [398s-401s]: \"Here's what he says in \"The Discourses\":\"\n  - [402s-405s]: \"If it is now, well, then I die now.\"\n  - [405s-408s]: \"If later, then now I will take my lunch,\"\n  - [408s-410s]: \"since the hour for lunch has arrived,\"\n  - [410s-412s]: \"and dying, I will tend to later.\"\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for Yhn1Fe8cT0Q\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=Yhn1Fe8cT0Q.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for Yhn1Fe8cT0Q\n+\n+## Core Mechanics\n+- **Core Thesis**: as we would say today.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)\n+  - [381s-382s]: \"as we would say today.\"\n+  - [383s-386s]: \"So Epictetus moved and went to Nicopolis, in northwestern Greece,\"\n+  - [386s-388s]: \"reestablished his school\"\n+  - [388s-390s]: \"and became one of the most famous teachers of antiquity.\"\n+  - [390s-393s]: \"The reason I like Epictetus is because he's blunt\"\n+  - [393s-395s]: \"and he has a sarcastic sense of humor.\"\n+  - [396s-398s]: \"And I'll give you a taste of this in a second.\"\n+  - [398s-401s]: \"Here's what he says in \"The Discourses\":\"\n+  - [402s-405s]: \"If it is now, well, then I die now.\"\n+  - [405s-408s]: \"If later, then now I will take my lunch,\"\n+  - [408s-410s]: \"since the hour for lunch has arrived,\"\n+  - [410s-412s]: \"and dying, I will tend to later.\"\"\n"
+  }
+}

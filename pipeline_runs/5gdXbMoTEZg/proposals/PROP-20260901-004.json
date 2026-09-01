@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-004",
+  "created_at": "2026-09-01T15:11:16.966Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "5gdXbMoTEZg",
+  "video_title": "Semantic IR for 5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "unit_id": "KU-015",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for 5gdXbMoTEZg",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-165",
+      "start": 539.2,
+      "end": 543.3,
+      "quoted_text": "Because repetition is a key"
+    },
+    {
+      "entity_id": "CLM-166",
+      "start": 541,
+      "end": 545.2,
+      "quoted_text": "characteristic of all playing it safe"
+    },
+    {
+      "entity_id": "CLM-167",
+      "start": 545.2,
+      "end": 550,
+      "quoted_text": "Research has consistently shown that our"
+    },
+    {
+      "entity_id": "CLM-168",
+      "start": 547.8,
+      "end": 552.8,
+      "quoted_text": "playing it safe moves feed into our"
+    },
+    {
+      "entity_id": "EXM-005",
+      "start": 550,
+      "end": 554.8,
+      "quoted_text": "fear-based emotions like adding logs to"
+    },
+    {
+      "entity_id": "CLM-169",
+      "start": 554.8,
+      "end": 560.5,
+      "quoted_text": "If we play it safe too often,"
+    },
+    {
+      "entity_id": "CLM-170",
+      "start": 557.4,
+      "end": 562.9,
+      "quoted_text": "too quickly, and for too long, we don't"
+    },
+    {
+      "entity_id": "CLM-171",
+      "start": 560.5,
+      "end": 564.1,
+      "quoted_text": "learn how to handle effectively our"
+    },
+    {
+      "entity_id": "CLM-172",
+      "start": 564.1,
+      "end": 569,
+      "quoted_text": "And we're left with the consequences of"
+    },
+    {
+      "entity_id": "CLM-173",
+      "start": 566.1,
+      "end": 571.7,
+      "quoted_text": "overprotecting ourselves."
+    },
+    {
+      "entity_id": "CLM-174",
+      "start": 569,
+      "end": 574.9,
+      "quoted_text": "We avoid difficult conversations."
+    },
+    {
+      "entity_id": "CLM-175",
+      "start": 571.7,
+      "end": 576.1,
+      "quoted_text": "We say no to what matters."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for 5gdXbMoTEZg\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for 5gdXbMoTEZg\n\n## Core Mechanics\n- **Core Thesis**: Because repetition is a key\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)\n  - [539s-543s]: \"Because repetition is a key\"\n  - [541s-545s]: \"characteristic of all playing it safe\"\n  - [545s-550s]: \"Research has consistently shown that our\"\n  - [547s-552s]: \"playing it safe moves feed into our\"\n  - [550s-554s]: \"fear-based emotions like adding logs to\"\n  - [554s-560s]: \"If we play it safe too often,\"\n  - [557s-562s]: \"too quickly, and for too long, we don't\"\n  - [560s-564s]: \"learn how to handle effectively our\"\n  - [564s-569s]: \"And we're left with the consequences of\"\n  - [566s-571s]: \"overprotecting ourselves.\"\n  - [569s-574s]: \"We avoid difficult conversations.\"\n  - [571s-576s]: \"We say no to what matters.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for 5gdXbMoTEZg\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for 5gdXbMoTEZg\n+\n+## Core Mechanics\n+- **Core Thesis**: Because repetition is a key\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)\n+  - [539s-543s]: \"Because repetition is a key\"\n+  - [541s-545s]: \"characteristic of all playing it safe\"\n+  - [545s-550s]: \"Research has consistently shown that our\"\n+  - [547s-552s]: \"playing it safe moves feed into our\"\n+  - [550s-554s]: \"fear-based emotions like adding logs to\"\n+  - [554s-560s]: \"If we play it safe too often,\"\n+  - [557s-562s]: \"too quickly, and for too long, we don't\"\n+  - [560s-564s]: \"learn how to handle effectively our\"\n+  - [564s-569s]: \"And we're left with the consequences of\"\n+  - [566s-571s]: \"overprotecting ourselves.\"\n+  - [569s-574s]: \"We avoid difficult conversations.\"\n+  - [571s-576s]: \"We say no to what matters.\"\n"
+  }
+}

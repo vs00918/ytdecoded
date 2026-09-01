@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-184",
+  "created_at": "2026-09-01T15:11:31.304Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-240",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2786",
+      "start": 7802.9,
+      "end": 7804.9,
+      "quoted_text": "It's not related to pharmacology."
+    },
+    {
+      "entity_id": "CLM-2787",
+      "start": 7804.9,
+      "end": 7808.6,
+      "quoted_text": "It's related to behaviors and social interactions."
+    },
+    {
+      "entity_id": "CLM-2788",
+      "start": 7808.6,
+      "end": 7810.3,
+      "quoted_text": "And that's the very interesting"
+    },
+    {
+      "entity_id": "CLM-2789",
+      "start": 7810.3,
+      "end": 7812.4,
+      "quoted_text": "and I would say important finding"
+    },
+    {
+      "entity_id": "CLM-2790",
+      "start": 7812.4,
+      "end": 7815.4,
+      "quoted_text": "that was made a few years ago by my colleague, Rob Malenka,"
+    },
+    {
+      "entity_id": "CLM-2791",
+      "start": 7815.4,
+      "end": 7817.6,
+      "quoted_text": "who's in our department of psychiatry at Stanford,"
+    },
+    {
+      "entity_id": "CLM-2792",
+      "start": 7817.6,
+      "end": 7820.9,
+      "quoted_text": "showing that oxytocin and social connection"
+    },
+    {
+      "entity_id": "CLM-2793",
+      "start": 7820.9,
+      "end": 7824.8,
+      "quoted_text": "is actually directly stimulating the dopamine pathway."
+    },
+    {
+      "entity_id": "CLM-2794",
+      "start": 7824.8,
+      "end": 7826.4,
+      "quoted_text": "I think for many years,"
+    },
+    {
+      "entity_id": "CLM-2795",
+      "start": 7826.4,
+      "end": 7830.3,
+      "quoted_text": "all of us including me would hear and thought"
+    },
+    {
+      "entity_id": "CLM-2796",
+      "start": 7830.3,
+      "end": 7833.8,
+      "quoted_text": "that oxytocin was in the serotonergic pathway"
+    },
+    {
+      "entity_id": "CLM-2797",
+      "start": 7833.8,
+      "end": 7835.3,
+      "quoted_text": "that it was about pair bonding,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: It's not related to pharmacology.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7802s-7804s]: \"It's not related to pharmacology.\"\n  - [7804s-7808s]: \"It's related to behaviors and social interactions.\"\n  - [7808s-7810s]: \"And that's the very interesting\"\n  - [7810s-7812s]: \"and I would say important finding\"\n  - [7812s-7815s]: \"that was made a few years ago by my colleague, Rob Malenka,\"\n  - [7815s-7817s]: \"who's in our department of psychiatry at Stanford,\"\n  - [7817s-7820s]: \"showing that oxytocin and social connection\"\n  - [7820s-7824s]: \"is actually directly stimulating the dopamine pathway.\"\n  - [7824s-7826s]: \"I think for many years,\"\n  - [7826s-7830s]: \"all of us including me would hear and thought\"\n  - [7830s-7833s]: \"that oxytocin was in the serotonergic pathway\"\n  - [7833s-7835s]: \"that it was about pair bonding,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: It's not related to pharmacology.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7802s-7804s]: \"It's not related to pharmacology.\"\n+  - [7804s-7808s]: \"It's related to behaviors and social interactions.\"\n+  - [7808s-7810s]: \"And that's the very interesting\"\n+  - [7810s-7812s]: \"and I would say important finding\"\n+  - [7812s-7815s]: \"that was made a few years ago by my colleague, Rob Malenka,\"\n+  - [7815s-7817s]: \"who's in our department of psychiatry at Stanford,\"\n+  - [7817s-7820s]: \"showing that oxytocin and social connection\"\n+  - [7820s-7824s]: \"is actually directly stimulating the dopamine pathway.\"\n+  - [7824s-7826s]: \"I think for many years,\"\n+  - [7826s-7830s]: \"all of us including me would hear and thought\"\n+  - [7830s-7833s]: \"that oxytocin was in the serotonergic pathway\"\n+  - [7833s-7835s]: \"that it was about pair bonding,\"\n"
+  }
+}

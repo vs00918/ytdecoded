@@ -1,0 +1,141 @@
+---
+import ReaderLayout from '../../layouts/ReaderLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import type { SynthesisProposal } from '../../pipeline/proposal-types';
+
+export async function getStaticPaths() {
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+  const ledgerPath = path.join(__dirname, '..', '..', '..', 'data', 'proposals-ledger.json');
+
+  let proposals: SynthesisProposal[] = [];
+  if (fs.existsSync(ledgerPath)) {
+    try {
+      proposals = JSON.parse(fs.readFileSync(ledgerPath, 'utf8'));
+    } catch {
+      proposals = [];
+    }
+  }
+
+  return proposals.map((p) => ({
+    params: { id: p.proposal_id },
+    props: { proposal: p }
+  }));
+}
+
+interface Props {
+  proposal: SynthesisProposal;
+}
+
+const { proposal } = Astro.props;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const topicsDir = path.join(__dirname, '..', '..', '..', 'src', 'content', 'topics');
+
+let existingTopicContent = 'No existing canonical topic (New Topic Proposal)';
+if (proposal.target_topic_slug) {
+  const file = path.join(topicsDir, `${proposal.target_topic_slug}.md`);
+  if (fs.existsSync(file)) {
+    existingTopicContent = fs.readFileSync(file, 'utf8');
+  }
+}
+---
+
+<ReaderLayout title={`Review Proposal: ${proposal.proposal_id}`} description={`Curation inspection view for proposal ${proposal.proposal_id}`}>
+  <main class="reader-container" style="max-width: 900px; padding: 2rem 1.5rem;">
+    <!-- Navigation Header -->
+    <nav style="margin-bottom: 1.5rem;">
+      <a href="/proposals" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500;">← Back to Proposals Queue</a>
+    </nav>
+
+    <!-- Header & Status -->
+    <header style="border-bottom: 1px solid var(--border-color); padding-bottom: 1.5rem; margin-bottom: 2rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span style="font-family: var(--font-mono); font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">{proposal.proposal_id}</span>
+          <span style={`margin-left: 0.5rem; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 4px; ${
+            proposal.state === 'APPLIED' ? 'background: #d1fae5; color: #065f46;' :
+            proposal.state === 'REJECTED' ? 'background: #fee2e2; color: #991b1b;' :
+            'background: #fef3c7; color: #92400e;'
+          }`}>
+            {proposal.state}
+          </span>
+          <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(59, 130, 246, 0.1); color: #1d4ed8;">
+            {proposal.routing_decision}
+          </span>
+          <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(107, 114, 128, 0.1); color: #374151;">
+            {proposal.provenance_mode}
+          </span>
+        </div>
+      </div>
+
+      <h1 style="font-family: var(--font-serif); font-size: 1.8rem; margin: 0.8rem 0 0.4rem 0; color: var(--text-color);">
+        {proposal.target_topic_title || 'Proposed New Topic Stub'}
+      </h1>
+      <p style="font-size: 0.95rem; color: var(--text-muted); margin: 0;">
+        <strong>Decision Rationale:</strong> {proposal.rationale}
+      </p>
+    </header>
+
+    <!-- Provenance Chain Box -->
+    <section style="background: rgba(0,0,0,0.02); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.2rem; margin-bottom: 2rem;">
+      <h3 style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-top: 0; margin-bottom: 0.8rem;">
+        🔗 End-to-End Provenance Chain
+      </h3>
+      <div style="font-size: 0.85rem; line-height: 1.8; color: var(--text-color);">
+        <div><strong>1. Source Video:</strong> <a href={proposal.video_url} target="_blank" rel="noopener noreferrer" style="color: #2563eb;">{proposal.video_title || proposal.video_id} ↗</a></div>
+        <div><strong>2. Clustered KnowledgeUnit:</strong> <code>{proposal.unit_id}</code></div>
+        <div><strong>3. Target Canonical Chapter:</strong> <code>{proposal.target_topic_slug || 'NEW_TOPIC'}</code></div>
+        <div><strong>4. Target SHA-256 Hash at Creation:</strong> <code>{proposal.target_content_hash_before ? proposal.target_content_hash_before.slice(0, 16) + '...' : 'N/A'}</code></div>
+      </div>
+    </section>
+
+    <!-- Verbatim Supporting Evidence -->
+    <section style="margin-bottom: 2rem;">
+      <h2 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 1rem;">Verbatim Supporting Audio Evidence</h2>
+      <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+        {proposal.supporting_evidence.map((ev) => (
+          <div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;">
+              <span>Entity: <code>{ev.entity_id}</code></span>
+              <a href={`${proposal.video_url}&t=${Math.floor(ev.start)}s`} target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+                ⏱ {Math.floor(ev.start)}s – {Math.floor(ev.end)}s ↗
+              </a>
+            </div>
+            <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+              "{ev.quoted_text}"
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Proposed Semantic Diff -->
+    <section style="margin-bottom: 2.5rem;">
+      <h2 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem;">Proposed Non-Destructive Minimal Delta</h2>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+        This block will be appended into the canonical chapter under <code>{proposal.proposed_diff.section_name}</code> upon approval.
+      </p>
+
+      <div style="background: #0f172a; color: #f8fafc; border-radius: 8px; padding: 1.2rem; font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto; line-height: 1.6;">
+        <pre style="margin: 0;"><code>{proposal.proposed_diff.unified_diff}</code></pre>
+      </div>
+    </section>
+
+    <!-- Review Decision Actions -->
+    <section style="border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+      <h3 style="font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: 0.8rem;">Human Decision & Action</h3>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+        <button disabled style="padding: 0.6rem 1.2rem; border-radius: 6px; background: #059669; color: #fff; font-weight: 600; border: none; cursor: default; opacity: 0.9;">
+          {proposal.state === 'APPLIED' ? '✓ Applied to Canonical Codex' : 'Approve via CLI / Pipeline'}
+        </button>
+        <span style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center;">
+          (Controlled transaction execution managed via atomic CLI applier)
+        </span>
+      </div>
+    </section>
+  </main>
+</ReaderLayout>

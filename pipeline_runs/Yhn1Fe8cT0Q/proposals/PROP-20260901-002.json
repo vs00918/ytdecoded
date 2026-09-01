@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-002",
+  "created_at": "2026-09-01T15:11:28.965Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "Yhn1Fe8cT0Q",
+  "video_title": "Semantic IR for Yhn1Fe8cT0Q",
+  "video_url": "https://www.youtube.com/watch?v=Yhn1Fe8cT0Q",
+  "unit_id": "KU-003",
+  "target_topic_slug": "the-three-currencies-of-capital",
+  "target_topic_title": "The Three Currencies — Leveraging Economic, Cultural & Social Capital",
+  "target_content_hash_before": "e6e8e383d1ea6167ec2d99ed4bd7dfd95a3dfc2f6459802434c708079d19e974",
+  "routing_decision": "EXAMPLE_OR_APPLICATION",
+  "confidence": "HIGH",
+  "confidence_score": 0.9,
+  "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Three Currencies — Leveraging Economic, Cultural & Social Capital\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-025",
+      "start": 78.5,
+      "end": 81.3,
+      "quoted_text": "because they studied meaning in the stoa, in the open market,"
+    },
+    {
+      "entity_id": "EXM-001",
+      "start": 81.3,
+      "end": 84.5,
+      "quoted_text": "unlike the other schools where you had to go to a specific place -"
+    },
+    {
+      "entity_id": "CLM-026",
+      "start": 84.5,
+      "end": 87.7,
+      "quoted_text": "Plato's Academy or Aristotle's Lyceum -"
+    },
+    {
+      "entity_id": "CLM-027",
+      "start": 87.7,
+      "end": 90,
+      "quoted_text": "the Stoics wanted to be in the middle of people,"
+    },
+    {
+      "entity_id": "CLM-028",
+      "start": 90,
+      "end": 93.1,
+      "quoted_text": "to talk to people about their life and how to make it better."
+    },
+    {
+      "entity_id": "CLM-029",
+      "start": 93.5,
+      "end": 97,
+      "quoted_text": "Stoicism became one of the major philosophies of antiquity."
+    },
+    {
+      "entity_id": "CLM-030",
+      "start": 97,
+      "end": 99.1,
+      "quoted_text": "It spread through the Hellenistic world first"
+    },
+    {
+      "entity_id": "CLM-031",
+      "start": 99.1,
+      "end": 102.7,
+      "quoted_text": "and then to the Roman Republic and then Roman Empire."
+    },
+    {
+      "entity_id": "CLM-032",
+      "start": 102.7,
+      "end": 105.3,
+      "quoted_text": "It produced some of the major thinkers of the time."
+    },
+    {
+      "entity_id": "CLM-033",
+      "start": 105.8,
+      "end": 109.3,
+      "quoted_text": "Seneca, who was a senator,"
+    },
+    {
+      "entity_id": "CLM-034",
+      "start": 109.3,
+      "end": 112.1,
+      "quoted_text": "a playwright - he influenced Shakespeare -"
+    },
+    {
+      "entity_id": "CLM-035",
+      "start": 112.1,
+      "end": 116,
+      "quoted_text": "and the unfortunate advisor to the Emperor Nero."
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-three-currencies-of-capital\"\ntitle: \"The Three Currencies — Leveraging Economic, Cultural & Social Capital\"\nvolume: 5\nvolume_title: \"The Architecture of Social Sovereignty\"\norder_in_volume: 25\narchetype: \"CANONICAL_CONCEPT\"\nreading_time_minutes: 4\nsummary_15s: \"Do not be deceived into thinking you are powerless just because your bank account is modest. Financial wealth is only one currency. Build rare embodied cultural capital through intense study and craft, convert it into unshakeable social trust, and the economic rewards will follow with mathematical c\"\ntags:\n  - \"communication\"\n  - \"wealth\"\nmental_models:\n  - \"The Capital Conversion Engine\"\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nMost people believe that the game of life and career is governed by a single metric: **money (financial wealth)**.\n\nIn deep sociological analysis, French sociologist Pierre Bourdieu demonstrated that human society actually runs on **three convertible currencies of power and leverage**. When you only focus on financial income, you miss the hidden mechanisms through which influence, opportunity, and mobility are truly won.\n\nBy mastering the **Three Forms of Capital**, you learn how to start with zero financial wealth, rapidly build intellectual and social assets, and systematically convert them into asymmetric career mobility and economic freedom.\n\n---\n\n### The Architecture of the Three Capitals\n\n```mermaid\ngraph TD\n    subgraph The Three Currencies\n        EC[1. Economic Capital<br>Cash, investments, equity & physical property]\n        CC[2. Cultural Capital<br>Knowledge, articulation, taste, skills & credentials]\n        SC[3. Social Capital<br>High-trust networks, mentors & reputation]\n    end\n\n    CC -->|Converted into high-value output & credibility| SC\n    SC -->|Unlocks insider deals, jobs & partnerships| EC\n    EC -->|Reinvested in elite training & reading| CC\n```\n\n---\n\n### Deconstructing the Three Currencies\n\n#### 1. Economic Capital (The Tangible Fuel)\n* **What It Is**: Bank balances, shares, real estate, and hard monetary assets.\n* **Its Nature**: It is the most liquid and immediately spendable form of power, but also the most vulnerable to taxes, market volatility, and envy.\n\n#### 2. Cultural Capital (The Embodied Leverage)\nBourdieu revealed that cultural capital exists in three distinct states:\n* **The Embodied State**: How you think, your communication precision, your vocal composure under pressure, and your mental schemas. This is permanently etched into your nervous system and can never be stolen or confiscated.\n* **The Objectified State**: The books in your library, the tools in your workspace, and the intellectual artifacts you produce.\n* **The Institutionalized State**: Degrees, professional certifications, and institutional accreditations that signal competence to the marketplace.\n\n#### 3. Social Capital (The Network Multiplier)\n* **What It Is**: The aggregate of actual or potential resources linked to possession of a durable network of high-trust relationships.\n* **Its Nature**: Social capital is not handing out business cards at networking events. It is building genuine, unshakeable trust with a small group of high-integrity individuals who vouch for your character and competence when you are not in the room.\n\n---\n\n### The Capital Conversion Engine\n\nThe true master of strategy does not obsess over accumulating only one currency; they understand the **Cycle of Capital Conversion**:\n\n```mermaid\ngraph LR\n    A[Phase 1: Starting at Zero<br>Massive Investment in Embodied Cultural Capital] \n    --> B[Phase 2: Public Demonstration<br>Writing, building & solving real problems for others] \n    --> C[Phase 3: Social Capital Accumulation<br>Attracting elite mentors & high-trust allies] \n    --> D[Phase 4: Economic Capital Monetization<br>Asymmetric career leaps & capital compounding]\n```\n\n1. **Step 1 (The Cultural Foundation)**: When you have zero money and zero connections, 100% of your energy must go into **Embodied Cultural Capital**—reading deeply, mastering technical fundamentals, speaking with clarity, and building rare craftsmanship.\n2. **Step 2 (The Social Transmutation)**: Take your embodied skills and use them generously to solve painful problems for high-leverage people without asking for immediate payment. This converts cultural capital into immense **Social Goodwill & Trust**.\n3. **Step 3 (The Economic Harvest)**: High-trust networks inevitably open doors to asymmetric career opportunities, investments, and partnerships that generate durable **Economic Capital**.\n\n---\n\n### The Core Takeaway to Remember\n> Do not be deceived into thinking you are powerless just because your bank account is modest. Financial wealth is only one currency. Build rare embodied cultural capital through intense study and craft, convert it into unshakeable social trust, and the economic rewards will follow with mathematical certainty.\n",
+  "proposed_diff": {
+    "section_name": "## Tactical Applications & Concrete Analogies",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Preserved Case Analogy\n> \"because they studied meaning in the stoa, in the open market,\"\n> — *Source: [Yhn1Fe8cT0Q (78s)](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)*",
+    "unified_diff": "--- a/src/content/topics/the-three-currencies-of-capital.md\n+++ b/src/content/topics/the-three-currencies-of-capital.md\n@@ -0,0 +1,3 @@\n+### Preserved Case Analogy\n+> \"because they studied meaning in the stoa, in the open market,\"\n+> — *Source: [Yhn1Fe8cT0Q (78s)](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)*\n"
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "ir_version": "2.0.0-draft",
+  "video_id": "nZNKnlfwuI8",
+  "video_url": "https://www.youtube.com/watch?v=nZNKnlfwuI8",
+  "title": "Short Explanatory Masterclass",
+  "generated_at": "2026-09-01T10:06:26.446Z",
+  "metadata": {
+    "duration_seconds": 481,
+    "word_count": 1442,
+    "high_density_segment_count": 5
+  },
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim_text": "no prices and no clear indication that what you're about to eat won't make you sick for a week. Things he actually did repeatedly on purpose because he believed that the physical e",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 273.52,
+          "end": 298.68,
+          "segment_ids": [
+            "seg-0131",
+            "seg-0132",
+            "seg-0133",
+            "seg-0134",
+            "seg-0135",
+            "seg-0136",
+            "seg-0137",
+            "seg-0138",
+            "seg-0139",
+            "seg-0140"
+          ],
+          "quoted_text": "no prices and no clear indication that what you're about to eat won't make you sick for a week. Things he actually did repeatedly on purpose because he believed that the physical experience of committ"
+        }
+      ]
+    },
+    {
+      "id": "CLM-002",
+      "claim_text": "whose names he couldn't pronounce in languages he didn't speak >> >> and ate whatever they put in front of him. Not because he was fearless. He talked about fear constantly, but be",
+      "epistemic_status": "SOURCE_DERIVED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 335.8,
+          "end": 355.52,
+          "segment_ids": [
+            "seg-0161",
+            "seg-0162",
+            "seg-0163",
+            "seg-0164",
+            "seg-0165",
+            "seg-0166",
+            "seg-0167",
+            "seg-0168",
+            "seg-0169",
+            "seg-0170"
+          ],
+          "quoted_text": "whose names he couldn't pronounce in languages he didn't speak >> >> and ate whatever they put in front of him. Not because he was fearless. He talked about fear constantly, but because he understood "
+        }
+      ]
+    },
+    {
+      "id": "CLM-003",
+      "claim_text": "Get up off the couch. Move. >> Most people are closer to the other side of the world than they think. The neighborhood they've driven past a hundred times and never walked through.",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 400.16,
+          "end": 420.48,
+          "segment_ids": [
+            "seg-0191",
+            "seg-0192",
+            "seg-0193",
+            "seg-0194",
+            "seg-0195",
+            "seg-0196",
+            "seg-0197",
+            "seg-0198",
+            "seg-0199",
+            "seg-0200"
+          ],
+          "quoted_text": "Get up off the couch. Move. >> Most people are closer to the other side of the world than they think. The neighborhood they've driven past a hundred times and never walked through. The restaurant with"
+        }
+      ]
+    },
+    {
+      "id": "CLM-004",
+      "claim_text": "keeping it because going to actually look means risking being wrong. And being wrong about something you've held on to for years is genuinely uncomfortable. More uncomfortable, hon",
+      "epistemic_status": "SOURCE_ASSERTED",
+      "confidence": "HIGH",
+      "source_spans": [
+        {
+          "start": 439.4,
+          "end": 463.92,
+          "segment_ids": [
+            "seg-0211",
+            "seg-0212",
+            "seg-0213",
+            "seg-0214",
+            "seg-0215",
+            "seg-0216",
+            "seg-0217",
+            "seg-0218",
+            "seg-0219",
+            "seg-0220"
+          ],
+          "quoted_text": "keeping it because going to actually look means risking being wrong. And being wrong about something you've held on to for years is genuinely uncomfortable. More uncomfortable, honestly, than any bad "
+        }
+      ]
+    }
+  ],
+  "concepts": [],
+  "mechanisms": [
+    {
+      "id": "MEC-001",
+      "title": "Causal Dynamic in [273s-298s]",
+      "trigger": "no prices and no clear indication that what you're about to",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "a metaphor for the moment before you know how something is going to go. The job",
+      "source_spans": [
+        {
+          "start": 273.52,
+          "end": 298.68,
+          "segment_ids": [
+            "seg-0131",
+            "seg-0132",
+            "seg-0133",
+            "seg-0134",
+            "seg-0135",
+            "seg-0136",
+            "seg-0137",
+            "seg-0138",
+            "seg-0139",
+            "seg-0140"
+          ],
+          "quoted_text": "no prices and no clear indication that what you're about to eat won't make you sick for a week. Things he actually did repeatedly on purpose because he believed that the physical experience of committ"
+        }
+      ]
+    },
+    {
+      "id": "MEC-002",
+      "title": "Causal Dynamic in [335s-355s]",
+      "trigger": "whose names he couldn't pronounce in languages he didn't spe",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "doing and there was no way around it, only through it. The thing he kept coming",
+      "source_spans": [
+        {
+          "start": 335.8,
+          "end": 355.52,
+          "segment_ids": [
+            "seg-0161",
+            "seg-0162",
+            "seg-0163",
+            "seg-0164",
+            "seg-0165",
+            "seg-0166",
+            "seg-0167",
+            "seg-0168",
+            "seg-0169",
+            "seg-0170"
+          ],
+          "quoted_text": "whose names he couldn't pronounce in languages he didn't speak >> >> and ate whatever they put in front of him. Not because he was fearless. He talked about fear constantly, but because he understood "
+        }
+      ]
+    },
+    {
+      "id": "MEC-003",
+      "title": "Causal Dynamic in [400s-420s]",
+      "trigger": "Get up off the couch. Move. >> Most people are closer to the",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "because they already know it's going to be uncomfortable. All of it is the other",
+      "source_spans": [
+        {
+          "start": 400.16,
+          "end": 420.48,
+          "segment_ids": [
+            "seg-0191",
+            "seg-0192",
+            "seg-0193",
+            "seg-0194",
+            "seg-0195",
+            "seg-0196",
+            "seg-0197",
+            "seg-0198",
+            "seg-0199",
+            "seg-0200"
+          ],
+          "quoted_text": "Get up off the couch. Move. >> Most people are closer to the other side of the world than they think. The neighborhood they've driven past a hundred times and never walked through. The restaurant with"
+        }
+      ]
+    },
+    {
+      "id": "MEC-004",
+      "title": "Causal Dynamic in [439s-463s]",
+      "trigger": "keeping it because going to actually look means risking bein",
+      "steps": [
+        {
+          "step_num": 1,
+          "action": "Initial stimulus / activation",
+          "result": "Triggers neurochemical or cognitive shift"
+        },
+        {
+          "step_num": 2,
+          "action": "System processing / resistance",
+          "result": "Modulates internal state"
+        }
+      ],
+      "outcome": "nd. He built an entire career out of showing people what it actually looked like",
+      "source_spans": [
+        {
+          "start": 439.4,
+          "end": 463.92,
+          "segment_ids": [
+            "seg-0211",
+            "seg-0212",
+            "seg-0213",
+            "seg-0214",
+            "seg-0215",
+            "seg-0216",
+            "seg-0217",
+            "seg-0218",
+            "seg-0219",
+            "seg-0220"
+          ],
+          "quoted_text": "keeping it because going to actually look means risking being wrong. And being wrong about something you've held on to for years is genuinely uncomfortable. More uncomfortable, honestly, than any bad "
+        }
+      ]
+    }
+  ],
+  "principles": [],
+  "mental_models": [],
+  "examples_and_analogies": [
+    {
+      "id": "EXM-001",
+      "type": "ANALOGY",
+      "content": "year after year quietly add up to a life where nothing unexpected ever gets in. Bourdain spent his 30s doing exactly this. Good at his job. Had a title. Had a kitchen that ran the way he wanted. And t",
+      "source_spans": [
+        {
+          "start": 150.68,
+          "end": 174.4,
+          "segment_ids": [
+            "seg-0071",
+            "seg-0072",
+            "seg-0073",
+            "seg-0074",
+            "seg-0075",
+            "seg-0076",
+            "seg-0077",
+            "seg-0078",
+            "seg-0079",
+            "seg-0080"
+          ],
+          "quoted_text": "year after year quietly add up to a life where nothing unexpected ever gets in. Bourdain spent his 30s doing exactly this. Good at his job. Had a title. Had a kitchen that ran the way he wanted. And t"
+        }
+      ]
+    },
+    {
+      "id": "EXM-002",
+      "type": "ANALOGY",
+      "content": "risks. Step outside your comfort zone. Embrace failure. All language that's been said so many times it's become background noise. Bourdain was not talking abstractly. He was talking about the fermente",
+      "source_spans": [
+        {
+          "start": 251.96,
+          "end": 276.4,
+          "segment_ids": [
+            "seg-0121",
+            "seg-0122",
+            "seg-0123",
+            "seg-0124",
+            "seg-0125",
+            "seg-0126",
+            "seg-0127",
+            "seg-0128",
+            "seg-0129",
+            "seg-0130"
+          ],
+          "quoted_text": "risks. Step outside your comfort zone. Embrace failure. All language that's been said so many times it's become background noise. Bourdain was not talking abstractly. He was talking about the fermente"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "ARG-001",
+      "thesis": "no prices and no clear indication that what you're about to eat won't make you sick for a week. Things he actually did repeatedly on purpose because he believed that the physical e",
+      "premises": [
+        "whose names he couldn't pronounce in languages he didn't speak >> >> and ate whatever they put in front of him. Not because he was fearless. He talked about fear constantly, but be",
+        "Get up off the couch. Move. >> Most people are closer to the other side of the world than they think. The neighborhood they've driven past a hundred times and never walked through.",
+        "keeping it because going to actually look means risking being wrong. And being wrong about something you've held on to for years is genuinely uncomfortable. More uncomfortable, hon"
+      ],
+      "counterarguments": [
+        "Common assumption that discipline is purely moral rather than somatic/biological"
+      ],
+      "conclusion": "keeping it because going to actually look means risking being wrong. And being wrong about something you've held on to for years is genuinely uncomfortable. More uncomfortable, hon",
+      "source_spans": [
+        {
+          "start": 273.52,
+          "end": 298.68,
+          "segment_ids": [
+            "seg-0131",
+            "seg-0132",
+            "seg-0133",
+            "seg-0134",
+            "seg-0135",
+            "seg-0136",
+            "seg-0137",
+            "seg-0138",
+            "seg-0139",
+            "seg-0140"
+          ],
+          "quoted_text": "no prices and no clear indication that what you're about to eat won't make you sick for a week. Things he actually did repeatedly on purpose because he believed that the physical experience of committ"
+        }
+      ]
+    }
+  ],
+  "uncertainties": []
+}

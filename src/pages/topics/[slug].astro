@@ -1,0 +1,119 @@
+---
+import { getCollection } from 'astro:content';
+import ReaderLayout from '../../layouts/ReaderLayout.astro';
+import TableOfContents from '../../components/TableOfContents.astro';
+import TopicNavFooter from '../../components/TopicNavFooter.astro';
+import ProvenanceLedger from '../../components/ProvenanceLedger.astro';
+import ActiveRecallCard from '../../components/ActiveRecallCard.astro';
+import RelatedKnowledgeCard from '../../components/RelatedKnowledgeCard.astro';
+import { resolveTopicNavigation } from '../../utils/navigation';
+import { resolveAllRelationships } from '../../utils/relationships';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  return topics.map((topic) => ({
+    params: { slug: topic.slug },
+    props: { topic }
+  }));
+}
+
+const { topic } = Astro.props;
+const allTopics = await getCollection('topics');
+const { prev, next } = resolveTopicNavigation(topic.slug, allTopics);
+const { bundleMap } = resolveAllRelationships(allTopics);
+const relationshipBundle = bundleMap.get(topic.slug);
+const { Content, headings } = await topic.render();
+
+// Deterministic build-time reading time calculation (~225 words per minute)
+const wordCount = topic.body ? topic.body.split(/\s+/).filter(Boolean).length : 0;
+const calculatedReadingTime = Math.max(1, Math.ceil(wordCount / 225));
+
+// Primary source / creator attribution if present
+const primarySource = topic.data.sources && topic.data.sources.length > 0 ? topic.data.sources[0] : null;
+---
+
+<ReaderLayout title={topic.data.title} description={topic.data.summary_15s} currentSlug={topic.slug}>
+  <article class="reader-article">
+    
+    <!-- ====================================================================
+         TIER 1: ORIENTATION (Calm, Streamlined Above-the-Fold Context)
+         ==================================================================== -->
+    <header class="reader-header">
+      <!-- Minimal Breadcrumb -->
+      <nav aria-label="Breadcrumb" class="breadcrumbs-container">
+        <ol class="breadcrumbs-list">
+          <li class="breadcrumb-item">
+            <a href="/ytdecoded/" class="breadcrumb-link">The Living Codex</a>
+          </li>
+          <li class="breadcrumb-separator" aria-hidden="true">/</li>
+          <li class="breadcrumb-item">
+            <span class="breadcrumb-volume">Vol {topic.data.volume}: {topic.data.volume_title}</span>
+          </li>
+        </ol>
+      </nav>
+
+      <!-- Topic Title -->
+      <h1 class="reader-topic-title" data-pagefind-meta="title">{topic.data.title}</h1>
+
+      <!-- Compact Metadata Strip: Reading Time, Authority/Creator, Filter Tags -->
+      <div class="reader-meta-bar">
+        <span class="meta-item reading-time">⏱️ {calculatedReadingTime} min read</span>
+        
+        {primarySource && (
+          <>
+            <span class="meta-dot" aria-hidden="true">•</span>
+            <span class="meta-item creator-pill">
+              Source: <strong>{primarySource.creator || primarySource.title}</strong>
+            </span>
+          </>
+        )}
+
+        {topic.data.tags && topic.data.tags.length > 0 && (
+          <>
+            <span class="meta-dot" aria-hidden="true">•</span>
+            <div class="tag-group">
+              {topic.data.tags.slice(0, 3).map((tag: string) => (
+                <span class="tag-badge" data-pagefind-filter="tag">#{tag}</span>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+
+      <!-- 15-Second Axiomatic Summary Kernel -->
+      <div class="summary-kernel" data-pagefind-meta="summary">
+        <div class="summary-kernel-label">⚡ 15-Second Axiomatic Kernel</div>
+        <div class="summary-kernel-text">{topic.data.summary_15s}</div>
+      </div>
+
+      <!-- Subordinate, Collapsible Table of Contents -->
+      <TableOfContents headings={headings} />
+    </header>
+
+    <!-- ====================================================================
+         TIER 2: UNDERSTANDING (Uninterrupted First-Principles Prose)
+         ==================================================================== -->
+    <section class="reader-prose prose" aria-label="Chapter Body">
+      <Content />
+    </section>
+
+    <!-- ====================================================================
+         TIER 3: CONSOLIDATION (Recall, Concept Bridges, Sources & Next Steps)
+         ==================================================================== -->
+    <footer class="reader-consolidation" aria-label="Consolidation & Extended Learning">
+      
+      <!-- 1. Active Recall Self-Testing (Omitted gracefully if questions empty) -->
+      <ActiveRecallCard questions={topic.data.active_recall || []} />
+
+      <!-- 2. Human-Readable Concept Bridges -->
+      <RelatedKnowledgeCard bundle={relationshipBundle} />
+
+      <!-- 3. Source Citations & Video Timestamp Ledger -->
+      <ProvenanceLedger sources={topic.data.sources} />
+
+      <!-- 4. Sequential Chapter Navigation -->
+      <TopicNavFooter prev={prev} next={next} />
+    </footer>
+
+  </article>
+</ReaderLayout>

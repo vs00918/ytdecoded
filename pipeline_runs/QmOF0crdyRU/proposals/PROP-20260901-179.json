@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-179",
+  "created_at": "2026-09-01T15:11:31.303Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-234",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2719",
+      "start": 7613.7,
+      "end": 7616.3,
+      "quoted_text": "meaning if you don't have to take melatonin"
+    },
+    {
+      "entity_id": "CLM-2720",
+      "start": 7616.3,
+      "end": 7618.1,
+      "quoted_text": "and you can find a better alternative"
+    },
+    {
+      "entity_id": "CLM-2721",
+      "start": 7618.1,
+      "end": 7619,
+      "quoted_text": "that would be a good idea"
+    },
+    {
+      "entity_id": "CLM-2722",
+      "start": 7619,
+      "end": 7621.7,
+      "quoted_text": "if you want to maintain healthy levels of dopamine."
+    },
+    {
+      "entity_id": "CLM-2723",
+      "start": 7621.7,
+      "end": 7624.5,
+      "quoted_text": "Now, there is one compound that you are all familiar with,"
+    },
+    {
+      "entity_id": "CLM-2724",
+      "start": 7624.5,
+      "end": 7627.6,
+      "quoted_text": "and you've probably actually taken without realizing it,"
+    },
+    {
+      "entity_id": "CLM-2725",
+      "start": 7627.6,
+      "end": 7628.8,
+      "quoted_text": "that increases dopamine."
+    },
+    {
+      "entity_id": "CLM-2726",
+      "start": 7628.8,
+      "end": 7633,
+      "quoted_text": "And that's something called PEA for phenethylamine,"
+    },
+    {
+      "entity_id": "CLM-2727",
+      "start": 7633,
+      "end": 7636.1,
+      "quoted_text": "technically beta phenethylamine."
+    },
+    {
+      "entity_id": "CLM-2728",
+      "start": 7636.1,
+      "end": 7639.2,
+      "quoted_text": "And PEA is found in various foods."
+    },
+    {
+      "entity_id": "CLM-2729",
+      "start": 7639.2,
+      "end": 7643.1,
+      "quoted_text": "Chocolate just happens to be one in enriched in PEA"
+    },
+    {
+      "entity_id": "CLM-2730",
+      "start": 7643.1,
+      "end": 7645.7,
+      "quoted_text": "and can increase synaptic levels of dopamine."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: meaning if you don't have to take melatonin\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7613s-7616s]: \"meaning if you don't have to take melatonin\"\n  - [7616s-7618s]: \"and you can find a better alternative\"\n  - [7618s-7619s]: \"that would be a good idea\"\n  - [7619s-7621s]: \"if you want to maintain healthy levels of dopamine.\"\n  - [7621s-7624s]: \"Now, there is one compound that you are all familiar with,\"\n  - [7624s-7627s]: \"and you've probably actually taken without realizing it,\"\n  - [7627s-7628s]: \"that increases dopamine.\"\n  - [7628s-7633s]: \"And that's something called PEA for phenethylamine,\"\n  - [7633s-7636s]: \"technically beta phenethylamine.\"\n  - [7636s-7639s]: \"And PEA is found in various foods.\"\n  - [7639s-7643s]: \"Chocolate just happens to be one in enriched in PEA\"\n  - [7643s-7645s]: \"and can increase synaptic levels of dopamine.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: meaning if you don't have to take melatonin\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7613s-7616s]: \"meaning if you don't have to take melatonin\"\n+  - [7616s-7618s]: \"and you can find a better alternative\"\n+  - [7618s-7619s]: \"that would be a good idea\"\n+  - [7619s-7621s]: \"if you want to maintain healthy levels of dopamine.\"\n+  - [7621s-7624s]: \"Now, there is one compound that you are all familiar with,\"\n+  - [7624s-7627s]: \"and you've probably actually taken without realizing it,\"\n+  - [7627s-7628s]: \"that increases dopamine.\"\n+  - [7628s-7633s]: \"And that's something called PEA for phenethylamine,\"\n+  - [7633s-7636s]: \"technically beta phenethylamine.\"\n+  - [7636s-7639s]: \"And PEA is found in various foods.\"\n+  - [7639s-7643s]: \"Chocolate just happens to be one in enriched in PEA\"\n+  - [7643s-7645s]: \"and can increase synaptic levels of dopamine.\"\n"
+  }
+}

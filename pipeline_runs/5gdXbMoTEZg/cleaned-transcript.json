@@ -1,0 +1,3799 @@
+{
+  "video_id": "5gdXbMoTEZg",
+  "cleaned_segments": [
+    {
+      "id": "seg-0001",
+      "start": 7.8,
+      "end": 11.68,
+      "duration": 3.88,
+      "text": "I grew up drinking coffee and I used to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0002",
+      "start": 10.04,
+      "end": 13.68,
+      "duration": 3.64,
+      "text": "still drink coffee.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0003",
+      "start": 11.68,
+      "end": 16.8,
+      "duration": 5.12,
+      "text": "It's part of my morning routine to have",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0004",
+      "start": 13.68,
+      "end": 18.96,
+      "duration": 5.28,
+      "text": "a couple sips of a dark, rich, and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0005",
+      "start": 16.8,
+      "end": 20.92,
+      "duration": 4.12,
+      "text": "roasted coffee.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0006",
+      "start": 18.96,
+      "end": 23.32,
+      "duration": 4.36,
+      "text": "One day, when completing my doctoral",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0007",
+      "start": 20.92,
+      "end": 25.6,
+      "duration": 4.68,
+      "text": "internship in psychology, I noticed that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0008",
+      "start": 23.32,
+      "end": 27.64,
+      "duration": 4.32,
+      "text": "my coffee maker was getting old and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0009",
+      "start": 25.6,
+      "end": 29.68,
+      "duration": 4.08,
+      "text": "needed to be replaced.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0010",
+      "start": 27.64,
+      "end": 32.8,
+      "duration": 5.16,
+      "text": "As a graduate student and as an",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0011",
+      "start": 29.68,
+      "end": 35.6,
+      "duration": 5.92,
+      "text": "immigrant, I was on a limited budget.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0012",
+      "start": 32.8,
+      "end": 36.92,
+      "duration": 4.12,
+      "text": "I knew I needed to make a good financial",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0013",
+      "start": 35.6,
+      "end": 39,
+      "duration": 3.4,
+      "text": "decision.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0014",
+      "start": 36.92,
+      "end": 42.24,
+      "duration": 5.32,
+      "text": "So, that search for the ideal coffee",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0015",
+      "start": 39,
+      "end": 44.92,
+      "duration": 5.92,
+      "text": "maker for $80 began.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0016",
+      "start": 42.24,
+      "end": 47.68,
+      "duration": 5.44,
+      "text": "I looked at all the best brands. I read",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0017",
+      "start": 44.92,
+      "end": 49.88,
+      "duration": 4.96,
+      "text": "many consumer reviews. I asked my",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0018",
+      "start": 47.68,
+      "end": 52.08,
+      "duration": 4.4,
+      "text": "friends, who were coffee snobs like me,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0019",
+      "start": 49.88,
+      "end": 54.48,
+      "duration": 4.6,
+      "text": "about their coffee makers.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0020",
+      "start": 52.08,
+      "end": 56.92,
+      "duration": 4.84,
+      "text": "And I even created an Excel sheet",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0021",
+      "start": 54.48,
+      "end": 58.96,
+      "duration": 4.48,
+      "text": "listing the pros and cons of different",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0022",
+      "start": 56.92,
+      "end": 62.08,
+      "duration": 5.16,
+      "text": "models.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0023",
+      "start": 58.96,
+      "end": 64.8,
+      "duration": 5.84,
+      "text": "One day, I drove myself to a store",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0024",
+      "start": 62.08,
+      "end": 66.64,
+      "duration": 4.56,
+      "text": "to look at different options in person.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0025",
+      "start": 64.8,
+      "end": 68.92,
+      "duration": 4.12,
+      "text": "At the store, I started chatting with",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0026",
+      "start": 66.64,
+      "end": 71.04,
+      "duration": 4.4,
+      "text": "another shopper.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0027",
+      "start": 68.92,
+      "end": 74.08,
+      "duration": 5.16,
+      "text": "And I shared with her my concerns and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0028",
+      "start": 71.04,
+      "end": 77.8,
+      "duration": 6.76,
+      "text": "requirements for this new coffee maker.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0029",
+      "start": 74.08,
+      "end": 81.28,
+      "duration": 7.2,
+      "text": "She looked at me and said, \"Well, coffee",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0030",
+      "start": 77.8,
+      "end": 85.6,
+      "duration": 7.8,
+      "text": "makers aren't supposed to last forever.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0031",
+      "start": 81.28,
+      "end": 88.4,
+      "duration": 7.12,
+      "text": "I know that and agree, but did I stop my",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0032",
+      "start": 85.6,
+      "end": 90.64,
+      "duration": 5.04,
+      "text": "quest for the ideal coffee maker right",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0033",
+      "start": 88.4,
+      "end": 93.44,
+      "duration": 5.04,
+      "text": "there and buy one on the spot?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0034",
+      "start": 90.64,
+      "end": 94.8,
+      "duration": 4.16,
+      "text": "Nope. I went back home and continued",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0035",
+      "start": 93.44,
+      "end": 96.88,
+      "duration": 3.44,
+      "text": "researching.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0036",
+      "start": 94.8,
+      "end": 100.64,
+      "duration": 5.84,
+      "text": "You see, I knew I needed to make a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0037",
+      "start": 96.88,
+      "end": 104.08,
+      "duration": 7.2,
+      "text": "decision, but my mind was relentlessly",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0038",
+      "start": 100.64,
+      "end": 106.48,
+      "duration": 5.84,
+      "text": "coming up with all types of thoughts.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0039",
+      "start": 104.08,
+      "end": 109.12,
+      "duration": 5.04,
+      "text": "Will this be a good investment? Should I",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0040",
+      "start": 106.48,
+      "end": 110.64,
+      "duration": 4.16,
+      "text": "get one that brews four cups or 10 cups",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0041",
+      "start": 109.12,
+      "end": 112.44,
+      "duration": 3.32,
+      "text": "of coffee?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0042",
+      "start": 110.64,
+      "end": 114.48,
+      "duration": 3.84,
+      "text": "What does the warranty say if it breaks",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0043",
+      "start": 112.44,
+      "end": 116.52,
+      "duration": 4.08,
+      "text": "down after 1 year?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0044",
+      "start": 114.48,
+      "end": 119.36,
+      "duration": 4.88,
+      "text": "What if my coffee lover friends think",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0045",
+      "start": 116.52,
+      "end": 122.12,
+      "duration": 5.6,
+      "text": "this isn't a good coffee maker.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0046",
+      "start": 119.36,
+      "end": 124.52,
+      "duration": 5.16,
+      "text": "Three months pass and I had still hadn't",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0047",
+      "start": 122.12,
+      "end": 126.72,
+      "duration": 4.6,
+      "text": "bought a coffee maker.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0048",
+      "start": 124.52,
+      "end": 129.8,
+      "duration": 5.28,
+      "text": "Even though these decisions seem easy",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0049",
+      "start": 126.72,
+      "end": 131.4,
+      "duration": 4.68,
+      "text": "enough to make, there I was stuck in my",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0050",
+      "start": 129.8,
+      "end": 133.8,
+      "duration": 4,
+      "text": "head.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0051",
+      "start": 131.4,
+      "end": 136.4,
+      "duration": 5,
+      "text": "Have you been in my shoes?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0052",
+      "start": 133.8,
+      "end": 139.24,
+      "duration": 5.44,
+      "text": "Yeah. Have you ever been in an ordinary",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0053",
+      "start": 136.4,
+      "end": 142.16,
+      "duration": 5.76,
+      "text": "situation in which, despite your best",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0054",
+      "start": 139.24,
+      "end": 145.8,
+      "duration": 6.56,
+      "text": "intentions, you overdid things and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0055",
+      "start": 142.16,
+      "end": 148.76,
+      "duration": 6.6,
+      "text": "inadvertently got it stuck in your head?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0056",
+      "start": 145.8,
+      "end": 152,
+      "duration": 6.2,
+      "text": "That's a pain, right?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0057",
+      "start": 148.76,
+      "end": 154.32,
+      "duration": 5.56,
+      "text": "Now, imagine you wake up every morning",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0058",
+      "start": 152,
+      "end": 157.2,
+      "duration": 5.2,
+      "text": "without worrying about saying the wrong",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0059",
+      "start": 154.32,
+      "end": 159.6,
+      "duration": 5.28,
+      "text": "thing or doing the wrong thing.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0060",
+      "start": 157.2,
+      "end": 163.4,
+      "duration": 6.2,
+      "text": "You look at everyday decisions as easy",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0061",
+      "start": 159.6,
+      "end": 166.08,
+      "duration": 6.48,
+      "text": "peasy, not as a life or death dilemmas.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0062",
+      "start": 163.4,
+      "end": 168.76,
+      "duration": 5.36,
+      "text": "You will spend days anticipating things",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0063",
+      "start": 166.08,
+      "end": 170.44,
+      "duration": 4.36,
+      "text": "going well and fabulous rather than",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0064",
+      "start": 168.76,
+      "end": 173.72,
+      "duration": 4.96,
+      "text": "going south.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0065",
+      "start": 170.44,
+      "end": 176.52,
+      "duration": 6.08,
+      "text": "That would be lovely, right?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0066",
+      "start": 173.72,
+      "end": 179.96,
+      "duration": 6.24,
+      "text": "But that's fantasy.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0067",
+      "start": 176.52,
+      "end": 182.72,
+      "duration": 6.2,
+      "text": "Because to be human is to be anxious.",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0068",
+      "start": 179.96,
+      "end": 185.52,
+      "duration": 5.56,
+      "text": "To be human is to be worried.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0069",
+      "start": 182.72,
+      "end": 188.48,
+      "duration": 5.76,
+      "text": "To be human is to be afraid.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0070",
+      "start": 185.52,
+      "end": 191.4,
+      "duration": 5.88,
+      "text": "Yet, despite this truth, fears have a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0071",
+      "start": 188.48,
+      "end": 193.8,
+      "duration": 5.32,
+      "text": "very bad rap.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0072",
+      "start": 191.4,
+      "end": 195.12,
+      "duration": 3.72,
+      "text": "Often, new clients tell me that they are",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0073",
+      "start": 193.8,
+      "end": 197.96,
+      "duration": 4.16,
+      "text": "stressed.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0074",
+      "start": 195.12,
+      "end": 200.92,
+      "duration": 5.8,
+      "text": "However, when peeling back what they are",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0075",
+      "start": 197.96,
+      "end": 202.68,
+      "duration": 4.72,
+      "text": "struggling with, I can clearly see that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0076",
+      "start": 200.92,
+      "end": 205.72,
+      "duration": 4.8,
+      "text": "actually they are dealing with a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0077",
+      "start": 202.68,
+      "end": 208.24,
+      "duration": 5.56,
+      "text": "fear-based emotion and many fear-based",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0078",
+      "start": 205.72,
+      "end": 210.72,
+      "duration": 5,
+      "text": "reactions.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0079",
+      "start": 208.24,
+      "end": 213.68,
+      "duration": 5.44,
+      "text": "The reality is that our day-to-day life",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0080",
+      "start": 210.72,
+      "end": 216.48,
+      "duration": 5.76,
+      "text": "includes all types of fears.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0081",
+      "start": 213.68,
+      "end": 221.08,
+      "duration": 7.4,
+      "text": "Fear of choosing the wrong partner.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0082",
+      "start": 216.48,
+      "end": 223.36,
+      "duration": 6.88,
+      "text": "Fear of the unknown. Fear of flying.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0083",
+      "start": 221.08,
+      "end": 224.92,
+      "duration": 3.84,
+      "text": "Fear of not being good enough. Fear of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0084",
+      "start": 223.36,
+      "end": 227.92,
+      "duration": 4.56,
+      "text": "loneliness.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0085",
+      "start": 224.92,
+      "end": 232.12,
+      "duration": 7.2,
+      "text": "Our anxieties are limitless.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0086",
+      "start": 227.92,
+      "end": 234.52,
+      "duration": 6.6,
+      "text": "And every time we feel anxious, worried,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0087",
+      "start": 232.12,
+      "end": 236.48,
+      "duration": 4.36,
+      "text": "or afraid, it feels yucky and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0088",
+      "start": 234.52,
+      "end": 238.4,
+      "duration": 3.88,
+      "text": "uncomfortable.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0089",
+      "start": 236.48,
+      "end": 240.76,
+      "duration": 4.28,
+      "text": "Have you ever met anyone who say, \"I",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0090",
+      "start": 238.4,
+      "end": 242.4,
+      "duration": 4,
+      "text": "love to be anxious.\" or \"I love to be",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0091",
+      "start": 240.76,
+      "end": 244.16,
+      "duration": 3.4,
+      "text": "afraid.\"?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0092",
+      "start": 242.4,
+      "end": 246.44,
+      "duration": 4.04,
+      "text": "Neither have I.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0093",
+      "start": 244.16,
+      "end": 247.68,
+      "duration": 3.52,
+      "text": "When we feel anxious, our hearts beat",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0094",
+      "start": 246.44,
+      "end": 250.96,
+      "duration": 4.52,
+      "text": "fast,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0095",
+      "start": 247.68,
+      "end": 252.96,
+      "duration": 5.28,
+      "text": "our hands get sweaty, we get butterflies",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0096",
+      "start": 250.96,
+      "end": 256.48,
+      "duration": 5.52,
+      "text": "in our stomach.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0097",
+      "start": 252.96,
+      "end": 259.44,
+      "duration": 6.48,
+      "text": "And then our mind pushes us to solve the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0098",
+      "start": 256.48,
+      "end": 261.76,
+      "duration": 5.28,
+      "text": "discomfort, prompts us to do something",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0099",
+      "start": 259.44,
+      "end": 263.24,
+      "duration": 3.8,
+      "text": "about those uncomfortable sensations",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0100",
+      "start": 261.76,
+      "end": 265.76,
+      "duration": 4,
+      "text": "right away,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0101",
+      "start": 263.24,
+      "end": 267.88,
+      "duration": 4.64,
+      "text": "goads us into action.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0102",
+      "start": 265.76,
+      "end": 271.44,
+      "duration": 5.68,
+      "text": "And it's in those moments that we rely",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0103",
+      "start": 267.88,
+      "end": 274.08,
+      "duration": 6.2,
+      "text": "on thinking strategies to push away, get",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0104",
+      "start": 271.44,
+      "end": 276,
+      "duration": 4.56,
+      "text": "rid of, or replace our fear-based",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0105",
+      "start": 274.08,
+      "end": 278.48,
+      "duration": 4.4,
+      "text": "emotions.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0106",
+      "start": 276,
+      "end": 280,
+      "duration": 4,
+      "text": "I call those thinking strategies playing",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0107",
+      "start": 278.48,
+      "end": 283.12,
+      "duration": 4.64,
+      "text": "it safe moves.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0108",
+      "start": 280,
+      "end": 285.44,
+      "duration": 5.44,
+      "text": "We all play it safe in one form or",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0109",
+      "start": 283.12,
+      "end": 287.88,
+      "duration": 4.76,
+      "text": "another.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0110",
+      "start": 285.44,
+      "end": 290.28,
+      "duration": 4.84,
+      "text": "Think for a moment of David.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0111",
+      "start": 287.88,
+      "end": 291.64,
+      "duration": 3.76,
+      "text": "He represents the clients I often work",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0112",
+      "start": 290.28,
+      "end": 295.04,
+      "duration": 4.76,
+      "text": "with.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0113",
+      "start": 291.64,
+      "end": 297.44,
+      "duration": 5.8,
+      "text": "He, like me, and maybe even like you,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0114",
+      "start": 295.04,
+      "end": 299.6,
+      "duration": 4.56,
+      "text": "too, he struggles with the fear of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0115",
+      "start": 297.44,
+      "end": 302.12,
+      "duration": 4.68,
+      "text": "making mistakes.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0116",
+      "start": 299.6,
+      "end": 304.92,
+      "duration": 5.32,
+      "text": "When David is composing an email or",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0117",
+      "start": 302.12,
+      "end": 308.2,
+      "duration": 6.08,
+      "text": "texting his friends, he goes over his",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0118",
+      "start": 304.92,
+      "end": 310.4,
+      "duration": 5.48,
+      "text": "writing word by word, checking what he's",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0119",
+      "start": 308.2,
+      "end": 312.4,
+      "duration": 4.2,
+      "text": "saying and how he's saying it before he",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0120",
+      "start": 310.4,
+      "end": 314.88,
+      "duration": 4.48,
+      "text": "hits send.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0121",
+      "start": 312.4,
+      "end": 317.16,
+      "duration": 4.76,
+      "text": "When David is invited to a party, he",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0122",
+      "start": 314.88,
+      "end": 319.68,
+      "duration": 4.8,
+      "text": "sometimes plans ahead of time what he's",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0123",
+      "start": 317.16,
+      "end": 323.92,
+      "duration": 6.76,
+      "text": "going to talk about so he doesn't make a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0124",
+      "start": 319.68,
+      "end": 325.88,
+      "duration": 6.2,
+      "text": "fool of himself during the actual party.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0125",
+      "start": 323.92,
+      "end": 328.52,
+      "duration": 4.6,
+      "text": "You may be thinking, \"Wait a minute. All",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0126",
+      "start": 325.88,
+      "end": 331.36,
+      "duration": 5.48,
+      "text": "those strategies make sense.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0127",
+      "start": 328.52,
+      "end": 334.16,
+      "duration": 5.64,
+      "text": "And you're right. I do them, too. In",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0128",
+      "start": 331.36,
+      "end": 337.56,
+      "duration": 6.2,
+      "text": "fact, over preparing is a classic",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0129",
+      "start": 334.16,
+      "end": 339.24,
+      "duration": 5.08,
+      "text": "playing it safe move of mine.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0130",
+      "start": 337.56,
+      "end": 342.28,
+      "duration": 4.72,
+      "text": "Sometimes playing it safe can be",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0131",
+      "start": 339.24,
+      "end": 346,
+      "duration": 6.76,
+      "text": "effective when it help us to manage our",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0132",
+      "start": 342.28,
+      "end": 348.36,
+      "duration": 6.08,
+      "text": "anxieties, to do better and be better it",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0133",
+      "start": 346,
+      "end": 350.6,
+      "duration": 4.6,
+      "text": "betraying ourselves.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0134",
+      "start": 348.36,
+      "end": 353.24,
+      "duration": 4.88,
+      "text": "For example, after I agreed to be this",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0135",
+      "start": 350.6,
+      "end": 355.68,
+      "duration": 5.08,
+      "text": "talk, I got very anxious.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0136",
+      "start": 353.24,
+      "end": 357.64,
+      "duration": 4.4,
+      "text": "And I had this urge to play it safe by",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0137",
+      "start": 355.68,
+      "end": 360.08,
+      "duration": 4.4,
+      "text": "preparing and rehearsing what I would",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0138",
+      "start": 357.64,
+      "end": 361.44,
+      "duration": 3.8,
+      "text": "say many times.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0139",
+      "start": 360.08,
+      "end": 364,
+      "duration": 3.92,
+      "text": "Guess what?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0140",
+      "start": 361.44,
+      "end": 365.48,
+      "duration": 4.04,
+      "text": "Those playing it safe strategies worked",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0141",
+      "start": 364,
+      "end": 368.2,
+      "duration": 4.2,
+      "text": "right away.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0142",
+      "start": 365.48,
+      "end": 370.92,
+      "duration": 5.44,
+      "text": "My heart had stopped beating as fast. My",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0143",
+      "start": 368.2,
+      "end": 374.88,
+      "duration": 6.68,
+      "text": "hands had stopped sweating. I stopped",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0144",
+      "start": 370.92,
+      "end": 378.28,
+      "duration": 7.36,
+      "text": "feeling uncomfortable. I felt safe.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0145",
+      "start": 374.88,
+      "end": 379.6,
+      "duration": 4.72,
+      "text": "And I had the first draft of my talk.",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0146",
+      "start": 378.28,
+      "end": 381.88,
+      "duration": 3.6,
+      "text": "But then, what's the problem with",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0147",
+      "start": 379.6,
+      "end": 383.4,
+      "duration": 3.8,
+      "text": "playing it safe?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0148",
+      "start": 381.88,
+      "end": 386,
+      "duration": 4.12,
+      "text": "Well,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0149",
+      "start": 383.4,
+      "end": 388.92,
+      "duration": 5.52,
+      "text": "when David is spending most of his time",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0150",
+      "start": 386,
+      "end": 390.72,
+      "duration": 4.72,
+      "text": "anticipating every single question he",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0151",
+      "start": 388.92,
+      "end": 392.24,
+      "duration": 3.32,
+      "text": "may get asked during a work",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0152",
+      "start": 390.72,
+      "end": 394.48,
+      "duration": 3.76,
+      "text": "presentation,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0153",
+      "start": 392.24,
+      "end": 397.72,
+      "duration": 5.48,
+      "text": "that he only gets 2 hours of a sleep at",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0154",
+      "start": 394.48,
+      "end": 400.44,
+      "duration": 5.96,
+      "text": "night, that's a problem.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0155",
+      "start": 397.72,
+      "end": 402.6,
+      "duration": 4.88,
+      "text": "When David decides not to go to his",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0156",
+      "start": 400.44,
+      "end": 405.4,
+      "duration": 4.96,
+      "text": "girlfriend's party because he's too",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0157",
+      "start": 402.6,
+      "end": 407.84,
+      "duration": 5.24,
+      "text": "consumed planning what to say to others",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0158",
+      "start": 405.4,
+      "end": 409.88,
+      "duration": 4.48,
+      "text": "without sounding a stupid, that's a",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0159",
+      "start": 407.84,
+      "end": 411.88,
+      "duration": 4.04,
+      "text": "problem.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0160",
+      "start": 409.88,
+      "end": 414.88,
+      "duration": 5,
+      "text": "If I couldn't be present with my clients",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0161",
+      "start": 411.88,
+      "end": 416.88,
+      "duration": 5,
+      "text": "because I couldn't stop dwelling on all",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0162",
+      "start": 414.88,
+      "end": 417.92,
+      "duration": 3.04,
+      "text": "the things that could go wrong in this",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0163",
+      "start": 416.88,
+      "end": 420.12,
+      "duration": 3.24,
+      "text": "talk,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0164",
+      "start": 417.92,
+      "end": 422.84,
+      "duration": 4.92,
+      "text": "that's a problem.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0165",
+      "start": 420.12,
+      "end": 425.64,
+      "duration": 5.52,
+      "text": "Blindly playing it safe is like using",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0166",
+      "start": 422.84,
+      "end": 427.88,
+      "duration": 5.04,
+      "text": "bandages to deal with our fears.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0167",
+      "start": 425.64,
+      "end": 430.52,
+      "duration": 4.88,
+      "text": "Because it's just a matter of time that",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0168",
+      "start": 427.88,
+      "end": 433.48,
+      "duration": 5.6,
+      "text": "ineffective playing it safe moves will",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0169",
+      "start": 430.52,
+      "end": 436.8,
+      "duration": 6.28,
+      "text": "affect other areas of our lives.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0170",
+      "start": 433.48,
+      "end": 441.8,
+      "duration": 8.32,
+      "text": "And our fears will show up again and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0171",
+      "start": 436.8,
+      "end": 441.8,
+      "duration": 5,
+      "text": "again when doing what we care about.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0172",
+      "start": 444.28,
+      "end": 447.68,
+      "duration": 3.4,
+      "text": "Now,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0173",
+      "start": 445.4,
+      "end": 452.6,
+      "duration": 7.2,
+      "text": "contrary to what people believe, the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0174",
+      "start": 447.68,
+      "end": 452.6,
+      "duration": 4.92,
+      "text": "solution is not to stop feeling afraid.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0175",
+      "start": 453.48,
+      "end": 459.32,
+      "duration": 5.84,
+      "text": "Because we don't have a magic wand to",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0176",
+      "start": 455.76,
+      "end": 459.32,
+      "duration": 3.56,
+      "text": "stop our feelings.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0177",
+      "start": 463.56,
+      "end": 468.56,
+      "duration": 5,
+      "text": "It is natural that our minds are going",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0178",
+      "start": 466.12,
+      "end": 470.12,
+      "duration": 4,
+      "text": "to play it safe to play play it safe",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0179",
+      "start": 468.56,
+      "end": 472.28,
+      "duration": 3.72,
+      "text": "because of course they come up with",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0180",
+      "start": 470.12,
+      "end": 475.04,
+      "duration": 4.92,
+      "text": "catastrophic thoughts, terrible",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0181",
+      "start": 472.28,
+      "end": 478.36,
+      "duration": 6.08,
+      "text": "scenarios, and all types of potentially",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0182",
+      "start": 475.04,
+      "end": 478.36,
+      "duration": 3.32,
+      "text": "bad things happening.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0183",
+      "start": 478.44,
+      "end": 482.56,
+      "duration": 4.12,
+      "text": "If there is anything I know as a human",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0184",
+      "start": 480.48,
+      "end": 484.52,
+      "duration": 4.04,
+      "text": "being",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0185",
+      "start": 482.56,
+      "end": 487.6,
+      "duration": 5.04,
+      "text": "and in my professional experience is",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0186",
+      "start": 484.52,
+      "end": 489.76,
+      "duration": 5.24,
+      "text": "that playing it safe is second nature.",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0187",
+      "start": 487.6,
+      "end": 491.84,
+      "duration": 4.24,
+      "text": "And in my work as a psychologist, I have",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0188",
+      "start": 489.76,
+      "end": 493.92,
+      "duration": 4.16,
+      "text": "witnessed many times the different ways",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0189",
+      "start": 491.84,
+      "end": 495.28,
+      "duration": 3.44,
+      "text": "in which playing it safe moves may show",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0190",
+      "start": 493.92,
+      "end": 498,
+      "duration": 4.08,
+      "text": "up.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0191",
+      "start": 495.28,
+      "end": 500.44,
+      "duration": 5.16,
+      "text": "You may try to do things flawlessly.",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0192",
+      "start": 498,
+      "end": 502.76,
+      "duration": 4.76,
+      "text": "You may postpone events. You may search",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0193",
+      "start": 500.44,
+      "end": 505.96,
+      "duration": 5.52,
+      "text": "for certainty.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0194",
+      "start": 502.76,
+      "end": 508.84,
+      "duration": 6.08,
+      "text": "You may criticize yourself.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0195",
+      "start": 505.96,
+      "end": 511.92,
+      "duration": 5.96,
+      "text": "You may worry about a past failure or",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0196",
+      "start": 508.84,
+      "end": 514.6,
+      "duration": 5.76,
+      "text": "worry about a negative future.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0197",
+      "start": 511.92,
+      "end": 517.04,
+      "duration": 5.12,
+      "text": "You may ignore your needs. You may put",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0198",
+      "start": 514.6,
+      "end": 519.12,
+      "duration": 4.52,
+      "text": "others needs above yours, or you may",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0199",
+      "start": 517.04,
+      "end": 521.72,
+      "duration": 4.68,
+      "text": "question your capacity to do hard",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0200",
+      "start": 519.12,
+      "end": 521.72,
+      "duration": 2.6,
+      "text": "things.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0201",
+      "start": 522,
+      "end": 526.48,
+      "duration": 4.48,
+      "text": "Sometimes you may notice when you're",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0202",
+      "start": 523.6,
+      "end": 528.72,
+      "duration": 5.12,
+      "text": "playing it safe. Other times you may not",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0203",
+      "start": 526.48,
+      "end": 531.16,
+      "duration": 4.68,
+      "text": "realize that you're doing it.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0204",
+      "start": 528.72,
+      "end": 533.4,
+      "duration": 4.68,
+      "text": "So, to catch your playing it safe moves,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0205",
+      "start": 531.16,
+      "end": 536.6,
+      "duration": 5.44,
+      "text": "you need to keep an eye on all those",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0206",
+      "start": 533.4,
+      "end": 539.2,
+      "duration": 5.8,
+      "text": "moments in which you are endlessly going",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0207",
+      "start": 536.6,
+      "end": 540.96,
+      "duration": 4.36,
+      "text": "over the same content in your head.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0208",
+      "start": 539.2,
+      "end": 543.32,
+      "duration": 4.12,
+      "text": "Because repetition is a key",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0209",
+      "start": 540.96,
+      "end": 545.2,
+      "duration": 4.24,
+      "text": "characteristic of all playing it safe",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0210",
+      "start": 543.32,
+      "end": 547.84,
+      "duration": 4.52,
+      "text": "moves.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0211",
+      "start": 545.2,
+      "end": 550,
+      "duration": 4.8,
+      "text": "Research has consistently shown that our",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0212",
+      "start": 547.84,
+      "end": 552.8,
+      "duration": 4.96,
+      "text": "playing it safe moves feed into our",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0213",
+      "start": 550,
+      "end": 554.84,
+      "duration": 4.84,
+      "text": "fear-based emotions like adding logs to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0214",
+      "start": 552.8,
+      "end": 557.36,
+      "duration": 4.56,
+      "text": "a fire.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0215",
+      "start": 554.84,
+      "end": 560.48,
+      "duration": 5.64,
+      "text": "If we play it safe too often,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0216",
+      "start": 557.36,
+      "end": 562.88,
+      "duration": 5.52,
+      "text": "too quickly, and for too long, we don't",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0217",
+      "start": 560.48,
+      "end": 564.12,
+      "duration": 3.64,
+      "text": "learn how to handle effectively our",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0218",
+      "start": 562.88,
+      "end": 566.12,
+      "duration": 3.24,
+      "text": "fears.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0219",
+      "start": 564.12,
+      "end": 569,
+      "duration": 4.88,
+      "text": "And we're left with the consequences of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0220",
+      "start": 566.12,
+      "end": 571.72,
+      "duration": 5.6,
+      "text": "overprotecting ourselves.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0221",
+      "start": 569,
+      "end": 574.88,
+      "duration": 5.88,
+      "text": "We avoid difficult conversations.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0222",
+      "start": 571.72,
+      "end": 576.12,
+      "duration": 4.4,
+      "text": "We say no to what matters.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0223",
+      "start": 574.88,
+      "end": 578.72,
+      "duration": 3.84,
+      "text": "We",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0224",
+      "start": 576.12,
+      "end": 581.08,
+      "duration": 4.96,
+      "text": "become directionless. We are stopping",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0225",
+      "start": 578.72,
+      "end": 583.32,
+      "duration": 4.6,
+      "text": "ourselves.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0226",
+      "start": 581.08,
+      "end": 585.44,
+      "duration": 4.36,
+      "text": "How many of you play it safe without",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0227",
+      "start": 583.32,
+      "end": 587.72,
+      "duration": 4.4,
+      "text": "checking how your playing it safe moves",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0228",
+      "start": 585.44,
+      "end": 590.12,
+      "duration": 4.68,
+      "text": "are really working in your life,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0229",
+      "start": 587.72,
+      "end": 593.48,
+      "duration": 5.76,
+      "text": "in your relationship with others, and in",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0230",
+      "start": 590.12,
+      "end": 596.04,
+      "duration": 5.92,
+      "text": "the relationship with yourself?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0231",
+      "start": 593.48,
+      "end": 598.96,
+      "duration": 5.48,
+      "text": "Now, as I said before, contrary to what",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0232",
+      "start": 596.04,
+      "end": 601.96,
+      "duration": 5.92,
+      "text": "people believe, the solution is not to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0233",
+      "start": 598.96,
+      "end": 604.04,
+      "duration": 5.08,
+      "text": "stop feeling those fear-based emotions.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0234",
+      "start": 601.96,
+      "end": 605.64,
+      "duration": 3.68,
+      "text": "We don't have a magic wand to stop our",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0235",
+      "start": 604.04,
+      "end": 609.44,
+      "duration": 5.4,
+      "text": "feelings.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0236",
+      "start": 605.64,
+      "end": 612.72,
+      "duration": 7.08,
+      "text": "Second, no matter how old we are, who we",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0237",
+      "start": 609.44,
+      "end": 616.04,
+      "duration": 6.6,
+      "text": "are with, or where we live, we are bound",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0238",
+      "start": 612.72,
+      "end": 618.72,
+      "duration": 6,
+      "text": "to feel anxious, worried, and afraid,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0239",
+      "start": 616.04,
+      "end": 620.8,
+      "duration": 4.76,
+      "text": "and we will play it safe.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0240",
+      "start": 618.72,
+      "end": 622.92,
+      "duration": 4.2,
+      "text": "You may be thinking, if we cannot",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0241",
+      "start": 620.8,
+      "end": 625.12,
+      "duration": 4.32,
+      "text": "control our feelings,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0242",
+      "start": 622.92,
+      "end": 626.76,
+      "duration": 3.84,
+      "text": "if we play if we will play it safe",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0243",
+      "start": 625.12,
+      "end": 629.8,
+      "duration": 4.68,
+      "text": "either way,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0244",
+      "start": 626.76,
+      "end": 633.12,
+      "duration": 6.36,
+      "text": "and we will feel afraid anyway, then how",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0245",
+      "start": 629.8,
+      "end": 634.88,
+      "duration": 5.08,
+      "text": "do we know what to do?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0246",
+      "start": 633.12,
+      "end": 636.6,
+      "duration": 3.48,
+      "text": "That has been the key question of my",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0247",
+      "start": 634.88,
+      "end": 639.44,
+      "duration": 4.56,
+      "text": "life's work.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0248",
+      "start": 636.6,
+      "end": 642.2,
+      "duration": 5.6,
+      "text": "How can we get unstuck from fear-based",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0249",
+      "start": 639.44,
+      "end": 643.88,
+      "duration": 4.44,
+      "text": "emotions so we can live a fulfilling",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0250",
+      "start": 642.2,
+      "end": 646.4,
+      "duration": 4.2,
+      "text": "life?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0251",
+      "start": 643.88,
+      "end": 648.68,
+      "duration": 4.8,
+      "text": "Here's my response.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0252",
+      "start": 646.4,
+      "end": 653.2,
+      "duration": 6.8,
+      "text": "We learn to do what matters while",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0253",
+      "start": 648.68,
+      "end": 655.08,
+      "duration": 6.4,
+      "text": "feeling anxious, worried, and afraid.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0254",
+      "start": 653.2,
+      "end": 657.32,
+      "duration": 4.12,
+      "text": "We learn to not fight those yucky",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0255",
+      "start": 655.08,
+      "end": 659.64,
+      "duration": 4.56,
+      "text": "feelings, but choose to have them in the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0256",
+      "start": 657.32,
+      "end": 661.28,
+      "duration": 3.96,
+      "text": "service of what is truly important to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0257",
+      "start": 659.64,
+      "end": 663.44,
+      "duration": 3.8,
+      "text": "us.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0258",
+      "start": 661.28,
+      "end": 665.72,
+      "duration": 4.44,
+      "text": "We learn to check how our playing it",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0259",
+      "start": 663.44,
+      "end": 667.36,
+      "duration": 3.92,
+      "text": "safe moves are really working in our",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0260",
+      "start": 665.72,
+      "end": 669.92,
+      "duration": 4.2,
+      "text": "life.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0261",
+      "start": 667.36,
+      "end": 671.6,
+      "duration": 4.24,
+      "text": "Learning these skills changed David's",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0262",
+      "start": 669.92,
+      "end": 675.6,
+      "duration": 5.68,
+      "text": "life because they changed his",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0263",
+      "start": 671.6,
+      "end": 677.68,
+      "duration": 6.08,
+      "text": "relationship to his fear-based emotions.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0264",
+      "start": 675.6,
+      "end": 680.84,
+      "duration": 5.24,
+      "text": "These are the same skills that have",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0265",
+      "start": 677.68,
+      "end": 683.16,
+      "duration": 5.48,
+      "text": "helped me to be a better psychologist",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0266",
+      "start": 680.84,
+      "end": 685.2,
+      "duration": 4.36,
+      "text": "and a better human being.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0267",
+      "start": 683.16,
+      "end": 687.2,
+      "duration": 4.04,
+      "text": "Today, I want to share with all of you",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0268",
+      "start": 685.2,
+      "end": 689.08,
+      "duration": 3.88,
+      "text": "some of these skills.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0269",
+      "start": 687.2,
+      "end": 691.4,
+      "duration": 4.2,
+      "text": "Here's the first one.",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0270",
+      "start": 689.08,
+      "end": 694.12,
+      "duration": 5.04,
+      "text": "Watch your mind.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0271",
+      "start": 691.4,
+      "end": 697.64,
+      "duration": 6.24,
+      "text": "Our minds are wonderful devices that are",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0272",
+      "start": 694.12,
+      "end": 701.24,
+      "duration": 7.12,
+      "text": "always creating all types of content.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0273",
+      "start": 697.64,
+      "end": 703.76,
+      "duration": 6.12,
+      "text": "Hypothesis, dreams, memories, opinions.",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0274",
+      "start": 701.24,
+      "end": 707,
+      "duration": 5.76,
+      "text": "Even when we are sleeping, our minds are",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0275",
+      "start": 703.76,
+      "end": 709.2,
+      "duration": 5.44,
+      "text": "going on and on and on.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0276",
+      "start": 707,
+      "end": 711.64,
+      "duration": 4.64,
+      "text": "Right now, as you're listening to this",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0277",
+      "start": 709.2,
+      "end": 713.32,
+      "duration": 4.12,
+      "text": "talk and my accent, what is your mind",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0278",
+      "start": 711.64,
+      "end": 715.32,
+      "duration": 3.68,
+      "text": "doing?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0279",
+      "start": 713.32,
+      "end": 716.92,
+      "duration": 3.6,
+      "text": "Is it in the present?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0280",
+      "start": 715.32,
+      "end": 718.6,
+      "duration": 3.28,
+      "text": "Are you thinking about what you had for",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0281",
+      "start": 716.92,
+      "end": 720.32,
+      "duration": 3.4,
+      "text": "breakfast?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0282",
+      "start": 718.6,
+      "end": 722.44,
+      "duration": 3.84,
+      "text": "Are you thinking about a trip you want",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0283",
+      "start": 720.32,
+      "end": 724.52,
+      "duration": 4.2,
+      "text": "to take?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0284",
+      "start": 722.44,
+      "end": 729,
+      "duration": 6.56,
+      "text": "According to the National Science",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0285",
+      "start": 724.52,
+      "end": 732.8,
+      "duration": 8.28,
+      "text": "Foundation, we have between 12,000",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0286",
+      "start": 729,
+      "end": 736.2,
+      "duration": 7.2,
+      "text": "and 60,000 thoughts per day.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0287",
+      "start": 732.8,
+      "end": 738.2,
+      "duration": 5.4,
+      "text": "Yep, we have busy minds, all of us.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0288",
+      "start": 736.2,
+      "end": 739.76,
+      "duration": 3.56,
+      "text": "And our minds also tell us when we are",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0289",
+      "start": 738.2,
+      "end": 741.8,
+      "duration": 3.6,
+      "text": "under threat.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0290",
+      "start": 739.76,
+      "end": 744.48,
+      "duration": 4.72,
+      "text": "When a fast-moving truck is speeding",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0291",
+      "start": 741.8,
+      "end": 745.44,
+      "duration": 3.64,
+      "text": "towards us, our minds tell us, \"Watch",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0292",
+      "start": 744.48,
+      "end": 747.92,
+      "duration": 3.44,
+      "text": "out.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0293",
+      "start": 745.44,
+      "end": 751.4,
+      "duration": 5.96,
+      "text": "But our minds also tell us, \"Watch out.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0294",
+      "start": 747.92,
+      "end": 752.88,
+      "duration": 4.96,
+      "text": "when imagining future danger.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0295",
+      "start": 751.4,
+      "end": 755.12,
+      "duration": 3.72,
+      "text": "If you don't say the right things on",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0296",
+      "start": 752.88,
+      "end": 756.76,
+      "duration": 3.88,
+      "text": "your date, she won't go out with you",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0297",
+      "start": 755.12,
+      "end": 758.68,
+      "duration": 3.56,
+      "text": "again.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0298",
+      "start": 756.76,
+      "end": 760.76,
+      "duration": 4,
+      "text": "If you don't foresee everything that",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0299",
+      "start": 758.68,
+      "end": 762.64,
+      "duration": 3.96,
+      "text": "could go wrong in this talk, you will be",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0300",
+      "start": 760.76,
+      "end": 765.04,
+      "duration": 4.28,
+      "text": "unprepared.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0301",
+      "start": 762.64,
+      "end": 767.12,
+      "duration": 4.48,
+      "text": "If you tell people what you really think",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0302",
+      "start": 765.04,
+      "end": 768.2,
+      "duration": 3.16,
+      "text": "about their politics, they will reject",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0303",
+      "start": 767.12,
+      "end": 770.48,
+      "duration": 3.36,
+      "text": "you.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0304",
+      "start": 768.2,
+      "end": 772.84,
+      "duration": 4.64,
+      "text": "And with all those thoughts expelling",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0305",
+      "start": 770.48,
+      "end": 775.52,
+      "duration": 5.04,
+      "text": "our heads, of course,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0306",
+      "start": 772.84,
+      "end": 776.68,
+      "duration": 3.84,
+      "text": "our mind tell us, \"Better safe than",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0307",
+      "start": 775.52,
+      "end": 778.92,
+      "duration": 3.4,
+      "text": "sorry.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0308",
+      "start": 776.68,
+      "end": 782.08,
+      "duration": 5.4,
+      "text": "Ask us to play it safe as a way of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0309",
+      "start": 778.92,
+      "end": 785.52,
+      "duration": 6.6,
+      "text": "protecting us, as a way of avoiding the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0310",
+      "start": 782.08,
+      "end": 785.52,
+      "duration": 3.44,
+      "text": "potential downfall.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0311",
+      "start": 787.76,
+      "end": 791.24,
+      "duration": 3.48,
+      "text": "But our minds are not the oracle of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0312",
+      "start": 790.28,
+      "end": 793.4,
+      "duration": 3.12,
+      "text": "truth.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0313",
+      "start": 791.24,
+      "end": 796.52,
+      "duration": 5.28,
+      "text": "Our minds are more like an advisory",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0314",
+      "start": 793.4,
+      "end": 798.4,
+      "duration": 5,
+      "text": "board, chiming in and giving advice.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0315",
+      "start": 796.52,
+      "end": 801.08,
+      "duration": 4.56,
+      "text": "Sometimes the advisory board of your",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0316",
+      "start": 798.4,
+      "end": 803.88,
+      "duration": 5.48,
+      "text": "mind will offer you great advice.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0317",
+      "start": 801.08,
+      "end": 805.84,
+      "duration": 4.76,
+      "text": "And other times, it simply doesn't.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0318",
+      "start": 803.88,
+      "end": 809.12,
+      "duration": 5.24,
+      "text": "For example, yesterday when I was",
+      "density_tier": "MEDIUM",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0319",
+      "start": 805.84,
+      "end": 810.52,
+      "duration": 4.68,
+      "text": "driving, my advisory told me, \"You are",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0320",
+      "start": 809.12,
+      "end": 812.6,
+      "duration": 3.48,
+      "text": "in danger.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0321",
+      "start": 810.52,
+      "end": 815.92,
+      "duration": 5.4,
+      "text": "And urged me to play it safe by looking",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0322",
+      "start": 812.6,
+      "end": 817.72,
+      "duration": 5.12,
+      "text": "both ways before making a turn. That was",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0323",
+      "start": 815.92,
+      "end": 819.6,
+      "duration": 3.68,
+      "text": "helpful advice.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0324",
+      "start": 817.72,
+      "end": 822.08,
+      "duration": 4.36,
+      "text": "When preparing for this talk, my",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0325",
+      "start": 819.6,
+      "end": 823.88,
+      "duration": 4.28,
+      "text": "advisory board told me, \"You will mess",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0326",
+      "start": 822.08,
+      "end": 826.72,
+      "duration": 4.64,
+      "text": "up. You don't know what you're talking",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0327",
+      "start": 823.88,
+      "end": 829.56,
+      "duration": 5.68,
+      "text": "about.\" And urged me to play it safe by",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0328",
+      "start": 826.72,
+      "end": 831.48,
+      "duration": 4.76,
+      "text": "avoiding this talk altogether.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0329",
+      "start": 829.56,
+      "end": 833.76,
+      "duration": 4.2,
+      "text": "That wasn't helpful advice.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0330",
+      "start": 831.48,
+      "end": 836.92,
+      "duration": 5.44,
+      "text": "Because if I had listened to my advisory",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0331",
+      "start": 833.76,
+      "end": 839.48,
+      "duration": 5.72,
+      "text": "board and avoided being here with all of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0332",
+      "start": 836.92,
+      "end": 842.48,
+      "duration": 5.56,
+      "text": "you today, I would have moved farther",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0333",
+      "start": 839.48,
+      "end": 843.84,
+      "duration": 4.36,
+      "text": "away from doing what is truly important",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0334",
+      "start": 842.48,
+      "end": 845.96,
+      "duration": 3.48,
+      "text": "to me.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0335",
+      "start": 843.84,
+      "end": 848.04,
+      "duration": 4.2,
+      "text": "So, what do you do when your advisory",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0336",
+      "start": 845.96,
+      "end": 849.2,
+      "duration": 3.24,
+      "text": "board is starts pushing you to play it",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0337",
+      "start": 848.04,
+      "end": 851,
+      "duration": 2.96,
+      "text": "safe?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0338",
+      "start": 849.2,
+      "end": 852.8,
+      "duration": 3.6,
+      "text": "Watch your mind.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0339",
+      "start": 851,
+      "end": 854.24,
+      "duration": 3.24,
+      "text": "Notice when your advisory board is",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0340",
+      "start": 852.8,
+      "end": 856.64,
+      "duration": 3.84,
+      "text": "starts talking.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0341",
+      "start": 854.24,
+      "end": 858.04,
+      "duration": 3.8,
+      "text": "Maybe even say, \"I hear you, advisory",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0342",
+      "start": 856.64,
+      "end": 860.48,
+      "duration": 3.84,
+      "text": "board.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0343",
+      "start": 858.04,
+      "end": 863.4,
+      "duration": 5.36,
+      "text": "Then, try another skill.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0344",
+      "start": 860.48,
+      "end": 866.12,
+      "duration": 5.64,
+      "text": "Radically accept that advisory board of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0345",
+      "start": 863.4,
+      "end": 867.6,
+      "duration": 4.2,
+      "text": "your mind will always urge you to play",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0346",
+      "start": 866.12,
+      "end": 869.56,
+      "duration": 3.44,
+      "text": "it safe.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0347",
+      "start": 867.6,
+      "end": 872.24,
+      "duration": 4.64,
+      "text": "You can even say, \"Hey, you're trying to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0348",
+      "start": 869.56,
+      "end": 875.32,
+      "duration": 5.76,
+      "text": "convince me to play it safe again, like",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0349",
+      "start": 872.24,
+      "end": 877.56,
+      "duration": 5.32,
+      "text": "you always do.\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0350",
+      "start": 875.32,
+      "end": 880.32,
+      "duration": 5,
+      "text": "You may be thinking, \"Mhm, but if my",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0351",
+      "start": 877.56,
+      "end": 882.76,
+      "duration": 5.2,
+      "text": "advisory board tells me that something",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0352",
+      "start": 880.32,
+      "end": 885.36,
+      "duration": 5.04,
+      "text": "bad is going to happen, how do I know",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0353",
+      "start": 882.76,
+      "end": 887.36,
+      "duration": 4.6,
+      "text": "when to listen to my advisory board and",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0354",
+      "start": 885.36,
+      "end": 889.4,
+      "duration": 4.04,
+      "text": "when not to?\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0355",
+      "start": 887.36,
+      "end": 891.04,
+      "duration": 3.68,
+      "text": "Here is my response and another skill",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0356",
+      "start": 889.4,
+      "end": 894.08,
+      "duration": 4.68,
+      "text": "for you.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0357",
+      "start": 891.04,
+      "end": 896.76,
+      "duration": 5.72,
+      "text": "You need to identify the long-term",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0358",
+      "start": 894.08,
+      "end": 899.64,
+      "duration": 5.56,
+      "text": "consequences of doing whatever your",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0359",
+      "start": 896.76,
+      "end": 901.88,
+      "duration": 5.12,
+      "text": "advisory board asks you to do.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0360",
+      "start": 899.64,
+      "end": 904.12,
+      "duration": 4.48,
+      "text": "Ask yourself,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0361",
+      "start": 901.88,
+      "end": 907.8,
+      "duration": 5.92,
+      "text": "\"If I listen to my advisory board, will",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0362",
+      "start": 904.12,
+      "end": 910.28,
+      "duration": 6.16,
+      "text": "I become the person I want to be?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0363",
+      "start": 907.8,
+      "end": 913.64,
+      "duration": 5.84,
+      "text": "Will my play-it-safe behaviors allow me",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0364",
+      "start": 910.28,
+      "end": 916.12,
+      "duration": 5.84,
+      "text": "to be the kind of friend I want to be?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0365",
+      "start": 913.64,
+      "end": 918.04,
+      "duration": 4.4,
+      "text": "The kind of worker or a student I want",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0366",
+      "start": 916.12,
+      "end": 921.32,
+      "duration": 5.2,
+      "text": "to be?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0367",
+      "start": 918.04,
+      "end": 924,
+      "duration": 5.96,
+      "text": "Will my play-it-safe actions allow me to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0368",
+      "start": 921.32,
+      "end": 926.44,
+      "duration": 5.12,
+      "text": "be the kind of partner or parent I want",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0369",
+      "start": 924,
+      "end": 926.44,
+      "duration": 2.44,
+      "text": "to be.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0370",
+      "start": 926.56,
+      "end": 932.44,
+      "duration": 5.88,
+      "text": "When your advisory board starts talking,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0371",
+      "start": 929.6,
+      "end": 934.96,
+      "duration": 5.36,
+      "text": "don't engage with your advisory board by",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0372",
+      "start": 932.44,
+      "end": 937.52,
+      "duration": 5.08,
+      "text": "debating what is accurate or not, what",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0373",
+      "start": 934.96,
+      "end": 939.6,
+      "duration": 4.64,
+      "text": "is right or wrong, or rationalizing,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0374",
+      "start": 937.52,
+      "end": 940.92,
+      "duration": 3.4,
+      "text": "because that's how you start playing it",
+      "density_tier": "HIGH",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0375",
+      "start": 939.6,
+      "end": 944.08,
+      "duration": 4.48,
+      "text": "safe.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0376",
+      "start": 940.92,
+      "end": 946.96,
+      "duration": 6.04,
+      "text": "Instead, remember that your mind cannot",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0377",
+      "start": 944.08,
+      "end": 949.36,
+      "duration": 5.28,
+      "text": "control coming up with fearful thoughts,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0378",
+      "start": 946.96,
+      "end": 951.76,
+      "duration": 4.8,
+      "text": "but you can choose how to respond to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0379",
+      "start": 949.36,
+      "end": 953.8,
+      "duration": 4.44,
+      "text": "them and whether you play it safe or",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0380",
+      "start": 951.76,
+      "end": 956.04,
+      "duration": 4.28,
+      "text": "not.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0381",
+      "start": 953.8,
+      "end": 957.44,
+      "duration": 3.64,
+      "text": "So, what happened to my wonderful coffee",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0382",
+      "start": 956.04,
+      "end": 959.64,
+      "duration": 3.6,
+      "text": "maker?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0383",
+      "start": 957.44,
+      "end": 961.88,
+      "duration": 4.44,
+      "text": "Well, fed up with playing it safe, I",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0384",
+      "start": 959.64,
+      "end": 963.64,
+      "duration": 4,
+      "text": "drove back to a store and simply bought",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0385",
+      "start": 961.88,
+      "end": 966.12,
+      "duration": 4.24,
+      "text": "a coffee maker.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0386",
+      "start": 963.64,
+      "end": 968.64,
+      "duration": 5,
+      "text": "I still have this kitchen gadget 15",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0387",
+      "start": 966.12,
+      "end": 970.44,
+      "duration": 4.32,
+      "text": "years later and love the smell of coffee",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0388",
+      "start": 968.64,
+      "end": 972.64,
+      "duration": 4,
+      "text": "every morning.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0389",
+      "start": 970.44,
+      "end": 975.48,
+      "duration": 5.04,
+      "text": "What do you do when the figurative",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0390",
+      "start": 972.64,
+      "end": 977.28,
+      "duration": 4.64,
+      "text": "coffee maker of your life breaks down",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0391",
+      "start": 975.48,
+      "end": 978.8,
+      "duration": 3.32,
+      "text": "and your advisory board it starts",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0392",
+      "start": 977.28,
+      "end": 980.88,
+      "duration": 3.6,
+      "text": "yapping?",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0393",
+      "start": 978.8,
+      "end": 983.08,
+      "duration": 4.28,
+      "text": "Use the skills from this talk to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0394",
+      "start": 980.88,
+      "end": 985.48,
+      "duration": 4.6,
+      "text": "determine whether you should listen to",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0395",
+      "start": 983.08,
+      "end": 988.92,
+      "duration": 5.84,
+      "text": "its warning or shrug it off.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0396",
+      "start": 985.48,
+      "end": 991,
+      "duration": 5.52,
+      "text": "To recap, one, watch your mind.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0397",
+      "start": 988.92,
+      "end": 993.72,
+      "duration": 4.8,
+      "text": "Notice when your advisory board it",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0398",
+      "start": 991,
+      "end": 996.12,
+      "duration": 5.12,
+      "text": "starts to predict how your life is about",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0399",
+      "start": 993.72,
+      "end": 998.76,
+      "duration": 5.04,
+      "text": "to go downhill and demands that you play",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0400",
+      "start": 996.12,
+      "end": 999.72,
+      "duration": 3.6,
+      "text": "it safe or else.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0401",
+      "start": 998.76,
+      "end": 1002.44,
+      "duration": 3.68,
+      "text": "Two,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0402",
+      "start": 999.72,
+      "end": 1006.64,
+      "duration": 6.92,
+      "text": "radically accept that your advisory",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0403",
+      "start": 1002.44,
+      "end": 1009,
+      "duration": 6.56,
+      "text": "board is always trying to protect you.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0404",
+      "start": 1006.64,
+      "end": 1011.32,
+      "duration": 4.68,
+      "text": "Catch those urges to play it safe by",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0405",
+      "start": 1009,
+      "end": 1013.76,
+      "duration": 4.76,
+      "text": "using all those familiar thinking",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0406",
+      "start": 1011.32,
+      "end": 1016.28,
+      "duration": 4.96,
+      "text": "strategies without engaging in the",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0407",
+      "start": 1013.76,
+      "end": 1017.68,
+      "duration": 3.92,
+      "text": "internal chit-chat.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0408",
+      "start": 1016.28,
+      "end": 1020.32,
+      "duration": 4.04,
+      "text": "And three,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0409",
+      "start": 1017.68,
+      "end": 1022.88,
+      "duration": 5.2,
+      "text": "identify the long-term consequences of",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0410",
+      "start": 1020.32,
+      "end": 1024.48,
+      "duration": 4.16,
+      "text": "blindly doing what advisory board wants",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0411",
+      "start": 1022.88,
+      "end": 1026.68,
+      "duration": 3.8,
+      "text": "you to do.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0412",
+      "start": 1024.48,
+      "end": 1029.36,
+      "duration": 4.88,
+      "text": "Call on your personal values and ask",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0413",
+      "start": 1026.68,
+      "end": 1031.2,
+      "duration": 4.52,
+      "text": "yourself, \"If I do what my advisory",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0414",
+      "start": 1029.36,
+      "end": 1034.64,
+      "duration": 5.28,
+      "text": "board wants me to do,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0415",
+      "start": 1031.2,
+      "end": 1037.76,
+      "duration": 6.56,
+      "text": "does it take me closer to or farther",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0416",
+      "start": 1034.64,
+      "end": 1039.96,
+      "duration": 5.32,
+      "text": "away from who I want to be?\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0417",
+      "start": 1037.76,
+      "end": 1041.08,
+      "duration": 3.32,
+      "text": "And if you are still a struggling, ask",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0418",
+      "start": 1039.96,
+      "end": 1043.72,
+      "duration": 3.76,
+      "text": "yourself,",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0419",
+      "start": 1041.08,
+      "end": 1046.56,
+      "duration": 5.48,
+      "text": "\"Do I want to drink a cup of coffee or",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0420",
+      "start": 1043.72,
+      "end": 1049.12,
+      "duration": 5.4,
+      "text": "just think about it for 3 months?\"",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    },
+    {
+      "id": "seg-0421",
+      "start": 1046.56,
+      "end": 1049.12,
+      "duration": 2.56,
+      "text": "Thank you.",
+      "density_tier": "LOW",
+      "status": "PRESERVED"
+    }
+  ],
+  "audit_log": [],
+  "total_raw_segments": 421,
+  "total_cleaned_segments": 421,
+  "removed_segments_count": 0,
+  "retention_rate_pct": 100
+}

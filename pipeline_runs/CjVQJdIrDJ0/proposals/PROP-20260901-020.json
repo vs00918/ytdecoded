@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-020",
+  "created_at": "2026-09-01T15:11:18.096Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-026",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for CjVQJdIrDJ0",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-291",
+      "start": 2103.1,
+      "end": 2114.2,
+      "quoted_text": "later, we're in the theater in London. And it goes dark. And we watch. And then, the"
+    },
+    {
+      "entity_id": "CLM-292",
+      "start": 2114.2,
+      "end": 2122.7,
+      "quoted_text": "lights come back on and next to me, same guy. Now, the important point is that I was less"
+    },
+    {
+      "entity_id": "CLM-293",
+      "start": 2122.7,
+      "end": 2131.3,
+      "quoted_text": "surprised the second time than the first. Because \"Oh, John, he is the guy I meet everywhere.\""
+    },
+    {
+      "entity_id": "CLM-294",
+      "start": 2131.3,
+      "end": 2135.4,
+      "quoted_text": "[laughter] It takes very little time to create what we"
+    },
+    {
+      "entity_id": "CLM-295",
+      "start": 2135.4,
+      "end": 2143.8,
+      "quoted_text": "call \"a norm.\" So one event, the second event links back to the first. If I had met anybody"
+    },
+    {
+      "entity_id": "CLM-296",
+      "start": 2143.8,
+      "end": 2151.5,
+      "quoted_text": "else, that is what's impressed me. If I had met anybody else, I would have been more surprised."
+    },
+    {
+      "entity_id": "CLM-297",
+      "start": 2151.5,
+      "end": 2158.1,
+      "quoted_text": "And that's odd if you think about statistically, it's crazy. But in fact, it was very clear"
+    },
+    {
+      "entity_id": "CLM-298",
+      "start": 2158.1,
+      "end": 2164.2,
+      "quoted_text": "that and I wouldn't say that I consciously expect to see John wherever I go. But, you"
+    },
+    {
+      "entity_id": "CLM-299",
+      "start": 2164.2,
+      "end": 2169.2,
+      "quoted_text": "know, if I'm going to meet someone, I'd be prepared to meet John."
+    },
+    {
+      "entity_id": "CLM-300",
+      "start": 2169.2,
+      "end": 2173.8,
+      "quoted_text": "[laughter] Now, I've mentioned something about causal"
+    },
+    {
+      "entity_id": "CLM-301",
+      "start": 2173.8,
+      "end": 2180.6,
+      "quoted_text": "thinking. And I want to give you some sense how that works. So it's a question, which"
+    },
+    {
+      "entity_id": "CLM-302",
+      "start": 2180.6,
+      "end": 2187,
+      "quoted_text": "is more probable that a mother has blue eyes if her daughter has blue eyes or her daughter"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for CjVQJdIrDJ0\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=CjVQJdIrDJ0.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for CjVQJdIrDJ0\n\n## Core Mechanics\n- **Core Thesis**: later, we're in the theater in London. And it goes dark. And we watch. And then, the\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CjVQJdIrDJ0)\n  - [2103s-2114s]: \"later, we're in the theater in London. And it goes dark. And we watch. And then, the\"\n  - [2114s-2122s]: \"lights come back on and next to me, same guy. Now, the important point is that I was less\"\n  - [2122s-2131s]: \"surprised the second time than the first. Because \"Oh, John, he is the guy I meet everywhere.\"\"\n  - [2131s-2135s]: \"[laughter] It takes very little time to create what we\"\n  - [2135s-2143s]: \"call \"a norm.\" So one event, the second event links back to the first. If I had met anybody\"\n  - [2143s-2151s]: \"else, that is what's impressed me. If I had met anybody else, I would have been more surprised.\"\n  - [2151s-2158s]: \"And that's odd if you think about statistically, it's crazy. But in fact, it was very clear\"\n  - [2158s-2164s]: \"that and I wouldn't say that I consciously expect to see John wherever I go. But, you\"\n  - [2164s-2169s]: \"know, if I'm going to meet someone, I'd be prepared to meet John.\"\n  - [2169s-2173s]: \"[laughter] Now, I've mentioned something about causal\"\n  - [2173s-2180s]: \"thinking. And I want to give you some sense how that works. So it's a question, which\"\n  - [2180s-2187s]: \"is more probable that a mother has blue eyes if her daughter has blue eyes or her daughter\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for CjVQJdIrDJ0\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=CjVQJdIrDJ0.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for CjVQJdIrDJ0\n+\n+## Core Mechanics\n+- **Core Thesis**: later, we're in the theater in London. And it goes dark. And we watch. And then, the\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CjVQJdIrDJ0)\n+  - [2103s-2114s]: \"later, we're in the theater in London. And it goes dark. And we watch. And then, the\"\n+  - [2114s-2122s]: \"lights come back on and next to me, same guy. Now, the important point is that I was less\"\n+  - [2122s-2131s]: \"surprised the second time than the first. Because \"Oh, John, he is the guy I meet everywhere.\"\"\n+  - [2131s-2135s]: \"[laughter] It takes very little time to create what we\"\n+  - [2135s-2143s]: \"call \"a norm.\" So one event, the second event links back to the first. If I had met anybody\"\n+  - [2143s-2151s]: \"else, that is what's impressed me. If I had met anybody else, I would have been more surprised.\"\n+  - [2151s-2158s]: \"And that's odd if you think about statistically, it's crazy. But in fact, it was very clear\"\n+  - [2158s-2164s]: \"that and I wouldn't say that I consciously expect to see John wherever I go. But, you\"\n+  - [2164s-2169s]: \"know, if I'm going to meet someone, I'd be prepared to meet John.\"\n+  - [2169s-2173s]: \"[laughter] Now, I've mentioned something about causal\"\n+  - [2173s-2180s]: \"thinking. And I want to give you some sense how that works. So it's a question, which\"\n+  - [2180s-2187s]: \"is more probable that a mother has blue eyes if her daughter has blue eyes or her daughter\"\n"
+  }
+}

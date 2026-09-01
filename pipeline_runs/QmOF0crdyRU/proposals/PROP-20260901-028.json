@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-028",
+  "created_at": "2026-09-01T15:11:31.263Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-034",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 4).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-384",
+      "start": 1038.5,
+      "end": 1042.5,
+      "quoted_text": "This is not surprisingly called the nigrostriatal pathway."
+    },
+    {
+      "entity_id": "CLM-385",
+      "start": 1042.5,
+      "end": 1044.5,
+      "quoted_text": "For those of you who have never done any neuroanatomy,"
+    },
+    {
+      "entity_id": "CLM-386",
+      "start": 1044.5,
+      "end": 1046.4,
+      "quoted_text": "I'm going to teach you a little trick right now."
+    },
+    {
+      "entity_id": "CLM-387",
+      "start": 1046.4,
+      "end": 1047.8,
+      "quoted_text": "Everything in neuroanatomy,"
+    },
+    {
+      "entity_id": "CLM-388",
+      "start": 1047.8,
+      "end": 1052.5,
+      "quoted_text": "the first part of a word tells you where the neurons are."
+    },
+    {
+      "entity_id": "CLM-389",
+      "start": 1052.5,
+      "end": 1053.6,
+      "quoted_text": "And then the second part tells you"
+    },
+    {
+      "entity_id": "CLM-390",
+      "start": 1053.6,
+      "end": 1054.8,
+      "quoted_text": "where they are connecting to."
+    },
+    {
+      "entity_id": "CLM-391",
+      "start": 1054.8,
+      "end": 1057.3,
+      "quoted_text": "So when I say nigropstriatal pathway,"
+    },
+    {
+      "entity_id": "CLM-392",
+      "start": 1057.3,
+      "end": 1059.4,
+      "quoted_text": "it means that the neurons are in substantial nigra"
+    },
+    {
+      "entity_id": "CLM-393",
+      "start": 1059.4,
+      "end": 1062.6,
+      "quoted_text": "and they connect to the striatum, nigrostriatal pathway."
+    },
+    {
+      "entity_id": "CLM-394",
+      "start": 1062.6,
+      "end": 1065.5,
+      "quoted_text": "So while it's a lot of language there, some logic there."
+    },
+    {
+      "entity_id": "CLM-395",
+      "start": 1065.5,
+      "end": 1066.3,
+      "quoted_text": "Okay?"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: This is not surprisingly called the nigrostriatal pathway.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1038s-1042s]: \"This is not surprisingly called the nigrostriatal pathway.\"\n  - [1042s-1044s]: \"For those of you who have never done any neuroanatomy,\"\n  - [1044s-1046s]: \"I'm going to teach you a little trick right now.\"\n  - [1046s-1047s]: \"Everything in neuroanatomy,\"\n  - [1047s-1052s]: \"the first part of a word tells you where the neurons are.\"\n  - [1052s-1053s]: \"And then the second part tells you\"\n  - [1053s-1054s]: \"where they are connecting to.\"\n  - [1054s-1057s]: \"So when I say nigropstriatal pathway,\"\n  - [1057s-1059s]: \"it means that the neurons are in substantial nigra\"\n  - [1059s-1062s]: \"and they connect to the striatum, nigrostriatal pathway.\"\n  - [1062s-1065s]: \"So while it's a lot of language there, some logic there.\"\n  - [1065s-1066s]: \"Okay?\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: This is not surprisingly called the nigrostriatal pathway.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1038s-1042s]: \"This is not surprisingly called the nigrostriatal pathway.\"\n+  - [1042s-1044s]: \"For those of you who have never done any neuroanatomy,\"\n+  - [1044s-1046s]: \"I'm going to teach you a little trick right now.\"\n+  - [1046s-1047s]: \"Everything in neuroanatomy,\"\n+  - [1047s-1052s]: \"the first part of a word tells you where the neurons are.\"\n+  - [1052s-1053s]: \"And then the second part tells you\"\n+  - [1053s-1054s]: \"where they are connecting to.\"\n+  - [1054s-1057s]: \"So when I say nigropstriatal pathway,\"\n+  - [1057s-1059s]: \"it means that the neurons are in substantial nigra\"\n+  - [1059s-1062s]: \"and they connect to the striatum, nigrostriatal pathway.\"\n+  - [1062s-1065s]: \"So while it's a lot of language there, some logic there.\"\n+  - [1065s-1066s]: \"Okay?\"\n"
+  }
+}

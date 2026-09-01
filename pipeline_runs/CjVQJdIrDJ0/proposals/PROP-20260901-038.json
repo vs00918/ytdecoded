@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-038",
+  "created_at": "2026-09-01T15:11:18.101Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "CjVQJdIrDJ0",
+  "video_title": "Semantic IR for CjVQJdIrDJ0",
+  "video_url": "https://www.youtube.com/watch?v=CjVQJdIrDJ0",
+  "unit_id": "KU-044",
+  "target_topic_slug": "the-cognitive-firewall-and-epistemic-razors",
+  "target_topic_title": "The Cognitive Firewall — Epistemic Razors, Fallacy Detection & The Principle of Charity",
+  "target_content_hash_before": "d7986c6777c3a2ce2add44e76bc20e7930a3d1478e342c4b6d6985214b17e6be",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Substantive structural nuance, causal sequences, or tactical depth extending \"The Cognitive Firewall — Epistemic Razors, Fallacy Detection & The Principle of Charity\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-500",
+      "start": 3566.9,
+      "end": 3573.1,
+      "quoted_text": "My former colleague Shane Frederick developed that test. It's called the Cognitive Reflection"
+    },
+    {
+      "entity_id": "CLM-501",
+      "start": 3573.1,
+      "end": 3580.6,
+      "quoted_text": "Test and the people who fail that item that is, who say ten cents they are different in"
+    },
+    {
+      "entity_id": "CLM-502",
+      "start": 3580.6,
+      "end": 3585.7,
+      "quoted_text": "some interesting ways from the people who are better able to make it. And let me give"
+    },
+    {
+      "entity_id": "CLM-503",
+      "start": 3585.7,
+      "end": 3592.3,
+      "quoted_text": "you an example. You ask them, you know, standard Amazon questions. So you ordered a gift for"
+    },
+    {
+      "entity_id": "CLM-504",
+      "start": 3592.3,
+      "end": 3596.9,
+      "quoted_text": "yourself. How much will you pay extra to have it tomorrow rather than the second business"
+    },
+    {
+      "entity_id": "CLM-505",
+      "start": 3596.9,
+      "end": 3602.1,
+      "quoted_text": "day? And the people who fail this item are willing to pay more to get it tomorrow. So"
+    },
+    {
+      "entity_id": "CLM-506",
+      "start": 3602.1,
+      "end": 3611.4,
+      "quoted_text": "there are connections. What there isn't and I'm very surprised there isn't, I don't know"
+    },
+    {
+      "entity_id": "CLM-507",
+      "start": 3611.4,
+      "end": 3617.3,
+      "quoted_text": "there should be tests of intelligence that are tests of System 1. That are tests of the"
+    },
+    {
+      "entity_id": "CLM-508",
+      "start": 3617.3,
+      "end": 3622.9,
+      "quoted_text": "richness and subtlety of the model of the world that we have. All the intelligence tests"
+    },
+    {
+      "entity_id": "CLM-509",
+      "start": 3622.9,
+      "end": 3628.6,
+      "quoted_text": "that we have are tests for System 2. They're reasoning tests. We don't have and I wish"
+    },
+    {
+      "entity_id": "CLM-510",
+      "start": 3628.6,
+      "end": 3633.3,
+      "quoted_text": "somebody would develop it and I hope somebody will but, in fact, we don't have it."
+    },
+    {
+      "entity_id": "CLM-511",
+      "start": 3633.3,
+      "end": 3640.1,
+      "quoted_text": ">>Male #6: Hi. So this is sort of a 2-part question. So do you find that people who are"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-cognitive-firewall-and-epistemic-razors\"\ntitle: \"The Cognitive Firewall — Epistemic Razors, Fallacy Detection & The Principle of Charity\"\nvolume: 3\nvolume_title: \"Dismantling Internal Saboteurs\"\norder_in_volume: 16\narchetype: \"DIALECTIC_ESSAY\"\nreading_time_minutes: 5\nsummary_15s: \"Clear thinking is not the absence of emotion; it is the discipline of razor-sharp logic. Steel-man the ideas you disagree with, cut away assumed malice, reject false binaries, and never sacrifice your future on the altar of sunk costs. Let the cognitive firewall guard your clarity.\"\ntags:\n  - \"neurobiology\"\n  - \"metacognition\"\n  - \"execution\"\n  - \"resilience\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nClear thinking is not an innate gift; it is an active defense system.\n\nThe human brain is naturally vulnerable to emotional reactivity, logical shortcuts, cognitive biases, and manipulative rhetoric. In the absence of an explicit intellectual toolkit, we routinely fight straw men, assume malice in others, throw good energy after bad investments, and force nuanced situations into rigid binaries.\n\nBy installing the **Cognitive Firewall**—a suite of philosophical razors, formal fallacies, and the Principle of Charity—you insulate your mind against bad reasoning, dramatically sharpen your problem-solving, and make high-stakes decisions with mathematical composure.\n\n---\n\n### The Cognitive Firewall Architecture\n\n```mermaid\ngraph TD\n    A[Incoming Claim / Conflict / Dilemma] \n    --> B[Run the 4-Layer Cognitive Firewall]\n    \n    B --> L1[Layer 1: The Principle of Charity<br>Steel-man opposing views to their strongest form]\n    B --> L2[Layer 2: The Epistemic Razors<br>Occam's & Hanlon's: Cut away assumed complexity & malice]\n    B --> L3[Layer 3: The Binary Trap Detector<br>Reject false dilemmas & excluded middles]\n    B --> L4[Layer 4: Sunk Cost & Opportunity Cost Razor<br>Evaluate decisions strictly on forward-looking ROI]\n    \n    L1 & L2 & L3 & L4 --> C[Clean Diagnostic Truth & High-Leverage Action]\n```\n\n---\n\n### The Four Layers of the Cognitive Firewall\n\n---\n\n#### 1. The Principle of Charity & Steel-Manning\n* **The Classical Fallacy**: *The Straw-Man Fallacy*—distorting, exaggerating, or simplifying an opponent's argument so it is easy to defeat.\n* **The Intellectual Law**: The **Principle of Charity** requires that you interpret an opposing argument or contrary evidence in its **strongest, most rational, and most compelling form** before attempting to critique it.\n* **Why It Matters**: Attacking a weak caricature of an idea makes you feel intellectually superior while leaving you practically ignorant. When you \"steel-man\" opposing viewpoints, you either discover a profound truth you were blind to, or your own position becomes indestructible because it has survived the ultimate test.\n\n---\n\n#### 2. The Epistemic Razors: Cutting Through Illusion\nA \"philosophical razor\" is a mental tool that allows you to shave off unnecessary explanations or improbable hypotheses.\n\n```mermaid\ngraph LR\n    subgraph Occam's Razor\n        O1[Multiple Competing Hypotheses] --> O2[Select the explanation with fewest unproven assumptions]\n    end\n\n    subgraph Hanlon's Razor\n        H1[Encounter Hurtful / Frustrating Behavior] --> H2[Never attribute to malice what is explained by friction/fatigue]\n    end\n```\n\n* **Occam’s Razor**: When presented with competing explanations for an event, select the one that makes the fewest assumptions. Complexity is often a disguise for confusion.\n* **Hanlon’s Razor**: *\"Never attribute to malice that which is adequately explained by ignorance, carelessness, or fatigue.\"* When someone ignores your message, makes a mistake, or cuts you off in traffic, assume they are overwhelmed or distracted rather than scheming against you. This single heuristic destroys 90% of interpersonal stress.\n\n---\n\n#### 3. The False Dilemma (Fallacy of the Excluded Middle)\n* **The Distortion**: Forcing reality into an artificial \"either/or\" choice when a rich spectrum of alternatives exists.\n  * *\"Either I clear this exam in my first attempt, or my entire youth is wasted.\"*\n  * *\"Either I work 16 hours a day without sleep, or I am undisciplined.\"*\n* **The Firewall Protocol**: Whenever you hear yourself thinking in extremes, ask: **\"What is the Third Path?\"** Almost every sustainable victory in career and craft lies in the deliberate, high-leverage middle ground.\n\n---\n\n#### 4. The Sunk Cost Fallacy & The Opportunity Cost Razor\n* **The Psychological Trap**: Continuing a failing strategy, a dead-end project, or a toxic commitment simply because you have already invested immense time, money, or emotional pride into it.\n* **The Economic Law**: Past costs are **sunk and unrecoverable**. They have zero relevance to the future.\n* **The Forward-Looking Test**:\n  * Ask: *\"If I woke up today with zero previous history in this project, would I invest my next 100 hours into it right now?\"*\n  * If the honest answer is **No**, abandon the sunk cost immediately. Your most precious non-renewable asset is **future opportunity cost**.\n\n---\n\n### The 4-Step Decision Checklist\n\n```mermaid\ngraph TD\n    S1[1. Steel-Man: Have I stated the opposing reality in its strongest form?]\n    --> S2[2. Shave: Am I inventing conspiracy/malice where simple fatigue explains it?]\n    --> S3[3. Expand: Am I trapped in a false binary choice?]\n    --> S4[4. Invert: Am I clinging to sunk costs rather than future ROI?]\n```\n\n---\n\n### The Core Takeaway to Remember\n> Clear thinking is not the absence of emotion; it is the discipline of razor-sharp logic. Steel-man the ideas you disagree with, cut away assumed malice, reject false binaries, and never sacrifice your future on the altar of sunk costs. Let the cognitive firewall guard your clarity.\n",
+  "proposed_diff": {
+    "section_name": "## Extended Mechanical Insights",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **Mechanic**: My former colleague Shane Frederick developed that test. It's called the Cognitive Reflection *(Source: [CjVQJdIrDJ0](https://www.youtube.com/watch?v=CjVQJdIrDJ0))*",
+    "unified_diff": "--- a/src/content/topics/the-cognitive-firewall-and-epistemic-razors.md\n+++ b/src/content/topics/the-cognitive-firewall-and-epistemic-razors.md\n@@ -0,0 +1,2 @@\n+### Extended Mechanical Insight\n+- **Mechanic**: My former colleague Shane Frederick developed that test. It's called the Cognitive Reflection *(Source: [CjVQJdIrDJ0](https://www.youtube.com/watch?v=CjVQJdIrDJ0))*\n"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-103",
+  "created_at": "2026-09-01T15:11:31.284Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-130",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1504",
+      "start": 4158.8,
+      "end": 4162.1,
+      "quoted_text": "Intermittent schedules are the way that the internet"
+    },
+    {
+      "entity_id": "CLM-1505",
+      "start": 4162.1,
+      "end": 4167.1,
+      "quoted_text": "and social media and all highly engaging activities"
+    },
+    {
+      "entity_id": "CLM-1506",
+      "start": 4167.1,
+      "end": 4171.4,
+      "quoted_text": "keep you motivated and pursuing."
+    },
+    {
+      "entity_id": "CLM-1507",
+      "start": 4171.4,
+      "end": 4175.4,
+      "quoted_text": "And we can take this back to our evolutionary adaptive"
+    },
+    {
+      "entity_id": "CLM-1508",
+      "start": 4175.4,
+      "end": 4178.4,
+      "quoted_text": "scenario where you are out there looking for water,"
+    },
+    {
+      "entity_id": "CLM-1509",
+      "start": 4180,
+      "end": 4184.3,
+      "quoted_text": "not every trail, not every pursuit, not every hunch"
+    },
+    {
+      "entity_id": "CLM-1510",
+      "start": 4184.3,
+      "end": 4186.7,
+      "quoted_text": "about where the animals will be?"
+    },
+    {
+      "entity_id": "CLM-1511",
+      "start": 4186.7,
+      "end": 4187.8,
+      "quoted_text": "Where the food will be?"
+    },
+    {
+      "entity_id": "CLM-1512",
+      "start": 4187.8,
+      "end": 4189.8,
+      "quoted_text": "Where the berries will be?"
+    },
+    {
+      "entity_id": "CLM-1513",
+      "start": 4189.8,
+      "end": 4191.9,
+      "quoted_text": "Not every single one of those played out."
+    },
+    {
+      "entity_id": "CLM-1514",
+      "start": 4194.2,
+      "end": 4196.6,
+      "quoted_text": "There's something called dopamine reward prediction error."
+    },
+    {
+      "entity_id": "CLM-1515",
+      "start": 4196.6,
+      "end": 4198.9,
+      "quoted_text": "When we expect something to happen,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Intermittent schedules are the way that the internet\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4158s-4162s]: \"Intermittent schedules are the way that the internet\"\n  - [4162s-4167s]: \"and social media and all highly engaging activities\"\n  - [4167s-4171s]: \"keep you motivated and pursuing.\"\n  - [4171s-4175s]: \"And we can take this back to our evolutionary adaptive\"\n  - [4175s-4178s]: \"scenario where you are out there looking for water,\"\n  - [4180s-4184s]: \"not every trail, not every pursuit, not every hunch\"\n  - [4184s-4186s]: \"about where the animals will be?\"\n  - [4186s-4187s]: \"Where the food will be?\"\n  - [4187s-4189s]: \"Where the berries will be?\"\n  - [4189s-4191s]: \"Not every single one of those played out.\"\n  - [4194s-4196s]: \"There's something called dopamine reward prediction error.\"\n  - [4196s-4198s]: \"When we expect something to happen,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Intermittent schedules are the way that the internet\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4158s-4162s]: \"Intermittent schedules are the way that the internet\"\n+  - [4162s-4167s]: \"and social media and all highly engaging activities\"\n+  - [4167s-4171s]: \"keep you motivated and pursuing.\"\n+  - [4171s-4175s]: \"And we can take this back to our evolutionary adaptive\"\n+  - [4175s-4178s]: \"scenario where you are out there looking for water,\"\n+  - [4180s-4184s]: \"not every trail, not every pursuit, not every hunch\"\n+  - [4184s-4186s]: \"about where the animals will be?\"\n+  - [4186s-4187s]: \"Where the food will be?\"\n+  - [4187s-4189s]: \"Where the berries will be?\"\n+  - [4189s-4191s]: \"Not every single one of those played out.\"\n+  - [4194s-4196s]: \"There's something called dopamine reward prediction error.\"\n+  - [4196s-4198s]: \"When we expect something to happen,\"\n"
+  }
+}

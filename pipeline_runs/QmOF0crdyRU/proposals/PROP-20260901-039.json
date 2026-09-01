@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-039",
+  "created_at": "2026-09-01T15:11:31.264Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-047",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-534",
+      "start": 1442.2,
+      "end": 1444.4,
+      "quoted_text": "or G protein-coupled receptors,"
+    },
+    {
+      "entity_id": "CLM-535",
+      "start": 1444.4,
+      "end": 1446.7,
+      "quoted_text": "pay attention because they're really interesting."
+    },
+    {
+      "entity_id": "CLM-536",
+      "start": 1447.9,
+      "end": 1451.2,
+      "quoted_text": "but they also can have multiple cascades of effects."
+    },
+    {
+      "entity_id": "CLM-537",
+      "start": 1451.2,
+      "end": 1454.4,
+      "quoted_text": "They can impact even gene expression at some level."
+    },
+    {
+      "entity_id": "CLM-538",
+      "start": 1454.4,
+      "end": 1457.3,
+      "quoted_text": "They can change what a cell actually becomes."
+    },
+    {
+      "entity_id": "CLM-539",
+      "start": 1457.3,
+      "end": 1460.6,
+      "quoted_text": "They can change how well or how poorly that cell"
+    },
+    {
+      "entity_id": "CLM-540",
+      "start": 1460.6,
+      "end": 1464,
+      "quoted_text": "will respond to the same signal in the future."
+    },
+    {
+      "entity_id": "CLM-541",
+      "start": 1464,
+      "end": 1466.8,
+      "quoted_text": "So dopamine works through the slower process."
+    },
+    {
+      "entity_id": "CLM-542",
+      "start": 1466.8,
+      "end": 1468.5,
+      "quoted_text": "These G protein-coupled receptors."
+    },
+    {
+      "entity_id": "CLM-543",
+      "start": 1468.5,
+      "end": 1472.8,
+      "quoted_text": "And so its effects tend to take a while in order to occur."
+    },
+    {
+      "entity_id": "CLM-544",
+      "start": 1474.3,
+      "end": 1477.8,
+      "quoted_text": "This aspect of dopamine transmission is important"
+    },
+    {
+      "entity_id": "CLM-545",
+      "start": 1477.8,
+      "end": 1479.5,
+      "quoted_text": "because it now underscores two things."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: or G protein-coupled receptors,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1442s-1444s]: \"or G protein-coupled receptors,\"\n  - [1444s-1446s]: \"pay attention because they're really interesting.\"\n  - [1447s-1451s]: \"but they also can have multiple cascades of effects.\"\n  - [1451s-1454s]: \"They can impact even gene expression at some level.\"\n  - [1454s-1457s]: \"They can change what a cell actually becomes.\"\n  - [1457s-1460s]: \"They can change how well or how poorly that cell\"\n  - [1460s-1464s]: \"will respond to the same signal in the future.\"\n  - [1464s-1466s]: \"So dopamine works through the slower process.\"\n  - [1466s-1468s]: \"These G protein-coupled receptors.\"\n  - [1468s-1472s]: \"And so its effects tend to take a while in order to occur.\"\n  - [1474s-1477s]: \"This aspect of dopamine transmission is important\"\n  - [1477s-1479s]: \"because it now underscores two things.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: or G protein-coupled receptors,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1442s-1444s]: \"or G protein-coupled receptors,\"\n+  - [1444s-1446s]: \"pay attention because they're really interesting.\"\n+  - [1447s-1451s]: \"but they also can have multiple cascades of effects.\"\n+  - [1451s-1454s]: \"They can impact even gene expression at some level.\"\n+  - [1454s-1457s]: \"They can change what a cell actually becomes.\"\n+  - [1457s-1460s]: \"They can change how well or how poorly that cell\"\n+  - [1460s-1464s]: \"will respond to the same signal in the future.\"\n+  - [1464s-1466s]: \"So dopamine works through the slower process.\"\n+  - [1466s-1468s]: \"These G protein-coupled receptors.\"\n+  - [1468s-1472s]: \"And so its effects tend to take a while in order to occur.\"\n+  - [1474s-1477s]: \"This aspect of dopamine transmission is important\"\n+  - [1477s-1479s]: \"because it now underscores two things.\"\n"
+  }
+}

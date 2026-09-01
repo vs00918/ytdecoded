@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-023",
+  "created_at": "2026-09-01T15:11:31.262Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-029",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 3).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-326",
+      "start": 883.4,
+      "end": 885.5,
+      "quoted_text": "which is similar to Parkinson's in many ways."
+    },
+    {
+      "entity_id": "CLM-327",
+      "start": 885.5,
+      "end": 888.3,
+      "quoted_text": "There's a depletion or death of dopamine neurons"
+    },
+    {
+      "entity_id": "CLM-328",
+      "start": 888.3,
+      "end": 890.2,
+      "quoted_text": "at a particular location in the brain"
+    },
+    {
+      "entity_id": "CLM-329",
+      "start": 890.2,
+      "end": 893.3,
+      "quoted_text": "which leads to shaky movements,"
+    },
+    {
+      "entity_id": "CLM-330",
+      "start": 893.3,
+      "end": 894.5,
+      "quoted_text": "challenges and speaking,"
+    },
+    {
+      "entity_id": "CLM-331",
+      "start": 894.5,
+      "end": 897.6,
+      "quoted_text": "challenges in particular in initiating movement."
+    },
+    {
+      "entity_id": "CLM-332",
+      "start": 897.6,
+      "end": 900.6,
+      "quoted_text": "And because dopamine is depleted elsewhere"
+    },
+    {
+      "entity_id": "CLM-333",
+      "start": 900.6,
+      "end": 904,
+      "quoted_text": "to people with Parkinson's and Lew's bod,"
+    },
+    {
+      "entity_id": "CLM-334",
+      "start": 904,
+      "end": 907.3,
+      "quoted_text": "excuse me, Lewy body dementia also experience drops"
+    },
+    {
+      "entity_id": "CLM-335",
+      "start": 907.3,
+      "end": 910.2,
+      "quoted_text": "in motivation and affect, meaning mood."
+    },
+    {
+      "entity_id": "CLM-336",
+      "start": 910.2,
+      "end": 912.8,
+      "quoted_text": "They tend to get depressed and so on."
+    },
+    {
+      "entity_id": "CLM-337",
+      "start": 912.8,
+      "end": 915.4,
+      "quoted_text": "When those people are properly treated,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: which is similar to Parkinson's in many ways.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [883s-885s]: \"which is similar to Parkinson's in many ways.\"\n  - [885s-888s]: \"There's a depletion or death of dopamine neurons\"\n  - [888s-890s]: \"at a particular location in the brain\"\n  - [890s-893s]: \"which leads to shaky movements,\"\n  - [893s-894s]: \"challenges and speaking,\"\n  - [894s-897s]: \"challenges in particular in initiating movement.\"\n  - [897s-900s]: \"And because dopamine is depleted elsewhere\"\n  - [900s-904s]: \"to people with Parkinson's and Lew's bod,\"\n  - [904s-907s]: \"excuse me, Lewy body dementia also experience drops\"\n  - [907s-910s]: \"in motivation and affect, meaning mood.\"\n  - [910s-912s]: \"They tend to get depressed and so on.\"\n  - [912s-915s]: \"When those people are properly treated,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: which is similar to Parkinson's in many ways.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [883s-885s]: \"which is similar to Parkinson's in many ways.\"\n+  - [885s-888s]: \"There's a depletion or death of dopamine neurons\"\n+  - [888s-890s]: \"at a particular location in the brain\"\n+  - [890s-893s]: \"which leads to shaky movements,\"\n+  - [893s-894s]: \"challenges and speaking,\"\n+  - [894s-897s]: \"challenges in particular in initiating movement.\"\n+  - [897s-900s]: \"And because dopamine is depleted elsewhere\"\n+  - [900s-904s]: \"to people with Parkinson's and Lew's bod,\"\n+  - [904s-907s]: \"excuse me, Lewy body dementia also experience drops\"\n+  - [907s-910s]: \"in motivation and affect, meaning mood.\"\n+  - [910s-912s]: \"They tend to get depressed and so on.\"\n+  - [912s-915s]: \"When those people are properly treated,\"\n"
+  }
+}

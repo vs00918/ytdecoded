@@ -1,0 +1,46 @@
+{
+  "proposal_id": "PROP-20260901-019",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-neurobiology-of-growth-and-fixed-mindset",
+  "target_topic_title": "The Neurobiology of Growth — Dismantling the Fixed Mindset",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending \"The Neurobiology of Growth — Dismantling the Fixed Mindset\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-215",
+      "entity_type": "CLAIM",
+      "entity_text": "Our minds are wonderful devices that are",
+      "start": 691.4,
+      "end": 697.6,
+      "quoted_text": "Our minds are wonderful devices that are"
+    },
+    {
+      "entity_id": "CLM-234",
+      "entity_type": "CLAIM",
+      "entity_text": "towards us, our minds tell us, \"Watch",
+      "start": 741.8,
+      "end": 745.4,
+      "quoted_text": "towards us, our minds tell us, \"Watch"
+    },
+    {
+      "entity_id": "CLM-235",
+      "entity_type": "CLAIM",
+      "entity_text": "But our minds also tell us, \"Watch out.\"",
+      "start": 745.4,
+      "end": 751.4,
+      "quoted_text": "But our minds also tell us, \"Watch out.\""
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Empirical Nuance & Boundary Conditions",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **CLM-215**: Our minds are wonderful devices that are *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **CLM-234**: towards us, our minds tell us, \"Watch *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **CLM-235**: But our minds also tell us, \"Watch out.\" *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*",
+    "unified_diff": "--- a/src/content/topics/the-neurobiology-of-growth-and-fixed-mindset.md\n+++ b/src/content/topics/the-neurobiology-of-growth-and-fixed-mindset.md\n@@ -0,0 +1,6 @@\n+\n+### Extended Mechanical Insight\n+- **CLM-215**: Our minds are wonderful devices that are *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **CLM-234**: towards us, our minds tell us, \"Watch *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **CLM-235**: But our minds also tell us, \"Watch out.\" *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+\n"
+  }
+}

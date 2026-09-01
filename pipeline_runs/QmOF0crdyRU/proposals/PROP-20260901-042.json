@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-042",
+  "created_at": "2026-09-01T15:11:31.265Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-050",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-570",
+      "start": 1547.1,
+      "end": 1548.3,
+      "quoted_text": "because of volumetric release,"
+    },
+    {
+      "entity_id": "CLM-571",
+      "start": 1548.3,
+      "end": 1550.1,
+      "quoted_text": "it tends to make those more active."
+    },
+    {
+      "entity_id": "CLM-572",
+      "start": 1550.1,
+      "end": 1552.3,
+      "quoted_text": "So dopamine is really stimulating."
+    },
+    {
+      "entity_id": "CLM-573",
+      "start": 1552.3,
+      "end": 1556.4,
+      "quoted_text": "And indeed we say that dopaminergic transmission"
+    },
+    {
+      "entity_id": "CLM-574",
+      "start": 1556.4,
+      "end": 1560.7,
+      "quoted_text": "or dopamine tends to stimulate sympathetic arousal."
+    },
+    {
+      "entity_id": "CLM-575",
+      "start": 1560.7,
+      "end": 1562.7,
+      "quoted_text": "Sympathetic doesn't have anything to do with sympathy."
+    },
+    {
+      "entity_id": "CLM-576",
+      "start": 1562.7,
+      "end": 1565.3,
+      "quoted_text": "It's just simply means that it tends"
+    },
+    {
+      "entity_id": "CLM-577",
+      "start": 1565.3,
+      "end": 1567.3,
+      "quoted_text": "to increase our levels of alertness."
+    },
+    {
+      "entity_id": "CLM-578",
+      "start": 1567.3,
+      "end": 1569.7,
+      "quoted_text": "It tends to bring an animal or a human"
+    },
+    {
+      "entity_id": "CLM-579",
+      "start": 1569.7,
+      "end": 1573.1,
+      "quoted_text": "into a state of more alertness, readiness"
+    },
+    {
+      "entity_id": "CLM-580",
+      "start": 1573.1,
+      "end": 1576.3,
+      "quoted_text": "and desire to pursue things outside the confines"
+    },
+    {
+      "entity_id": "CLM-581",
+      "start": 1577.4,
+      "end": 1581.1,
+      "quoted_text": "So if I were to just put a really simple message"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: because of volumetric release,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [1547s-1548s]: \"because of volumetric release,\"\n  - [1548s-1550s]: \"it tends to make those more active.\"\n  - [1550s-1552s]: \"So dopamine is really stimulating.\"\n  - [1552s-1556s]: \"And indeed we say that dopaminergic transmission\"\n  - [1556s-1560s]: \"or dopamine tends to stimulate sympathetic arousal.\"\n  - [1560s-1562s]: \"Sympathetic doesn't have anything to do with sympathy.\"\n  - [1562s-1565s]: \"It's just simply means that it tends\"\n  - [1565s-1567s]: \"to increase our levels of alertness.\"\n  - [1567s-1569s]: \"It tends to bring an animal or a human\"\n  - [1569s-1573s]: \"into a state of more alertness, readiness\"\n  - [1573s-1576s]: \"and desire to pursue things outside the confines\"\n  - [1577s-1581s]: \"So if I were to just put a really simple message\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: because of volumetric release,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [1547s-1548s]: \"because of volumetric release,\"\n+  - [1548s-1550s]: \"it tends to make those more active.\"\n+  - [1550s-1552s]: \"So dopamine is really stimulating.\"\n+  - [1552s-1556s]: \"And indeed we say that dopaminergic transmission\"\n+  - [1556s-1560s]: \"or dopamine tends to stimulate sympathetic arousal.\"\n+  - [1560s-1562s]: \"Sympathetic doesn't have anything to do with sympathy.\"\n+  - [1562s-1565s]: \"It's just simply means that it tends\"\n+  - [1565s-1567s]: \"to increase our levels of alertness.\"\n+  - [1567s-1569s]: \"It tends to bring an animal or a human\"\n+  - [1569s-1573s]: \"into a state of more alertness, readiness\"\n+  - [1573s-1576s]: \"and desire to pursue things outside the confines\"\n+  - [1577s-1581s]: \"So if I were to just put a really simple message\"\n"
+  }
+}

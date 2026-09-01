@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-001",
+  "created_at": "2026-09-01T15:11:28.965Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "Yhn1Fe8cT0Q",
+  "video_title": "Semantic IR for Yhn1Fe8cT0Q",
+  "video_url": "https://www.youtube.com/watch?v=Yhn1Fe8cT0Q",
+  "unit_id": "KU-002",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for Yhn1Fe8cT0Q",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-013",
+      "start": 46.2,
+      "end": 48.9,
+      "quoted_text": "And he was so intrigued that he turned to the bookseller"
+    },
+    {
+      "entity_id": "CLM-014",
+      "start": 48.9,
+      "end": 51.3,
+      "quoted_text": "and says, \"Where can I find me one of these people,"
+    },
+    {
+      "entity_id": "CLM-015",
+      "start": 51.3,
+      "end": 53.5,
+      "quoted_text": "one of these philosopher folks?\""
+    },
+    {
+      "entity_id": "CLM-016",
+      "start": 53.5,
+      "end": 55.3,
+      "quoted_text": "And the bookseller turned around."
+    },
+    {
+      "entity_id": "CLM-017",
+      "start": 55.2,
+      "end": 58,
+      "quoted_text": "He said, \"Well, there's one right over there, walking by.\""
+    },
+    {
+      "entity_id": "CLM-018",
+      "start": 58,
+      "end": 61.4,
+      "quoted_text": "Because that was Athens at the time: philosophers were just walking by."
+    },
+    {
+      "entity_id": "CLM-019",
+      "start": 62.9,
+      "end": 67.3,
+      "quoted_text": "The guy walking by was Crates, a Cynic philosopher."
+    },
+    {
+      "entity_id": "CLM-020",
+      "start": 67.3,
+      "end": 69.3,
+      "quoted_text": "And Zeno became his student,"
+    },
+    {
+      "entity_id": "CLM-021",
+      "start": 69.3,
+      "end": 70.6,
+      "quoted_text": "eventually went on to study"
+    },
+    {
+      "entity_id": "CLM-022",
+      "start": 70.6,
+      "end": 73.5,
+      "quoted_text": "with a number of other of the major philosophers in Athens."
+    },
+    {
+      "entity_id": "CLM-023",
+      "start": 73.5,
+      "end": 75.8,
+      "quoted_text": "And then he established his own school,"
+    },
+    {
+      "entity_id": "CLM-024",
+      "start": 76.5,
+      "end": 78.5,
+      "quoted_text": "which became known as \"Stoicism\""
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for Yhn1Fe8cT0Q\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=Yhn1Fe8cT0Q.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for Yhn1Fe8cT0Q\n\n## Core Mechanics\n- **Core Thesis**: And he was so intrigued that he turned to the bookseller\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)\n  - [46s-48s]: \"And he was so intrigued that he turned to the bookseller\"\n  - [48s-51s]: \"and says, \"Where can I find me one of these people,\"\n  - [51s-53s]: \"one of these philosopher folks?\"\"\n  - [53s-55s]: \"And the bookseller turned around.\"\n  - [55s-58s]: \"He said, \"Well, there's one right over there, walking by.\"\"\n  - [58s-61s]: \"Because that was Athens at the time: philosophers were just walking by.\"\n  - [62s-67s]: \"The guy walking by was Crates, a Cynic philosopher.\"\n  - [67s-69s]: \"And Zeno became his student,\"\n  - [69s-70s]: \"eventually went on to study\"\n  - [70s-73s]: \"with a number of other of the major philosophers in Athens.\"\n  - [73s-75s]: \"And then he established his own school,\"\n  - [76s-78s]: \"which became known as \"Stoicism\"\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for Yhn1Fe8cT0Q\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=Yhn1Fe8cT0Q.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for Yhn1Fe8cT0Q\n+\n+## Core Mechanics\n+- **Core Thesis**: And he was so intrigued that he turned to the bookseller\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Yhn1Fe8cT0Q)\n+  - [46s-48s]: \"And he was so intrigued that he turned to the bookseller\"\n+  - [48s-51s]: \"and says, \"Where can I find me one of these people,\"\n+  - [51s-53s]: \"one of these philosopher folks?\"\"\n+  - [53s-55s]: \"And the bookseller turned around.\"\n+  - [55s-58s]: \"He said, \"Well, there's one right over there, walking by.\"\"\n+  - [58s-61s]: \"Because that was Athens at the time: philosophers were just walking by.\"\n+  - [62s-67s]: \"The guy walking by was Crates, a Cynic philosopher.\"\n+  - [67s-69s]: \"And Zeno became his student,\"\n+  - [69s-70s]: \"eventually went on to study\"\n+  - [70s-73s]: \"with a number of other of the major philosophers in Athens.\"\n+  - [73s-75s]: \"And then he established his own school,\"\n+  - [76s-78s]: \"which became known as \"Stoicism\"\"\n"
+  }
+}

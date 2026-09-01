@@ -1,0 +1,12 @@
+{
+  "is_valid": true,
+  "video_id": "5gdXbMoTEZg",
+  "total_claims": 320,
+  "verified_claims": 320,
+  "unbacked_claims": 0,
+  "invalid_quotes_count": 0,
+  "dangling_references": 0,
+  "total_entities": 339,
+  "errors": [],
+  "warnings": []
+}

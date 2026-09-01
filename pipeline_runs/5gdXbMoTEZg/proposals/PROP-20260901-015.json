@@ -1,0 +1,62 @@
+{
+  "proposal_id": "PROP-20260901-015",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-physics-of-outworking-and-first-principles",
+  "target_topic_title": "The Physics of Outworking — The Compounding Velocity of Effort & First-Principles Execution",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending \"The Physics of Outworking — The Compounding Velocity of Effort & First-Principles Execution\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-088",
+      "entity_type": "CLAIM",
+      "entity_text": "He represents the clients I often work",
+      "start": 287.9,
+      "end": 291.6,
+      "quoted_text": "He represents the clients I often work"
+    },
+    {
+      "entity_id": "CLM-115",
+      "entity_type": "CLAIM",
+      "entity_text": "And I had the first draft of my talk.",
+      "start": 374.9,
+      "end": 379.6,
+      "quoted_text": "And I had the first draft of my talk."
+    },
+    {
+      "entity_id": "CLM-120",
+      "entity_type": "CLAIM",
+      "entity_text": "may get asked during a work",
+      "start": 388.9,
+      "end": 392.2,
+      "quoted_text": "may get asked during a work"
+    },
+    {
+      "entity_id": "CLM-147",
+      "entity_type": "CLAIM",
+      "entity_text": "And in my work as a psychologist, I have",
+      "start": 487.6,
+      "end": 491.8,
+      "quoted_text": "And in my work as a psychologist, I have"
+    },
+    {
+      "entity_id": "CLM-214",
+      "entity_type": "CLAIM",
+      "entity_text": "Here's the first one.",
+      "start": 687.2,
+      "end": 691.4,
+      "quoted_text": "Here's the first one."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Empirical Nuance & Boundary Conditions",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **CLM-088**: He represents the clients I often work *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **CLM-115**: And I had the first draft of my talk. *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **CLM-120**: may get asked during a work *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **CLM-147**: And in my work as a psychologist, I have *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **CLM-214**: Here's the first one. *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*",
+    "unified_diff": "--- a/src/content/topics/the-physics-of-outworking-and-first-principles.md\n+++ b/src/content/topics/the-physics-of-outworking-and-first-principles.md\n@@ -0,0 +1,8 @@\n+\n+### Extended Mechanical Insight\n+- **CLM-088**: He represents the clients I often work *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **CLM-115**: And I had the first draft of my talk. *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **CLM-120**: may get asked during a work *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **CLM-147**: And in my work as a psychologist, I have *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **CLM-214**: Here's the first one. *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+\n"
+  }
+}

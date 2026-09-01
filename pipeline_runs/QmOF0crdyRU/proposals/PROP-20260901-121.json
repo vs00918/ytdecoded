@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-121",
+  "created_at": "2026-09-01T15:11:31.289Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-157",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1818",
+      "start": 5021.3,
+      "end": 5024.1,
+      "quoted_text": "So perhaps you need that incentive"
+    },
+    {
+      "entity_id": "CLM-1819",
+      "start": 5024.1,
+      "end": 5026.2,
+      "quoted_text": "in order to ingest your yerba mate,"
+    },
+    {
+      "entity_id": "CLM-1820",
+      "start": 5026.2,
+      "end": 5028.3,
+      "quoted_text": "perhaps you don't need any incentive."
+    },
+    {
+      "entity_id": "CLM-1821",
+      "start": 5028.3,
+      "end": 5029.8,
+      "quoted_text": "In my case, I don't need any incentive."
+    },
+    {
+      "entity_id": "CLM-1822",
+      "start": 5029.8,
+      "end": 5032.2,
+      "quoted_text": "I already enjoy yerba mate as my principle"
+    },
+    {
+      "entity_id": "CLM-1823",
+      "start": 5033.3,
+      "end": 5035.1,
+      "quoted_text": "although I do drink coffee as well."
+    },
+    {
+      "entity_id": "CLM-1824",
+      "start": 5035.1,
+      "end": 5037.9,
+      "quoted_text": "But if one were going to consume caffeine,"
+    },
+    {
+      "entity_id": "CLM-1825",
+      "start": 5037.9,
+      "end": 5040.2,
+      "quoted_text": "you might consider consuming that caffeine"
+    },
+    {
+      "entity_id": "CLM-1826",
+      "start": 5040.2,
+      "end": 5042.9,
+      "quoted_text": "in the form of yerba mate both for sake of upregulating"
+    },
+    {
+      "entity_id": "CLM-1827",
+      "start": 5042.9,
+      "end": 5047.8,
+      "quoted_text": "dopamine receptors and getting more of a dopamine increase."
+    },
+    {
+      "entity_id": "CLM-1828",
+      "start": 5047.8,
+      "end": 5050.4,
+      "quoted_text": "And of course, for the similar properties of caffeine"
+    },
+    {
+      "entity_id": "CLM-1829",
+      "start": 5050.4,
+      "end": 5052.6,
+      "quoted_text": "if that's what you're seeking."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: So perhaps you need that incentive\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5021s-5024s]: \"So perhaps you need that incentive\"\n  - [5024s-5026s]: \"in order to ingest your yerba mate,\"\n  - [5026s-5028s]: \"perhaps you don't need any incentive.\"\n  - [5028s-5029s]: \"In my case, I don't need any incentive.\"\n  - [5029s-5032s]: \"I already enjoy yerba mate as my principle\"\n  - [5033s-5035s]: \"although I do drink coffee as well.\"\n  - [5035s-5037s]: \"But if one were going to consume caffeine,\"\n  - [5037s-5040s]: \"you might consider consuming that caffeine\"\n  - [5040s-5042s]: \"in the form of yerba mate both for sake of upregulating\"\n  - [5042s-5047s]: \"dopamine receptors and getting more of a dopamine increase.\"\n  - [5047s-5050s]: \"And of course, for the similar properties of caffeine\"\n  - [5050s-5052s]: \"if that's what you're seeking.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: So perhaps you need that incentive\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5021s-5024s]: \"So perhaps you need that incentive\"\n+  - [5024s-5026s]: \"in order to ingest your yerba mate,\"\n+  - [5026s-5028s]: \"perhaps you don't need any incentive.\"\n+  - [5028s-5029s]: \"In my case, I don't need any incentive.\"\n+  - [5029s-5032s]: \"I already enjoy yerba mate as my principle\"\n+  - [5033s-5035s]: \"although I do drink coffee as well.\"\n+  - [5035s-5037s]: \"But if one were going to consume caffeine,\"\n+  - [5037s-5040s]: \"you might consider consuming that caffeine\"\n+  - [5040s-5042s]: \"in the form of yerba mate both for sake of upregulating\"\n+  - [5042s-5047s]: \"dopamine receptors and getting more of a dopamine increase.\"\n+  - [5047s-5050s]: \"And of course, for the similar properties of caffeine\"\n+  - [5050s-5052s]: \"if that's what you're seeking.\"\n"
+  }
+}

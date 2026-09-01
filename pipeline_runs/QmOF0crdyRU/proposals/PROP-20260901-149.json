@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-149",
+  "created_at": "2026-09-01T15:11:31.297Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-194",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 6).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2252",
+      "start": 6249.4,
+      "end": 6252.8,
+      "quoted_text": "Especially hard endeavors is to A,"
+    },
+    {
+      "entity_id": "CLM-2253",
+      "start": 6252.8,
+      "end": 6255.7,
+      "quoted_text": "not start layering in other sources of dopamine"
+    },
+    {
+      "entity_id": "CLM-2254",
+      "start": 6255.7,
+      "end": 6257.5,
+      "quoted_text": "in order to get to the starting line,"
+    },
+    {
+      "entity_id": "CLM-2255",
+      "start": 6257.5,
+      "end": 6260,
+      "quoted_text": "not layering in other sources of dopamine"
+    },
+    {
+      "entity_id": "CLM-2256",
+      "start": 6260,
+      "end": 6261.3,
+      "quoted_text": "in order to be able to continue,"
+    },
+    {
+      "entity_id": "CLM-2257",
+      "start": 6261.3,
+      "end": 6264.6,
+      "quoted_text": "but rather to subjectively start to attach"
+    },
+    {
+      "entity_id": "CLM-2258",
+      "start": 6264.6,
+      "end": 6267.6,
+      "quoted_text": "the feeling of friction and effort"
+    },
+    {
+      "entity_id": "CLM-2259",
+      "start": 6267.6,
+      "end": 6270.4,
+      "quoted_text": "to an internally generated reward system."
+    },
+    {
+      "entity_id": "CLM-2260",
+      "start": 6270.4,
+      "end": 6272.4,
+      "quoted_text": "And this is not meant to be vague,"
+    },
+    {
+      "entity_id": "CLM-2261",
+      "start": 6272.4,
+      "end": 6275.2,
+      "quoted_text": "this is a system that exists in your mind,"
+    },
+    {
+      "entity_id": "CLM-2262",
+      "start": 6275.2,
+      "end": 6277,
+      "quoted_text": "that exists in the minds of humans"
+    },
+    {
+      "entity_id": "CLM-2263",
+      "start": 6277,
+      "end": 6278.9,
+      "quoted_text": "for hundreds of thousands of years,"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Especially hard endeavors is to A,\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [6249s-6252s]: \"Especially hard endeavors is to A,\"\n  - [6252s-6255s]: \"not start layering in other sources of dopamine\"\n  - [6255s-6257s]: \"in order to get to the starting line,\"\n  - [6257s-6260s]: \"not layering in other sources of dopamine\"\n  - [6260s-6261s]: \"in order to be able to continue,\"\n  - [6261s-6264s]: \"but rather to subjectively start to attach\"\n  - [6264s-6267s]: \"the feeling of friction and effort\"\n  - [6267s-6270s]: \"to an internally generated reward system.\"\n  - [6270s-6272s]: \"And this is not meant to be vague,\"\n  - [6272s-6275s]: \"this is a system that exists in your mind,\"\n  - [6275s-6277s]: \"that exists in the minds of humans\"\n  - [6277s-6278s]: \"for hundreds of thousands of years,\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Especially hard endeavors is to A,\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [6249s-6252s]: \"Especially hard endeavors is to A,\"\n+  - [6252s-6255s]: \"not start layering in other sources of dopamine\"\n+  - [6255s-6257s]: \"in order to get to the starting line,\"\n+  - [6257s-6260s]: \"not layering in other sources of dopamine\"\n+  - [6260s-6261s]: \"in order to be able to continue,\"\n+  - [6261s-6264s]: \"but rather to subjectively start to attach\"\n+  - [6264s-6267s]: \"the feeling of friction and effort\"\n+  - [6267s-6270s]: \"to an internally generated reward system.\"\n+  - [6270s-6272s]: \"And this is not meant to be vague,\"\n+  - [6272s-6275s]: \"this is a system that exists in your mind,\"\n+  - [6275s-6277s]: \"that exists in the minds of humans\"\n+  - [6277s-6278s]: \"for hundreds of thousands of years,\"\n"
+  }
+}

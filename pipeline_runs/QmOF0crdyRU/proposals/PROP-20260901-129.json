@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-129",
+  "created_at": "2026-09-01T15:11:31.290Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-165",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 2).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1913",
+      "start": 5295.3,
+      "end": 5298,
+      "quoted_text": "non-clinical use of those compounds as well."
+    },
+    {
+      "entity_id": "CLM-1914",
+      "start": 5298,
+      "end": 5301.3,
+      "quoted_text": "And it stands to reason that the use of those substances"
+    },
+    {
+      "entity_id": "CLM-1915",
+      "start": 5301.3,
+      "end": 5305,
+      "quoted_text": "to increase dopamine could very well provide"
+    },
+    {
+      "entity_id": "CLM-1916",
+      "start": 5305,
+      "end": 5307.2,
+      "quoted_text": "the same sort of blockade of neuroplasticity"
+    },
+    {
+      "entity_id": "CLM-1917",
+      "start": 5307.2,
+      "end": 5308.7,
+      "quoted_text": "that cocaine and amphetamine do."
+    },
+    {
+      "entity_id": "CLM-1918",
+      "start": 5308.7,
+      "end": 5312,
+      "quoted_text": "Because when you look at the amount of dopamine increase"
+    },
+    {
+      "entity_id": "CLM-1919",
+      "start": 5312,
+      "end": 5313.7,
+      "quoted_text": "that's triggered by those compounds,"
+    },
+    {
+      "entity_id": "CLM-1920",
+      "start": 5313.7,
+      "end": 5315.4,
+      "quoted_text": "it's really comparable."
+    },
+    {
+      "entity_id": "CLM-1921",
+      "start": 5315.4,
+      "end": 5319.6,
+      "quoted_text": "So again, a cautionary note against spiking one's dopamine"
+    },
+    {
+      "entity_id": "CLM-1922",
+      "start": 5319.6,
+      "end": 5321.6,
+      "quoted_text": "too much on a regular basis,"
+    },
+    {
+      "entity_id": "CLM-1923",
+      "start": 5321.6,
+      "end": 5325.6,
+      "quoted_text": "unless there's a valid clinical need for doing that."
+    },
+    {
+      "entity_id": "CLM-1924",
+      "start": 5325.6,
+      "end": 5328.2,
+      "quoted_text": "So we've been focusing a lot for the last few minutes"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: non-clinical use of those compounds as well.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [5295s-5298s]: \"non-clinical use of those compounds as well.\"\n  - [5298s-5301s]: \"And it stands to reason that the use of those substances\"\n  - [5301s-5305s]: \"to increase dopamine could very well provide\"\n  - [5305s-5307s]: \"the same sort of blockade of neuroplasticity\"\n  - [5307s-5308s]: \"that cocaine and amphetamine do.\"\n  - [5308s-5312s]: \"Because when you look at the amount of dopamine increase\"\n  - [5312s-5313s]: \"that's triggered by those compounds,\"\n  - [5313s-5315s]: \"it's really comparable.\"\n  - [5315s-5319s]: \"So again, a cautionary note against spiking one's dopamine\"\n  - [5319s-5321s]: \"too much on a regular basis,\"\n  - [5321s-5325s]: \"unless there's a valid clinical need for doing that.\"\n  - [5325s-5328s]: \"So we've been focusing a lot for the last few minutes\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: non-clinical use of those compounds as well.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [5295s-5298s]: \"non-clinical use of those compounds as well.\"\n+  - [5298s-5301s]: \"And it stands to reason that the use of those substances\"\n+  - [5301s-5305s]: \"to increase dopamine could very well provide\"\n+  - [5305s-5307s]: \"the same sort of blockade of neuroplasticity\"\n+  - [5307s-5308s]: \"that cocaine and amphetamine do.\"\n+  - [5308s-5312s]: \"Because when you look at the amount of dopamine increase\"\n+  - [5312s-5313s]: \"that's triggered by those compounds,\"\n+  - [5313s-5315s]: \"it's really comparable.\"\n+  - [5315s-5319s]: \"So again, a cautionary note against spiking one's dopamine\"\n+  - [5319s-5321s]: \"too much on a regular basis,\"\n+  - [5321s-5325s]: \"unless there's a valid clinical need for doing that.\"\n+  - [5325s-5328s]: \"So we've been focusing a lot for the last few minutes\"\n"
+  }
+}

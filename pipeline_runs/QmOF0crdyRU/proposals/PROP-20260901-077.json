@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-077",
+  "created_at": "2026-09-01T15:11:31.277Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-093",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1070",
+      "start": 2991.5,
+      "end": 2993.4,
+      "quoted_text": "will take a serious hit."
+    },
+    {
+      "entity_id": "CLM-1071",
+      "start": 2993.4,
+      "end": 2995.8,
+      "quoted_text": "Now, I've been alluding to this dopamine peaks"
+    },
+    {
+      "entity_id": "CLM-1072",
+      "start": 2995.8,
+      "end": 2997.6,
+      "quoted_text": "versus dopamine baseline things"
+    },
+    {
+      "entity_id": "CLM-1073",
+      "start": 2997.6,
+      "end": 2998.9,
+      "quoted_text": "since the beginning of the episode."
+    },
+    {
+      "entity_id": "CLM-1074",
+      "start": 2998.9,
+      "end": 3002,
+      "quoted_text": "I talked about tonic and phasic release and so forth."
+    },
+    {
+      "entity_id": "CLM-1075",
+      "start": 3002,
+      "end": 3004.3,
+      "quoted_text": "But now let's really drill into what this means,"
+    },
+    {
+      "entity_id": "CLM-1076",
+      "start": 3004.3,
+      "end": 3008,
+      "quoted_text": "and how to leverage it for our own purposes."
+    },
+    {
+      "entity_id": "CLM-1077",
+      "start": 3008,
+      "end": 3010.2,
+      "quoted_text": "In order to do that, let's take a step back and ask,"
+    },
+    {
+      "entity_id": "CLM-1078",
+      "start": 3010.2,
+      "end": 3012.8,
+      "quoted_text": "why would we have a dopamine system like this?"
+    },
+    {
+      "entity_id": "CLM-1079",
+      "start": 3012.8,
+      "end": 3015.2,
+      "quoted_text": "Why would we have a dopamine system at all?"
+    },
+    {
+      "entity_id": "CLM-1080",
+      "start": 3015.2,
+      "end": 3019.7,
+      "quoted_text": "Well, we have to remember what our species primary"
+    },
+    {
+      "entity_id": "CLM-1081",
+      "start": 3019.7,
+      "end": 3020.9,
+      "quoted_text": "interest is?"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: will take a serious hit.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [2991s-2993s]: \"will take a serious hit.\"\n  - [2993s-2995s]: \"Now, I've been alluding to this dopamine peaks\"\n  - [2995s-2997s]: \"versus dopamine baseline things\"\n  - [2997s-2998s]: \"since the beginning of the episode.\"\n  - [2998s-3002s]: \"I talked about tonic and phasic release and so forth.\"\n  - [3002s-3004s]: \"But now let's really drill into what this means,\"\n  - [3004s-3008s]: \"and how to leverage it for our own purposes.\"\n  - [3008s-3010s]: \"In order to do that, let's take a step back and ask,\"\n  - [3010s-3012s]: \"why would we have a dopamine system like this?\"\n  - [3012s-3015s]: \"Why would we have a dopamine system at all?\"\n  - [3015s-3019s]: \"Well, we have to remember what our species primary\"\n  - [3019s-3020s]: \"interest is?\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: will take a serious hit.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [2991s-2993s]: \"will take a serious hit.\"\n+  - [2993s-2995s]: \"Now, I've been alluding to this dopamine peaks\"\n+  - [2995s-2997s]: \"versus dopamine baseline things\"\n+  - [2997s-2998s]: \"since the beginning of the episode.\"\n+  - [2998s-3002s]: \"I talked about tonic and phasic release and so forth.\"\n+  - [3002s-3004s]: \"But now let's really drill into what this means,\"\n+  - [3004s-3008s]: \"and how to leverage it for our own purposes.\"\n+  - [3008s-3010s]: \"In order to do that, let's take a step back and ask,\"\n+  - [3010s-3012s]: \"why would we have a dopamine system like this?\"\n+  - [3012s-3015s]: \"Why would we have a dopamine system at all?\"\n+  - [3015s-3019s]: \"Well, we have to remember what our species primary\"\n+  - [3019s-3020s]: \"interest is?\"\n"
+  }
+}

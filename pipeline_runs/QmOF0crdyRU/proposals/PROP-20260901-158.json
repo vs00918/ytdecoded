@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-158",
+  "created_at": "2026-09-01T15:11:31.299Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-209",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2429",
+      "start": 6757.4,
+      "end": 6759.1,
+      "quoted_text": "behaviors, hardwired behaviors."
+    },
+    {
+      "entity_id": "CLM-2430",
+      "start": 6759.1,
+      "end": 6761.4,
+      "quoted_text": "And that's the beauty of these dopamine circuits."
+    },
+    {
+      "entity_id": "CLM-2431",
+      "start": 6761.4,
+      "end": 6762.6,
+      "quoted_text": "That's the beauty of dopamine."
+    },
+    {
+      "entity_id": "CLM-2432",
+      "start": 6762.6,
+      "end": 6767.3,
+      "quoted_text": "It's not just attached to the more primitive of food, sex,"
+    },
+    {
+      "entity_id": "CLM-2433",
+      "start": 6769.5,
+      "end": 6771.5,
+      "quoted_text": "It's also attached to the things"
+    },
+    {
+      "entity_id": "CLM-2434",
+      "start": 6771.5,
+      "end": 6774.7,
+      "quoted_text": "that we decide are good for us and are important for us."
+    },
+    {
+      "entity_id": "CLM-2435",
+      "start": 6774.7,
+      "end": 6777.4,
+      "quoted_text": "So telling yourself that exercise or fasting"
+    },
+    {
+      "entity_id": "CLM-2436",
+      "start": 6777.4,
+      "end": 6780.2,
+      "quoted_text": "or studying or listening better"
+    },
+    {
+      "entity_id": "CLM-2437",
+      "start": 6780.2,
+      "end": 6781.8,
+      "quoted_text": "or any kind of behavior is good for you"
+    },
+    {
+      "entity_id": "CLM-2438",
+      "start": 6781.8,
+      "end": 6784.7,
+      "quoted_text": "will actually reinforce the extent"
+    },
+    {
+      "entity_id": "CLM-2439",
+      "start": 6784.7,
+      "end": 6788.1,
+      "quoted_text": "to which it is good for you at a chemical level."
+    },
+    {
+      "entity_id": "CLM-2440",
+      "start": 6788.1,
+      "end": 6790.9,
+      "quoted_text": "And a somewhat eerie example of what I just mentioned"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: behaviors, hardwired behaviors.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [6757s-6759s]: \"behaviors, hardwired behaviors.\"\n  - [6759s-6761s]: \"And that's the beauty of these dopamine circuits.\"\n  - [6761s-6762s]: \"That's the beauty of dopamine.\"\n  - [6762s-6767s]: \"It's not just attached to the more primitive of food, sex,\"\n  - [6769s-6771s]: \"It's also attached to the things\"\n  - [6771s-6774s]: \"that we decide are good for us and are important for us.\"\n  - [6774s-6777s]: \"So telling yourself that exercise or fasting\"\n  - [6777s-6780s]: \"or studying or listening better\"\n  - [6780s-6781s]: \"or any kind of behavior is good for you\"\n  - [6781s-6784s]: \"will actually reinforce the extent\"\n  - [6784s-6788s]: \"to which it is good for you at a chemical level.\"\n  - [6788s-6790s]: \"And a somewhat eerie example of what I just mentioned\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: behaviors, hardwired behaviors.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [6757s-6759s]: \"behaviors, hardwired behaviors.\"\n+  - [6759s-6761s]: \"And that's the beauty of these dopamine circuits.\"\n+  - [6761s-6762s]: \"That's the beauty of dopamine.\"\n+  - [6762s-6767s]: \"It's not just attached to the more primitive of food, sex,\"\n+  - [6769s-6771s]: \"It's also attached to the things\"\n+  - [6771s-6774s]: \"that we decide are good for us and are important for us.\"\n+  - [6774s-6777s]: \"So telling yourself that exercise or fasting\"\n+  - [6777s-6780s]: \"or studying or listening better\"\n+  - [6780s-6781s]: \"or any kind of behavior is good for you\"\n+  - [6781s-6784s]: \"will actually reinforce the extent\"\n+  - [6784s-6788s]: \"to which it is good for you at a chemical level.\"\n+  - [6788s-6790s]: \"And a somewhat eerie example of what I just mentioned\"\n"
+  }
+}

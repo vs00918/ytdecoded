@@ -1,0 +1,99 @@
+{
+  "proposal_id": "PROP-20260901-012",
+  "created_at": "2026-09-01T15:11:31.258Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-014",
+  "target_topic_slug": "the-architecture-of-self-knowledge",
+  "target_topic_title": "The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors",
+  "target_content_hash_before": "8135525d5d978f07553ed569564504b90f77e6fd0766314c642fcf9853f44996",
+  "routing_decision": "EXAMPLE_OR_APPLICATION",
+  "confidence": "HIGH",
+  "confidence_score": 0.9,
+  "rationale": "Source contributes an illustrative analogy or case application mapping directly to the mechanics of \"The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-149",
+      "start": 414.8,
+      "end": 417.9,
+      "quoted_text": "but unless you know the measurements of metabolic factors,"
+    },
+    {
+      "entity_id": "CLM-150",
+      "start": 417.9,
+      "end": 421.4,
+      "quoted_text": "hormones and other things that are in your blood and DNA,"
+    },
+    {
+      "entity_id": "CLM-151",
+      "start": 421.4,
+      "end": 423.1,
+      "quoted_text": "you don't know what to optimize."
+    },
+    {
+      "entity_id": "CLM-152",
+      "start": 423.1,
+      "end": 425.9,
+      "quoted_text": "With InsideTracker it makes all of that very easy."
+    },
+    {
+      "entity_id": "CLM-153",
+      "start": 425.9,
+      "end": 428.2,
+      "quoted_text": "They can come to your house to take the blood and DNA test,"
+    },
+    {
+      "entity_id": "CLM-154",
+      "start": 428.2,
+      "end": 430.3,
+      "quoted_text": "or you can go to a nearby clinic."
+    },
+    {
+      "entity_id": "CLM-155",
+      "start": 430.3,
+      "end": 433.1,
+      "quoted_text": "They send you the information and you take those results."
+    },
+    {
+      "entity_id": "EXM-009",
+      "start": 433.1,
+      "end": 436.4,
+      "quoted_text": "And unlike a lot of laboratories doing blood work out there"
+    },
+    {
+      "entity_id": "CLM-156",
+      "start": 437.5,
+      "end": 439.6,
+      "quoted_text": "they have a simple platform, a dashboard"
+    },
+    {
+      "entity_id": "CLM-157",
+      "start": 439.6,
+      "end": 441.6,
+      "quoted_text": "that walks you through your results"
+    },
+    {
+      "entity_id": "CLM-158",
+      "start": 441.6,
+      "end": 444,
+      "quoted_text": "and helps you identify what sorts of nutritional"
+    },
+    {
+      "entity_id": "CLM-159",
+      "start": 444,
+      "end": 446.3,
+      "quoted_text": "or behavioral or other types of practices"
+    }
+  ],
+  "previous_content_backup": "---\nid: \"the-architecture-of-self-knowledge\"\ntitle: \"The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors\"\nvolume: 3\nvolume_title: \"Philosophy of Action & Metacognition\"\norder_in_volume: 23\narchetype: \"CANONICAL_CONCEPT\"\nreading_time_minutes: 5\nsummary_15s: \"Life does not begin when you satisfy society's expectations; life begins when you stop living someone else's script. Strip away the borrowed desires, audit your true energy, choose the burdens worthy of your devotion, and build your life upon the unshakeable rock of your own authentic nature.\"\ntags:\n  - \"metacognition\"\n  - \"execution\"\n  - \"communication\"\n  - \"wealth\"\nmental_models: []\nrelationships:\n  prerequisites: []\n  builds_on: []\n  contrasts_with: []\n  applies_to: []\nsources: []\nactive_recall: []\nlast_updated: \"2026-09-01\"\n---\n\nMost human beings do not live their own lives; they live **borrowed lives**.\n\nFrom childhood, the human nervous system absorbs inherited scripts: parental anxieties, cultural definitions of success, peer status competitions, and algorithmic media trends. By adulthood, most people mistake these external pressures for their own authentic desires. They spend decades climbing ladders of career, status, and consumption, only to discover upon reaching the top that the ladder was leaning against the wrong wall.\n\n\"Finding yourself\" is not a mystical cliché or an exercise in passive daydreaming. In cognitive psychology and existential philosophy, **self-discovery is an active process of subtractive elimination (*Via Negativa*) and empirical testing**.\n\n---\n\n### The Anatomy of the Borrowed Self\n\n```mermaid\ngraph TD\n    subgraph The External Conditioning Matrix\n        C1[Societal Status Metrics]\n        C2[Parental Expectations & Fears]\n        C3[Algorithmic Media Narratives]\n    end\n\n    C1 & C2 & C3 --> B[The Borrowed Identity / Persona]\n    B -->|Generates| D[Artificial Desires & Chronic Emptiness]\n    D -->|Breakthrough: Via Negativa| S[The Sovereign Self<br>Core Values · Intrinsic Drive · Meaningful Craft]\n```\n\n* **The Persona Trap**: Carl Jung termed the social mask we wear the *Persona*. When you over-identify with your persona (e.g., \"the high achiever,\" \"the agreeable child,\" \"the corporate climber\"), your true intrinsic values atrophy from disuse.\n* **The Existential Cost**: Living a borrowed life produces a chronic, low-grade existential nausea—the subconscious mind registers that all your daily sacrifices are servicing someone else's script.\n\n---\n\n### The Via Negativa of Self-Discovery\n\nIn philosophy, *Via Negativa* (the negative way) states that we understand what something is by stripping away what it is not. You do not \"find\" yourself by adding more identities, titles, or possessions; you find yourself by **stripping away inherited conditioning**.\n\n```mermaid\ngraph LR\n    A[Inherited Conditioning] \n    -->|Strip Away False Obligations| B[Unexamined Beliefs Pruned]\n    -->|Strip Away Status Mimicry| C[Artificial Goals Discarded]\n    -->|What Remains| D[The Indivisible Core Self]\n```\n\n---\n\n### The Four Reality Mirrors of Self-Knowledge\n\nTo uncover what is genuine within you, examine yourself through four objective psychological diagnostic mirrors:\n\n```mermaid\ngraph TD\n    M1[Mirror 1: The Envy Diagnostic<br>What you envy in others reveals your unexpressed potential]\n    --> M2[Mirror 2: The Energy Audit<br>Distinguish between physical tiredness and soul exhaustion]\n    --> M3[Mirror 3: The Solitude Test<br>Who you are when zero social recognition is possible]\n    --> M4[Mirror 4: The Chosen Burden<br>What meaningful suffering are you willing to endure?]\n```\n\n#### 1. The Envy Diagnostic (The Unexpressed Compass)\n* Society treats envy as a moral sin. In metacognitive psychology, **envy is a distorted compass**.\n* When you feel a sharp pang of envy toward someone, do not suppress it. Audit it: *“What exact aspect of their freedom, mastery, or lifestyle triggered this reaction?”* Envy points directly to uncultivated desires you have denied in yourself.\n\n#### 2. The Autonomic Energy Audit\n* Pay close attention to your physiological state during different activities:\n  * **Generative Fatigue**: Hard, demanding work that leaves you physically tired but deeply calm and satisfied.\n  * **Depletive Exhaustion**: Easy, shallow busywork that leaves you drained, irritable, and anxious.\n* Your nervous system cannot be fooled by prestige; follow the activities that produce generative fatigue.\n\n#### 3. The Solitude Mirror\n* Ask yourself: *“If I could never post about my work, tell my peers about my accomplishments, or receive public applause, what would I still choose to study, build, and master?”*\n* The answer to that question isolates your **intrinsic craft** from your performative vanity.\n\n#### 4. The Chosen Burden (Logotherapy)\n* Life involves unavoidable struggle and friction. Finding yourself is not finding a life free of pain; it is finding the **specific form of difficulty and responsibility you are glad to bear**.\n* As Viktor Frankl noted, human beings do not need a tensionless state; they need the striving and struggling for a worthwhile goal chosen freely.\n\n---\n\n### The Protocols for Sovereign Self-Alignment\n\n```mermaid\ngraph TD\n    P1[Protocol 1: The Inherited Script Audit<br>List 5 beliefs about success and trace their origins]\n    --> P2[Protocol 2: The 90-Day Low-Stakes Prototype<br>Test intrinsic curiosities through small physical experiments]\n    --> P3[Protocol 3: The Non-Negotiable Charter<br>Establish 3 core boundaries that protect your sovereignty]\n```\n\n1. **The Inherited Script Audit**: Write down your top 5 beliefs about career, wealth, and lifestyle. For each, ask: *“Did I arrive at this through firsthand experience and deep reason, or did I unconsciously inherit it from my environment?”*\n2. **The 90-Day Low-Stakes Prototype**: Never make impulsive, dramatic life pivots based on abstract theories. Build small, low-risk prototypes of your authentic interests (e.g., write 10 essays, solve 50 domain problems, build 1 prototype) for 90 days before making major commitments.\n3. **The Sovereign Charter**: Establish 3 absolute personal boundaries that you refuse to compromise for status, money, or social approval.\n\n---\n\n### The Core Takeaway to Remember\n> Life does not begin when you satisfy society's expectations; life begins when you stop living someone else's script. Strip away the borrowed desires, audit your true energy, choose the burdens worthy of your devotion, and build your life upon the unshakeable rock of your own authentic nature.\n",
+  "proposed_diff": {
+    "section_name": "## Tactical Applications & Concrete Analogies",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Preserved Case Analogy\n> \"but unless you know the measurements of metabolic factors,\"\n> — *Source: [QmOF0crdyRU (414s)](https://www.youtube.com/watch?v=QmOF0crdyRU)*",
+    "unified_diff": "--- a/src/content/topics/the-architecture-of-self-knowledge.md\n+++ b/src/content/topics/the-architecture-of-self-knowledge.md\n@@ -0,0 +1,3 @@\n+### Preserved Case Analogy\n+> \"but unless you know the measurements of metabolic factors,\"\n+> — *Source: [QmOF0crdyRU (414s)](https://www.youtube.com/watch?v=QmOF0crdyRU)*\n"
+  }
+}

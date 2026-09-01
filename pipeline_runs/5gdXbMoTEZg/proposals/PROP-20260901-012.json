@@ -1,0 +1,54 @@
+{
+  "proposal_id": "PROP-20260901-012",
+  "created_at": "2026-09-01T14:19:23.845Z",
+  "state": "PROPOSED",
+  "video_id": "5gdXbMoTEZg",
+  "video_url": "https://www.youtube.com/watch?v=5gdXbMoTEZg",
+  "target_topic_slug": "the-architecture-of-emotional-granularity",
+  "target_topic_title": "The Architecture of Emotional Granularity — Naming the Unspoken Landscape & Affect Labeling",
+  "routing_decision": "ENRICH_EXISTING",
+  "confidence": "HIGH",
+  "confidence_score": 0.89,
+  "rationale": "Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending \"The Architecture of Emotional Granularity — Naming the Unspoken Landscape & Affect Labeling\".",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-064",
+      "entity_type": "CLAIM",
+      "entity_text": "fear-based emotion and many fear-based",
+      "start": 202.7,
+      "end": 208.2,
+      "quoted_text": "fear-based emotion and many fear-based"
+    },
+    {
+      "entity_id": "EXM-009",
+      "entity_type": "ANALOGY",
+      "entity_text": "Notice when your advisory board is",
+      "start": 851,
+      "end": 854.2,
+      "quoted_text": "Notice when your advisory board is"
+    },
+    {
+      "entity_id": "EXM-016",
+      "entity_type": "ANALOGY",
+      "entity_text": "don't engage with your advisory board by",
+      "start": 929.6,
+      "end": 935,
+      "quoted_text": "don't engage with your advisory board by"
+    },
+    {
+      "entity_id": "EXM-018",
+      "entity_type": "ANALOGY",
+      "entity_text": "Notice when your advisory board it",
+      "start": 988.9,
+      "end": 993.7,
+      "quoted_text": "Notice when your advisory board it"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "## Empirical Nuance & Boundary Conditions",
+    "action": "APPEND_SECTION",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "### Extended Mechanical Insight\n- **CLM-064**: fear-based emotion and many fear-based *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **EXM-009**: Notice when your advisory board is *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **EXM-016**: don't engage with your advisory board by *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n- **EXM-018**: Notice when your advisory board it *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*",
+    "unified_diff": "--- a/src/content/topics/the-architecture-of-emotional-granularity.md\n+++ b/src/content/topics/the-architecture-of-emotional-granularity.md\n@@ -0,0 +1,7 @@\n+\n+### Extended Mechanical Insight\n+- **CLM-064**: fear-based emotion and many fear-based *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **EXM-009**: Notice when your advisory board is *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **EXM-016**: don't engage with your advisory board by *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+- **EXM-018**: Notice when your advisory board it *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*\n+\n"
+  }
+}

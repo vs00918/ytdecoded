@@ -1,0 +1,2363 @@
+[
+  {
+    "sourceFile": "chapter-01-the-second-brain-and-the-gut-mind-axis.md",
+    "targetFile": "the-second-brain-and-the-gut-mind-axis.md",
+    "slug": "the-second-brain-and-the-gut-mind-axis",
+    "volume": 1,
+    "volumeTitle": "The Biology of Mind & Energy",
+    "orderInVolume": 1,
+    "title": "The Second Brain — The Gut-Mind Axis",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Your mental clarity is not isolated to your thoughts. When the gut is inflamed, the mind feels anxious and foggy; when the gut is nourished and calm, the mind naturally returns to ease, focus, and sustained energy.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 808,
+      "headingCount": 10,
+      "h3Count": 5,
+      "h4Count": 5,
+      "paragraphCount": 16,
+      "diagramCount": 1,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 1,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Enteric Nervous System",
+        "Gut-Brain Axis",
+        "Vagus Nerve",
+        "The Top-Down Pathway",
+        "The Bottom-Up Pathway",
+        "Serotonin (The Stability Molecule)",
+        "GABA (The Calming Molecule)",
+        "Dopamine (The Drive Molecule)"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-02-the-engine-of-wealth-and-capital-allocation.md",
+    "targetFile": "the-engine-of-wealth-and-capital-allocation.md",
+    "slug": "the-engine-of-wealth-and-capital-allocation",
+    "volume": 2,
+    "volumeTitle": "The Architecture of Wealth & Capital Allocation",
+    "orderInVolume": 1,
+    "title": "The Engine of Wealth — Cashflow, the Real Cost of Debt, and Compounding",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Wealth is not built by chasing volatile windfalls; it is built by using predictable income to steadily purchase productive assets, eliminating the emotional burden of unnecessary debt, and letting time do the heavy lifting.",
+    "tags": [
+      "execution",
+      "wealth",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 839,
+      "headingCount": 10,
+      "h3Count": 5,
+      "h4Count": 5,
+      "paragraphCount": 13,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "structural engineering",
+        "low-variance, risk-free cash flow engine",
+        "The Entrepreneurial / Speculative Trap",
+        "The Asymmetric Advantage of Stability",
+        "time without forced selling",
+        "2x to 2.5x the actual cost of the property",
+        "Mobility & Flexibility",
+        "Frictional Drag"
+      ],
+      "mentalModels": [
+        "The 9-to-5 as a Low-Variance Capital Engine"
+      ],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-03-the-three-modes-of-execution.md",
+    "targetFile": "the-three-modes-of-execution.md",
+    "slug": "the-three-modes-of-execution",
+    "volume": 6,
+    "volumeTitle": "Existential Sovereignty, Purpose & The Summit",
+    "orderInVolume": 38,
+    "title": "The Three Modes of Execution — Perception, Action, Self & The Immunity to Taking Things Personally",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 6,
+    "summary15s": "You cannot control the opinions, outbursts, or storms of the outside world, but you hold complete sovereignty over the vessel of your mind. Remember that other people's behavior is a reflection of their storm, your intrinsic value cannot be crumpled by external noise, and when there is no enemy with",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 1076,
+      "headingCount": 13,
+      "h3Count": 7,
+      "h4Count": 6,
+      "paragraphCount": 18,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "The Nature of Action (How you execute your work)",
+        "Three Modes of Execution",
+        "The Reality",
+        "The Master Law",
+        "Inertial Action",
+        "Passionate Action",
+        "Mastery Action",
+        "Motivation"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-04-eliminating-procrastination-and-activation-energy.md",
+    "targetFile": "eliminating-procrastination-and-activation-energy.md",
+    "slug": "eliminating-procrastination-and-activation-energy",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 2,
+    "title": "The Architecture of Action — The Procrastination Formula & Activation Energy",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "MEDIUM",
+    "archetypeReason": "Defaulted to canonical concept based on general structural deconstruction.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Motivation does not precede action; action produces motivation. Maximize expectancy and value, crush impulsiveness and delay, lower your activation barrier to 5 minutes, and let momentum do the heavy lifting.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 889,
+      "headingCount": 6,
+      "h3Count": 6,
+      "h4Count": 0,
+      "paragraphCount": 22,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 6,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "activation energy barrier",
+        "Procrastination Formula",
+        "physics of starting",
+        "Expectancy ($\\uparrow$)",
+        "Value ($\\uparrow$)",
+        "Impulsiveness ($\\downarrow$)",
+        "Delay ($\\downarrow$)",
+        "activation energy"
+      ],
+      "mentalModels": [
+        "Friction Engineering & The 2-Minute Pre-Flight"
+      ],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-05-the-diderot-effect-and-habit-cascades.md",
+    "targetFile": "the-diderot-effect-and-habit-cascades.md",
+    "slug": "the-diderot-effect-and-habit-cascades",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 3,
+    "title": "The Diderot Effect & Habit Cascades — Breaking the Domino Spiral of Behavior",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "MEDIUM",
+    "archetypeReason": "Defaulted to canonical concept based on general structural deconstruction.",
+    "readingTimeMinutes": 5,
+    "summary15s": "You rarely have ten separate habit problems; you usually have one fragile lead domino. Protect your initial daily anchor, install circuit breakers when you stumble, and let positive behavioral cascades elevate your default standard of living.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 756,
+      "headingCount": 9,
+      "h3Count": 4,
+      "h4Count": 5,
+      "paragraphCount": 13,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "interconnected behavioral cascades",
+        "Diderot Effect",
+        "Audit the Sequence",
+        "Concentrate Defense",
+        "chain termination"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "How to Master Habit Cascades: Three Core Protocols"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-06-the-neurochemistry-of-focus-and-dopamine-transition.md",
+    "targetFile": "the-neurochemistry-of-focus-and-dopamine-transition.md",
+    "slug": "the-neurochemistry-of-focus-and-dopamine-transition",
+    "volume": 1,
+    "volumeTitle": "The Biology of Mind & Energy",
+    "orderInVolume": 2,
+    "title": "The Neurochemistry of Focus — The Dopamine-Attention Transition & Dopamine Loading",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 7,
+    "summary15s": "Distraction is not a character flaw; it is an addiction to dopamine anticipation. Sequence your day with effort first, isolate the morning from digital inputs, load your dopamine through micro-milestones, restore your reserves through NSDR, and quarantine high-stimulation rewards to a protected even",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1224,
+      "headingCount": 10,
+      "h3Count": 10,
+      "h4Count": 0,
+      "paragraphCount": 30,
+      "diagramCount": 6,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 6,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "neurochemical miscalibration",
+        "Dopamine",
+        "Serotonin",
+        "Oxytocin",
+        "The Pursuit Circuit",
+        "The Post-Spike Deficit",
+        "below your original baseline",
+        "The Restless Loop"
+      ],
+      "mentalModels": [
+        "The Dopamine Paradox: Wanting vs. Liking",
+        "The Three Laws of Sustainable Attention"
+      ],
+      "heuristics": [
+        "The Gap Protocol: Breaking Neural Shortcuts"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-07-supernormal-stimuli-and-urge-surfing.md",
+    "targetFile": "supernormal-stimuli-and-urge-surfing.md",
+    "slug": "supernormal-stimuli-and-urge-surfing",
+    "volume": 1,
+    "volumeTitle": "The Biology of Mind & Energy",
+    "orderInVolume": 3,
+    "title": "Supernormal Stimuli & Urge Surfing — The Dual Front of Impulse Mastery",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 6,
+    "summary15s": "Cravings and procrastination are not character flaws; they are transient neurochemical waves. You do not need to fight the wave or obey it—simply observe it without judgment, let it crest and subside, and allow your brain's natural sovereignty to return.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1020,
+      "headingCount": 8,
+      "h3Count": 7,
+      "h4Count": 1,
+      "paragraphCount": 24,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Supernormal Stimuli",
+        "The Friction Paradox",
+        "The Compulsive Pull (Addiction)",
+        "The Avoidance Push (Procrastination)",
+        "Urge Surfing",
+        "brute-force thought suppression",
+        "The Ironic Process Theory",
+        "The Shame-Relapse Cycle"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": [
+        "Marlatt"
+      ]
+    }
+  },
+  {
+    "sourceFile": "chapter-08-the-architecture-of-true-confidence.md",
+    "targetFile": "the-architecture-of-true-confidence.md",
+    "slug": "the-architecture-of-true-confidence",
+    "volume": 6,
+    "volumeTitle": "Existential Sovereignty, Purpose & The Summit",
+    "orderInVolume": 36,
+    "title": "The Architecture of True Confidence — Self-Efficacy, Performance Under Pressure & Somatic Poise",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 7,
+    "summary15s": "Confidence is not a feeling you wait for; it is the reputation you build with yourself through kept promises, paired with the poise of an unhurried body. Inoculate yourself against pressure, eliminate explicit micromanagement by focusing on the external target, and let your undeniable stack of proof",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1223,
+      "headingCount": 13,
+      "h3Count": 6,
+      "h4Count": 7,
+      "paragraphCount": 15,
+      "diagramCount": 5,
+      "tableCount": 0,
+      "blockquoteCount": 2,
+      "codeBlockCount": 5,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Self-Esteem (Inherent Worth)",
+        "Self-Trust (Internal Credibility)",
+        "Self-Efficacy (Bandura’s Competence Metric)",
+        "Somatic Poise & Nonverbal Command",
+        "Distraction Theory (Working Memory Hijack)",
+        "The Heuristic",
+        "External Target",
+        "Stanford Somatic Mechanics"
+      ],
+      "mentalModels": [
+        "The Three Protocols for Flawless Execution Under Pressure"
+      ],
+      "heuristics": [
+        "The Protocol for Building Undeniable Confidence"
+      ],
+      "claims": [],
+      "sources": [
+        "Bandura"
+      ]
+    }
+  },
+  {
+    "sourceFile": "chapter-09-the-high-agency-reset-breaking-autopilot.md",
+    "targetFile": "the-high-agency-reset-breaking-autopilot.md",
+    "slug": "the-high-agency-reset-breaking-autopilot",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 5,
+    "title": "The High-Agency Reset — The Monk Mode Blueprint & The 5 Non-Negotiable Pillars",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 851,
+      "headingCount": 9,
+      "h3Count": 9,
+      "h4Count": 0,
+      "paragraphCount": 15,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Autopilot Trap",
+        "The Problem",
+        "The Non-Negotiable",
+        "The Yield",
+        "The Protocol",
+        "90 to 120-minute unbroken cognitive block",
+        "The Rule",
+        "The Practice"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Three Operational Rules of Monk Mode"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-10-asymmetric-leverage-and-the-pareto-principle.md",
+    "targetFile": "asymmetric-leverage-and-the-pareto-principle.md",
+    "slug": "asymmetric-leverage-and-the-pareto-principle",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 6,
+    "title": "Asymmetric Leverage — The Pareto Principle and Doing More by Doing Less",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 4,
+    "summary15s": "Doing more is not the path to greatness; doing the vital few with uncompromised depth is. Strip away the trivial 80%, concentrate your firepower on the asymmetric 20%, and achieve effortless leverage.",
+    "tags": [
+      "metacognition",
+      "execution",
+      "communication",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 703,
+      "headingCount": 8,
+      "h3Count": 5,
+      "h4Count": 3,
+      "paragraphCount": 14,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 2,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Power Laws and Asymmetric Leverage",
+        "Pareto Principle (The 80/20 Rule)",
+        "\"Vital Few\"",
+        "\"Trivial Many.\"",
+        "The Comfort of Low-Leverage Busywork",
+        "Diminishing Marginal Returns",
+        "The 80% Trap",
+        "The 20% Engine"
+      ],
+      "mentalModels": [
+        "The Power Law Distribution of Effort and Yield"
+      ],
+      "heuristics": [
+        "The 3-Step Asymmetric Execution Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-11-the-neurobiology-of-growth-and-fixed-mindset.md",
+    "targetFile": "the-neurobiology-of-growth-and-fixed-mindset.md",
+    "slug": "the-neurobiology-of-growth-and-fixed-mindset",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 7,
+    "title": "The Neurobiology of Growth — Dismantling the Fixed Mindset",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Intelligence and talent are not fixed biological ceilings; they are starting points. Embrace the friction of confusion, treat every mistake as diagnostic data, and realize that your brain's capacity expands precisely where the challenge begins.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 765,
+      "headingCount": 9,
+      "h3Count": 5,
+      "h4Count": 4,
+      "paragraphCount": 15,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "implicit psychological models of capability",
+        "Fixed Mindset",
+        "Growth Mindset",
+        "Error-Related Negativity (ERN)",
+        "Fixed Brains during Errors",
+        "Growth Brains during Errors",
+        "The \"Yet\" Cognitive Modifier",
+        "\"Yet.\""
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The 3-Step Mindset Recalibration Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-12-the-architecture-of-true-fulfillment-and-hedonic-treadmill.md",
+    "targetFile": "the-architecture-of-true-fulfillment-and-hedonic-treadmill.md",
+    "slug": "the-architecture-of-true-fulfillment-and-hedonic-treadmill",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 8,
+    "title": "The Architecture of True Fulfillment — Hedonic Adaptation & The Satisfaction Equation",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Lasting fulfillment is never found at the finish line; it is found in mastering the desire for the finish line. Shrink your wants, embrace the daily craft, and recognize that the peace you are chasing in the future is only accessible in the present moment.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 816,
+      "headingCount": 8,
+      "h3Count": 5,
+      "h4Count": 3,
+      "paragraphCount": 17,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 2,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "outcome of future attainment",
+        "Arrival Fallacy",
+        "Hedonic Adaptation",
+        "The Biological Baseline Reset",
+        "The Habituation Trap",
+        "The Consumer Treadmill",
+        "numerator",
+        "denominator"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-13-the-architecture-of-memory-and-active-recall.md",
+    "targetFile": "the-architecture-of-memory-and-active-recall.md",
+    "slug": "the-architecture-of-memory-and-active-recall",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 9,
+    "title": "The Architecture of Memory — Active Recall & The Science of Elite Retention",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 7,
+    "summary15s": "High-yield learning is not a contest of endurance; it is a discipline of cognitive retrieval. Multiply your retention windows through segmented sessions, chunk complex details into unified schemas, anchor ideas visually, and test your mind against the blank page.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 1169,
+      "headingCount": 10,
+      "h3Count": 6,
+      "h4Count": 4,
+      "paragraphCount": 26,
+      "diagramCount": 6,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 6,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "passive review",
+        "Illusion of Competence",
+        "active construction and spatial encoding network",
+        "Group A (Repeated Study)",
+        "Group B (Active Testing)",
+        "The Finding",
+        "The Biological Mechanism",
+        "synaptic consolidation"
+      ],
+      "mentalModels": [
+        "The Four Engines of Elite Retention"
+      ],
+      "heuristics": [
+        "The Three Master Active Recall Protocols",
+        "The Rule of Desirable Difficulty"
+      ],
+      "claims": [],
+      "sources": [
+        "Feynman"
+      ]
+    }
+  },
+  {
+    "sourceFile": "chapter-14-the-pathology-of-comfort-and-progressive-friction.md",
+    "targetFile": "the-pathology-of-comfort-and-progressive-friction.md",
+    "slug": "the-pathology-of-comfort-and-progressive-friction",
+    "volume": 4,
+    "volumeTitle": "High-Velocity Execution & Asymmetric Leverage",
+    "orderInVolume": 18,
+    "title": "The Pathology of Comfort — Homeostasis, The Paradox of Safety & Progressive Friction",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 6,
+    "summary15s": "Comfort is not peace; comfort is the quiet decay of your potential. Playing it safe is the single greatest risk you can take with your finite existence. Strip away the cloak of false humility, administer voluntary friction daily, lean into the stretch zone, and watch your boundaries expand.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1059,
+      "headingCount": 11,
+      "h3Count": 6,
+      "h4Count": 5,
+      "paragraphCount": 21,
+      "diagramCount": 5,
+      "tableCount": 1,
+      "blockquoteCount": 2,
+      "codeBlockCount": 5,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "incubator of cognitive and existential atrophy",
+        "Progressive Friction",
+        "Yerkes-Dodson Law of Optimal Arousal",
+        "The Comfort Zone (Stagnation & Atrophy)",
+        "The Stretch Zone (Peak Adaptation)",
+        "10% to 15%",
+        "The Panic Zone (Burnout & Paralysis)",
+        "The Reality"
+      ],
+      "mentalModels": [
+        "The Paradox of Safety & False Humility",
+        "The Law of Hormesis: Strength Through Calibrated Poison"
+      ],
+      "heuristics": [
+        "The 3-Step Progressive Friction Protocol"
+      ],
+      "claims": [],
+      "sources": [
+        "Yerkes-Dodson"
+      ]
+    }
+  },
+  {
+    "sourceFile": "chapter-15-the-anatomy-of-indiscipline-and-identity-anchors.md",
+    "targetFile": "the-anatomy-of-indiscipline-and-identity-anchors.md",
+    "slug": "the-anatomy-of-indiscipline-and-identity-anchors",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 11,
+    "title": "The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors & The Compound Law",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Indiscipline is not a lack of knowledge; it is a habit of negotiating with your own standards. Never hesitate longer than 3 seconds, anchor your discipline to your identity rather than fleeting emotions, and recognize that small daily compromises compound into massive lifetime decay.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 787,
+      "headingCount": 5,
+      "h3Count": 5,
+      "h4Count": 0,
+      "paragraphCount": 20,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 4,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "The Micro-Compromise",
+        "The Rationalization Engine",
+        "The Baseline Shift",
+        "The Illusion of Symmetry",
+        "The Reality of Divergence",
+        "more than 1,000 times more capable",
+        "3-second neurobiological window",
+        "The Science of Hesitation"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The 3-Second Rule: Bypassing the Limbic Hesitation Trap"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-16-the-philosophy-of-day-one-and-the-streak-fallacy.md",
+    "targetFile": "the-philosophy-of-day-one-and-the-streak-fallacy.md",
+    "slug": "the-philosophy-of-day-one-and-the-streak-fallacy",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 12,
+    "title": "The Philosophy of Day One — The Streak Fallacy & The 24-Hour Reset",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Do not live for the streak; live for the standard. Yesterday's victory cannot carry you, and yesterday's defeat cannot bind you. Every sunrise is Day 1—step onto the field with humility, focus purely on the next 24 hours, and execute your craft from a clean slate.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution"
+    ],
+    "stats": {
+      "wordCount": 782,
+      "headingCount": 5,
+      "h3Count": 5,
+      "h4Count": 0,
+      "paragraphCount": 18,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Obsession with the Streak",
+        "\"What-the-Hell Effect\"",
+        "Philosophy of \"Always Day 1\"",
+        "\"Day 2\"",
+        "The Illusion of Accumulated Credit",
+        "The Day 1 Posture",
+        "The Mathematical Reality",
+        "96.7% intact"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-17-dismantling-the-overthinking-loop.md",
+    "targetFile": "dismantling-the-overthinking-loop.md",
+    "slug": "dismantling-the-overthinking-loop",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 13,
+    "title": "The Architecture of Metacognition — Dismantling the Overthinking Loop",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Analysis that leads to action is wisdom; analysis that leads to more analysis is a prison. Never solve worries inside your head—write them down, make the call at 70% certainty, ground your body in physical reality, and let execution silence the noise.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 883,
+      "headingCount": 7,
+      "h3Count": 4,
+      "h4Count": 3,
+      "paragraphCount": 19,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "convergent, linear, and actionable",
+        "circular, divergent, and paralyzed",
+        "The Illusion of Control",
+        "The Termination Criteria",
+        "Default Mode Network (DMN)",
+        "Working Memory Capacity",
+        "4 to 7 discrete chunks of information",
+        "The Cognitive Jam"
+      ],
+      "mentalModels": [
+        "The Fundamental Divergence: Thinking vs. Looping",
+        "Three Master Protocols to Break Cognitive Loops"
+      ],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-18-the-architecture-of-marginal-gains.md",
+    "targetFile": "the-architecture-of-marginal-gains.md",
+    "slug": "the-architecture-of-marginal-gains",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 14,
+    "title": "The Architecture of Marginal Gains — Multiplicative Compounding & The Latent Plateau",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "True mastery is not the result of one heroic leap; it is the aggregation of countless invisible micro-calibrations. Deconstruct your system, eliminate hidden leaks, trust the latent plateau, and allow the mathematics of compounding to elevate your life.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 826,
+      "headingCount": 7,
+      "h3Count": 4,
+      "h4Count": 3,
+      "paragraphCount": 20,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 10,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Aggregation of Marginal Gains",
+        "single neglected leak multiplies downward",
+        "Valley of Disappointment (The Latent Plateau)",
+        "The Melting Ice Cube Metaphor",
+        "accumulating latent potential",
+        "The Compounding Curve",
+        "Biological Input",
+        "Environmental Friction"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Three Protocols for Operationalizing Marginal Gains"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-19-the-architecture-of-cognitive-biases.md",
+    "targetFile": "the-architecture-of-cognitive-biases.md",
+    "slug": "the-architecture-of-cognitive-biases",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 15,
+    "title": "The Architecture of Cognitive Biases — Deconstructing the Mind's Daily Illusions & Distortions",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Your brain is a survival engine, not a truth teller. It exaggerates fear, projects negative judgments, and invents catastrophic futures to keep you safe in comfort. Do not believe everything you think—cross-examine your distortions with courtroom evidence, and let disciplined physical action lead th",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 889,
+      "headingCount": 9,
+      "h3Count": 4,
+      "h4Count": 5,
+      "paragraphCount": 16,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Master Cognitive Distortions",
+        "The Illusion",
+        "The Neurobiological Truth",
+        "dynamic, not static",
+        "180 seconds of physical action",
+        "The Distortion",
+        "The Reality",
+        "The Evolutionary Origin"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Cognitive Restructuring Protocol: The Courtroom Test"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-20-the-action-paradox-and-illusion-of-preparation.md",
+    "targetFile": "the-action-paradox-and-illusion-of-preparation.md",
+    "slug": "the-action-paradox-and-illusion-of-preparation",
+    "volume": 3,
+    "volumeTitle": "Dismantling Internal Saboteurs",
+    "orderInVolume": 12,
+    "title": "The Action Paradox — The Preparation Trap, The Choice Point & The Four 'Playing-It-Safe' Saboteurs",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 6,
+    "summary15s": "Stop using preparation as a shield against the vulnerability of action. Recognize the four playing-it-safe saboteurs, pause at the Choice Point, develop the willingness to carry discomfort, and execute your Towards Moves with relentless devotion to your craft.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 935,
+      "headingCount": 9,
+      "h3Count": 6,
+      "h4Count": 3,
+      "paragraphCount": 18,
+      "diagramCount": 5,
+      "tableCount": 1,
+      "blockquoteCount": 2,
+      "codeBlockCount": 5,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "self-improvement and \"careful preparation.\"",
+        "subconscious anxiety-avoidance mechanism",
+        "Vicarious Accomplishment",
+        "Action Paradox",
+        "Acceptance and Commitment (ACT) Choice Point",
+        "\"Playing-It-Safe\" behaviors",
+        "Chronic Rumination (The Simulation Trap)",
+        "Perfectionistic Over-Preparation (Ego Shield)"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Protocols for Restoring Action Sovereignty"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-21-the-anatomy-of-consistency-and-forced-action.md",
+    "targetFile": "the-anatomy-of-consistency-and-forced-action.md",
+    "slug": "the-anatomy-of-consistency-and-forced-action",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 17,
+    "title": "The Anatomy of Consistency — Navigating the Three Phases of Execution & The Psychology of Forced Action",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Motivation is a visitor that arrives only after the work has begun. Do not wait for excitement to return in the muddy middle—reframe your work as sovereign choice, survive the first 10 minutes of friction, log your micro-victories, and let consistent systems carry you across the finish line.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution"
+    ],
+    "stats": {
+      "wordCount": 835,
+      "headingCount": 9,
+      "h3Count": 3,
+      "h4Count": 6,
+      "paragraphCount": 17,
+      "diagramCount": 2,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 2,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "tri-phasic psychological curve",
+        "Three Phases of Long-Term Pursuits",
+        "Triad of Forced Execution",
+        "The Neurobiology",
+        "The Dangerous Trap",
+        "The Reality",
+        "The Crisis",
+        "The Law"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-22-the-neurobiology-of-meditation.md",
+    "targetFile": "the-neurobiology-of-meditation.md",
+    "slug": "the-neurobiology-of-meditation",
+    "volume": 1,
+    "volumeTitle": "The Biology of Mind & Energy",
+    "orderInVolume": 4,
+    "title": "The Neurobiology of Meditation — Structural Rewiring & The Attention Loop",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Meditation is not about stopping thoughts; it is about changing your relationship to them. Every time you notice your mind has wandered and calmly return to the present moment, you physically rewire your brain—shrinking fear, strengthening focus, and building an unshakeable inner anchor.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 732,
+      "headingCount": 4,
+      "h3Count": 4,
+      "h4Count": 0,
+      "paragraphCount": 16,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Default Mode Network (DMN)",
+        "8 weeks of consistent 15-minute daily meditation",
+        "The Amygdala (The Threat Center) Shrinks",
+        "The Hippocampus (The Memory Hub) Expands",
+        "The Neural Mechanism",
+        "The Resistance Metaphor",
+        "50 neural bicep curls",
+        "SOAR Protocol"
+      ],
+      "mentalModels": [
+        "The 4-Step Attentional Loop (The \"Bicep Curl\" of the Mind)"
+      ],
+      "heuristics": [
+        "The SOAR Protocol: Bringing Meditation into Daily Action"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-23-the-perfectionism-paradox.md",
+    "targetFile": "the-perfectionism-paradox.md",
+    "slug": "the-perfectionism-paradox",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 18,
+    "title": "The Perfectionism Paradox — Deconstructing the Illusion of High Standards",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Perfectionism is fear disguised as virtue. Stop hiding behind endless preparation and cosmetic polishing. Give yourself permission to produce messy first drafts, execute at 80% completeness, and realize that real competence is forged through fast, imperfect iterations in the real world.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 858,
+      "headingCount": 8,
+      "h3Count": 5,
+      "h4Count": 3,
+      "paragraphCount": 15,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "an emotional shield against real-world feedback",
+        "The Striving for Excellence",
+        "Neurotic Perfectionism",
+        "Startup Paralysis (The Ideal Conditions Myth)",
+        "Premature Abandonment (All-or-Nothing Sabotage)",
+        "The Psychological Payoff",
+        "The Fear of Exposure",
+        "exist"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Three Protocols for Action-First Excellence"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-24-the-anatomy-of-social-comparison.md",
+    "targetFile": "the-anatomy-of-social-comparison.md",
+    "slug": "the-anatomy-of-social-comparison",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 19,
+    "title": "The Anatomy of Social Comparison — The Backstage Fallacy & The Package Trade Heuristic",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Social comparison is comparing your raw internal backstage with someone else's curated front stage. You cannot trade for someone's victory without adopting their entire life and struggle. Step out of the status game, measure yourself strictly against your past baseline, and let deep craft be your on",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 806,
+      "headingCount": 8,
+      "h3Count": 5,
+      "h4Count": 3,
+      "paragraphCount": 15,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Complete Package Trade Heuristic",
+        "The Ancestral Purpose",
+        "The Modern Distortion",
+        "Asymmetric Information Trap",
+        "entire internal raw backstage",
+        "carefully curated front stage",
+        "The Pick-and-Choose Myth",
+        "The Reality of Human Existence"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Complete Package Trade Heuristic (The Inversion Test)",
+        "The Three Protocols for Sovereign Self-Calibration"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-25-the-hydraulic-mind-and-misdirected-energy.md",
+    "targetFile": "the-hydraulic-mind-and-misdirected-energy.md",
+    "slug": "the-hydraulic-mind-and-misdirected-energy",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 20,
+    "title": "The Hydraulic Mind — Indiscipline as Misdirected Energy & The Invisible Energy Thieves",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 6,
+    "summary15s": "You are not lazy, broken, or lacking in energy. You are an energetic powerhouse being quietly drained by open loops, emotional guilt, metabolic crashes, and unmanaged plumbing. Patch the invisible leaks, clear your subconscious RAM, build unbreakable environmental riverbanks, and direct your full wa",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1038,
+      "headingCount": 9,
+      "h3Count": 5,
+      "h4Count": 4,
+      "paragraphCount": 16,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "energy deficit",
+        "parasitic energy sinkholes and subconscious leaks",
+        "hydraulic energy model",
+        "The River Principle",
+        "Canalization over Suppression",
+        "dig new irrigation canals",
+        "The Open Loop Bleed (Subconscious RAM Drain)",
+        "background process in working memory"
+      ],
+      "mentalModels": [
+        "The Conservation Law of Psychic Energy"
+      ],
+      "heuristics": [
+        "The Protocols for Total Energy Sovereignty"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-26-the-morning-architecture-and-discipline.md",
+    "targetFile": "the-morning-architecture-and-discipline.md",
+    "slug": "the-morning-architecture-and-discipline",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 21,
+    "title": "The Circadian Architecture — The Science of Early Waking, Evening De-escalation & The Zero-Input Sanctuary",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "MEDIUM",
+    "archetypeReason": "Defaulted to canonical concept based on general structural deconstruction.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Early waking is an engineering problem, not a character test. Win the evening by clearing blue light and dropping your core temperature, eliminate the snooze trap with a single across-the-room alarm, ignite your biology with light and water, and turn the quiet morning hours into your unfair competit",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution"
+    ],
+    "stats": {
+      "wordCount": 835,
+      "headingCount": 5,
+      "h3Count": 5,
+      "h4Count": 0,
+      "paragraphCount": 17,
+      "diagramCount": 4,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 2,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "the Adenosine Sleep-Drive Curve",
+        "the Evening Melatonin Release Window",
+        "the Morning Cortisol Awakening Response (CAR)",
+        "The Screen & Light Trap",
+        "The Thermal Barrier",
+        "The Multi-Alarm Pathology",
+        "The Digital Airgap",
+        "Progressive Muscle Relaxation (PMR)"
+      ],
+      "mentalModels": [
+        "The Biological Engine: The Circadian Cycle"
+      ],
+      "heuristics": [
+        "The Evening De-escalation Protocol (The 30-Minute Anchor)",
+        "The Morning Ignition System: The 5-Step Chain"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-27-the-architecture-of-solitude-and-loneliness.md",
+    "targetFile": "the-architecture-of-solitude-and-loneliness.md",
+    "slug": "the-architecture-of-solitude-and-loneliness",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 22,
+    "title": "The Architecture of Solitude — Dismantling Chronic Loneliness & The Parasocial Illusion",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Loneliness is an ancient biological call to connection, not a life sentence of inadequacy. Do not numb the call with shallow parasocial feeds. Master the quiet power of sovereign solitude, turn your attention outward in service to others, and forge real-world bonds that anchor your nervous system in",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 837,
+      "headingCount": 8,
+      "h3Count": 5,
+      "h4Count": 3,
+      "paragraphCount": 14,
+      "diagramCount": 4,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "destructive loneliness",
+        "sovereign solitude",
+        "Solitude (The Joy of Being Alone)",
+        "Loneliness (The Pain of Feeling Isolated)",
+        "Evolutionary Theory of Loneliness",
+        "The Alarm Bell",
+        "The Hyper-Vigilance Filter",
+        "The Defensive Paradox"
+      ],
+      "mentalModels": [
+        "The Evolutionary Threat Loop of Chronic Loneliness"
+      ],
+      "heuristics": [
+        "The Three Protocols for Restoring Social Sovereignty"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-28-the-architecture-of-self-knowledge.md",
+    "targetFile": "the-architecture-of-self-knowledge.md",
+    "slug": "the-architecture-of-self-knowledge",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 23,
+    "title": "The Architecture of Self-Knowledge — Dismantling the Borrowed Identity & The Four Reality Mirrors",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Life does not begin when you satisfy society's expectations; life begins when you stop living someone else's script. Strip away the borrowed desires, audit your true energy, choose the burdens worthy of your devotion, and build your life upon the unshakeable rock of your own authentic nature.",
+    "tags": [
+      "metacognition",
+      "execution",
+      "communication",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 828,
+      "headingCount": 9,
+      "h3Count": 5,
+      "h4Count": 4,
+      "paragraphCount": 13,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "borrowed lives",
+        "The Persona Trap",
+        "The Existential Cost",
+        "stripping away inherited conditioning",
+        "envy is a distorted compass",
+        "Generative Fatigue",
+        "Depletive Exhaustion",
+        "intrinsic craft"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Protocols for Sovereign Self-Alignment"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-29-the-architecture-of-purpose-and-mastery.md",
+    "targetFile": "the-architecture-of-purpose-and-mastery.md",
+    "slug": "the-architecture-of-purpose-and-mastery",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 24,
+    "title": "The Architecture of Purpose & Mastery — The Craft-First Paradigm & Multiple Intelligences",
+    "archetype": "MASTERCLASS_LECTURE",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Focuses on pedagogical transmission, writing craft, and educational delivery mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Stop waiting for purpose to strike you like lightning. Purpose is not found; it is forged. Identify your unique cognitive strengths, embrace the quiet discipline of mastery, dedicate your skills to something larger than yourself, and let meaning be the natural fruit of your devotion.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 880,
+      "headingCount": 6,
+      "h3Count": 6,
+      "h4Count": 0,
+      "paragraphCount": 19,
+      "diagramCount": 5,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 5,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "\"Passion Myth\"",
+        "Consumer Mindset",
+        "Craftsman Mindset",
+        "The Fallacy of Premature Passion",
+        "The Competence-Purpose Sequence",
+        "Primal Inclinations",
+        "The Childhood Marker",
+        "The Return to the Root"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The 3-Step Protocol for Constructing Purpose"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-30-the-physics-of-outworking-and-first-principles.md",
+    "targetFile": "the-physics-of-outworking-and-first-principles.md",
+    "slug": "the-physics-of-outworking-and-first-principles",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 25,
+    "title": "The Physics of Outworking — The Compounding Velocity of Effort & First-Principles Execution",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Talent sets the floor; iteration velocity dictates the ceiling. Strip away the consensus dogma, boil every challenge down to its first principles, out-iterate the competition with relentless execution volume, and let the compounding mathematics of hard work do the rest.",
+    "tags": [
+      "metacognition",
+      "execution",
+      "communication",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 766,
+      "headingCount": 8,
+      "h3Count": 5,
+      "h4Count": 3,
+      "paragraphCount": 15,
+      "diagramCount": 4,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "focused weekly hours and iteration frequency",
+        "First-Principles Thinking",
+        "Uncompromising Execution Volume",
+        "The Compression Law",
+        "six months what takes Entity A an entire year",
+        "Compounding Iterations",
+        "Reasoning by Analogy",
+        "Deconstruct to Bedrock Truths"
+      ],
+      "mentalModels": [
+        "The Architecture of the Rapid Feedback Loop"
+      ],
+      "heuristics": [
+        "The Protocols for Sustainable Extreme Execution"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-31-the-philosophy-of-the-void-and-radical-resilience.md",
+    "targetFile": "the-philosophy-of-the-void-and-radical-resilience.md",
+    "slug": "the-philosophy-of-the-void-and-radical-resilience",
+    "volume": 3,
+    "volumeTitle": "Philosophy of Action & Metacognition",
+    "orderInVolume": 26,
+    "title": "The Philosophy of the Void — Radical Resilience, The Power of Zero & The Art of Self-Reconstruction",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Do not fear starting from nothing; fear living a life trapped in the defense of illusions. When you are willing to ride the zero, you hold the ultimate power. Gather your scattered pieces in silence, transform every trial into fuel, and walk the earth with the calm ferocity of someone who has nothin",
+    "tags": [
+      "execution",
+      "communication",
+      "wealth",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 771,
+      "headingCount": 5,
+      "h3Count": 5,
+      "h4Count": 0,
+      "paragraphCount": 16,
+      "diagramCount": 4,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "The Trap of False Accumulation",
+        "The Sovereign Anchor",
+        "The Victim Stance",
+        "The Stoic Transmutation",
+        "Art of Quiet Self-Reconstruction",
+        "The Dignity of Silence",
+        "Gathering the Pieces",
+        "The Clean Slate Reset"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-32-the-social-fiction-matrix-and-status-games.md",
+    "targetFile": "the-social-fiction-matrix-and-status-games.md",
+    "slug": "the-social-fiction-matrix-and-status-games",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 24,
+    "title": "The Social Fiction Matrix — The Thomas Theorem & Demystifying Status Games",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 4,
+    "summary15s": "Social hierarchies, corporate titles, and prestige symbols are shared human fictions, not laws of physics. Learn their mechanics, respect their real-world consequences, and play the game skillfully—but never surrender your inner sovereignty to a game invented by someone else.",
+    "tags": [
+      "metacognition",
+      "communication",
+      "wealth",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 656,
+      "headingCount": 4,
+      "h3Count": 4,
+      "h4Count": 0,
+      "paragraphCount": 14,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 2,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "collective psychological fictions",
+        "Social Fiction Matrix",
+        "Thomas Theorem",
+        "The Currency Example",
+        "The Status Example",
+        "The Hypnotized Player",
+        "The Sovereign Player",
+        "3-Question Demystification Test"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Demystification Protocol: Testing Social Reality"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-33-the-three-currencies-of-capital.md",
+    "targetFile": "the-three-currencies-of-capital.md",
+    "slug": "the-three-currencies-of-capital",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 25,
+    "title": "The Three Currencies — Leveraging Economic, Cultural & Social Capital",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "MEDIUM",
+    "archetypeReason": "Defaulted to canonical concept based on general structural deconstruction.",
+    "readingTimeMinutes": 4,
+    "summary15s": "Do not be deceived into thinking you are powerless just because your bank account is modest. Financial wealth is only one currency. Build rare embodied cultural capital through intense study and craft, convert it into unshakeable social trust, and the economic rewards will follow with mathematical c",
+    "tags": [
+      "communication",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 589,
+      "headingCount": 7,
+      "h3Count": 4,
+      "h4Count": 3,
+      "paragraphCount": 10,
+      "diagramCount": 2,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 2,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "money (financial wealth)",
+        "Three Forms of Capital",
+        "What It Is",
+        "Its Nature",
+        "The Embodied State",
+        "The Objectified State",
+        "The Institutionalized State",
+        "Cycle of Capital Conversion"
+      ],
+      "mentalModels": [
+        "The Capital Conversion Engine"
+      ],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-34-the-front-stage-fallacy-and-imposter-syndrome.md",
+    "targetFile": "the-front-stage-fallacy-and-imposter-syndrome.md",
+    "slug": "the-front-stage-fallacy-and-imposter-syndrome",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 26,
+    "title": "The Front Stage Fallacy — Erving Goffman & Dismantling Imposter Syndrome",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 4,
+    "summary15s": "You feel like an imposter only because you are comparing your chaotic, unedited backstage with everyone else's rehearsed front-stage performance. Strip away the theatrical props: every human is figuring it out in real time. Deliver your performance with focus, shed the mask when the curtain falls, a",
+    "tags": [
+      "execution",
+      "communication",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 614,
+      "headingCount": 4,
+      "h3Count": 4,
+      "h4Count": 0,
+      "paragraphCount": 12,
+      "diagramCount": 3,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Imposter Syndrome",
+        "Dramaturgical Model of Social Interaction",
+        "Front Stage",
+        "Back Stage",
+        "The Front Stage",
+        "The Back Stage",
+        "The Asymmetric Information Trap",
+        "The Inevitable Distortion"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Three Protocols for Demystifying the Stage"
+      ],
+      "claims": [],
+      "sources": [
+        "Goffman"
+      ]
+    }
+  },
+  {
+    "sourceFile": "chapter-35-the-sociological-imagination-and-structural-clarity.md",
+    "targetFile": "the-sociological-imagination-and-structural-clarity.md",
+    "slug": "the-sociological-imagination-and-structural-clarity",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 27,
+    "title": "The Sociological Imagination — Personal Troubles vs. Systemic Realities",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 4,
+    "summary15s": "Do not internalize the pathologies of a broken system as personal moral flaws. Take radical responsibility for your own effort, but view the external world through the lens of structural realism. Master your inner craft, navigate the outer terrain with sharp awareness, and execute with quiet confide",
+    "tags": [
+      "metacognition",
+      "execution",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 589,
+      "headingCount": 4,
+      "h3Count": 4,
+      "h4Count": 0,
+      "paragraphCount": 13,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "The Sociological Imagination",
+        "Personal Troubles",
+        "Public Issues",
+        "The Unemployment Diagnostic",
+        "Personal Trouble",
+        "Public Issue / Structural Reality",
+        "The Attention Economy Diagnostic",
+        "Public Issue"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Dual-Axis Operating Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-36-the-iron-cage-and-anomie.md",
+    "targetFile": "the-iron-cage-and-anomie.md",
+    "slug": "the-iron-cage-and-anomie",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 28,
+    "title": "The Iron Cage & Anomie — Navigating Sterile Systems & The Power of Chosen Constraints",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 3,
+    "summary15s": "Do not let sterile corporate cages define your soul, and do not let boundaryless freedom plunge you into chaos. Build your own fortress of self-chosen discipline. Choose your rules, honor your daily non-negotiables, and discover the deep peace that exists within self-mastered order.",
+    "tags": [
+      "neurobiology",
+      "execution",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 526,
+      "headingCount": 5,
+      "h3Count": 5,
+      "h4Count": 0,
+      "paragraphCount": 11,
+      "diagramCount": 2,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 2,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "The Iron Cage of Rationalization",
+        "Anomie or Normlessness",
+        "Iron Cage",
+        "Anomie",
+        "The Mechanism",
+        "calculability, efficiency, and predictability",
+        "The Trap",
+        "The Countermeasure"
+      ],
+      "mentalModels": [],
+      "heuristics": [],
+      "claims": [],
+      "sources": [
+        "Durkheim",
+        "Weber"
+      ]
+    }
+  },
+  {
+    "sourceFile": "chapter-37-the-cognitive-firewall-and-epistemic-razors.md",
+    "targetFile": "the-cognitive-firewall-and-epistemic-razors.md",
+    "slug": "the-cognitive-firewall-and-epistemic-razors",
+    "volume": 3,
+    "volumeTitle": "Dismantling Internal Saboteurs",
+    "orderInVolume": 16,
+    "title": "The Cognitive Firewall — Epistemic Razors, Fallacy Detection & The Principle of Charity",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Clear thinking is not the absence of emotion; it is the discipline of razor-sharp logic. Steel-man the ideas you disagree with, cut away assumed malice, reject false binaries, and never sacrifice your future on the altar of sunk costs. Let the cognitive firewall guard your clarity.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 754,
+      "headingCount": 8,
+      "h3Count": 4,
+      "h4Count": 4,
+      "paragraphCount": 13,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Cognitive Firewall",
+        "The Classical Fallacy",
+        "The Intellectual Law",
+        "Principle of Charity",
+        "Why It Matters",
+        "Occam’s Razor",
+        "Hanlon’s Razor",
+        "The Distortion"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The 4-Step Decision Checklist"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-38-the-architecture-of-emotional-granularity.md",
+    "targetFile": "the-architecture-of-emotional-granularity.md",
+    "slug": "the-architecture-of-emotional-granularity",
+    "volume": 6,
+    "volumeTitle": "Existential Sovereignty, Purpose & The Summit",
+    "orderInVolume": 33,
+    "title": "The Architecture of Emotional Granularity — Naming the Unspoken Landscape & Affect Labeling",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "You cannot conquer what you cannot name. Expand the resolution of your internal vocabulary. When you name the obscure sorrows of the human condition with clarity, fear turns into understanding, loneliness turns into quiet wonder, and your emotional life becomes a source of indestructible peace.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 805,
+      "headingCount": 8,
+      "h3Count": 4,
+      "h4Count": 4,
+      "paragraphCount": 15,
+      "diagramCount": 2,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 2,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Emotional Granularity",
+        "Affect Labeling",
+        "The Research",
+        "The Granularity Advantage",
+        "The Definition",
+        "The Sovereignty Shift",
+        "social anxiety and narcissism",
+        "nobility of your daily effort"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The Emotional Diagnosis Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-39-the-architecture-of-integrated-strength.md",
+    "targetFile": "the-architecture-of-integrated-strength.md",
+    "slug": "the-architecture-of-integrated-strength",
+    "volume": 6,
+    "volumeTitle": "Existential Sovereignty, Purpose & The Summit",
+    "orderInVolume": 37,
+    "title": "The Architecture of Integrated Strength — Quiet Competence, Radical Ownership & The Invariant of Respect",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Respect is not given; it is earned through an unshakeable track record of competence, internal integrity, and calm boundaries. Stop chasing the fleeting approval of others. Keep every promise you make to yourself, take radical ownership of every outcome, let your results do the talking, and become a",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 830,
+      "headingCount": 9,
+      "h3Count": 4,
+      "h4Count": 5,
+      "paragraphCount": 16,
+      "diagramCount": 3,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 3,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "The Performative Posturer",
+        "The Approval-Seeker",
+        "Integrated Strength",
+        "Code of Integrated Strength",
+        "The Approval Trap",
+        "The Law of Respect",
+        "integrity, competence, and consistency",
+        "non-negotiable standards (\"Hard-Nos\")"
+      ],
+      "mentalModels": [
+        "The Internal Engine: Keeping Promises to Yourself"
+      ],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-40-the-architecture-of-resonance-and-vocal-sovereignty.md",
+    "targetFile": "the-architecture-of-resonance-and-vocal-sovereignty.md",
+    "slug": "the-architecture-of-resonance-and-vocal-sovereignty",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 30,
+    "title": "The Architecture of Resonance — Vocal Mastery, HAIL, Internal Conviction & Conscious Listening",
+    "archetype": "CANONICAL_CONCEPT",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Systematic first-principles breakdown of biological, cognitive, or financial mechanics.",
+    "readingTimeMinutes": 9,
+    "summary15s": "How you speak determines how the world listens; how you listen determines what the world reveals. Speak with the undeniable fire of internal conviction, humanize your shortcomings with quiet pride, ground your voice in the resonance of the chest, and master the art of conscious listening.",
+    "tags": [
+      "execution",
+      "communication",
+      "resilience"
+    ],
+    "stats": {
+      "wordCount": 1516,
+      "headingCount": 8,
+      "h3Count": 8,
+      "h4Count": 0,
+      "paragraphCount": 23,
+      "diagramCount": 6,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 6,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "acoustic, psychological, and relational resonance",
+        "Architecture of Resonance",
+        "Internal Conviction",
+        "Five Daily Protocols of Conscious Listening",
+        "The Incongruence Radar",
+        "Language is Secondary to Transmission",
+        "conviction and emotional clarity are the engine",
+        "The \"Humanize the Shortcoming\" Protocol"
+      ],
+      "mentalModels": [
+        "The Law of Internal Conviction & Humanizing Shortcomings"
+      ],
+      "heuristics": [
+        "The Five Daily Protocols for Conscious Listening",
+        "The 6-Step Daily Vocal Conditioning Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-41-the-architecture-of-spontaneous-communication.md",
+    "targetFile": "the-architecture-of-spontaneous-communication.md",
+    "slug": "the-architecture-of-spontaneous-communication",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 31,
+    "title": "The Architecture of Spontaneous Communication — Impromptu Clarity, The 60-Second Narrative & Subtractive Articulation",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 7,
+    "summary15s": "Clear articulation is an act of subtraction. Eliminate over-explaining, stop asking for permission, anchor your speech in structured scaffolding, and deliver your conclusions with the unshakeable stillness of someone who knows their worth.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1082,
+      "headingCount": 8,
+      "h3Count": 6,
+      "h4Count": 2,
+      "paragraphCount": 20,
+      "diagramCount": 6,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 6,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "in the wild",
+        "\"What? So What? Now What?\"",
+        "60-Second Micro-Story Engine",
+        "what you deliberately choose NOT to do",
+        "Stop Over-Explaining (The Economy of Speech)",
+        "stop talking",
+        "Stop Fidgeting (Stillness Signals Power)",
+        "Stop Asking for Permission (The Hedging Trap)"
+      ],
+      "mentalModels": [],
+      "heuristics": [
+        "The 3-Step Impromptu Delivery Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-42-the-architecture-of-high-impact-pedagogy.md",
+    "targetFile": "the-architecture-of-high-impact-pedagogy.md",
+    "slug": "the-architecture-of-high-impact-pedagogy",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 32,
+    "title": "The Architecture of High-Impact Pedagogy & Sovereign Writing — The MIT Formula, Reader-Centric Value & Cognitive Fences",
+    "archetype": "MASTERCLASS_LECTURE",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Focuses on pedagogical transmission, writing craft, and educational delivery mechanics.",
+    "readingTimeMinutes": 7,
+    "summary15s": "Writing and speaking are not acts of self-expression; they are acts of reader transformation. Strip away the school habit of showing what you know. Create instability by exposing hidden flaws, anchor your sentences in topic-stress alignment, fence your ideas with surgical precision, and deliver sove",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1134,
+      "headingCount": 12,
+      "h3Count": 7,
+      "h4Count": 5,
+      "paragraphCount": 24,
+      "diagramCount": 6,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 6,
+      "mathCount": 2,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "High-Impact Pedagogy and Sovereign Writing",
+        "The School Fallacy",
+        "The Sovereign Reality",
+        "The Value Invariant",
+        "Instability and Resolution",
+        "The Topic Position (Start with the Known)",
+        "The Stress Position (End with the Punchline)",
+        "The Rookie's Fallacy"
+      ],
+      "mentalModels": [
+        "The Instability Engine: How to Make Ideas Matter",
+        "Sentence Architecture: The Topic-Stress Invariant"
+      ],
+      "heuristics": [
+        "The Five Master Heuristics of High-Impact Pedagogy"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-43-the-architecture-of-social-connectivity.md",
+    "targetFile": "the-architecture-of-social-connectivity.md",
+    "slug": "the-architecture-of-social-connectivity",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 33,
+    "title": "The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine & The Pathology of 'Playing It Cool'",
+    "archetype": "DIALECTIC_ESSAY",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Deconstructs cultural illusions, philosophical paradoxes, and sociological status dynamics.",
+    "readingTimeMinutes": 9,
+    "summary15s": "Relational depth is forged through unhurried presence and radical honesty. Abandon the fear-based games of playing it cool; state your enthusiasm with sovereign clarity, mine the hidden hooks in every sentence, and build genuine bridges everywhere you go.",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 1618,
+      "headingCount": 17,
+      "h3Count": 8,
+      "h4Count": 9,
+      "paragraphCount": 29,
+      "diagramCount": 7,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 7,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Architecture of Social Connectivity",
+        "The Root Cause",
+        "The Game",
+        "The Sovereign Law",
+        "The Incomplete Sentence Heuristic",
+        "2 to 3 implicit branching hooks",
+        "Presence Over Planning",
+        "Befriending the Micro-Pause (Comfortable Silence)"
+      ],
+      "mentalModels": [
+        "The Incomplete Sentence Engine (How to Never Run Out of Things to Say)"
+      ],
+      "heuristics": [],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-44-the-architecture-of-difficult-conversations.md",
+    "targetFile": "the-architecture-of-difficult-conversations.md",
+    "slug": "the-architecture-of-difficult-conversations",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 34,
+    "title": "The Architecture of Difficult Conversations — Frame of Reference, Sovereign Boundaries & Navigating Unsupportive Circles",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 6,
+    "summary15s": "You can love someone deeply without adopting their fears or living out their limitations. Regulate your nervous system before you utter a word, make others feel considered before you correct them, state your chosen path with unshakeable calm, and let your long-term results demonstrate the wisdom of ",
+    "tags": [
+      "neurobiology",
+      "execution",
+      "communication",
+      "wealth"
+    ],
+    "stats": {
+      "wordCount": 1000,
+      "headingCount": 9,
+      "h3Count": 6,
+      "h4Count": 3,
+      "paragraphCount": 19,
+      "diagramCount": 5,
+      "tableCount": 0,
+      "blockquoteCount": 1,
+      "codeBlockCount": 5,
+      "mathCount": 0,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Architecture of Difficult Conversations",
+        "The Thermostat Law",
+        "Considered Before Corrected",
+        "fully considered",
+        "Clarity Over Intensity",
+        "Their Resistance is Not Malice; It is Fear",
+        "The Permission Fallacy",
+        "Empathy-Assertiveness Protocol"
+      ],
+      "mentalModels": [
+        "Phase 1: The Thermostat Law & The \"Considered Before Corrected\" Principle",
+        "Phase 4: The Trial Lawyer's \"Curiosity Pivot\""
+      ],
+      "heuristics": [
+        "Phase 3: The 3-Step Empathy-Assertiveness Protocol"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  },
+  {
+    "sourceFile": "chapter-45-the-architecture-of-supercommunication.md",
+    "targetFile": "the-architecture-of-supercommunication.md",
+    "slug": "the-architecture-of-supercommunication",
+    "volume": 5,
+    "volumeTitle": "The Architecture of Social Sovereignty",
+    "orderInVolume": 35,
+    "title": "The Architecture of Supercommunication — The Matching Principle, Neural Synchronization & The Three Layers of Dialogue",
+    "archetype": "TACTICAL_FRAMEWORK",
+    "archetypeConfidence": "HIGH",
+    "archetypeReason": "Presents concrete action sequences, behavioral execution rules, and conversational protocols.",
+    "readingTimeMinutes": 5,
+    "summary15s": "Great communicators do not impose their frequency onto the room; they match the frequency of the human soul in front of them. Never offer an engineer's checklist to an aching heart. Diagnose the layer, match with genuine empathy, ask about values rather than facts, and let neural synchronization do ",
+    "tags": [
+      "neurobiology",
+      "metacognition",
+      "execution",
+      "communication"
+    ],
+    "stats": {
+      "wordCount": 764,
+      "headingCount": 5,
+      "h3Count": 5,
+      "h4Count": 0,
+      "paragraphCount": 18,
+      "diagramCount": 4,
+      "tableCount": 1,
+      "blockquoteCount": 1,
+      "codeBlockCount": 4,
+      "mathCount": 2,
+      "internalLinkCount": 0,
+      "externalLinkCount": 0
+    },
+    "inventory": {
+      "concepts": [
+        "Emotional Conversation",
+        "Practical Conversation",
+        "The Law",
+        "same conversation layer",
+        "The Engineer's Trap",
+        "Practical Layer",
+        "The Golden Diagnostic Question",
+        "Neural Entrainment (Brain-to-Brain Coupling)"
+      ],
+      "mentalModels": [
+        "The Matching Principle: The Core Law of Connection"
+      ],
+      "heuristics": [
+        "The Supercommunicator's Operating Heuristic"
+      ],
+      "claims": [],
+      "sources": []
+    }
+  }
+]

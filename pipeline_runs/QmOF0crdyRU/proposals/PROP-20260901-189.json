@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-189",
+  "created_at": "2026-09-01T15:11:31.305Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-251",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2912",
+      "start": 8138.3,
+      "end": 8139.6,
+      "quoted_text": "what's actually in those bottles."
+    },
+    {
+      "entity_id": "CLM-2913",
+      "start": 8139.6,
+      "end": 8141.3,
+      "quoted_text": "For that reason, we've partnered with Thorne."
+    },
+    {
+      "entity_id": "CLM-2914",
+      "start": 8141.3,
+      "end": 8144.4,
+      "quoted_text": "T-H-O-R-N-E because Thorne has the highest levels"
+    },
+    {
+      "entity_id": "CLM-2915",
+      "start": 8144.4,
+      "end": 8146.6,
+      "quoted_text": "of stringency with respect to quality"
+    },
+    {
+      "entity_id": "CLM-2916",
+      "start": 8146.6,
+      "end": 8150.4,
+      "quoted_text": "and how much of each supplement they put in the products"
+    },
+    {
+      "entity_id": "CLM-2917",
+      "start": 8151.3,
+      "end": 8152.9,
+      "quoted_text": "If you'd like to see the supplements that I take,"
+    },
+    {
+      "entity_id": "CLM-2918",
+      "start": 8152.9,
+      "end": 8153.7,
+      "quoted_text": "you can go to Thorne,"
+    },
+    {
+      "entity_id": "CLM-2919",
+      "start": 8153.7,
+      "end": 8158,
+      "quoted_text": "www.T-H-O-R-N-E.com/u/huberman."
+    },
+    {
+      "entity_id": "CLM-2920",
+      "start": 8158,
+      "end": 8159.3,
+      "quoted_text": "And there, you can see what I take."
+    },
+    {
+      "entity_id": "CLM-2921",
+      "start": 8159.3,
+      "end": 8162,
+      "quoted_text": "You can get 20% off any of those supplements."
+    },
+    {
+      "entity_id": "CLM-2922",
+      "start": 8162,
+      "end": 8164.1,
+      "quoted_text": "And if you navigate into the Thorne site"
+    },
+    {
+      "entity_id": "CLM-2923",
+      "start": 8165.3,
+      "end": 8168.1,
+      "quoted_text": "then you can get 20% off any of the supplements"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: what's actually in those bottles.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [8138s-8139s]: \"what's actually in those bottles.\"\n  - [8139s-8141s]: \"For that reason, we've partnered with Thorne.\"\n  - [8141s-8144s]: \"T-H-O-R-N-E because Thorne has the highest levels\"\n  - [8144s-8146s]: \"of stringency with respect to quality\"\n  - [8146s-8150s]: \"and how much of each supplement they put in the products\"\n  - [8151s-8152s]: \"If you'd like to see the supplements that I take,\"\n  - [8152s-8153s]: \"you can go to Thorne,\"\n  - [8153s-8158s]: \"www.T-H-O-R-N-E.com/u/huberman.\"\n  - [8158s-8159s]: \"And there, you can see what I take.\"\n  - [8159s-8162s]: \"You can get 20% off any of those supplements.\"\n  - [8162s-8164s]: \"And if you navigate into the Thorne site\"\n  - [8165s-8168s]: \"then you can get 20% off any of the supplements\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: what's actually in those bottles.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [8138s-8139s]: \"what's actually in those bottles.\"\n+  - [8139s-8141s]: \"For that reason, we've partnered with Thorne.\"\n+  - [8141s-8144s]: \"T-H-O-R-N-E because Thorne has the highest levels\"\n+  - [8144s-8146s]: \"of stringency with respect to quality\"\n+  - [8146s-8150s]: \"and how much of each supplement they put in the products\"\n+  - [8151s-8152s]: \"If you'd like to see the supplements that I take,\"\n+  - [8152s-8153s]: \"you can go to Thorne,\"\n+  - [8153s-8158s]: \"www.T-H-O-R-N-E.com/u/huberman.\"\n+  - [8158s-8159s]: \"And there, you can see what I take.\"\n+  - [8159s-8162s]: \"You can get 20% off any of those supplements.\"\n+  - [8162s-8164s]: \"And if you navigate into the Thorne site\"\n+  - [8165s-8168s]: \"then you can get 20% off any of the supplements\"\n"
+  }
+}

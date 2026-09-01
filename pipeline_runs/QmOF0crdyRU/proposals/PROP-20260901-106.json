@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-106",
+  "created_at": "2026-09-01T15:11:31.285Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-135",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1564",
+      "start": 4318.2,
+      "end": 4319.4,
+      "quoted_text": "to get the optimal workout."
+    },
+    {
+      "entity_id": "CLM-1565",
+      "start": 4319.4,
+      "end": 4320.9,
+      "quoted_text": "You listen to your favorite music,"
+    },
+    {
+      "entity_id": "CLM-1566",
+      "start": 4320.9,
+      "end": 4322.6,
+      "quoted_text": "you got your favorite time of day,"
+    },
+    {
+      "entity_id": "CLM-1567",
+      "start": 4322.6,
+      "end": 4323.9,
+      "quoted_text": "you have your pre-workout drink,"
+    },
+    {
+      "entity_id": "CLM-1568",
+      "start": 4323.9,
+      "end": 4324.7,
+      "quoted_text": "if that's your thing."
+    },
+    {
+      "entity_id": "CLM-1569",
+      "start": 4324.7,
+      "end": 4328.3,
+      "quoted_text": "You do all the things that give you that best experience"
+    },
+    {
+      "entity_id": "CLM-1570",
+      "start": 4328.3,
+      "end": 4329.9,
+      "quoted_text": "of the workout for you."
+    },
+    {
+      "entity_id": "CLM-1571",
+      "start": 4331,
+      "end": 4333.7,
+      "quoted_text": "But there's also a version of this where sometimes"
+    },
+    {
+      "entity_id": "CLM-1572",
+      "start": 4333.7,
+      "end": 4337.2,
+      "quoted_text": "you don't do the dopamine enhancing activities."
+    },
+    {
+      "entity_id": "CLM-1573",
+      "start": 4337.2,
+      "end": 4339.9,
+      "quoted_text": "You don't ingest anything to increase your dopamine."
+    },
+    {
+      "entity_id": "CLM-1574",
+      "start": 4339.9,
+      "end": 4342.8,
+      "quoted_text": "You just do the exercise."
+    },
+    {
+      "entity_id": "CLM-1575",
+      "start": 4342.8,
+      "end": 4347.4,
+      "quoted_text": "You don't do the exercise and expect dopamine to arrive"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: to get the optimal workout.\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [4318s-4319s]: \"to get the optimal workout.\"\n  - [4319s-4320s]: \"You listen to your favorite music,\"\n  - [4320s-4322s]: \"you got your favorite time of day,\"\n  - [4322s-4323s]: \"you have your pre-workout drink,\"\n  - [4323s-4324s]: \"if that's your thing.\"\n  - [4324s-4328s]: \"You do all the things that give you that best experience\"\n  - [4328s-4329s]: \"of the workout for you.\"\n  - [4331s-4333s]: \"But there's also a version of this where sometimes\"\n  - [4333s-4337s]: \"you don't do the dopamine enhancing activities.\"\n  - [4337s-4339s]: \"You don't ingest anything to increase your dopamine.\"\n  - [4339s-4342s]: \"You just do the exercise.\"\n  - [4342s-4347s]: \"You don't do the exercise and expect dopamine to arrive\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: to get the optimal workout.\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [4318s-4319s]: \"to get the optimal workout.\"\n+  - [4319s-4320s]: \"You listen to your favorite music,\"\n+  - [4320s-4322s]: \"you got your favorite time of day,\"\n+  - [4322s-4323s]: \"you have your pre-workout drink,\"\n+  - [4323s-4324s]: \"if that's your thing.\"\n+  - [4324s-4328s]: \"You do all the things that give you that best experience\"\n+  - [4328s-4329s]: \"of the workout for you.\"\n+  - [4331s-4333s]: \"But there's also a version of this where sometimes\"\n+  - [4333s-4337s]: \"you don't do the dopamine enhancing activities.\"\n+  - [4337s-4339s]: \"You don't ingest anything to increase your dopamine.\"\n+  - [4339s-4342s]: \"You just do the exercise.\"\n+  - [4342s-4347s]: \"You don't do the exercise and expect dopamine to arrive\"\n"
+  }
+}

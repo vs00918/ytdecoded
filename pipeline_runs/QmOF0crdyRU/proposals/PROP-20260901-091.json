@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-091",
+  "created_at": "2026-09-01T15:11:31.281Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-113",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 7).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-1306",
+      "start": 3589.7,
+      "end": 3592.7,
+      "quoted_text": "why if you take something or do something"
+    },
+    {
+      "entity_id": "CLM-1307",
+      "start": 3592.7,
+      "end": 3595.8,
+      "quoted_text": "that leads to huge increases in dopamine,"
+    },
+    {
+      "entity_id": "CLM-1308",
+      "start": 3595.8,
+      "end": 3598.3,
+      "quoted_text": "afterward your baseline should drop"
+    },
+    {
+      "entity_id": "CLM-1309",
+      "start": 3598.3,
+      "end": 3601,
+      "quoted_text": "because there isn't a lot of dopamine around"
+    },
+    {
+      "entity_id": "CLM-1310",
+      "start": 3601,
+      "end": 3602.8,
+      "quoted_text": "to keep your baseline going."
+    },
+    {
+      "entity_id": "CLM-1311",
+      "start": 3604.3,
+      "end": 3607.3,
+      "quoted_text": "Fortunately, most people do not experience"
+    },
+    {
+      "entity_id": "CLM-1312",
+      "start": 3607.3,
+      "end": 3610.2,
+      "quoted_text": "or pursue enormous increases in dopamine"
+    },
+    {
+      "entity_id": "CLM-1313",
+      "start": 3610.2,
+      "end": 3612.4,
+      "quoted_text": "leading to the severe drops in baseline."
+    },
+    {
+      "entity_id": "CLM-1314",
+      "start": 3614.1,
+      "end": 3615.6,
+      "quoted_text": "Many people do, however,"
+    },
+    {
+      "entity_id": "CLM-1315",
+      "start": 3615.6,
+      "end": 3617.9,
+      "quoted_text": "and that's what we call addiction."
+    },
+    {
+      "entity_id": "CLM-1316",
+      "start": 3617.9,
+      "end": 3620.4,
+      "quoted_text": "When somebody pursues a drug or an activity"
+    },
+    {
+      "entity_id": "CLM-1317",
+      "start": 3620.4,
+      "end": 3622.8,
+      "quoted_text": "that leads to huge increases in dopamine."
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: why if you take something or do something\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [3589s-3592s]: \"why if you take something or do something\"\n  - [3592s-3595s]: \"that leads to huge increases in dopamine,\"\n  - [3595s-3598s]: \"afterward your baseline should drop\"\n  - [3598s-3601s]: \"because there isn't a lot of dopamine around\"\n  - [3601s-3602s]: \"to keep your baseline going.\"\n  - [3604s-3607s]: \"Fortunately, most people do not experience\"\n  - [3607s-3610s]: \"or pursue enormous increases in dopamine\"\n  - [3610s-3612s]: \"leading to the severe drops in baseline.\"\n  - [3614s-3615s]: \"Many people do, however,\"\n  - [3615s-3617s]: \"and that's what we call addiction.\"\n  - [3617s-3620s]: \"When somebody pursues a drug or an activity\"\n  - [3620s-3622s]: \"that leads to huge increases in dopamine.\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: why if you take something or do something\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [3589s-3592s]: \"why if you take something or do something\"\n+  - [3592s-3595s]: \"that leads to huge increases in dopamine,\"\n+  - [3595s-3598s]: \"afterward your baseline should drop\"\n+  - [3598s-3601s]: \"because there isn't a lot of dopamine around\"\n+  - [3601s-3602s]: \"to keep your baseline going.\"\n+  - [3604s-3607s]: \"Fortunately, most people do not experience\"\n+  - [3607s-3610s]: \"or pursue enormous increases in dopamine\"\n+  - [3610s-3612s]: \"leading to the severe drops in baseline.\"\n+  - [3614s-3615s]: \"Many people do, however,\"\n+  - [3615s-3617s]: \"and that's what we call addiction.\"\n+  - [3617s-3620s]: \"When somebody pursues a drug or an activity\"\n+  - [3620s-3622s]: \"that leads to huge increases in dopamine.\"\n"
+  }
+}

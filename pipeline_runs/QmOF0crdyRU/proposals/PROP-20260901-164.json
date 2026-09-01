@@ -1,0 +1,97 @@
+{
+  "proposal_id": "PROP-20260901-164",
+  "created_at": "2026-09-01T15:11:31.300Z",
+  "state": "PROPOSED",
+  "provenance_mode": "AI_GENERATED",
+  "video_id": "QmOF0crdyRU",
+  "video_title": "Semantic IR for QmOF0crdyRU",
+  "video_url": "https://www.youtube.com/watch?v=QmOF0crdyRU",
+  "unit_id": "KU-217",
+  "target_topic_slug": null,
+  "target_topic_title": "Proposed New Topic for Semantic IR for QmOF0crdyRU",
+  "routing_decision": "NEW_TOPIC",
+  "confidence": "HIGH",
+  "confidence_score": 0.92,
+  "rationale": "Substantive, coherent conceptual framework with explanatory depth not covered in the existing 45 chapters (retrieval score: 1).",
+  "supporting_evidence": [
+    {
+      "entity_id": "CLM-2521",
+      "start": 7026.2,
+      "end": 7027.8,
+      "quoted_text": "Wellbutrin bupropion was developed"
+    },
+    {
+      "entity_id": "CLM-2522",
+      "start": 7027.8,
+      "end": 7030.2,
+      "quoted_text": "as an alternative treatment for depression"
+    },
+    {
+      "entity_id": "CLM-2523",
+      "start": 7030.2,
+      "end": 7032.9,
+      "quoted_text": "because some people who take the so-called SSRI,"
+    },
+    {
+      "entity_id": "CLM-2524",
+      "start": 7032.9,
+      "end": 7035.6,
+      "quoted_text": "selective serotonin reuptake inhibitors"
+    },
+    {
+      "entity_id": "CLM-2525",
+      "start": 7035.6,
+      "end": 7037.9,
+      "quoted_text": "which as the name suggests increased serotonin"
+    },
+    {
+      "entity_id": "CLM-2526",
+      "start": 7037.9,
+      "end": 7041.4,
+      "quoted_text": "suffer from serotonin related side effects."
+    },
+    {
+      "entity_id": "EXM-073",
+      "start": 7041.4,
+      "end": 7044.8,
+      "quoted_text": "Things like decreased appetite, decreased libido,"
+    },
+    {
+      "entity_id": "CLM-2527",
+      "start": 7044.8,
+      "end": 7048.9,
+      "quoted_text": "or sometimes increased appetite or other side effects"
+    },
+    {
+      "entity_id": "CLM-2528",
+      "start": 7048.9,
+      "end": 7050.4,
+      "quoted_text": "that they don't want."
+    },
+    {
+      "entity_id": "CLM-2529",
+      "start": 7050.4,
+      "end": 7054.2,
+      "quoted_text": "And Wellbutrin seems to avoid the sexual side effects."
+    },
+    {
+      "entity_id": "CLM-2530",
+      "start": 7054.2,
+      "end": 7058.5,
+      "quoted_text": "It can blunt at appetite and these sorts of things"
+    },
+    {
+      "entity_id": "CLM-2531",
+      "start": 7058.5,
+      "end": 7061.9,
+      "quoted_text": "because of the increase in norepinephrine and dopamine"
+    }
+  ],
+  "proposed_diff": {
+    "section_name": "Draft Article",
+    "action": "CREATE_TOPIC_STUB",
+    "original_snippet": "<!-- Existing canonical content untouched -->",
+    "proposed_snippet": "---\ntitle: \"Semantic IR for QmOF0crdyRU\"\nvolume: 9\norder_in_volume: 1\narchetype: \"CONCEPTUAL_SYNTHESIS\"\nsummary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\ntags: [\"synthesis-candidate\", \"new-domain\"]\nmental_models: []\n---\n\n# Semantic IR for QmOF0crdyRU\n\n## Core Mechanics\n- **Core Thesis**: Wellbutrin bupropion was developed\n\n## Source Provenance & Evidence\n- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n  - [7026s-7027s]: \"Wellbutrin bupropion was developed\"\n  - [7027s-7030s]: \"as an alternative treatment for depression\"\n  - [7030s-7032s]: \"because some people who take the so-called SSRI,\"\n  - [7032s-7035s]: \"selective serotonin reuptake inhibitors\"\n  - [7035s-7037s]: \"which as the name suggests increased serotonin\"\n  - [7037s-7041s]: \"suffer from serotonin related side effects.\"\n  - [7041s-7044s]: \"Things like decreased appetite, decreased libido,\"\n  - [7044s-7048s]: \"or sometimes increased appetite or other side effects\"\n  - [7048s-7050s]: \"that they don't want.\"\n  - [7050s-7054s]: \"And Wellbutrin seems to avoid the sexual side effects.\"\n  - [7054s-7058s]: \"It can blunt at appetite and these sorts of things\"\n  - [7058s-7061s]: \"because of the increase in norepinephrine and dopamine\"",
+    "unified_diff": "--- a/NEW_TOPIC.md\n+++ b/NEW_TOPIC.md\n@@ -0,0 +1,29 @@\n+---\n+title: \"Semantic IR for QmOF0crdyRU\"\n+volume: 9\n+order_in_volume: 1\n+archetype: \"CONCEPTUAL_SYNTHESIS\"\n+summary_15s: \"Autonomous extraction candidate derived from https://www.youtube.com/watch?v=QmOF0crdyRU.\"\n+tags: [\"synthesis-candidate\", \"new-domain\"]\n+mental_models: []\n+---\n+\n+# Semantic IR for QmOF0crdyRU\n+\n+## Core Mechanics\n+- **Core Thesis**: Wellbutrin bupropion was developed\n+\n+## Source Provenance & Evidence\n+- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=QmOF0crdyRU)\n+  - [7026s-7027s]: \"Wellbutrin bupropion was developed\"\n+  - [7027s-7030s]: \"as an alternative treatment for depression\"\n+  - [7030s-7032s]: \"because some people who take the so-called SSRI,\"\n+  - [7032s-7035s]: \"selective serotonin reuptake inhibitors\"\n+  - [7035s-7037s]: \"which as the name suggests increased serotonin\"\n+  - [7037s-7041s]: \"suffer from serotonin related side effects.\"\n+  - [7041s-7044s]: \"Things like decreased appetite, decreased libido,\"\n+  - [7044s-7048s]: \"or sometimes increased appetite or other side effects\"\n+  - [7048s-7050s]: \"that they don't want.\"\n+  - [7050s-7054s]: \"And Wellbutrin seems to avoid the sexual side effects.\"\n+  - [7054s-7058s]: \"It can blunt at appetite and these sorts of things\"\n+  - [7058s-7061s]: \"because of the increase in norepinephrine and dopamine\"\n"
+  }
+}

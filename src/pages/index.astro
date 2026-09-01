@@ -1,0 +1,162 @@
+---
+import ReaderLayout from '../layouts/ReaderLayout.astro';
+import { getCollection } from 'astro:content';
+import { getVolumeGroups } from '../utils/navigation';
+
+const allTopics = await getCollection('topics');
+const volumeGroups = getVolumeGroups(allTopics);
+const totalChapters = allTopics.length;
+const totalVolumes = volumeGroups.length;
+---
+
+<ReaderLayout title="Knowledge Library" description="The Living Codex — Master Personal Knowledge Base">
+  <div class="library-container">
+    
+    <!-- ====================================================================
+         SECTION 1: HERO & EXPLORATION ORIENTATION
+         ==================================================================== -->
+    <header class="library-hero">
+      <div class="library-badge">Personal Knowledge Library</div>
+      <h1 class="library-title">The Living Codex</h1>
+      <p class="library-subtitle">
+        A sovereign repository of first-principles mental models, cognitive mechanisms, and lifelong execution frameworks distilled from world-class masterclasses.
+      </p>
+
+      <!-- Prominent Library Search Trigger (Triggers Pagefind Search Modal) -->
+      <div class="library-search-wrap">
+        <button 
+          id="library-search-btn" 
+          class="library-search-btn" 
+          aria-label="Open Search across the Living Codex"
+          title="Search the Living Codex (Press /)"
+        >
+          <span class="search-btn-icon" aria-hidden="true">🔍</span>
+          <span class="search-btn-text">Search topics, mental models, mechanisms, or authors...</span>
+          <kbd class="nav-kbd">/</kbd>
+        </button>
+      </div>
+
+      <!-- Live Corpus Stat Strip -->
+      <div class="library-stats-strip">
+        <span>📚 <strong>{totalVolumes}</strong> Knowledge Volumes</span>
+        <span class="stat-dot" aria-hidden="true">•</span>
+        <span>📖 <strong>{totalChapters}</strong> Syntopical Chapters</span>
+        <span class="stat-dot" aria-hidden="true">•</span>
+        <span>⚡ Offline Full-Text Index</span>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         SECTION 2: CONTINUE READING (Dynamic via localStorage)
+         ==================================================================== -->
+    <section id="continue-reading-section" class="continue-reading-section" style="display: none;" aria-label="Continue Reading">
+      <div class="continue-reading-card">
+        <div class="continue-reading-header">
+          <span class="continue-reading-tag">⚡ CONTINUE STUDYING</span>
+          <button id="dismiss-continue-btn" class="dismiss-continue-btn" aria-label="Dismiss Continue Reading Card">✕</button>
+        </div>
+        <div class="continue-reading-content">
+          <h2 id="continue-reading-title" class="continue-reading-title">Topic Title</h2>
+          <p id="continue-reading-summary" class="continue-reading-summary">Topic summary...</p>
+        </div>
+        <a id="continue-reading-link" href="#" class="continue-reading-btn">
+          Resume Reading →
+        </a>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: KNOWLEDGE SHELVES (The 6 Canonical Volumes)
+         ==================================================================== -->
+    <main class="library-shelves-section" aria-label="Knowledge Volumes">
+      <div class="shelves-header">
+        <h2 class="shelves-title">Knowledge Volumes</h2>
+        <span class="shelves-subtitle">Explore the curriculum across all 6 foundational shelves</span>
+      </div>
+
+      <div class="shelves-list">
+        {volumeGroups.map((group) => (
+          <section class="shelf-card" aria-labelledby={`vol-heading-${group.volume}`}>
+            <header class="shelf-header">
+              <div class="shelf-vol-info">
+                <span class="shelf-vol-badge">Volume {group.volume}</span>
+                <h3 id={`vol-heading-${group.volume}`} class="shelf-vol-title">{group.volumeTitle}</h3>
+              </div>
+              <span class="shelf-count-badge">{group.topics.length} {group.topics.length === 1 ? 'Chapter' : 'Chapters'}</span>
+            </header>
+
+            <div class="shelf-topics-grid">
+              {group.topics.map((t) => {
+                const wordCount = t.body ? t.body.split(/\s+/).filter(Boolean).length : 0;
+                const readingTime = Math.max(1, Math.ceil(wordCount / 225));
+                const creator = t.data.sources && t.data.sources.length > 0 ? t.data.sources[0].creator : null;
+
+                return (
+                  <a href={`/ytdecoded/topics/${t.slug}/`} class="shelf-topic-card">
+                    <div class="shelf-topic-header">
+                      <span class="shelf-topic-order">#{t.data.order_in_volume}</span>
+                      <span class="shelf-topic-time">⏱️ {readingTime}m</span>
+                    </div>
+                    <div class="shelf-topic-title">{t.data.title}</div>
+                    {t.data.summary_15s && (
+                      <div class="shelf-topic-summary">{t.data.summary_15s}</div>
+                    )}
+                    {creator && (
+                      <div class="shelf-topic-source">By <strong>{creator}</strong></div>
+                    )}
+                  </a>
+                );
+              })}
+            </div>
+          </section>
+        ))}
+      </div>
+    </main>
+
+  </div>
+</ReaderLayout>
+
+<script is:inline>
+  // Setup Search Button click to open Search Modal
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchBtn = document.getElementById('library-search-btn');
+    if (searchBtn) {
+      searchBtn.addEventListener('click', () => {
+        const globalSearchTrigger = document.getElementById('search-trigger-btn');
+        if (globalSearchTrigger) {
+          globalSearchTrigger.click();
+        }
+      });
+    }
+
+    // Client-side Continue Reading restoration from localStorage
+    try {
+      const lastReadRaw = localStorage.getItem('codex-last-read');
+      if (lastReadRaw) {
+        const lastRead = JSON.parse(lastReadRaw);
+        if (lastRead && lastRead.slug && lastRead.title) {
+          const container = document.getElementById('continue-reading-section');
+          const titleEl = document.getElementById('continue-reading-title');
+          const summaryEl = document.getElementById('continue-reading-summary');
+          const linkEl = document.getElementById('continue-reading-link');
+          const dismissBtn = document.getElementById('dismiss-continue-btn');
+
+          if (container && titleEl && linkEl) {
+            titleEl.textContent = lastRead.title.replace(/ — The Living Codex$/, '');
+            if (summaryEl) {
+              summaryEl.textContent = lastRead.summary || 'Click to continue where you left off.';
+            }
+            linkEl.setAttribute('href', `/ytdecoded/topics/${lastRead.slug}/`);
+            container.style.display = 'block';
+
+            if (dismissBtn) {
+              dismissBtn.addEventListener('click', () => {
+                container.style.display = 'none';
+              });
+            }
+          }
+        }
+      }
+    } catch (_) {}
+  });
+</script>
