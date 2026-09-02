@@ -12,15 +12,27 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+  - "gut-brain"
+mental_models:
+  - "The Enteric Nervous System & The Gut-Mind Axis"
+  - "The Vagus Nerve Bidirectional Superhighway"
+  - "Microbiome & Enteric Serotonin Synthesis"
+  - "The Migrating Motor Complex (MMC)"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
-  applies_to: []
+  applies_to:
+    - "the-neurochemistry-of-focus-and-dopamine-transition"
 sources: []
-active_recall: []
-last_updated: "2026-09-01"
+active_recall:
+  - question: "How does the bottom-up signaling of the Vagus Nerve explain why gastrointestinal distress causes anxiety and brain fog?"
+    concept: "Enteric Neurochemical Signaling"
+    answer: "80% to 90% of vagus nerve fibers transmit signals upward from the gut to the brain. When the gut is inflamed, distress signals and inflammatory cytokines travel up the vagus nerve and cross the blood-brain barrier, impairing synaptic transmission and triggering limbic anxiety and cognitive brain fog."
+  - question: "Why does chronic grazing or constant snacking degrade cognitive clarity through the Migrating Motor Complex?"
+    concept: "MMC Fasting Clearance"
+    answer: "The Migrating Motor Complex (MMC) is the gut's cyclical self-cleaning wave that sweeps away residual food and bacterial debris, but it only activates after 3-4 hours of complete fasting. Constant snacking halts the MMC, causing bacterial fermentation, systemic inflammation, and sluggish mental energy."
+last_updated: "2026-09-02"
 ---
 
 We often think of our thoughts, moods, and mental clarity as phenomena that exist strictly between our ears. However, modern biology reveals that your emotional state and cognitive focus are anchored just as heavily in your digestive system. 

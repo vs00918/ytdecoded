@@ -6,23 +6,51 @@ volume_title: "The Biology of Mind & Energy"
 order_in_volume: 2
 archetype: "CANONICAL_CONCEPT"
 reading_time_minutes: 7
-summary_15s: "Distraction is not a character flaw; it is an addiction to dopamine anticipation. Sequence your day with effort first, isolate the morning from digital inputs, load your dopamine through micro-milestones, restore your reserves through NSDR, and quarantine high-stimulation rewards to a protected even"
+summary_15s: "Distraction is not a character flaw; it is an addiction to dopamine anticipation. Sequence your day with effort first, isolate the morning from digital inputs, load your dopamine through micro-milestones, restore your reserves through NSDR, and quarantine high-stimulation rewards to a protected evening window."
 tags:
   - "neurobiology"
   - "metacognition"
   - "execution"
   - "communication"
+  - "exercise"
 mental_models:
+  - "The Neurochemical Triad of Attention (Dopamine, Serotonin, Oxytocin)"
   - "The Dopamine Paradox: Wanting vs. Liking"
-  - "The Three Laws of Sustainable Attention"
+  - "Exercise-Induced Neurogenesis & Prefrontal Priming (Wendy Suzuki)"
+  - "The Neuroprotective Cognitive Reserve (The Neural 401k)"
+  - "The Dopamine Loading Method & The 2-Hour Digital Blackout"
+  - "Non-Sleep Deep Rest (NSDR) Striatal Reset"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-second-brain-and-the-gut-mind-axis"
+  builds_on:
+    - "the-neurobiology-of-meditation"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "supernormal-stimuli-and-urge-surfing"
+sources:
+  - source_id: "YT-BHY0FxzoKZE"
+    title: "The Brain-Changing Benefits of Exercise"
+    creator: "Wendy Suzuki (NYU / TED)"
+    url: "https://www.youtube.com/watch?v=BHY0FxzoKZE"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "Immediate Prefrontal Focus Surge: A single bout of aerobic exercise immediately increases levels of dopamine, serotonin, and noradrenaline, boosting mood and prefrontal attentional endurance for at least 2 hours"
+        timestamp: "03:15"
+      - claim: "Hippocampal Neurogenesis: Chronic physical exercise stimulates the birth of new neurons in the hippocampus, expanding hippocampal volume and long-term memory consolidation capacity"
+        timestamp: "06:40"
+      - claim: "Neuroprotective Cognitive Reserve: Exercise functions as a neural 401(k), building up structural cortical thickness in the prefrontal cortex and hippocampus to protect against dementia and cognitive decline"
+        timestamp: "09:20"
+      - claim: "Minimum Effective Exercise Dose: 3 to 4 sessions per week of 30 minutes of aerobic exercise that elevates heart rate is sufficient to induce long-term neuroanatomical enhancements"
+        timestamp: "11:45"
+active_recall:
+  - question: "How does a single bout of aerobic exercise alter neurotransmitter concentrations and prefrontal cognitive performance according to Dr. Wendy Suzuki?"
+    concept: "Immediate Neurochemical Priming"
+    answer: "A single 30-minute workout immediately triggers a surge in dopamine, serotonin, and noradrenaline in the brain. This neurochemical wash elevates mood and significantly boosts prefrontal cortex reaction time, executive task-switching, and attentional focus for at least 2 hours post-exercise."
+  - question: "Why does chronic aerobic exercise serve as a 'neural 401(k)' against long-term cognitive and memory decline?"
+    concept: "Hippocampal Neurogenesis & Cortical Thickening"
+    answer: "Exercise is the most potent behavioral stimulant for adult hippocampal neurogenesis (the birth of new brain cells) and prefrontal cortex cortical thickening. Building a physically larger, denser hippocampus and prefrontal cortex creates a structural buffer that delays and resists the onset of age-related cognitive decline, Alzheimer's disease, and dementia."
+last_updated: "2026-09-02"
 ---
 
 Modern culture treats chronic distraction as a personal failure of discipline. In cognitive neurobiology, distraction is actually a **neurochemical miscalibration** of the brain's anticipation and reward circuitry.
