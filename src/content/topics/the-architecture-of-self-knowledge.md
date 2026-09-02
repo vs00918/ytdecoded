@@ -12,15 +12,44 @@ tags:
   - "execution"
   - "communication"
   - "wealth"
-mental_models: []
+  - "personality"
+mental_models:
+  - "The Three Natures of Personality (Biogenic, Sociogenic, Idiogenic) — Brian Little"
+  - "Free Traits & Acting Out of Character"
+  - "The Restorative Niche Protocol"
+  - "The Four Reality Mirrors (Envy, Energy, Solitude, Chosen Burden)"
+  - "The Via Negativa of Self-Discovery"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-front-stage-fallacy-and-imposter-syndrome"
+  builds_on:
+    - "the-anatomy-of-indiscipline-and-identity-anchors"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-architecture-of-purpose-and-mastery"
+sources:
+  - source_id: "YT-qYvXk_bqlBk"
+    title: "Who Are You, Really? The Puzzle of Personality"
+    creator: "Brian Little (Cambridge University / TED)"
+    url: "https://www.youtube.com/watch?v=qYvXk_bqlBk"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Three Natures of Personality: Human behavior is governed by Biogenic nature (neurobiology), Sociogenic nature (cultural conditioning), and Idiogenic nature (personal projects and core values)"
+        timestamp: "03:10"
+      - claim: "Free Traits & Acting Out of Character: Individuals strategically override biogenic baselines (e.g. introverts acting extroverted) in service of core professional or relational commitments"
+        timestamp: "07:45"
+      - claim: "The Restorative Niche: Chronic execution of free traits without retreating to a biologically aligned restorative niche causes autonomic burnout and neuroendocrine strain"
+        timestamp: "11:20"
+      - claim: "Personal Projects as the Unit of Selfhood: Authentic identity is defined not by fixed trait labels, but by the meaningful personal projects and devotions we actively pursue"
+        timestamp: "13:50"
+active_recall:
+  - question: "How does Brian Little's distinction between 'Biogenic' and 'Idiogenic' nature explain why introverts can excel in high-stakes leadership?"
+    concept: "Free Traits & Personal Projects"
+    answer: "Biogenic nature sets baseline cortical arousal (introverts have higher baseline arousal and need less stimulation). Idiogenic nature consists of core personal projects and values. Through 'Free Traits', an introvert can act out of character with immense charisma and energy to advance a mission they love, provided they honor their biological baseline afterward."
+  - question: "Why is a 'Restorative Niche' vital when executing 'Free Traits' in career and leadership?"
+    concept: "Autonomic Recovery Architecture"
+    answer: "Acting out of character (e.g., an introvert performing as an extrovert or an agreeable person executing fierce conflict) places continuous strain on the autonomic nervous system. A restorative niche provides the specific physical and psychological environment required to return cortical arousal to its natural baseline, preventing chronic burnout."
+last_updated: "2026-09-02"
 ---
 
 Most human beings do not live their own lives; they live **borrowed lives**.
