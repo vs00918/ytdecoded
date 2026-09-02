@@ -12,15 +12,45 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+  - "presence"
+mental_models:
+  - "The Subtractive Articulation Framework (The 5 Leaks)"
+  - "Mindset Calibration ('Dare to be Dull')"
+  - "The 10 Rules of Deep Conversational Presence (Celeste Headlee)"
+  - "The Listening Bandwidth Gap (225 wpm vs 500 wpm)"
+  - "The Master Scaffolding ('What? So What? Now What?')"
+  - "The 60-Second Micro-Story Engine"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-architecture-of-emotional-granularity"
+  builds_on:
+    - "the-architecture-of-supercommunication"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-architecture-of-resonance-and-vocal-sovereignty"
+sources:
+  - source_id: "YT-R1vskiVDwl4"
+    title: "10 Ways to Have a Better Conversation"
+    creator: "Celeste Headlee (TED)"
+    url: "https://www.youtube.com/watch?v=R1vskiVDwl4"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "Presence over Multitasking: Genuine conversational connection demands total cognitive presence; checking mental arguments or devices fractures neural rapport"
+        timestamp: "02:15"
+      - claim: "Open-Ended Journalistic Inquiries: Initiating questions with Who, What, Where, When, Why, and How invites reflective, expansive storytelling over defensive binary replies"
+        timestamp: "04:10"
+      - claim: "Eliminating Conversational Narcissism: Never equate your own personal trauma or experiences with someone else's; all suffering is individual and hijacking their story erodes empathy"
+        timestamp: "06:30"
+      - claim: "The Cognitive Bandwidth Gap in Listening: Humans speak at ~225 words per minute but process at ~500 wpm, creating an internal mental gap that must be disciplined to prevent self-talk hijacking"
+        timestamp: "08:45"
+active_recall:
+  - question: "How does the 'Listening Bandwidth Gap' (225 wpm speaking vs 500 wpm processing) create the danger of Conversational Narcissism?"
+    concept: "Cognitive Bandwidth Disciplining"
+    answer: "Because our brains process language more than twice as fast as the speaker talks, the leftover mental bandwidth naturally fills with internal chatter, anticipating responses, or preparing personal anecdotes. Disciplined listening requires actively directing that surplus capacity into tracking nuances, tone, and open-ended curiosity rather than hijacking the dialogue."
+  - question: "Why does the mindset of 'Dare to be Dull' paradoxically result in more articulate executive communication?"
+    concept: "Working Memory Cognitive Drag"
+    answer: "Attempting to sound 'brilliant' or 'perfect' consumes working memory with internal performance anxiety and self-censorship, causing mental paralysis. Giving oneself permission to deliver a simple, clear, unpretentious answer frees up 100% of cognitive bandwidth to structure the message using clean scaffolding like 'What? So What? Now What?'."
+last_updated: "2026-09-02"
 ---
 
 Most human communication does not occur during rehearsed keynote presentations or scripted interviews. It happens **in the wild**: being asked an unexpected question in a meeting, defending a proposal on the spot, explaining a strategy in 60 seconds, or leading through sudden turbulence.
