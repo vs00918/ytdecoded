@@ -11,9 +11,10 @@ interface Props {
   title: string;
   description?: string;
   currentSlug?: string;
+  isWideLayout?: boolean;
 }
 
-const { title, description = 'The Living Codex — Master Knowledge Base', currentSlug = '' } = Astro.props;
+const { title, description = 'The Living Codex — Master Knowledge Base', currentSlug = '', isWideLayout = false } = Astro.props;
 
 const allTopics = await getCollection('topics');
 const allVolumes = getVolumeGroups(allTopics);
@@ -125,7 +126,7 @@ const allVolumes = getVolumeGroups(allTopics);
     </div>
   </header>
 
-  <main class="reader-container" id="main-content" data-pagefind-body>
+  <main class={`reader-container ${isWideLayout ? 'wide-layout' : ''}`} id="main-content" data-pagefind-body>
     <slot />
   </main>
 </body>
