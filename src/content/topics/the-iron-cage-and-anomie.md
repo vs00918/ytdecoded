@@ -34,19 +34,20 @@ When you master the dynamic between the **Iron Cage** and **Anomie**, you unlock
 
 ```mermaid
 graph TD
-    subgraph Path 1: The Iron Cage (Hyper-Control)
+    subgraph SG_1_Path_1__The_Iro ["Path 1: The Iron Cage (Hyper-Control)"]
         W1[Max Weber's Iron Cage]
         --> W2[Hyper-rationalization, bureaucratic checklists & sterile metrics]
         --> W3[Loss of Human Soul, Meaning & Passion]
     end
 
-    subgraph Path 2: Anomie (Boundaryless Chaos)
+    subgraph SG_2_Path_2__Anomie_ ["Path 2: Anomie (Boundaryless Chaos)"]
         D1[Émile Durkheim's Anomie]
         --> D2[Collapse of shared norms, infinite options & zero structure]
         --> D3[Paralysis of Choice, Existential Dread & Isolation]
     end
 
-    W3 & D3 --> SOL[The Sovereign Solution: Self-Chosen Monastic Order]
+    W3 & D3 --> SOL["The Sovereign Solution: Self-Chosen Monastic Order"]
+
 ```
 
 ---
@@ -70,9 +71,10 @@ The antidote to both the sterile Iron Cage and chaotic Anomie is **Voluntary Mon
 
 ```mermaid
 graph TD
-    C1[Step 1: Reject the Involuntary Iron Cage<br>Refuse to define your worth by bureaucratic metrics]
-    --> C2[Step 2: Eliminate Chaotic Anomie<br>Impose rigid, voluntary daily non-negotiables]
-    --> C3[Step 3: The Sanctuary of Self-Chosen Discipline<br>Daily deep work blocks, cold physical baselines & sacred stillness]
+    C1["Step 1: Reject the Involuntary Iron Cage<br>Refuse to define your worth by bureaucratic metrics"]
+    --> C2["Step 2: Eliminate Chaotic Anomie<br>Impose rigid, voluntary daily non-negotiables"]
+    --> C3["Step 3: The Sanctuary of Self-Chosen Discipline<br>Daily deep work blocks, cold physical baselines & sacred stillness"]
+
 ```
 
 1. **Freedom Through Discipline**: Real freedom is not doing whatever you feel like doing on a whim (which is just biological impulsivity). Real freedom is the power to **choose your own master**—committing your energy to a noble craft, a daily routine, and a code of personal honor.

@@ -35,23 +35,24 @@ Waking up effortlessly requires aligning three interrelated biological systems: 
 
 ```mermaid
 graph TD
-    subgraph Phase 1: Evening De-escalation (9:00 PM - 10:00 PM)
+    subgraph SG_1_Phase_1__Evenin ["Phase 1: Evening De-escalation (9:00 PM - 10:00 PM)"]
         E1[Light Dimmed · Blue Light Eliminated] --> E2[Melatonin Surge & Core Body Temp Drops]
         E2 --> E3[Progressive Muscle Relaxation / PMR & NSDR]
         E3 --> E4[Rapid Sleep Onset & Deep Delta Waves]
     end
 
-    subgraph Phase 2: Adenosine Clearance (10:00 PM - 4:30 AM)
+    subgraph SG_2_Phase_2__Adenos ["Phase 2: Adenosine Clearance (10:00 PM - 4:30 AM)"]
         A1[Glymphatic System Clears Metabolic Waste & Adenosine]
         --> A2[Restorative Sleep Cycles Completed]
     end
 
-    subgraph Phase 3: Morning Ignition (4:30 AM - 5:30 AM)
-        M1[Alarm-Action Chain: Feet on Floor] --> M2[500ml Hydration + Bright Photon Exposure]
+    subgraph SG_3_Phase_3__Mornin ["Phase 3: Morning Ignition (4:30 AM - 5:30 AM)"]
+        M1["Alarm-Action Chain: Feet on Floor"] --> M2[500ml Hydration + Bright Photon Exposure]
         M2 --> M3[Melatonin Crushed · Cortisol Awakening Response Channels into Deep Craft]
     end
 
     Phase 1 --> Phase 2 --> Phase 3
+
 ```
 
 ---
@@ -62,12 +63,13 @@ The fatal mistake most people make is focusing 100% of their discipline on the m
 
 ```mermaid
 graph LR
-    subgraph The Evening Sabotage
+    subgraph SG_1_The_Evening_Sab ["The Evening Sabotage"]
         S1[Late Heavy Meal / Caffeine] --> S2[Elevated Core Body Temp]
         S3[Bright Blue Screens in Bed] --> S4[Melatonin Secretion Suppressed by 85%]
         S2 & S4 --> S5[Delayed Sleep Onset & Shallow Sleep]
-        S5 --> S6[4:30 AM Wake-Up Feels Biologically Impossible]
+        S5 --> S6["4:30 AM Wake-Up Feels Biologically Impossible"]
     end
+
 ```
 
 1. **The Screen & Light Trap**: Exposure to blue and white LED light after 9:00 PM tricks the suprachiasmatic nucleus (the brain's master clock) into believing it is midday, suppressing melatonin secretion by up to 85%.
@@ -82,10 +84,11 @@ To guarantee effortless early waking, install a strict 30-minute wind-down ritua
 
 ```mermaid
 graph TD
-    W1[30 Minutes Before Bed: Digital Blackout<br>Devices plugged in outside the bedroom]
+    W1["30 Minutes Before Bed: Digital Blackout<br>Devices plugged in outside the bedroom"]
     --> W2[Progressive Muscle Relaxation / PMR<br>Systematically tense and release muscle groups from toes to face]
     --> W3[NSDR / Slow Physiological Sighs<br>Activates parasympathetic vagal tone and lowers heart rate]
     --> W4[Sleep Onset within 10 Minutes]
+
 ```
 
 * **The Digital Airgap**: Charge your phone across the room or in another room. This eliminates late-night blue light and forces you out of bed to turn off your morning alarm.
@@ -100,11 +103,12 @@ The moment your alarm rings at 4:30 AM, you have a 3-second neurobiological wind
 
 ```mermaid
 graph LR
-    A1[Step 1: 3-Second Rule<br>Feet hit floor immediately] 
-    --> A2[Step 2: Physical Disconnect<br>Walk across room to silence alarm]
-    --> A3[Step 3: Lights On<br>Flood eyes with photons]
-    --> A4[Step 4: 500ml Water<br>Electrolyte cellular hydration]
-    --> A5[Step 5: Cold Baseline Sprint<br>Immediate deep work]
+    A1["Step 1: 3-Second Rule<br>Feet hit floor immediately"] 
+    --> A2["Step 2: Physical Disconnect<br>Walk across room to silence alarm"]
+    --> A3["Step 3: Lights On<br>Flood eyes with photons"]
+    --> A4["Step 4: 500ml Water<br>Electrolyte cellular hydration"]
+    --> A5["Step 5: Cold Baseline Sprint<br>Immediate deep work"]
+
 ```
 
 1. **The 3-Second Launch**: Count *3... 2... 1...* and swing your feet onto the floor before your limbic system can rationalize staying under the blankets.

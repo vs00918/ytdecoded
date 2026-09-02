@@ -70,17 +70,18 @@ Every conversation on earth takes place on one of three distinct psychological p
 
 ```mermaid
 graph TD
-    subgraph 1. Practical Conversation: 'What is this really about?'
+    subgraph SG_1_1__Practical_Co ["1. Practical Conversation: 'What is this really about?'"]
         P1[Decision-Making · Problem-Solving · Data Analysis · Strategy]
     end
 
-    subgraph 2. Emotional Conversation: 'How do we feel?'
+    subgraph SG_2_2__Emotional_Co ["2. Emotional Conversation: 'How do we feel?'"]
         E1[Empathy · Validation · Vulnerability · Grief · Being Heard]
     end
 
-    subgraph 3. Social Conversation: 'Who are we?'
+    subgraph SG_3_3__Social_Conve ["3. Social Conversation: 'Who are we?'"]
         S1[Identity · Belonging · Shared Values · Cultural Backgrounds]
     end
+
 ```
 
 ---
@@ -89,15 +90,16 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Mismatch Catastrophe (Resentment)
-        A1[Person A: Emotional Layer<br>'I feel overwhelmed and unseen'] 
-        <-->|MISMATCH| B1[Person B: Practical Layer<br>'Here is a 3-step fix to optimize your schedule']
+    subgraph SG_1_The_Mismatch_Ca ["The Mismatch Catastrophe (Resentment)"]
+        A1["Person A: Emotional Layer<br>'I feel overwhelmed and unseen'"] 
+        <-->|MISMATCH| B1["Person B: Practical Layer<br>'Here is a 3-step fix to optimize your schedule'"]
     end
 
-    subgraph The Matching Resonance (Neural Coupling)
-        A2[Person A: Emotional Layer<br>'I feel overwhelmed and unseen'] 
-        <-->|MATCHED| B2[Person B: Emotional Layer<br>'That sounds exhausting—I am right here with you']
+    subgraph SG_2_The_Matching_Re ["The Matching Resonance (Neural Coupling)"]
+        A2["Person A: Emotional Layer<br>'I feel overwhelmed and unseen'"] 
+        <-->|MATCHED| B2["Person B: Emotional Layer<br>'That sounds exhausting—I am right here with you'"]
     end
+
 ```
 
 * **The Law**: Connection occurs only when both participants are operating within the **same conversation layer**.
@@ -113,10 +115,11 @@ Brain-imaging research at Princeton University demonstrates that when two people
 
 ```mermaid
 graph TD
-    Q[Ask Deep Question: Values & Feelings] 
-    --> V[Vulnerability Reciprocity: Reveal True Internal State]
-    --> S[Mirroring & Structural Loop: Complete Attunement]
-    --> NE[Neural Entrainment: Brainwaves Synchronize]
+    Q["Ask Deep Question: Values & Feelings"] 
+    --> V["Vulnerability Reciprocity: Reveal True Internal State"]
+    --> S["Mirroring & Structural Loop: Complete Attunement"]
+    --> NE["Neural Entrainment: Brainwaves Synchronize"]
+
 ```
 
 * **Shallow Questions vs. Deep Questions**:

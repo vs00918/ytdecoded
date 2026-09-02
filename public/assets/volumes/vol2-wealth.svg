@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wealth-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3b2c"/>
+      <stop offset="60%" stop-color="#7c6043"/>
+      <stop offset="100%" stop-color="#2d2218"/>
+    </linearGradient>
+    <radialGradient id="sun-glow" cx="50%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#edd8b7" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#c9a87c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4a3b2c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#wealth-bg)"/>
+  <circle cx="200" cy="180" r="140" fill="url(#sun-glow)"/>
+
+  <!-- Classical Pantheon / Temple Architecture -->
+  <!-- Pediment / Triangular Roof -->
+  <polygon points="200,110 70,175 330,175" fill="#e8d5b5" opacity="0.95"/>
+  <polygon points="200,125 90,170 310,170" fill="#c4a47c" opacity="0.8"/>
+  <rect x="65" y="175" width="270" height="14" fill="#d8c29d"/>
+  <rect x="75" y="189" width="250" height="8" fill="#bfa57d"/>
+
+  <!-- Columns (6 Doric/Ionic Columns) -->
+  <g fill="#e8d5b5" opacity="0.9">
+    <!-- Col 1 -->
+    <rect x="85" y="197" width="20" height="170"/>
+    <rect x="80" y="197" width="30" height="8" fill="#f5e8d0"/>
+    <rect x="80" y="360" width="30" height="10" fill="#f5e8d0"/>
+    
+    <!-- Col 2 -->
+    <rect x="130" y="197" width="20" height="170"/>
+    <rect x="125" y="197" width="30" height="8" fill="#f5e8d0"/>
+    <rect x="125" y="360" width="30" height="10" fill="#f5e8d0"/>
+
+    <!-- Col 3 -->
+    <rect x="175" y="197" width="20" height="170"/>
+    <rect x="170" y="197" width="30" height="8" fill="#f5e8d0"/>
+    <rect x="170" y="360" width="30" height="10" fill="#f5e8d0"/>
+
+    <!-- Col 4 -->
+    <rect x="205" y="197" width="20" height="170"/>
+    <rect x="200" y="197" width="30" height="8" fill="#f5e8d0"/>
+    <rect x="200" y="360" width="30" height="10" fill="#f5e8d0"/>
+
+    <!-- Col 5 -->
+    <rect x="250" y="197" width="20" height="170"/>
+    <rect x="245" y="197" width="30" height="8" fill="#f5e8d0"/>
+    <rect x="245" y="360" width="30" height="10" fill="#f5e8d0"/>
+
+    <!-- Col 6 -->
+    <rect x="295" y="197" width="20" height="170"/>
+    <rect x="290" y="197" width="30" height="8" fill="#f5e8d0"/>
+    <rect x="290" y="360" width="30" height="10" fill="#f5e8d0"/>
+  </g>
+
+  <!-- Base / Steps (Stylobate) -->
+  <rect x="60" y="370" width="280" height="12" fill="#d8c29d"/>
+  <rect x="45" y="382" width="310" height="14" fill="#c4a47c"/>
+  <rect x="30" y="396" width="340" height="16" fill="#a88960"/>
+  <rect x="15" y="412" width="370" height="20" fill="#8c6f48"/>
+</svg>

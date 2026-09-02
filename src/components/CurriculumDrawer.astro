@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   currentSlug?: string;
+  currentVolume?: number;
   allVolumes: {
     volume: number;
     volumeTitle: string;
@@ -10,7 +11,7 @@ interface Props {
   }[];
 }
 
-const { currentSlug = '', allVolumes } = Astro.props;
+const { currentSlug = '', currentVolume, allVolumes } = Astro.props;
 const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
 ---
 
@@ -18,27 +19,39 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   <div class="drawer-header">
     <div class="drawer-title-wrap">
       <span class="drawer-title">📖 The Living Codex</span>
-      <span class="drawer-subtitle">{allVolumes.length}-Volume Knowledge Ladder • {totalTopics} Chapters</span>
+      <span class="drawer-subtitle">{allVolumes.length} Volumes • {totalTopics} Chapters</span>
     </div>
     <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close Curriculum Drawer">✕</button>
   </div>
 
   <div class="drawer-content">
     {allVolumes.map((volGroup) => {
-      const isCurrentVol = volGroup.topics.some((t) => t.slug === currentSlug);
+      const isCurrentVol = currentVolume ? volGroup.volume === currentVolume : volGroup.topics.some((t) => t.slug === currentSlug);
       return (
-        <details class="volume-accordion" open={isCurrentVol || allVolumes.length <= 3}>
+        <details class="volume-accordion" open={isCurrentVol || allVolumes.length <= 2}>
           <summary class="volume-summary">
+            <span class="volume-caret">▾</span>
             <span class="volume-num-badge">Vol {volGroup.volume}</span>
-            <span class="volume-name">{volGroup.volumeTitle}</span>
+            <span class="volume-name" title={volGroup.volumeTitle}>{volGroup.volumeTitle}</span>
+            <span class="volume-count-tag">{volGroup.topics.length}</span>
           </summary>
 
           <ul class="topic-sublist">
             {volGroup.topics.map((topic) => {
               const isActive = topic.slug === currentSlug;
+              // If we are currently on the volume continuous reader for this volume, link to in-page #chapter-N
+              const targetHref = (currentVolume && currentVolume === volGroup.volume)
+                ? `#chapter-${topic.data.order_in_volume}`
+                : `/ytdecoded/topics/${topic.slug}/`;
+
               return (
                 <li class={`topic-nav-item ${isActive ? 'active' : ''}`}>
-                  <a href={`/ytdecoded/topics/${topic.slug}/`} class="topic-nav-link" aria-current={isActive ? 'page' : undefined}>
+                  <a 
+                    href={targetHref} 
+                    class="topic-nav-link" 
+                    data-inpage-chapter={currentVolume && currentVolume === volGroup.volume ? String(topic.data.order_in_volume) : undefined}
+                    aria-current={isActive ? 'page' : undefined}
+                  >
                     <span class="topic-order">#{topic.data.order_in_volume}</span>
                     <span class="topic-label">{topic.data.title}</span>
                   </a>
@@ -96,7 +109,7 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   }
 
   .drawer-header {
-    padding: 18px 20px;
+    padding: 16px 18px;
     border-bottom: 1px solid var(--border);
     display: flex;
     align-items: center;
@@ -112,12 +125,12 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
 
   .drawer-title {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--text-primary);
   }
 
   .drawer-subtitle {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     color: var(--text-muted);
     letter-spacing: 0.02em;
   }
@@ -147,34 +160,34 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   .drawer-content {
     flex: 1;
     overflow-y: auto;
-    padding: 14px 12px;
+    padding: 12px 10px;
   }
 
   .volume-accordion {
     margin-bottom: 8px;
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid transparent;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
   }
 
   .volume-accordion[open] {
-    border-color: var(--border-subtle);
+    border-color: var(--border);
     background: var(--bg-surface);
   }
 
   .volume-summary {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px 12px;
+    gap: 8px;
+    padding: 9px 12px;
     cursor: pointer;
     user-select: none;
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.84rem;
     color: var(--text-primary);
     list-style: none;
     transition: background 0.15s ease;
-    border-radius: 6px;
   }
 
   .volume-summary::-webkit-details-marker {
@@ -185,15 +198,31 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     background: var(--accent-soft);
   }
 
+  .volume-caret {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+    display: inline-block;
+  }
+
+  .volume-accordion[open] .volume-caret {
+    transform: rotate(0deg);
+  }
+
+  .volume-accordion:not([open]) .volume-caret {
+    transform: rotate(-90deg);
+  }
+
   .volume-num-badge {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 700;
     text-transform: uppercase;
     background: var(--border);
     color: var(--text-primary);
-    padding: 2px 6px;
-    border-radius: 4px;
+    padding: 1px 5px;
+    border-radius: 3px;
     letter-spacing: 0.04em;
+    flex-shrink: 0;
   }
 
   .volume-name {
@@ -201,27 +230,39 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-family: var(--font-serif);
+    font-size: 0.88rem;
+  }
+
+  .volume-count-tag {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    background: var(--bg-sidebar);
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
   }
 
   .topic-sublist {
     list-style: none;
-    padding: 4px 8px 8px 24px;
+    padding: 4px 6px 6px 14px;
+    border-top: 1px solid var(--border-subtle);
   }
 
   .topic-nav-item {
-    margin: 3px 0;
+    margin: 2px 0;
   }
 
   .topic-nav-link {
     display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 6px 10px;
-    border-radius: 6px;
+    align-items: baseline;
+    gap: 6px;
+    padding: 5px 8px;
+    border-radius: 5px;
     text-decoration: none;
     color: var(--text-secondary);
-    font-size: 0.82rem;
-    line-height: 1.35;
+    font-size: 0.8rem;
+    line-height: 1.3;
     transition: all 0.12s ease;
   }
 
@@ -232,25 +273,23 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
 
   .topic-nav-item.active .topic-nav-link {
     background: var(--accent);
-    color: var(--bg-page);
+    color: #ffffff !important;
     font-weight: 600;
   }
 
   .topic-order {
     font-family: var(--font-mono);
-    font-size: 0.72rem;
-    opacity: 0.7;
+    font-size: 0.68rem;
+    font-weight: 700;
+    opacity: 0.8;
     flex-shrink: 0;
-    margin-top: 1px;
   }
 
   .topic-label {
     flex: 1;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+    white-space: nowrap;
   }
 </style>
 
@@ -282,6 +321,20 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     if (toggleBtn) toggleBtn.addEventListener('click', openDrawer);
     if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
     if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+    // In-page smooth scroll & drawer closing when clicking chapters in current volume
+    document.querySelectorAll('.topic-nav-link[data-inpage-chapter]').forEach((link) => {
+      link.addEventListener('click', (e) => {
+        const chapterNum = link.getAttribute('data-inpage-chapter');
+        const targetEl = document.getElementById(`chapter-${chapterNum}`);
+        if (targetEl) {
+          e.preventDefault();
+          closeDrawer();
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.pushState(null, '', `#chapter-${chapterNum}`);
+        }
+      });
+    });
 
     window.addEventListener('keydown', (e) => {
       if (e.key === '\\' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {

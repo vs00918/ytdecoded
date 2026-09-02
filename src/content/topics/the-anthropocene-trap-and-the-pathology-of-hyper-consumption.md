@@ -61,12 +61,13 @@ The human relationship with nature in the modern era follows a predictable, esca
 
 ```mermaid
 graph TD
-    subgraph The Extractive Spiral
+    subgraph SG_1_The_Extractive_ ["The Extractive Spiral"]
         A[Arrival & Trivial Domination] -->|Insects, Fauna & Fur Exploitation| B[Utility-Driven Commodification]
         B -->|Mechanization & Mass Production| C[Industrialized Factory Extraction]
         C -->|Deforestation, Ocean Acidification & Plastic Waste| D[Planetary Ecological Degradation]
         D -->|Unchecked Throughput| E[The King on the Trash Heap]
     end
+
 ```
 
 1. **The Trivialization of Harm**: The narrative begins not with grand malice, but with casual, smiling cruelty—stepping on a beetle, transforming a snake into footwear, turning an elephant into knick-knacks. Exploitation begins when living organisms are viewed solely as raw material for transient human convenience.
@@ -80,11 +81,12 @@ The climax of Cutts's critique arrives when the protagonist, having eradicated a
 
 ```mermaid
 graph LR
-    subgraph The Anthropocene Illusion
+    subgraph SG_1_The_Anthropocen ["The Anthropocene Illusion"]
         P1[Infinite Extraction Model] --> P2[Massive Short-Term Commodity Abundance]
         P2 --> P3[Terminal Biosphere Exhaustion]
         P3 --> P4[Extinction of Sovereign Context]
     end
+
 ```
 
 * **The Illusion of Victory**: Humanity celebrates "conquering nature" without recognizing that humanity is an inseparable subsystem of the very nature it has destroyed.
@@ -100,9 +102,10 @@ When an alien craft lands on Earth, its robotic pilot steps out, views humanity,
 
 ```mermaid
 graph TD
-    M1[Human Rule: 'We dominate because we have superior technology'] --> M2[Ethical Principle Established: Power Justifies Exploitation]
+    M1["Human Rule: 'We dominate because we have superior technology'"] --> M2["Ethical Principle Established: Power Justifies Exploitation"]
     M2 --> M3[Higher-Order Force Arrives]
     M3 --> M4[Humanity Subjected to Its Own Unforgiving Principle]
+
 ```
 
 > If a civilization establishes technological dominance as its sole moral justification for exploitation, it forfeits all philosophical claims to dignity when confronted by a superior power.

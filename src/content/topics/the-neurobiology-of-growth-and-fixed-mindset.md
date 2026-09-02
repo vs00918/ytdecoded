@@ -61,9 +61,9 @@ This single distinction separates the **Fixed Mindset** (the belief that intelli
 
 ```mermaid
 graph TD
-    subgraph Core Belief
-        F_Belief[Fixed Mindset: Ability is Fixed & Inherited]
-        G_Belief[Growth Mindset: Ability is Malleable & Developed]
+    subgraph SG_1_Core_Belief ["Core Belief"]
+        F_Belief["Fixed Mindset: Ability is Fixed & Inherited"]
+        G_Belief["Growth Mindset: Ability is Malleable & Developed"]
     end
 
     F_Belief --> F_Effort[Effort = Proof of Inadequacy<br>'If I were smart, this would be easy']
@@ -73,6 +73,7 @@ graph TD
     G_Belief --> G_Effort[Effort = Synaptic Growth Engine<br>'Struggle is the feeling of learning']
     G_Belief --> G_Fail[Failure = Diagnostic Data<br>Isolates what to calibrate next]
     G_Belief --> G_Feedback[Feedback = Free Optimization Code<br>Welcomed with neutral curiosity]
+
 ```
 
 ---
@@ -117,9 +118,10 @@ To systematically transition your operating psychology from stagnation to relent
 
 ```mermaid
 graph TD
-    S1[Step 1: Install the 'Yet' Linguistic Modifier<br>Replace 'I can't do this' with 'I haven't mastered this yet']
-    --> S2[Step 2: Reward Process over Raw Outcome<br>Praise effort, strategy & persistence, never innate trait]
-    --> S3[Step 3: Seek Calibrated Desirable Difficulty<br>Target tasks where failure rate is roughly 15-20%]
+    S1["Step 1: Install the 'Yet' Linguistic Modifier<br>Replace 'I can't do this' with 'I haven't mastered this yet'"]
+    --> S2["Step 2: Reward Process over Raw Outcome<br>Praise effort, strategy & persistence, never innate trait"]
+    --> S3["Step 3: Seek Calibrated Desirable Difficulty<br>Target tasks where failure rate is roughly 15-20%"]
+
 ```
 
 1. **The "Yet" Cognitive Modifier**: Whenever your internal monologue asserts *"I am not good at mathematics/public speaking/managing capital,"* immediately append the word **"Yet."** This simple linguistic shift shifts your neurology from a permanent verdict to a temporary stage of development.

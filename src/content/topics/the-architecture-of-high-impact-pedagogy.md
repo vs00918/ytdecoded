@@ -39,14 +39,15 @@ Effective communication is not governed by innate charisma; it is governed by de
 
 ```mermaid
 graph TD
-    A[The Communication Challenge: Essay, Proposal, or Master Lecture] 
-    --> B1[1. The Epistemological Shift: School Writing vs Sovereign Value Creation]
-    --> B2[2. The Core Anchor: The Single Sticky Idea vs The Info-Dump Fallacy]
-    --> B3[3. The Instability Engine: Status Quo · Tension · Cost · Resolution]
-    --> B4[4. The Boundary: Building the Cognitive Fence]
-    --> B5[5. Sentence Mechanics: The Topic-Stress Invariant]
+    A["The Communication Challenge: Essay, Proposal, or Master Lecture"] 
+    --> B1["1. The Epistemological Shift: School Writing vs Sovereign Value Creation"]
+    --> B2["2. The Core Anchor: The Single Sticky Idea vs The Info-Dump Fallacy"]
+    --> B3["3. The Instability Engine: Status Quo · Tension · Cost · Resolution"]
+    --> B4["4. The Boundary: Building the Cognitive Fence"]
+    --> B5["5. Sentence Mechanics: The Topic-Stress Invariant"]
     
     B1 & B2 & B3 & B4 & B5 --> C[Irresistible Intellectual Authority & Permanent Retention]
+
 ```
 
 ---
@@ -55,17 +56,18 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The School Writing Model (Compliance)
-        S1[Audience: Obligate Reader / Teacher] 
-        --> S2[Goal: Display Knowledge / 'Look How Smart I Am'] 
-        --> S3[Currency: Rule Following & Info Volume]
+    subgraph SG_1_The_School_Writ ["The School Writing Model (Compliance)"]
+        S1["Audience: Obligate Reader / Teacher"] 
+        --> S2["Goal: Display Knowledge / 'Look How Smart I Am'"] 
+        --> S3["Currency: Rule Following & Info Volume"]
     end
 
-    subgraph The Sovereign Writing Model (Value Creation)
-        V1[Audience: Busy, Skeptical Reader] 
-        --> V2[Goal: Change Reader's Thinking & Solve Problem] 
-        --> V3[Currency: Reader Value & Conceptual Clarity]
+    subgraph SG_2_The_Sovereign_W ["The Sovereign Writing Model (Value Creation)"]
+        V1["Audience: Busy, Skeptical Reader"] 
+        --> V2["Goal: Change Reader's Thinking & Solve Problem"] 
+        --> V3["Currency: Reader Value & Conceptual Clarity"]
     end
+
 ```
 
 1. **The School Fallacy**: In formal education, the reader (the teacher) is paid to read your work, already knows the answers, and grades you on whether you display knowledge. This conditions people to write long, self-centered explanations designed to prove they studied.
@@ -80,10 +82,11 @@ Readers are not moved by raw facts or disconnected truths. They are moved by **I
 
 ```mermaid
 graph TD
-    ST[1. Status Quo: Acknowledge shared understanding & stability]
-    --> TN[2. The Destabilizing Flaw: Reveal the hidden contradiction or error]
-    --> CS[3. The Cost of Inaction: 'So What?' · Quantify the risk / bottleneck]
-    --> RS[4. The Resolution: Deliver the clear, actionable model]
+    ST["1. Status Quo: Acknowledge shared understanding & stability"]
+    --> TN["2. The Destabilizing Flaw: Reveal the hidden contradiction or error"]
+    --> CS["3. The Cost of Inaction: 'So What?' · Quantify the risk / bottleneck"]
+    --> RS["4. The Resolution: Deliver the clear, actionable model"]
+
 ```
 
 * **Step 1 (Status Quo)**: Establish common ground (*"We have long assumed that increasing study hours is the direct path to exam mastery"*).
@@ -113,17 +116,18 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph The Amateur's Info-Dump (Zero Retention)
+    subgraph SG_1_The_Amateur_s_I ["The Amateur's Info-Dump (Zero Retention)"]
         A1[17 Complex Tips / Data Points] 
         --> A2[Working Memory Overload] 
         --> A3[Audience Freezes & Forgets Everything Under Pressure]
     end
 
-    subgraph The Master's Cognitive Compression (High Retention)
+    subgraph SG_2_The_Master_s_Co ["The Master's Cognitive Compression (High Retention)"]
         M1[One Single Sticky Core Idea] 
         --> M2[Anchored with Story, Analogy & Contrast] 
         --> M3[100% Recall & Real-World Execution]
     end
+
 ```
 
 * **The Rookie's Fallacy**: Believing that "more information equals more value." Dumping 15 different techniques onto an audience creates cognitive overload. Under pressure, the brain forgets all 15.
@@ -150,7 +154,7 @@ graph LR
 
 ```mermaid
 graph TD
-    subgraph Cognitive Fence Architecture
+    subgraph SG_1_Cognitive_Fence ["Cognitive Fence Architecture"]
         Core["YOUR CORE CONCEPT<br>(Precise, Distinct Idea)"]
         F1["Fence: What It IS NOT<br>Not performative swagger"]
         F2["Fence: What It IS NOT<br>Not shallow memorization"]
@@ -158,6 +162,7 @@ graph TD
         
         F1 & F2 & F3 -.->|Encloses & Protects| Core
     end
+
 ```
 
 ---

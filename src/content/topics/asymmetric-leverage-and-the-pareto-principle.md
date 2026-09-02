@@ -36,18 +36,19 @@ Mastery is not about working harder or filling every waking hour with frantic ac
 
 ```mermaid
 graph TD
-    subgraph Input Distribution (100% Effort)
+    subgraph SG_1_Input_Distribut ["Input Distribution (100% Effort)"]
         V[The Vital 20%<br>High-leverage core concepts, key problems, critical relationships]
         T[The Trivial 80%<br>Formatting, minor details, shallow busywork, low-yield browsing]
     end
 
-    subgraph Output Distribution (100% Results)
+    subgraph SG_2_Output_Distribu ["Output Distribution (100% Results)"]
         R_Major[80% of Real Breakthroughs, Exam Marks & Long-Term Value]
         R_Minor[20% of Marginal Gains & Cosmetic Polish]
     end
 
     V ==>|Generates Massive Asymmetric Yield| R_Major
     T -->|Consumes Majority of Time & Energy| R_Minor
+
 ```
 
 ---
@@ -65,9 +66,10 @@ Why do high-effort individuals frequently fail to achieve breakthrough results?
 
 ```mermaid
 graph LR
-    A[Domain: Academic & Competitive Exams] --> B[Core 20%: High-yield previous year patterns & active mock testing]
-    C[Domain: Skill & Craft Mastery] --> D[Core 20%: Real-world building & rapid feedback loops]
-    E[Domain: Energy & Health] --> F[Core 20%: Sleep quality, whole-food nutrition & daily movement]
+    A["Domain: Academic & Competitive Exams"] --> B["Core 20%: High-yield previous year patterns & active mock testing"]
+    C["Domain: Skill & Craft Mastery"] --> D["Core 20%: Real-world building & rapid feedback loops"]
+    E["Domain: Energy & Health"] --> F["Core 20%: Sleep quality, whole-food nutrition & daily movement"]
+
 ```
 
 #### 1. In Learning & Competitive Studies
@@ -90,9 +92,10 @@ To shift from exhausting linear hustle to asymmetric high-yield execution:
 
 ```mermaid
 graph TD
-    S1[Step 1: The Ruthless Diagnostic Audit<br>List every daily task and rank its direct contribution to the core goal]
-    --> S2[Step 2: The Double 80/20 Zoom<br>Find the 4% that produces 64% of the yield]
-    --> S3[Step 3: The Defensive Moat<br>Protect the Vital 20% with morning deep-work blocks]
+    S1["Step 1: The Ruthless Diagnostic Audit<br>List every daily task and rank its direct contribution to the core goal"]
+    --> S2["Step 2: The Double 80/20 Zoom<br>Find the 4% that produces 64% of the yield"]
+    --> S3["Step 3: The Defensive Moat<br>Protect the Vital 20% with morning deep-work blocks"]
+
 ```
 
 1. **The Ruthless 80/20 Audit**: Write down all tasks performed in the last 7 days. Ask: *"If I could only accomplish two items from this list, which two would generate almost all of my forward progress?"*

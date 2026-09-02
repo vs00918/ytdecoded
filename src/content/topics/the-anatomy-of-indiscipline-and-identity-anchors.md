@@ -39,10 +39,11 @@ Indiscipline does not begin with dramatic, catastrophic failures; it begins with
 
 ```mermaid
 graph TD
-    S1[Stage 1: The Micro-Compromise<br>'Just 5 minutes of scrolling' · 'I will start tomorrow'] 
-    --> S2[Stage 2: Cognitive Rationalization<br>Brain manufactures logical justifications to ease guilt]
-    --> S3[Stage 3: The Subconscious Baseline Shift<br>The compromise becomes the new normal standard]
+    S1["Stage 1: The Micro-Compromise<br>'Just 5 minutes of scrolling' · 'I will start tomorrow'"] 
+    --> S2["Stage 2: Cognitive Rationalization<br>Brain manufactures logical justifications to ease guilt"]
+    --> S3["Stage 3: The Subconscious Baseline Shift<br>The compromise becomes the new normal standard"]
     S3 --> S1
+
 ```
 
 1. **The Micro-Compromise**: An intentional agreement with yourself is broken for momentary comfort.
@@ -61,10 +62,11 @@ $$\text{Compound Discipline: } (1.01)^{365} \approx 37.8 \quad (\text{37x Expone
 
 ```mermaid
 graph LR
-    subgraph 365-Day Trajectory
-        D_Neglect[0.99 Daily Trajectory: Quiet Decay to 0.03]
-        D_Growth[1.01 Daily Trajectory: 37.8x Sovereign Compounding]
+    subgraph SG_1_365_Day_Traject ["365-Day Trajectory"]
+        D_Neglect["0.99 Daily Trajectory: Quiet Decay to 0.03"]
+        D_Growth["1.01 Daily Trajectory: 37.8x Sovereign Compounding"]
     end
+
 ```
 
 * **The Illusion of Symmetry**: A 1% improvement and a 1% compromise feel identical on any given Tuesday afternoon.
@@ -94,13 +96,14 @@ Most people fail to maintain discipline because their efforts are anchored only 
 
 ```mermaid
 graph TD
-    subgraph Outcome-Based Motivation (Fragile)
+    subgraph SG_1_Outcome_Based_M ["Outcome-Based Motivation (Fragile)"]
         O1[Outcome Goal] -->|Subject to Daily Emotional Fluctuations| O2[Inconsistent Effort & Frequent Relapse]
     end
 
-    subgraph Identity-Based Anchoring (Unshakeable)
+    subgraph SG_2_Identity_Based_ ["Identity-Based Anchoring (Unshakeable)"]
         I1[Core Identity Non-Negotiable] -->|Governs Behavior Irrespective of Mood| I2[Predictable, Relentless Daily Execution]
     end
+
 ```
 
 1. **The Outcome Trap**: When you are tired, demotivated, or anxious, an abstract goal six months in the future lacks the immediate neurochemical power to compete with instant dopamine.

@@ -35,9 +35,9 @@ To achieve this, the brain operates as an aggressive simulation and shortcut mac
 
 ```mermaid
 graph TD
-    subgraph The Ancestral Directives
-        D1[Directive 1: Minimize Caloric / Metabolic Expenditure]
-        D2[Directive 2: Assume Maximum Threat / Negativity Bias]
+    subgraph SG_1_The_Ancestral_D ["The Ancestral Directives"]
+        D1["Directive 1: Minimize Caloric / Metabolic Expenditure"]
+        D2["Directive 2: Assume Maximum Threat / Negativity Bias"]
     end
 
     D1 & D2 --> B[The Subconscious Brain]
@@ -48,6 +48,7 @@ graph TD
     B --> L5[5. Left-Brain Rationalization<br>Fabricates clever excuses for comfort-seeking]
 
     L1 & L2 & L3 & L4 & L5 --> C[The Conscious Observer<br>Holds the power to audit, cross-examine and override]
+
 ```
 
 ---
@@ -85,10 +86,11 @@ In landmark split-brain neuroscience research by Dr. Michael Gazzaniga, scientis
 
 ```mermaid
 graph LR
-    A[Subconscious Impulse: Desire for Sugar / Avoidance] 
-    --> B[Action Taken: Grabbing Snack / Phone]
+    A["Subconscious Impulse: Desire for Sugar / Avoidance"] 
+    --> B["Action Taken: Grabbing Snack / Phone"]
     --> C[Left-Brain Interpreter Module Activated]
-    --> D[Fabricates Plausible Story: 'I needed the glucose for brainpower']
+    --> D["Fabricates Plausible Story: 'I needed the glucose for brainpower'"]
+
 ```
 
 * **The Mechanism**: The moment your primal emotional brain makes an impulsive, comfort-seeking choice, the left-brain interpreter immediately manufactures a clever, intellectual story to justify it.
@@ -100,10 +102,11 @@ graph LR
 
 ```mermaid
 graph TD
-    S1[Step 1: Catch the Automatic Thought<br>Identify the distortion: Mind reading, catastrophizing, or all-or-nothing]
-    --> S2[Step 2: The Cross-Examination<br>Demand hard empirical evidence · What is fact vs. emotional fantasy?]
-    --> S3[Step 3: The Balanced Alternative<br>Construct an objective, grounded replacement hypothesis]
-    --> S4[Step 4: Action-First Inversion<br>Move physical body immediately into craft]
+    S1["Step 1: Catch the Automatic Thought<br>Identify the distortion: Mind reading, catastrophizing, or all-or-nothing"]
+    --> S2["Step 2: The Cross-Examination<br>Demand hard empirical evidence · What is fact vs. emotional fantasy?"]
+    --> S3["Step 3: The Balanced Alternative<br>Construct an objective, grounded replacement hypothesis"]
+    --> S4["Step 4: Action-First Inversion<br>Move physical body immediately into craft"]
+
 ```
 
 1. **The Observer Separation**: You are not the thoughts produced by your brain; you are the **conscious awareness observing them**. Replace *"I am a failure"* with *"I notice my brain is generating an all-or-nothing distortion."*

@@ -38,23 +38,24 @@ Just as the First Law of Thermodynamics states that energy cannot be created or 
 
 ```mermaid
 graph TD
-    subgraph Raw Biological Energy Potential
+    subgraph SG_1_Raw_Biological_ ["Raw Biological Energy Potential"]
         E[Daily Neurochemical & Metabolic Wattage]
     end
 
-    subgraph The Invisible Thieves & Parasitic Leaks
-        T1[1. Open Loop Bleed: Unclosed tasks draining subconscious RAM]
-        T2[2. Emotional Shame Debt: Guilt over past procrastination]
-        T3[3. Blood Glucose Volatility: High-glycemic crashes]
-        T4[4. Rumination & Social Drama: Simulating unresolvable conflicts]
+    subgraph SG_2_The_Invisible_T ["The Invisible Thieves & Parasitic Leaks"]
+        T1["1. Open Loop Bleed: Unclosed tasks draining subconscious RAM"]
+        T2["2. Emotional Shame Debt: Guilt over past procrastination"]
+        T3["3. Blood Glucose Volatility: High-glycemic crashes"]
+        T4["4. Rumination & Social Drama: Simulating unresolvable conflicts"]
     end
 
-    subgraph The Sovereign Channel (High-Yield Output)
+    subgraph SG_3_The_Sovereign_C ["The Sovereign Channel (High-Yield Output)"]
         C[Monastic Deep Work · Creative Synthesis · Physical Vitality]
     end
 
     E -->|Default Subconscious Leakage| T1 & T2 & T3 & T4
     E ==>|Hydraulic Canalization & Leak Patching| C
+
 ```
 
 * **The River Principle**: Your mental energy is like a rushing mountain river. You cannot stop the river by building a fragile wall of brute willpower—the water pressure will simply build up, breach the dam, and cause an explosive relapse into distraction.
@@ -104,10 +105,11 @@ graph LR
 
 ```mermaid
 graph TD
-    P1[Protocol 1: The 10-Minute Loop Triage<br>Close or schedule all uncompleted micro-tasks]
-    --> P2[Protocol 2: The Emotional Debt Erasure<br>Pardon past slips & execute 1 immediate micro-action]
-    --> P3[Protocol 3: Metabolic & Oxygen Priming<br>Fiber-first meals · 500ml hydration · Diaphragmatic nasal breathing]
-    --> P4[Protocol 4: Physical Containment Banks<br>Phone in another room · Zero escape routes for focus]
+    P1["Protocol 1: The 10-Minute Loop Triage<br>Close or schedule all uncompleted micro-tasks"]
+    --> P2["Protocol 2: The Emotional Debt Erasure<br>Pardon past slips & execute 1 immediate micro-action"]
+    --> P3["Protocol 3: Metabolic & Oxygen Priming<br>Fiber-first meals · 500ml hydration · Diaphragmatic nasal breathing"]
+    --> P4["Protocol 4: Physical Containment Banks<br>Phone in another room · Zero escape routes for focus"]
+
 ```
 
 #### 1. The 10-Minute Loop Triage (RAM Cleanup)

@@ -64,10 +64,11 @@ True confidence is not the belief that you will never fail, freeze, or look fool
 
 ```mermaid
 graph TD
-    A[1. Core Identity: Self-Esteem<br>Inherent worth independent of performance]
-    --> B[2. Internal Credibility: Self-Trust<br>Keeping private promises to yourself]
-    --> C[3. Skill Capability: Self-Efficacy<br>Belief in your ability to learn & execute]
-    --> D[4. Physical Expression: Somatic Poise & Nonverbal Command<br>Base stance, open-palm gesturing & unhurried eye contact]
+    A["1. Core Identity: Self-Esteem<br>Inherent worth independent of performance"]
+    --> B["2. Internal Credibility: Self-Trust<br>Keeping private promises to yourself"]
+    --> C["3. Skill Capability: Self-Efficacy<br>Belief in your ability to learn & execute"]
+    --> D["4. Physical Expression: Somatic Poise & Nonverbal Command<br>Base stance, open-palm gesturing & unhurried eye contact"]
+
 ```
 
 1. **Self-Esteem (Inherent Worth)**: The fundamental belief that you possess value as a human being, completely detached from external accolades, status, or temporary setbacks.
@@ -83,19 +84,20 @@ Why do highly prepared students, athletes, and speakers suddenly freeze, stumble
 
 ```mermaid
 graph LR
-    subgraph 1. Distraction Theory (Working Memory Hijack)
+    subgraph SG_1_1__Distraction_ ["1. Distraction Theory (Working Memory Hijack)"]
         D1[High-Stakes Stress & Fear of Failure]
-        --> D2[Intrusive Worries: 'What if I fail?']
-        --> D3[Consumes Prefrontal Working Memory (RAM)]
+        --> D2["Intrusive Worries: 'What if I fail?'"]
+        --> D3["Consumes Prefrontal Working Memory (RAM)"]
         --> D4[Zero Bandwidth Left for Problem Solving]
     end
 
-    subgraph 2. Explicit Monitoring Theory (Micro-Management Freeze)
+    subgraph SG_2_2__Explicit_Mon ["2. Explicit Monitoring Theory (Micro-Management Freeze)"]
         M1[Acutely Anxious State]
         --> M2[Conscious Prefrontal Cortex Intervenes]
         --> M3[Micromanages Automated Subconscious Skills]
         --> M4[Disrupts Fluid Neural Execution & Flow]
     end
+
 ```
 
 1. **Distraction Theory (Working Memory Hijack)**: When fear of outcome dominates your mind, intrusive self-doubts flood your working memory. Because your prefrontal cortex has limited cognitive bandwidth, these anxiety loops leave no computational space to solve the analytical problem in front of you.
@@ -107,9 +109,10 @@ graph LR
 
 ```mermaid
 graph TD
-    P1[Protocol 1: Pressure Inoculation Training<br>Simulate high-stakes conditions with strict timers and stakes during practice]
-    --> P2[Protocol 2: Pre-Performance Calibration Routine<br>Reset autonomic arousal via a 3-second diaphragmatic breath & physical cue]
-    --> P3[Protocol 3: External Target Focus<br>Shift focus entirely to the external objective, bypassing internal micro-monitoring]
+    P1["Protocol 1: Pressure Inoculation Training<br>Simulate high-stakes conditions with strict timers and stakes during practice"]
+    --> P2["Protocol 2: Pre-Performance Calibration Routine<br>Reset autonomic arousal via a 3-second diaphragmatic breath & physical cue"]
+    --> P3["Protocol 3: External Target Focus<br>Shift focus entirely to the external objective, bypassing internal micro-monitoring"]
+
 ```
 
 #### 1. Pressure Inoculation Training (Stress Simulation)
@@ -139,7 +142,8 @@ graph TD
     S1[1. The Base Stance Calibration<br>Feet hip-width · 50/50 weight distribution · Eliminate swaying]
     --> S2[2. The Open-Palm Gesture Box<br>Palms visible · Natural expansive gestures between waist and chest]
     --> S3[3. The 3-5s Eye Contact Thought Rule<br>Complete one full thought per pair of eyes before shifting]
-    --> S4[4. The 'Silent Sentence' Anchor<br>Working memory mantra: 'I belong here; I am here to deliver value']
+    --> S4["4. The 'Silent Sentence' Anchor<br>Working memory mantra: 'I belong here; I am here to deliver value'"]
+
 ```
 
 #### 1. The Base Stance Calibration
@@ -161,9 +165,10 @@ Performance anxiety occurs when working memory is flooded with frantic thoughts 
 
 ```mermaid
 graph TD
-    B1[Step 1: Set Non-Negotiable Micro-Contracts<br>Promises so small you cannot fail]
-    --> B2[Step 2: Build an Undeniable 'Stack of Proof'<br>Record every executed commitment daily]
-    --> B3[Step 3: Shift to the Stoic Adaptability Pivot<br>'Whatever happens, I have the capacity to adapt and endure']
+    B1["Step 1: Set Non-Negotiable Micro-Contracts<br>Promises so small you cannot fail"]
+    --> B2["Step 2: Build an Undeniable 'Stack of Proof'<br>Record every executed commitment daily"]
+    --> B3["Step 3: Shift to the Stoic Adaptability Pivot<br>'Whatever happens, I have the capacity to adapt and endure'"]
+
 ```
 
 1. **The Micro-Contract Rule**: Never make a promise to yourself that you are not 100% committed to keeping. If you decide to read 5 pages or do 10 pushups, treat that commitment like an iron legal contract.

@@ -67,12 +67,13 @@ graph TD
     A[Incoming Claim / Conflict / Dilemma] 
     --> B[Run the 4-Layer Cognitive Firewall]
     
-    B --> L1[Layer 1: The Principle of Charity<br>Steel-man opposing views to their strongest form]
-    B --> L2[Layer 2: The Epistemic Razors<br>Occam's & Hanlon's: Cut away assumed complexity & malice]
-    B --> L3[Layer 3: The Binary Trap Detector<br>Reject false dilemmas & excluded middles]
-    B --> L4[Layer 4: Sunk Cost & Opportunity Cost Razor<br>Evaluate decisions strictly on forward-looking ROI]
+    B --> L1["Layer 1: The Principle of Charity<br>Steel-man opposing views to their strongest form"]
+    B --> L2["Layer 2: The Epistemic Razors<br>Occam's & Hanlon's: Cut away assumed complexity & malice"]
+    B --> L3["Layer 3: The Binary Trap Detector<br>Reject false dilemmas & excluded middles"]
+    B --> L4["Layer 4: Sunk Cost & Opportunity Cost Razor<br>Evaluate decisions strictly on forward-looking ROI"]
     
     L1 & L2 & L3 & L4 --> C[Clean Diagnostic Truth & High-Leverage Action]
+
 ```
 
 ---
@@ -93,13 +94,14 @@ A "philosophical razor" is a mental tool that allows you to shave off unnecessar
 
 ```mermaid
 graph LR
-    subgraph Occam's Razor
+    subgraph SG_1_Occam_s_Razor ["Occam's Razor"]
         O1[Multiple Competing Hypotheses] --> O2[Select the explanation with fewest unproven assumptions]
     end
 
-    subgraph Hanlon's Razor
+    subgraph SG_2_Hanlon_s_Razor ["Hanlon's Razor"]
         H1[Encounter Hurtful / Frustrating Behavior] --> H2[Never attribute to malice what is explained by friction/fatigue]
     end
+
 ```
 
 * **Occam’s Razor**: When presented with competing explanations for an event, select the one that makes the fewest assumptions. Complexity is often a disguise for confusion.
@@ -128,10 +130,11 @@ graph LR
 
 ```mermaid
 graph TD
-    S1[1. Steel-Man: Have I stated the opposing reality in its strongest form?]
-    --> S2[2. Shave: Am I inventing conspiracy/malice where simple fatigue explains it?]
-    --> S3[3. Expand: Am I trapped in a false binary choice?]
-    --> S4[4. Invert: Am I clinging to sunk costs rather than future ROI?]
+    S1["1. Steel-Man: Have I stated the opposing reality in its strongest form?"]
+    --> S2["2. Shave: Am I inventing conspiracy/malice where simple fatigue explains it?"]
+    --> S3["3. Expand: Am I trapped in a false binary choice?"]
+    --> S4["4. Invert: Am I clinging to sunk costs rather than future ROI?"]
+
 ```
 
 ---

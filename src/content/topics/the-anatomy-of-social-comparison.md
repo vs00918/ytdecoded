@@ -37,16 +37,17 @@ For hundreds of thousands of years, the human brain evolved in small ancestral t
 
 ```mermaid
 graph TD
-    subgraph Ancestral Environment (Calibrated & Local)
-        A1[Small Tribe: 50-150 People] --> A2[Visible, Realistic Local Comparisons]
+    subgraph SG_1_Ancestral_Envir ["Ancestral Environment (Calibrated & Local)"]
+        A1["Small Tribe: 50-150 People"] --> A2[Visible, Realistic Local Comparisons]
         A2 --> A3[Clear, Stable Social Hierarchy]
     end
 
-    subgraph Modern Digital Environment (Hyper-Distorted)
+    subgraph SG_2_Modern_Digital_ ["Modern Digital Environment (Hyper-Distorted)"]
         M1[Global Digital Algorithms] --> M2[Exposed to Top 0.01% Worldwide Daily]
         M2 --> M3[Brain Interprets Global Elite as Immediate Tribe Rivals]
         M3 --> M4[Chronic Feeling of Defeat & Inadequacy]
     end
+
 ```
 
 * **The Ancestral Purpose**: In a small band of hunter-gatherers, monitoring your standing relative to immediate peers was essential for survival and resource distribution.
@@ -64,7 +65,8 @@ graph LR
     vs
     B[Their Curated Front Stage<br>Polished results, triumphant announcements & clean highlights]
     
-    A -.->|Unfair Perceptual Bias| C[The Illusion: 'Everyone is thriving except me']
+    A -.->|Unfair Perceptual Bias| C["The Illusion: 'Everyone is thriving except me'"]
+
 ```
 
 * You compare your **entire internal raw backstage** (every moment of laziness, confusion, awkwardness, and self-doubt) against another person's **carefully curated front stage** (their filtered accomplishments, awards, and victories).
@@ -78,10 +80,11 @@ Whenever you experience a pang of envy toward someone else's success, wealth, sc
 
 ```mermaid
 graph TD
-    A[Envy Trigger: Desiring Someone's Specific Attribute / Result]
+    A["Envy Trigger: Desiring Someone's Specific Attribute / Result"]
     --> B{The Inversion Question:<br>'Am I willing to trade 100% of my life for 100% of theirs?'}
     B -->|Must Take Everything: Their Insecurities, Health, Childhood & Anxieties| C[Immediate Refusal]
     C --> D[Envy Dissolves into Neutral Clarity]
+
 ```
 
 1. **The Pick-and-Choose Myth**: Envy assumes you can selectively extract someone else's single desirable trait (e.g., their exam rank or wealth) while retaining your own mind, family, relationships, and identity.
@@ -94,9 +97,10 @@ graph TD
 
 ```mermaid
 graph TD
-    P1[Protocol 1: The Longitudinal Self-Audit<br>Compare today's self strictly against yourself 6 months ago]
-    --> P2[Protocol 2: Status Games vs. Craft Games<br>Shift from zero-sum hierarchy to infinite-sum personal mastery]
-    --> P3[Protocol 3: Digital Diet Sanitization<br>Mute or unfollow curated triggers of artificial comparison]
+    P1["Protocol 1: The Longitudinal Self-Audit<br>Compare today's self strictly against yourself 6 months ago"]
+    --> P2["Protocol 2: Status Games vs. Craft Games<br>Shift from zero-sum hierarchy to infinite-sum personal mastery"]
+    --> P3["Protocol 3: Digital Diet Sanitization<br>Mute or unfollow curated triggers of artificial comparison"]
+
 ```
 
 #### 1. The Longitudinal Self-Audit (You vs. You-6-Months-Ago)

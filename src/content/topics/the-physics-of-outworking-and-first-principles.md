@@ -36,19 +36,20 @@ When you combine **First-Principles Thinking** (reasoning from fundamental truth
 
 ```mermaid
 graph TD
-    subgraph Competitor A (Standard 40-Hour Week)
+    subgraph SG_1_Competitor_A__S ["Competitor A (Standard 40-Hour Week)"]
         A1[40 Hours Focused Execution / Week] 
         --> A2[2,000 Hours / Year]
         --> A3[50 Iteration Loops / Year]
         --> A4[Baseline Linear Growth]
     end
 
-    subgraph The Asymmetric Performer (80-Hour Focused Block)
+    subgraph SG_2_The_Asymmetric_ ["The Asymmetric Performer (80-Hour Focused Block)"]
         B1[80 Hours Monastic Execution / Week]
         --> B2[4,000 Hours / Year]
         --> B3[100+ Iteration Loops / Year]
         --> B4[2x Compound Velocity Every 365 Days]
     end
+
 ```
 
 * **The Compression Law**: If two entities start with identical capabilities, and Entity B executes twice as many focused hours as Entity A, Entity B accomplishes in **six months what takes Entity A an entire year**.
@@ -62,16 +63,17 @@ The primary obstacle to extraordinary execution is **Reasoning by Analogy**: cop
 
 ```mermaid
 graph LR
-    subgraph Reasoning by Analogy (Low Leverage)
+    subgraph SG_1_Reasoning_by_An ["Reasoning by Analogy (Low Leverage)"]
         A1[Look at Peer Methods] --> A2[Copy Existing Flaws & Conventions] --> A3[Mediocre Incremental Result]
     end
 
-    subgraph First-Principles Reasoning (Quantum Leverage)
+    subgraph SG_2_First_Principle ["First-Principles Reasoning (Quantum Leverage)"]
         F1[Boil Problem to Core Fundamental Truths] 
         --> F2[Strip Away Inherited Assumptions] 
         --> F3[Reason Upward from Physics / Core Mechanics] 
         --> F4[Breakthrough Architecture & Extreme Speed]
     end
+
 ```
 
 1. **Deconstruct to Bedrock Truths**: What are the absolute, undeniable constraints of the problem? (e.g., *“What does this exam actually test?”* or *“What is the raw material cost of this system?”*).
@@ -86,11 +88,12 @@ True "outworking" is not staring blankly at a screen until exhaustion; it is max
 
 ```mermaid
 graph TD
-    S1[Step 1: Rapid Prototype / Attempt<br>Produce crude solution fast]
-    --> S2[Step 2: Stress-Test Against Cold Reality<br>Expose to timed mock / market / diagnostics]
-    --> S3[Step 3: Extract Diagnostic Error<br>Identify the exact point of breakdown]
-    --> S4[Step 4: Immediate 15-Degree Calibration<br>Rework core mechanism and launch next loop]
+    S1["Step 1: Rapid Prototype / Attempt<br>Produce crude solution fast"]
+    --> S2["Step 2: Stress-Test Against Cold Reality<br>Expose to timed mock / market / diagnostics"]
+    --> S3["Step 3: Extract Diagnostic Error<br>Identify the exact point of breakdown"]
+    --> S4["Step 4: Immediate 15-Degree Calibration<br>Rework core mechanism and launch next loop"]
     S4 --> S1
+
 ```
 
 * **The Velocity Advantage**: The person who makes 100 imperfect attempts and corrects each error in real-time will always demolish the perfectionist who spends six months polishing a single untested plan.
@@ -102,9 +105,10 @@ graph TD
 
 ```mermaid
 graph TD
-    P1[Protocol 1: Strip Secondary Overhead<br>Eliminate all non-essential lifestyle friction]
-    --> P2[Protocol 2: Monastic Energy Windows<br>Structure days into four 2-hour deep sprints]
-    --> P3[Protocol 3: The Cold Feedback Engine<br>Measure daily output strictly by completed iteration loops]
+    P1["Protocol 1: Strip Secondary Overhead<br>Eliminate all non-essential lifestyle friction"]
+    --> P2["Protocol 2: Monastic Energy Windows<br>Structure days into four 2-hour deep sprints"]
+    --> P3["Protocol 3: The Cold Feedback Engine<br>Measure daily output strictly by completed iteration loops"]
+
 ```
 
 #### 1. Strip Secondary Overhead

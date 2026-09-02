@@ -111,9 +111,10 @@ Whenever an amorphous cloud of melancholy, restlessness, or self-doubt sweeps ov
 
 ```mermaid
 graph TD
-    S1[Step 1: Pause & Interrogate the Physical Sensation<br>Where is the tightness? Throat, chest, or stomach?]
-    --> S2[Step 2: Apply the Granular Label<br>Is this Sonder, Liberosis, Occhiolism, or Monachopsis?]
-    --> S3[Step 3: Extract the Diagnostic Message<br>What adjustment in perspective or action is my soul asking for?]
+    S1["Step 1: Pause & Interrogate the Physical Sensation<br>Where is the tightness? Throat, chest, or stomach?"]
+    --> S2["Step 2: Apply the Granular Label<br>Is this Sonder, Liberosis, Occhiolism, or Monachopsis?"]
+    --> S3["Step 3: Extract the Diagnostic Message<br>What adjustment in perspective or action is my soul asking for?"]
+
 ```
 
 1. **Locate the Sensation**: Do not distract yourself with phone feeds. Feel the physical sensation without judgment.

@@ -69,19 +69,20 @@ In organizational systems and cognitive psychology, **"Day 2"** represents the a
 
 ```mermaid
 graph TD
-    subgraph The Trap of Day 2 Thinking
-        D2[Day 2 Mentality: Resting on Past Momentum] 
-        --> C1[Complacency & Entitlement: 'I worked hard all week, I can slack today']
+    subgraph SG_1_The_Trap_of_Day ["The Trap of Day 2 Thinking"]
+        D2["Day 2 Mentality: Resting on Past Momentum"] 
+        --> C1["Complacency & Entitlement: 'I worked hard all week, I can slack today'"]
         --> C2[Vulnerability to Slips]
         --> C3[Catastrophic Guilt when Streak Breaks]
     end
 
-    subgraph The Sovereignty of Always Day 1
-        D1[Day 1 Mentality: Beginner's Mind / Shoshin]
+    subgraph SG_2_The_Sovereignty ["The Sovereignty of Always Day 1"]
+        D1["Day 1 Mentality: Beginner's Mind / Shoshin"]
         --> S1[Zero Entitlement · Pure Presence · Absolute Diligence]
         --> S2[Slips are Isolated Data Points, Not System Collapse]
         --> S3[Perpetual Adaptation & Calm Focus]
     end
+
 ```
 
 * **The Illusion of Accumulated Credit**: On "Day 40," the ego whispers that you have banked enough discipline to afford a micro-compromise. This subtle entitlement is the exact crack through which indiscipline enters.
@@ -95,18 +96,19 @@ When an individual views progress as an all-or-nothing streak, a single mistake 
 
 ```mermaid
 graph LR
-    subgraph The Streak Fragility
+    subgraph SG_1_The_Streak_Frag ["The Streak Fragility"]
         A1[Day 29 Clean] --> A2[Single Slip on Day 30] 
-        --> A3[Perception: 'Reset to 0, I Failed'] 
+        --> A3["Perception: 'Reset to 0, I Failed'"] 
         --> A4[Severe Relapse Spiral]
     end
 
-    subgraph The Statistical Reality
+    subgraph SG_2_The_Statistical ["The Statistical Reality"]
         B1[29 Out of 30 Days Executed] 
         --> B2[Single Slip Analyzed] 
-        --> B3[Truth: 96.7% Success Rate] 
+        --> B3["Truth: 96.7% Success Rate"] 
         --> B4[Immediate Day 1 Reset]
     end
+
 ```
 
 * **The Mathematical Reality**: If you execute a habit 29 out of 30 days and stumble once, your biological and neurological progress is **96.7% intact**. Your synaptic pathways did not vanish overnight.
@@ -118,9 +120,10 @@ graph LR
 
 ```mermaid
 graph TD
-    T1[Tenet 1: Zero Entitlement<br>Yesterday's discipline earns no free pass today]
-    --> T2[Tenet 2: Zero Burden of Failure<br>Yesterday's mistake cannot poison today's clean slate]
-    --> T3[Tenet 3: The 24-Hour Bounded Horizon<br>Win only the single day directly in front of you]
+    T1["Tenet 1: Zero Entitlement<br>Yesterday's discipline earns no free pass today"]
+    --> T2["Tenet 2: Zero Burden of Failure<br>Yesterday's mistake cannot poison today's clean slate"]
+    --> T3["Tenet 3: The 24-Hour Bounded Horizon<br>Win only the single day directly in front of you"]
+
 ```
 
 1. **Zero Entitlement (Humble Diligence)**: It does not matter if you studied 10 hours yesterday or worked out for 6 months straight. Today requires its own execution on its own terms.

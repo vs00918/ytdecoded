@@ -65,15 +65,16 @@ Understanding the interplay between these chemicals allows you to transition you
 
 ```mermaid
 graph TD
-    subgraph The Three Neurochemical Modulators
-        D[Dopamine: The Drive Engine<br>Anticipation, Wanting, Seeking & Craving]
-        S[Serotonin: The Anchor<br>Present-Moment Calm, Satiety & Baseline Mood]
-        O[Oxytocin: The Safety Buffer<br>Trust, Connection, Stress Attenuation]
+    subgraph SG_1_The_Three_Neuro ["The Three Neurochemical Modulators"]
+        D["Dopamine: The Drive Engine<br>Anticipation, Wanting, Seeking & Craving"]
+        S["Serotonin: The Anchor<br>Present-Moment Calm, Satiety & Baseline Mood"]
+        O["Oxytocin: The Safety Buffer<br>Trust, Connection, Stress Attenuation"]
     end
 
     D -->|Hijacked by Hyper-Stimulation| D_Crash[Dopamine Baseline Collapse & Chronic Restlessness]
     S -->|Strengthened by Effort & Stillness| S_Peace[High Impulse Control & Deep Focus]
     O -->|Nourished by Community & Purpose| O_Grounded[Zero Need for Compulsive Seeking]
+
 ```
 
 ---
@@ -84,9 +85,10 @@ A foundational discovery of modern neuroscience is that **dopamine is not the mo
 
 ```mermaid
 graph LR
-    A[Cues: Notification / Morning Phone Check] -->|Dopamine Spike| B[Intense Urge to Check / Seek Novelty]
+    A["Cues: Notification / Morning Phone Check"] -->|Dopamine Spike| B[Intense Urge to Check / Seek Novelty]
     B -->|Consumption of Hyper-Stimulus| C[Immediate Dopamine Crash Below Baseline]
     C -->|Withdrawal Feeling| D[Elevated Threshold & Chronic Brain Fog]
+
 ```
 
 1. **The Pursuit Circuit**: Dopamine surges when your brain expects a potential reward (such as seeing a notification badge or scrolling a new video feed). It generates an acute, energetic feeling of *wanting*.
@@ -101,19 +103,20 @@ The single greatest mistake in daily cognitive management is **front-loading hig
 
 ```mermaid
 graph TD
-    subgraph Toxic Sequence: Morning Hyper-Stimulation
+    subgraph SG_1_Toxic_Sequence_ ["Toxic Sequence: Morning Hyper-Stimulation"]
         T1[Wake Up & Check Social Media / Videos] 
         --> T2[Artificial Dopamine Peak Established]
         --> T3[Normal Study / Analytical Work Feels Painfully Boring]
         --> T4[Severe Attention Fragmentation All Day]
     end
 
-    subgraph Sovereign Sequence: Dopamine Loading via Effort
+    subgraph SG_2_Sovereign_Seque ["Sovereign Sequence: Dopamine Loading via Effort"]
         S1[Wake Up & 2-Hour Digital Blackout]
         --> S2[Deep Analytical Block on Cold Baseline]
         --> S3[Dopamine Released Through Effort & Mastery]
         --> S4[High Energy & Natural Focus Sustained]
     end
+
 ```
 
 * **The Threshold Effect**: If you expose your brain to ultra-high stimulation (videos, social feeds, news feeds) within the first hour of waking, you set an artificially elevated dopamine baseline. All subsequent low-stimulation, high-friction cognitive work (reading dense chapters, writing code, solving math) will be perceived by the brain as an intolerable "dopamine desert."
@@ -127,10 +130,11 @@ Large, monolithic study goals (e.g., *"Study quantitative aptitude for 6 hours"*
 
 ```mermaid
 graph LR
-    A[Monolithic Goal: '6 Hours Study'] -->|Limbic Overwhelm| B[Avoidance & Distraction]
-    C[Deconstructed Micro-Milestone: 35-Min Sprint] -->|Low Activation Barrier| D[Sprint Executed]
+    A["Monolithic Goal: '6 Hours Study'"] -->|Limbic Overwhelm| B[Avoidance & Distraction]
+    C["Deconstructed Micro-Milestone: 35-Min Sprint"] -->|Low Activation Barrier| D[Sprint Executed]
     D -->|Physical Checkmark on Paper| E[Endogenous Dopamine Pulse]
     E -->|Replenishes Focus Tank| F[Next Sprint Initiated Effortlessly]
+
 ```
 
 1. **Break Sessions into 30 to 45-Minute Sprints**: Give each sprint one discrete, measurable objective (e.g., *"Solve 15 probability questions"*).
@@ -153,9 +157,10 @@ Every time you glance away from deep work to check a notification for 5 seconds,
 
 ```mermaid
 graph LR
-    A[Deep Focus on Task A] -->|5-Sec Notification Glance| B[Task B: Notification / Chat]
-    B -->|Return to Task A| C[Attention Residue: 20-30% Capacity Trapped]
+    A[Deep Focus on Task A] -->|5-Sec Notification Glance| B["Task B: Notification / Chat"]
+    B -->|Return to Task A| C["Attention Residue: 20-30% Capacity Trapped"]
     C -->|Requires 15-25 Minutes| D[Gradual Restoration of Full Depth]
+
 ```
 
 * **The Research**: Studies in cognitive science demonstrate that a substantial portion of your prefrontal processing power remains "stuck" on the interrupted stimulus (**Attention Residue**).

@@ -36,12 +36,13 @@ When you master the **Architecture of Resonance**, you eliminate corrosive conve
 ```mermaid
 graph TD
     A[The Communication Master Loop] 
-    --> B1[1. The Negative Filter: Eliminate the 7 Corrosive Habits]
-    --> B2[2. The Moral Anchor: The HAIL Compass & Internal Conviction]
-    --> B3[3. The Acoustic Engine: Command the Physical Vocal Toolbox]
-    --> B4[4. The Auditory Engine: Master the 5 Listening Protocols & RASA]
+    --> B1["1. The Negative Filter: Eliminate the 7 Corrosive Habits"]
+    --> B2["2. The Moral Anchor: The HAIL Compass & Internal Conviction"]
+    --> B3["3. The Acoustic Engine: Command the Physical Vocal Toolbox"]
+    --> B4["4. The Auditory Engine: Master the 5 Listening Protocols & RASA"]
     
     B1 & B2 & B3 & B4 --> C[Unshakeable Gravitas, Deep Resonance & High-Trust Influence]
+
 ```
 
 ---
@@ -50,17 +51,18 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Incongruence Trap (Weakness)
+    subgraph SG_1_The_Incongruenc ["The Incongruence Trap (Weakness)"]
         P1[Performative Vocabulary / Polish] 
         --> P2[Internal Self-Doubt / Faking] 
         --> P3[Audience's Incongruence Radar Alerts · Trust Dies]
     end
 
-    subgraph The Conviction Engine (Mastery)
+    subgraph SG_2_The_Conviction_ ["The Conviction Engine (Mastery)"]
         C1[Unshakeable Internal Belief] 
         --> C2[Transparently Humanize Shortcomings] 
         --> C3[Raw Resonance, Authenticity & Deep Respect]
     end
+
 ```
 
 1. **The Incongruence Radar**: Human beings possess an evolutionary biological radar for authenticity. If you do not believe in the truth and weight of your message, no amount of polished vocabulary, expensive accent training, or corporate buzzwords will persuade the listener.
@@ -78,15 +80,16 @@ Before you can speak with power, you must systematically eliminate the seven sub
 
 ```mermaid
 graph TD
-    subgraph The Seven Corrosive Habits
-        S1[1. Gossip: Speaking ill of those absent · Destroys trust]
-        S2[2. Judging: Evaluating & scolding · Triggers listener defense]
-        S3[3. Negativity: Chronic pessimism · Drains collective energy]
-        S4[4. Complaining: Viral misery · Focuses on helplessness]
-        S5[5. Excuses: Blaming external factors · Abdicates agency]
-        S6[6. Exaggeration: Hyperbole · Debases your credibility]
-        S7[7. Dogmatism: Confusing personal opinions with objective facts]
+    subgraph SG_1_The_Seven_Corro ["The Seven Corrosive Habits"]
+        S1["1. Gossip: Speaking ill of those absent · Destroys trust"]
+        S2["2. Judging: Evaluating & scolding · Triggers listener defense"]
+        S3["3. Negativity: Chronic pessimism · Drains collective energy"]
+        S4["4. Complaining: Viral misery · Focuses on helplessness"]
+        S5["5. Excuses: Blaming external factors · Abdicates agency"]
+        S6["6. Exaggeration: Hyperbole · Debases your credibility"]
+        S7["7. Dogmatism: Confusing personal opinions with objective facts"]
     end
+
 ```
 
 1. **Gossip**: Speaking poorly of someone who is not present. While it offers a cheap, 2-minute hit of bonding, the listener immediately realizes: *"If they speak this way about others, they speak this way about me when I leave."*
@@ -124,11 +127,12 @@ Your voice is a physical wind instrument. Commanding its acoustic properties tra
 
 ```mermaid
 graph TD
-    T1[1. Register: Speak from the chest cavity for natural gravitas]
-    --> T2[2. Timbre: Cultivate warmth, rich resonance & smooth texture]
-    --> T3[3. Prosody: Dynamic vocal melody · Avoid monotonous drone]
-    --> T4[4. Pace & Silence: Slow down for emphasis · Strategic pauses]
-    --> T5[5. Pitch & Volume: Vary altitude and loudness deliberately]
+    T1["1. Register: Speak from the chest cavity for natural gravitas"]
+    --> T2["2. Timbre: Cultivate warmth, rich resonance & smooth texture"]
+    --> T3["3. Prosody: Dynamic vocal melody · Avoid monotonous drone"]
+    --> T4["4. Pace & Silence: Slow down for emphasis · Strategic pauses"]
+    --> T5["5. Pitch & Volume: Vary altitude and loudness deliberately"]
+
 ```
 
 1. **Register (The Seat of Authority)**: Speaking from the throat or nose produces a thin, anxious sound. Speaking from the **chest cavity** deepens your natural register, broadcasting calm biological authority and emotional groundedness.
@@ -146,8 +150,9 @@ graph TD
     L1[1. Three Minutes of Daily Silence<br>Auditory reset · Restores sensory baseline]
     --> L2[2. 'The Mixer' Audio Multi-Tracking<br>Isolate distinct audio channels in noisy rooms]
     --> L3[3. Savoring Mundane Soundscapes<br>Appreciate hidden rhythms in everyday ambient noise]
-    --> L4[4. Calibrating Listening Positions<br>Consciously shift filters: Active vs Passive · Empathetic vs Critical]
+    --> L4["4. Calibrating Listening Positions<br>Consciously shift filters: Active vs Passive · Empathetic vs Critical"]
     --> L5[5. The RASA Relational Loop<br>Receive · Appreciate · Summarize · Ask]
+
 ```
 
 1. **Three Minutes of Daily Silence**: Spend 3 minutes every morning in total silence. This acts as an acoustic palate cleanser, recalibrating your auditory cortex to perceive subtle nuances in human speech.

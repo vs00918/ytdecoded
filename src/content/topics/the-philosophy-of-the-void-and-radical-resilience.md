@@ -64,19 +64,20 @@ When you master the **Philosophy of the Void**, you transition from fragile defe
 
 ```mermaid
 graph TD
-    subgraph The Fragile Identity (Playing Not to Lose)
+    subgraph SG_1_The_Fragile_Ide ["The Fragile Identity (Playing Not to Lose)"]
         A1[Possession of Fragile Status / Social Approval]
         --> A2[Intense Loss Aversion & Fear of Judgment]
         --> A3[Hesitant, Timid Action & Fragility]
         --> A4[Devastation upon Setback or Public Failure]
     end
 
-    subgraph The Sovereign Void (Riding the Zero)
+    subgraph SG_2_The_Sovereign_V ["The Sovereign Void (Riding the Zero)"]
         B1[Anchored in Inner Emptiness / Shunya]
         --> B2[Zero Fear of Loss · Nothing to Defend]
         --> B3[Audacious, Uncompromising Execution]
         --> B4[Calm Self-Reconstruction after any Defeat]
     end
+
 ```
 
 * **The Trap of False Accumulation**: The more you derive your self-worth from external markers (applause, titles, possessions), the more terrified you become of losing them. You become a prisoner of the very things you built.
@@ -90,14 +91,15 @@ When adversity, rejection, or crisis strikes, human beings react through two dis
 
 ```mermaid
 graph LR
-    subgraph Fragile Reaction
+    subgraph SG_1_Fragile_Reactio ["Fragile Reaction"]
         C1[External Crisis / Rejection] --> C2[Victim Consciousness & Emotional Collapse]
     end
 
-    subgraph Sovereign Transmutation
+    subgraph SG_2_Sovereign_Trans ["Sovereign Transmutation"]
         C1 --> T1[Internal Alignment with Inner Fire]
         --> T2[Adversity Transmuted into Raw Fuel for Growth]
     end
+
 ```
 
 * **The Victim Stance**: Cursing external difficulties and pleading for life to be gentler. This posture keeps you frail and dependent on favorable winds.
@@ -111,11 +113,12 @@ In life's inevitable moments of defeat—when plans collapse, relationships end,
 
 ```mermaid
 graph TD
-    D1[The Breakdown: Defeat / Collapse / Shock]
-    --> D2[Step 1: The Silence of Non-Reaction<br>Refuse public drama, venting, or seeking external pity]
-    --> D3[Step 2: Gathering the Fragments<br>Calmly assemble your energy, focus, and dignity in private]
-    --> D4[Step 3: Return to the Baseline of Zero<br>Clean slate · Total detachment from past regret]
-    --> D5[Step 4: The Unshakeable Return<br>Step back onto the path with refined precision]
+    D1["The Breakdown: Defeat / Collapse / Shock"]
+    --> D2["Step 1: The Silence of Non-Reaction<br>Refuse public drama, venting, or seeking external pity"]
+    --> D3["Step 2: Gathering the Fragments<br>Calmly assemble your energy, focus, and dignity in private"]
+    --> D4["Step 3: Return to the Baseline of Zero<br>Clean slate · Total detachment from past regret"]
+    --> D5["Step 4: The Unshakeable Return<br>Step back onto the path with refined precision"]
+
 ```
 
 1. **The Dignity of Silence**: Refuse the impulse to complain, beg for sympathy, or explain yourself to the crowd. True resilience is forged in quiet, private resolve.
@@ -128,9 +131,10 @@ graph TD
 
 ```mermaid
 graph TD
-    T1[Tenet 1: The Sovereign Void<br>Find peace in emptiness · True strength needs no external props]
-    --> T2[Tenet 2: The Inversion of Fear<br>Become the force of nature rather than its victim]
-    --> T3[Tenet 3: Private Self-Sufficiency<br>Rebuild from within without waiting for validation]
+    T1["Tenet 1: The Sovereign Void<br>Find peace in emptiness · True strength needs no external props"]
+    --> T2["Tenet 2: The Inversion of Fear<br>Become the force of nature rather than its victim"]
+    --> T3["Tenet 3: Private Self-Sufficiency<br>Rebuild from within without waiting for validation"]
+
 ```
 
 1. **Find Peace in Emptiness**: When stripped of everything, what remains is your pure, indivisible consciousness. That center can never be broken by circumstance.

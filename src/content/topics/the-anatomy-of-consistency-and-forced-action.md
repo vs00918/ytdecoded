@@ -63,20 +63,21 @@ In reality, motivation is a temporary neurochemical catalyst, not a long-term st
 
 ```mermaid
 graph LR
-    subgraph Phase 1: Novelty Euphoria (Days 1-14)
+    subgraph SG_1_Phase_1__Novelt ["Phase 1: Novelty Euphoria (Days 1-14)"]
         P1[High Dopamine Anticipation<br>Clean desk · Grand plans · Effortless start]
     end
 
-    subgraph Phase 2: The Valley of Attrition (Weeks 3-16)
+    subgraph SG_2_Phase_2__The_Va ["Phase 2: The Valley of Attrition (Weeks 3-16)"]
         P2[Novelty Evaporates · Friction Spikes<br>Latent Plateau · Invisible gains · 80% Quit Here]
     end
 
-    subgraph Phase 3: The Deadline Pressure (Final Weeks)
+    subgraph SG_3_Phase_3__The_De ["Phase 3: The Deadline Pressure (Final Weeks)"]
         P3[Cortisol Surge · Acute Urgency<br>Systems built in Phase 2 dictate final outcome]
     end
 
     P1 ==>|Novelty fades into routine| P2
     P2 ==>|Approaching final milestone| P3
+
 ```
 
 ---
@@ -106,15 +107,16 @@ When emotional resistance is high, relying on willpower alone causes cognitive e
 
 ```mermaid
 graph TD
-    subgraph The Triad of Forced Execution
-        T1[Lever 1: Autonomy Reframing<br>Eliminate Psychological Reactance]
-        T2[Lever 2: The 10-Minute Friction Ramp<br>Cross the Prefrontal Gear-Shift Window]
-        T3[Lever 3: Micro-Victory Logging<br>Internal Dopamine Recycling Engine]
+    subgraph SG_1_The_Triad_of_Fo ["The Triad of Forced Execution"]
+        T1["Lever 1: Autonomy Reframing<br>Eliminate Psychological Reactance"]
+        T2["Lever 2: The 10-Minute Friction Ramp<br>Cross the Prefrontal Gear-Shift Window"]
+        T3["Lever 3: Micro-Victory Logging<br>Internal Dopamine Recycling Engine"]
     end
 
     T1 -->|Removes Internal Rebellion| WORK[Effortless Sustained Craft]
     T2 -->|Collapses Startup Resistance| WORK
     T3 -->|Provides Continuous Forward Fuel| WORK
+
 ```
 
 ---

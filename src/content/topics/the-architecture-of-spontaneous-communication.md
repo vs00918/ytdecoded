@@ -67,13 +67,14 @@ When you eliminate the five subconscious authority leaks, deploy the **"What? So
 
 ```mermaid
 graph TD
-    A[Impromptu Scenario: Question, Strategy Pitch, or Crisis] 
-    --> B1[1. The Subtractive Filter: Plug the 5 Executive Authority Leaks]
-    --> B2[2. Mindset Calibration: Shift from Performance to Conversation · 'Dare to be Dull']
-    --> B3[3. Analytical Scaffolding: Deploy 'What? So What? Now What?']
-    --> B4[4. Narrative Engine: Deploy the 60-Second Micro-Story Architecture]
+    A["Impromptu Scenario: Question, Strategy Pitch, or Crisis"] 
+    --> B1["1. The Subtractive Filter: Plug the 5 Executive Authority Leaks"]
+    --> B2["2. Mindset Calibration: Shift from Performance to Conversation · 'Dare to be Dull'"]
+    --> B3["3. Analytical Scaffolding: Deploy 'What? So What? Now What?'"]
+    --> B4["4. Narrative Engine: Deploy the 60-Second Micro-Story Architecture"]
     
     B1 & B2 & B3 & B4 --> C[Clear, Concise, High-Impact Executive Articulation]
+
 ```
 
 ---
@@ -84,13 +85,14 @@ Executive presence is built not by what you say, but by **what you deliberately 
 
 ```mermaid
 graph TD
-    subgraph The Five Executive Authority Leaks
-        L1[1. Over-Explaining: Talking past the sale · Signals internal self-doubt]
-        L2[2. Physical Fidgeting: Erratic micro-movements · Signals anxiety]
-        L3[3. The Permission Trap: Hedging & apologetic phrasing]
-        L4[4. Truth Avoidance: Sugarcoating realities · Erodes long-term trust]
-        L5[5. Emotional Volatility: Reactive mood swings · Destroys psychological safety]
+    subgraph SG_1_The_Five_Execut ["The Five Executive Authority Leaks"]
+        L1["1. Over-Explaining: Talking past the sale · Signals internal self-doubt"]
+        L2["2. Physical Fidgeting: Erratic micro-movements · Signals anxiety"]
+        L3["3. The Permission Trap: Hedging & apologetic phrasing"]
+        L4["4. Truth Avoidance: Sugarcoating realities · Erodes long-term trust"]
+        L5["5. Emotional Volatility: Reactive mood swings · Destroys psychological safety"]
     end
+
 ```
 
 1. **Stop Over-Explaining (The Economy of Speech)**:
@@ -112,13 +114,14 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Performance Trap (Paralysis)
+    subgraph SG_1_The_Performance ["The Performance Trap (Paralysis)"]
         P1[Aiming for Perfection] --> P2[Massive Cognitive Load] --> P3[Mental Blank & Stumbling]
     end
 
-    subgraph The Conversational Mindset (Flow)
+    subgraph SG_2_The_Conversatio ["The Conversational Mindset (Flow)"]
         C1['Dare to be Dull'] --> C2[Maximizes Cognitive Bandwidth] --> C3[Effortless Clarity & Connection]
     end
+
 ```
 
 1. **Shift from "Performance" to "Conversation"**:
@@ -176,8 +179,9 @@ graph LR
 ```mermaid
 graph TD
     S1[1. The 2-Second Strategic Inhale<br>Never speak on the exhale of panic · Buy time with silence]
-    --> S2[2. Select Your Scaffolding<br>Analytical: 'What? So What? Now What?' · Narrative: 60s Micro-Story]
+    --> S2["2. Select Your Scaffolding<br>Analytical: 'What? So What? Now What?' · Narrative: 60s Micro-Story"]
     --> S3[3. Deliver with Landed Conclusiveness<br>End cleanly on the conclusion without trailing off]
+
 ```
 
 1. **The 2-Second Inhale**: When asked a question, never blurt out the first reactive thought. Pause, plant your feet, and take a full breath into your belly.

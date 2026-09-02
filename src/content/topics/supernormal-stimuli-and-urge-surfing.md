@@ -71,7 +71,7 @@ Both challenges share the exact same neurobiological mechanism. Mastering them r
 
 ```mermaid
 graph TD
-    subgraph The Two Faces of the Same Neurological Wave
+    subgraph SG_1_The_Two_Faces_o ["The Two Faces of the Same Neurological Wave"]
         A[The Compulsion Wave<br>'Addiction Pull'<br>Craving for instant digital stimulation]
         B[The Avoidance Wave<br>'Procrastination Push'<br>Discomfort with hard cognitive friction]
     end
@@ -82,6 +82,7 @@ graph TD
     C -->|Default Unconscious Reflex| D[Immediate Relapse or Task Abandonment]
     C -->|Intervention: Urge Surfing| E[Observation · Peak Cresting · Wave Dissipation]
     E --> F[Neuroplastic Sovereignty Restored]
+
 ```
 
 ---
@@ -101,10 +102,11 @@ Developed in clinical addiction psychology by Dr. Alan Marlatt, **Urge Surfing**
 
 ```mermaid
 graph TD
-    A[Urge Arises: 0-5 Minutes<br>Slight discomfort, bodily tension, mental restlessness] 
-    --> B[The Crest / Peak: 10-15 Minutes<br>Maximum neurochemical intensity]
-    B --> C[The Subsidence: 15-20 Minutes<br>Natural dissipation of the wave]
+    A["Urge Arises: 0-5 Minutes<br>Slight discomfort, bodily tension, mental restlessness"] 
+    --> B["The Crest / Peak: 10-15 Minutes<br>Maximum neurochemical intensity"]
+    B --> C["The Subsidence: 15-20 Minutes<br>Natural dissipation of the wave"]
     C --> D[Cognitive Baseline Restored<br>Zero Willpower Depletion]
+
 ```
 
 An urge is not an infinite upward climb; it is an ocean wave that peaks within **10 to 15 minutes** (for compulsive cravings) or **3 to 5 minutes** (for procrastination friction) and naturally subsides if it is not fed by mental fantasy or physical action.
@@ -122,9 +124,10 @@ When sitting down to study or do deep work, notice that the desire to check noti
 
 ```mermaid
 graph LR
-    A[Sit Down to Hard Task] --> B[Minutes 0-3: Acute Friction & Restlessness]
-    B -->|Urge Surf the Discomfort without Moving| C[Minute 5: Prefrontal Cortex Takes Control]
-    C --> D[Minutes 10-60: Effortless Flow & High Focus]
+    A[Sit Down to Hard Task] --> B["Minutes 0-3: Acute Friction & Restlessness"]
+    B -->|Urge Surf the Discomfort without Moving| C["Minute 5: Prefrontal Cortex Takes Control"]
+    C --> D["Minutes 10-60: Effortless Flow & High Focus"]
+
 ```
 
 * **The Friction Wave**: The initial discomfort is not permanent; it is simply the friction of shifting neural gears from passive consumption to active calculation.
@@ -151,9 +154,10 @@ When you consistently urge-surf rather than surrender to supernormal stimuli, th
 
 ```mermaid
 graph LR
-    P1[Days 1-7: The Valley of Friction<br>Restlessness, irritability, dopamine deficit] 
-    --> P2[Days 8-21: Receptor Resensitization<br>Gradual return of focus, energy & clarity]
-    --> P3[Day 30+: Baseline Sovereignty<br>Natural daily rewards feel deeply satisfying]
+    P1["Days 1-7: The Valley of Friction<br>Restlessness, irritability, dopamine deficit"] 
+    --> P2["Days 8-21: Receptor Resensitization<br>Gradual return of focus, energy & clarity"]
+    --> P3["Day 30+: Baseline Sovereignty<br>Natural daily rewards feel deeply satisfying"]
+
 ```
 
 1. **The Friction Phase (Days 1–7)**: As the brain adapts to the absence of hyper-stimulation, you will experience transient boredom and lethargy. This is the physiological signature of healing.

@@ -34,13 +34,14 @@ In 1959, sociologist C. Wright Mills introduced a foundational cognitive framewo
 
 ```mermaid
 graph TD
-    subgraph The Two Dimensions of Friction
+    subgraph SG_1_The_Two_Dimensi ["The Two Dimensions of Friction"]
         PT[Personal Trouble<br>Friction occurring within the character and direct scope of the individual]
         PI[Public Issue / Structural Reality<br>Broad institutional, economic, or technological forces shaping millions]
     end
 
-    PT --> ACT[Requires: Radical Personal Discipline & Skill Acquisition]
-    PI --> STR[Requires: Strategic Navigation, Macro-Awareness & Tactical Pivots]
+    PT --> ACT["Requires: Radical Personal Discipline & Skill Acquisition"]
+    PI --> STR["Requires: Strategic Navigation, Macro-Awareness & Tactical Pivots"]
+
 ```
 
 * **The Unemployment Diagnostic**:
@@ -56,13 +57,14 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Naive Self-Blamer
+    subgraph SG_1_The_Naive_Self_ ["The Naive Self-Blamer"]
         N1[Encounter Structural Friction] --> N2[Internalize as Moral Inadequacy] --> N3[Shame, Despair & Paralysis]
     end
 
-    subgraph The Strategist (Sociological Imagination)
+    subgraph SG_2_The_Strategist_ ["The Strategist (Sociological Imagination)"]
         S1[Encounter Structural Friction] --> S2[Diagnose the Macro Forces at Play] --> S3[Execute Asymmetric Micro-Tactics with Zero Shame]
     end
+
 ```
 
 1. **Eliminating Paralyzing Shame**: When you understand the broader structural forces (inflationary dynamics, hyper-competitive exam funnels, algorithmic attention hooks), you stop treating friction as proof of personal brokenness.
@@ -76,9 +78,10 @@ To achieve supreme mastery over your life, operate across two concurrent axes:
 
 ```mermaid
 graph TD
-    A1[Axis 1: Absolute Micro-Accountability<br>'I control 100% of my inputs, discipline, and daily execution']
-    --> A2[Axis 2: Cold Macro-Realism<br>'I see the external market and institutional terrain without illusions']
+    A1["Axis 1: Absolute Micro-Accountability<br>'I control 100% of my inputs, discipline, and daily execution'"]
+    --> A2["Axis 2: Cold Macro-Realism<br>'I see the external market and institutional terrain without illusions'"]
     --> OUT[Unshakeable Strategic Clarity]
+
 ```
 
 1. **Micro-Accountability**: Never use structural forces as an excuse for personal lethargy. Control your sleep, your focus blocks, your books, and your physical health with absolute discipline.

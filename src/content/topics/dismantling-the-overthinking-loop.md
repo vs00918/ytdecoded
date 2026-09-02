@@ -69,20 +69,21 @@ Understanding the mechanics of the overthinking loop allows you to dismantle the
 
 ```mermaid
 graph TD
-    subgraph Constructive Thinking (Convergent Engine)
+    subgraph SG_1_Constructive_Th ["Constructive Thinking (Convergent Engine)"]
         T1[Problem Identified] --> T2[Evaluate Variables & Options]
         T2 --> T3[Make Concrete Decision]
         T3 --> T4[Execute Physical Action]
         T4 --> T5[Cognitive Loop Closed · Mental Peace]
     end
 
-    subgraph The Overthinking Loop (DMN Rumination)
+    subgraph SG_2_The_Overthinkin ["The Overthinking Loop (DMN Rumination)"]
         L1[Trigger / Uncertainty] --> L2[Simulate Catastrophic Scenarios]
         L2 --> L3[Paralysis & Acute Anxiety]
         L3 --> L4[Re-Analyze Past Scenarios]
         L4 --> L5[Doubt & Decision Avoidance]
         L5 --> L1
     end
+
 ```
 
 * **The Illusion of Control**: The chronic overthinker believes that by mentally rehearsing every potential disaster a thousand times, they are protecting themselves from failure. In reality, catastrophe simulation does not prepare the nervous system; it merely exhausts it before the challenge even begins.
@@ -111,9 +112,10 @@ graph LR
 
 ```mermaid
 graph TD
-    P1[Protocol 1: Cognitive Offloading<br>Never solve a loop in your head · Write it onto paper]
-    --> P2[Protocol 2: The 70% Decision Rule<br>Classify Type 1 vs Type 2 decisions & act on 70% data]
-    --> P3[Protocol 3: The Somatic Sensory Reset<br>Force neural activity from DMN into physical senses]
+    P1["Protocol 1: Cognitive Offloading<br>Never solve a loop in your head · Write it onto paper"]
+    --> P2["Protocol 2: The 70% Decision Rule<br>Classify Type 1 vs Type 2 decisions & act on 70% data"]
+    --> P3["Protocol 3: The Somatic Sensory Reset<br>Force neural activity from DMN into physical senses"]
+
 ```
 
 ---

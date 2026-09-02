@@ -54,11 +54,45 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
 <ReaderLayout 
   title={`Volume ${group.volume}: ${group.volumeTitle}`} 
   description={`Continuous volume reader for Volume ${group.volume} containing ${group.topics.length} syntopical chapters.`}
+  isVolumeLayout={true}
+  currentVolume={group.volume}
 >
   <div class="volume-continuous-page">
     
     <!-- ====================================================================
-         VOLUME HEADER & QUICK-JUMP STICKY NAV
+         STICKY LEFT VOLUME JOURNEY SPINE (Subtle Dim Navigation Rail)
+         ==================================================================== -->
+    <aside class="volume-journey-spine" aria-label="Volume Chapter Journey Spine">
+      <div class="spine-sticky-inner">
+        <div class="spine-header">
+          <span class="spine-vol-tag">VOL. {group.volume} PATH</span>
+          <span class="spine-total-count">{renderedTopics.length} Ch.</span>
+        </div>
+        
+        <nav class="spine-nav-list" aria-label="Chapters in this volume">
+          {renderedTopics.map(({ topic }) => (
+            <a 
+              href={`#chapter-${topic.data.order_in_volume}`} 
+              class="spine-nav-link" 
+              id={`spine-item-${topic.data.order_in_volume}`}
+              data-chapter-num={topic.data.order_in_volume}
+              title={`Chapter ${topic.data.order_in_volume}: ${topic.data.title}`}
+            >
+              <span class="spine-node-indicator">
+                <span class="spine-node-dot"></span>
+              </span>
+              <div class="spine-link-body">
+                <span class="spine-chapter-num">#{topic.data.order_in_volume}</span>
+                <span class="spine-chapter-name">{topic.data.title}</span>
+              </div>
+            </a>
+          ))}
+        </nav>
+      </div>
+    </aside>
+
+    <!-- ====================================================================
+         VOLUME HEADER BANNER
          ==================================================================== -->
     <header class="volume-header-banner">
       <nav aria-label="Breadcrumb" class="breadcrumbs-container">
@@ -83,19 +117,6 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
         <span class="meta-dot" aria-hidden="true">•</span>
         <span>⚡ Uninterrupted Scroll</span>
       </div>
-
-      <!-- Quick Chapter Jump Pill Bar -->
-      <nav class="volume-jump-nav" aria-label="Quick jump to chapters in this volume">
-        <div class="volume-jump-label">Jump to Chapter:</div>
-        <div class="volume-jump-pills">
-          {renderedTopics.map(({ topic }) => (
-            <a href={`#chapter-${topic.data.order_in_volume}`} class="volume-jump-pill">
-              <span class="jump-num">#{topic.data.order_in_volume}</span>
-              <span class="jump-title">{topic.data.title}</span>
-            </a>
-          ))}
-        </div>
-      </nav>
     </header>
 
     <!-- ====================================================================
@@ -225,4 +246,48 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
       </div>
     </nav>
   </div>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const articles = document.querySelectorAll('.volume-chapter-article');
+      const spineLinks = document.querySelectorAll('.spine-nav-link');
+      if (!articles.length || !spineLinks.length) return;
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            const chapterNum = id.replace('chapter-', '');
+            spineLinks.forEach((link) => {
+              if (link.getAttribute('data-chapter-num') === chapterNum) {
+                link.classList.add('active');
+                // Ensure active spine item is gently visible inside sticky container
+                link.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+              } else {
+                link.classList.remove('active');
+              }
+            });
+          }
+        });
+      }, {
+        rootMargin: '-20% 0px -60% 0px',
+        threshold: 0
+      });
+
+      articles.forEach((article) => observer.observe(article));
+
+      // Smooth scroll on click
+      spineLinks.forEach((link) => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute('href');
+          const targetEl = document.querySelector(targetId);
+          if (targetEl) {
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.pushState(null, '', targetId);
+          }
+        });
+      });
+    });
+  </script>
 </ReaderLayout>

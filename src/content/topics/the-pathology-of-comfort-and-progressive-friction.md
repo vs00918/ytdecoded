@@ -68,20 +68,21 @@ Human performance and neuroplastic adaptation are governed by the **Yerkes-Dodso
 
 ```mermaid
 graph TD
-    subgraph Zone 1: The Comfort Perimeter
-        Z1[Comfort Zone: Low Arousal · Predictable Loops<br>Zero Learning · Cognitive Atrophy · Existential Regret]
+    subgraph SG_1_Zone_1__The_Com ["Zone 1: The Comfort Perimeter"]
+        Z1["Comfort Zone: Low Arousal · Predictable Loops<br>Zero Learning · Cognitive Atrophy · Existential Regret"]
     end
 
-    subgraph Zone 2: The Optimal Growth Envelope
-        Z2[The Stretch Zone: Calibrated Friction & Asymmetric Risk<br>Maximum Neuroplasticity · Flow State · Rapid Evolution]
+    subgraph SG_2_Zone_2__The_Opt ["Zone 2: The Optimal Growth Envelope"]
+        Z2["The Stretch Zone: Calibrated Friction & Asymmetric Risk<br>Maximum Neuroplasticity · Flow State · Rapid Evolution"]
     end
 
-    subgraph Zone 3: The Danger Perimeter
-        Z3[The Panic Zone: Overwhelming Stress & Threat<br>Cortisol Flooding · Prefrontal Shutdown · Paralysis]
+    subgraph SG_3_Zone_3__The_Dan ["Zone 3: The Danger Perimeter"]
+        Z3["The Panic Zone: Overwhelming Stress & Threat<br>Cortisol Flooding · Prefrontal Shutdown · Paralysis"]
     end
 
     Z1 ==>|Administer Progressive Friction & Audacious Action| Z2
     Z2 -->|Avoid Premature Leap into| Z3
+
 ```
 
 1. **The Comfort Zone (Stagnation & Atrophy)**: A state of psychological and biological security where behavior is automatic and predictable. Because there is zero discrepancy between expectation and reality, the brain produces no *Error-Related Negativity (ERN)* signals, and neural pathways remain static.
@@ -94,17 +95,18 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Illusion of Safety (Guaranteed Decay)
+    subgraph SG_1_The_Illusion_of ["The Illusion of Safety (Guaranteed Decay)"]
         S1['Playing It Safe' / Risk Avoidance] 
         --> S2[Cloaked in 'False Humility' & 'Realism'] 
         --> S3[Guaranteed Long-Term Regret & Shrinking Capacity]
     end
 
-    subgraph The Sovereign Leap (High Agency)
+    subgraph SG_2_The_Sovereign_L ["The Sovereign Leap (High Agency)"]
         L1[Audacious Asymmetric Action] 
         --> L2[Embraces Temporary Discomfort] 
         --> L3[Exponential Growth & Self-Transcendence]
     end
+
 ```
 
 #### 1. Paradox of "Playing It Safe"
@@ -159,9 +161,10 @@ To systematically expand your comfort perimeter without triggering panic paralys
 
 ```mermaid
 graph TD
-    P1[Step 1: The Daily Micro-Discomfort Anchor<br>Complete 1 intentional physical/mental friction task daily]
-    --> P2[Step 2: The 10% Stretch Rule<br>Calibrate difficulty so tasks are 10-15% beyond current ease]
-    --> P3[Step 3: Reframe Discomfort as the Bio-Signal of Evolution<br>Shift internal interpretation from 'threat' to 'growth']
+    P1["Step 1: The Daily Micro-Discomfort Anchor<br>Complete 1 intentional physical/mental friction task daily"]
+    --> P2["Step 2: The 10% Stretch Rule<br>Calibrate difficulty so tasks are 10-15% beyond current ease"]
+    --> P3["Step 3: Reframe Discomfort as the Bio-Signal of Evolution<br>Shift internal interpretation from 'threat' to 'growth'"]
+
 ```
 
 #### 1. The Daily Micro-Discomfort Anchor

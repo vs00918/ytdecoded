@@ -53,17 +53,18 @@ The Diderot Effect governs both destruction and mastery in daily life:
 
 ```mermaid
 graph LR
-    subgraph The Downward Spiral
-        D1[Domino 1: Eat sugary breakfast] --> D2[Blood sugar crash & lethargy]
+    subgraph SG_1_The_Downward_Sp ["The Downward Spiral"]
+        D1["Domino 1: Eat sugary breakfast"] --> D2[Blood sugar crash & lethargy]
         D2 --> D3[Skip afternoon workout]
         D3 --> D4[Late-night dopamine binge & poor sleep]
     end
 
-    subgraph The Upward Spiral
-        U1[Domino 1: 5-minute morning walk] --> U2[Calibrated circadian rhythm & alert focus]
+    subgraph SG_2_The_Upward_Spir ["The Upward Spiral"]
+        U1["Domino 1: 5-minute morning walk"] --> U2[Calibrated circadian rhythm & alert focus]
         U2 --> U3[High-agency decision making]
         U3 --> U4[Deep evening rest & recovery]
     end
+
 ```
 
 #### 1. The Downward Cascade (Negative Feedback Loops)
@@ -88,9 +89,10 @@ When a negative lead domino inevitably falls, the goal is not perfection—it is
 
 ```mermaid
 graph LR
-    A[Slip Occurs: Initial Bad Choice] --> B{Circuit Breaker Activated?}
+    A["Slip Occurs: Initial Bad Choice"] --> B{Circuit Breaker Activated?}
     B -->|Yes: Immediate Physical Reset| C[Chain Terminated at Domino 1]
     B -->|No: Emotional Self-Criticism| D[Complete Downward Cascade]
+
 ```
 
 * Establish a strict rule: **A bad choice is an accident; a second consecutive bad choice is the start of a new habit cascade.**

@@ -38,7 +38,7 @@ MRI brain imaging studies (such as landmark research from Harvard neuroscientist
 
 ```mermaid
 graph TD
-    subgraph The Tri-Regional Neuroplastic Shift
+    subgraph SG_1_The_Tri_Regiona ["The Tri-Regional Neuroplastic Shift"]
         A[1. Amygdala Gray Matter Shrinks<br>Downregulates baseline panic, cortisol & threat reactivity]
         B[2. Prefrontal Cortex & ACC Thickens<br>Elevates executive control, impulse resistance & focus]
         C[3. Hippocampus Density Expands<br>Strengthens memory consolidation & emotional regulation]
@@ -47,6 +47,7 @@ graph TD
     A --> S[Calm Baseline Nervous System]
     B --> S
     C --> S
+
 ```
 
 1. **The Amygdala (The Threat Center) Shrinks**: The physical size and cellular density of the amygdala decreases. As a result, daily stressors that previously triggered anger, panic, or avoidance no longer hijack the nervous system.
@@ -63,11 +64,12 @@ When your mind inevitably drifts into thoughts about exams, meals, or memories, 
 
 ```mermaid
 graph TD
-    S1[Step 1: Anchor Focus<br>Rest attention on breath / physical sensation]
-    --> S2[Step 2: Mind Wanders<br>DMN takes over · Lost in subconscious thought]
-    --> S3[Step 3: The Awakening Moment<br>Salience Network / ACC realizes: 'I am thinking']
-    --> S4[Step 4: Non-Judgmental Return<br>Prefrontal Cortex gently returns to anchor]
+    S1["Step 1: Anchor Focus<br>Rest attention on breath / physical sensation"]
+    --> S2["Step 2: Mind Wanders<br>DMN takes over · Lost in subconscious thought"]
+    --> S3["Step 3: The Awakening Moment<br>Salience Network / ACC realizes: 'I am thinking'"]
+    --> S4["Step 4: Non-Judgmental Return<br>Prefrontal Cortex gently returns to anchor"]
     S4 --> S1
+
 ```
 
 * **The Neural Mechanism**: The entire neuroplastic benefit occurs in the transition between **Step 3 and Step 4**.

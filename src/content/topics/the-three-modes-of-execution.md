@@ -38,23 +38,24 @@ When you master the **Three Modes of Execution** and cultivate **Existential Imm
 
 ```mermaid
 graph TD
-    subgraph Levels of Consciousness & Execution
-        S[State 1: Clarity & Unity / Sattva]
-        R[State 2: Driven Ambition & Fragmentation / Rajas]
-        T[State 3: Inertia & Blind Reaction / Tamas]
+    subgraph SG_1_Levels_of_Consc ["Levels of Consciousness & Execution"]
+        S["State 1: Clarity & Unity / Sattva"]
+        R["State 2: Driven Ambition & Fragmentation / Rajas"]
+        T["State 3: Inertia & Blind Reaction / Tamas"]
     end
 
-    S -->|Shapes| P1[Perception: Sees interconnected systems and unified truth]
-    S -->|Shapes| A1[Action: Executed with mastery, calm, and zero craving]
-    S -->|Shapes| D1[Agent: Resolute, humble, and unperturbed by outcomes]
+    S -->|Shapes| P1["Perception: Sees interconnected systems and unified truth"]
+    S -->|Shapes| A1["Action: Executed with mastery, calm, and zero craving"]
+    S -->|Shapes| D1["Agent: Resolute, humble, and unperturbed by outcomes"]
 
-    R -->|Shapes| P2[Perception: Sees zero-sum competition and personal attacks]
-    R -->|Shapes| A2[Action: Driven by intense ego, friction, and anxiety over reward]
-    R -->|Shapes| D2[Agent: Attached to praise, volatile, easily elated or crushed]
+    R -->|Shapes| P2["Perception: Sees zero-sum competition and personal attacks"]
+    R -->|Shapes| A2["Action: Driven by intense ego, friction, and anxiety over reward"]
+    R -->|Shapes| D2["Agent: Attached to praise, volatile, easily elated or crushed"]
 
-    T -->|Shapes| P3[Perception: Narrow obsession with trivial, distorted pieces]
-    T -->|Shapes| A3[Action: Procrastinating, destructive, and blind to consequences]
-    T -->|Shapes| D3[Agent: Lethargic, cynical, deceptive, and undisciplined]
+    T -->|Shapes| P3["Perception: Narrow obsession with trivial, distorted pieces"]
+    T -->|Shapes| A3["Action: Procrastinating, destructive, and blind to consequences"]
+    T -->|Shapes| D3["Agent: Lethargic, cynical, deceptive, and undisciplined"]
+
 ```
 
 ---
@@ -63,17 +64,18 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Egocentric Trap (Fragile Reaction)
+    subgraph SG_1_The_Egocentric_ ["The Egocentric Trap (Fragile Reaction)"]
         E1[Rude Behavior / Criticism]
         --> E2["'Why are they doing this TO me?' (Narcissistic Bias)"]
         --> E3[Ego Injury, Resentment & Escalation]
     end
 
-    subgraph The Sovereign Immunity (Mastery)
+    subgraph SG_2_The_Sovereign_I ["The Sovereign Immunity (Mastery)"]
         S1[Rude Behavior / Criticism]
         --> S2["'What is happening WITH them?' (Curiosity Shift)"]
         --> S3[Unshakeable Value Invariant & Calm Poise]
     end
+
 ```
 
 #### 1. The Egocentric Bias ("It Is Not About You")
@@ -110,11 +112,12 @@ The quality of your execution can never exceed the quality of your perception:
 
 ```mermaid
 graph LR
-    subgraph Friction vs Flow in Action
+    subgraph SG_1_Friction_vs_Flo ["Friction vs Flow in Action"]
         A[Inertial Action] -->|High Regret & Low Output| A_Out[Destruction & Stagnation]
         B[Passionate Action] -->|High Effort & High Anxiety| B_Out[Burnout & Volatile Results]
         C[Mastery Action] -->|High Flow & Low Friction| C_Out[Sustained Excellence & Peace]
     end
+
 ```
 
 1. **Inertial Action**: Work done haphazardly without regard for long-term consequences. Characterized by chronic procrastination and avoidance of difficult truths.

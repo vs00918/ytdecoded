@@ -64,11 +64,12 @@ True, durable fulfillment is not created by ceaselessly inflating your external 
 
 ```mermaid
 graph LR
-    A[Milestone Achieved: Promotion / Exam / Purchase] 
+    A["Milestone Achieved: Promotion / Exam / Purchase"] 
     -->|Acute Dopamine Spike| B[Transient Euphoria]
-    -->|Rapid Habituation: 14-30 Days| C[Hedonic Adaptation: New Baseline Formed]
+    -->|Rapid Habituation: 14-30 Days| C["Hedonic Adaptation: New Baseline Formed"]
     -->|Dissatisfaction Re-Emerges| D[Craving for Greater External Stimulus]
     D --> A
+
 ```
 
 1. **The Biological Baseline Reset**: Evolutionary biology designed dopamine to motivate survival and resource acquisition, not to foster permanent contentment. If an achievement made an organism permanently content, it would cease seeking food or defending itself.
@@ -84,15 +85,16 @@ $$\text{Satisfaction} = \frac{\text{What You Have}}{\text{What You Want}}$$
 
 ```mermaid
 graph TD
-    subgraph The Modern Trap: Inflating the Numerator
+    subgraph SG_1_The_Modern_Trap ["The Modern Trap: Inflating the Numerator"]
         N[Pursuing More Income, Possessions & Status] -->|Triggers Inflated Desires| D1[Denominator Grows Faster than Numerator]
         D1 --> R1[Declining Overall Satisfaction & Chronic Burnout]
     end
 
-    subgraph The Sovereign Mastery: Managing the Denominator
+    subgraph SG_2_The_Sovereign_M ["The Sovereign Mastery: Managing the Denominator"]
         D2[Disciplining Desires, Expectations & Ego] -->|Maintains Lean Denominator| N2[Numerator Becomes Exponentially Fulfilling]
         N2 --> R2[Unshakeable Internal Peace & Freedom]
     end
+
 ```
 
 * **The Consumer Treadmill**: Society teaches you to focus 100% of your energy on expanding the **numerator** (*What You Have*). However, as the numerator grows, unexamined social comparison and lifestyle inflation cause the **denominator** (*What You Want*) to expand at double the pace, resulting in a net decrease in satisfaction.
@@ -106,10 +108,11 @@ The **Arrival Fallacy** is the cognitive illusion that reaching a destination wi
 
 ```mermaid
 graph TD
-    A[Myth: 'I will be happy WHEN I arrive at X'] 
-    --> B[Reality: Arriving at X only delivers a temporary neurochemical pause]
-    B --> C[Truth: You bring the exact same baseline mind with you to the destination]
-    C --> D[Realization: Fulfillment must exist inside the daily craft itself]
+    A["Myth: 'I will be happy WHEN I arrive at X'"] 
+    --> B["Reality: Arriving at X only delivers a temporary neurochemical pause"]
+    B --> C["Truth: You bring the exact same baseline mind with you to the destination"]
+    C --> D["Realization: Fulfillment must exist inside the daily craft itself"]
+
 ```
 
 * **The Mind Stays the Same**: When you achieve a long-sought goal, you do not transform into a new human being. You are the exact same person, with the same internal patterns, now standing in a slightly different environment.
@@ -123,9 +126,10 @@ To step off the hedonic treadmill and anchor yourself in deep, sustainable fulfi
 
 ```mermaid
 graph TD
-    P1[Inversion 1: Reverse Hedonic Accounting<br>Shift focus from 'What is missing' to 'Wanting what you already have']
-    --> P2[Inversion 2: Voluntary Contrast & Fasting<br>Periodically embrace discomfort to restore dopamine receptor sensitivity]
-    --> P3[Inversion 3: Craft-Centric Execution<br>Pour 100% energy into the action while releasing attachment to external rewards]
+    P1["Inversion 1: Reverse Hedonic Accounting<br>Shift focus from 'What is missing' to 'Wanting what you already have'"]
+    --> P2["Inversion 2: Voluntary Contrast & Fasting<br>Periodically embrace discomfort to restore dopamine receptor sensitivity"]
+    --> P3["Inversion 3: Craft-Centric Execution<br>Pour 100% energy into the action while releasing attachment to external rewards"]
+
 ```
 
 #### 1. Reverse Hedonic Accounting (Wanting What You Have)

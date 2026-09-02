@@ -37,21 +37,22 @@ Understanding the **Action Paradox** and mastering the **Acceptance and Commitme
 
 ```mermaid
 graph TD
-    subgraph The Self-Help & Preparation Trap
+    subgraph SG_1_The_Self_Help__ ["The Self-Help & Preparation Trap"]
         C1[Encounter Fear of Failure / Uncertainty] 
-        --> C2[Engage in 'Playing-It-Safe' Behaviors: Over-Research & Polish]
+        --> C2["Engage in 'Playing-It-Safe' Behaviors: Over-Research & Polish"]
         --> C3[Temporary Drop in Anxiety · Illusion of Progress]
         --> C4[Zero Real-World Exposure · Shrinking Self-Efficacy]
         --> C5[Anxiety Returns Stronger When Deadlines Approach]
         C5 --> C1
     end
 
-    subgraph The Sovereign Action Path
+    subgraph SG_2_The_Sovereign_A ["The Sovereign Action Path"]
         A1[Encounter Fear / Uncertainty]
-        --> A2[The Choice Point: Execute 'Towards Move' Despite Discomfort]
+        --> A2["The Choice Point: Execute 'Towards Move' Despite Discomfort"]
         --> A3[Direct Physical Exposure & Friction]
         --> A4[Empirical Skill Deposit & Unshakeable Self-Trust]
     end
+
 ```
 
 ---
@@ -62,12 +63,13 @@ Human beings do not procrastinate because they are lazy; they engage in **"Playi
 
 ```mermaid
 graph TD
-    subgraph The Four Playing-It-Safe Saboteurs
-        S1[1. Chronic Rumination: Treating mental looping as real-world action]
-        S2[2. Perfectionistic Over-Preparation: Endlessly polishing to delay exposure]
-        S3[3. Reassurance Seeking: Demanding 100% guarantees before starting]
-        S4[4. People-Pleasing & Conflict Avoidance: Suppressing boundaries to stay safe]
+    subgraph SG_1_The_Four_Playin ["The Four Playing-It-Safe Saboteurs"]
+        S1["1. Chronic Rumination: Treating mental looping as real-world action"]
+        S2["2. Perfectionistic Over-Preparation: Endlessly polishing to delay exposure"]
+        S3["3. Reassurance Seeking: Demanding 100% guarantees before starting"]
+        S4["4. People-Pleasing & Conflict Avoidance: Suppressing boundaries to stay safe"]
     end
+
 ```
 
 1. **Chronic Rumination (The Simulation Trap)**: Believing that thinking through 50 worst-case scenarios is equivalent to solving a problem. Rumination is passive mental looping that drains glucose without producing a single physical result.
@@ -99,14 +101,14 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph Motion (Low Stakes · Zero Progress)
+    subgraph SG_1_Motion__Low_Sta ["Motion (Low Stakes · Zero Progress)"]
         M1[Color-coding schedules]
         M2[Organizing Notion templates]
         M3[Watching study method videos]
         M4[Debating study strategies]
     end
 
-    subgraph Action (High Stakes · Asymmetric Progress)
+    subgraph SG_2_Action__High_St ["Action (High Stakes · Asymmetric Progress)"]
         A1[Solving 20 hard practice questions]
         A2[Writing 1,000 words of synthesis]
         A3[Active blank-page recall drill]
@@ -115,6 +117,7 @@ graph LR
 
     M1 & M2 & M3 & M4 -.->|Can NEVER deliver an outcome alone| ZERO[Zero Result]
     A1 & A2 & A3 & A4 ==>|Directly creates tangible reality| VALUE[Breakthrough Result]
+
 ```
 
 * **Motion**: Actions that prepare, plan, or organize for a task. Motion feels productive and carries zero risk of failure, but it will never produce an outcome on its own.
@@ -126,9 +129,10 @@ graph LR
 
 ```mermaid
 graph TD
-    P1[Protocol 1: The Choice Point Pause<br>Label the urge: 'Is this an Away Move or a Towards Move?']
-    --> P2[Protocol 2: The 1:6 Rule of Consumption<br>10 mins of intake requires 60 mins of unbroken work]
-    --> P3[Protocol 3: Just-In-Time Learning<br>Seek advice ONLY when physically blocked by a specific problem]
+    P1["Protocol 1: The Choice Point Pause<br>Label the urge: 'Is this an Away Move or a Towards Move?'"]
+    --> P2["Protocol 2: The 1:6 Rule of Consumption<br>10 mins of intake requires 60 mins of unbroken work"]
+    --> P3["Protocol 3: Just-In-Time Learning<br>Seek advice ONLY when physically blocked by a specific problem"]
+
 ```
 
 #### 1. The Choice Point Micro-Pause

@@ -81,17 +81,18 @@ Understanding the difference between **destructive loneliness** and **sovereign 
 
 ```mermaid
 graph LR
-    subgraph Sovereign Solitude (Abundance Mindset)
+    subgraph SG_1_Sovereign_Solit ["Sovereign Solitude (Abundance Mindset)"]
         S1[Chosen Stillness & Self-Sufficiency]
         --> S2[Rich Internal World & Creative Reflection]
         --> S3[Deep Parasympathetic Restoration & Clarity]
     end
 
-    subgraph Chronic Loneliness (Deficit Mindset)
+    subgraph SG_2_Chronic_Lonelin ["Chronic Loneliness (Deficit Mindset)"]
         L1[Perceived Social Isolation & Threat]
         --> L2[Amygdala Hyper-Vigilance & Elevated Cortisol]
         --> L3[Defensive Withdrawal & Misinterpretation of Others]
     end
+
 ```
 
 * **Solitude (The Joy of Being Alone)**: Solitude is a state of chosen self-communion. It is the fertile soil where deep thinking, self-discovery, and creative mastery take root. The mind in solitude feels whole and complete.
@@ -107,10 +108,11 @@ Pioneered by neuroscientist Dr. John Cacioppo, the **Evolutionary Theory of Lone
 graph TD
     A[Perceived Social Isolation] 
     --> B[Brain Activates Ancestral Threat Radar / Amygdala]
-    --> C[Hyper-Vigilance: Misinterprets Neutral Cues as Hostile]
+    --> C["Hyper-Vigilance: Misinterprets Neutral Cues as Hostile"]
     --> D[Defensive Cynicism, Social Anxiety & Irritability]
     --> E[Self-Protective Withdrawal from Others]
     --> A
+
 ```
 
 1. **The Alarm Bell**: The moment the brain perceives prolonged isolation, it assumes you are vulnerable to predators. It triggers a chronic surge in cortisol and norepinephrine, shifting your nervous system into permanent fight-or-flight alert.
@@ -125,12 +127,13 @@ To escape the discomfort of loneliness, millions turn to modern digital substitu
 
 ```mermaid
 graph TD
-    subgraph The Parasocial Trap
+    subgraph SG_1_The_Parasocial_ ["The Parasocial Trap"]
         P1[Consume Creator Videos / Streams / Feeds]
         --> P2[Artificial Familiarity & One-Way Emotional Attachment]
         --> P3[Zero Biological Oxytocin or Real Reciprocal Safety]
         --> P4[Deeper Baseline Emptiness upon Closing the Screen]
     end
+
 ```
 
 * **The Pseudo-Community Trap**: Watching a podcast or following a creator gives the intellectual illusion of sitting with friends. However, because the interaction is entirely one-directional and non-reciprocal, it fails to produce the mammalian neurochemistry of safety (oxytocin and vagal down-regulation).
@@ -142,9 +145,10 @@ graph TD
 
 ```mermaid
 graph TD
-    P1[Protocol 1: Cultivate Sacred Solitude<br>Learn to sit alone with yourself without screens or escapes]
-    --> P2[Protocol 2: The Outward Inversion<br>Shift from 'Who cares about me?' to 'How can I serve others?']
-    --> P3[Protocol 3: Build High-Fidelity Micro-Tribes<br>Invest deeply in 2 to 3 real-world, reciprocal relationships]
+    P1["Protocol 1: Cultivate Sacred Solitude<br>Learn to sit alone with yourself without screens or escapes"]
+    --> P2["Protocol 2: The Outward Inversion<br>Shift from 'Who cares about me?' to 'How can I serve others?'"]
+    --> P3["Protocol 3: Build High-Fidelity Micro-Tribes<br>Invest deeply in 2 to 3 real-world, reciprocal relationships"]
+
 ```
 
 #### 1. Cultivate Sacred Solitude (Befriending the Self)

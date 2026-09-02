@@ -11,10 +11,21 @@ interface Props {
   title: string;
   description?: string;
   currentSlug?: string;
+  currentVolume?: number;
   isWideLayout?: boolean;
+  isVolumeLayout?: boolean;
+  hideNavSearch?: boolean;
 }
 
-const { title, description = 'The Living Codex — Master Knowledge Base', currentSlug = '', isWideLayout = false } = Astro.props;
+const { 
+  title, 
+  description = 'The Living Codex — Master Knowledge Base', 
+  currentSlug = '', 
+  currentVolume,
+  isWideLayout = false,
+  isVolumeLayout = false,
+  hideNavSearch = false 
+} = Astro.props;
 
 const allTopics = await getCollection('topics');
 const allVolumes = getVolumeGroups(allTopics);
@@ -45,7 +56,7 @@ const allVolumes = getVolumeGroups(allTopics);
       return 'neutral'; // warm sepia
     }
 
-    function renderMermaidDiagrams() {
+    async function renderMermaidDiagrams() {
       const currentTheme = document.documentElement.getAttribute('data-theme') || 'sepia';
       const mTheme = getMermaidTheme(currentTheme);
 
@@ -54,13 +65,14 @@ const allVolumes = getVolumeGroups(allTopics);
           startOnLoad: false,
           theme: mTheme,
           securityLevel: 'loose',
-          fontFamily: 'Inter, sans-serif'
-        });
-
-        document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
-          const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
-          if (rawCode) {
-            wrapper.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
+          fontFamily: 'Inter, sans-serif',
+          fontSize: 14,
+          flowchart: {
+            useMaxWidth: true,
+            htmlLabels: true,
+            curve: 'basis',
+            nodeSpacing: 40,
+            rankSpacing: 45
           }
         });
 
@@ -76,9 +88,39 @@ const allVolumes = getVolumeGroups(allTopics);
           }
         });
 
+        document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
+          const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
+          if (rawCode) {
+            wrapper.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
+          }
+        });
+
         try {
-          window.mermaid.run();
-        } catch (_) {}
+          await window.mermaid.run({
+            querySelector: '.mermaid'
+          });
+
+          // Proportional scaling: narrow diagrams stay compact, wide diagrams scale responsively
+          document.querySelectorAll('.mermaid-diagram-wrapper svg').forEach((svg) => {
+            const viewBox = svg.getAttribute('viewBox');
+            if (viewBox) {
+              const parts = viewBox.split(/[\s,]+/).map(Number);
+              const vbWidth = parts[2];
+              if (vbWidth && vbWidth > 0) {
+                if (vbWidth < 520) {
+                  svg.style.maxWidth = `${Math.min(vbWidth, 460)}px`;
+                  svg.style.width = '100%';
+                } else {
+                  svg.style.maxWidth = '100%';
+                  svg.style.width = '100%';
+                }
+                svg.style.height = 'auto';
+              }
+            }
+          });
+        } catch (err) {
+          console.warn('Mermaid rendering notice:', err);
+        }
       }
     }
 
@@ -103,7 +145,7 @@ const allVolumes = getVolumeGroups(allTopics);
 <body>
   <ProgressBar />
 
-  <CurriculumDrawer currentSlug={currentSlug} allVolumes={allVolumes} />
+  <CurriculumDrawer currentSlug={currentSlug} currentVolume={currentVolume} allVolumes={allVolumes} />
   <SearchModal />
 
   <header class="top-nav">
@@ -118,15 +160,17 @@ const allVolumes = getVolumeGroups(allTopics);
     </div>
 
     <div class="nav-right">
-      <button id="search-trigger-btn" class="search-trigger-btn" aria-label="Open Search (Press / or Cmd+K)" title="Search (Press /)">
-        <span aria-hidden="true">🔍</span>
-        <span class="btn-text">Search <kbd class="nav-kbd">/</kbd></span>
-      </button>
+      {!hideNavSearch && (
+        <button id="search-trigger-btn" class="search-trigger-btn" aria-label="Open Search (Press / or Cmd+K)" title="Search (Press /)">
+          <span aria-hidden="true">🔍</span>
+          <span class="btn-text">Search <kbd class="nav-kbd">/</kbd></span>
+        </button>
+      )}
       <ThemeController />
     </div>
   </header>
 
-  <main class={`reader-container ${isWideLayout ? 'wide-layout' : ''}`} id="main-content" data-pagefind-body>
+  <main class={`reader-container ${isWideLayout ? 'wide-layout' : ''} ${isVolumeLayout ? 'volume-layout' : ''}`} id="main-content" data-pagefind-body>
     <slot />
   </main>
 </body>

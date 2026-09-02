@@ -69,18 +69,19 @@ $$\text{Motivation} = \frac{\text{Expectancy} \times \text{Value}}{\text{Impulsi
 
 ```mermaid
 graph TD
-    subgraph The Motivators (Numerator - Maximize These)
-        E[Expectancy: Belief & Confidence in Successful Execution]
-        V[Value: Perceived Meaning & Reward of Completion]
+    subgraph SG_1_The_Motivators_ ["The Motivators (Numerator - Maximize These)"]
+        E["Expectancy: Belief & Confidence in Successful Execution"]
+        V["Value: Perceived Meaning & Reward of Completion"]
     end
 
-    subgraph The Saboteurs (Denominator - Minimize These)
-        I[Impulsiveness: Susceptibility to Distraction & Novelty]
-        D[Delay: Time Horizon until the Ultimate Payoff]
+    subgraph SG_2_The_Saboteurs__ ["The Saboteurs (Denominator - Minimize These)"]
+        I["Impulsiveness: Susceptibility to Distraction & Novelty"]
+        D["Delay: Time Horizon until the Ultimate Payoff"]
     end
 
     E & V -->|Multiplies Forward Drive| M[Total Motivation to Act]
     I & D -->|Suppresses & Delays Action| M
+
 ```
 
 1. **Expectancy ($\uparrow$)**: If you believe a task is too difficult, ambiguous, or confusing, expectancy drops to zero, triggering instant paralysis. *Solution: Break the task into micro-steps where success is guaranteed.*
@@ -140,10 +141,11 @@ How you finish a work session dictates how easy it will be to start tomorrow. Wh
 
 ```mermaid
 graph TD
-    S[Session Conclusion] --> R1[Step 1: Physical Stop<br>Acknowledge work done]
-    R1 --> R2[Step 2: Clear Desk & Set Tomorrow's Starting Anchor]
-    R2 --> R3[Step 3: Positive Reinforcement Note<br>Record 3-5 insights or wins]
+    S[Session Conclusion] --> R1["Step 1: Physical Stop<br>Acknowledge work done"]
+    R1 --> R2["Step 2: Clear Desk & Set Tomorrow's Starting Anchor"]
+    R2 --> R3["Step 3: Positive Reinforcement Note<br>Record 3-5 insights or wins"]
     R3 --> End[Rest with Zero Cognitive Residue]
+
 ```
 
 To close out a session cleanly:

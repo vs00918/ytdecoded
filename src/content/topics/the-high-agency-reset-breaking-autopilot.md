@@ -35,12 +35,12 @@ To break free from reactive drift, you do not need chaotic, emotional motivation
 
 ```mermaid
 graph TD
-    subgraph The Monk Mode Pentad
-        P1[Pillar 1: Digital Blackout & Dopamine Fasting<br>Zero cheap algorithmic stimulation · Social media purge]
-        P2[Pillar 2: Monastic Deep Work<br>90-120 Min unbroken single-task cognitive sprints]
-        P3[Pillar 3: Physical Conditioning & Hormesis<br>Daily resistance/cardio · Cold exposure · Vagal reset]
-        P4[Pillar 4: Metabolic & Circadian Discipline<br>Whole-food nutrition · Fasting windows · 10 PM sleep anchor]
-        P5[Pillar 5: Stillness & Reflective Synthesis<br>15 Mins seated meditation · Evening journaling ledger]
+    subgraph SG_1_The_Monk_Mode_P ["The Monk Mode Pentad"]
+        P1["Pillar 1: Digital Blackout & Dopamine Fasting<br>Zero cheap algorithmic stimulation · Social media purge"]
+        P2["Pillar 2: Monastic Deep Work<br>90-120 Min unbroken single-task cognitive sprints"]
+        P3["Pillar 3: Physical Conditioning & Hormesis<br>Daily resistance/cardio · Cold exposure · Vagal reset"]
+        P4["Pillar 4: Metabolic & Circadian Discipline<br>Whole-food nutrition · Fasting windows · 10 PM sleep anchor"]
+        P5["Pillar 5: Stillness & Reflective Synthesis<br>15 Mins seated meditation · Evening journaling ledger"]
     end
 
     P1 -->|Restores Dopamine Baseline for| P2
@@ -48,6 +48,7 @@ graph TD
     P3 -->|Stabilizes Biology & Energy through| P4
     P4 -->|Deepens Mental Clarity for| P5
     P5 -->|Protects Sovereignty & Feeds back into| P1
+
 ```
 
 ---
@@ -112,9 +113,10 @@ graph LR
 
 ```mermaid
 graph LR
-    D1[Days 1-7: The Valley of Friction<br>Old dopamine habits fight for comfort · Boredom & resistance] 
-    --> D2[Days 8-14: The Stabilization Phase<br>Routines become smooth · Focus stamina doubles] 
-    --> D3[Days 15-21+: The Quantum Baseline<br>High-agency focus becomes your effortless default state]
+    D1["Days 1-7: The Valley of Friction<br>Old dopamine habits fight for comfort · Boredom & resistance"] 
+    --> D2["Days 8-14: The Stabilization Phase<br>Routines become smooth · Focus stamina doubles"] 
+    --> D3["Days 15-21+: The Quantum Baseline<br>High-agency focus becomes your effortless default state"]
+
 ```
 
 * **The Friction Hurdle**: During the first 7 days, your subconscious will generate dozens of excuses to break the protocol.

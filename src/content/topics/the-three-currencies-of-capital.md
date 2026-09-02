@@ -34,7 +34,7 @@ By mastering the **Three Forms of Capital**, you learn how to start with zero fi
 
 ```mermaid
 graph TD
-    subgraph The Three Currencies
+    subgraph SG_1_The_Three_Curre ["The Three Currencies"]
         EC[1. Economic Capital<br>Cash, investments, equity & physical property]
         CC[2. Cultural Capital<br>Knowledge, articulation, taste, skills & credentials]
         SC[3. Social Capital<br>High-trust networks, mentors & reputation]
@@ -43,6 +43,7 @@ graph TD
     CC -->|Converted into high-value output & credibility| SC
     SC -->|Unlocks insider deals, jobs & partnerships| EC
     EC -->|Reinvested in elite training & reading| CC
+
 ```
 
 ---
@@ -71,10 +72,11 @@ The true master of strategy does not obsess over accumulating only one currency;
 
 ```mermaid
 graph LR
-    A[Phase 1: Starting at Zero<br>Massive Investment in Embodied Cultural Capital] 
-    --> B[Phase 2: Public Demonstration<br>Writing, building & solving real problems for others] 
-    --> C[Phase 3: Social Capital Accumulation<br>Attracting elite mentors & high-trust allies] 
-    --> D[Phase 4: Economic Capital Monetization<br>Asymmetric career leaps & capital compounding]
+    A["Phase 1: Starting at Zero<br>Massive Investment in Embodied Cultural Capital"] 
+    --> B["Phase 2: Public Demonstration<br>Writing, building & solving real problems for others"] 
+    --> C["Phase 3: Social Capital Accumulation<br>Attracting elite mentors & high-trust allies"] 
+    --> D["Phase 4: Economic Capital Monetization<br>Asymmetric career leaps & capital compounding"]
+
 ```
 
 1. **Step 1 (The Cultural Foundation)**: When you have zero money and zero connections, 100% of your energy must go into **Embodied Cultural Capital**—reading deeply, mastering technical fundamentals, speaking with clarity, and building rare craftsmanship.

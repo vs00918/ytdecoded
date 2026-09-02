@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="meta-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d151c"/>
+      <stop offset="45%" stop-color="#8a2839"/>
+      <stop offset="75%" stop-color="#cf4b5c"/>
+      <stop offset="100%" stop-color="#2a0d13"/>
+    </linearGradient>
+    <radialGradient id="sun-horizon" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ef476f" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3d151c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#meta-sky)"/>
+  <circle cx="300" cy="180" r="130" fill="url(#sun-horizon)"/>
+
+  <!-- Geometric Cityscape / Labyrinth Towers Silhouettes -->
+  <g fill="#200a0e" opacity="0.85">
+    <rect x="20" y="100" width="40" height="250"/>
+    <rect x="70" y="130" width="30" height="220"/>
+    <rect x="110" y="80" width="50" height="270"/>
+    <polygon points="135,40 110,80 160,80"/>
+    <rect x="170" y="140" width="45" height="210"/>
+    <rect x="225" y="110" width="35" height="240"/>
+    <rect x="270" y="70" width="60" height="280"/>
+    <polygon points="300,30 270,70 330,70"/>
+    <rect x="340" y="120" width="40" height="230"/>
+    <rect x="390" y="90" width="55" height="260"/>
+    <polygon points="417,50 390,90 445,90"/>
+    <rect x="455" y="130" width="35" height="220"/>
+    <rect x="500" y="100" width="45" height="250"/>
+    <rect x="555" y="140" width="35" height="210"/>
+  </g>
+
+  <!-- Ground Plane Perspective Grid -->
+  <polygon points="0,260 600,260 600,400 0,400" fill="#18070a"/>
+  
+  <g stroke="#ff758f" stroke-width="0.75" opacity="0.35">
+    <line x1="300" y1="260" x2="0" y2="400"/>
+    <line x1="300" y1="260" x2="100" y2="400"/>
+    <line x1="300" y1="260" x2="200" y2="400"/>
+    <line x1="300" y1="260" x2="300" y2="400"/>
+    <line x1="300" y1="260" x2="400" y2="400"/>
+    <line x1="300" y1="260" x2="500" y2="400"/>
+    <line x1="300" y1="260" x2="600" y2="400"/>
+    <line x1="100" y1="285" x2="500" y2="285"/>
+    <line x1="50" y1="320" x2="550" y2="320"/>
+    <line x1="10" y1="365" x2="590" y2="365"/>
+  </g>
+
+  <!-- Walking Human Silhouettes -->
+  <!-- Center Prominent Figure -->
+  <g fill="#000000">
+    <!-- Center Closer -->
+    <circle cx="280" cy="315" r="7"/>
+    <polygon points="274,324 286,324 288,360 272,360"/>
+    <line x1="276" y1="360" x2="274" y2="390" stroke="#000" stroke-width="4"/>
+    <line x1="284" y1="360" x2="287" y2="390" stroke="#000" stroke-width="4"/>
+    
+    <!-- Left Figure -->
+    <circle cx="160" cy="330" r="8"/>
+    <polygon points="153,340 167,340 169,375 151,375"/>
+    <line x1="155" y1="375" x2="151" y2="400" stroke="#000" stroke-width="4.5"/>
+    <line x1="165" y1="375" x2="169" y2="400" stroke="#000" stroke-width="4.5"/>
+
+    <!-- Right Figure -->
+    <circle cx="420" cy="325" r="7.5"/>
+    <polygon points="414,334 426,334 428,370 412,370"/>
+    <line x1="415" y1="370" x2="412" y2="395" stroke="#000" stroke-width="4"/>
+    <line x1="424" y1="370" x2="427" y2="395" stroke="#000" stroke-width="4"/>
+
+    <!-- Distant Figures -->
+    <circle cx="230" cy="275" r="3.5"/>
+    <polygon points="227,279 233,279 234,298 226,298"/>
+    <circle cx="340" cy="272" r="3"/>
+    <polygon points="337,276 343,276 344,295 336,295"/>
+    <circle cx="370" cy="280" r="4"/>
+    <polygon points="366,285 374,285 375,308 365,308"/>
+  </g>
+</svg>

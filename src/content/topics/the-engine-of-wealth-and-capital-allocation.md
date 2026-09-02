@@ -86,9 +86,10 @@ Building an unshakeable financial foundation follows a non-negotiable sequence:
 
 ```mermaid
 graph TD
-    S1[Phase 1: Elimination of High-Interest Debt] --> S2[Phase 2: 6-12 Months Emergency Fund in Liquid Instruments]
-    S2 --> S3[Phase 3: Automated Monthly SIP in Low-Cost Equities]
-    S3 --> S4[Phase 4: Systematic Withdrawal Plan (SWP) for Infinite Passive Income]
+    S1["Phase 1: Elimination of High-Interest Debt"] --> S2["Phase 2: 6-12 Months Emergency Fund in Liquid Instruments"]
+    S2 --> S3["Phase 3: Automated Monthly SIP in Low-Cost Equities"]
+    S3 --> S4["Phase 4: Systematic Withdrawal Plan (SWP) for Infinite Passive Income"]
+
 ```
 
 #### 1. Build an Impenetrable Liquidity Moat

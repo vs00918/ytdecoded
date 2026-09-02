@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="social-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e2738"/>
+      <stop offset="60%" stop-color="#3b4d6b"/>
+      <stop offset="100%" stop-color="#121824"/>
+    </linearGradient>
+    <radialGradient id="social-glow" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#90b4ce" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#4a6585" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1e2738" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#social-bg)"/>
+  <circle cx="200" cy="180" r="140" fill="url(#social-glow)"/>
+
+  <!-- Classical Arches & City Horizon -->
+  <g fill="#0f1521" opacity="0.8">
+    <rect x="30" y="120" width="40" height="240"/>
+    <rect x="330" y="120" width="40" height="240"/>
+    <path d="M 30,120 Q 200,40 370,120 L 370,140 Q 200,60 30,140 Z"/>
+    
+    <!-- Background Columns -->
+    <rect x="110" y="150" width="20" height="180"/>
+    <rect x="270" y="150" width="20" height="180"/>
+    <path d="M 110,150 Q 200,90 290,150 L 290,165 Q 200,105 110,165 Z"/>
+  </g>
+
+  <!-- Ground Plane -->
+  <polygon points="0,320 400,320 400,500 0,500" fill="#0b0f17"/>
+
+  <!-- Group of Interacting Human Silhouettes -->
+  <g fill="#0b0f17">
+    <!-- Center Left (Standing Tall) -->
+    <circle cx="160" cy="270" r="11"/>
+    <polygon points="150,282 170,282 173,340 148,340"/>
+    <line x1="154" y1="340" x2="151" y2="400" stroke="#0b0f17" stroke-width="7"/>
+    <line x1="166" y1="340" x2="169" y2="400" stroke="#0b0f17" stroke-width="7"/>
+
+    <!-- Center Right (Facing Left in Dialogue) -->
+    <circle cx="235" cy="275" r="10.5"/>
+    <polygon points="225,286 245,286 247,340 223,340"/>
+    <line x1="228" y1="340" x2="225" y2="400" stroke="#0b0f17" stroke-width="7"/>
+    <line x1="240" y1="340" x2="243" y2="400" stroke="#0b0f17" stroke-width="7"/>
+
+    <!-- Side Left (Approaching) -->
+    <circle cx="95" cy="290" r="9"/>
+    <polygon points="87,300 103,300 105,350 85,350"/>
+    <line x1="90" y1="350" x2="86" y2="410" stroke="#0b0f17" stroke-width="6"/>
+    <line x1="100" y1="350" x2="103" y2="410" stroke="#0b0f17" stroke-width="6"/>
+
+    <!-- Side Right (Listener) -->
+    <circle cx="305" cy="285" r="9.5"/>
+    <polygon points="296,295 314,295 316,345 294,345"/>
+    <line x1="299" y1="345" x2="295" y2="405" stroke="#0b0f17" stroke-width="6"/>
+    <line x1="310" y1="345" x2="313" y2="405" stroke="#0b0f17" stroke-width="6"/>
+  </g>
+</svg>

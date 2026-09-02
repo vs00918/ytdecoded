@@ -63,17 +63,18 @@ In Plato's dialogue with Adeimantus, Socrates constructs the foundational metaph
 
 ```mermaid
 graph TD
-    subgraph The Maritime Metaphor
+    subgraph SG_1_The_Maritime_Me ["The Maritime Metaphor"]
         A[Voyage into Stormy Seas] --> B{Who Should Steer the Ship?}
         B -->|Trained Navigator| C[Understands Tides, Wind & Celestial Navigation<br><b>Vessel Safely Reaches Samos</b>]
         B -->|Random Passenger Vote| D[Governed by Intuition, Fear & Short-Term Comfort<br><b>Vessel Wrecks on the Reef</b>]
     end
 
-    subgraph The Civic Application
+    subgraph SG_2_The_Civic_Appli ["The Civic Application"]
         E[Governance of the State] --> F{Who Should Select Leaders?}
         F -->|Trained Deliberative Citizenry| G[Evaluates Epistemic Evidence & Long-Term Policy<br><b>Resilient Sovereign Society</b>]
         F -->|Uneducated Impulse Voting| H[Susceptible to Flattery & Demagogues<br><b>Systemic Collapse into Tyranny</b>]
     end
+
 ```
 
 * **The Fallacy of Intuitive Wisdom**: We would never entrust the navigation of a warship sailing through a tempest to popular ballot among untrained passengers. Yet societies routinely assume that any individual, regardless of their capacity for critical reasoning or historical literacy, is naturally equipped to evaluate complex economic, geopolitical, and ethical policies.
@@ -87,15 +88,16 @@ To illustrate why uneducated electorates consistently reject wise leadership, So
 
 ```mermaid
 graph LR
-    subgraph The Demagogue
+    subgraph SG_1_The_Demagogue ["The Demagogue"]
         D1[Sweet Shop Owner] --> D2["'Look at my rival: he gives you bitter potions,<br>cuts your flesh, and restricts your feast! I will give you sweet confections.'"]
         D2 --> D3[Instant Gratification & Applause]
     end
 
-    subgraph The Reformer
+    subgraph SG_2_The_Reformer ["The Reformer"]
         R1[The Doctor] --> R2["'I cause you temporary pain and prescribe bitter medicine<br>in order to heal your underlying disease.'"]
         R2 --> R3[Public Outrage, Rejection & Exile]
     end
+
 ```
 
 1. **The Structural Asymmetry**: The demagogue (like the Athenian aristocrat Alcibiades) promises effortless solutions, flattery, and immediate pleasure.

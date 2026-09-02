@@ -84,15 +84,16 @@ When you master the **Architecture of Social Connectivity**, you escape the trap
 
 ```mermaid
 graph TD
-    A[The Stranger Frontier: High Initial Social Friction] 
-    --> B1[1. The Pre-Verbal Sequence: Proximity & The Eye-Smile Ping]
-    --> B2[2. Radical Authenticity: Dismantling the 'Playing It Cool' Fallacy]
-    --> B3[3. The Levity Engine: Strategic Humor, Endorphin Bonding & 'Yes, And']
-    --> B4[4. The Hook Engine: Mining Incomplete Sentences for Endless Dialogue]
-    --> B5[5. Question Engineering: Level 1 Scripted vs Level 2 Meaningful]
-    --> B6[6. The Graceful Peak Exit: Leave While Energy is High]
+    A["The Stranger Frontier: High Initial Social Friction"] 
+    --> B1["1. The Pre-Verbal Sequence: Proximity & The Eye-Smile Ping"]
+    --> B2["2. Radical Authenticity: Dismantling the 'Playing It Cool' Fallacy"]
+    --> B3["3. The Levity Engine: Strategic Humor, Endorphin Bonding & 'Yes, And'"]
+    --> B4["4. The Hook Engine: Mining Incomplete Sentences for Endless Dialogue"]
+    --> B5["5. Question Engineering: Level 1 Scripted vs Level 2 Meaningful"]
+    --> B6["6. The Graceful Peak Exit: Leave While Energy is High"]
     
     B1 & B2 & B3 & B4 & B5 & B6 --> C[High-Trust Human Connection & Relational Capital]
+
 ```
 
 ---
@@ -101,17 +102,18 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Game of Indifference (Insecurity & Scarcity)
-        G1[Fear of Vulnerability: 'If they see I care, they will lose interest']
+    subgraph SG_1_The_Game_of_Ind ["The Game of Indifference (Insecurity & Scarcity)"]
+        G1["Fear of Vulnerability: 'If they see I care, they will lose interest'"]
         --> G2[Perform Detachment / Delay Responses / Play Games]
         --> G3[Attracts Avoidant Partners · Fosters Anxious Dynamics]
     end
 
-    subgraph The Sovereign Authenticity Model (Abundance)
+    subgraph SG_2_The_Sovereign_A ["The Sovereign Authenticity Model (Abundance)"]
         A1[High Self-Worth & Internal Security]
         --> A2[Direct, Warm & Unapologetic Enthusiasm]
         --> A3[Filters for Emotionally Mature Minds & Deep Trust]
     end
+
 ```
 
 #### 1. Why People "Playing It Cool"
@@ -130,13 +132,14 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph The Internal Planning Trap (Mental Freeze)
+    subgraph SG_1_The_Internal_Pl ["The Internal Planning Trap (Mental Freeze)"]
         P1[Other Person Speaks] --> P2[You Panic & Plan Your Next Sentence] --> P3[Missed Cues & Running Out of Words]
     end
 
-    subgraph The Sensory Presence Engine (Endless Flow)
+    subgraph SG_2_The_Sensory_Pre ["The Sensory Presence Engine (Endless Flow)"]
         S1[Other Person Speaks] --> S2[Identify 3 Hidden Branch Hooks] --> S3[Effortless Follow-Up Flow]
     end
+
 ```
 
 1. **The Incomplete Sentence Heuristic**:
@@ -157,17 +160,18 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph The Pre-Verbal Signal (Nonverbal Clearance)
+    subgraph SG_1_The_Pre_Verbal_ ["The Pre-Verbal Signal (Nonverbal Clearance)"]
         P1[Natural Environmental Proximity] 
-        --> P2[The Eye-Smile Ping: 1s Warm Contact] 
+        --> P2["The Eye-Smile Ping: 1s Warm Contact"] 
         --> P3[Social Safety Clearance Received]
     end
 
-    subgraph The Peak Exit (Mastery)
+    subgraph SG_2_The_Peak_Exit__ ["The Peak Exit (Mastery)"]
         E1[High-Energy Shared Laugh / Resonance] 
         --> E2[Clean, Warm Exit Callback] 
         --> E3[Leaves a Magnetic Long-Term Impression]
     end
+
 ```
 
 1. **The Eye-Smile Ping**: Before uttering a single word, make brief, warm eye contact paired with a subtle, friendly smile. This acts as a biological ping to test receptivity and signal non-threatening intent.
@@ -181,13 +185,14 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph The Efficiency Trap (Dead-End Politeness)
+    subgraph SG_1_The_Efficiency_ ["The Efficiency Trap (Dead-End Politeness)"]
         E1["'How are you?'"] --> E2["'I'm good, you?'"] --> E3["'Doing well.' · Silence & Disconnection"]
     end
 
-    subgraph Relational Effectiveness (Level 2 Connection)
+    subgraph SG_2_Relational_Effe ["Relational Effectiveness (Level 2 Connection)"]
         R1["Intentional Prompt"] --> R2["Story / Real Perspective"] --> R3["Shared Resonance & New Opportunities"]
     end
+
 ```
 
 1. **The Efficiency Trap**: Most people optimize daily interactions for speed rather than depth. Automated pleasantries (*"How's it going?", "Good, how are you?"*) are efficient, but shut down genuine human connection.
@@ -203,13 +208,14 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph The Social Blocker ('No, But')
+    subgraph SG_1_The_Social_Bloc ["The Social Blocker ('No, But')"]
         B1[Other Person Shares an Idea] --> B2[Critical Correction / Nitpicking] --> B3[Friction & Defensiveness]
     end
 
-    subgraph The Improv Builder ('Yes, And')
-        I1[Other Person Shares an Idea] --> I2[Validate Premise ('Yes') + Build Playfully ('And')] --> I3[Instant Psychological Safety & Flow]
+    subgraph SG_2_The_Improv_Buil ["The Improv Builder ('Yes, And')"]
+        I1[Other Person Shares an Idea] --> I2["Validate Premise ('Yes') + Build Playfully ('And')"] --> I3[Instant Psychological Safety & Flow]
     end
+
 ```
 
 1. **Humor as Cognitive Engineering**: Laughter releases endorphins and dopamine while dropping cortisol. It instantly lowers threat detection and doubles information retention.
@@ -244,15 +250,16 @@ graph LR
 
 ```mermaid
 graph LR
-    subgraph Divergent Realities (Friction)
-        P1[Person A: Unique Background] <---> P2[Person B: Unique Background]
+    subgraph SG_1_Divergent_Reali ["Divergent Realities (Friction)"]
+        P1["Person A: Unique Background"] <---> P2["Person B: Unique Background"]
     end
 
-    subgraph The 'Me-Too' Resonance Bridge
+    subgraph SG_2_The__Me_Too__Re ["The 'Me-Too' Resonance Bridge"]
         P1 -->|Uncover Shared Affinity / Experience| S[Shared Ground / 'Me-Too']
         P2 -->|Uncover Shared Affinity / Experience| S
         S --> R[Instant Biological Safety & Mutual Trust]
     end
+
 ```
 
 ---

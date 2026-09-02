@@ -37,19 +37,20 @@ The **Aggregation of Marginal Gains** is not about pushing harder on a single me
 
 ```mermaid
 graph TD
-    subgraph The Linear Trap (Additive Hustle)
+    subgraph SG_1_The_Linear_Trap ["The Linear Trap (Additive Hustle)"]
         L1[Push 10% Harder on Raw Work Hours] 
         --> L2[Accumulated Fatigue & Cognitive Burnout]
         --> L3[Diminishing Returns & System Breakdown]
     end
 
-    subgraph Multiplicative Compounding (Systems Optimization)
+    subgraph SG_2_Multiplicative_ ["Multiplicative Compounding (Systems Optimization)"]
         M1[Optimize Sleep Hygiene by 3%]
         M2[Reduce Environmental Distraction by 5%]
         M3[Upgrade Active Recall Technique by 5%]
         M4[Stabilize Nutrition & Blood Sugar by 3%]
         M1 & M2 & M3 & M4 --> M_Yield[Multiplicative Exponential Surge in Output & Clarity]
     end
+
 ```
 
 When you treat your life or study as a single monolithic block, progress is slow and exhausting. When you deconstruct your life into distinct interrelated sub-systems, tiny micro-calibrations create massive asymmetric breakthroughs:
@@ -68,16 +69,17 @@ The most common reason people abandon systematic improvement is the **Valley of 
 
 ```mermaid
 graph LR
-    subgraph The Iceberg Phase
-        T1[Day 1-30: Micro-Gains Deposited] 
+    subgraph SG_1_The_Iceberg_Pha ["The Iceberg Phase"]
+        T1["Day 1-30: Micro-Gains Deposited"] 
         --> T2[Zero Visible External Change] 
-        --> T3[Perceived Failure: 'This isn't working']
+        --> T3["Perceived Failure: 'This isn't working'"]
     end
 
-    subgraph The Phase-Change Threshold
-        T3 --> T4[Threshold Crossed: Sudden Exponential Manifestation]
+    subgraph SG_2_The_Phase_Chang ["The Phase-Change Threshold"]
+        T3 --> T4["Threshold Crossed: Sudden Exponential Manifestation"]
         T4 --> T5[External World Sees 'Overnight Success']
     end
+
 ```
 
 * **The Melting Ice Cube Metaphor**: Imagine an ice cube sitting in a cold room at $-5^\circ\text{C}$. You heat the room to $-4^\circ\text{C}$, then $-3^\circ\text{C}$, then $-1^\circ\text{C}$. To an untrained observer, nothing has happened; the ice is still solid. But at $0^\circ\text{C}$, a dramatic phase change occurs and the ice turns to liquid water. The energy was not wasted; it was **accumulating latent potential**.
@@ -89,9 +91,10 @@ graph LR
 
 ```mermaid
 graph TD
-    P1[Protocol 1: Deconstruct the System Stack<br>Isolate 5 to 7 independent operational variables]
-    --> P2[Protocol 2: Micro-Friction Inversion<br>Subtract 1 step from positive habits · Add 1 step to negative triggers]
-    --> P3[Protocol 3: Eliminate Multiplicative System Leaks<br>Patch energy drains before seeking more input volume]
+    P1["Protocol 1: Deconstruct the System Stack<br>Isolate 5 to 7 independent operational variables"]
+    --> P2["Protocol 2: Micro-Friction Inversion<br>Subtract 1 step from positive habits · Add 1 step to negative triggers"]
+    --> P3["Protocol 3: Eliminate Multiplicative System Leaks<br>Patch energy drains before seeking more input volume"]
+
 ```
 
 ---

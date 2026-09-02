@@ -54,17 +54,18 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph The Hypnotized Player (Unconscious Conformist)
+    subgraph SG_1_The_Hypnotized_ ["The Hypnotized Player (Unconscious Conformist)"]
         H1[Believes Social Hierarchy is Cosmic Truth]
         --> H2[Fragile Self-Worth Tied to External Rank]
         --> H3[Chronic Status Anxiety & Envy]
     end
 
-    subgraph The Sovereign Player (Conscious Craftsman)
+    subgraph SG_2_The_Sovereign_P ["The Sovereign Player (Conscious Craftsman)"]
         S1[Recognizes Social Game as an Invented Ruleset]
         --> S2[Plays Skillfully to Gain Leverage]
         --> S3[Retains Total Internal Freedom & Detachment]
     end
+
 ```
 
 1. **The Hypnotized Player**: Takes every institutional rule, status marker, and social expectation with deadly seriousness. When they lose a job title, fail an exam, or lack a status symbol, their core identity collapses because they believe their worth *is* the social label.
@@ -78,9 +79,10 @@ Whenever you feel intimidated by an authority figure, an elite institution, or a
 
 ```mermaid
 graph TD
-    Q1[1. The Biological Reduction<br>Strip away titles: What is the raw physical reality here?]
+    Q1["1. The Biological Reduction<br>Strip away titles: What is the raw physical reality here?"]
     --> Q2[2. The Historical Arbitrariness Check<br>Did this rule/hierarchy exist 200 years ago? Will it exist in 200 years?]
     --> Q3[3. The Utility Audit<br>Does playing this specific social game serve my mission, or am I copying the crowd?]
+
 ```
 
 1. **The Biological Reduction**: Strip away the tailored suits, fancy titles, and mahogany desks. What remains is a biological mammal with insecurities, digestion, and a finite lifespan just like you. Intimidation evaporates when you see through the costume.

@@ -38,17 +38,18 @@ True retention is an **active construction and spatial encoding network**. By un
 
 ```mermaid
 graph TD
-    subgraph Passive Review: The Fluency Trap
+    subgraph SG_1_Passive_Review_ ["Passive Review: The Fluency Trap"]
         P1[Read / Highlight Notes] --> P2[Low Cognitive Effort & High Comfort]
         P2 --> P3[Recognition Only 'Looks Familiar']
-        P3 --> P4[Rapid Memory Decay: 80% Lost in 48 Hours]
+        P3 --> P4["Rapid Memory Decay: 80% Lost in 48 Hours"]
     end
 
-    subgraph Active Retrieval & Spatial Architecture
+    subgraph SG_2_Active_Retrieva ["Active Retrieval & Spatial Architecture"]
         A1[Close Notes & Force Retrieval from Scratch] --> A2[High Cognitive Friction & Calibrated Struggle]
         A2 --> A3[Synaptic Consolidation & Myelination]
         A3 --> A4[Permanent Neural Storage & Instant Recall]
     end
+
 ```
 
 ---
@@ -61,15 +62,16 @@ In landmark clinical trials by cognitive psychologists Henry Roediger and Jeffre
 
 ```mermaid
 graph LR
-    subgraph Immediate Test
-        A_Imm[Group A: High Confidence & Immediate Recall]
-        B_Imm[Group B: Moderate Immediate Recall]
+    subgraph SG_1_Immediate_Test ["Immediate Test"]
+        A_Imm["Group A: High Confidence & Immediate Recall"]
+        B_Imm["Group B: Moderate Immediate Recall"]
     end
 
-    subgraph After 1 Week
-        A_Week[Group A: Catastrophic Forgetting > 60% Lost]
-        B_Week[Group B: Over 80% Retention & Robust Application]
+    subgraph SG_2_After_1_Week ["After 1 Week"]
+        A_Week["Group A: Catastrophic Forgetting > 60% Lost"]
+        B_Week["Group B: Over 80% Retention & Robust Application"]
     end
+
 ```
 
 * **The Finding**: While repeated reading produced temporary confidence immediately after studying, **Group B outperformed Group A by more than 50% after one week**.
@@ -81,10 +83,11 @@ graph LR
 
 ```mermaid
 graph TD
-    E1[Engine 1: The Serial Position Multiplier<br>Break marathon study into 50-min blocks to multiply Primacy & Recency windows]
-    --> E2[Engine 2: Cognitive Chunking & Schemas<br>Compress 10 individual facts into 1 conceptual structure]
-    --> E3[Engine 3: Dual-Coding & Spatial Anchoring<br>Bind abstract text to spatial maps & visual metaphors]
-    --> E4[Engine 4: The 80/20 High-Yield Focus<br>Master core fundamental mechanisms before edge cases]
+    E1["Engine 1: The Serial Position Multiplier<br>Break marathon study into 50-min blocks to multiply Primacy & Recency windows"]
+    --> E2["Engine 2: Cognitive Chunking & Schemas<br>Compress 10 individual facts into 1 conceptual structure"]
+    --> E3["Engine 3: Dual-Coding & Spatial Anchoring<br>Bind abstract text to spatial maps & visual metaphors"]
+    --> E4["Engine 4: The 80/20 High-Yield Focus<br>Master core fundamental mechanisms before edge cases"]
+
 ```
 
 ---
@@ -94,13 +97,14 @@ The human brain does not remember information evenly across a study session. Due
 
 ```mermaid
 graph LR
-    subgraph 3-Hour Marathon Block (2 Retention Windows)
-        M1[Start: High Primacy] --> M2[Middle 2.5 Hours: Low Retention Valley] --> M3[End: High Recency]
+    subgraph SG_1_3_Hour_Marathon ["3-Hour Marathon Block (2 Retention Windows)"]
+        M1["Start: High Primacy"] --> M2["Middle 2.5 Hours: Low Retention Valley"] --> M3["End: High Recency"]
     end
 
-    subgraph Three 50-Minute Segmented Blocks (6 Retention Windows)
-        S1[Block 1: Start/End] --> S2[Block 2: Start/End] --> S3[Block 3: Start/End]
+    subgraph SG_2_Three_50_Minute ["Three 50-Minute Segmented Blocks (6 Retention Windows)"]
+        S1["Block 1: Start/End"] --> S2["Block 2: Start/End"] --> S3["Block 3: Start/End"]
     end
+
 ```
 
 * **The Tactical Shift**: Instead of studying for 3 unbroken hours, divide your session into **three 50-minute blocks with 5-minute cognitive pauses**. This simple adjustment triples your high-retention windows from 2 to 6 with zero extra effort.
@@ -135,9 +139,10 @@ In any major syllabus, 80% of exam marks test roughly 20% of fundamental mechani
 
 ```mermaid
 graph TD
-    M1[Protocol 1: The Blank Page Protocol<br>Read a section · Close book · Write/Diagram from scratch]
-    --> M2[Protocol 2: The Feynman Retrieval Loop<br>Teach the core mechanism to a beginner without jargon]
-    --> M3[Protocol 3: Question-Based Inverted Notes<br>Convert notes into interrogative flashcard prompts]
+    M1["Protocol 1: The Blank Page Protocol<br>Read a section · Close book · Write/Diagram from scratch"]
+    --> M2["Protocol 2: The Feynman Retrieval Loop<br>Teach the core mechanism to a beginner without jargon"]
+    --> M3["Protocol 3: Question-Based Inverted Notes<br>Convert notes into interrogative flashcard prompts"]
+
 ```
 
 1. **The Blank Page Protocol (The Blurting Method)**: Read for 20 minutes. Close the book and diagram everything you remember on a blank sheet. Open the notes and fill what you missed in red ink to instantly reveal neural gaps.

@@ -64,7 +64,7 @@ From childhood, the human nervous system absorbs inherited scripts: parental anx
 
 ```mermaid
 graph TD
-    subgraph The External Conditioning Matrix
+    subgraph SG_1_The_External_Co ["The External Conditioning Matrix"]
         C1[Societal Status Metrics]
         C2[Parental Expectations & Fears]
         C3[Algorithmic Media Narratives]
@@ -73,6 +73,7 @@ graph TD
     C1 & C2 & C3 --> B[The Borrowed Identity / Persona]
     B -->|Generates| D[Artificial Desires & Chronic Emptiness]
     D -->|Breakthrough: Via Negativa| S[The Sovereign Self<br>Core Values · Intrinsic Drive · Meaningful Craft]
+
 ```
 
 * **The Persona Trap**: Carl Jung termed the social mask we wear the *Persona*. When you over-identify with your persona (e.g., "the high achiever," "the agreeable child," "the corporate climber"), your true intrinsic values atrophy from disuse.
@@ -100,10 +101,11 @@ To uncover what is genuine within you, examine yourself through four objective p
 
 ```mermaid
 graph TD
-    M1[Mirror 1: The Envy Diagnostic<br>What you envy in others reveals your unexpressed potential]
-    --> M2[Mirror 2: The Energy Audit<br>Distinguish between physical tiredness and soul exhaustion]
-    --> M3[Mirror 3: The Solitude Test<br>Who you are when zero social recognition is possible]
-    --> M4[Mirror 4: The Chosen Burden<br>What meaningful suffering are you willing to endure?]
+    M1["Mirror 1: The Envy Diagnostic<br>What you envy in others reveals your unexpressed potential"]
+    --> M2["Mirror 2: The Energy Audit<br>Distinguish between physical tiredness and soul exhaustion"]
+    --> M3["Mirror 3: The Solitude Test<br>Who you are when zero social recognition is possible"]
+    --> M4["Mirror 4: The Chosen Burden<br>What meaningful suffering are you willing to endure?"]
+
 ```
 
 #### 1. The Envy Diagnostic (The Unexpressed Compass)
@@ -130,9 +132,10 @@ graph TD
 
 ```mermaid
 graph TD
-    P1[Protocol 1: The Inherited Script Audit<br>List 5 beliefs about success and trace their origins]
-    --> P2[Protocol 2: The 90-Day Low-Stakes Prototype<br>Test intrinsic curiosities through small physical experiments]
-    --> P3[Protocol 3: The Non-Negotiable Charter<br>Establish 3 core boundaries that protect your sovereignty]
+    P1["Protocol 1: The Inherited Script Audit<br>List 5 beliefs about success and trace their origins"]
+    --> P2["Protocol 2: The 90-Day Low-Stakes Prototype<br>Test intrinsic curiosities through small physical experiments"]
+    --> P3["Protocol 3: The Non-Negotiable Charter<br>Establish 3 core boundaries that protect your sovereignty"]
+
 ```
 
 1. **The Inherited Script Audit**: Write down your top 5 beliefs about career, wealth, and lifestyle. For each, ask: *“Did I arrive at this through firsthand experience and deep reason, or did I unconsciously inherit it from my environment?”*

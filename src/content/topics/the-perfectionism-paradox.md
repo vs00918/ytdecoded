@@ -68,17 +68,18 @@ To escape this trap, you must first distinguish between genuine high standards a
 
 ```mermaid
 graph TD
-    subgraph Genuine Excellence (Healthy High Standards)
-        E1[Focus: Growth & Learning] --> E2[Embraces Messy Drafts & Friction]
+    subgraph SG_1_Genuine_Excelle ["Genuine Excellence (Healthy High Standards)"]
+        E1["Focus: Growth & Learning"] --> E2[Embraces Messy Drafts & Friction]
         E2 --> E3[Iterates Based on Real Feedback]
         E3 --> E4[Rapid Output & High Agency]
     end
 
-    subgraph Neurotic Perfectionism (Fear Armor)
-        P1[Focus: Ego Defense & Image] --> P2[Demands Flawless Starting Conditions]
+    subgraph SG_2_Neurotic_Perfec ["Neurotic Perfectionism (Fear Armor)"]
+        P1["Focus: Ego Defense & Image"] --> P2[Demands Flawless Starting Conditions]
         P2 --> P3[Paralysis & Endless Cosmetic Polishing]
         P3 --> P4[Avoids Testing to Protect Self-Image]
     end
+
 ```
 
 * **The Striving for Excellence**: Focuses on the *process* and maximizing value. Mistakes are welcomed as necessary diagnostic data points for iteration.
@@ -111,10 +112,11 @@ Why does the subconscious brain prefer endless perfectionist delay over direct c
 ```mermaid
 graph TD
     A[Unsubmitted / Unfinished Task] 
-    --> B[Preserves Fantasy: 'I could be brilliant if I finished']
+    --> B["Preserves Fantasy: 'I could be brilliant if I finished'"]
     C[Completed & Submitted Task] 
     --> D[Exposes True Current Competence to Reality]
     D -->|Perceived Threat to Ego| E[Brain Chooses Perfectionist Delay as Defense]
+
 ```
 
 * **The Psychological Payoff**: As long as your project, essay, or exam preparation remains "in progress" and unexposed, you preserve the internal illusion: *"If I actually finished this, it would be a masterpiece."*
@@ -126,9 +128,10 @@ graph TD
 
 ```mermaid
 graph TD
-    P1[Protocol 1: The 'Ugly First Draft' Rule<br>Give yourself unconditional permission to produce a crude scaffold]
-    --> P2[Protocol 2: The 80% Completion Rule<br>Ship and test when work reaches 80% functional quality]
-    --> P3[Protocol 3: Decouple Identity from Output<br>Your work is a prototype under construction, not your human worth]
+    P1["Protocol 1: The 'Ugly First Draft' Rule<br>Give yourself unconditional permission to produce a crude scaffold"]
+    --> P2["Protocol 2: The 80% Completion Rule<br>Ship and test when work reaches 80% functional quality"]
+    --> P3["Protocol 3: Decouple Identity from Output<br>Your work is a prototype under construction, not your human worth"]
+
 ```
 
 #### 1. The "Ugly First Draft" Rule (The Scaffold Phase)

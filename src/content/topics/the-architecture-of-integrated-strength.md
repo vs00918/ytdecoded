@@ -38,23 +38,24 @@ When you master the **Code of Integrated Strength**, you prioritize unshakeable 
 
 ```mermaid
 graph TD
-    subgraph 1. The Performative Posturer
+    subgraph SG_1_1__The_Performa ["1. The Performative Posturer"]
         P1[Loud Status Signaling & Domination Games]
         --> P2[Fragile Ego Armor · Zero Vulnerability]
         --> P3[Blames Others upon Failure · Chronic Insecurity]
     end
 
-    subgraph 2. The Approval-Seeker
+    subgraph SG_2_2__The_Approval ["2. The Approval-Seeker"]
         R1[Prioritizes Being Liked · People-Pleasing]
         --> R2[Boundaryless Compromise · Leaks Authority]
         --> R3[Resentment & Victim Mindset]
     end
 
-    subgraph 3. The Integrated Sovereign
+    subgraph SG_3_3__The_Integrat ["3. The Integrated Sovereign"]
         I1[Quiet Competence · Prioritizes Respect Over Approval]
         --> I2[Clear 'Hard-No' Boundaries · Radical Ownership]
         --> I3[Emotional Containment · Stabilizing Anchor for Others]
     end
+
 ```
 
 ---
@@ -90,13 +91,14 @@ graph TD
 
 ```mermaid
 graph LR
-    subgraph Repression (Toxic)
+    subgraph SG_1_Repression__Tox ["Repression (Toxic)"]
         A1[Pain / Stress] --> A2[Subconscious Denial] --> A3[Erupts as Rage or Depression]
     end
 
-    subgraph Containment (Mastery)
+    subgraph SG_2_Containment__Ma ["Containment (Mastery)"]
         B1[Pain / Stress] --> B2[Conscious Observation & Labeling] --> B3[Channeled into Focused Craft & Calm Speech]
     end
+
 ```
 
 ---
@@ -113,10 +115,11 @@ graph LR
 
 ```mermaid
 graph TD
-    P[Self-Commitment: 4:30 AM Wake-Up / 5-Hour Focus Block]
+    P["Self-Commitment: 4:30 AM Wake-Up / 5-Hour Focus Block"]
     --> E[Flawless Execution with Zero Excuses]
     --> I[Unshakeable Internal Integrity]
     --> G[Natural Gravitas & Quiet Authority in Any Room]
+
 ```
 
 * True confidence and natural gravitas do not come from external applause; they come from **an unbroken track record of keeping commitments to yourself**.
