@@ -12,15 +12,45 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+  - "habits"
+mental_models:
+  - "Supernormal Stimuli & The Friction Paradox"
+  - "The Trigger-Behavior-Reward Operant Conditioning Loop"
+  - "Visceral Disenchantment & The PCC Deactivation Protocol (Judson Brewer)"
+  - "Urge Surfing & The 3-Step Observation Protocol (Alan Marlatt)"
+  - "The HALT Diagnostic Framework"
+  - "The Dopamine Receptor Restoration Timeline"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-neurochemistry-of-focus-and-dopamine-transition"
+  builds_on:
+    - "the-neurobiology-of-meditation"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-diderot-effect-and-habit-cascades"
+sources:
+  - source_id: "YT--moW9jvvMr4"
+    title: "A Simple Way to Break a Bad Habit"
+    creator: "Judson Brewer (Brown University / TED)"
+    url: "https://www.youtube.com/watch?v=-moW9jvvMr4"
+    evidence_type: "CLINICAL_TRIAL"
+    key_contributions:
+      - claim: "The Operant Habit Loop Hijack: Ancient reward-based learning (Trigger -> Behavior -> Reward) for caloric survival is hijacked by modern supernormal stimuli and emotional coping loops"
+        timestamp: "02:10"
+      - claim: "Posterior Cingulate Cortex & Craving Entanglement: Neuroimaging confirms the PCC fires intensely during craving and self-referential rumination, but quiets immediately during mindful, non-judgmental awareness"
+        timestamp: "04:30"
+      - claim: "Visceral Disenchantment over Willpower: Forcing willpower fails; cultivating curious mindful awareness reveals the actual unrewarding visceral reality of the habit, driving natural cessation"
+        timestamp: "06:15"
+      - claim: "Curiosity as an Inherently Rewarding Replacement: Leveraging the brain's innate dopamine reward from curious exploration replaces the compulsive urge without cognitive exhaustion"
+        timestamp: "08:10"
+active_recall:
+  - question: "Why does Dr. Judson Brewer's concept of 'Visceral Disenchantment' succeed in breaking bad habits where brute willpower fails?"
+    concept: "Orbitofrontal Reward Value Recalibration"
+    answer: "Brute willpower relies on the prefrontal cortex, which easily fatigues under stress. Visceral disenchantment uses mindful curiosity to observe the true physical sensations of the habit (e.g. realizing smoking tastes toxic, or scrolling feels hollow), updating the reward value in the brain at a deep somatic level so the compulsion naturally falls away."
+  - question: "How does 'Urge Surfing' deactivate the Posterior Cingulate Cortex (PCC) during an acute craving wave?"
+    concept: "Mindful Neuroplastic Regulation"
+    answer: "The PCC lights up during contracted craving, self-referential drama, and impulse resistance. Urge surfing shifts neural attention to curious, detached somatic observation (noticing chest tightness or restlessness without judgment), quieting the PCC and allowing the neurochemical wave to crest and dissipate within minutes."
+last_updated: "2026-09-02"
 ---
 
 The human brain evolved in an ancestral environment of scarcity. For hundreds of thousands of years, high-calorie food, social approval, and reproductive opportunities required immense physical exertion and patience.
