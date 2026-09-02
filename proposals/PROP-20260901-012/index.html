@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="en" data-theme="sepia"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Review Proposal: PROP-20260901-012 — The Living Codex</title><meta name="description" content="Curation inspection view for proposal PROP-20260901-012"><!-- Kindle-Grade Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><!-- KaTeX CSS for LaTeX Mathematical Notation --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"><!-- Mermaid.js for Client-Side Diagram Rendering --><script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script><script>
+    function getMermaidTheme(theme) {
+      if (theme === 'dark' || theme === 'oled') return 'dark';
+      if (theme === 'paper') return 'default';
+      return 'neutral'; // warm sepia
+    }
+
+    function renderMermaidDiagrams() {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'sepia';
+      const mTheme = getMermaidTheme(currentTheme);
+
+      if (window.mermaid) {
+        window.mermaid.initialize({
+          startOnLoad: false,
+          theme: mTheme,
+          securityLevel: 'loose',
+          fontFamily: 'Inter, sans-serif'
+        });
+
+        document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
+          const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
+          if (rawCode) {
+            wrapper.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
+          }
+        });
+
+        document.querySelectorAll('pre > code.language-mermaid, pre.astro-code[data-language="mermaid"]').forEach((codeEl) => {
+          const preEl = codeEl.tagName === 'PRE' ? codeEl : codeEl.parentElement;
+          const diagramCode = codeEl.textContent || '';
+          const div = document.createElement('div');
+          div.className = 'mermaid-diagram-wrapper';
+          div.setAttribute('data-mermaid-code', diagramCode);
+          div.innerHTML = `<pre class="mermaid">${diagramCode}</pre>`;
+          if (preEl && preEl.parentNode) {
+            preEl.parentNode.replaceChild(div, preEl);
+          }
+        });
+
+        try {
+          window.mermaid.run();
+        } catch (_) {}
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', renderMermaidDiagrams);
+    window.addEventListener('theme-changed', renderMermaidDiagrams);
+  </script><!-- Track Last Read Topic for Continue Reading Section --><link rel="stylesheet" href="/ytdecoded/_astro/index.HY8Rf5Xq.css"></head> <body> <div id="progress-container" class="progress-container" aria-hidden="true" data-astro-cid-jx4nc67j> <div id="progress-bar" class="progress-bar" data-astro-cid-jx4nc67j></div> </div>  <script>
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    if (height > 0) {
+      const scrolled = (winScroll / height) * 100;
+      const bar = document.getElementById('progress-bar');
+      if (bar) bar.style.width = scrolled + '%';
+    }
+  });
+</script> <aside id="curriculum-drawer" class="curriculum-drawer" aria-label="Curriculum Navigation" aria-hidden="true" data-astro-cid-ltdnrywc> <div class="drawer-header" data-astro-cid-ltdnrywc> <div class="drawer-title-wrap" data-astro-cid-ltdnrywc> <span class="drawer-title" data-astro-cid-ltdnrywc>📖 The Living Codex</span> <span class="drawer-subtitle" data-astro-cid-ltdnrywc>6-Volume Knowledge Ladder • 48 Chapters</span> </div> <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close Curriculum Drawer" data-astro-cid-ltdnrywc>✕</button> </div> <div class="drawer-content" data-astro-cid-ltdnrywc> <details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 1</span> <span class="volume-name" data-astro-cid-ltdnrywc>The Biology of Mind &amp; Energy</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-second-brain-and-the-gut-mind-axis/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#1</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Second Brain — The Gut-Mind Axis</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurochemistry-of-focus-and-dopamine-transition/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#2</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurochemistry of Focus — The Dopamine-Attention Transition &amp; Dopamine Loading</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/supernormal-stimuli-and-urge-surfing/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#3</span> <span class="topic-label" data-astro-cid-ltdnrywc>Supernormal Stimuli &amp; Urge Surfing — The Dual Front of Impulse Mastery</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurobiology-of-meditation/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#4</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurobiology of Meditation — Structural Rewiring &amp; The Attention Loop</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurobiology-of-sleep-architecture/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#5</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurobiology of Sleep — Learning, Memory Consolidation &amp; the Cost of Sleep Loss</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 2</span> <span class="volume-name" data-astro-cid-ltdnrywc>The Architecture of Wealth &amp; Capital Allocation</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-engine-of-wealth-and-capital-allocation/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#1</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Engine of Wealth — Cashflow, the Real Cost of Debt, and Compounding</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 3</span> <span class="volume-name" data-astro-cid-ltdnrywc>Philosophy of Action &amp; Metacognition</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/eliminating-procrastination-and-activation-energy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#2</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Action — The Procrastination Formula &amp; Activation Energy</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-diderot-effect-and-habit-cascades/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#3</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Diderot Effect &amp; Habit Cascades — Breaking the Domino Spiral of Behavior</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-high-agency-reset-breaking-autopilot/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#5</span> <span class="topic-label" data-astro-cid-ltdnrywc>The High-Agency Reset — The Monk Mode Blueprint &amp; The 5 Non-Negotiable Pillars</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/asymmetric-leverage-and-the-pareto-principle/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#6</span> <span class="topic-label" data-astro-cid-ltdnrywc>Asymmetric Leverage — The Pareto Principle and Doing More by Doing Less</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurobiology-of-growth-and-fixed-mindset/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#7</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurobiology of Growth — Dismantling the Fixed Mindset</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-true-fulfillment-and-hedonic-treadmill/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#8</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of True Fulfillment — Hedonic Adaptation &amp; The Satisfaction Equation</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-memory-and-active-recall/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#9</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Memory — Active Recall &amp; The Science of Elite Retention</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anatomy-of-indiscipline-and-identity-anchors/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#11</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors &amp; The Compound Law</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-action-paradox-and-illusion-of-preparation/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#12</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Action Paradox — The Preparation Trap, The Choice Point &amp; The Four &#39;Playing-It-Safe&#39; Saboteurs</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-philosophy-of-day-one-and-the-streak-fallacy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#12</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Philosophy of Day One — The Streak Fallacy &amp; The 24-Hour Reset</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/dismantling-the-overthinking-loop/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#13</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Metacognition — Dismantling the Overthinking Loop</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-marginal-gains/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#14</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Marginal Gains — Multiplicative Compounding &amp; The Latent Plateau</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-cognitive-biases/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#15</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Cognitive Biases — Deconstructing the Mind&#39;s Daily Illusions &amp; Distortions</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-cognitive-firewall-and-epistemic-razors/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#16</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Cognitive Firewall — Epistemic Razors, Fallacy Detection &amp; The Principle of Charity</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anatomy-of-consistency-and-forced-action/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#17</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anatomy of Consistency — Navigating the Three Phases of Execution &amp; The Psychology of Forced Action</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-perfectionism-paradox/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#18</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Perfectionism Paradox — Deconstructing the Illusion of High Standards</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anatomy-of-social-comparison/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#19</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anatomy of Social Comparison — The Backstage Fallacy &amp; The Package Trade Heuristic</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-hydraulic-mind-and-misdirected-energy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#20</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Hydraulic Mind — Indiscipline as Misdirected Energy &amp; The Invisible Energy Thieves</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-morning-architecture-and-discipline/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#21</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Circadian Architecture — The Science of Early Waking, Evening De-escalation &amp; The Zero-Input Sanctuary</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-solitude-and-loneliness/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#22</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Solitude — Dismantling Chronic Loneliness &amp; The Parasocial Illusion</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-self-knowledge/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#23</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Self-Knowledge — Dismantling the Borrowed Identity &amp; The Four Reality Mirrors</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-purpose-and-mastery/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#24</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Purpose &amp; Mastery — The Craft-First Paradigm &amp; Multiple Intelligences</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-physics-of-outworking-and-first-principles/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#25</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Physics of Outworking — The Compounding Velocity of Effort &amp; First-Principles Execution</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-philosophy-of-the-void-and-radical-resilience/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#26</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Philosophy of the Void — Radical Resilience, The Power of Zero &amp; The Art of Self-Reconstruction</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 4</span> <span class="volume-name" data-astro-cid-ltdnrywc>High-Velocity Execution &amp; Asymmetric Leverage</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-pathology-of-comfort-and-progressive-friction/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#18</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Pathology of Comfort — Homeostasis, The Paradox of Safety &amp; Progressive Friction</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 5</span> <span class="volume-name" data-astro-cid-ltdnrywc>The Architecture of Social Sovereignty</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-social-fiction-matrix-and-status-games/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#24</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Social Fiction Matrix — The Thomas Theorem &amp; Demystifying Status Games</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-three-currencies-of-capital/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#25</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Three Currencies — Leveraging Economic, Cultural &amp; Social Capital</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-front-stage-fallacy-and-imposter-syndrome/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#26</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Front Stage Fallacy — Erving Goffman &amp; Dismantling Imposter Syndrome</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-sociological-imagination-and-structural-clarity/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#27</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Sociological Imagination — Personal Troubles vs. Systemic Realities</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-iron-cage-and-anomie/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#28</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Iron Cage &amp; Anomie — Navigating Sterile Systems &amp; The Power of Chosen Constraints</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-resonance-and-vocal-sovereignty/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#30</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Resonance — Vocal Mastery, HAIL, Internal Conviction &amp; Conscious Listening</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-spontaneous-communication/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#31</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Spontaneous Communication — Impromptu Clarity, The 60-Second Narrative &amp; Subtractive Articulation</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-high-impact-pedagogy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#32</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of High-Impact Pedagogy &amp; Sovereign Writing — The MIT Formula, Reader-Centric Value &amp; Cognitive Fences</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-social-connectivity/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#33</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine &amp; The Pathology of &#39;Playing It Cool&#39;</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-difficult-conversations/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#34</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Difficult Conversations — Frame of Reference, Sovereign Boundaries &amp; Navigating Unsupportive Circles</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-supercommunication/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#35</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Supercommunication — The Matching Principle, Neural Synchronization &amp; The Three Layers of Dialogue</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-ship-of-state-and-the-socratic-critique-of-democracy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#36</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Ship of State — The Socratic Critique of Democracy &amp; The Demagogue&#39;s Dilemma</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anthropocene-trap-and-the-pathology-of-hyper-consumption/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#37</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anthropocene Trap — The Pathology of Hyper-Consumption &amp; The Trash Heap Sovereign</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 6</span> <span class="volume-name" data-astro-cid-ltdnrywc>Existential Sovereignty, Purpose &amp; The Summit</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-emotional-granularity/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#33</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Emotional Granularity — Naming the Unspoken Landscape &amp; Affect Labeling</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-true-confidence/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#36</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of True Confidence — Self-Efficacy, Performance Under Pressure &amp; Somatic Poise</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-integrated-strength/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#37</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Integrated Strength — Quiet Competence, Radical Ownership &amp; The Invariant of Respect</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-three-modes-of-execution/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#38</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Three Modes of Execution — Perception, Action, Self &amp; The Immunity to Taking Things Personally</span> </a> </li> </ul> </details> </div> </aside> <div id="drawer-backdrop" class="drawer-backdrop" aria-hidden="true" data-astro-cid-ltdnrywc></div>  <script>
+  function setupDrawer() {
+    const drawer = document.getElementById('curriculum-drawer');
+    const backdrop = document.getElementById('drawer-backdrop');
+    const closeBtn = document.getElementById('drawer-close-btn');
+    const toggleBtn = document.getElementById('drawer-toggle-btn');
+
+    function openDrawer() {
+      if (drawer && backdrop) {
+        drawer.classList.add('open');
+        backdrop.classList.add('open');
+        drawer.setAttribute('aria-hidden', 'false');
+        backdrop.setAttribute('aria-hidden', 'false');
+      }
+    }
+
+    function closeDrawer() {
+      if (drawer && backdrop) {
+        drawer.classList.remove('open');
+        backdrop.classList.remove('open');
+        drawer.setAttribute('aria-hidden', 'true');
+        backdrop.setAttribute('aria-hidden', 'true');
+      }
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener('click', openDrawer);
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+    if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === '\\' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        if (drawer && drawer.classList.contains('open')) {
+          closeDrawer();
+        } else {
+          openDrawer();
+        }
+      }
+      if (e.key === 'Escape' && drawer && drawer.classList.contains('open')) {
+        closeDrawer();
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', setupDrawer);
+</script> <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Search Knowledge Base" data-astro-cid-qk3db3zz> <div class="search-backdrop" id="search-backdrop" data-astro-cid-qk3db3zz></div> <div class="search-container" data-astro-cid-qk3db3zz> <div class="search-header" data-astro-cid-qk3db3zz> <span class="search-icon" aria-hidden="true" data-astro-cid-qk3db3zz>🔍</span> <input type="search" id="search-input" class="search-input" placeholder="Search topics, models, tags, or concepts... (Press Esc to close)" autocomplete="off" spellcheck="false" data-astro-cid-qk3db3zz> <button id="search-close-btn" class="search-close-btn" aria-label="Close search" data-astro-cid-qk3db3zz>✕</button> </div> <div class="search-status" id="search-status" data-astro-cid-qk3db3zz>Type a query to search across the Living Codex...</div> <div class="search-results-list" id="search-results-list" data-astro-cid-qk3db3zz></div> </div> </div>  <script>
+  let pagefindInstance = null;
+
+  async function loadPagefind() {
+    if (!pagefindInstance) {
+      try {
+        pagefindInstance = await import('/ytdecoded/pagefind/pagefind.js');
+        await pagefindInstance.init();
+      } catch (err) {
+        console.warn('Pagefind index not yet generated (expected in dev mode before build)');
+      }
+    }
+  }
+
+  function setupSearch() {
+    const modal = document.getElementById('search-modal');
+    const backdrop = document.getElementById('search-backdrop');
+    const input = document.getElementById('search-input');
+    const closeBtn = document.getElementById('search-close-btn');
+    const triggerBtn = document.getElementById('search-trigger-btn');
+    const status = document.getElementById('search-status');
+    const resultsList = document.getElementById('search-results-list');
+
+    function openSearch(query = '') {
+      if (modal) {
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        loadPagefind();
+        if (input) {
+          if (query) {
+            input.value = query;
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+          }
+          setTimeout(() => input.focus(), 50);
+        }
+      }
+    }
+
+    // Expose global search trigger for tags and external buttons
+    window.openCodexSearch = openSearch;
+
+    function closeSearch() {
+      if (modal) {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        if (input) input.value = '';
+        if (resultsList) resultsList.innerHTML = '';
+        if (status) status.innerText = 'Type a query to search across the Living Codex...';
+      }
+    }
+
+    if (triggerBtn) triggerBtn.addEventListener('click', () => openSearch());
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+    if (backdrop) backdrop.addEventListener('click', closeSearch);
+
+    // Keyboard shortcuts: / or Cmd+K or Ctrl+K to open; Esc to close
+    window.addEventListener('keydown', (e) => {
+      if ((e.key === '/' || ((e.metaKey || e.ctrlKey) && e.key === 'k')) && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        openSearch();
+      }
+      if (e.key === 'Escape' && modal && modal.classList.contains('open')) {
+        closeSearch();
+      }
+    });
+
+    let debounceTimer;
+    if (input) {
+      input.addEventListener('input', (e) => {
+        clearTimeout(debounceTimer);
+        const query = e.target.value.trim();
+
+        if (!query) {
+          resultsList.innerHTML = '';
+          status.innerText = 'Type a query to search across the Living Codex...';
+          return;
+        }
+
+        debounceTimer = setTimeout(async () => {
+          if (!pagefindInstance) await loadPagefind();
+          if (!pagefindInstance) {
+            status.innerText = 'Search index available after static build.';
+            return;
+          }
+
+          status.innerText = `Searching for "${query}"...`;
+          const search = await pagefindInstance.search(query);
+          const results = search.results;
+
+          if (results.length === 0) {
+            status.innerText = `No results found for "${query}".`;
+            resultsList.innerHTML = '';
+            return;
+          }
+
+          status.innerText = `Found ${results.length} result(s) for "${query}":`;
+          resultsList.innerHTML = '';
+
+          const topResults = results.slice(0, 10);
+          for (const res of topResults) {
+            const data = await res.data();
+            const card = document.createElement('a');
+            card.className = 'search-result-card';
+            card.href = data.url;
+            card.innerHTML = `
+              <div class="search-result-title">${data.meta.title || 'Untitled Topic'}</div>
+              <div class="search-result-excerpt">${data.excerpt}</div>
+            `;
+            resultsList.appendChild(card);
+          }
+        }, 120);
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', setupSearch);
+</script> <header class="top-nav"> <div class="nav-left"> <button id="drawer-toggle-btn" class="drawer-toggle-btn" aria-label="Open Curriculum Drawer" title="Toggle Curriculum (Press )"> <span aria-hidden="true">☰</span> <span class="btn-text">Curriculum</span> </button> <a href="/ytdecoded/" class="brand-link"> <span>The Living Codex</span> </a> </div> <div class="nav-right"> <button id="search-trigger-btn" class="search-trigger-btn" aria-label="Open Search (Press / or Cmd+K)" title="Search (Press /)"> <span aria-hidden="true">🔍</span> <span class="btn-text">Search <kbd class="nav-kbd">/</kbd></span> </button> <div class="reading-controls" data-astro-cid-oafmexzm> <!-- Font Size Scaler (A- / A+) --> <div class="font-size-controller" title="Adjust text size" data-astro-cid-oafmexzm> <button class="font-size-btn" onclick="adjustFontSize(-1)" aria-label="Decrease text size" title="Smaller text (A-)" data-astro-cid-oafmexzm>A-</button> <button class="font-size-btn" onclick="adjustFontSize(1)" aria-label="Increase text size" title="Larger text (A+)" data-astro-cid-oafmexzm>A+</button> </div> <!-- Color Palette Swatches --> <div class="theme-controller" title="Select color theme" data-astro-cid-oafmexzm> <button class="theme-btn swatch-sepia" onclick="setTheme('sepia')" title="Sepia Warm" aria-label="Sepia Theme" data-astro-cid-oafmexzm></button> <button class="theme-btn swatch-paper" onclick="setTheme('paper')" title="Paper White" aria-label="Paper Theme" data-astro-cid-oafmexzm></button> <button class="theme-btn swatch-dark" onclick="setTheme('dark')" title="Charcoal Night" aria-label="Dark Theme" data-astro-cid-oafmexzm></button> <button class="theme-btn swatch-oled" onclick="setTheme('oled')" title="Pitch Black OLED" aria-label="OLED Theme" data-astro-cid-oafmexzm></button> </div> </div>  <script>
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('codex-theme', theme);
+    window.dispatchEvent(new CustomEvent('theme-changed', { detail: { theme } }));
+  }
+
+  const fontSizes = ['17.5px', '19.5px', '21.5px', '23px'];
+  let currentFontIdx = 1; // default 19.5px
+
+  function adjustFontSize(delta) {
+    currentFontIdx = Math.max(0, Math.min(fontSizes.length - 1, currentFontIdx + delta));
+    const size = fontSizes[currentFontIdx];
+    document.documentElement.style.setProperty('--font-base-size', size);
+    localStorage.setItem('codex-font-size-idx', currentFontIdx);
+  }
+
+  // Initialize theme and font size immediately to prevent flashing
+  (function() {
+    const savedTheme = localStorage.getItem('codex-theme') || 'sepia';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+
+    const savedFontIdx = localStorage.getItem('codex-font-size-idx');
+    if (savedFontIdx !== null && fontSizes[savedFontIdx]) {
+      currentFontIdx = parseInt(savedFontIdx, 10);
+      document.documentElement.style.setProperty('--font-base-size', fontSizes[currentFontIdx]);
+    }
+  })();
+</script> </div> </header> <main class="reader-container " id="main-content" data-pagefind-body>  <main class="reader-container" style="max-width: 900px; padding: 2rem 1.5rem;"> <!-- Navigation Header --> <nav style="margin-bottom: 1.5rem;"> <a href="/proposals" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500;">← Back to Proposals Queue</a> </nav> <!-- Header & Status --> <header style="border-bottom: 1px solid var(--border-color); padding-bottom: 1.5rem; margin-bottom: 2rem;"> <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;"> <div> <span style="font-family: var(--font-mono); font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">PROP-20260901-012</span> <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 4px; background: #fef3c7; color: #92400e;"> PROPOSED </span> <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(59, 130, 246, 0.1); color: #1d4ed8;"> ENRICH_EXISTING </span> <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(107, 114, 128, 0.1); color: #374151;">  </span> </div> </div> <h1 style="font-family: var(--font-serif); font-size: 1.8rem; margin: 0.8rem 0 0.4rem 0; color: var(--text-color);"> The Architecture of Emotional Granularity — Naming the Unspoken Landscape &amp; Affect Labeling </h1> <p style="font-size: 0.95rem; color: var(--text-muted); margin: 0;"> <strong>Decision Rationale:</strong> Entity provides meaningful structural depth, causal mechanics, or tactical nuance directly extending &quot;The Architecture of Emotional Granularity — Naming the Unspoken Landscape &amp; Affect Labeling&quot;. </p> </header> <!-- Provenance Chain Box --> <section style="background: rgba(0,0,0,0.02); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.2rem; margin-bottom: 2rem;"> <h3 style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-top: 0; margin-bottom: 0.8rem;">
+🔗 End-to-End Provenance Chain
+</h3> <div style="font-size: 0.85rem; line-height: 1.8; color: var(--text-color);"> <div><strong>1. Source Video:</strong> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg" target="_blank" rel="noopener noreferrer" style="color: #2563eb;">5gdXbMoTEZg ↗</a></div> <div><strong>2. Clustered KnowledgeUnit:</strong> <code></code></div> <div><strong>3. Target Canonical Chapter:</strong> <code>the-architecture-of-emotional-granularity</code></div> <div><strong>4. Target SHA-256 Hash at Creation:</strong> <code>N/A</code></div> </div> </section> <!-- Verbatim Supporting Evidence --> <section style="margin-bottom: 2rem;"> <h2 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 1rem;">Verbatim Supporting Audio Evidence</h2> <div style="display: flex; flex-direction: column; gap: 0.8rem;"> <div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-064</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=202s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 202s – 208s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"fear-based emotion and many fear-based"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-009</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=851s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 851s – 854s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Notice when your advisory board is"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-016</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=929s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 929s – 935s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"don&#39;t engage with your advisory board by"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-018</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=988s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 988s – 993s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Notice when your advisory board it"
+</div> </div> </div> </section> <!-- Proposed Semantic Diff --> <section style="margin-bottom: 2.5rem;"> <h2 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem;">Proposed Non-Destructive Minimal Delta</h2> <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+This block will be appended into the canonical chapter under <code>## Empirical Nuance &amp; Boundary Conditions</code> upon approval.
+</p> <div style="background: #0f172a; color: #f8fafc; border-radius: 8px; padding: 1.2rem; font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto; line-height: 1.6;"> <pre style="margin: 0;"><code>--- a/src/content/topics/the-architecture-of-emotional-granularity.md
++++ b/src/content/topics/the-architecture-of-emotional-granularity.md
+@@ -0,0 +1,7 @@
++
++### Extended Mechanical Insight
++- **CLM-064**: fear-based emotion and many fear-based *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*
++- **EXM-009**: Notice when your advisory board is *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*
++- **EXM-016**: don&#39;t engage with your advisory board by *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*
++- **EXM-018**: Notice when your advisory board it *(Source: [5gdXbMoTEZg](https://www.youtube.com/watch?v=5gdXbMoTEZg))*
++
+</code></pre> </div> </section> <!-- Review Decision Actions --> <section style="border-top: 1px solid var(--border-color); padding-top: 1.5rem;"> <h3 style="font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: 0.8rem;">Human Decision & Action</h3> <div style="display: flex; gap: 1rem; flex-wrap: wrap;"> <button disabled style="padding: 0.6rem 1.2rem; border-radius: 6px; background: #059669; color: #fff; font-weight: 600; border: none; cursor: default; opacity: 0.9;"> Approve via CLI / Pipeline </button> <span style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center;">
+(Controlled transaction execution managed via atomic CLI applier)
+</span> </div> </section> </main>  </main> </body></html>

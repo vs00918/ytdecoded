@@ -1,0 +1,1051 @@
+<!DOCTYPE html><html lang="en" data-theme="sepia"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Review Proposal: PROP-20260901-001 — The Living Codex</title><meta name="description" content="Curation inspection view for proposal PROP-20260901-001"><!-- Kindle-Grade Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><!-- KaTeX CSS for LaTeX Mathematical Notation --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"><!-- Mermaid.js for Client-Side Diagram Rendering --><script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script><script>
+    function getMermaidTheme(theme) {
+      if (theme === 'dark' || theme === 'oled') return 'dark';
+      if (theme === 'paper') return 'default';
+      return 'neutral'; // warm sepia
+    }
+
+    function renderMermaidDiagrams() {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'sepia';
+      const mTheme = getMermaidTheme(currentTheme);
+
+      if (window.mermaid) {
+        window.mermaid.initialize({
+          startOnLoad: false,
+          theme: mTheme,
+          securityLevel: 'loose',
+          fontFamily: 'Inter, sans-serif'
+        });
+
+        document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
+          const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
+          if (rawCode) {
+            wrapper.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
+          }
+        });
+
+        document.querySelectorAll('pre > code.language-mermaid, pre.astro-code[data-language="mermaid"]').forEach((codeEl) => {
+          const preEl = codeEl.tagName === 'PRE' ? codeEl : codeEl.parentElement;
+          const diagramCode = codeEl.textContent || '';
+          const div = document.createElement('div');
+          div.className = 'mermaid-diagram-wrapper';
+          div.setAttribute('data-mermaid-code', diagramCode);
+          div.innerHTML = `<pre class="mermaid">${diagramCode}</pre>`;
+          if (preEl && preEl.parentNode) {
+            preEl.parentNode.replaceChild(div, preEl);
+          }
+        });
+
+        try {
+          window.mermaid.run();
+        } catch (_) {}
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', renderMermaidDiagrams);
+    window.addEventListener('theme-changed', renderMermaidDiagrams);
+  </script><!-- Track Last Read Topic for Continue Reading Section --><link rel="stylesheet" href="/ytdecoded/_astro/index.HY8Rf5Xq.css"></head> <body> <div id="progress-container" class="progress-container" aria-hidden="true" data-astro-cid-jx4nc67j> <div id="progress-bar" class="progress-bar" data-astro-cid-jx4nc67j></div> </div>  <script>
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    if (height > 0) {
+      const scrolled = (winScroll / height) * 100;
+      const bar = document.getElementById('progress-bar');
+      if (bar) bar.style.width = scrolled + '%';
+    }
+  });
+</script> <aside id="curriculum-drawer" class="curriculum-drawer" aria-label="Curriculum Navigation" aria-hidden="true" data-astro-cid-ltdnrywc> <div class="drawer-header" data-astro-cid-ltdnrywc> <div class="drawer-title-wrap" data-astro-cid-ltdnrywc> <span class="drawer-title" data-astro-cid-ltdnrywc>📖 The Living Codex</span> <span class="drawer-subtitle" data-astro-cid-ltdnrywc>6-Volume Knowledge Ladder • 48 Chapters</span> </div> <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close Curriculum Drawer" data-astro-cid-ltdnrywc>✕</button> </div> <div class="drawer-content" data-astro-cid-ltdnrywc> <details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 1</span> <span class="volume-name" data-astro-cid-ltdnrywc>The Biology of Mind &amp; Energy</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-second-brain-and-the-gut-mind-axis/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#1</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Second Brain — The Gut-Mind Axis</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurochemistry-of-focus-and-dopamine-transition/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#2</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurochemistry of Focus — The Dopamine-Attention Transition &amp; Dopamine Loading</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/supernormal-stimuli-and-urge-surfing/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#3</span> <span class="topic-label" data-astro-cid-ltdnrywc>Supernormal Stimuli &amp; Urge Surfing — The Dual Front of Impulse Mastery</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurobiology-of-meditation/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#4</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurobiology of Meditation — Structural Rewiring &amp; The Attention Loop</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurobiology-of-sleep-architecture/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#5</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurobiology of Sleep — Learning, Memory Consolidation &amp; the Cost of Sleep Loss</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 2</span> <span class="volume-name" data-astro-cid-ltdnrywc>The Architecture of Wealth &amp; Capital Allocation</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-engine-of-wealth-and-capital-allocation/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#1</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Engine of Wealth — Cashflow, the Real Cost of Debt, and Compounding</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 3</span> <span class="volume-name" data-astro-cid-ltdnrywc>Philosophy of Action &amp; Metacognition</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/eliminating-procrastination-and-activation-energy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#2</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Action — The Procrastination Formula &amp; Activation Energy</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-diderot-effect-and-habit-cascades/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#3</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Diderot Effect &amp; Habit Cascades — Breaking the Domino Spiral of Behavior</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-high-agency-reset-breaking-autopilot/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#5</span> <span class="topic-label" data-astro-cid-ltdnrywc>The High-Agency Reset — The Monk Mode Blueprint &amp; The 5 Non-Negotiable Pillars</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/asymmetric-leverage-and-the-pareto-principle/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#6</span> <span class="topic-label" data-astro-cid-ltdnrywc>Asymmetric Leverage — The Pareto Principle and Doing More by Doing Less</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-neurobiology-of-growth-and-fixed-mindset/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#7</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Neurobiology of Growth — Dismantling the Fixed Mindset</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-true-fulfillment-and-hedonic-treadmill/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#8</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of True Fulfillment — Hedonic Adaptation &amp; The Satisfaction Equation</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-memory-and-active-recall/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#9</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Memory — Active Recall &amp; The Science of Elite Retention</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anatomy-of-indiscipline-and-identity-anchors/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#11</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anatomy of Indiscipline — The 3-Second Rule, Identity Anchors &amp; The Compound Law</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-action-paradox-and-illusion-of-preparation/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#12</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Action Paradox — The Preparation Trap, The Choice Point &amp; The Four &#39;Playing-It-Safe&#39; Saboteurs</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-philosophy-of-day-one-and-the-streak-fallacy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#12</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Philosophy of Day One — The Streak Fallacy &amp; The 24-Hour Reset</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/dismantling-the-overthinking-loop/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#13</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Metacognition — Dismantling the Overthinking Loop</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-marginal-gains/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#14</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Marginal Gains — Multiplicative Compounding &amp; The Latent Plateau</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-cognitive-biases/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#15</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Cognitive Biases — Deconstructing the Mind&#39;s Daily Illusions &amp; Distortions</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-cognitive-firewall-and-epistemic-razors/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#16</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Cognitive Firewall — Epistemic Razors, Fallacy Detection &amp; The Principle of Charity</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anatomy-of-consistency-and-forced-action/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#17</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anatomy of Consistency — Navigating the Three Phases of Execution &amp; The Psychology of Forced Action</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-perfectionism-paradox/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#18</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Perfectionism Paradox — Deconstructing the Illusion of High Standards</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anatomy-of-social-comparison/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#19</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anatomy of Social Comparison — The Backstage Fallacy &amp; The Package Trade Heuristic</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-hydraulic-mind-and-misdirected-energy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#20</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Hydraulic Mind — Indiscipline as Misdirected Energy &amp; The Invisible Energy Thieves</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-morning-architecture-and-discipline/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#21</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Circadian Architecture — The Science of Early Waking, Evening De-escalation &amp; The Zero-Input Sanctuary</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-solitude-and-loneliness/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#22</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Solitude — Dismantling Chronic Loneliness &amp; The Parasocial Illusion</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-self-knowledge/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#23</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Self-Knowledge — Dismantling the Borrowed Identity &amp; The Four Reality Mirrors</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-purpose-and-mastery/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#24</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Purpose &amp; Mastery — The Craft-First Paradigm &amp; Multiple Intelligences</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-physics-of-outworking-and-first-principles/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#25</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Physics of Outworking — The Compounding Velocity of Effort &amp; First-Principles Execution</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-philosophy-of-the-void-and-radical-resilience/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#26</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Philosophy of the Void — Radical Resilience, The Power of Zero &amp; The Art of Self-Reconstruction</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 4</span> <span class="volume-name" data-astro-cid-ltdnrywc>High-Velocity Execution &amp; Asymmetric Leverage</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-pathology-of-comfort-and-progressive-friction/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#18</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Pathology of Comfort — Homeostasis, The Paradox of Safety &amp; Progressive Friction</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 5</span> <span class="volume-name" data-astro-cid-ltdnrywc>The Architecture of Social Sovereignty</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-social-fiction-matrix-and-status-games/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#24</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Social Fiction Matrix — The Thomas Theorem &amp; Demystifying Status Games</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-three-currencies-of-capital/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#25</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Three Currencies — Leveraging Economic, Cultural &amp; Social Capital</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-front-stage-fallacy-and-imposter-syndrome/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#26</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Front Stage Fallacy — Erving Goffman &amp; Dismantling Imposter Syndrome</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-sociological-imagination-and-structural-clarity/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#27</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Sociological Imagination — Personal Troubles vs. Systemic Realities</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-iron-cage-and-anomie/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#28</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Iron Cage &amp; Anomie — Navigating Sterile Systems &amp; The Power of Chosen Constraints</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-resonance-and-vocal-sovereignty/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#30</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Resonance — Vocal Mastery, HAIL, Internal Conviction &amp; Conscious Listening</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-spontaneous-communication/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#31</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Spontaneous Communication — Impromptu Clarity, The 60-Second Narrative &amp; Subtractive Articulation</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-high-impact-pedagogy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#32</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of High-Impact Pedagogy &amp; Sovereign Writing — The MIT Formula, Reader-Centric Value &amp; Cognitive Fences</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-social-connectivity/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#33</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Social Connectivity — Breaking Stranger Friction, The Incomplete Sentence Engine &amp; The Pathology of &#39;Playing It Cool&#39;</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-difficult-conversations/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#34</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Difficult Conversations — Frame of Reference, Sovereign Boundaries &amp; Navigating Unsupportive Circles</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-supercommunication/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#35</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Supercommunication — The Matching Principle, Neural Synchronization &amp; The Three Layers of Dialogue</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-ship-of-state-and-the-socratic-critique-of-democracy/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#36</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Ship of State — The Socratic Critique of Democracy &amp; The Demagogue&#39;s Dilemma</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-anthropocene-trap-and-the-pathology-of-hyper-consumption/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#37</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Anthropocene Trap — The Pathology of Hyper-Consumption &amp; The Trash Heap Sovereign</span> </a> </li> </ul> </details><details class="volume-accordion" data-astro-cid-ltdnrywc> <summary class="volume-summary" data-astro-cid-ltdnrywc> <span class="volume-num-badge" data-astro-cid-ltdnrywc>Vol 6</span> <span class="volume-name" data-astro-cid-ltdnrywc>Existential Sovereignty, Purpose &amp; The Summit</span> </summary> <ul class="topic-sublist" data-astro-cid-ltdnrywc> <li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-emotional-granularity/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#33</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Emotional Granularity — Naming the Unspoken Landscape &amp; Affect Labeling</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-true-confidence/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#36</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of True Confidence — Self-Efficacy, Performance Under Pressure &amp; Somatic Poise</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-architecture-of-integrated-strength/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#37</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Architecture of Integrated Strength — Quiet Competence, Radical Ownership &amp; The Invariant of Respect</span> </a> </li><li class="topic-nav-item " data-astro-cid-ltdnrywc> <a href="/ytdecoded/topics/the-three-modes-of-execution/" class="topic-nav-link" data-astro-cid-ltdnrywc> <span class="topic-order" data-astro-cid-ltdnrywc>#38</span> <span class="topic-label" data-astro-cid-ltdnrywc>The Three Modes of Execution — Perception, Action, Self &amp; The Immunity to Taking Things Personally</span> </a> </li> </ul> </details> </div> </aside> <div id="drawer-backdrop" class="drawer-backdrop" aria-hidden="true" data-astro-cid-ltdnrywc></div>  <script>
+  function setupDrawer() {
+    const drawer = document.getElementById('curriculum-drawer');
+    const backdrop = document.getElementById('drawer-backdrop');
+    const closeBtn = document.getElementById('drawer-close-btn');
+    const toggleBtn = document.getElementById('drawer-toggle-btn');
+
+    function openDrawer() {
+      if (drawer && backdrop) {
+        drawer.classList.add('open');
+        backdrop.classList.add('open');
+        drawer.setAttribute('aria-hidden', 'false');
+        backdrop.setAttribute('aria-hidden', 'false');
+      }
+    }
+
+    function closeDrawer() {
+      if (drawer && backdrop) {
+        drawer.classList.remove('open');
+        backdrop.classList.remove('open');
+        drawer.setAttribute('aria-hidden', 'true');
+        backdrop.setAttribute('aria-hidden', 'true');
+      }
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener('click', openDrawer);
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+    if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === '\\' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        if (drawer && drawer.classList.contains('open')) {
+          closeDrawer();
+        } else {
+          openDrawer();
+        }
+      }
+      if (e.key === 'Escape' && drawer && drawer.classList.contains('open')) {
+        closeDrawer();
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', setupDrawer);
+</script> <div id="search-modal" class="search-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Search Knowledge Base" data-astro-cid-qk3db3zz> <div class="search-backdrop" id="search-backdrop" data-astro-cid-qk3db3zz></div> <div class="search-container" data-astro-cid-qk3db3zz> <div class="search-header" data-astro-cid-qk3db3zz> <span class="search-icon" aria-hidden="true" data-astro-cid-qk3db3zz>🔍</span> <input type="search" id="search-input" class="search-input" placeholder="Search topics, models, tags, or concepts... (Press Esc to close)" autocomplete="off" spellcheck="false" data-astro-cid-qk3db3zz> <button id="search-close-btn" class="search-close-btn" aria-label="Close search" data-astro-cid-qk3db3zz>✕</button> </div> <div class="search-status" id="search-status" data-astro-cid-qk3db3zz>Type a query to search across the Living Codex...</div> <div class="search-results-list" id="search-results-list" data-astro-cid-qk3db3zz></div> </div> </div>  <script>
+  let pagefindInstance = null;
+
+  async function loadPagefind() {
+    if (!pagefindInstance) {
+      try {
+        pagefindInstance = await import('/ytdecoded/pagefind/pagefind.js');
+        await pagefindInstance.init();
+      } catch (err) {
+        console.warn('Pagefind index not yet generated (expected in dev mode before build)');
+      }
+    }
+  }
+
+  function setupSearch() {
+    const modal = document.getElementById('search-modal');
+    const backdrop = document.getElementById('search-backdrop');
+    const input = document.getElementById('search-input');
+    const closeBtn = document.getElementById('search-close-btn');
+    const triggerBtn = document.getElementById('search-trigger-btn');
+    const status = document.getElementById('search-status');
+    const resultsList = document.getElementById('search-results-list');
+
+    function openSearch(query = '') {
+      if (modal) {
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        loadPagefind();
+        if (input) {
+          if (query) {
+            input.value = query;
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+          }
+          setTimeout(() => input.focus(), 50);
+        }
+      }
+    }
+
+    // Expose global search trigger for tags and external buttons
+    window.openCodexSearch = openSearch;
+
+    function closeSearch() {
+      if (modal) {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        if (input) input.value = '';
+        if (resultsList) resultsList.innerHTML = '';
+        if (status) status.innerText = 'Type a query to search across the Living Codex...';
+      }
+    }
+
+    if (triggerBtn) triggerBtn.addEventListener('click', () => openSearch());
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+    if (backdrop) backdrop.addEventListener('click', closeSearch);
+
+    // Keyboard shortcuts: / or Cmd+K or Ctrl+K to open; Esc to close
+    window.addEventListener('keydown', (e) => {
+      if ((e.key === '/' || ((e.metaKey || e.ctrlKey) && e.key === 'k')) && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        openSearch();
+      }
+      if (e.key === 'Escape' && modal && modal.classList.contains('open')) {
+        closeSearch();
+      }
+    });
+
+    let debounceTimer;
+    if (input) {
+      input.addEventListener('input', (e) => {
+        clearTimeout(debounceTimer);
+        const query = e.target.value.trim();
+
+        if (!query) {
+          resultsList.innerHTML = '';
+          status.innerText = 'Type a query to search across the Living Codex...';
+          return;
+        }
+
+        debounceTimer = setTimeout(async () => {
+          if (!pagefindInstance) await loadPagefind();
+          if (!pagefindInstance) {
+            status.innerText = 'Search index available after static build.';
+            return;
+          }
+
+          status.innerText = `Searching for "${query}"...`;
+          const search = await pagefindInstance.search(query);
+          const results = search.results;
+
+          if (results.length === 0) {
+            status.innerText = `No results found for "${query}".`;
+            resultsList.innerHTML = '';
+            return;
+          }
+
+          status.innerText = `Found ${results.length} result(s) for "${query}":`;
+          resultsList.innerHTML = '';
+
+          const topResults = results.slice(0, 10);
+          for (const res of topResults) {
+            const data = await res.data();
+            const card = document.createElement('a');
+            card.className = 'search-result-card';
+            card.href = data.url;
+            card.innerHTML = `
+              <div class="search-result-title">${data.meta.title || 'Untitled Topic'}</div>
+              <div class="search-result-excerpt">${data.excerpt}</div>
+            `;
+            resultsList.appendChild(card);
+          }
+        }, 120);
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', setupSearch);
+</script> <header class="top-nav"> <div class="nav-left"> <button id="drawer-toggle-btn" class="drawer-toggle-btn" aria-label="Open Curriculum Drawer" title="Toggle Curriculum (Press )"> <span aria-hidden="true">☰</span> <span class="btn-text">Curriculum</span> </button> <a href="/ytdecoded/" class="brand-link"> <span>The Living Codex</span> </a> </div> <div class="nav-right"> <button id="search-trigger-btn" class="search-trigger-btn" aria-label="Open Search (Press / or Cmd+K)" title="Search (Press /)"> <span aria-hidden="true">🔍</span> <span class="btn-text">Search <kbd class="nav-kbd">/</kbd></span> </button> <div class="reading-controls" data-astro-cid-oafmexzm> <!-- Font Size Scaler (A- / A+) --> <div class="font-size-controller" title="Adjust text size" data-astro-cid-oafmexzm> <button class="font-size-btn" onclick="adjustFontSize(-1)" aria-label="Decrease text size" title="Smaller text (A-)" data-astro-cid-oafmexzm>A-</button> <button class="font-size-btn" onclick="adjustFontSize(1)" aria-label="Increase text size" title="Larger text (A+)" data-astro-cid-oafmexzm>A+</button> </div> <!-- Color Palette Swatches --> <div class="theme-controller" title="Select color theme" data-astro-cid-oafmexzm> <button class="theme-btn swatch-sepia" onclick="setTheme('sepia')" title="Sepia Warm" aria-label="Sepia Theme" data-astro-cid-oafmexzm></button> <button class="theme-btn swatch-paper" onclick="setTheme('paper')" title="Paper White" aria-label="Paper Theme" data-astro-cid-oafmexzm></button> <button class="theme-btn swatch-dark" onclick="setTheme('dark')" title="Charcoal Night" aria-label="Dark Theme" data-astro-cid-oafmexzm></button> <button class="theme-btn swatch-oled" onclick="setTheme('oled')" title="Pitch Black OLED" aria-label="OLED Theme" data-astro-cid-oafmexzm></button> </div> </div>  <script>
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('codex-theme', theme);
+    window.dispatchEvent(new CustomEvent('theme-changed', { detail: { theme } }));
+  }
+
+  const fontSizes = ['17.5px', '19.5px', '21.5px', '23px'];
+  let currentFontIdx = 1; // default 19.5px
+
+  function adjustFontSize(delta) {
+    currentFontIdx = Math.max(0, Math.min(fontSizes.length - 1, currentFontIdx + delta));
+    const size = fontSizes[currentFontIdx];
+    document.documentElement.style.setProperty('--font-base-size', size);
+    localStorage.setItem('codex-font-size-idx', currentFontIdx);
+  }
+
+  // Initialize theme and font size immediately to prevent flashing
+  (function() {
+    const savedTheme = localStorage.getItem('codex-theme') || 'sepia';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+
+    const savedFontIdx = localStorage.getItem('codex-font-size-idx');
+    if (savedFontIdx !== null && fontSizes[savedFontIdx]) {
+      currentFontIdx = parseInt(savedFontIdx, 10);
+      document.documentElement.style.setProperty('--font-base-size', fontSizes[currentFontIdx]);
+    }
+  })();
+</script> </div> </header> <main class="reader-container " id="main-content" data-pagefind-body>  <main class="reader-container" style="max-width: 900px; padding: 2rem 1.5rem;"> <!-- Navigation Header --> <nav style="margin-bottom: 1.5rem;"> <a href="/proposals" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500;">← Back to Proposals Queue</a> </nav> <!-- Header & Status --> <header style="border-bottom: 1px solid var(--border-color); padding-bottom: 1.5rem; margin-bottom: 2rem;"> <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;"> <div> <span style="font-family: var(--font-mono); font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">PROP-20260901-001</span> <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 4px; background: #fef3c7; color: #92400e;"> PROPOSED </span> <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(59, 130, 246, 0.1); color: #1d4ed8;"> NEW_TOPIC </span> <span style="margin-left: 0.5rem; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(107, 114, 128, 0.1); color: #374151;">  </span> </div> </div> <h1 style="font-family: var(--font-serif); font-size: 1.8rem; margin: 0.8rem 0 0.4rem 0; color: var(--text-color);"> Proposed New Topic for Psychology - Dr. Patricia Zurita Ona Paradox of Safety </h1> <p style="font-size: 0.95rem; color: var(--text-muted); margin: 0;"> <strong>Decision Rationale:</strong> Entity introduces an independent conceptual domain not covered in the current 45 canonical chapters (highest candidate retrieval score: 1). </p> </header> <!-- Provenance Chain Box --> <section style="background: rgba(0,0,0,0.02); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.2rem; margin-bottom: 2rem;"> <h3 style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-top: 0; margin-bottom: 0.8rem;">
+🔗 End-to-End Provenance Chain
+</h3> <div style="font-size: 0.85rem; line-height: 1.8; color: var(--text-color);"> <div><strong>1. Source Video:</strong> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg" target="_blank" rel="noopener noreferrer" style="color: #2563eb;">5gdXbMoTEZg ↗</a></div> <div><strong>2. Clustered KnowledgeUnit:</strong> <code></code></div> <div><strong>3. Target Canonical Chapter:</strong> <code>NEW_TOPIC</code></div> <div><strong>4. Target SHA-256 Hash at Creation:</strong> <code>N/A</code></div> </div> </section> <!-- Verbatim Supporting Evidence --> <section style="margin-bottom: 2rem;"> <h2 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 1rem;">Verbatim Supporting Audio Evidence</h2> <div style="display: flex; flex-direction: column; gap: 0.8rem;"> <div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-001</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=7s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 7s – 11s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"I grew up drinking coffee and I used to"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-003</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=13s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 13s – 19s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"a couple sips of a dark, rich, and"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-004</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=19s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 19s – 23s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"One day, when completing my doctoral"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-006</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=23s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 23s – 27s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"my coffee maker was getting old and"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-007</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=25s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 25s – 29s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"needed to be replaced."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-008</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=27s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 27s – 32s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"As a graduate student and as an"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-009</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=29s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 29s – 35s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"immigrant, I was on a limited budget."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-010</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=32s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 32s – 36s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"I knew I needed to make a good financial"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-011</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=36s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 36s – 42s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"So, that search for the ideal coffee"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-013</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=44s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 44s – 49s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"many consumer reviews. I asked my"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-017</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=59s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 59s – 64s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"One day, I drove myself to a store"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-020</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=68s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 68s – 74s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"And I shared with her my concerns and"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-021</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=71s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 71s – 77s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"requirements for this new coffee maker."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-022</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=74s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 74s – 81s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"She looked at me and said, &quot;Well, coffee"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-023</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=77s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 77s – 85s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"makers aren&#39;t supposed to last forever.&quot;"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-025</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=85s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 85s – 90s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"quest for the ideal coffee maker right"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-026</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=88s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 88s – 93s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"there and buy one on the spot?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-028</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=94s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 94s – 100s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"You see, I knew I needed to make a"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-033</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=109s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 109s – 112s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"of coffee?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-034</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=110s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 110s – 114s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"What does the warranty say if it breaks"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-035</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=112s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 112s – 116s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"down after 1 year?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-037</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=116s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 116s – 122s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"this isn&#39;t a good coffee maker."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-039</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=122s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 122s – 126s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"bought a coffee maker."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-041</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=126s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 126s – 131s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"enough to make, there I was stuck in my"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-042</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=131s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 131s – 136s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Have you been in my shoes?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-047</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=145s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 145s – 152s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"That&#39;s a pain, right?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-049</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=152s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 152s – 157s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"without worrying about saying the wrong"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-051</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=157s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 157s – 163s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"You look at everyday decisions as easy"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-052</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=159s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 159s – 166s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"peasy, not as a life or death dilemmas."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-055</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=170s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 170s – 176s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"That would be lovely, right?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-066</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=210s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 210s – 216s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"includes all types of fears."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-067</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=213s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 213s – 221s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Fear of choosing the wrong partner."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-068</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=216s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 216s – 223s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Fear of the unknown. Fear of flying."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-070</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=224s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 224s – 232s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Our anxieties are limitless."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-072</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=232s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 232s – 236s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"or afraid, it feels yucky and"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-074</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=238s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 238s – 242s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"love to be anxious.&quot; or &quot;I love to be"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-075</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=240s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 240s – 244s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"afraid.&quot;?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-077</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=247s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 247s – 253s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"our hands get sweaty, we get butterflies"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-079</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=256s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 256s – 261s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"discomfort, prompts us to do something"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-080</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=259s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 259s – 263s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"about those uncomfortable sensations"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-090</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=299s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 299s – 304s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"When David is composing an email or"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-094</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=312s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 312s – 317s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"When David is invited to a party, he"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-095</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=314s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 314s – 319s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"sometimes plans ahead of time what he&#39;s"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-097</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=319s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 319s – 325s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"fool of himself during the actual party."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-099</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=325s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 325s – 331s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"those strategies make sense.&quot;"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-100</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=328s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 328s – 334s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"And you&#39;re right. I do them, too. In"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-104</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=339s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 339s – 346s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"effective when it help us to manage our"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-105</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=342s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 342s – 348s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"anxieties, to do better and be better it"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-106</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=348s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 348s – 353s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"For example, after I agreed to be this"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-109</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=355s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 355s – 360s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"preparing and rehearsing what I would"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-110</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=360s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 360s – 364s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Guess what?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-112</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=365s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 365s – 370s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"My heart had stopped beating as fast. My"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-113</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=368s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 368s – 374s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"hands had stopped sweating. I stopped"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-123</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=397s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 397s – 402s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"When David decides not to go to his"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-124</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=400s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 400s – 405s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"girlfriend&#39;s party because he&#39;s too"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-125</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=402s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 402s – 407s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"consumed planning what to say to others"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-126</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=405s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 405s – 409s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"without sounding a stupid, that&#39;s a"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-128</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=411s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 411s – 416s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"because I couldn&#39;t stop dwelling on all"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-137</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=453s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 453s – 459s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Because we don&#39;t have a magic wand to"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-141</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=470s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 470s – 475s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"catastrophic thoughts, terrible"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-142</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=472s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 472s – 478s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"scenarios, and all types of potentially"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-145</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=482s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 482s – 487s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"and in my professional experience is"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-148</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=489s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 489s – 493s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"witnessed many times the different ways"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-151</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=498s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 498s – 502s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"You may postpone events. You may search"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-158</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=522s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 522s – 526s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Sometimes you may notice when you&#39;re"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-163</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=533s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 533s – 539s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"moments in which you are endlessly going"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-165</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=539s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 539s – 543s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Because repetition is a key"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-167</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=545s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 545s – 550s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Research has consistently shown that our"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-170</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=557s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 557s – 562s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"too quickly, and for too long, we don&#39;t"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-171</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=560s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 560s – 564s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"learn how to handle effectively our"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-172</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=564s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 564s – 569s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"And we&#39;re left with the consequences of"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-173</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=566s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 566s – 571s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"overprotecting ourselves."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-175</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=571s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 571s – 576s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"We say no to what matters."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-176</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=576s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 576s – 581s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"become directionless. We are stopping"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-183</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=596s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 596s – 602s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"people believe, the solution is not to"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-191</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=620s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 620s – 625s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"control our feelings,"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-195</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=633s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 633s – 636s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"That has been the key question of my"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-197</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=639s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 639s – 643s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"emotions so we can live a fulfilling"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-198</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=642s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 642s – 646s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"life?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-200</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=648s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 648s – 655s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"feeling anxious, worried, and afraid."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-201</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=653s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 653s – 657s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"We learn to not fight those yucky"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-203</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=657s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 657s – 661s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"service of what is truly important to"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-206</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=667s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 667s – 671s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Learning these skills changed David&#39;s"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-210</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=677s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 677s – 683s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"helped me to be a better psychologist"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-216</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=694s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 694s – 701s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"always creating all types of content."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-217</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=697s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 697s – 703s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Hypothesis, dreams, memories, opinions."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-219</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=703s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 703s – 709s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"going on and on and on."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-223</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=713s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 713s – 716s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Is it in the present?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-225</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=716s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 716s – 720s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"breakfast?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-227</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=720s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 720s – 724s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"to take?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-229</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=724s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 724s – 732s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Foundation, we have between 12,000"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-230</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=729s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 729s – 736s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"and 60,000 thoughts per day."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-233</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=739s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 739s – 744s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"When a fast-moving truck is speeding"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-236</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=747s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 747s – 752s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"when imagining future danger."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-239</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=756s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 756s – 760s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"If you don&#39;t foresee everything that"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-244</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=770s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 770s – 775s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"our heads, of course,"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-247</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=778s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 778s – 785s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"protecting us, as a way of avoiding the"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-249</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=793s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 793s – 798s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"board, chiming in and giving advice."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-251</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=801s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 801s – 805s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"And other times, it simply doesn&#39;t."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-252</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=803s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 803s – 809s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"For example, yesterday when I was"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-253</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=805s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 805s – 810s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"driving, my advisory told me, &quot;You are"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-259</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=826s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 826s – 831s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"avoiding this talk altogether."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-260</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=829s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 829s – 833s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"That wasn&#39;t helpful advice."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-261</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=831s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 831s – 836s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Because if I had listened to my advisory"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-263</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=836s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 836s – 842s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"you today, I would have moved farther"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-269</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=858s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 858s – 863s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Then, try another skill."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-280</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=910s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 910s – 916s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"to be the kind of friend I want to be?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-281</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=913s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 913s – 918s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"The kind of worker or a student I want"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-282</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=916s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 916s – 921s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"to be?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-284</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=921s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 921s – 926s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"be the kind of partner or parent I want"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-285</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=932s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 932s – 937s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"debating what is accurate or not, what"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-286</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=935s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 935s – 939s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"is right or wrong, or rationalizing,"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-290</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=947s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 947s – 951s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"but you can choose how to respond to"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-292</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=953s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 953s – 957s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"So, what happened to my wonderful coffee"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-293</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=956s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 956s – 959s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"maker?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-296</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=963s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 963s – 968s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"I still have this kitchen gadget 15"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-297</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=966s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 966s – 970s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"years later and love the smell of coffee"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-300</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=977s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 977s – 980s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"yapping?"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-303</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=983s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 983s – 988s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"its warning or shrug it off."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-308</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=1002s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 1002s – 1009s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"board is always trying to protect you."
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-311</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=1011s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 1011s – 1016s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"strategies without engaging in the"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-315</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=1029s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 1029s – 1034s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"board wants me to do,"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-316</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=1031s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 1031s – 1037s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"does it take me closer to or farther"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-318</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=1037s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 1037s – 1041s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"And if you are still a struggling, ask"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>CLM-319</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=1041s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 1041s – 1046s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"&quot;Do I want to drink a cup of coffee or"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-001</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=47s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 47s – 52s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"friends, who were coffee snobs like me,"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-008</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=819s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 819s – 823s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"advisory board told me, &quot;You will mess"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-010</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=860s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 860s – 866s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"Radically accept that advisory board of"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-011</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=877s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 877s – 882s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"advisory board tells me that something"
+</div> </div><div style="border-left: 3px solid #3b82f6; padding: 0.8rem 1rem; background: rgba(59, 130, 246, 0.04); border-radius: 0 6px 6px 0;"> <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.3rem;"> <span>Entity: <code>EXM-013</code></span> <a href="https://www.youtube.com/watch?v=5gdXbMoTEZg&t=896s" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">
+⏱ 896s – 901s ↗
+</a> </div> <div style="font-size: 0.9rem; font-style: italic; color: var(--text-color);">
+"advisory board asks you to do."
+</div> </div> </div> </section> <!-- Proposed Semantic Diff --> <section style="margin-bottom: 2.5rem;"> <h2 style="font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem;">Proposed Non-Destructive Minimal Delta</h2> <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+This block will be appended into the canonical chapter under <code>Draft Article</code> upon approval.
+</p> <div style="background: #0f172a; color: #f8fafc; border-radius: 8px; padding: 1.2rem; font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto; line-height: 1.6;"> <pre style="margin: 0;"><code>--- a/NEW_TOPIC.md
++++ b/NEW_TOPIC.md
+@@ -0,0 +1,277 @@
++---
++title: &quot;Psychology - Dr. Patricia Zurita Ona Paradox of Safety&quot;
++volume: 9
++order_in_volume: 1
++archetype: &quot;CONCEPTUAL_SYNTHESIS&quot;
++summary_15s: &quot;Autonomous extraction candidate derived from https://www.youtube.com/watch?v=5gdXbMoTEZg.&quot;
++tags: [&quot;synthesis-candidate&quot;, &quot;new-domain&quot;]
++mental_models: []
++---
++
++# Psychology - Dr. Patricia Zurita Ona Paradox of Safety
++
++## Core Mechanics
++- **CLM-001**: I grew up drinking coffee and I used to
++- **CLM-003**: a couple sips of a dark, rich, and
++- **CLM-004**: One day, when completing my doctoral
++- **CLM-006**: my coffee maker was getting old and
++- **CLM-007**: needed to be replaced.
++- **CLM-008**: As a graduate student and as an
++- **CLM-009**: immigrant, I was on a limited budget.
++- **CLM-010**: I knew I needed to make a good financial
++- **CLM-011**: So, that search for the ideal coffee
++- **CLM-013**: many consumer reviews. I asked my
++- **CLM-017**: One day, I drove myself to a store
++- **CLM-020**: And I shared with her my concerns and
++- **CLM-021**: requirements for this new coffee maker.
++- **CLM-022**: She looked at me and said, &quot;Well, coffee
++- **CLM-023**: makers aren&#39;t supposed to last forever.&quot;
++- **CLM-025**: quest for the ideal coffee maker right
++- **CLM-026**: there and buy one on the spot?
++- **CLM-028**: You see, I knew I needed to make a
++- **CLM-033**: of coffee?
++- **CLM-034**: What does the warranty say if it breaks
++- **CLM-035**: down after 1 year?
++- **CLM-037**: this isn&#39;t a good coffee maker.
++- **CLM-039**: bought a coffee maker.
++- **CLM-041**: enough to make, there I was stuck in my
++- **CLM-042**: Have you been in my shoes?
++- **CLM-047**: That&#39;s a pain, right?
++- **CLM-049**: without worrying about saying the wrong
++- **CLM-051**: You look at everyday decisions as easy
++- **CLM-052**: peasy, not as a life or death dilemmas.
++- **CLM-055**: That would be lovely, right?
++- **CLM-066**: includes all types of fears.
++- **CLM-067**: Fear of choosing the wrong partner.
++- **CLM-068**: Fear of the unknown. Fear of flying.
++- **CLM-070**: Our anxieties are limitless.
++- **CLM-072**: or afraid, it feels yucky and
++- **CLM-074**: love to be anxious.&quot; or &quot;I love to be
++- **CLM-075**: afraid.&quot;?
++- **CLM-077**: our hands get sweaty, we get butterflies
++- **CLM-079**: discomfort, prompts us to do something
++- **CLM-080**: about those uncomfortable sensations
++- **CLM-090**: When David is composing an email or
++- **CLM-094**: When David is invited to a party, he
++- **CLM-095**: sometimes plans ahead of time what he&#39;s
++- **CLM-097**: fool of himself during the actual party.
++- **CLM-099**: those strategies make sense.&quot;
++- **CLM-100**: And you&#39;re right. I do them, too. In
++- **CLM-104**: effective when it help us to manage our
++- **CLM-105**: anxieties, to do better and be better it
++- **CLM-106**: For example, after I agreed to be this
++- **CLM-109**: preparing and rehearsing what I would
++- **CLM-110**: Guess what?
++- **CLM-112**: My heart had stopped beating as fast. My
++- **CLM-113**: hands had stopped sweating. I stopped
++- **CLM-123**: When David decides not to go to his
++- **CLM-124**: girlfriend&#39;s party because he&#39;s too
++- **CLM-125**: consumed planning what to say to others
++- **CLM-126**: without sounding a stupid, that&#39;s a
++- **CLM-128**: because I couldn&#39;t stop dwelling on all
++- **CLM-137**: Because we don&#39;t have a magic wand to
++- **CLM-141**: catastrophic thoughts, terrible
++- **CLM-142**: scenarios, and all types of potentially
++- **CLM-145**: and in my professional experience is
++- **CLM-148**: witnessed many times the different ways
++- **CLM-151**: You may postpone events. You may search
++- **CLM-158**: Sometimes you may notice when you&#39;re
++- **CLM-163**: moments in which you are endlessly going
++- **CLM-165**: Because repetition is a key
++- **CLM-167**: Research has consistently shown that our
++- **CLM-170**: too quickly, and for too long, we don&#39;t
++- **CLM-171**: learn how to handle effectively our
++- **CLM-172**: And we&#39;re left with the consequences of
++- **CLM-173**: overprotecting ourselves.
++- **CLM-175**: We say no to what matters.
++- **CLM-176**: become directionless. We are stopping
++- **CLM-183**: people believe, the solution is not to
++- **CLM-191**: control our feelings,
++- **CLM-195**: That has been the key question of my
++- **CLM-197**: emotions so we can live a fulfilling
++- **CLM-198**: life?
++- **CLM-200**: feeling anxious, worried, and afraid.
++- **CLM-201**: We learn to not fight those yucky
++- **CLM-203**: service of what is truly important to
++- **CLM-206**: Learning these skills changed David&#39;s
++- **CLM-210**: helped me to be a better psychologist
++- **CLM-216**: always creating all types of content.
++- **CLM-217**: Hypothesis, dreams, memories, opinions.
++- **CLM-219**: going on and on and on.
++- **CLM-223**: Is it in the present?
++- **CLM-225**: breakfast?
++- **CLM-227**: to take?
++- **CLM-229**: Foundation, we have between 12,000
++- **CLM-230**: and 60,000 thoughts per day.
++- **CLM-233**: When a fast-moving truck is speeding
++- **CLM-236**: when imagining future danger.
++- **CLM-239**: If you don&#39;t foresee everything that
++- **CLM-244**: our heads, of course,
++- **CLM-247**: protecting us, as a way of avoiding the
++- **CLM-249**: board, chiming in and giving advice.
++- **CLM-251**: And other times, it simply doesn&#39;t.
++- **CLM-252**: For example, yesterday when I was
++- **CLM-253**: driving, my advisory told me, &quot;You are
++- **CLM-259**: avoiding this talk altogether.
++- **CLM-260**: That wasn&#39;t helpful advice.
++- **CLM-261**: Because if I had listened to my advisory
++- **CLM-263**: you today, I would have moved farther
++- **CLM-269**: Then, try another skill.
++- **CLM-280**: to be the kind of friend I want to be?
++- **CLM-281**: The kind of worker or a student I want
++- **CLM-282**: to be?
++- **CLM-284**: be the kind of partner or parent I want
++- **CLM-285**: debating what is accurate or not, what
++- **CLM-286**: is right or wrong, or rationalizing,
++- **CLM-290**: but you can choose how to respond to
++- **CLM-292**: So, what happened to my wonderful coffee
++- **CLM-293**: maker?
++- **CLM-296**: I still have this kitchen gadget 15
++- **CLM-297**: years later and love the smell of coffee
++- **CLM-300**: yapping?
++- **CLM-303**: its warning or shrug it off.
++- **CLM-308**: board is always trying to protect you.
++- **CLM-311**: strategies without engaging in the
++- **CLM-315**: board wants me to do,
++- **CLM-316**: does it take me closer to or farther
++- **CLM-318**: And if you are still a struggling, ask
++- **CLM-319**: &quot;Do I want to drink a cup of coffee or
++- **EXM-001**: friends, who were coffee snobs like me,
++- **EXM-008**: advisory board told me, &quot;You will mess
++- **EXM-010**: Radically accept that advisory board of
++- **EXM-011**: advisory board tells me that something
++- **EXM-013**: advisory board asks you to do.
++
++## Source Provenance &amp; Evidence
++- **Source Video:** [Watch on YouTube](https://www.youtube.com/watch?v=5gdXbMoTEZg)
++  - [7s-11s]: &quot;I grew up drinking coffee and I used to&quot;
++  - [13s-19s]: &quot;a couple sips of a dark, rich, and&quot;
++  - [19s-23s]: &quot;One day, when completing my doctoral&quot;
++  - [23s-27s]: &quot;my coffee maker was getting old and&quot;
++  - [25s-29s]: &quot;needed to be replaced.&quot;
++  - [27s-32s]: &quot;As a graduate student and as an&quot;
++  - [29s-35s]: &quot;immigrant, I was on a limited budget.&quot;
++  - [32s-36s]: &quot;I knew I needed to make a good financial&quot;
++  - [36s-42s]: &quot;So, that search for the ideal coffee&quot;
++  - [44s-49s]: &quot;many consumer reviews. I asked my&quot;
++  - [59s-64s]: &quot;One day, I drove myself to a store&quot;
++  - [68s-74s]: &quot;And I shared with her my concerns and&quot;
++  - [71s-77s]: &quot;requirements for this new coffee maker.&quot;
++  - [74s-81s]: &quot;She looked at me and said, &quot;Well, coffee&quot;
++  - [77s-85s]: &quot;makers aren&#39;t supposed to last forever.&quot;&quot;
++  - [85s-90s]: &quot;quest for the ideal coffee maker right&quot;
++  - [88s-93s]: &quot;there and buy one on the spot?&quot;
++  - [94s-100s]: &quot;You see, I knew I needed to make a&quot;
++  - [109s-112s]: &quot;of coffee?&quot;
++  - [110s-114s]: &quot;What does the warranty say if it breaks&quot;
++  - [112s-116s]: &quot;down after 1 year?&quot;
++  - [116s-122s]: &quot;this isn&#39;t a good coffee maker.&quot;
++  - [122s-126s]: &quot;bought a coffee maker.&quot;
++  - [126s-131s]: &quot;enough to make, there I was stuck in my&quot;
++  - [131s-136s]: &quot;Have you been in my shoes?&quot;
++  - [145s-152s]: &quot;That&#39;s a pain, right?&quot;
++  - [152s-157s]: &quot;without worrying about saying the wrong&quot;
++  - [157s-163s]: &quot;You look at everyday decisions as easy&quot;
++  - [159s-166s]: &quot;peasy, not as a life or death dilemmas.&quot;
++  - [170s-176s]: &quot;That would be lovely, right?&quot;
++  - [210s-216s]: &quot;includes all types of fears.&quot;
++  - [213s-221s]: &quot;Fear of choosing the wrong partner.&quot;
++  - [216s-223s]: &quot;Fear of the unknown. Fear of flying.&quot;
++  - [224s-232s]: &quot;Our anxieties are limitless.&quot;
++  - [232s-236s]: &quot;or afraid, it feels yucky and&quot;
++  - [238s-242s]: &quot;love to be anxious.&quot; or &quot;I love to be&quot;
++  - [240s-244s]: &quot;afraid.&quot;?&quot;
++  - [247s-253s]: &quot;our hands get sweaty, we get butterflies&quot;
++  - [256s-261s]: &quot;discomfort, prompts us to do something&quot;
++  - [259s-263s]: &quot;about those uncomfortable sensations&quot;
++  - [299s-304s]: &quot;When David is composing an email or&quot;
++  - [312s-317s]: &quot;When David is invited to a party, he&quot;
++  - [314s-319s]: &quot;sometimes plans ahead of time what he&#39;s&quot;
++  - [319s-325s]: &quot;fool of himself during the actual party.&quot;
++  - [325s-331s]: &quot;those strategies make sense.&quot;&quot;
++  - [328s-334s]: &quot;And you&#39;re right. I do them, too. In&quot;
++  - [339s-346s]: &quot;effective when it help us to manage our&quot;
++  - [342s-348s]: &quot;anxieties, to do better and be better it&quot;
++  - [348s-353s]: &quot;For example, after I agreed to be this&quot;
++  - [355s-360s]: &quot;preparing and rehearsing what I would&quot;
++  - [360s-364s]: &quot;Guess what?&quot;
++  - [365s-370s]: &quot;My heart had stopped beating as fast. My&quot;
++  - [368s-374s]: &quot;hands had stopped sweating. I stopped&quot;
++  - [397s-402s]: &quot;When David decides not to go to his&quot;
++  - [400s-405s]: &quot;girlfriend&#39;s party because he&#39;s too&quot;
++  - [402s-407s]: &quot;consumed planning what to say to others&quot;
++  - [405s-409s]: &quot;without sounding a stupid, that&#39;s a&quot;
++  - [411s-416s]: &quot;because I couldn&#39;t stop dwelling on all&quot;
++  - [453s-459s]: &quot;Because we don&#39;t have a magic wand to&quot;
++  - [470s-475s]: &quot;catastrophic thoughts, terrible&quot;
++  - [472s-478s]: &quot;scenarios, and all types of potentially&quot;
++  - [482s-487s]: &quot;and in my professional experience is&quot;
++  - [489s-493s]: &quot;witnessed many times the different ways&quot;
++  - [498s-502s]: &quot;You may postpone events. You may search&quot;
++  - [522s-526s]: &quot;Sometimes you may notice when you&#39;re&quot;
++  - [533s-539s]: &quot;moments in which you are endlessly going&quot;
++  - [539s-543s]: &quot;Because repetition is a key&quot;
++  - [545s-550s]: &quot;Research has consistently shown that our&quot;
++  - [557s-562s]: &quot;too quickly, and for too long, we don&#39;t&quot;
++  - [560s-564s]: &quot;learn how to handle effectively our&quot;
++  - [564s-569s]: &quot;And we&#39;re left with the consequences of&quot;
++  - [566s-571s]: &quot;overprotecting ourselves.&quot;
++  - [571s-576s]: &quot;We say no to what matters.&quot;
++  - [576s-581s]: &quot;become directionless. We are stopping&quot;
++  - [596s-602s]: &quot;people believe, the solution is not to&quot;
++  - [620s-625s]: &quot;control our feelings,&quot;
++  - [633s-636s]: &quot;That has been the key question of my&quot;
++  - [639s-643s]: &quot;emotions so we can live a fulfilling&quot;
++  - [642s-646s]: &quot;life?&quot;
++  - [648s-655s]: &quot;feeling anxious, worried, and afraid.&quot;
++  - [653s-657s]: &quot;We learn to not fight those yucky&quot;
++  - [657s-661s]: &quot;service of what is truly important to&quot;
++  - [667s-671s]: &quot;Learning these skills changed David&#39;s&quot;
++  - [677s-683s]: &quot;helped me to be a better psychologist&quot;
++  - [694s-701s]: &quot;always creating all types of content.&quot;
++  - [697s-703s]: &quot;Hypothesis, dreams, memories, opinions.&quot;
++  - [703s-709s]: &quot;going on and on and on.&quot;
++  - [713s-716s]: &quot;Is it in the present?&quot;
++  - [716s-720s]: &quot;breakfast?&quot;
++  - [720s-724s]: &quot;to take?&quot;
++  - [724s-732s]: &quot;Foundation, we have between 12,000&quot;
++  - [729s-736s]: &quot;and 60,000 thoughts per day.&quot;
++  - [739s-744s]: &quot;When a fast-moving truck is speeding&quot;
++  - [747s-752s]: &quot;when imagining future danger.&quot;
++  - [756s-760s]: &quot;If you don&#39;t foresee everything that&quot;
++  - [770s-775s]: &quot;our heads, of course,&quot;
++  - [778s-785s]: &quot;protecting us, as a way of avoiding the&quot;
++  - [793s-798s]: &quot;board, chiming in and giving advice.&quot;
++  - [801s-805s]: &quot;And other times, it simply doesn&#39;t.&quot;
++  - [803s-809s]: &quot;For example, yesterday when I was&quot;
++  - [805s-810s]: &quot;driving, my advisory told me, &quot;You are&quot;
++  - [826s-831s]: &quot;avoiding this talk altogether.&quot;
++  - [829s-833s]: &quot;That wasn&#39;t helpful advice.&quot;
++  - [831s-836s]: &quot;Because if I had listened to my advisory&quot;
++  - [836s-842s]: &quot;you today, I would have moved farther&quot;
++  - [858s-863s]: &quot;Then, try another skill.&quot;
++  - [910s-916s]: &quot;to be the kind of friend I want to be?&quot;
++  - [913s-918s]: &quot;The kind of worker or a student I want&quot;
++  - [916s-921s]: &quot;to be?&quot;
++  - [921s-926s]: &quot;be the kind of partner or parent I want&quot;
++  - [932s-937s]: &quot;debating what is accurate or not, what&quot;
++  - [935s-939s]: &quot;is right or wrong, or rationalizing,&quot;
++  - [947s-951s]: &quot;but you can choose how to respond to&quot;
++  - [953s-957s]: &quot;So, what happened to my wonderful coffee&quot;
++  - [956s-959s]: &quot;maker?&quot;
++  - [963s-968s]: &quot;I still have this kitchen gadget 15&quot;
++  - [966s-970s]: &quot;years later and love the smell of coffee&quot;
++  - [977s-980s]: &quot;yapping?&quot;
++  - [983s-988s]: &quot;its warning or shrug it off.&quot;
++  - [1002s-1009s]: &quot;board is always trying to protect you.&quot;
++  - [1011s-1016s]: &quot;strategies without engaging in the&quot;
++  - [1029s-1034s]: &quot;board wants me to do,&quot;
++  - [1031s-1037s]: &quot;does it take me closer to or farther&quot;
++  - [1037s-1041s]: &quot;And if you are still a struggling, ask&quot;
++  - [1041s-1046s]: &quot;&quot;Do I want to drink a cup of coffee or&quot;
++  - [47s-52s]: &quot;friends, who were coffee snobs like me,&quot;
++  - [819s-823s]: &quot;advisory board told me, &quot;You will mess&quot;
++  - [860s-866s]: &quot;Radically accept that advisory board of&quot;
++  - [877s-882s]: &quot;advisory board tells me that something&quot;
++  - [896s-901s]: &quot;advisory board asks you to do.&quot;
++
+</code></pre> </div> </section> <!-- Review Decision Actions --> <section style="border-top: 1px solid var(--border-color); padding-top: 1.5rem;"> <h3 style="font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: 0.8rem;">Human Decision & Action</h3> <div style="display: flex; gap: 1rem; flex-wrap: wrap;"> <button disabled style="padding: 0.6rem 1.2rem; border-radius: 6px; background: #059669; color: #fff; font-weight: 600; border: none; cursor: default; opacity: 0.9;"> Approve via CLI / Pipeline </button> <span style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center;">
+(Controlled transaction execution managed via atomic CLI applier)
+</span> </div> </section> </main>  </main> </body></html>
