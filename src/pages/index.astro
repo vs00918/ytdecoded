@@ -80,9 +80,17 @@ const totalVolumes = volumeGroups.length;
             <header class="shelf-header">
               <div class="shelf-vol-info">
                 <span class="shelf-vol-badge">Volume {group.volume}</span>
-                <h3 id={`vol-heading-${group.volume}`} class="shelf-vol-title">{group.volumeTitle}</h3>
+                <h3 id={`vol-heading-${group.volume}`} class="shelf-vol-title">
+                  <a href={`/ytdecoded/volumes/${group.volume}/`} class="shelf-vol-link" title="Open continuous volume reader">
+                    {group.volumeTitle}
+                  </a>
+                </h3>
               </div>
-              <span class="shelf-count-badge">{group.topics.length} {group.topics.length === 1 ? 'Chapter' : 'Chapters'}</span>
+              <div class="shelf-actions">
+                <a href={`/ytdecoded/volumes/${group.volume}/`} class="shelf-read-all-link">
+                  📖 Read Full Volume ({group.topics.length} Chapters) →
+                </a>
+              </div>
             </header>
 
             <div class="shelf-topics-grid">

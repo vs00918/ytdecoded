@@ -215,14 +215,23 @@
     const status = document.getElementById('search-status');
     const resultsList = document.getElementById('search-results-list');
 
-    function openSearch() {
+    function openSearch(query = '') {
       if (modal) {
         modal.classList.add('open');
         modal.setAttribute('aria-hidden', 'false');
         loadPagefind();
-        setTimeout(() => input && input.focus(), 50);
+        if (input) {
+          if (query) {
+            input.value = query;
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+          }
+          setTimeout(() => input.focus(), 50);
+        }
       }
     }
+
+    // Expose global search trigger for tags and external buttons
+    window.openCodexSearch = openSearch;
 
     function closeSearch() {
       if (modal) {
@@ -234,7 +243,7 @@
       }
     }
 
-    if (triggerBtn) triggerBtn.addEventListener('click', openSearch);
+    if (triggerBtn) triggerBtn.addEventListener('click', () => openSearch());
     if (closeBtn) closeBtn.addEventListener('click', closeSearch);
     if (backdrop) backdrop.addEventListener('click', closeSearch);
 

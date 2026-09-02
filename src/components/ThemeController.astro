@@ -1,15 +1,58 @@
 ---
-// ThemeController.astro - Handles Sepia, Paper, Dark, OLED themes with LocalStorage persistence
+// ThemeController.astro - Handles Sepia, Paper, Dark, OLED themes + Font Sizing with LocalStorage persistence
 ---
 
-<div class="theme-controller">
-  <button class="theme-btn swatch-sepia" onclick="setTheme('sepia')" title="Sepia Warm" aria-label="Sepia Theme"></button>
-  <button class="theme-btn swatch-paper" onclick="setTheme('paper')" title="Paper White" aria-label="Paper Theme"></button>
-  <button class="theme-btn swatch-dark" onclick="setTheme('dark')" title="Charcoal Night" aria-label="Dark Theme"></button>
-  <button class="theme-btn swatch-oled" onclick="setTheme('oled')" title="Pitch Black OLED" aria-label="OLED Theme"></button>
+<div class="reading-controls">
+  <!-- Font Size Scaler (A- / A+) -->
+  <div class="font-size-controller" title="Adjust text size">
+    <button class="font-size-btn" onclick="adjustFontSize(-1)" aria-label="Decrease text size" title="Smaller text (A-)">A-</button>
+    <button class="font-size-btn" onclick="adjustFontSize(1)" aria-label="Increase text size" title="Larger text (A+)">A+</button>
+  </div>
+
+  <!-- Color Palette Swatches -->
+  <div class="theme-controller" title="Select color theme">
+    <button class="theme-btn swatch-sepia" onclick="setTheme('sepia')" title="Sepia Warm" aria-label="Sepia Theme"></button>
+    <button class="theme-btn swatch-paper" onclick="setTheme('paper')" title="Paper White" aria-label="Paper Theme"></button>
+    <button class="theme-btn swatch-dark" onclick="setTheme('dark')" title="Charcoal Night" aria-label="Dark Theme"></button>
+    <button class="theme-btn swatch-oled" onclick="setTheme('oled')" title="Pitch Black OLED" aria-label="OLED Theme"></button>
+  </div>
 </div>
 
 <style>
+  .reading-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .font-size-controller {
+    display: flex;
+    align-items: center;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2px 4px;
+    gap: 2px;
+  }
+
+  .font-size-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-ui);
+    font-size: 0.76rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .font-size-btn:hover, .font-size-btn:focus-visible {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
   .theme-controller {
     display: flex;
     align-items: center;
@@ -46,9 +89,25 @@
     window.dispatchEvent(new CustomEvent('theme-changed', { detail: { theme } }));
   }
 
-  // Initialize theme immediately to prevent flashing
+  const fontSizes = ['17.5px', '19.5px', '21.5px', '23px'];
+  let currentFontIdx = 1; // default 19.5px
+
+  function adjustFontSize(delta) {
+    currentFontIdx = Math.max(0, Math.min(fontSizes.length - 1, currentFontIdx + delta));
+    const size = fontSizes[currentFontIdx];
+    document.documentElement.style.setProperty('--font-base-size', size);
+    localStorage.setItem('codex-font-size-idx', currentFontIdx);
+  }
+
+  // Initialize theme and font size immediately to prevent flashing
   (function() {
-    const saved = localStorage.getItem('codex-theme') || 'sepia';
-    document.documentElement.setAttribute('data-theme', saved);
+    const savedTheme = localStorage.getItem('codex-theme') || 'sepia';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+
+    const savedFontIdx = localStorage.getItem('codex-font-size-idx');
+    if (savedFontIdx !== null && fontSizes[savedFontIdx]) {
+      currentFontIdx = parseInt(savedFontIdx, 10);
+      document.documentElement.style.setProperty('--font-base-size', fontSizes[currentFontIdx]);
+    }
   })();
 </script>
