@@ -11,15 +11,44 @@ tags:
   - "neurobiology"
   - "metacognition"
   - "execution"
-mental_models: []
+  - "resilience"
+mental_models:
+  - "The Tri-Phasic Psychological Arc of Long-Term Pursuits"
+  - "The Valley of Attrition & The Muddy Middle"
+  - "Grit & Long-Term Stamina over Innate Talent (Angela Duckworth)"
+  - "The Triad of Forced Execution (Autonomy, Friction Ramp, Micro-Victories)"
+  - "Psychological Reactance & Autonomous Sovereignty"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-neurobiology-of-growth-and-fixed-mindset"
+  builds_on:
+    - "eliminating-procrastination-and-activation-energy"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-physics-of-outworking-and-first-principles"
+sources:
+  - source_id: "YT-H14bBuluwB8"
+    title: "Grit: The Power of Passion and Perseverance"
+    creator: "Angela Lee Duckworth (TED)"
+    url: "https://www.youtube.com/watch?v=H14bBuluwB8"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The IQ Fallacy & Predictive Superiority of Grit: Across competitive domains (West Point, National Spelling Bee, public schools, sales), grit and stamina are far stronger predictors of success than raw IQ or innate talent"
+        timestamp: "01:45"
+      - claim: "Grit as Long-Term Stamina: Grit is defined as passion and perseverance for very long-term goals—living life as a multi-year marathon rather than a temporary sprint"
+        timestamp: "02:50"
+      - claim: "The Talent-Grit Disconnect: Empirical data demonstrates that innate talent is either unrelated or often inversely related to grit; gifted individuals frequently abandon pursuits when effortless mastery stalls"
+        timestamp: "04:10"
+      - claim: "The Growth Mindset Foundation for Grit: Cultivating a neuroplastic understanding of learning—recognizing failure as a temporary state for synaptic growth—serves as the primary psychological engine for building sustained grit"
+        timestamp: "05:00"
+active_recall:
+  - question: "Why does Angela Duckworth's empirical research show that innate talent is often inversely related to long-term success?"
+    concept: "The Talent-Grit Inversion"
+    answer: "Individuals with high natural talent frequently rely on effortless early novelty. When they reach 'The Valley of Attrition' (Phase 2), where progress requires gritty, repetitive deliberate practice, they often quit because they lack the psychological resilience and sustained stamina of grit."
+  - question: "How does the 'Triad of Forced Execution' protect long-term goals during the Muddy Middle when novelty evaporates?"
+    concept: "Sovereign Action Mechanics"
+    answer: "It bypasses fickle emotional motivation through three structural levers: (1) Autonomy reframing ('I choose to') disarms subconscious rebellion; (2) The 10-minute friction ramp crosses the prefrontal gear-shift window; (3) Micro-victory logging provides continuous endogenous dopamine feedback."
+last_updated: "2026-09-02"
 ---
 
 Every major human pursuit—whether preparing for a career-defining competitive examination, mastering an advanced domain, or building an enterprise—follows a predictable **tri-phasic psychological curve**.
