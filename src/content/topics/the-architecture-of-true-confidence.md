@@ -6,22 +6,50 @@ volume_title: "Existential Sovereignty, Purpose & The Summit"
 order_in_volume: 36
 archetype: "CANONICAL_CONCEPT"
 reading_time_minutes: 7
-summary_15s: "Confidence is not a feeling you wait for; it is the reputation you build with yourself through kept promises, paired with the poise of an unhurried body. Inoculate yourself against pressure, eliminate explicit micromanagement by focusing on the external target, and let your undeniable stack of proof"
+summary_15s: "Confidence is not a feeling you wait for; it is the reputation you build with yourself through kept promises, paired with the poise of an unhurried body. Inoculate yourself against pressure, eliminate explicit micromanagement by focusing on the external target, and let your undeniable stack of proof speak for you."
 tags:
   - "neurobiology"
   - "metacognition"
   - "execution"
   - "communication"
+  - "resilience"
 mental_models:
-  - "The Three Protocols for Flawless Execution Under Pressure"
+  - "The Four Pillars of Confidence"
+  - "Embodied Neuroendocrinology & The Power-Posing Reset (Amy Cuddy)"
+  - "The Testosterone-to-Cortisol Ratio"
+  - "Explicit Monitoring Theory & External Target Focus"
+  - "Pressure Inoculation Training"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-front-stage-fallacy-and-imposter-syndrome"
+  builds_on:
+    - "the-architecture-of-resonance-and-vocal-sovereignty"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-three-modes-of-execution"
+sources:
+  - source_id: "YT-Ks-_Mh1QhMc"
+    title: "Your Body Language May Shape Who You Are"
+    creator: "Amy Cuddy (Harvard Business School / TED)"
+    url: "https://www.youtube.com/watch?v=Ks-_Mh1QhMc"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "Embodied Neuroendocrinology: Nonverbal expressions of expansive power dynamically regulate human neurochemistry, increasing dominance/assertiveness hormone (testosterone) while reducing stress reactivity hormone (cortisol)"
+        timestamp: "09:15"
+      - claim: "The High-Power Leader Profile: Effective leaders exhibit a high testosterone to low cortisol ratio, conferring physiological composure, elevated risk tolerance, and cognitive clarity under evaluative stress"
+        timestamp: "08:30"
+      - claim: "The Two-Minute Somatic Reset: Engaging in expansive high-power physical postures for 120 seconds before high-stakes evaluative settings significantly elevates subjective presence and objective performance"
+        timestamp: "11:20"
+      - claim: "Fake It Till You Become It: Repeatedly embodying sovereign nonverbal behaviors internalizes competence until it becomes a permanent neural and behavioral reality"
+        timestamp: "19:15"
+active_recall:
+  - question: "How does Amy Cuddy's neuroendocrine model (Testosterone-to-Cortisol ratio) explain optimal composure during high-stakes execution?"
+    concept: "Endocrine Profile of Agency"
+    answer: "High testosterone elevates agency, assertiveness, and willingness to tolerate risk, while low cortisol prevents autonomic stress hijack and preserves prefrontal working memory bandwidth. This combination enables the performer to remain physiologically calm and cognitively fluid under intense evaluation."
+  - question: "Why does 'Faking it till you become it' differ fundamentally from standard 'Faking it till you make it'?"
+    concept: "Neuroplastic Identity Encoding"
+    answer: "'Faking it till you make it' implies wearing an artificial mask to deceive others, which exacerbates imposter syndrome. 'Faking it till you become it' uses embodied somatic practices to reshape internal neurochemistry and self-perception repeatedly until the behavior is permanently encoded as genuine personal identity."
+last_updated: "2026-09-02"
 ---
 
 Confidence is one of the most misunderstood concepts in human psychology. Most people view confidence as a personality trait, an emotional state of fearlessness, or a feeling you must summon *before* attempting something difficult.
