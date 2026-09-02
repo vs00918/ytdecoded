@@ -1,0 +1,228 @@
+---
+import { getCollection } from 'astro:content';
+import ReaderLayout from '../../layouts/ReaderLayout.astro';
+import ActiveRecallCard from '../../components/ActiveRecallCard.astro';
+import RelatedKnowledgeCard from '../../components/RelatedKnowledgeCard.astro';
+import ProvenanceLedger from '../../components/ProvenanceLedger.astro';
+import { getVolumeGroups } from '../../utils/navigation';
+import { resolveAllRelationships } from '../../utils/relationships';
+
+export async function getStaticPaths() {
+  const allTopics = await getCollection('topics');
+  const volumeGroups = getVolumeGroups(allTopics);
+
+  return volumeGroups.map((group) => ({
+    params: { volume: String(group.volume) },
+    props: { group }
+  }));
+}
+
+const { group } = Astro.props;
+const allTopics = await getCollection('topics');
+const volumeGroups = getVolumeGroups(allTopics);
+const { bundleMap } = resolveAllRelationships(allTopics);
+
+// Sort topics in this volume strictly by order_in_volume
+const volumeTopics = group.topics.sort((a, b) => a.data.order_in_volume - b.data.order_in_volume);
+
+// Pre-render content for each topic in the volume
+const renderedTopics = await Promise.all(
+  volumeTopics.map(async (topic) => {
+    const { Content, headings } = await topic.render();
+    const wordCount = topic.body ? topic.body.split(/\s+/).filter(Boolean).length : 0;
+    const readingTime = Math.max(1, Math.ceil(wordCount / 225));
+    const relBundle = bundleMap.get(topic.slug);
+    return {
+      topic,
+      Content,
+      headings,
+      readingTime,
+      relBundle
+    };
+  })
+);
+
+// Calculate total reading time for the volume
+const totalVolumeReadingTime = renderedTopics.reduce((acc, curr) => acc + curr.readingTime, 0);
+
+// Determine previous and next volume for footer navigation
+const currentVolNum = group.volume;
+const prevVolume = volumeGroups.find(v => v.volume === currentVolNum - 1);
+const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
+---
+
+<ReaderLayout 
+  title={`Volume ${group.volume}: ${group.volumeTitle}`} 
+  description={`Continuous volume reader for Volume ${group.volume} containing ${group.topics.length} syntopical chapters.`}
+>
+  <div class="volume-continuous-page">
+    
+    <!-- ====================================================================
+         VOLUME HEADER & QUICK-JUMP STICKY NAV
+         ==================================================================== -->
+    <header class="volume-header-banner">
+      <nav aria-label="Breadcrumb" class="breadcrumbs-container">
+        <ol class="breadcrumbs-list">
+          <li class="breadcrumb-item">
+            <a href="/ytdecoded/" class="breadcrumb-link">The Living Codex</a>
+          </li>
+          <li class="breadcrumb-separator" aria-hidden="true">/</li>
+          <li class="breadcrumb-item">
+            <span class="breadcrumb-volume">Continuous Volume Reader</span>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="volume-meta-tag">VOLUME {group.volume} • CONTINUOUS READER</div>
+      <h1 class="volume-master-title">{group.volumeTitle}</h1>
+      
+      <div class="volume-stats-bar">
+        <span>📖 <strong>{renderedTopics.length}</strong> Chapters in Sequence</span>
+        <span class="meta-dot" aria-hidden="true">•</span>
+        <span>⏱️ <strong>{totalVolumeReadingTime}</strong> min Total Reading Time</span>
+        <span class="meta-dot" aria-hidden="true">•</span>
+        <span>⚡ Uninterrupted Scroll</span>
+      </div>
+
+      <!-- Quick Chapter Jump Pill Bar -->
+      <nav class="volume-jump-nav" aria-label="Quick jump to chapters in this volume">
+        <div class="volume-jump-label">Jump to Chapter:</div>
+        <div class="volume-jump-pills">
+          {renderedTopics.map(({ topic }) => (
+            <a href={`#chapter-${topic.data.order_in_volume}`} class="volume-jump-pill">
+              <span class="jump-num">#{topic.data.order_in_volume}</span>
+              <span class="jump-title">{topic.data.title}</span>
+            </a>
+          ))}
+        </div>
+      </nav>
+    </header>
+
+    <!-- ====================================================================
+         SEQUENTIAL CHAPTERS RENDERED CONTINUOUSLY
+         ==================================================================== -->
+    <div class="volume-chapters-flow">
+      {renderedTopics.map(({ topic, Content, readingTime, relBundle }, idx) => {
+        const primarySource = topic.data.sources && topic.data.sources.length > 0 ? topic.data.sources[0] : null;
+
+        return (
+          <article id={`chapter-${topic.data.order_in_volume}`} class="volume-chapter-article">
+            
+            <!-- Chapter Header -->
+            <header class="reader-header">
+              <div class="chapter-sequence-badge">
+                CHAPTER {topic.data.order_in_volume} OF {renderedTopics.length}
+              </div>
+
+              <h2 class="reader-topic-title" data-pagefind-meta="title">
+                <a href={`/ytdecoded/topics/${topic.slug}/`} class="chapter-standalone-link" title="Open as standalone page">
+                  {topic.data.title}
+                </a>
+              </h2>
+
+              <div class="reader-meta-bar">
+                <span class="meta-item reading-time">⏱️ {readingTime} min read</span>
+                
+                {primarySource && (
+                  <>
+                    <span class="meta-dot" aria-hidden="true">•</span>
+                    <span class="meta-item creator-pill">
+                      Source: <strong>{primarySource.creator || primarySource.title}</strong>
+                    </span>
+                  </>
+                )}
+
+                {topic.data.tags && topic.data.tags.length > 0 && (
+                  <>
+                    <span class="meta-dot" aria-hidden="true">•</span>
+                    <div class="tag-group">
+                      {topic.data.tags.slice(0, 3).map((tag: string) => (
+                        <button 
+                          type="button" 
+                          class="tag-badge interactive-tag" 
+                          onclick={`window.openCodexSearch && window.openCodexSearch('${tag}')`}
+                          title={`Search for #${tag}`}
+                        >
+                          #{tag}
+                        </button>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </div>
+
+              <!-- 15-Second Axiomatic Summary Kernel -->
+              <div class="summary-kernel" data-pagefind-meta="summary">
+                <div class="summary-kernel-label">⚡ 15-Second Axiomatic Kernel</div>
+                <div class="summary-kernel-text">{topic.data.summary_15s}</div>
+              </div>
+            </header>
+
+            <!-- Chapter Body Prose -->
+            <section class="reader-prose prose" aria-label={`Chapter ${topic.data.order_in_volume} Body`}>
+              <Content />
+            </section>
+
+            <!-- Chapter Tier 3 Consolidation -->
+            <footer class="reader-consolidation" aria-label="Chapter Consolidation">
+              {topic.data.active_recall && topic.data.active_recall.length > 0 && (
+                <ActiveRecallCard questions={topic.data.active_recall} />
+              )}
+
+              {relBundle && (
+                <RelatedKnowledgeCard bundle={relBundle} allTopics={allTopics} />
+              )}
+
+              {topic.data.sources && topic.data.sources.length > 0 && (
+                <ProvenanceLedger sources={topic.data.sources} />
+              )}
+            </footer>
+
+            {idx < renderedTopics.length - 1 && (
+              <div class="volume-chapter-delimiter" aria-hidden="true">
+                <span class="delimiter-line"></span>
+                <span class="delimiter-symbol">§</span>
+                <span class="delimiter-line"></span>
+              </div>
+            )}
+          </article>
+        );
+      })}
+    </div>
+
+    <!-- ====================================================================
+         VOLUME NAVIGATION FOOTER
+         ==================================================================== -->
+    <nav class="volume-nav-footer" aria-label="Volume navigation">
+      <div class="nav-footer-grid">
+        {prevVolume ? (
+          <a href={`/ytdecoded/volumes/${prevVolume.volume}/`} class="nav-card nav-prev">
+            <span class="nav-direction">← Previous Volume</span>
+            <span class="nav-vol">Volume {prevVolume.volume} ({prevVolume.topics.length} Chapters)</span>
+            <span class="nav-title">{prevVolume.volumeTitle}</span>
+          </a>
+        ) : (
+          <a href="/ytdecoded/" class="nav-card nav-prev">
+            <span class="nav-direction">← Library Home</span>
+            <span class="nav-vol">Knowledge Shelves</span>
+            <span class="nav-title">Back to Library Overview</span>
+          </a>
+        )}
+
+        {nextVolume ? (
+          <a href={`/ytdecoded/volumes/${nextVolume.volume}/`} class="nav-card nav-next">
+            <span class="nav-direction">Next Volume →</span>
+            <span class="nav-vol">Volume {nextVolume.volume} ({nextVolume.topics.length} Chapters)</span>
+            <span class="nav-title">{nextVolume.volumeTitle}</span>
+          </a>
+        ) : (
+          <a href="/ytdecoded/" class="nav-card nav-next">
+            <span class="nav-direction">Library Home →</span>
+            <span class="nav-vol">Curriculum Completed</span>
+            <span class="nav-title">Return to Knowledge Library</span>
+          </a>
+        )}
+      </div>
+    </nav>
+  </div>
+</ReaderLayout>
