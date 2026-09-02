@@ -13,15 +13,44 @@ tags:
   - "execution"
   - "resilience"
 mental_models:
+  - "The Procrastination Equation (Piers Steel)"
+  - "The Activation Energy Barrier"
+  - "The Instant Gratification Monkey & Panic Monster (Tim Urban)"
+  - "The Dark Playground & Deadlineless Trap"
   - "Friction Engineering & The 2-Minute Pre-Flight"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-hydraulic-mind-and-misdirected-energy"
+  builds_on:
+    - "supernormal-stimuli-and-urge-surfing"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-anatomy-of-consistency-and-forced-action"
+sources:
+  - source_id: "YT-arj7oStGLkU"
+    title: "Inside the Mind of a Master Procrastinator"
+    creator: "Tim Urban (Wait But Why / TED)"
+    url: "https://www.youtube.com/watch?v=arj7oStGLkU"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The Triadic Cognitive Conflict: Procrastination is driven by conflict between the Rational Decision-Maker and the Instant Gratification Monkey, who only cares about what is easy and fun in the present moment"
+        timestamp: "02:30"
+      - claim: "The Dark Playground: The psychological purgatory of unearned leisure, where leisure activities are tainted by guilt, dread, and self-hatred because the individual knows they should be working"
+        timestamp: "05:15"
+      - claim: "The Panic Monster: The dormancy and sudden activation of the amygdala-driven panic response when a non-negotiable external deadline looms, temporarily overriding the monkey"
+        timestamp: "06:40"
+      - claim: "The Deadlineless Procrastination Trap: The most destructive form of procrastination occurs in self-directed pursuits (health, relationships, artistic ventures) where no Panic Monster ever activates, leading to silent, lifelong regret"
+        timestamp: "09:30"
+      - claim: "The Life Calendar (Box-of-Weeks): Visualizing human life as a finite 90-year grid of 4,680 weeks to create urgent perspective on deadlineless tasks"
+        timestamp: "13:10"
+active_recall:
+  - question: "How does Tim Urban's model of the 'Instant Gratification Monkey' map to Piers Steel's Procrastination Equation?"
+    concept: "Temporal Discounting & Impulsiveness"
+    answer: "The Instant Gratification Monkey represents maximal Impulsiveness and extreme Temporal Discounting—demanding immediate ease and fun while ignoring future Delay and long-term Value. The Rational Decision-Maker optimizes for high-Expectancy, high-Value long-term outcomes, but is easily hijacked when activation friction is high."
+  - question: "Why is 'Deadlineless Procrastination' far more psychologically destructive than deadline-driven procrastination?"
+    concept: "Dormant Panic Mechanism"
+    answer: "With deadlines, the Panic Monster eventually awakens, forcing crisis execution and completion. Without deadlines (e.g. personal health, long-term writing, career pivots), no Panic Monster ever triggers. The procrastination remains silent, unbounded, and permanent, resulting in chronic self-alienation and long-term existential regret."
+last_updated: "2026-09-02"
 ---
 
 Procrastination is almost universally misunderstood as laziness or a deficiency of willpower. In cognitive psychology and behavioral economics, procrastination is a **mathematically predictable output of human motivation mechanics** combined with an **activation energy barrier**.
