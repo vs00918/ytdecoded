@@ -3,30 +3,148 @@ import ReaderLayout from '../layouts/ReaderLayout.astro';
 import { getCollection } from 'astro:content';
 import { getVolumeGroups } from '../utils/navigation';
 
+// Fetch all topics dynamically from Astro Content Collection
 const allTopics = await getCollection('topics');
 const rawVolumeGroups = getVolumeGroups(allTopics);
-const totalChapters = allTopics.length;
+
+// Compute global corpus metrics dynamically
+const totalTopics = allTopics.length;
 const totalVolumes = rawVolumeGroups.length;
+const totalWordCount = allTopics.reduce((acc, t) => acc + (t.body ? t.body.split(/\s+/).filter(Boolean).length : 0), 0);
+const totalReadingHours = (totalWordCount / 225 / 60).toFixed(1);
 
-// Curated intellectual domain theses for each canonical volume
-const volumeTheses: Record<number, string> = {
-  1: "Physical and neurological foundations of peak cognition: dopamine regulation, sleep architecture, and the gut-mind axis.",
-  2: "The operational mechanics of deliberate action: overcoming activation energy, eliminating procrastination, and high-agency execution.",
-  3: "The psychology of internal mastery: breaking overthinking loops, managing hedonic adaptation, and emotional granularity.",
-  4: "Pedagogical and rhetorical mastery: systems for high-impact communication, conceptual resonance, and rapid comprehension.",
-  5: "Structural analysis of modern institutions, status games, epistemic firewalls, and asymmetric wealth accumulation engines.",
-  6: "Radical resilience, existential philosophy, and classical critiques of societal systems from ancient Athens to the Anthropocene."
-};
+// Helper for Roman Numerals
+function toRoman(num: number): string {
+  const lookup: Record<string, number> = {
+    M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90,
+    L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1
+  };
+  let roman = '';
+  for (const i in lookup) {
+    while (num >= lookup[i]) {
+      roman += i;
+      num -= lookup[i];
+    }
+  }
+  return roman || 'I';
+}
 
-// Compute all volume metrics in frontmatter
-const volumeGroups = rawVolumeGroups.map((group) => {
-  const thesis = volumeTheses[group.volume] || "Syntopical chapters exploring first-principles frameworks.";
+// Dynamic Volume Size Tier Classification (Determines editorial card weight)
+function getVolumeSizeTier(count: number): 'hero' | 'large' | 'medium' | 'compact' {
+  if (count >= 16) return 'hero';
+  if (count >= 9) return 'large';
+  if (count >= 4) return 'medium';
+  return 'compact';
+}
+
+// Dynamic Domain Identity & Visual Palette Accent
+function getVolumeVisualTheme(title: string, volumeNumber: number) {
+  const t = title.toLowerCase();
+  if (t.includes('biology') || t.includes('energy') || t.includes('brain') || t.includes('mind')) {
+    return {
+      key: 'biology',
+      glyph: '🧬',
+      domainLabel: 'Cognitive Neurobiology & Somatic Systems',
+      accentColor: '#2d6a4f',
+      accentSoft: 'rgba(45, 106, 79, 0.12)'
+    };
+  }
+  if (t.includes('wealth') || t.includes('capital') || t.includes('allocation') || t.includes('money')) {
+    return {
+      key: 'wealth',
+      glyph: '🏛️',
+      domainLabel: 'Capital Dynamics & Asymmetric Leverage',
+      accentColor: '#b08968',
+      accentSoft: 'rgba(176, 137, 104, 0.12)'
+    };
+  }
+  if (t.includes('philosophy') || t.includes('action') || t.includes('metacognition')) {
+    return {
+      key: 'metacognition',
+      glyph: '⚖️',
+      domainLabel: 'Philosophy of Action & Metacognitive Mastery',
+      accentColor: '#936639',
+      accentSoft: 'rgba(147, 102, 57, 0.12)'
+    };
+  }
+  if (t.includes('execution') || t.includes('velocity') || t.includes('leverage')) {
+    return {
+      key: 'execution',
+      glyph: '⚡',
+      domainLabel: 'Execution Physics & Kinetic Systems',
+      accentColor: '#a24857',
+      accentSoft: 'rgba(162, 72, 87, 0.12)'
+    };
+  }
+  if (t.includes('social') || t.includes('sovereignty') || t.includes('communication')) {
+    return {
+      key: 'social',
+      glyph: '🌐',
+      domainLabel: 'Social Sovereignty & Human Dynamics',
+      accentColor: '#585b70',
+      accentSoft: 'rgba(88, 91, 112, 0.12)'
+    };
+  }
+  if (t.includes('existential') || t.includes('purpose') || t.includes('summit')) {
+    return {
+      key: 'existential',
+      glyph: '🏔️',
+      domainLabel: 'Existential Philosophy & The Summit',
+      accentColor: '#4a6fa5',
+      accentSoft: 'rgba(74, 111, 165, 0.12)'
+    };
+  }
+  
+  // Graceful fallback for any newly added volume in the future
+  const dynamicPalettes = [
+    { key: 'alpha', glyph: '📜', domainLabel: 'Core Foundations', accentColor: '#7a5901', accentSoft: 'rgba(122, 89, 1, 0.12)' },
+    { key: 'beta', glyph: '🧭', domainLabel: 'Applied Frameworks', accentColor: '#3d6375', accentSoft: 'rgba(61, 99, 117, 0.12)' },
+    { key: 'gamma', glyph: '🔭', domainLabel: 'Advanced Synthesis', accentColor: '#5c4d7d', accentSoft: 'rgba(92, 77, 125, 0.12)' }
+  ];
+  return dynamicPalettes[volumeNumber % dynamicPalettes.length];
+}
+
+// Dynamic Domain Thesis / Description Synthesizer
+function getVolumeThesis(group: { volume: number; volumeTitle: string; topics: any[] }): string {
+  const knownTheses: Record<string, string> = {
+    'The Biology of Mind & Energy': 'Physical and neurological foundations of peak cognition: dopamine regulation, circadian rhythm, sleep architecture, and the gut-mind axis.',
+    'The Architecture of Wealth & Capital Allocation': 'Structural mechanisms of capital compounding, asymmetric leverage, the three currencies of wealth, and long-term asset allocation.',
+    'Philosophy of Action & Metacognition': 'The psychology of internal sovereignty: cognitive bias dismantling, emotional granularity, deliberate practice, and the craft-first paradigm.',
+    'High-Velocity Execution & Asymmetric Leverage': 'The operational mechanics of deliberate action: conquering activation energy, eliminating procrastination, and high-agency execution.',
+    'The Architecture of Social Sovereignty': 'Structural analysis of modern human dynamics, difficult conversations, deception detection, the dramaturgical front stage, and relational empathy.',
+    'Existential Sovereignty, Purpose & The Summit': 'Radical resilience, existential philosophy, and classical critiques of societal systems from ancient Athens to the Anthropocene.'
+  };
+
+  if (knownTheses[group.volumeTitle]) {
+    return knownTheses[group.volumeTitle];
+  }
+
+  // Synthesize dynamically from constituent topic metadata
+  const tags = Array.from(new Set(group.topics.flatMap((t: any) => t.data.tags || []))).slice(0, 4);
+  if (tags.length > 0) {
+    return `Comprehensive treatises and first-principles mental models exploring ${tags.join(', ')}.`;
+  }
+  return 'Syntopical chapters exploring first-principles frameworks, mental models, and sovereign mastery.';
+}
+
+// Process all volumes dynamically
+const volumeCards = rawVolumeGroups.map((group) => {
+  const volumeNumber = group.volume;
+  const romanVol = toRoman(volumeNumber);
+  const sizeTier = getVolumeSizeTier(group.topics.length);
+  const visualTheme = getVolumeVisualTheme(group.volumeTitle, volumeNumber);
+  const thesis = getVolumeThesis(group);
+
   const volWordCount = group.topics.reduce((acc, t) => acc + (t.body ? t.body.split(/\s+/).filter(Boolean).length : 0), 0);
   const volReadingTime = Math.max(1, Math.ceil(volWordCount / 225));
+  const volHours = (volWordCount / 225 / 60).toFixed(1);
+
+  // Extract unique thinkers/creators
   const uniqueCreators = Array.from(
     new Set(group.topics.flatMap((t: any) => t.data.sources?.map((s: any) => s.creator) || []).filter(Boolean) as string[])
   );
-  const isInitiallyOpen = group.topics.length <= 2;
+
+  // Calculate topic list and preview slice based on card weight
   const processedTopics = group.topics.map((t: any) => {
     const wordCount = t.body ? t.body.split(/\s+/).filter(Boolean).length : 0;
     const readingTime = Math.max(1, Math.ceil(wordCount / 225));
@@ -38,181 +156,939 @@ const volumeGroups = rawVolumeGroups.map((group) => {
     };
   });
 
+  // Number of preview topics shown directly on the card
+  const previewCount = sizeTier === 'hero' ? 6 : sizeTier === 'large' ? 4 : sizeTier === 'medium' ? 3 : group.topics.length;
+  const previewTopics = processedTopics.slice(0, previewCount);
+  const remainingCount = group.topics.length - previewCount;
+
   return {
     ...group,
+    volumeNumber,
+    romanVol,
+    sizeTier,
+    visualTheme,
     thesis,
     volReadingTime,
+    volHours,
     uniqueCreators,
-    isInitiallyOpen,
-    processedTopics
+    processedTopics,
+    previewTopics,
+    remainingCount
   };
 });
 ---
 
-<ReaderLayout title="Knowledge Library" description="The Living Codex — Master Personal Knowledge Base">
+<ReaderLayout title="Library Catalog" description="The Living Codex — Master Personal Knowledge Library">
   <div class="library-container">
     
     <!-- ====================================================================
-         SECTION 1: HERO & EXPLORATION ORIENTATION
+         HERO SECTION: ACADEMIC LIBRARY BANNER & SEARCH
          ==================================================================== -->
     <header class="library-hero">
-      <div class="library-badge">Personal Knowledge Library</div>
+      <div class="library-badge-row">
+        <span class="library-badge">LIVING CODEX</span>
+        <span class="library-badge-sub">PERSONAL KNOWLEDGE LIBRARY</span>
+      </div>
+
       <h1 class="library-title">The Living Codex</h1>
-      <p class="library-subtitle">
-        A sovereign repository of first-principles mental models, cognitive mechanisms, and lifelong execution frameworks distilled from world-class masterclasses.
+      
+      <p class="library-mission">
+        Sovereign first-principles frameworks, cognitive mechanisms & mental models distilled from rigorous masterclasses into permanent, interconnected knowledge.
       </p>
 
-      <!-- Prominent Library Search Trigger (Triggers Pagefind Search Modal) -->
-      <div class="library-search-wrap">
+      <!-- Prominent Library Search Trigger Field -->
+      <div class="library-search-field-wrap">
         <button 
           id="library-search-btn" 
-          class="library-search-btn" 
+          class="library-search-field" 
           aria-label="Open Search across the Living Codex"
           title="Search the Living Codex (Press /)"
         >
-          <span class="search-btn-icon" aria-hidden="true">🔍</span>
-          <span class="search-btn-text">Search topics, mental models, mechanisms, or authors...</span>
-          <kbd class="nav-kbd">/</kbd>
+          <span class="search-field-icon" aria-hidden="true">🔍</span>
+          <span class="search-field-placeholder">Search knowledge, mental models, mechanisms, or authors...</span>
+          <kbd class="search-field-kbd">/</kbd>
         </button>
       </div>
 
-      <!-- Live Corpus Stat Strip -->
-      <div class="library-stats-strip">
-        <span>📚 <strong>{totalVolumes}</strong> Knowledge Volumes</span>
-        <span class="stat-dot" aria-hidden="true">•</span>
-        <span>📖 <strong>{totalChapters}</strong> Syntopical Chapters</span>
-        <span class="stat-dot" aria-hidden="true">•</span>
-        <span>⚡ Offline Full-Text Index</span>
+      <!-- Live Dynamic Corpus Stat Strip -->
+      <div class="library-stat-ribbon">
+        <div class="stat-pill">
+          <span class="stat-value">{totalVolumes}</span>
+          <span class="stat-label">Volumes</span>
+        </div>
+        <span class="stat-separator" aria-hidden="true">•</span>
+        <div class="stat-pill">
+          <span class="stat-value">{totalTopics}</span>
+          <span class="stat-label">Syntopical Treatises</span>
+        </div>
+        <span class="stat-separator" aria-hidden="true">•</span>
+        <div class="stat-pill">
+          <span class="stat-value">~{totalReadingHours}</span>
+          <span class="stat-label">Hours of Study</span>
+        </div>
+        <span class="stat-separator" aria-hidden="true">•</span>
+        <div class="stat-pill">
+          <span class="stat-badge-online">⚡ Offline Semantic Index</span>
+        </div>
       </div>
     </header>
 
     <!-- ====================================================================
-         SECTION 2: CONTINUE READING (Dynamic via localStorage)
+         SECTION 2: CONTINUE STUDYING (Dynamic from localStorage)
          ==================================================================== -->
-    <section id="continue-reading-section" class="continue-reading-section" style="display: none;" aria-label="Continue Reading">
-      <div class="continue-reading-card">
-        <div class="continue-reading-header">
-          <span class="continue-reading-tag">⚡ CONTINUE STUDYING</span>
-          <button id="dismiss-continue-btn" class="dismiss-continue-btn" aria-label="Dismiss Continue Reading Card">✕</button>
+    <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Continue Studying">
+      <div class="continue-study-card">
+        <div class="continue-study-top">
+          <span class="continue-study-badge">✦ CONTINUE STUDYING</span>
+          <button id="dismiss-continue-btn" class="continue-dismiss-btn" aria-label="Dismiss Continue Reading Card">✕</button>
         </div>
-        <div class="continue-reading-content">
-          <h2 id="continue-reading-title" class="continue-reading-title">Topic Title</h2>
-          <p id="continue-reading-summary" class="continue-reading-summary">Topic summary...</p>
+        <div class="continue-study-body">
+          <h2 id="continue-reading-title" class="continue-study-title">Topic Title</h2>
+          <p id="continue-reading-summary" class="continue-study-summary">Topic summary...</p>
         </div>
-        <a id="continue-reading-link" href="#" class="continue-reading-btn">
-          Resume Reading →
-        </a>
+        <div class="continue-study-bottom">
+          <a id="continue-reading-link" href="#" class="continue-study-btn">
+            Resume Study →
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- ====================================================================
-         SECTION 3: KNOWLEDGE SHELVES (The 6 Collapsible Volume Folios)
+         SECTION 3: KNOWLEDGE VOLUMES CATALOG (VARIABLE-SIZE EDITORIAL GRID)
          ==================================================================== -->
-    <main class="library-shelves-section" aria-label="Knowledge Volumes">
-      <div class="shelves-header">
+    <main class="library-catalog-section" aria-label="Knowledge Volumes Catalog">
+      <div class="catalog-section-header">
         <div>
-          <h2 class="shelves-title">Knowledge Volumes</h2>
-          <span class="shelves-subtitle">Explore the curriculum across all 6 foundational shelves</span>
+          <h2 class="catalog-title">Knowledge Volumes</h2>
+          <p class="catalog-subtitle">Explore the foundational bodies of thought across the codex</p>
         </div>
-        <div class="shelves-global-controls">
-          <button id="expand-all-btn" class="shelves-control-btn" title="Expand all volume drawers">
-            ▾ Expand All
+        <div class="catalog-global-actions">
+          <button id="expand-all-btn" class="catalog-control-btn" title="Expand all volume drawers">
+            ▾ Expand All Shelves
           </button>
-          <button id="collapse-all-btn" class="shelves-control-btn" title="Collapse all volume drawers">
-            ▴ Collapse All
+          <button id="collapse-all-btn" class="catalog-control-btn" title="Collapse all volume drawers">
+            ▴ Collapse Shelves
           </button>
         </div>
       </div>
 
-      <div class="shelves-list">
-        {volumeGroups.map((group) => (
-          <section class="shelf-folio-card" id={`volume-card-${group.volume}`} aria-labelledby={`vol-heading-${group.volume}`}>
-            <!-- Folio Overview (Always Visible) -->
-            <div class="shelf-folio-header">
-              <div class="shelf-folio-meta">
-                <span class="shelf-vol-badge">Volume {group.volume}</span>
-                <h3 id={`vol-heading-${group.volume}`} class="shelf-vol-title">
-                  <a href={`/ytdecoded/volumes/${group.volume}/`} class="shelf-vol-link" title="Open Continuous Volume Reader">
-                    {group.volumeTitle}
+      <!-- Variable-Size Responsive Grid -->
+      <div class="library-volumes-grid">
+        {volumeCards.map((vol) => (
+          <article 
+            class={`volume-book-card tier-${vol.sizeTier}`} 
+            id={`volume-card-${vol.volumeNumber}`}
+            style={`--vol-accent: ${vol.visualTheme.accentColor}; --vol-accent-soft: ${vol.visualTheme.accentSoft};`}
+            aria-labelledby={`vol-title-${vol.volumeNumber}`}
+          >
+            <!-- Card Interior Frame -->
+            <div class="volume-card-inner">
+              
+              <!-- Card Header / Spine Indicator -->
+              <header class="volume-card-header">
+                <div class="volume-header-left">
+                  <span class="volume-roman-badge">VOL. {vol.romanVol}</span>
+                  <span class="volume-domain-tag">{vol.visualTheme.domainLabel}</span>
+                </div>
+                <div class="volume-header-right">
+                  <span class="volume-count-chip">{vol.topics.length} {vol.topics.length === 1 ? 'Topic' : 'Topics'}</span>
+                  <span class="volume-time-chip">⏱️ {vol.volReadingTime}m</span>
+                </div>
+              </header>
+
+              <!-- Volume Title & Thesis -->
+              <div class="volume-card-main">
+                <h3 id={`vol-title-${vol.volumeNumber}`} class="volume-card-title">
+                  <a href={`/ytdecoded/volumes/${vol.volumeNumber}/`} class="volume-card-title-link">
+                    {vol.volumeTitle}
                   </a>
                 </h3>
-              </div>
 
-              <p class="shelf-vol-thesis">{group.thesis}</p>
+                <p class="volume-card-thesis">{vol.thesis}</p>
 
-              <div class="shelf-vol-metrics">
-                <span>📖 <strong>{group.topics.length}</strong> {group.topics.length === 1 ? 'Chapter' : 'Chapters'}</span>
-                <span class="meta-dot" aria-hidden="true">•</span>
-                <span>⏱️ <strong>{group.volReadingTime}</strong> min total</span>
-                {group.uniqueCreators.length > 0 && (
-                  <>
-                    <span class="meta-dot" aria-hidden="true">•</span>
-                    <span class="shelf-vol-authors">
-                      🧠 {group.uniqueCreators.slice(0, 3).join(', ')}{group.uniqueCreators.length > 3 ? ` +${group.uniqueCreators.length - 3}` : ''}
+                <!-- Synthesized Thinkers Strip -->
+                {vol.uniqueCreators.length > 0 && (
+                  <div class="volume-thinkers-strip">
+                    <span class="thinkers-icon" aria-hidden="true">🧠</span>
+                    <span class="thinkers-text">
+                      Synthesizing: <strong>{vol.uniqueCreators.slice(0, 3).join(', ')}</strong>{vol.uniqueCreators.length > 3 ? ` +${vol.uniqueCreators.length - 3} more` : ''}
                     </span>
-                  </>
+                  </div>
                 )}
               </div>
 
-              <!-- Folio Action Buttons -->
-              <div class="shelf-folio-actions">
+              <!-- Representative Topics Preview Shelf -->
+              <div class="volume-preview-shelf">
+                <div class="preview-shelf-label">Featured Topics:</div>
+                <ul class="preview-topics-list">
+                  {vol.previewTopics.map(({ topic: t, readingTime }) => (
+                    <li class="preview-topic-item">
+                      <a href={`/ytdecoded/topics/${t.slug}/`} class="preview-topic-link">
+                        <span class="preview-topic-order">#{t.data.order_in_volume}</span>
+                        <span class="preview-topic-title">{t.data.title}</span>
+                        <span class="preview-topic-time">{readingTime}m</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+
+                {vol.remainingCount > 0 && (
+                  <div class="preview-remaining-note">
+                    + {vol.remainingCount} additional {vol.remainingCount === 1 ? 'treatise' : 'treatises'} in this volume
+                  </div>
+                )}
+              </div>
+
+              <!-- Card Action Bar -->
+              <footer class="volume-card-footer">
                 <a 
-                  href={`/ytdecoded/volumes/${group.volume}/`} 
-                  class="shelf-read-volume-btn"
-                  title="Read full volume on a single scrollable page without expanding"
+                  href={`/ytdecoded/volumes/${vol.volumeNumber}/`} 
+                  class="volume-enter-btn"
+                  title={`Read complete Volume ${vol.romanVol} on a continuous reading canvas`}
                 >
-                  📖 Read Full Volume ({group.topics.length} Ch) →
+                  Enter Volume ({vol.topics.length}) →
                 </a>
 
                 <button 
                   type="button"
-                  class="shelf-drawer-toggle-btn" 
-                  id={`toggle-btn-${group.volume}`}
-                  data-count={group.topics.length}
-                  aria-expanded={group.isInitiallyOpen ? "true" : "false"}
-                  aria-controls={`drawer-${group.volume}`}
-                  onclick={`toggleShelfDrawer(${group.volume})`}
-                  title="Browse individual chapter cards"
+                  class="volume-drawer-btn" 
+                  id={`toggle-btn-${vol.volumeNumber}`}
+                  data-count={vol.topics.length}
+                  aria-expanded="false"
+                  aria-controls={`drawer-${vol.volumeNumber}`}
+                  onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
+                  title="Browse all topics in this volume on the homepage"
                 >
-                  <span class="toggle-icon">{group.isInitiallyOpen ? '▴' : '▾'}</span>
-                  <span class="toggle-label">{group.isInitiallyOpen ? 'Hide Chapters' : `Browse ${group.topics.length} Chapters`}</span>
+                  <span class="toggle-icon">▾</span>
+                  <span class="toggle-label">All {vol.topics.length} Topics</span>
                 </button>
-              </div>
-            </div>
+              </footer>
 
-            <!-- Collapsible Chapter Drawer -->
-            <div 
-              id={`drawer-${group.volume}`} 
-              class={`shelf-chapters-drawer ${group.isInitiallyOpen ? 'open' : ''}`}
-              aria-hidden={group.isInitiallyOpen ? "false" : "true"}
-            >
-              <div class="shelf-drawer-inner">
-                <div class="shelf-topics-grid">
-                  {group.processedTopics.map(({ topic: t, readingTime, creator }) => (
-                    <a href={`/ytdecoded/topics/${t.slug}/`} class="shelf-topic-card">
-                      <div class="shelf-topic-header">
-                        <span class="shelf-topic-order">#{t.data.order_in_volume}</span>
-                        <span class="shelf-topic-time">⏱️ {readingTime}m</span>
-                      </div>
-                      <div class="shelf-topic-title">{t.data.title}</div>
-                      {t.data.summary_15s && (
-                        <div class="shelf-topic-summary">{t.data.summary_15s}</div>
-                      )}
-                      {creator && (
-                        <div class="shelf-topic-source">By <strong>{creator}</strong></div>
-                      )}
-                    </a>
-                  ))}
+              <!-- Full Collapsible Topic Drawer -->
+              <div 
+                id={`drawer-${vol.volumeNumber}`} 
+                class="volume-full-drawer"
+                aria-hidden="true"
+              >
+                <div class="volume-drawer-inner">
+                  <div class="drawer-topics-grid">
+                    {vol.processedTopics.map(({ topic: t, readingTime, creator }) => (
+                      <a href={`/ytdecoded/topics/${t.slug}/`} class="drawer-topic-card">
+                        <div class="drawer-topic-header">
+                          <span class="drawer-topic-order">#{t.data.order_in_volume}</span>
+                          <span class="drawer-topic-time">⏱️ {readingTime}m</span>
+                        </div>
+                        <div class="drawer-topic-title">{t.data.title}</div>
+                        {t.data.summary_15s && (
+                          <div class="drawer-topic-summary">{t.data.summary_15s}</div>
+                        )}
+                        {creator && (
+                          <div class="drawer-topic-creator">Mind: <strong>{creator}</strong></div>
+                        )}
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </div>
+
             </div>
-          </section>
+          </article>
         ))}
       </div>
     </main>
 
   </div>
 </ReaderLayout>
+
+<style>
+  /* ==========================================================================
+     LIVING CODEX: PREMIUM ACADEMIC LIBRARY STYLES (HOMEPAGE)
+     ========================================================================== */
+
+  .library-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 24px 80px 24px;
+    font-family: var(--font-body);
+  }
+
+  /* --------------------------------------------------------------------------
+     HERO SECTION
+     -------------------------------------------------------------------------- */
+  .library-hero {
+    text-align: center;
+    padding: 24px 16px 48px 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+
+  .library-badge-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 4px 14px;
+    margin-bottom: 20px;
+  }
+
+  .library-badge {
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  .library-badge-sub {
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .library-title {
+    font-family: var(--font-serif);
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  @media (max-width: 768px) {
+    .library-title {
+      font-size: 2.25rem;
+    }
+  }
+
+  .library-mission {
+    max-width: 680px;
+    margin: 0 auto 32px auto;
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+  }
+
+  /* Search Field Bar */
+  .library-search-field-wrap {
+    max-width: 640px;
+    margin: 0 auto 28px auto;
+  }
+
+  .library-search-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: var(--bg-card);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px var(--shadow);
+    transition: all 0.2s ease;
+    text-align: left;
+  }
+
+  .library-search-field:hover, .library-search-field:focus-visible {
+    border-color: var(--accent);
+    background: var(--bg-surface);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px var(--shadow);
+  }
+
+  .search-field-icon {
+    font-size: 1.1rem;
+    opacity: 0.75;
+  }
+
+  .search-field-placeholder {
+    flex: 1;
+    font-family: var(--font-ui);
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  .search-field-kbd {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: var(--text-muted);
+  }
+
+  /* Stat Ribbon */
+  .library-stat-ribbon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .stat-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .stat-value {
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .stat-separator {
+    color: var(--border);
+  }
+
+  .stat-badge-online {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  /* --------------------------------------------------------------------------
+     CONTINUE STUDYING SECTION
+     -------------------------------------------------------------------------- */
+  .continue-study-section {
+    margin-bottom: 48px;
+  }
+
+  .continue-study-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 20px 24px;
+    box-shadow: 0 4px 14px var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .continue-study-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .continue-study-badge {
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  .continue-dismiss-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .continue-dismiss-btn:hover {
+    background: var(--bg-surface);
+    color: var(--text-primary);
+  }
+
+  .continue-study-title {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+
+  .continue-study-summary {
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+
+  .continue-study-bottom {
+    margin-top: 6px;
+  }
+
+  .continue-study-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--accent);
+    color: #ffffff !important;
+    text-decoration: none;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 7px 16px;
+    border-radius: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .continue-study-btn:hover {
+    opacity: 0.9;
+    transform: translateX(2px);
+  }
+
+  /* --------------------------------------------------------------------------
+     CATALOG SECTION HEADER
+     -------------------------------------------------------------------------- */
+  .catalog-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 28px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border-subtle);
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .catalog-title {
+    font-family: var(--font-serif);
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+
+  .catalog-subtitle {
+    font-family: var(--font-ui);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  .catalog-global-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .catalog-control-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .catalog-control-btn:hover {
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    border-color: var(--accent);
+  }
+
+  /* --------------------------------------------------------------------------
+     VARIABLE-SIZE EDITORIAL GRID
+     -------------------------------------------------------------------------- */
+  .library-volumes-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 28px;
+  }
+
+  /* Tier-based column spans for responsive editorial layout */
+  .volume-book-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 4px 14px var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .volume-book-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px var(--shadow);
+    border-color: var(--vol-accent, var(--accent));
+  }
+
+  /* Editorial Grid Sizing Tiers */
+  .volume-book-card.tier-hero {
+    grid-column: span 12;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-surface) 100%);
+    border-left: 6px solid var(--vol-accent, var(--accent));
+  }
+
+  .volume-book-card.tier-large {
+    grid-column: span 7;
+    border-left: 5px solid var(--vol-accent, var(--accent));
+  }
+
+  .volume-book-card.tier-medium {
+    grid-column: span 5;
+    border-left: 4px solid var(--vol-accent, var(--accent));
+  }
+
+  .volume-book-card.tier-compact {
+    grid-column: span 6;
+    border-left: 4px solid var(--vol-accent, var(--accent));
+  }
+
+  @media (max-width: 960px) {
+    .volume-book-card.tier-hero,
+    .volume-book-card.tier-large,
+    .volume-book-card.tier-medium,
+    .volume-book-card.tier-compact {
+      grid-column: span 12;
+    }
+  }
+
+  /* Card Inner */
+  .volume-card-inner {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 18px;
+  }
+
+  @media (max-width: 640px) {
+    .volume-card-inner {
+      padding: 20px 16px;
+    }
+  }
+
+  /* Header */
+  .volume-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 12px;
+  }
+
+  .volume-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .volume-roman-badge {
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--vol-accent, var(--accent));
+    background: var(--vol-accent-soft, var(--accent-soft));
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+
+  .volume-domain-tag {
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+  }
+
+  .volume-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .volume-count-chip, .volume-time-chip {
+    font-family: var(--font-ui);
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+
+  /* Main Title & Thesis */
+  .volume-card-title {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+
+  .tier-hero .volume-card-title {
+    font-size: 2.1rem;
+  }
+
+  .volume-card-title-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .volume-card-title-link:hover {
+    color: var(--vol-accent, var(--accent));
+    text-decoration: underline;
+  }
+
+  .volume-card-thesis {
+    font-family: var(--font-body);
+    font-size: 0.96rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+
+  .volume-thinkers-strip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  /* Preview Shelf */
+  .volume-preview-shelf {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .preview-shelf-label {
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+  }
+
+  .preview-topics-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .tier-hero .preview-topics-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 16px;
+  }
+
+  @media (max-width: 640px) {
+    .tier-hero .preview-topics-list {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .preview-topic-item {
+    display: flex;
+  }
+
+  .preview-topic-link {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-family: var(--font-ui);
+    font-size: 0.86rem;
+    line-height: 1.4;
+    transition: color 0.15s ease;
+    width: 100%;
+  }
+
+  .preview-topic-link:hover {
+    color: var(--vol-accent, var(--accent));
+  }
+
+  .preview-topic-order {
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--vol-accent, var(--accent));
+    opacity: 0.8;
+  }
+
+  .preview-topic-title {
+    flex: 1;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .preview-topic-time {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+  }
+
+  .preview-remaining-note {
+    font-family: var(--font-ui);
+    font-size: 0.76rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* Card Footer */
+  .volume-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-subtle);
+    flex-wrap: wrap;
+  }
+
+  .volume-enter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--vol-accent, var(--accent));
+    color: #ffffff !important;
+    text-decoration: none;
+    font-family: var(--font-ui);
+    font-size: 0.84rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .volume-enter-btn:hover {
+    opacity: 0.9;
+    transform: translateX(2px);
+  }
+
+  .volume-drawer-btn {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .volume-drawer-btn:hover {
+    background: var(--bg-card);
+    border-color: var(--vol-accent, var(--accent));
+    color: var(--vol-accent, var(--accent));
+  }
+
+  /* Drawer Dropdown */
+  .volume-full-drawer {
+    display: none;
+    border-top: 1px dashed var(--border);
+    background: var(--bg-surface);
+    padding: 20px;
+    margin: 0 -28px -28px -28px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .volume-full-drawer.open {
+    display: block;
+  }
+
+  .drawer-topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 14px;
+  }
+
+  .drawer-topic-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .drawer-topic-card:hover {
+    border-color: var(--vol-accent, var(--accent));
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px var(--shadow);
+  }
+
+  .drawer-topic-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.72rem;
+    font-family: var(--font-mono);
+    color: var(--vol-accent, var(--accent));
+    font-weight: 700;
+  }
+
+  .drawer-topic-title {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.3;
+  }
+
+  .drawer-topic-summary {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .drawer-topic-creator {
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-top: auto;
+  }
+</style>
 
 <script is:inline>
   // Setup Search Button click to open Search Modal
@@ -262,34 +1138,34 @@ const volumeGroups = rawVolumeGroups.map((group) => {
 
     if (expandAllBtn) {
       expandAllBtn.addEventListener('click', () => {
-        document.querySelectorAll('.shelf-chapters-drawer').forEach((drawer) => {
+        document.querySelectorAll('.volume-full-drawer').forEach((drawer) => {
           drawer.classList.add('open');
           drawer.setAttribute('aria-hidden', 'false');
         });
-        document.querySelectorAll('.shelf-drawer-toggle-btn').forEach((btn) => {
+        document.querySelectorAll('.volume-drawer-btn').forEach((btn) => {
           btn.setAttribute('aria-expanded', 'true');
           const icon = btn.querySelector('.toggle-icon');
           const label = btn.querySelector('.toggle-label');
           if (icon) icon.innerText = '▴';
-          if (label) label.innerText = 'Hide Chapters';
+          if (label) label.innerText = 'Hide Topics';
         });
       });
     }
 
     if (collapseAllBtn) {
       collapseAllBtn.addEventListener('click', () => {
-        document.querySelectorAll('.shelf-chapters-drawer').forEach((drawer) => {
+        document.querySelectorAll('.volume-full-drawer').forEach((drawer) => {
           drawer.classList.remove('open');
           drawer.setAttribute('aria-hidden', 'true');
         });
-        document.querySelectorAll('.shelf-drawer-toggle-btn').forEach((btn) => {
+        document.querySelectorAll('.volume-drawer-btn').forEach((btn) => {
           btn.setAttribute('aria-expanded', 'false');
           const icon = btn.querySelector('.toggle-icon');
           const label = btn.querySelector('.toggle-label');
           if (icon) icon.innerText = '▾';
           if (label) {
             const count = btn.getAttribute('data-count') || '';
-            label.innerText = count ? `Browse ${count} Chapters` : 'Browse Chapters';
+            label.innerText = count ? `All ${count} Topics` : 'All Topics';
           }
         });
       });
@@ -311,7 +1187,7 @@ const volumeGroups = rawVolumeGroups.map((group) => {
       const label = btn.querySelector('.toggle-label');
       const count = btn.getAttribute('data-count') || '';
       if (icon) icon.innerText = '▾';
-      if (label) label.innerText = count ? `Browse ${count} Chapters` : 'Browse Chapters';
+      if (label) label.innerText = count ? `All ${count} Topics` : 'All Topics';
     } else {
       drawer.classList.add('open');
       drawer.setAttribute('aria-hidden', 'false');
@@ -319,7 +1195,7 @@ const volumeGroups = rawVolumeGroups.map((group) => {
       const icon = btn.querySelector('.toggle-icon');
       const label = btn.querySelector('.toggle-label');
       if (icon) icon.innerText = '▴';
-      if (label) label.innerText = 'Hide Chapters';
+      if (label) label.innerText = 'Hide Topics';
     }
   };
 </script>
