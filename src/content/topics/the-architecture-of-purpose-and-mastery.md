@@ -12,15 +12,45 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+  - "mastery"
+mental_models:
+  - "The Passion Trap vs The Craftsman Mindset (Builder Engine)"
+  - "Motivation 3.0 Triad (Autonomy, Mastery, Purpose) — Dan Pink"
+  - "The Candle Problem & Functional Fixedness (Karl Duncker)"
+  - "Primal Inclinations & The Apprenticeship Arc (Robert Greene)"
+  - "Multiple Cognitive Modalities (Howard Gardner)"
+  - "Pro-Social Transcendence & The Contribution Test"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-architecture-of-self-knowledge"
+  builds_on:
+    - "the-physics-of-outworking-and-first-principles"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-high-agency-reset-breaking-autopilot"
+sources:
+  - source_id: "YT-rrkrvAUbU9Y"
+    title: "The Puzzle of Motivation"
+    creator: "Dan Pink (TED)"
+    url: "https://www.youtube.com/watch?v=rrkrvAUbU9Y"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Extrinsic Motivation Trap (The Candle Problem): 'If-Then' extrinsic rewards (Motivation 2.0) narrow cognitive focus, accelerating routine algorithmic tasks while crushing conceptual, creative problem-solving (Karl Duncker / Sam Glucksberg)"
+        timestamp: "03:45"
+      - claim: "Autonomy as the Primary Driver: Self-direction across Task, Time, Technique, and Team unlocks unprecedented creative velocity compared to rigid managerial surveillance"
+        timestamp: "08:15"
+      - claim: "Mastery as the Urge to Improve: Humans possess an innate drive to master complex crafts for intrinsic satisfaction rather than transactional financial gain (e.g. Open-Source Linux & Wikipedia)"
+        timestamp: "11:30"
+      - claim: "The Purpose Motive (Motivation 3.0): Sustainable peak performance requires transcending self-interest, anchoring mastery to a transcendent mission larger than the self"
+        timestamp: "14:10"
+active_recall:
+  - question: "How does Dan Pink's analysis of 'The Candle Problem' explain why monetary bonuses often degrade high-level cognitive performance?"
+    concept: "Extrinsic Incentives vs Heuristic Thinking"
+    answer: "Extrinsic 'If-Then' rewards narrow mental focus, which works well for mechanical, algorithmic tasks where the path is obvious. However, for 21st-century creative, heuristic problem-solving requiring broad peripheral vision and overcoming functional fixedness, extrinsic carrots induce cognitive tunnel vision and performance anxiety, deteriorating results."
+  - question: "What are the three core pillars of 'Motivation 3.0', and why must they operate in harmony?"
+    concept: "Autonomy, Mastery, and Purpose Triad"
+    answer: "Autonomy gives sovereignty over time and technique; Mastery satisfies the deep psychological desire to build rare, world-class competence; Purpose anchors that competence to a mission greater than personal vanity. Together, they generate durable intrinsic drive that outlasts superficial external rewards."
+last_updated: "2026-09-02"
 ---
 
 The dominant cultural myth regarding human potential is the **"Passion Myth"**: the romantic idea that purpose is a fully formed, pre-packaged treasure waiting to be discovered in an instant flash of divine inspiration.
