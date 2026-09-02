@@ -381,17 +381,22 @@ body {
 }
 
 .shelves-header {
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
   border-bottom: 1px solid var(--border-subtle);
-  padding-bottom: 10px;
+  padding-bottom: 12px;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .shelves-title {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .shelves-subtitle {
@@ -400,34 +405,61 @@ body {
   color: var(--text-muted);
 }
 
+.shelves-global-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shelves-control-btn {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-family: var(--font-ui);
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.shelves-control-btn:hover, .shelves-control-btn:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--bg-card);
+}
+
 .shelves-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 
-.shelf-card {
+/* Folio Card Architecture */
+.shelf-folio-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px var(--shadow);
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.shelf-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 14px;
-  border-bottom: 1px solid var(--border-subtle);
-  padding-bottom: 10px;
-  gap: 12px;
-  flex-wrap: wrap;
+.shelf-folio-card:hover {
+  border-color: var(--border);
+  box-shadow: 0 4px 16px var(--shadow);
 }
 
-.shelf-vol-info {
+.shelf-folio-header {
+  padding: 20px 22px 18px;
+}
+
+.shelf-folio-meta {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 8px;
   flex-wrap: wrap;
 }
 
@@ -436,21 +468,20 @@ body {
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   background: var(--border);
   color: var(--text-primary);
-  padding: 2px 7px;
+  padding: 2px 8px;
   border-radius: 4px;
 }
 
 .shelf-vol-title {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--text-primary);
   margin: 0;
   padding: 0;
-  border: none;
 }
 
 .shelf-vol-link {
@@ -464,37 +495,110 @@ body {
   text-decoration: underline;
 }
 
-.shelf-actions {
+.shelf-vol-thesis {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.52;
+  margin-bottom: 12px;
+}
+
+.shelf-vol-metrics {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  color: var(--text-muted);
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 
-.shelf-read-all-link {
-  font-family: var(--font-ui);
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--accent);
-  text-decoration: none;
-  background: var(--accent-soft);
-  padding: 4px 10px;
-  border-radius: 6px;
-  border: 1px solid transparent;
-  transition: all 0.15s ease;
+.shelf-vol-authors {
+  color: var(--text-secondary);
+}
+
+.shelf-folio-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.shelf-read-volume-btn {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
+  background: var(--accent);
+  color: #ffffff !important;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
-.shelf-read-all-link:hover, .shelf-read-all-link:focus-visible {
-  border-color: var(--accent);
+.shelf-read-volume-btn:hover, .shelf-read-volume-btn:focus-visible {
+  filter: brightness(1.1);
   transform: translateY(-1px);
 }
 
-.shelf-count-badge {
+[data-theme="dark"] .shelf-read-volume-btn,
+[data-theme="oled"] .shelf-read-volume-btn {
+  color: #121212 !important;
+  background: var(--accent);
+}
+
+.shelf-drawer-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
   font-family: var(--font-ui);
-  font-size: 0.76rem;
-  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.shelf-drawer-toggle-btn:hover, .shelf-drawer-toggle-btn:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.toggle-icon {
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+/* Collapsible Chapter Drawer using Smooth CSS Grid Expansion */
+.shelf-chapters-drawer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.28s ease-out;
+  border-top: 1px solid transparent;
+}
+
+.shelf-chapters-drawer.open {
+  grid-template-rows: 1fr;
+  border-top-color: var(--border-subtle);
+}
+
+.shelf-drawer-inner {
+  overflow: hidden;
+}
+
+.shelf-chapters-drawer .shelf-topics-grid {
+  padding: 18px 22px 22px;
+  background: var(--bg-page);
 }
 
 .shelf-topics-grid {
