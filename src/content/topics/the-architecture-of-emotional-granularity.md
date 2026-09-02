@@ -12,15 +12,44 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+  - "linguistics"
+mental_models:
+  - "The Neuroscience of Affect Labeling (Lisa Feldman Barrett)"
+  - "Linguistic Relativity & Cognitive Operating Systems (Lera Boroditsky)"
+  - "Categorical Perception & Electrophysiological Shifts"
+  - "Grammatical Causal Attribution & Moral Memory Prisms"
+  - "The Lexicon of Obscure Sorrows (Sonder, Liberosis, Occhiolism, Monachopsis)"
 relationships:
-  prerequisites: []
-  builds_on: []
+  prerequisites:
+    - "the-architecture-of-cognitive-biases"
+  builds_on:
+    - "the-cognitive-firewall-and-epistemic-razors"
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+  applies_to:
+    - "the-architecture-of-spontaneous-communication"
+sources:
+  - source_id: "YT-RKK7wGAYP6k"
+    title: "How Language Shapes the Way We Think"
+    creator: "Lera Boroditsky (TED)"
+    url: "https://www.youtube.com/watch?v=RKK7wGAYP6k"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "Linguistic Relativity & Cognitive Architecture: The linguistic structures we use actively shape spatial orientation, temporal perception, and cognitive reasoning frameworks"
+        timestamp: "03:20"
+      - claim: "Categorical Boundary Neuroplasticity: Distinct linguistic categories (e.g. Russian light vs dark blue) induce measurable shifts in electrophysiological brainwave responses during perception"
+        timestamp: "06:10"
+      - claim: "Grammatical Encoding of Causal Attribution: Language structures govern moral and causal memory—agent-based phrasing (English) primes punitive blame, while event-based phrasing primes focus on outcome and intention"
+        timestamp: "09:45"
+      - claim: "Language as a Mind Operating System: Expanding internal linguistic resolution constructs entirely new mental capacities and epistemic models for interpreting reality"
+        timestamp: "12:30"
+active_recall:
+  - question: "How does Lera Boroditsky's research on linguistic relativity prove that expanding your vocabulary physically alters cognitive perception?"
+    concept: "Linguistic Structuring of Perception"
+    answer: "Languages are cognitive operating systems. Cross-linguistic studies show that having distinct words for categories (e.g., color boundaries in Russian or absolute cardinal orientation in Kuuk Thaayorre) fundamentally rewires brainwave responses, spatial memory, and attention, enabling minds to perceive nuances that un-labeled brains completely miss."
+  - question: "Why does 'Affect Labeling' using precise concepts like Sonder or Liberosis instantly down-regulate amygdala distress?"
+    concept: "Prefrontal Linguistic Attenuation"
+    answer: "The brain treats unnamed, amorphous emotional states as ambiguous threats. Applying a granular, precise linguistic label activates the ventrolateral prefrontal cortex, which sends inhibitory signals to the amygdala, transforming raw, terrifying sensation into an objective, diagnostic map."
+last_updated: "2026-09-02"
 ---
 
 Human suffering often thrives in the dark corners of the mind where sensations have no names.
