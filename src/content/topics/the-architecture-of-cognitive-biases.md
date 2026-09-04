@@ -6,21 +6,39 @@ volume_title: "Philosophy of Action & Metacognition"
 order_in_volume: 15
 archetype: "CANONICAL_CONCEPT"
 reading_time_minutes: 5
-summary_15s: "Your brain is a survival engine, not a truth teller. It exaggerates fear, projects negative judgments, and invents catastrophic futures to keep you safe in comfort. Do not believe everything you think—cross-examine your distortions with courtroom evidence, and let disciplined physical action lead th"
+summary_15s: "Your brain is a survival engine, not a truth teller. It exaggerates fear, projects negative judgments, and invents catastrophic futures to keep you safe in comfort. Do not believe everything you think—cross-examine your distortions with courtroom evidence, and let disciplined physical action lead the way."
 tags:
   - "neurobiology"
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+mental_models:
+  - "The Five Daily Cognitive Distortions (Aaron Beck)"
+  - "The Affective Forecasting Error"
+  - "The Courtroom Cross-Examination Protocol"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-BECK-KAHNEMAN-BIASES"
+    title: "Cognitive Therapy of Depression & Thinking, Fast and Slow"
+    creator: "Aaron T. Beck, M.D. & Daniel Kahneman, Ph.D."
+    url: "https://en.wikipedia.org/wiki/Cognitive_distortion"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "Evolutionary Survival Mandate: The brain evolved to conserve metabolic calories and assume maximum threat rather than compute objective truth"
+      - claim: "Affective Forecasting Error: Predicting that future tasks will be as agonizing as your current state of low energy causes anticipatory paralysis"
+      - claim: "Cognitive Restructuring (The Courtroom Test): Subpoenaing empirical evidence for and against an anxious thought dissolves irrational cognitive distortions"
+active_recall:
+  - question: "Why does the human brain instinctively manufacture cognitive distortions like catastrophizing and mind-reading?"
+    concept: "Evolutionary Threat & Energy Minimization"
+    answer: "Ancestral survival prioritized two rules: minimize metabolic calorie expenditure and assume maximum threat (a rustle in the bushes is a predator, not the wind). Catastrophizing and rationalization are safety algorithms designed to keep you in climate-controlled comfort and avoid perceived physical or social exposure."
+  - question: "How does the 'Courtroom Test' dismantle the Affective Forecasting Error during acute resistance?"
+    concept: "Cognitive Restructuring Heuristic"
+    answer: "The Affective Forecasting Error assumes that because you feel sluggish now, working for 60 minutes will feel agonizing. The Courtroom Test asks: 'What is the empirical admissible evidence?' Real-world evidence reveals that within 5 minutes of starting, dopamine engages and resistance vanishes. Action precedes motivation."
+last_updated: "2026-09-04"
 ---
 
 One of the greatest milestones in mental maturity is the realization that **not every thought that arises in your mind is true**.

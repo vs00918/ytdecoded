@@ -17,10 +17,24 @@ relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-HOUSEL-PSYCHOLOGY"
+    title: "The Psychology of Money & The Boglehead Allocation Philosophy"
+    creator: "Morgan Housel & John C. Bogle"
+    url: "https://www.bogleheads.org/wiki/Bogleheads%C2%AE_investment_philosophy"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The 9-to-5 Low-Variance Cashflow Engine: Steady salaried income provides an emotional buffer against forced selling during market downturns"
+      - claim: "The Rent vs Buy Real Cost Paradox: Long-term mortgages incur 2x-2.5x total cost in interest, property taxes, and illiquidity compared to disciplined renting and equity SIP investing"
+      - claim: "Frictional Drag in Retail Speculation: Over 90% of active retail traders lose capital over 3 years due to fees, taxes, and emotional panic"
+active_recall:
+  - question: "Why does a predictable 9-to-5 salary function as an asymmetric investing superpower rather than a career trap?"
+    concept: "The Low-Variance Capital Engine"
+    answer: "When regular expenses are fully met by steady salary cashflow, an investor possesses the superpower of time without forced liquidation. They can maintain automated SIP contributions through market downturns without panic, capturing long-term equity compounding."
+  - question: "What is the mechanical flaw in viewing a 30-year mortgaged primary residence as an optimal wealth-building asset?"
+    concept: "The Mortgage Interest & Opportunity Cost Equation"
+    answer: "During the first 7-10 years, the vast majority of mortgage payments service bank interest rather than principal reduction, often totaling 2x to 2.5x the purchase price over 30 years. Renting and systematically investing the difference into diversified broad-market equities preserves liquidity and avoids continuous unrecoverable maintenance and tax drag."
+last_updated: "2026-09-04"
 ---
 
 Money is often treated as a game of high-risk gambles or instant windfalls. In reality, true financial autonomy is a discipline of **structural engineering**: turning predictable income into durable assets while eliminating hidden friction, high-interest debt, and emotional decision-making.

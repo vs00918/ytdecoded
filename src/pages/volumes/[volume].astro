@@ -70,23 +70,26 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
         </div>
         
         <nav class="spine-nav-list" aria-label="Chapters in this volume">
-          {renderedTopics.map(({ topic }) => (
-            <a 
-              href={`#chapter-${topic.data.order_in_volume}`} 
-              class="spine-nav-link" 
-              id={`spine-item-${topic.data.order_in_volume}`}
-              data-chapter-num={topic.data.order_in_volume}
-              title={`Chapter ${topic.data.order_in_volume}: ${topic.data.title}`}
-            >
-              <span class="spine-node-indicator">
-                <span class="spine-node-dot"></span>
-              </span>
-              <div class="spine-link-body">
-                <span class="spine-chapter-num">#{topic.data.order_in_volume}</span>
-                <span class="spine-chapter-name">{topic.data.title}</span>
-              </div>
-            </a>
-          ))}
+          {renderedTopics.map(({ topic }, idx) => {
+            const chapterSeq = idx + 1;
+            return (
+              <a 
+                href={`#chapter-${chapterSeq}`} 
+                class="spine-nav-link" 
+                id={`spine-item-${chapterSeq}`}
+                data-chapter-num={chapterSeq}
+                title={`Chapter ${chapterSeq}: ${topic.data.title}`}
+              >
+                <span class="spine-node-indicator">
+                  <span class="spine-node-dot"></span>
+                </span>
+                <div class="spine-link-body">
+                  <span class="spine-chapter-num">#{chapterSeq}</span>
+                  <span class="spine-chapter-name">{topic.data.title}</span>
+                </div>
+              </a>
+            );
+          })}
         </nav>
       </div>
     </aside>
@@ -125,14 +128,15 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
     <div class="volume-chapters-flow">
       {renderedTopics.map(({ topic, Content, readingTime, relBundle }, idx) => {
         const primarySource = topic.data.sources && topic.data.sources.length > 0 ? topic.data.sources[0] : null;
+        const chapterSeq = idx + 1;
 
         return (
-          <article id={`chapter-${topic.data.order_in_volume}`} class="volume-chapter-article">
+          <article id={`chapter-${chapterSeq}`} class="volume-chapter-article">
             
             <!-- Chapter Header -->
             <header class="reader-header">
               <div class="chapter-sequence-badge">
-                CHAPTER {topic.data.order_in_volume} OF {renderedTopics.length}
+                CHAPTER {chapterSeq} OF {renderedTopics.length}
               </div>
 
               <h2 class="reader-topic-title" data-pagefind-meta="title">

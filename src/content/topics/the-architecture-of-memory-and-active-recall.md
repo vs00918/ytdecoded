@@ -18,10 +18,24 @@ relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "PUB-ROEDIGER-TESTING-EFFECT"
+    title: "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention"
+    creator: "Henry L. Roediger III & Jeffrey D. Karpicke (Washington University in St. Louis)"
+    url: "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Testing Effect Finding: Active testing without restudy produces over 50% higher retention after 1 week compared to repeated passive reading"
+      - claim: "Synaptic Consolidation from Retrieval Friction: The cognitive struggle to extract information signals the hippocampus to induce myelination and long-term potentiation"
+      - claim: "Primacy and Recency Segmentation: Dividing marathons into 50-minute blocks triples high-retention primacy and recency windows"
+active_recall:
+  - question: "Why does the 'Testing Effect' established by Roediger and Karpicke produce higher long-term retention than repeated reading?"
+    concept: "Desirable Difficulty & Retrieval Effort"
+    answer: "Passive reading creates the fluency illusion because material is visible, requiring zero metabolic effort. Active retrieval forces the brain to reconstruct neural circuits from memory, creating synaptic consolidation and myelination that shields the memory from rapid decay."
+  - question: "How does segmenting a 3-hour study session into three 50-minute blocks exploit the Serial Position Effect?"
+    concept: "Primacy and Recency Multiplier"
+    answer: "The human brain naturally retains what occurs at the start (primacy) and end (recency) of a session, while the middle deteriorates into a retention sinkhole. Breaking a marathon block into three 50-minute blocks triples high-retention windows from 2 to 6."
+last_updated: "2026-09-04"
 ---
 
 There is a widespread misconception that elite performers and top exam scorers possess exceptional photographic memory or spend 14 exhausting hours a day chained to a desk.

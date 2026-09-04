@@ -6,7 +6,7 @@ volume_title: "The Architecture of Social Sovereignty"
 order_in_volume: 32
 archetype: "MASTERCLASS_LECTURE"
 reading_time_minutes: 7
-summary_15s: "Writing and speaking are not acts of self-expression; they are acts of reader transformation. Strip away the school habit of showing what you know. Create instability by exposing hidden flaws, anchor your sentences in topic-stress alignment, fence your ideas with surgical precision, and deliver sove"
+summary_15s: "Writing and speaking are not acts of self-expression; they are acts of reader transformation. Strip away the school habit of showing what you know. Create instability by exposing hidden flaws, anchor your sentences in topic-stress alignment, fence your ideas with surgical precision, and deliver sovereign clarity."
 tags:
   - "neurobiology"
   - "metacognition"
@@ -20,9 +20,31 @@ relationships:
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "YT-Unzc731iCUY"
+    title: "How to Speak"
+    creator: "Patrick Winston (MIT OpenCourseWare)"
+    url: "https://www.youtube.com/watch?v=Unzc731iCUY"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The Winston Communication Formula: Realized Leverage = Quality of Ideas x Ability to Write x Ability to Speak; zero capacity to transmit leaves powerful insights inert"
+        timestamp: "01:10"
+      - claim: "The Empowerment Promise: Open the transmission within the first minute with an explicit contract of what the audience will know or be able to do"
+        timestamp: "03:45"
+      - claim: "The Cognitive Fence: Define an idea with surgical precision by explicitly establishing what it is and what it is not, guarding against clichéd misinterpretations"
+        timestamp: "12:30"
+      - claim: "Cycling Rule of Three: Re-enter critical concepts at least three times across different vantage points to bridge attentional drift"
+        timestamp: "18:20"
+      - claim: "The Final Salute: Conclude with authority by summarizing the core transformation and saluting audience craft, never ending with an apologetic thank-you"
+        timestamp: "58:10"
+active_recall:
+  - question: "Why does Patrick Winston's communication formula state that your realized leverage is multiplicative rather than additive?"
+    concept: "Multiplicative Communication Leverage"
+    answer: "Because Realized Leverage = Knowledge x Ability to Write x Ability to Speak. If either your ability to write or speak clearly is zero, your total realized leverage is zero regardless of how brilliant or rigorous your underlying ideas are."
+  - question: "How does 'Building a Cognitive Fence' protect a novel concept from being distorted by an audience's pre-existing biases?"
+    concept: "Boundary Fencing & Conceptual Demarcation"
+    answer: "When audiences hear a new idea, their minds automatically map it onto familiar clichés. A cognitive fence explicitly defines what the idea IS NOT before stating what it IS, preventing lazy assimilation and preserving conceptual precision."
+last_updated: "2026-09-04"
 ---
 
 In the modern knowledge economy, the trajectory of your life and influence is heavily dictated by a simple mathematical reality:

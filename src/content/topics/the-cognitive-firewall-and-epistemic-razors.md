@@ -2,7 +2,7 @@
 id: "the-cognitive-firewall-and-epistemic-razors"
 title: "The Cognitive Firewall — Epistemic Razors, Fallacy Detection & The Principle of Charity"
 volume: 3
-volume_title: "Dismantling Internal Saboteurs"
+volume_title: "Philosophy of Action & Metacognition"
 order_in_volume: 16
 archetype: "DIALECTIC_ESSAY"
 reading_time_minutes: 5

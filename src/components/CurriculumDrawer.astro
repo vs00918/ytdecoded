@@ -37,11 +37,12 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
           </summary>
 
           <ul class="topic-sublist">
-            {volGroup.topics.map((topic) => {
+            {volGroup.topics.map((topic, idx) => {
+              const chapterSeq = idx + 1;
               const isActive = topic.slug === currentSlug;
               // If we are currently on the volume continuous reader for this volume, link to in-page #chapter-N
               const targetHref = (currentVolume && currentVolume === volGroup.volume)
-                ? `#chapter-${topic.data.order_in_volume}`
+                ? `#chapter-${chapterSeq}`
                 : `/ytdecoded/topics/${topic.slug}/`;
 
               return (
@@ -49,10 +50,10 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
                   <a 
                     href={targetHref} 
                     class="topic-nav-link" 
-                    data-inpage-chapter={currentVolume && currentVolume === volGroup.volume ? String(topic.data.order_in_volume) : undefined}
+                    data-inpage-chapter={currentVolume && currentVolume === volGroup.volume ? String(chapterSeq) : undefined}
                     aria-current={isActive ? 'page' : undefined}
                   >
-                    <span class="topic-order">#{topic.data.order_in_volume}</span>
+                    <span class="topic-order">#{chapterSeq}</span>
                     <span class="topic-label">{topic.data.title}</span>
                   </a>
                 </li>

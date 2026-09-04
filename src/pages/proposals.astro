@@ -26,8 +26,8 @@ const appliedCount = proposals.filter((p) => p.state === 'APPLIED').length;
 const rejectedCount = proposals.filter((p) => p.state === 'REJECTED').length;
 ---
 
-<ReaderLayout title="Human Curation Workbench — Proposals" description="Inspect, review, and decide on AI-extracted synthesis proposals before canonical integration.">
-  <main class="reader-container" style="max-width: 1000px; padding: 2rem 1.5rem;">
+<ReaderLayout title="Human Curation Workbench — Proposals" description="Inspect, review, and decide on AI-extracted synthesis proposals before canonical integration." isSearchIndexed={false}>
+  <div class="proposals-wrapper" data-pagefind-ignore style="max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem;">
     <header style="margin-bottom: 2.5rem; border-bottom: 1px solid var(--border-color, #e5e7eb); padding-bottom: 1.5rem;">
       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
         <div>
@@ -38,7 +38,7 @@ const rejectedCount = proposals.filter((p) => p.state === 'REJECTED').length;
           </p>
         </div>
         <div style="display: flex; gap: 0.8rem;">
-          <a href="/" style="padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid var(--border-color); color: var(--text-color); text-decoration: none; font-size: 0.85rem; font-weight: 500;">← Back to Codex</a>
+          <a href="/ytdecoded/" style="padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid var(--border-color); color: var(--text-color); text-decoration: none; font-size: 0.85rem; font-weight: 500;">← Back to Codex</a>
         </div>
       </div>
 
@@ -105,7 +105,7 @@ const rejectedCount = proposals.filter((p) => p.state === 'REJECTED').length;
             </div>
 
             <div style="display: flex; justify-content: flex-end; gap: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 0.8rem;">
-              <a href={`/proposals/${prop.proposal_id}`} style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.9rem; border-radius: 6px; background: #1e293b; color: #fff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">
+              <a href={`/ytdecoded/proposals/${prop.proposal_id}/`} style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.9rem; border-radius: 6px; background: #1e293b; color: #fff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">
                 Inspect Diff & Decide →
               </a>
             </div>
@@ -113,5 +113,5 @@ const rejectedCount = proposals.filter((p) => p.state === 'REJECTED').length;
         ))}
       </div>
     )}
-  </main>
+  </div>
 </ReaderLayout>

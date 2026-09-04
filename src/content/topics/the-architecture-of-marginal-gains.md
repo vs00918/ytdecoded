@@ -12,15 +12,33 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+mental_models:
+  - "The Aggregation of Marginal Gains (Dave Brailsford)"
+  - "Multiplicative Systems vs Linear Addition"
+  - "The Latent Plateau of Compounding"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-BRAILSFORD-CLEAR-MARGINAL-GAINS"
+    title: "The Aggregation of Marginal Gains & Atomic Compounding"
+    creator: "Sir Dave Brailsford & James Clear"
+    url: "https://jamesclear.com/marginal-gains"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The 1% Micro-Calibration Principle: Deconstructing an entire endeavor into sub-components and improving each by 1% creates a multiplicative surge in systemic output"
+      - claim: "Multiplicative Systems vs Linear Addition: Yield = Sleep x Environment x Method x Equanimity; small percentage improvements across independent variables multiply exponentially"
+      - claim: "The Latent Plateau: Early compounding occurs below the threshold of visible results, requiring sustained faith before reaching the exponential inflection point"
+active_recall:
+  - question: "Why is the aggregation of marginal gains described as a 'Multiplicative System' rather than linear addition?"
+    concept: "Multiplicative Systems Engineering"
+    answer: "Linear thinking assumes working 10% harder yields 10% more output (often inducing burnout). In complex performance, overall yield is the product of interrelated sub-systems (Sleep x Focus Environment x Retrieval Method x Emotional Equanimity). A 5% improvement across four factors multiplies exponentially, delivering over 21% compound improvement."
+  - question: "How does understanding the 'Latent Plateau' prevent premature abandonment of disciplined study habits?"
+    concept: "Delayed Compounding & The Iceberg Effect"
+    answer: "In compounding systems, energy is stored during early iterations without visible external change (like heating an ice cube from 25°F to 31°F without melting). The breakthrough occurs at 32°F. Recognizing the latent plateau ensures you maintain consistency during the invisible storage phase before the compounding inflection."
+last_updated: "2026-09-04"
 ---
 
 The popular aphorism *"get 1% better every day"* is frequently dismissed as motivational fluff.

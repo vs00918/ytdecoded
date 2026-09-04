@@ -18,10 +18,24 @@ relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-MUSK-BOYD-FIRST-PRINCIPLES"
+    title: "First Principles Thinking & Fast Feedback Loops in Engineering Physics"
+    creator: "Elon Musk & Col. John Boyd (OODA Loop)"
+    url: "https://en.wikipedia.org/wiki/First_principle"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The Compression Law of Iteration: Executing twice as many focused iteration hours compresses 12 months of skill acquisition into 6 months"
+      - claim: "First Principles vs Analogy: Reasoning by analogy copies conventional consensus; first principles boils a domain down to fundamental truths and reasons up"
+      - claim: "The Rapid Feedback Loop: Real learning velocity is governed by the time delay between executing an action and receiving corrective diagnostic reality"
+active_recall:
+  - question: "Why is talent considered a static 'floor' while iteration velocity dictates the performance 'ceiling'?"
+    concept: "The Compression Law of Execution"
+    answer: "Talent and initial aptitude represent starting conditions. In dynamic fields, the performer who executes twice the focused weekly hours runs through iteration cycles twice as fast, generating proprietary error-correction data that compounds logarithmically over years, leaving static talent far behind."
+  - question: "How does 'First-Principles Thinking' prevent an examinee or builder from being trapped by consensus dogma?"
+    concept: "Fundamental Grounding vs Analogy"
+    answer: "Reasoning by analogy asks: 'How has everyone else always done this?'—inheriting all conventional inefficiencies. First-principles thinking strips away tradition, identifies the non-negotiable physical constraints (the syllabus, the scoring rubric, the core concepts), and constructs the most direct possible execution path from scratch."
+last_updated: "2026-09-04"
 ---
 
 In modern culture, the concept of hard work is often debated through polar extremes: either praised blindly as mindless hustle or dismissed as inefficient burnout.

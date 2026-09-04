@@ -12,15 +12,33 @@ tags:
   - "metacognition"
   - "execution"
   - "wealth"
-mental_models: []
+mental_models:
+  - "The 3-Second Rule (Limbic Override)"
+  - "Identity-Based Anchoring"
+  - "The Mathematics of Compound Neglect"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-CLEAR-ROBBINS-DISCIPLINE"
+    title: "Atomic Habits & The 5 Second Rule"
+    creator: "James Clear & Mel Robbins"
+    url: "https://jamesclear.com/identity-based-habits"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The Translation Layer Failure: Indiscipline is rarely a lack of information; it is a breakdown between conscious intent and immediate physical action"
+      - claim: "The 3-Second Limbic Window: Hesitating longer than 3 seconds allows the amygdala and prefrontal cortex to manufacture rationalizations that abort action"
+      - claim: "Identity-Based Anchoring: Shifting from outcome goals ('I want to pass') to identity invariants ('I am someone who never misses my morning focus block') eliminates constant negotiation"
+active_recall:
+  - question: "Why does hesitating longer than 3 seconds almost guarantee an indisciplined compromise?"
+    concept: "The Limbic Hesitation Trap"
+    answer: "When you hesitate, your ancient mammalian brain detects the impending cognitive friction as a threat to metabolic energy. Within 3 seconds, the left-brain interpreter manufactures logical rationalizations ('I worked hard yesterday,' 'I will start at the top of the hour') to justify comfort."
+  - question: "How does 'Identity-Based Anchoring' permanently eliminate daily willpower negotiations?"
+    concept: "Identity Invariant vs Outcome Goal"
+    answer: "Outcome goals require constant emotional motivation. Identity anchors define who you are ('I am the kind of person who executes regardless of mood'). When an action becomes an identity non-negotiable, you don't debate whether you feel like doing it; you execute because doing otherwise contradicts your self-concept."
+last_updated: "2026-09-04"
 ---
 
 Chronic indiscipline is almost never caused by a lack of information.

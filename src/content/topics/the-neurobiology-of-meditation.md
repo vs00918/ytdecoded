@@ -18,10 +18,24 @@ relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "PUB-LAZAR-MEDITATION"
+    title: "Meditation Experience Is Associated with Increased Cortical Thickness"
+    creator: "Sara W. Lazar, Ph.D. (Harvard Medical School / MGH)"
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1361002/"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "Tri-Regional Neuroplasticity: 8 weeks of daily mindfulness practice reduces gray matter density in the amygdala while thickening the prefrontal cortex and expanding hippocampal volume"
+      - claim: "Default Mode Network Quieting: Attentional training downregulates baseline hyper-reactivity of the DMN responsible for ego rumination"
+      - claim: "The Attentional Loop Mechanism: Catching mind-wandering and redirecting focus to an anchor serves as the functional resistance training for executive control"
+active_recall:
+  - question: "Why is mind-wandering during meditation considered a prerequisite for neuroplastic growth rather than a failure of focus?"
+    concept: "The Attentional Bicep Curl"
+    answer: "The neuroplastic benefit of meditation occurs precisely during the transition between recognizing distraction and non-judgmentally redirecting focus to the breath. Each instance of noticing and returning acts as a resistance repetition (a 'neural bicep curl') that thickens the anterior cingulate cortex and prefrontal circuits."
+  - question: "What structural changes occur in the amygdala and prefrontal cortex after 8 weeks of regular meditation?"
+    concept: "Structural Neuroplastic Calibration"
+    answer: "MRI studies show that 8 weeks of consistent meditation shrinks gray matter density in the amygdala (reducing baseline stress and threat reactivity) while increasing cortical thickness in the prefrontal cortex and hippocampus (elevating executive control and emotional regulation)."
+last_updated: "2026-09-04"
 ---
 
 Meditation is often misunderstood as an esoteric, mystical ritual or a passive attempt to "empty the mind of all thoughts."

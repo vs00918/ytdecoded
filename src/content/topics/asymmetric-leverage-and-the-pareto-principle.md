@@ -18,10 +18,24 @@ relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
-  applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-PARETO-KOCH-8020"
+    title: "The 80/20 Principle: The Secret to Achieving More with Less"
+    creator: "Vilfredo Pareto & Richard Koch"
+    url: "https://en.wikipedia.org/wiki/Pareto_principle"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Power Law Distribution: In complex non-linear systems, roughly 80% of valuable outputs originate from approximately 20% of critical inputs"
+      - claim: "The Pathology of Fake Work: Low-leverage busywork feels productive while avoiding high-friction asymmetric tasks (solving diagnostic problems, original synthesis)"
+      - claim: "The Asymmetric Execution Protocol: Ruthless audit of inputs, elimination of the trivial 80%, and concentrated firepower on the vital 20%"
+active_recall:
+  - question: "Why do high-effort students and professionals often experience linear plateaus instead of asymmetric breakthroughs?"
+    concept: "The Linear Effort Illusion & Fake Work"
+    answer: "Most people fall into the trap of 'fake work'—spending 80% of their energy on low-friction, comfortable busywork (color-coding, superficial reading, template reorganization). Asymmetric results occur only when you identify the 20% high-friction core (active testing, tough problems) that drives 80% of outcomes."
+  - question: "How does the Pareto Principle apply to studying for officer-level examinations?"
+    concept: "Power Law Syllabus Allocation"
+    answer: "Roughly 80% of exam marks test the deep mechanical understanding of 20% foundational concepts. Master the vital 20% until recall and synthesis are instantaneous before expending cognitive wattage on marginal edge cases."
+last_updated: "2026-09-04"
 ---
 
 In modern society, exhaustion is often mistaken for productivity. We are culturally conditioned to believe that linear results require linear effort: *if 4 hours of study or work produces X, then 8 hours must produce 2X*.

@@ -6,7 +6,7 @@ volume_title: "Existential Sovereignty, Purpose & The Summit"
 order_in_volume: 37
 archetype: "CANONICAL_CONCEPT"
 reading_time_minutes: 5
-summary_15s: "Respect is not given; it is earned through an unshakeable track record of competence, internal integrity, and calm boundaries. Stop chasing the fleeting approval of others. Keep every promise you make to yourself, take radical ownership of every outcome, let your results do the talking, and become a"
+summary_15s: "Respect is not given; it is earned through an unshakeable track record of competence, internal integrity, and calm boundaries. Stop chasing the fleeting approval of others. Keep every promise you make to yourself, take radical ownership of every outcome, let your results do the talking, and become an unshakeable anchor."
 tags:
   - "neurobiology"
   - "metacognition"
@@ -14,14 +14,31 @@ tags:
   - "communication"
 mental_models:
   - "The Internal Engine: Keeping Promises to Yourself"
+  - "Radical Ownership (Jocko Willink)"
+  - "Quiet Competence vs Performative Posturing"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-WILLINK-EXTREME-OWNERSHIP"
+    title: "Extreme Ownership: How U.S. Navy SEALs Lead and Win"
+    creator: "Jocko Willink & Leif Babin"
+    url: "https://en.wikipedia.org/wiki/Extreme_Ownership"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "Radical Ownership: The sovereign individual takes absolute responsibility for all failures and variables, refusing to blame subordinates or external circumstances"
+      - claim: "Quiet Competence over Performative Posturing: True authority does not shout or status-signal; it holds non-negotiable boundaries and lets empirical output speak"
+      - claim: "Keeping Promises to Yourself: Internal self-respect and psychological stability are built exclusively on an unbroken record of kept private commitments"
+active_recall:
+  - question: "Why is 'keeping promises to yourself' considered the primary foundational engine of integrated strength?"
+    concept: "Internal Self-Trust & Integrity"
+    answer: "Your subconscious monitors your actions with precision. When you break commitments made in private (snoozing the alarm, skipping study blocks), your brain marks you as unreliable, destroying inner confidence. Keeping private promises builds an undeniable stack of proof that you can trust your own word under pressure."
+  - question: "How does 'Radical Ownership' liberate an individual from external victimhood?"
+    concept: "Radical Agency & Boundary Sovereignty"
+    answer: "Blaming external circumstances (unfair questions, bad bosses, noisy environments) abdicates your control to outside forces. Radical ownership asserts: 'Regardless of who caused this problem, I am 100% responsible for navigating the solution.' This immediately shifts the mind from paralysis to strategic agency."
+last_updated: "2026-09-04"
 ---
 
 In the modern world, the concept of strength and mature character has been heavily distorted by two extreme caricatures:

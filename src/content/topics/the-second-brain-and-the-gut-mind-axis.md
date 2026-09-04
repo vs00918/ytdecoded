@@ -23,8 +23,16 @@ relationships:
   builds_on: []
   contrasts_with: []
   applies_to:
-    - "the-neurochemistry-of-focus-and-dopamine-transition"
-sources: []
+sources:
+  - source_id: "PUB-ENS-GUTBRAIN"
+    title: "The Enteric Nervous System and Gut-Brain Axis"
+    creator: "Michael D. Gershon, M.D. (Columbia University / 'The Second Brain')"
+    url: "https://www.nature.com/articles/nrn3346"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Enteric Autonomous Circuit: Over 100 million neurons lining the GI tract govern independent digestion and synthesize over 90% of peripheral serotonin"
+      - claim: "Vagus Nerve Afferent Dominance: 80% to 90% of vagal nerve fibers carry ascending sensory information from gut to brain"
+      - claim: "Systemic Leaky Barrier Neuro-Inflammation: Epithelial junction permeability triggers systemic cytokine release that crosses the blood-brain barrier, inducing cognitive fog"
 active_recall:
   - question: "How does the bottom-up signaling of the Vagus Nerve explain why gastrointestinal distress causes anxiety and brain fog?"
     concept: "Enteric Neurochemical Signaling"

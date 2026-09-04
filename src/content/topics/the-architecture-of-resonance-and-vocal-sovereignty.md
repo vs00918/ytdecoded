@@ -18,9 +18,29 @@ relationships:
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "YT-eIho2S0ZahI"
+    title: "How to Speak So That People Want to Listen"
+    creator: "Julian Treasure (TED)"
+    url: "https://www.youtube.com/watch?v=eIho2S0ZahI"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The 7 Deadly Sins of Speaking: Gossip, judging, negativity, complaining, excuses, exaggeration, and dogmatism destroy listener receptivity"
+        timestamp: "01:45"
+      - claim: "The HAIL Compass: Four cornerstones for powerful speech — Honesty (clear truth), Authenticity (standing in your own skin), Integrity (being your word), and Love (wishing them well)"
+        timestamp: "04:20"
+      - claim: "The Physical Vocal Toolbox: Register (speaking from the chest for gravitas), timbre, prosody, pacing, pitch, and silence/strategic pause"
+        timestamp: "06:10"
+      - claim: "The Strategic Pause: Silence before speaking commands attention and triples the weight of words over filler words"
+        timestamp: "07:50"
+active_recall:
+  - question: "What are the four cornerstones of Julian Treasure's HAIL framework, and why is 'love' essential to honest communication?"
+    concept: "The HAIL Acoustic-Ethical Compass"
+    answer: "HAIL stands for Honesty, Authenticity, Integrity, and Love (benevolence). Honesty without love is cruelty; love without honesty is sentimentality. Grounding speech in wishing the listener genuine good ensures that hard truths are received constructively rather than defensively."
+  - question: "Why does shifting your vocal register from the throat/nose to the chest cavity transform perceived authority?"
+    concept: "Chest Resonance & Autonomic Authority"
+    answer: "High, nasal or throat registers signal sympathetic nervous system tension and anxiety. Resonating from the chest cavity produces deeper acoustic frequencies associated with calm parasympathetic regulation, projecting grounded evolutionary gravitas and unshakeable inner composure."
+last_updated: "2026-09-04"
 ---
 
 The human voice is the most powerful instrument on earth. It is the sole medium that can start a war, declare love, inspire a generation, or dismantle a career.

@@ -6,21 +6,39 @@ volume_title: "Philosophy of Action & Metacognition"
 order_in_volume: 19
 archetype: "DIALECTIC_ESSAY"
 reading_time_minutes: 5
-summary_15s: "Social comparison is comparing your raw internal backstage with someone else's curated front stage. You cannot trade for someone's victory without adopting their entire life and struggle. Step out of the status game, measure yourself strictly against your past baseline, and let deep craft be your on"
+summary_15s: "Social comparison is comparing your raw internal backstage with someone else's curated front stage. You cannot trade for someone's victory without adopting their entire life and struggle. Step out of the status game, measure yourself strictly against your past baseline, and let deep craft be your only metric."
 tags:
   - "neurobiology"
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+mental_models:
+  - "The Evolutionary Mismatch of Comparison"
+  - "The Backstage Fallacy (Asymmetric Information)"
+  - "The Complete Package Trade Heuristic (Naval Ravikant)"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-FESTINGER-RAVIKANT-COMPARISON"
+    title: "A Theory of Social Comparison Processes & The Package Trade Heuristic"
+    creator: "Leon Festinger & Naval Ravikant"
+    url: "https://en.wikipedia.org/wiki/Social_comparison_theory"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "The Evolutionary Comparison Mismatch: Ancestral brains calibrated to 150-person tribes are now exposed to the global top 0.01%, falsely concluding they are at the bottom of the tribe"
+      - claim: "The Backstage Fallacy: You compare all your internal chaos, doubts, and fatigue against another person's polished, curated highlight reel"
+      - claim: "The Complete Package Trade Heuristic: You cannot cherry-pick another person's status or wealth without trading 100% of their neurology, childhood, health, and private misery"
+active_recall:
+  - question: "Why does the 'Complete Package Trade Heuristic' instantly dissolve envy towards successful peers?"
+    concept: "The Package Trade Inversion"
+    answer: "Envy operates on a delusion: wanting someone else's achievement or wealth while keeping your own identity, relationships, and health. The heuristic forces reality: you cannot have their success unless you accept 100% of their life—their childhood, physical ailments, private grief, and mental state. Almost nobody genuinely wishes to erase their own identity completely."
+  - question: "What is the 'Backstage Fallacy' in social comparison?"
+    concept: "Asymmetric Information Trap"
+    answer: "You possess complete 24/7 access to your own backstage (your doubts, procrastination, awkward thoughts, and physical tiredness), but you only ever see the curated, edited front-stage performance of others. Comparing your raw backstage to their front stage produces a false verdict of inadequacy."
+last_updated: "2026-09-04"
 ---
 
 Social comparison is one of the deepest drivers of human anxiety, imposter syndrome, and emotional exhaustion.

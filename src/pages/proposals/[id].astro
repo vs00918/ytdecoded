@@ -44,11 +44,11 @@ if (proposal.target_topic_slug) {
 }
 ---
 
-<ReaderLayout title={`Review Proposal: ${proposal.proposal_id}`} description={`Curation inspection view for proposal ${proposal.proposal_id}`}>
-  <main class="reader-container" style="max-width: 900px; padding: 2rem 1.5rem;">
+<ReaderLayout title={`Review Proposal: ${proposal.proposal_id}`} description={`Curation inspection view for proposal ${proposal.proposal_id}`} isSearchIndexed={false}>
+  <div class="proposal-detail-wrapper" data-pagefind-ignore style="max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem;">
     <!-- Navigation Header -->
     <nav style="margin-bottom: 1.5rem;">
-      <a href="/proposals" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500;">← Back to Proposals Queue</a>
+      <a href="/ytdecoded/proposals/" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500;">← Back to Proposals Queue</a>
     </nav>
 
     <!-- Header & Status -->
@@ -137,5 +137,5 @@ if (proposal.target_topic_slug) {
         </span>
       </div>
     </section>
-  </main>
+  </div>
 </ReaderLayout>

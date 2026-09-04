@@ -6,20 +6,37 @@ volume_title: "The Architecture of Social Sovereignty"
 order_in_volume: 27
 archetype: "DIALECTIC_ESSAY"
 reading_time_minutes: 4
-summary_15s: "Do not internalize the pathologies of a broken system as personal moral flaws. Take radical responsibility for your own effort, but view the external world through the lens of structural realism. Master your inner craft, navigate the outer terrain with sharp awareness, and execute with quiet confide"
+summary_15s: "Do not internalize the pathologies of a broken system as personal moral flaws. Take radical responsibility for your own effort, but view the external world through the lens of structural realism. Master your inner craft, navigate the outer terrain with sharp awareness, and execute with quiet confidence."
 tags:
   - "metacognition"
   - "execution"
   - "resilience"
-mental_models: []
+mental_models:
+  - "Personal Troubles vs Public Issues (C. Wright Mills)"
+  - "Structural Clarity vs Individualized Blame"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-MILLS-IMAGINATION"
+    title: "The Sociological Imagination"
+    creator: "C. Wright Mills (Oxford University Press)"
+    url: "https://en.wikipedia.org/wiki/The_Sociological_Imagination"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "Personal Troubles vs Public Issues: Distinguishes individual character friction from macro-structural, technological, and economic shifts"
+      - claim: "The Unemployment Diagnostic: 1 unemployed out of 100,000 is a personal trouble; 15 million unemployed out of 50 million is a structural public issue"
+      - claim: "The Attention Economy Diagnostic: Algorithmic screen addiction is an engineered public issue requiring macro-defenses, not merely individual willpower"
+active_recall:
+  - question: "How does C. Wright Mills define the difference between a 'Personal Trouble' and a 'Public Issue'?"
+    concept: "The Sociological Imagination Diagnostic"
+    answer: "A Personal Trouble occurs within the character and direct biographical scope of the individual (requiring personal discipline and skills). A Public Issue transcends the individual and reflects broader institutional, economic, or technological forces shaping millions (requiring structural navigation and tactical positioning rather than self-flagellation)."
+  - question: "Why is treating widespread digital distraction purely as an 'individual willpower defect' a toxic misdiagnosis?"
+    concept: "Structural Realism & Attention Economics"
+    answer: "Trillion-dollar technology firms employ thousands of neuroscientists and algorithms to deliberately exploit mammalian dopamine circuitry. Viewing digital distraction strictly as personal weakness leads to demoralization; viewing it as an adversarial structural reality allows you to build deliberate physical and digital moats."
+last_updated: "2026-09-04"
 ---
 
 When things go wrong in life—when a job search stalls, when focus feels impossible in an app-saturated world, or when cost-of-living pressures squeeze your budget—the modern culture teaches you to turn 100% of the blame inward.

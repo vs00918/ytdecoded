@@ -6,7 +6,7 @@ volume_title: "Philosophy of Action & Metacognition"
 order_in_volume: 20
 archetype: "CANONICAL_CONCEPT"
 reading_time_minutes: 6
-summary_15s: "You are not lazy, broken, or lacking in energy. You are an energetic powerhouse being quietly drained by open loops, emotional guilt, metabolic crashes, and unmanaged plumbing. Patch the invisible leaks, clear your subconscious RAM, build unbreakable environmental riverbanks, and direct your full wa"
+summary_15s: "You are not lazy, broken, or lacking in energy. You are an energetic powerhouse being quietly drained by open loops, emotional guilt, metabolic crashes, and unmanaged plumbing. Patch the invisible leaks, clear your subconscious RAM, build unbreakable environmental riverbanks, and direct your full wattage toward your craft."
 tags:
   - "neurobiology"
   - "metacognition"
@@ -14,14 +14,31 @@ tags:
   - "communication"
 mental_models:
   - "The Conservation Law of Psychic Energy"
+  - "The Four Invisible Energy Thieves"
+  - "The Principle of Sublimation"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-FREUD-CSIKSZENTMIHALYI-PSYCHIC-ENERGY"
+    title: "Flow & The Dynamics of Psychic Energy"
+    creator: "Mihaly Csikszentmihalyi & Analytical Psychodynamics"
+    url: "https://en.wikipedia.org/wiki/Flow_(psychology)"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "Conservation Law of Psychic Energy: The nervous system possesses finite daily metabolic attention that cannot be destroyed, only canalized or leaked"
+      - claim: "Open Loop Bleed: Incomplete tasks and broken commitments occupy subconscious working memory (Zeigarnik Effect), generating continuous cognitive drag"
+      - claim: "Sublimation & Environmental Riverbanks: Restricting easy distraction channels raw drive toward challenging creative and analytical pursuits"
+active_recall:
+  - question: "Why does the 'Conservation Law of Psychic Energy' argue that chronic procrastination is not an energy deficit?"
+    concept: "Psychic Energy Canalization"
+    answer: "The human nervous system has abundant metabolic wattage (proven by the fact that an 'undisciplined' person can engage in video games or debates for hours without fatigue). Procrastination is a canalization problem: energy is drained by open loops, guilt debt, and glucose crashes rather than directed into deep craft."
+  - question: "How does the 'Zeigarnik Effect' explain why unwritten to-do lists drain focus during deep study blocks?"
+    concept: "Open Loop Subconscious Bleed"
+    answer: "When a commitment or task remains unclosed and unwritten in a trusted external system, the subconscious keeps the loop active in working memory RAM, continually firing reminder impulses that fragment prefrontal focus."
+last_updated: "2026-09-04"
 ---
 
 When people struggle with chronic distraction, afternoon lethargy, or lack of discipline, they almost universally diagnose themselves with an **energy deficit**: *"I just don't have enough drive, energy, or stamina to do what needs to be done."*

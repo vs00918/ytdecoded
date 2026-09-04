@@ -12,15 +12,31 @@ tags:
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+mental_models:
+  - "The Diderot Effect & Habit Cascades"
+  - "The Lead Domino Invariant"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-DIDEROT-1769"
+    title: "Regrets on Parting with My Old Dressing Gown"
+    creator: "Denis Diderot"
+    url: "https://www.marxists.org/reference/archive/diderot/1769/regrets.htm"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "The Diderot Spiral: A new stimulus introduces cognitive discord with existing context, creating an involuntary chain reaction of complementary acquisitions"
+      - claim: "Habit Cascades in Behavioral Economics: Habits operate as interconnected domino chains where the primary trigger sets the deterministic trajectory of subsequent choices"
+active_recall:
+  - question: "How does the 'Diderot Effect' trigger both destructive financial spending and positive behavioral habit loops?"
+    concept: "Contextual Harmony & Behavioral Cascades"
+    answer: "The human mind constantly strives for environmental harmony. A single new anchor item or behavior highlights disharmony in surrounding routines. In a negative cascade, one impulse purchase or missed workout triggers complementary compromises; in a positive cascade, an uncompromising morning routine naturally pulls reading, nutrition, and focus upward."
+  - question: "Why is identifying and protecting the 'Lead Domino' more effective than fighting four separate bad habits?"
+    concept: "The Lead Domino Invariant"
+    answer: "Most daily struggles (e.g. junk food, lethargy, screen addiction, late sleep) are not four isolated willpower battles; they are symptoms of a single collapsed lead domino (such as eating a high-glycemic breakfast or checking notifications in bed). Fixing the lead domino prevents the entire cascade."
+last_updated: "2026-09-04"
 ---
 
 Most people treat their habits as isolated events. You might believe that eating junk food, skipping a workout, mindlessly scrolling social media, and staying up late are four distinct problems requiring four separate battles of willpower. 

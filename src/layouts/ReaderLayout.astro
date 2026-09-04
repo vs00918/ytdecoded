@@ -15,6 +15,7 @@ interface Props {
   isWideLayout?: boolean;
   isVolumeLayout?: boolean;
   hideNavSearch?: boolean;
+  isSearchIndexed?: boolean;
 }
 
 const { 
@@ -24,7 +25,8 @@ const {
   currentVolume,
   isWideLayout = false,
   isVolumeLayout = false,
-  hideNavSearch = false 
+  hideNavSearch = false,
+  isSearchIndexed = true
 } = Astro.props;
 
 const allTopics = await getCollection('topics');
@@ -170,7 +172,11 @@ const allVolumes = getVolumeGroups(allTopics);
     </div>
   </header>
 
-  <main class={`reader-container ${isWideLayout ? 'wide-layout' : ''} ${isVolumeLayout ? 'volume-layout' : ''}`} id="main-content" data-pagefind-body>
+  <main 
+    class={`reader-container ${isWideLayout ? 'wide-layout' : ''} ${isVolumeLayout ? 'volume-layout' : ''}`} 
+    id="main-content" 
+    {...(isSearchIndexed ? { 'data-pagefind-body': true } : { 'data-pagefind-ignore': true })}
+  >
     <slot />
   </main>
 </body>

@@ -6,21 +6,39 @@ volume_title: "Philosophy of Action & Metacognition"
 order_in_volume: 5
 archetype: "TACTICAL_FRAMEWORK"
 reading_time_minutes: 5
-summary_15s: "Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable"
+summary_15s: "Monk Mode is not about punishment; it is about reclaiming your sovereignty. Eliminate cheap stimulation, guard your morning deep work, train your physical body, fuel your biology, and close every day with honest reflection. When you master your daily non-negotiables, mental rebirth is the inevitable result."
 tags:
   - "neurobiology"
   - "metacognition"
   - "execution"
   - "communication"
-mental_models: []
+mental_models:
+  - "The Monk Mode Pentad"
+  - "The Autopilot Trap (DMN Dominance)"
+  - "Dopamine Resensitization"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-NEWPORT-DEEPWORK-HIGHAGENCY"
+    title: "Deep Work: Rules for Focused Success in a Distracted World"
+    creator: "Cal Newport, Ph.D. (Georgetown University)"
+    url: "https://calnewport.com/deep-work-rules-for-focused-success-in-a-distracted-world/"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The High-Agency Operating System: Structured elimination of low-value digital chatter restores baseline striatal dopamine receptor sensitivity"
+      - claim: "Monastic Deep Work Sprints: 90 to 120 minutes of unbroken single-tasking compounds cognitive capital beyond fragmented multi-tasking"
+      - claim: "The Daily Non-Negotiable Invariant: Setting non-negotiable health and work boundaries shifts executive control from reactive default mode to sovereign agency"
+active_recall:
+  - question: "Why does Cal Newport's Monk Mode model prioritize a digital blackout to restore executive study endurance?"
+    concept: "Striatal Dopamine Receptor Resensitization"
+    answer: "Hyper-stimulating algorithmic media desensitizes dopamine D2 receptors in the striatum, making low-stimulation cognitive work (reading dense material or solving multi-step proofs) feel excruciatingly boring. Eliminating cheap digital dopamine restores receptor sensitivity, making intellectual craft intrinsically rewarding."
+  - question: "What are the 5 Non-Negotiable Pillars of the Monk Mode high-agency reset?"
+    concept: "The Monk Mode Pentad Architecture"
+    answer: "The five pillars are: 1. Digital Blackout & Dopamine Fasting, 2. Monastic Deep Work (90-120 min unbroken sprints), 3. Physical Conditioning & Hormesis, 4. Metabolic & Circadian Discipline (clean nutrition, 10 PM sleep anchor), and 5. Stillness & Reflective Synthesis (meditation and evening review)."
+last_updated: "2026-09-04"
 ---
 
 Most human lives are not governed by conscious choice; they are governed by **subconscious inertia, algorithmic conditioning, and default drift**.

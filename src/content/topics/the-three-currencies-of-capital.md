@@ -6,20 +6,36 @@ volume_title: "The Architecture of Social Sovereignty"
 order_in_volume: 25
 archetype: "CANONICAL_CONCEPT"
 reading_time_minutes: 4
-summary_15s: "Do not be deceived into thinking you are powerless just because your bank account is modest. Financial wealth is only one currency. Build rare embodied cultural capital through intense study and craft, convert it into unshakeable social trust, and the economic rewards will follow with mathematical c"
+summary_15s: "Do not be deceived into thinking you are powerless just because your bank account is modest. Financial wealth is only one currency. Build rare embodied cultural capital through intense study and craft, convert it into unshakeable social trust, and the economic rewards will follow with mathematical certainty."
 tags:
   - "communication"
   - "wealth"
 mental_models:
   - "The Capital Conversion Engine"
+  - "Bourdieu's Three Forms of Capital"
 relationships:
   prerequisites: []
   builds_on: []
   contrasts_with: []
   applies_to: []
-sources: []
-active_recall: []
-last_updated: "2026-09-01"
+sources:
+  - source_id: "LIT-BOURDIEU-FORMS-OF-CAPITAL"
+    title: "The Forms of Capital"
+    creator: "Pierre Bourdieu"
+    url: "https://www.marxists.org/reference/subject/philosophy/works/fr/bourdieu-forms-capital.htm"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "The Three Forms of Capital: Human society is structured around economic, cultural (embodied, objectified, institutionalized), and social capital"
+      - claim: "The Capital Conversion Engine: Cultural capital (deep skills, taste, articulation) converts into social capital (trust networks), which unlocks economic leverage"
+      - claim: "Embodied Cultural Capital Invariant: Knowledge and composure etched into your nervous system can never be confiscated or inflated away"
+active_recall:
+  - question: "What are Pierre Bourdieu's three states of 'Cultural Capital', and why is 'embodied' capital the most durable?"
+    concept: "Bourdieu's Cultural Capital Taxonomy"
+    answer: "Cultural capital exists as Embodied (skills, articulation, schemas wired into your nervous system), Objectified (books, tools, instruments owned), and Institutionalized (degrees and credentials). Embodied capital is the most durable because it cannot be confiscated, stolen, or lost in a market crash—it travels wherever you go."
+  - question: "How does the 'Capital Conversion Engine' allow an individual starting with zero financial wealth to build career sovereignty?"
+    concept: "Asymmetric Capital Conversion"
+    answer: "Starting with zero money, an individual accumulates embodied cultural capital through relentless study and craft. Demonstrating rare competence attracts high-integrity collaborators and mentors (social capital). High-trust social capital then unlocks access to insider opportunities, partnerships, and high-yield compensation (economic capital)."
+last_updated: "2026-09-04"
 ---
 
 Most people believe that the game of life and career is governed by a single metric: **money (financial wealth)**.
