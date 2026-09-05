@@ -207,9 +207,10 @@ body {
 }
 
 .reader-container.volume-layout {
-  max-width: 900px;
+  max-width: var(--content-max-width, 920px);
   width: 100%;
   padding: 28px 24px 80px 24px;
+  transition: max-width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ==========================================================================
@@ -1588,6 +1589,15 @@ body {
   scroll-margin-top: 80px;
 }
 
+.chapter-sequence-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
 .chapter-sequence-badge {
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -1595,7 +1605,30 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--accent);
-  margin-bottom: 8px;
+}
+
+.chapter-open-standalone-btn {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.chapter-open-standalone-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .chapter-standalone-link {

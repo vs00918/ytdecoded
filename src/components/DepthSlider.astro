@@ -1,14 +1,15 @@
 ---
 // DepthSlider.astro — 3-Tier progressive disclosure reading control
+const { label = 'Cognitive Reading Mode', compact = false } = Astro.props;
 ---
 
-<div class="depth-slider-card">
+<div class={`depth-slider-card ${compact ? 'depth-slider-compact' : ''}`}>
   <div class="depth-header-strip">
     <div class="depth-label">
       <span class="depth-icon">⚡</span>
-      <span>Cognitive Reading Mode</span>
+      <span>{label}</span>
     </div>
-    <div class="depth-mode-hint" id="depthModeHint">
+    <div class="depth-mode-hint">
       📖 Full Deep-Dive: Complete prose, detailed explanations & study notes
     </div>
   </div>
@@ -36,6 +37,12 @@
     padding: 12px 18px;
     margin: 20px 0 28px 0;
     box-shadow: 0 2px 8px var(--shadow);
+  }
+
+  .depth-slider-card.depth-slider-compact {
+    padding: 8px 14px;
+    margin: 14px 0 20px 0;
+    gap: 8px;
   }
 
   .depth-header-strip {
@@ -95,6 +102,11 @@
     text-align: center;
   }
 
+  .depth-slider-compact .depth-btn {
+    padding: 5px 10px;
+    font-size: 0.78rem;
+  }
+
   .depth-btn:hover {
     color: var(--text-primary);
   }
@@ -117,7 +129,7 @@
     document.documentElement.setAttribute('data-reading-depth', mode);
     localStorage.setItem('living_codex_depth', mode);
     
-    // Update active button state
+    // Update active button state on all sliders across the page
     document.querySelectorAll('.depth-btn').forEach(btn => {
       if (btn.getAttribute('data-depth') === mode) {
         btn.classList.add('active');
@@ -126,17 +138,19 @@
       }
     });
 
-    // Update dynamic hint text
-    const hintEl = document.getElementById('depthModeHint');
-    if (hintEl && MODE_HINTS[mode]) {
-      hintEl.textContent = MODE_HINTS[mode];
-    }
+    // Update dynamic hint text on all sliders
+    document.querySelectorAll('.depth-mode-hint').forEach(hintEl => {
+      if (MODE_HINTS[mode]) {
+        hintEl.textContent = MODE_HINTS[mode];
+      }
+    });
 
-    const prose = document.querySelector('.reader-prose');
-    if (prose) {
+    // Update ALL chapter prose containers on the page (supports continuous volume reader with N chapters)
+    const proseList = document.querySelectorAll('.reader-prose');
+    proseList.forEach(prose => {
       prose.classList.remove('depth-filter-axiom', 'depth-filter-model', 'depth-filter-deep');
       prose.classList.add('depth-filter-' + mode);
-    }
+    });
 
     // If switching into axiom mode, ensure Mermaid diagrams are properly rendered
     if (mode === 'axiom' && typeof window.renderMermaidDiagrams === 'function') {
