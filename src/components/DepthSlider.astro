@@ -3,18 +3,23 @@
 ---
 
 <div class="depth-slider-card">
-  <div class="depth-label">
-    <span class="depth-icon">⚡</span>
-    <span>Reading Mode</span>
+  <div class="depth-header-strip">
+    <div class="depth-label">
+      <span class="depth-icon">⚡</span>
+      <span>Cognitive Reading Mode</span>
+    </div>
+    <div class="depth-mode-hint" id="depthModeHint">
+      📖 Full Deep-Dive: Complete prose, detailed explanations & study notes
+    </div>
   </div>
   <div class="depth-buttons" role="group" aria-label="Reading Depth Toggle">
-    <button class="depth-btn" data-depth="axiom" title="Show only 15-second core axiom and takeaway">
+    <button class="depth-btn" data-depth="axiom" title="Show 15-second core axiom + visual mindmaps and flowcharts">
       ⚡ 15-Sec Axiom
     </button>
-    <button class="depth-btn" data-depth="model" title="Show axiom + cognitive diagrams and models">
+    <button class="depth-btn" data-depth="model" title="Show conceptual ladders, structured bullet points & key steps">
       📊 5-Min Model
     </button>
-    <button class="depth-btn active" data-depth="deep" title="Full first-principles treatise">
+    <button class="depth-btn active" data-depth="deep" title="Show full uninterrupted text, explanations & study notes (mindmaps hidden to save page space)">
       📖 Full Deep-Dive
     </button>
   </div>
@@ -23,16 +28,22 @@
 <style>
   .depth-slider-card {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
+    flex-direction: column;
+    gap: 10px;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 12px;
-    padding: 10px 18px;
+    padding: 12px 18px;
     margin: 20px 0 28px 0;
     box-shadow: 0 2px 8px var(--shadow);
+  }
+
+  .depth-header-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .depth-label {
@@ -40,11 +51,18 @@
     align-items: center;
     gap: 6px;
     font-family: var(--font-ui);
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     color: var(--text-muted);
+  }
+
+  .depth-mode-hint {
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    color: var(--accent);
+    font-weight: 500;
   }
 
   .depth-icon {
@@ -59,6 +77,7 @@
     padding: 3px;
     border-radius: 8px;
     border: 1px solid var(--border);
+    flex-wrap: wrap;
   }
 
   .depth-btn {
@@ -72,6 +91,8 @@
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.15s ease;
+    flex: 1 1 auto;
+    text-align: center;
   }
 
   .depth-btn:hover {
@@ -86,9 +107,17 @@
 </style>
 
 <script is:inline>
+  const MODE_HINTS = {
+    axiom: '⚡ 15-Sec Axiom: Visual mindmaps, flowcharts & core axiomatic kernel',
+    model: '📊 5-Min Model: Conceptual ladders, structured bullet points & step models',
+    deep: '📖 Full Deep-Dive: Complete prose & study notes (diagrams hidden to save page space)'
+  };
+
   window.applyReadingDepth = function(mode) {
     document.documentElement.setAttribute('data-reading-depth', mode);
     localStorage.setItem('living_codex_depth', mode);
+    
+    // Update active button state
     document.querySelectorAll('.depth-btn').forEach(btn => {
       if (btn.getAttribute('data-depth') === mode) {
         btn.classList.add('active');
@@ -97,19 +126,26 @@
       }
     });
 
-    const prose = document.querySelector('.reader-prose');
-    if (!prose) return;
-
-    if (mode === 'axiom') {
-      // In axiom mode, hide detailed prose paragraphs and secondary sections, keeping overview and diagrams
-      prose.classList.add('depth-filter-axiom');
-      prose.classList.remove('depth-filter-model');
-    } else if (mode === 'model') {
-      prose.classList.add('depth-filter-model');
-      prose.classList.remove('depth-filter-axiom');
-    } else {
-      prose.classList.remove('depth-filter-axiom', 'depth-filter-model');
+    // Update dynamic hint text
+    const hintEl = document.getElementById('depthModeHint');
+    if (hintEl && MODE_HINTS[mode]) {
+      hintEl.textContent = MODE_HINTS[mode];
     }
+
+    const prose = document.querySelector('.reader-prose');
+    if (prose) {
+      prose.classList.remove('depth-filter-axiom', 'depth-filter-model', 'depth-filter-deep');
+      prose.classList.add('depth-filter-' + mode);
+    }
+
+    // If switching into axiom mode, ensure Mermaid diagrams are properly rendered
+    if (mode === 'axiom' && typeof window.renderMermaidDiagrams === 'function') {
+      setTimeout(() => {
+        window.renderMermaidDiagrams();
+      }, 30);
+    }
+
+    window.dispatchEvent(new CustomEvent('depth-changed', { detail: { mode } }));
   };
 
   function setupDepthControls() {
@@ -120,7 +156,7 @@
       });
     });
 
-    // Restore saved depth mode
+    // Restore saved depth mode or default to deep
     const savedDepth = localStorage.getItem('living_codex_depth') || 'deep';
     window.applyReadingDepth(savedDepth);
   }

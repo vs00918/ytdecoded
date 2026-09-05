@@ -58,7 +58,7 @@ const allVolumes = getVolumeGroups(allTopics);
       return 'neutral'; // warm sepia
     }
 
-    async function renderMermaidDiagrams() {
+    window.renderMermaidDiagrams = async function renderMermaidDiagrams() {
       const currentTheme = document.documentElement.getAttribute('data-theme') || 'sepia';
       const mTheme = getMermaidTheme(currentTheme);
 
@@ -105,7 +105,7 @@ const allVolumes = getVolumeGroups(allTopics);
         document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
           const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
           const viewport = wrapper.querySelector('.mermaid-viewport');
-          if (rawCode && viewport) {
+          if (rawCode && viewport && !viewport.querySelector('svg')) {
             viewport.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
           }
         });

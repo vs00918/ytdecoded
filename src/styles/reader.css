@@ -1658,13 +1658,142 @@ body.zen-mode .depth-slider-card:hover {
   opacity: 1;
 }
 
-/* Depth Filter Rules (Progressive Disclosure) */
-.depth-filter-axiom > :not(blockquote):not(h1):not(h2):not(.summary-kernel):not(.mermaid-diagram-wrapper) {
+/* ==========================================================================
+   SANCTUARY READING SYSTEM: PROGRESSIVE DEPTH & PRESENTATION SYSTEM
+   ========================================================================== */
+
+/* Unrendered mermaid code block flash guard */
+pre.astro-code[data-language="mermaid"],
+pre > code.language-mermaid {
+  display: none;
+}
+
+/* Default Diagram Rule: Mindmaps and Flowcharts are HIDDEN in Deep-Dive and 5-Min Model to save space */
+.reader-prose .mermaid-diagram-wrapper {
   display: none !important;
 }
 
-.depth-filter-model > p:nth-of-type(n+4) {
+/* --------------------------------------------------------------------------
+   MODE 1: ⚡ 15-SEC AXIOM
+   Visual mental models, flowcharts, mindmaps & core axiomatic takeaway
+   -------------------------------------------------------------------------- */
+html[data-reading-depth="axiom"] .reader-prose > :not(blockquote):not(h1):not(h2):not(h3):not(.summary-kernel):not(.mermaid-diagram-wrapper),
+.reader-prose.depth-filter-axiom > :not(blockquote):not(h1):not(h2):not(h3):not(.summary-kernel):not(.mermaid-diagram-wrapper) {
   display: none !important;
+}
+
+/* Show mindmaps and flowcharts prominently in 15-Sec Axiom mode */
+html[data-reading-depth="axiom"] .reader-prose .mermaid-diagram-wrapper,
+.reader-prose.depth-filter-axiom .mermaid-diagram-wrapper {
+  display: flex !important;
+  margin: 28px 0 36px 0;
+  border: 1px solid var(--accent);
+  box-shadow: 0 4px 16px var(--shadow);
+}
+
+/* Hide extended footer consolidation and TOC in 15-Sec Axiom */
+html[data-reading-depth="axiom"] .reader-consolidation,
+body:has(.depth-filter-axiom) .reader-consolidation,
+html[data-reading-depth="axiom"] .toc-container,
+body:has(.depth-filter-axiom) .toc-container {
+  display: none !important;
+}
+
+/* Highlight summary kernel in Axiom mode */
+html[data-reading-depth="axiom"] .summary-kernel,
+body:has(.depth-filter-axiom) .summary-kernel {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft), 0 4px 14px var(--shadow);
+}
+
+/* --------------------------------------------------------------------------
+   MODE 2: 📊 5-MIN MODEL
+   Conceptual ladders, structured lists, bullet lines & key step breakdown
+   (Mindmaps strictly removed to focus on step-by-step logic)
+   -------------------------------------------------------------------------- */
+/* Hide heavy multi-paragraph prose in 5-Min Model, keeping headings, lead summaries, ladders and lists */
+html[data-reading-depth="model"] .reader-prose > p + p,
+.reader-prose.depth-filter-model > p + p,
+html[data-reading-depth="model"] .reader-prose > ul + p,
+.reader-prose.depth-filter-model > ul + p,
+html[data-reading-depth="model"] .reader-prose > ol + p,
+.reader-prose.depth-filter-model > ol + p,
+html[data-reading-depth="model"] .reader-prose > blockquote + p,
+.reader-prose.depth-filter-model > blockquote + p {
+  display: none !important;
+}
+
+/* Hide consolidation footer in 5-Min Model */
+html[data-reading-depth="model"] .reader-consolidation,
+body:has(.depth-filter-model) .reader-consolidation {
+  display: none !important;
+}
+
+/* Elevate lists into structured conceptual "ladders" */
+html[data-reading-depth="model"] .reader-prose ul,
+html[data-reading-depth="model"] .reader-prose ol,
+.reader-prose.depth-filter-model ul,
+.reader-prose.depth-filter-model ol {
+  display: flex !important;
+  flex-direction: column;
+  gap: 12px;
+  margin: 22px 0 28px 0;
+  padding: 16px 20px 16px 24px;
+  background: var(--bg-surface);
+  border-left: 3.5px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 2px 8px var(--shadow);
+  list-style-position: outside;
+}
+
+html[data-reading-depth="model"] .reader-prose li,
+.reader-prose.depth-filter-model li {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+  padding-left: 4px;
+}
+
+html[data-reading-depth="model"] .reader-prose li strong,
+.reader-prose.depth-filter-model li strong {
+  color: var(--text-primary);
+  font-weight: 700;
+  background: var(--accent-soft);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   MODE 3: 📖 FULL DEEP-DIVE
+   Pure, uninterrupted Kindle-grade prose reading experience.
+   Mindmaps removed from page flow to eliminate bulk & preserve reading space.
+   -------------------------------------------------------------------------- */
+html[data-reading-depth="deep"] .reader-prose .mermaid-diagram-wrapper,
+.reader-prose.depth-filter-deep .mermaid-diagram-wrapper {
+  display: none !important;
+}
+
+html[data-reading-depth="deep"] .reader-prose > *,
+.reader-prose.depth-filter-deep > * {
+  display: block;
+}
+
+html[data-reading-depth="deep"] .reader-prose ul,
+html[data-reading-depth="deep"] .reader-prose ol,
+.reader-prose.depth-filter-deep ul,
+.reader-prose.depth-filter-deep ol {
+  display: block;
+}
+
+html[data-reading-depth="deep"] .reader-prose li,
+.reader-prose.depth-filter-deep li {
+  display: list-item;
+}
+
+html[data-reading-depth="deep"] .reader-consolidation,
+.depth-filter-deep ~ .reader-consolidation {
+  display: block !important;
 }
 
 /* ==========================================================================
