@@ -9,6 +9,16 @@
     <button class="font-size-btn" onclick="adjustFontSize(1)" aria-label="Increase text size" title="Larger text (A+)">A+</button>
   </div>
 
+  <!-- Focus Audio & Zen Mode Controls -->
+  <div class="sanctuary-controls">
+    <button id="ambient-audio-btn" class="sanctuary-icon-btn" onclick="toggleAmbientAudio()" title="Focus Rain Audio (WebAudio)" aria-label="Toggle Focus Audio">
+      <span class="btn-icon">🌧️</span>
+    </button>
+    <button id="zen-mode-btn" class="sanctuary-icon-btn" onclick="toggleZenMode()" title="Zen Focus Mode (Hide UI distractions)" aria-label="Toggle Zen Mode">
+      <span class="btn-icon">🧘</span>
+    </button>
+  </div>
+
   <!-- Color Palette Swatches -->
   <div class="theme-controller" title="Select color theme">
     <button class="theme-btn swatch-sepia" onclick="setTheme('sepia')" title="Sepia Warm" aria-label="Sepia Theme"></button>
@@ -80,6 +90,32 @@
   .swatch-paper { background-color: #ffffff; border-color: #d1d5db; }
   .swatch-dark  { background-color: #27272a; border-color: #52525b; }
   .swatch-oled  { background-color: #000000; border-color: #3f3f46; }
+
+  .sanctuary-controls {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .sanctuary-icon-btn {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 3px 7px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    transition: all 0.15s ease;
+  }
+
+  .sanctuary-icon-btn:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+  }
+
+  .sanctuary-icon-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
 </style>
 
 <script is:inline>
@@ -87,6 +123,54 @@
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('codex-theme', theme);
     window.dispatchEvent(new CustomEvent('theme-changed', { detail: { theme } }));
+  }
+
+  function toggleZenMode() {
+    document.body.classList.toggle('zen-mode');
+    const btn = document.getElementById('zen-mode-btn');
+    if (btn) btn.classList.toggle('active');
+  }
+
+  let audioCtx = null;
+  let rainGain = null;
+  let isPlayingRain = false;
+
+  function toggleAmbientAudio() {
+    const btn = document.getElementById('ambient-audio-btn');
+    if (!isPlayingRain) {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const bufferSize = audioCtx.sampleRate * 2;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+          data[i] = Math.random() * 2 - 1;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        noise.loop = true;
+
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.value = 650;
+
+        rainGain = audioCtx.createGain();
+        rainGain.gain.value = 0.08;
+
+        noise.connect(filter);
+        filter.connect(rainGain);
+        rainGain.connect(audioCtx.destination);
+        noise.start();
+      } else {
+        audioCtx.resume();
+      }
+      isPlayingRain = true;
+      if (btn) btn.classList.add('active');
+    } else {
+      if (audioCtx) audioCtx.suspend();
+      isPlayingRain = false;
+      if (btn) btn.classList.remove('active');
+    }
   }
 
   const fontSizes = ['17.5px', '19.5px', '21.5px', '23px'];

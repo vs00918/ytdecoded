@@ -1583,6 +1583,35 @@ body {
 }
 
 /* ==========================================================================
+   SANCTUARY READING SYSTEM: ZEN MODE & PROGRESSIVE DEPTH FILTERS
+   ========================================================================== */
+body.zen-mode .top-nav,
+body.zen-mode .breadcrumbs-container,
+body.zen-mode .toc-container,
+body.zen-mode .reader-consolidation,
+body.zen-mode .depth-slider-card {
+  opacity: 0.15;
+  transition: opacity 0.25s ease;
+}
+
+body.zen-mode .top-nav:hover,
+body.zen-mode .breadcrumbs-container:hover,
+body.zen-mode .toc-container:hover,
+body.zen-mode .reader-consolidation:hover,
+body.zen-mode .depth-slider-card:hover {
+  opacity: 1;
+}
+
+/* Depth Filter Rules (Progressive Disclosure) */
+.depth-filter-axiom > :not(blockquote):not(h1):not(h2):not(.summary-kernel):not(.mermaid-diagram-wrapper) {
+  display: none !important;
+}
+
+.depth-filter-model > p:nth-of-type(n+4) {
+  display: none !important;
+}
+
+/* ==========================================================================
    PRINT / PDF EXPORT STYLESHEET
    ========================================================================== */
 @media print {

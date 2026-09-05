@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import ReaderLayout from '../../layouts/ReaderLayout.astro';
+import DepthSlider from '../../components/DepthSlider.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import TopicNavFooter from '../../components/TopicNavFooter.astro';
 import ProvenanceLedger from '../../components/ProvenanceLedger.astro';
@@ -85,6 +86,9 @@ const primarySource = topic.data.sources && topic.data.sources.length > 0 ? topi
         <div class="summary-kernel-label">⚡ 15-Second Axiomatic Kernel</div>
         <div class="summary-kernel-text">{topic.data.summary_15s}</div>
       </div>
+
+      <!-- Progressive Depth Reading Mode Toggle -->
+      <DepthSlider />
 
       <!-- Subordinate, Collapsible Table of Contents -->
       <TableOfContents headings={headings} />

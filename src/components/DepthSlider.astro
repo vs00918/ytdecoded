@@ -1,0 +1,125 @@
+---
+// DepthSlider.astro — 3-Tier progressive disclosure reading control
+---
+
+<div class="depth-slider-card">
+  <div class="depth-label">
+    <span class="depth-icon">⚡</span>
+    <span>Reading Mode</span>
+  </div>
+  <div class="depth-buttons" role="group" aria-label="Reading Depth Toggle">
+    <button class="depth-btn" data-depth="axiom" title="Show only 15-second core axiom and takeaway">
+      ⚡ 15-Sec Axiom
+    </button>
+    <button class="depth-btn" data-depth="model" title="Show axiom + cognitive diagrams and models">
+      📊 5-Min Model
+    </button>
+    <button class="depth-btn active" data-depth="deep" title="Full first-principles treatise">
+      📖 Full Deep-Dive
+    </button>
+  </div>
+</div>
+
+<style>
+  .depth-slider-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px 18px;
+    margin: 20px 0 28px 0;
+    box-shadow: 0 2px 8px var(--shadow);
+  }
+
+  .depth-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--text-muted);
+  }
+
+  .depth-icon {
+    font-size: 0.95rem;
+    color: var(--accent);
+  }
+
+  .depth-buttons {
+    display: flex;
+    gap: 6px;
+    background: var(--bg-surface);
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+
+  .depth-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-ui);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .depth-btn:hover {
+    color: var(--text-primary);
+  }
+
+  .depth-btn.active {
+    background: var(--accent);
+    color: #ffffff !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+</style>
+
+<script is:inline>
+  function applyReadingDepth(mode) {
+    document.documentElement.setAttribute('data-reading-depth', mode);
+    localStorage.setItem('living_codex_depth', mode);
+    document.querySelectorAll('.depth-btn').forEach(btn => {
+      if (btn.getAttribute('data-depth') === mode) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    const prose = document.querySelector('.reader-prose');
+    if (!prose) return;
+
+    if (mode === 'axiom') {
+      // In axiom mode, hide detailed prose paragraphs and secondary sections, keeping overview and diagrams
+      prose.classList.add('depth-filter-axiom');
+      prose.classList.remove('depth-filter-model');
+    } else if (mode === 'model') {
+      prose.classList.add('depth-filter-model');
+      prose.classList.remove('depth-filter-axiom');
+    } else {
+      prose.classList.remove('depth-filter-axiom', 'depth-filter-model');
+    }
+  }
+
+  document.querySelectorAll('.depth-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const mode = btn.getAttribute('data-depth');
+      applyReadingDepth(mode);
+    });
+  });
+
+  // Restore saved depth mode
+  const savedDepth = localStorage.getItem('living_codex_depth') || 'deep';
+  applyReadingDepth(savedDepth);
+</script>

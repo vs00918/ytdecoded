@@ -1,5 +1,6 @@
 ---
 import ReaderLayout from '../layouts/ReaderLayout.astro';
+import PhilosophyFirstAid from '../components/PhilosophyFirstAid.astro';
 import { getCollection } from 'astro:content';
 import { getVolumeGroups } from '../utils/navigation';
 
@@ -206,6 +207,9 @@ const volumeCards = rawVolumeGroups.map((group) => {
           <kbd class="search-shortcut-key">/</kbd>
         </button>
       </div>
+
+      <!-- Interactive Philosophy as First Aid Selector -->
+      <PhilosophyFirstAid />
     </header>
 
     <!-- ====================================================================

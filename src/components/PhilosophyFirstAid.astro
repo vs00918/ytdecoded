@@ -1,0 +1,250 @@
+---
+// PhilosophyFirstAid.astro — Situation-based interactive navigation
+---
+
+<div class="first-aid-container">
+  <div class="first-aid-card">
+    <div class="first-aid-header">
+      <div class="first-aid-title">
+        <span class="first-aid-icon">🩺</span>
+        <span>PHILOSOPHY AS FIRST AID</span>
+        <span class="first-aid-badge">LIVE REMEDIES</span>
+      </div>
+      <span class="first-aid-subtitle">What state of mind is weighing on you today?</span>
+    </div>
+
+    <div class="crisis-grid">
+      <button class="crisis-btn" data-remedy="anxiety">
+        <span class="crisis-emoji">😰</span>
+        <span class="crisis-text">"I'm terrified of what people think of me."</span>
+      </button>
+
+      <button class="crisis-btn" data-remedy="love">
+        <span class="crisis-emoji">💔</span>
+        <span class="crisis-text">"I keep getting drawn to partners who hurt me."</span>
+      </button>
+
+      <button class="crisis-btn" data-remedy="procrastination">
+        <span class="crisis-emoji">⏳</span>
+        <span class="crisis-text">"I'm paralyzingly stuck and overthinking."</span>
+      </button>
+
+      <button class="crisis-btn" data-remedy="loneliness">
+        <span class="crisis-emoji">🌌</span>
+        <span class="crisis-text">"I feel utterly isolated, lonely, and unseen."</span>
+      </button>
+
+      <button class="crisis-btn" data-remedy="guilt">
+        <span class="crisis-emoji">⚖️</span>
+        <span class="crisis-text">"I feel unearned guilt and impostor panic."</span>
+      </button>
+
+      <button class="crisis-btn" data-remedy="friction">
+        <span class="crisis-emoji">⚡</span>
+        <span class="crisis-text">"I just had an explosive, toxic argument."</span>
+      </button>
+    </div>
+
+    <div id="first-aid-remedy-box" class="remedy-box" style="display: none;">
+      <div class="remedy-badge">⚡ PRESCRIBED MENTAL MODEL</div>
+      <div id="remedy-text" class="remedy-text"></div>
+      <div class="remedy-action-row">
+        <a id="remedy-link" href="#" class="remedy-cta-btn">Open Prescribed Chapter →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .first-aid-container {
+    margin: 32px 0 44px 0;
+  }
+
+  .first-aid-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 20px var(--shadow);
+    transition: all 0.2s ease;
+  }
+
+  .first-aid-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .first-aid-title {
+    font-family: var(--font-ui);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .first-aid-badge {
+    font-size: 0.68rem;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+
+  .first-aid-subtitle {
+    font-family: var(--font-ui);
+    font-size: 0.84rem;
+    color: var(--text-muted);
+  }
+
+  .crisis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+  }
+
+  .crisis-btn {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-family: var(--font-ui);
+    font-size: 0.88rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.18s ease;
+  }
+
+  .crisis-btn:hover, .crisis-btn.active {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px var(--shadow);
+  }
+
+  .crisis-emoji {
+    font-size: 1.15rem;
+    flex-shrink: 0;
+  }
+
+  .crisis-text {
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .remedy-box {
+    margin-top: 20px;
+    padding: 18px 22px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 10px;
+    animation: fadeIn 0.25s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .remedy-badge {
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .remedy-text {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+  }
+
+  .remedy-action-row {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .remedy-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    background: var(--accent);
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 8px;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .remedy-cta-btn:hover {
+    opacity: 0.9;
+    transform: translateX(2px);
+  }
+</style>
+
+<script is:inline>
+  const remedies = {
+    anxiety: {
+      text: "<strong>Marcus Aurelius & The Inner Citadel:</strong> Other people are not holding courtroom trials about you; they are completely consumed by their own terror. External gossip is adiaphora. Withhold assent from their imaginary tribunal.",
+      url: "/ytdecoded/topics/the-inner-citadel-and-stoic-sovereignty/"
+    },
+    love: {
+      text: "<strong>The School of Life & Repetition Compulsion:</strong> You are mistaking childhood familiarity for romantic 'chemistry'. Kind, emotionally available partners feel 'boring' only because peaceful stability is unfamiliar to your nervous system.",
+      url: "/ytdecoded/topics/childhood-archaeology-and-unconscious-defenses/"
+    },
+    procrastination: {
+      text: "<strong>The Action Paradox & Activation Thresholds:</strong> The human nervous system requires physical kinetic movement to trigger dopamine, not the reverse. Lower the activation bar to 120 seconds of physical action.",
+      url: "/ytdecoded/topics/the-action-paradox-and-illusion-of-preparation/"
+    },
+    loneliness: {
+      text: "<strong>The Architecture of Solitude & Edward Hopper:</strong> Solitude is not loneliness; it is the sanctuary where the camel sheds its burdens. Recognize that feeling isolated is the universal price of having conscious depth.",
+      url: "/ytdecoded/topics/the-architecture-of-solitude-and-loneliness/"
+    },
+    guilt: {
+      text: "<strong>The Front-Stage Fallacy & Kafka's Inherited Shame:</strong> You compare your messy, unedited internal thoughts with everyone else's curated public stage. Nobody is normal once you know them well.",
+      url: "/ytdecoded/topics/the-front-stage-fallacy-and-imposter-syndrome/"
+    },
+    friction: {
+      text: "<strong>The Argument De-escalation Axiom:</strong> Domestic explosions are never about facts; they are two panicked infants screaming 'Do I still matter to you?'. Refuse the debate; allow the physiology to settle first.",
+      url: "/ytdecoded/topics/relational-friction-and-emotional-maturity/"
+    }
+  };
+
+  document.querySelectorAll('.crisis-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.crisis-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const key = btn.getAttribute('data-remedy');
+      const r = remedies[key];
+      if (r) {
+        const box = document.getElementById('first-aid-remedy-box');
+        const textEl = document.getElementById('remedy-text');
+        const linkEl = document.getElementById('remedy-link');
+        textEl.innerHTML = r.text;
+        linkEl.href = r.url;
+        box.style.display = 'block';
+      }
+    });
+  });
+</script>
