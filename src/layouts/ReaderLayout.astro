@@ -84,7 +84,19 @@ const allVolumes = getVolumeGroups(allTopics);
           const div = document.createElement('div');
           div.className = 'mermaid-diagram-wrapper';
           div.setAttribute('data-mermaid-code', diagramCode);
-          div.innerHTML = `<pre class="mermaid">${diagramCode}</pre>`;
+          div.setAttribute('data-zoom', '100');
+          div.innerHTML = `
+            <div class="mermaid-toolbar">
+              <span class="mermaid-label">📐 Concept Schema</span>
+              <div class="mermaid-zoom-actions">
+                <button type="button" class="m-zoom-btn m-zoom-out" title="Zoom Out Diagram">🔍−</button>
+                <button type="button" class="m-zoom-btn m-zoom-reset" title="Reset Diagram Size">100%</button>
+                <button type="button" class="m-zoom-btn m-zoom-in" title="Zoom In Diagram">🔍+</button>
+                <button type="button" class="m-zoom-btn m-zoom-fit" title="Expand Diagram to 100% Full Width">⛶ Full</button>
+              </div>
+            </div>
+            <div class="mermaid-viewport"><pre class="mermaid">${diagramCode}</pre></div>
+          `;
           if (preEl && preEl.parentNode) {
             preEl.parentNode.replaceChild(div, preEl);
           }
@@ -92,8 +104,9 @@ const allVolumes = getVolumeGroups(allTopics);
 
         document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
           const rawCode = wrapper.getAttribute('data-mermaid-code') || '';
-          if (rawCode) {
-            wrapper.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
+          const viewport = wrapper.querySelector('.mermaid-viewport');
+          if (rawCode && viewport) {
+            viewport.innerHTML = `<pre class="mermaid">${rawCode}</pre>`;
           }
         });
 
@@ -105,20 +118,40 @@ const allVolumes = getVolumeGroups(allTopics);
           // Proportional scaling: narrow diagrams stay compact, wide diagrams scale responsively
           document.querySelectorAll('.mermaid-diagram-wrapper svg').forEach((svg) => {
             const viewBox = svg.getAttribute('viewBox');
-            if (viewBox) {
-              const parts = viewBox.split(/[\s,]+/).map(Number);
-              const vbWidth = parts[2];
-              if (vbWidth && vbWidth > 0) {
-                if (vbWidth < 520) {
-                  svg.style.maxWidth = `${Math.min(vbWidth, 460)}px`;
-                  svg.style.width = '100%';
-                } else {
-                  svg.style.maxWidth = '100%';
-                  svg.style.width = '100%';
-                }
-                svg.style.height = 'auto';
-              }
+          // Setup Interactive Zoom & Fit Controls for each diagram
+          document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
+            const svg = wrapper.querySelector('svg');
+            if (!svg) return;
+
+            let currentZoom = 100;
+            const resetBtn = wrapper.querySelector('.m-zoom-reset');
+            const inBtn = wrapper.querySelector('.m-zoom-in');
+            const outBtn = wrapper.querySelector('.m-zoom-out');
+            const fitBtn = wrapper.querySelector('.m-zoom-fit');
+
+            function applyZoom(z) {
+              currentZoom = Math.max(50, Math.min(250, z));
+              svg.style.transform = `scale(${currentZoom / 100})`;
+              svg.style.transformOrigin = 'center top';
+              if (resetBtn) resetBtn.textContent = `${currentZoom}%`;
             }
+
+            if (inBtn) inBtn.onclick = () => applyZoom(currentZoom + 15);
+            if (outBtn) outBtn.onclick = () => applyZoom(currentZoom - 15);
+            if (resetBtn) resetBtn.onclick = () => applyZoom(100);
+            if (fitBtn) fitBtn.onclick = () => {
+              if (svg.style.maxWidth === 'none' || svg.style.width === '100%') {
+                svg.style.maxWidth = '100%';
+                svg.style.width = 'auto';
+                applyZoom(100);
+                fitBtn.textContent = '⛶ Full';
+              } else {
+                svg.style.maxWidth = 'none';
+                svg.style.width = '100%';
+                applyZoom(120);
+                fitBtn.textContent = '↩ Normal';
+              }
+            };
           });
         } catch (err) {
           console.warn('Mermaid rendering notice:', err);

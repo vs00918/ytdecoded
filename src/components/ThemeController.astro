@@ -9,6 +9,13 @@
     <button class="font-size-btn" onclick="adjustFontSize(1)" aria-label="Increase text size" title="Larger text (A+)">A+</button>
   </div>
 
+  <!-- Page Width Toggle (Standard / Wide / Full) -->
+  <div class="width-controller" title="Adjust reading column width">
+    <button id="width-narrow-btn" class="width-btn" onclick="setReadingWidth('narrow')" title="Standard Focus Width (740px)" aria-label="Standard Width">740</button>
+    <button id="width-medium-btn" class="width-btn" onclick="setReadingWidth('medium')" title="Comfortable Wide (960px)" aria-label="Medium Width">960</button>
+    <button id="width-full-btn" class="width-btn" onclick="setReadingWidth('full')" title="Spacious Cinema Width (1200px)" aria-label="Full Width">1200</button>
+  </div>
+
   <!-- Focus Audio & Zen Mode Controls -->
   <div class="sanctuary-controls">
     <button id="ambient-audio-btn" class="sanctuary-icon-btn" onclick="toggleAmbientAudio()" title="Focus Rain Audio (WebAudio)" aria-label="Toggle Focus Audio">
@@ -61,6 +68,39 @@
   .font-size-btn:hover, .font-size-btn:focus-visible {
     background: var(--accent-soft);
     color: var(--accent);
+  }
+
+  .width-controller {
+    display: flex;
+    align-items: center;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2px 4px;
+    gap: 2px;
+  }
+
+  .width-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .width-btn:hover {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .width-btn.active {
+    background: var(--accent);
+    color: #ffffff !important;
   }
 
   .theme-controller {
@@ -183,7 +223,25 @@
     localStorage.setItem('codex-font-size-idx', currentFontIdx);
   }
 
-  // Initialize theme and font size immediately to prevent flashing
+  function setReadingWidth(widthKey) {
+    const widthMap = {
+      narrow: '740px',
+      medium: '960px',
+      full: '1200px'
+    };
+    const chosenWidth = widthMap[widthKey] || '740px';
+    document.documentElement.style.setProperty('--content-max-width', chosenWidth);
+    document.querySelectorAll('.reader-container:not(.wide-layout):not(.volume-layout)').forEach(el => {
+      el.style.maxWidth = chosenWidth;
+    });
+    localStorage.setItem('codex-reading-width', widthKey);
+
+    document.querySelectorAll('.width-btn').forEach(btn => btn.classList.remove('active'));
+    const activeBtn = document.getElementById(`width-${widthKey}-btn`);
+    if (activeBtn) activeBtn.classList.add('active');
+  }
+
+  // Initialize theme, font size, and reading width immediately
   (function() {
     const savedTheme = localStorage.getItem('codex-theme') || 'sepia';
     document.documentElement.setAttribute('data-theme', savedTheme);
@@ -193,5 +251,8 @@
       currentFontIdx = parseInt(savedFontIdx, 10);
       document.documentElement.style.setProperty('--font-base-size', fontSizes[currentFontIdx]);
     }
+
+    const savedWidth = localStorage.getItem('codex-reading-width') || 'narrow';
+    setReadingWidth(savedWidth);
   })();
 </script>
