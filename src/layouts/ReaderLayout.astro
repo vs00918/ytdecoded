@@ -115,9 +115,6 @@ const allVolumes = getVolumeGroups(allTopics);
             querySelector: '.mermaid'
           });
 
-          // Proportional scaling: narrow diagrams stay compact, wide diagrams scale responsively
-          document.querySelectorAll('.mermaid-diagram-wrapper svg').forEach((svg) => {
-            const viewBox = svg.getAttribute('viewBox');
           // Setup Interactive Zoom & Fit Controls for each diagram
           document.querySelectorAll('.mermaid-diagram-wrapper').forEach((wrapper) => {
             const svg = wrapper.querySelector('svg');

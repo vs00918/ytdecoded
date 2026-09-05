@@ -159,71 +159,76 @@
 </style>
 
 <script is:inline>
-  function setTheme(theme) {
+  // Expose functions globally on window for inline handlers & programmatic control
+  window.setTheme = function(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('codex-theme', theme);
     window.dispatchEvent(new CustomEvent('theme-changed', { detail: { theme } }));
-  }
+  };
 
-  function toggleZenMode() {
+  window.toggleZenMode = function() {
     document.body.classList.toggle('zen-mode');
     const btn = document.getElementById('zen-mode-btn');
     if (btn) btn.classList.toggle('active');
-  }
+  };
 
   let audioCtx = null;
   let rainGain = null;
   let isPlayingRain = false;
 
-  function toggleAmbientAudio() {
+  window.toggleAmbientAudio = function() {
     const btn = document.getElementById('ambient-audio-btn');
     if (!isPlayingRain) {
-      if (!audioCtx) {
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-        const bufferSize = audioCtx.sampleRate * 2;
-        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
-        const data = buffer.getChannelData(0);
-        for (let i = 0; i < bufferSize; i++) {
-          data[i] = Math.random() * 2 - 1;
+      try {
+        if (!audioCtx) {
+          audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+          const bufferSize = audioCtx.sampleRate * 2;
+          const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+          }
+          const noise = audioCtx.createBufferSource();
+          noise.buffer = buffer;
+          noise.loop = true;
+
+          const filter = audioCtx.createBiquadFilter();
+          filter.type = 'lowpass';
+          filter.frequency.value = 650;
+
+          rainGain = audioCtx.createGain();
+          rainGain.gain.value = 0.08;
+
+          noise.connect(filter);
+          filter.connect(rainGain);
+          rainGain.connect(audioCtx.destination);
+          noise.start();
+        } else {
+          audioCtx.resume();
         }
-        const noise = audioCtx.createBufferSource();
-        noise.buffer = buffer;
-        noise.loop = true;
-
-        const filter = audioCtx.createBiquadFilter();
-        filter.type = 'lowpass';
-        filter.frequency.value = 650;
-
-        rainGain = audioCtx.createGain();
-        rainGain.gain.value = 0.08;
-
-        noise.connect(filter);
-        filter.connect(rainGain);
-        rainGain.connect(audioCtx.destination);
-        noise.start();
-      } else {
-        audioCtx.resume();
+        isPlayingRain = true;
+        if (btn) btn.classList.add('active');
+      } catch (e) {
+        console.warn('Ambient audio could not start:', e);
       }
-      isPlayingRain = true;
-      if (btn) btn.classList.add('active');
     } else {
       if (audioCtx) audioCtx.suspend();
       isPlayingRain = false;
       if (btn) btn.classList.remove('active');
     }
-  }
+  };
 
   const fontSizes = ['17.5px', '19.5px', '21.5px', '23px'];
   let currentFontIdx = 1; // default 19.5px
 
-  function adjustFontSize(delta) {
+  window.adjustFontSize = function(delta) {
     currentFontIdx = Math.max(0, Math.min(fontSizes.length - 1, currentFontIdx + delta));
     const size = fontSizes[currentFontIdx];
     document.documentElement.style.setProperty('--font-base-size', size);
     localStorage.setItem('codex-font-size-idx', currentFontIdx);
-  }
+  };
 
-  function setReadingWidth(widthKey) {
+  window.setReadingWidth = function(widthKey) {
     const widthMap = {
       narrow: '740px',
       medium: '960px',
@@ -239,6 +244,43 @@
     document.querySelectorAll('.width-btn').forEach(btn => btn.classList.remove('active'));
     const activeBtn = document.getElementById(`width-${widthKey}-btn`);
     if (activeBtn) activeBtn.classList.add('active');
+  };
+
+  // Wire event listeners directly on DOM elements as guaranteed fallback
+  function setupReadingControls() {
+    const narrowBtn = document.getElementById('width-narrow-btn');
+    const mediumBtn = document.getElementById('width-medium-btn');
+    const fullBtn = document.getElementById('width-full-btn');
+    if (narrowBtn) narrowBtn.addEventListener('click', () => window.setReadingWidth('narrow'));
+    if (mediumBtn) mediumBtn.addEventListener('click', () => window.setReadingWidth('medium'));
+    if (fullBtn) fullBtn.addEventListener('click', () => window.setReadingWidth('full'));
+
+    const zenBtn = document.getElementById('zen-mode-btn');
+    if (zenBtn) zenBtn.addEventListener('click', () => window.toggleZenMode());
+
+    const audioBtn = document.getElementById('ambient-audio-btn');
+    if (audioBtn) audioBtn.addEventListener('click', () => window.toggleAmbientAudio());
+
+    // Font size buttons
+    document.querySelectorAll('.font-size-btn').forEach((btn, idx) => {
+      btn.addEventListener('click', () => window.adjustFontSize(idx === 0 ? -1 : 1));
+    });
+
+    // Theme swatches
+    const themeMap = {
+      'swatch-sepia': 'sepia',
+      'swatch-paper': 'paper',
+      'swatch-dark': 'dark',
+      'swatch-oled': 'oled'
+    };
+    for (const [cls, thm] of Object.entries(themeMap)) {
+      const btn = document.querySelector(`.${cls}`);
+      if (btn) btn.addEventListener('click', () => window.setTheme(thm));
+    }
+
+    // Restore saved width indicator
+    const savedWidth = localStorage.getItem('codex-reading-width') || 'narrow';
+    window.setReadingWidth(savedWidth);
   }
 
   // Initialize theme, font size, and reading width immediately
@@ -253,6 +295,12 @@
     }
 
     const savedWidth = localStorage.getItem('codex-reading-width') || 'narrow';
-    setReadingWidth(savedWidth);
+    window.setReadingWidth(savedWidth);
   })();
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupReadingControls);
+  } else {
+    setupReadingControls();
+  }
 </script>

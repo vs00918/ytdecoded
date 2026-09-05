@@ -231,20 +231,28 @@
     }
   };
 
-  document.querySelectorAll('.crisis-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.crisis-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const key = btn.getAttribute('data-remedy');
-      const r = remedies[key];
-      if (r) {
-        const box = document.getElementById('first-aid-remedy-box');
-        const textEl = document.getElementById('remedy-text');
-        const linkEl = document.getElementById('remedy-link');
-        textEl.innerHTML = r.text;
-        linkEl.href = r.url;
-        box.style.display = 'block';
-      }
+  function setupFirstAid() {
+    document.querySelectorAll('.crisis-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.crisis-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const key = btn.getAttribute('data-remedy');
+        const r = remedies[key];
+        if (r) {
+          const box = document.getElementById('first-aid-remedy-box');
+          const textEl = document.getElementById('remedy-text');
+          const linkEl = document.getElementById('remedy-link');
+          textEl.innerHTML = r.text;
+          linkEl.href = r.url;
+          box.style.display = 'block';
+        }
+      });
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupFirstAid);
+  } else {
+    setupFirstAid();
+  }
 </script>

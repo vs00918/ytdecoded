@@ -86,7 +86,7 @@
 </style>
 
 <script is:inline>
-  function applyReadingDepth(mode) {
+  window.applyReadingDepth = function(mode) {
     document.documentElement.setAttribute('data-reading-depth', mode);
     localStorage.setItem('living_codex_depth', mode);
     document.querySelectorAll('.depth-btn').forEach(btn => {
@@ -110,16 +110,24 @@
     } else {
       prose.classList.remove('depth-filter-axiom', 'depth-filter-model');
     }
+  };
+
+  function setupDepthControls() {
+    document.querySelectorAll('.depth-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const mode = btn.getAttribute('data-depth');
+        window.applyReadingDepth(mode);
+      });
+    });
+
+    // Restore saved depth mode
+    const savedDepth = localStorage.getItem('living_codex_depth') || 'deep';
+    window.applyReadingDepth(savedDepth);
   }
 
-  document.querySelectorAll('.depth-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const mode = btn.getAttribute('data-depth');
-      applyReadingDepth(mode);
-    });
-  });
-
-  // Restore saved depth mode
-  const savedDepth = localStorage.getItem('living_codex_depth') || 'deep';
-  applyReadingDepth(savedDepth);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupDepthControls);
+  } else {
+    setupDepthControls();
+  }
 </script>
