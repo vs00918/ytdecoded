@@ -30,14 +30,14 @@ function toRoman(num: number): string {
   return roman || "I";
 }
 
-// Domain visual themes, labels, colors & illustrations
+// Volume Domain metadata
 function getVolumeVisualTheme(title: string, volumeNumber: number) {
   const t = title.toLowerCase();
   if (t.includes("biology") || t.includes("energy") || t.includes("brain") || t.includes("mind")) {
     return {
       key: "biology",
       domainLabel: "COGNITIVE NEUROBIOLOGY & SOMATIC SYSTEMS",
-      shortLabel: "Neurobiology & Energy",
+      shortLabel: "Biology of Mind & Energy",
       accentColor: "#2d6a4f",
       accentSoft: "#e8f4ec",
       illustration: "/ytdecoded/assets/volumes/vol1-neurobiology.svg"
@@ -47,7 +47,7 @@ function getVolumeVisualTheme(title: string, volumeNumber: number) {
     return {
       key: "wealth",
       domainLabel: "CAPITAL DYNAMICS & ASYMMETRIC LEVERAGE",
-      shortLabel: "Capital & Compounding",
+      shortLabel: "Wealth & Capital Allocation",
       accentColor: "#936639",
       accentSoft: "#f7ede2",
       illustration: "/ytdecoded/assets/volumes/vol2-wealth.svg"
@@ -57,7 +57,7 @@ function getVolumeVisualTheme(title: string, volumeNumber: number) {
     return {
       key: "metacognition",
       domainLabel: "PHILOSOPHY OF ACTION & METACOGNITIVE MASTERY",
-      shortLabel: "Action & Metacognition",
+      shortLabel: "Philosophy of Action",
       accentColor: "#8a2839",
       accentSoft: "#fcedef",
       illustration: "/ytdecoded/assets/volumes/vol3-metacognition.svg"
@@ -67,7 +67,7 @@ function getVolumeVisualTheme(title: string, volumeNumber: number) {
     return {
       key: "execution",
       domainLabel: "EXECUTION PHYSICS & KINETIC SYSTEMS",
-      shortLabel: "Execution Physics",
+      shortLabel: "High-Velocity Execution",
       accentColor: "#a24857",
       accentSoft: "#fbe9eb",
       illustration: "/ytdecoded/assets/volumes/vol4-execution.svg"
@@ -87,7 +87,7 @@ function getVolumeVisualTheme(title: string, volumeNumber: number) {
     return {
       key: "existential",
       domainLabel: "EXISTENTIAL PHILOSOPHY & THE SUMMIT",
-      shortLabel: "Existential Philosophy",
+      shortLabel: "Existential Sovereignty",
       accentColor: "#2c3e6b",
       accentSoft: "#e8ecf8",
       illustration: "/ytdecoded/assets/volumes/vol6-summit.svg"
@@ -96,7 +96,7 @@ function getVolumeVisualTheme(title: string, volumeNumber: number) {
   return {
     key: "general",
     domainLabel: "FOUNDATIONAL SYSTEMS & COGNITION",
-    shortLabel: "Foundations",
+    shortLabel: "Foundational Systems",
     accentColor: "#4a5568",
     accentSoft: "#edf2f7",
     illustration: "/ytdecoded/assets/volumes/vol1-neurobiology.svg"
@@ -104,103 +104,120 @@ function getVolumeVisualTheme(title: string, volumeNumber: number) {
 }
 
 // Volume Thesis / Core Premise
-function getVolumeThesis(group: { volume: number; volumeTitle: string; topics: any[] }): string {
-  const knownTheses: Record<string, string> = {
-    "The Biology of Mind & Energy": "Physical and neurological foundations of peak cognition: dopamine regulation, circadian rhythm, sleep architecture, and the gut-mind axis.",
-    "The Architecture of Wealth & Capital Allocation": "Structural mechanisms of capital compounding, asymmetric leverage, the three currencies of wealth, and long-term asset allocation.",
-    "Philosophy of Action & Metacognition": "The psychology of internal sovereignty: cognitive bias dismantling, emotional granularity, deliberate practice, and the craft-first paradigm.",
-    "High-Velocity Execution & Asymmetric Leverage": "The operational mechanics of deliberate action: conquering activation energy, eliminating procrastination, and high-agency execution.",
-    "The Architecture of Social Sovereignty": "Structural analysis of modern human dynamics, difficult conversations, deception detection, the dramaturgical front stage, and relational empathy.",
-    "Existential Sovereignty, Purpose & The Summit": "Radical resilience, existential philosophy, and classical critiques of societal systems from ancient Athens to the Anthropocene."
+function getVolumeThesis(volumeNumber: number): string {
+  const knownTheses: Record<number, string> = {
+    1: "Physical and neurological foundations of peak cognition: gut-brain signaling, dopamine regulation, sleep architecture, and attentional sovereignty.",
+    2: "The structural mechanics of capital compounding, predictable cashflow reinvestment, and the true cost of debt.",
+    3: "The psychology of internal sovereignty: dismantling procrastination, mastering metacognition, and executing sustainable deep work.",
+    4: "The operational physics of deliberate action: overcoming homeostatic comfort, resisting safety bias, and building progressive friction.",
+    5: "Structural analysis of human interaction: status games, interpersonal power, communicative empathy, and game-theoretic trust.",
+    6: "Existential resilience and philosophical sovereignty: affect labeling, Stoic endurance, active nihilism, and radical self-overcoming."
   };
-
-  if (knownTheses[group.volumeTitle]) {
-    return knownTheses[group.volumeTitle];
-  }
-
-  const tags = Array.from(new Set(group.topics.flatMap((t: any) => t.data.tags || []))).slice(0, 4);
-  if (tags.length > 0) {
-    return `Comprehensive treatises and first-principles mental models exploring ${tags.join(", ")}.`;
-  }
-  return "Syntopical chapters exploring first-principles frameworks, mental models, and sovereign mastery.";
+  return knownTheses[volumeNumber] || "Syntopical chapters exploring first-principles frameworks, mental models, and sovereign mastery.";
 }
 
-// 3 Curated Inquiries for each volume (What questions does this volume answer?)
-function getVolumeInquiries(volumeNumber: number): string[] {
-  const inquiries: Record<number, string[]> = {
-    1: [
-      "How do gut microbiota and vagus nerve signaling dictate mood, mental clarity, and anxiety?",
-      "What is the exact neurochemical mechanism of dopamine loading, baseline exhaustion, and focus recovery?",
-      "How do circadian light cues and 90-minute sleep stages govern memory consolidation and learning retention?"
-    ],
-    2: [
-      "What separates productive leverage from destructive compounding debt in long-term wealth building?",
-      "How do cashflow velocity and asymmetric risk profile govern financial autonomy?",
-      "How do economic, cultural, and social currencies compound across multi-decade horizons?"
-    ],
-    3: [
-      "How do you mathematically dismantle procrastination and lower activation energy using the 3-second rule?",
-      "Why does standard willpower fail, and how do quad-block circadian routines enable sustainable 10-12 hour deep work?",
-      "How do epistemic razors, cognitive bias firewalls, and metacognitive awareness neutralize overthinking?"
-    ],
-    4: [
-      "Why is physical and psychological comfort a neurological pathology that erodes resilience?",
-      "How does progressive friction retrain baseline homeostasis to thrive under acute pressure?",
-      "How do you engineer high-agency momentum when external conditions and motivation collapse?"
-    ],
-    5: [
-      "How do Erving Goffman's front-stage vs. backstage dynamics explain imposter syndrome in social hierarchies?",
-      "What are the conversational matching principles of supercommunicators during intense interpersonal conflict?",
-      "How do game theory and tit-for-tat strategies create sovereign cooperation without vulnerability?"
-    ],
-    6: [
-      "How does affect labeling and emotional granularity biochemically calm the amygdala during acute crisis?",
-      "What separates Marcus Aurelius's Inner Citadel from passive suppression or emotional detachment?",
-      "How do active nihilism, Spinozan rationalism, and Nietzschean self-overcoming forge unshakeable purpose?"
-    ]
+// "READ THIS IF..." — One concise sentence derived directly from syllabus
+function getVolumeReadThisIf(volumeNumber: number): string {
+  const readThisIfMap: Record<number, string> = {
+    1: "Read this if you want to understand the biological engines of your energy, focus, sleep, and mental clarity.",
+    2: "Read this if you want to understand how predictable cashflow compounds and why debt erodes financial sovereignty.",
+    3: "Read this if you struggle with procrastination, overthinking, or turning conceptual knowledge into daily disciplined execution.",
+    4: "Read this if you find yourself paralyzed by comfortable routines and need the operational physics to act under friction.",
+    5: "Read this if you want to navigate social hierarchies, speak with resonance, deconstruct imposter syndrome, and build trust.",
+    6: "Read this if you face existential doubt, emotional turbulence, or crisis, and seek unshakeable internal grounding."
   };
-  return inquiries[volumeNumber] || [
-    "What are the foundational first principles governing this discipline?",
-    "How can these mental models be tested and applied in high-stakes environments?",
-    "What cognitive biases and structural illusions must be dismantled first?"
-  ];
+  return readThisIfMap[volumeNumber] || "Read this if you want to ground your thinking in sovereign first-principles models.";
 }
 
-// Process volumes for the view
+// "THE JOURNEY" — Compact conceptual progression steps
+function getVolumeJourney(volumeNumber: number): string[] {
+  const journeyMap: Record<number, string[]> = {
+    1: ["Gut–Brain Axis", "Dopamine Chemistry", "Impulse Control", "Neural Rewiring", "Sleep Architecture", "Biopsychosocial Mind"],
+    2: ["Cashflow Fundamentals", "Cost of Debt", "Capital Compounding", "Asset Sovereignty"],
+    3: ["Activation Energy", "Habit Cascades", "Metacognition & Biases", "Active Recall", "Circadian Cadence", "First-Principles Outworking"],
+    4: ["Homeostatic Trap", "Paradox of Safety", "Progressive Friction", "Kinetic Action"],
+    5: ["Social Fictions", "Front-Stage Fallacy", "Vocal Resonance", "Supercommunication", "Game Theory & Trust", "Civilizational Critique"],
+    6: ["Affect Labeling", "True Confidence", "Radical Self-Ownership", "Marcus Aurelius's Citadel", "Nietzschean Overcoming", "Relational Maturity"]
+  };
+  return journeyMap[volumeNumber] || ["Foundations", "Mechanisms", "Applied Practice", "Sovereign Mastery"];
+}
+
+// Reading Scale indicator classifier
+function getVolumeScale(totalMin: number): { label: string; filledBlocks: number; totalBlocks: number } {
+  if (totalMin <= 15) {
+    return { label: "CONCISE", filledBlocks: 2, totalBlocks: 8 };
+  } else if (totalMin <= 50) {
+    return { label: "MODERATE", filledBlocks: 4, totalBlocks: 8 };
+  } else if (totalMin <= 80) {
+    return { label: "SUBSTANTIAL", filledBlocks: 6, totalBlocks: 8 };
+  } else {
+    return { label: "COMPREHENSIVE", filledBlocks: 8, totalBlocks: 8 };
+  }
+}
+
+// Curated 3-4 Representative Preview Chapters per volume
+const PREVIEW_SLUGS: Record<number, string[]> = {
+  1: [
+    "the-second-brain-and-the-gut-mind-axis",
+    "the-neurochemistry-of-focus-and-dopamine-transition",
+    "the-neurobiology-of-sleep-architecture"
+  ],
+  2: [
+    "the-engine-of-wealth-and-capital-allocation"
+  ],
+  3: [
+    "eliminating-procrastination-and-activation-energy",
+    "the-architecture-of-memory-and-active-recall",
+    "the-anatomy-of-consistency-and-forced-action",
+    "the-physics-of-outworking-and-first-principles"
+  ],
+  4: [
+    "the-pathology-of-comfort-and-progressive-friction"
+  ],
+  5: [
+    "the-front-stage-fallacy-and-imposter-syndrome",
+    "the-architecture-of-resonance-and-vocal-sovereignty",
+    "the-architecture-of-supercommunication",
+    "game-theory-and-strategic-cooperation"
+  ],
+  6: [
+    "the-architecture-of-emotional-granularity",
+    "the-architecture-of-true-confidence",
+    "the-inner-citadel-and-stoic-sovereignty",
+    "the-will-to-power-and-self-overcoming"
+  ]
+};
+
+// Process all volumes for the reading decision system
 const volumeCards = rawVolumeGroups.map((group) => {
   const volumeNumber = group.volume;
   const romanVol = toRoman(volumeNumber);
   const visualTheme = getVolumeVisualTheme(group.volumeTitle, volumeNumber);
-  const thesis = getVolumeThesis(group);
-  const keyInquiries = getVolumeInquiries(volumeNumber);
+  const thesis = getVolumeThesis(volumeNumber);
+  const readThisIf = getVolumeReadThisIf(volumeNumber);
+  const journey = getVolumeJourney(volumeNumber);
 
-  const volWordCount = group.topics.reduce((acc, t) => acc + (t.body ? t.body.split(/\s+/).filter(Boolean).length : 0), 0);
-  const volReadingTime = Math.max(1, Math.ceil(volWordCount / 225));
-
-  // Flagship featured volume (Volume 3 with 24 topics)
+  const volMinutes = group.topics.reduce((acc, t) => acc + (t.data.reading_time_minutes || Math.max(1, Math.ceil((t.body?.split(/\s+/).filter(Boolean).length || 0) / 225))), 0);
+  const scale = getVolumeScale(volMinutes);
   const isFlagship = volumeNumber === 3;
 
-  // Extract unique thinkers/creators
-  const uniqueCreators = Array.from(
-    new Set(group.topics.flatMap((t: any) => t.data.sources?.map((s: any) => s.creator) || []).filter(Boolean) as string[])
-  ).slice(0, 5);
-
-  // Calculate processed topics
   const processedTopics = group.topics.map((t: any) => {
-    const wordCount = t.body ? t.body.split(/\s+/).filter(Boolean).length : 0;
-    const readingTime = Math.max(1, Math.ceil(wordCount / 225));
+    const readingTime = t.data.reading_time_minutes || Math.max(1, Math.ceil((t.body?.split(/\s+/).filter(Boolean).length || 0) / 225));
     const creator = t.data.sources && t.data.sources.length > 0 ? t.data.sources[0].creator : null;
     return {
       topic: t,
       readingTime,
-      creator
+      creator,
+      summary: t.data.summary_15s || ""
     };
   });
 
-  // Preview shelf
-  const previewCount = isFlagship ? 4 : Math.min(group.topics.length, 3);
-  const previewTopics = processedTopics.slice(0, previewCount);
-  const remainingCount = group.topics.length - previewCount;
+  const targetSlugs = PREVIEW_SLUGS[volumeNumber] || [];
+  let previewTopics = processedTopics.filter(item => targetSlugs.includes(item.topic.slug));
+  if (previewTopics.length === 0) {
+    previewTopics = processedTopics.slice(0, 3);
+  }
+  const remainingCount = processedTopics.length - previewTopics.length;
 
   return {
     ...group,
@@ -208,28 +225,51 @@ const volumeCards = rawVolumeGroups.map((group) => {
     romanVol,
     visualTheme,
     thesis,
-    keyInquiries,
-    volReadingTime,
+    readThisIf,
+    journey,
+    volMinutes,
+    scale,
     isFlagship,
-    uniqueCreators,
     processedTopics,
     previewTopics,
     remainingCount
   };
 });
+
+const twentyMinuteSuggestion = {
+  volNum: 1,
+  volRoman: "I",
+  volShort: "Biology of Mind & Energy",
+  topic1: {
+    slug: "the-second-brain-and-the-gut-mind-axis",
+    title: "The Second Brain — The Gut-Mind Axis",
+    time: 5
+  },
+  topic2: {
+    slug: "the-neurochemistry-of-focus-and-dopamine-transition",
+    title: "The Neurochemistry of Focus — Dopamine Loading",
+    time: 7
+  },
+  topic3: {
+    slug: "the-neurobiology-of-sleep-architecture",
+    title: "The Neurobiology of Sleep Architecture",
+    time: 7
+  },
+  totalTime: 19
+};
 ---
 
-<ReaderLayout title="Library Catalog" description="The Living Codex — Master Personal Knowledge Library" isWideLayout={true} hideNavSearch={true}>
+<ReaderLayout title="Reading Map" description="The Living Codex — Master Reading Decision System & Knowledge Map" isWideLayout={true} hideNavSearch={true}>
   <div class="library-app-canvas">
     
     <!-- ====================================================================
-         SECTION 1: EDITORIAL HERO & PRIMARY SEARCH DOOR
+         SECTION 1: EDITORIAL BANNER & ELEVATED SEARCH DOOR
          ==================================================================== -->
     <header class="codex-hero-section">
       <div class="hero-badge-pill">
         <span class="hero-badge-bold">THE LIVING CODEX</span>
         <span class="hero-badge-dot">•</span>
-        <span class="hero-badge-light">PERSONAL KNOWLEDGE LIBRARY</span>
+        <span class="hero-badge-light">MASTER READING MAP</span>
       </div>
 
       <h1 class="codex-hero-title">The Living Codex</h1>
@@ -238,7 +278,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
         A personal library of ideas worth understanding deeply. Explore first principles, mental models, cognitive science, philosophy, and the structural systems that connect them.
       </p>
 
-      <!-- Primary Search Door (Elevated UX) -->
+      <!-- Primary Search Door -->
       <div class="codex-search-door-wrap">
         <button 
           id="library-search-btn" 
@@ -262,7 +302,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
         </button>
       </div>
 
-      <!-- Interactive Philosophy as First Aid -->
+      <!-- Situational First Aid Selector -->
       <div class="hero-first-aid-wrap">
         <PhilosophyFirstAid />
       </div>
@@ -270,8 +310,9 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
     <!-- ====================================================================
          SECTION 2: RESUME STUDYING (Dynamic from localStorage)
+         OR 20-MINUTE SUGGESTION IF NO RESUME STATE
          ==================================================================== -->
-    <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Resume Studying">
+    <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Resume Reading">
       <div class="continue-study-banner">
         <div class="continue-study-left">
           <div class="continue-book-icon-box">
@@ -294,48 +335,120 @@ const volumeCards = rawVolumeGroups.map((group) => {
       </div>
     </section>
 
+    <!-- Fallback: "IF YOU HAVE 20 MINUTES" (Hidden automatically if resume active) -->
+    <section id="quick-session-suggestion" class="quick-session-section" aria-label="Short Reading Suggestion">
+      <div class="quick-session-card">
+        <div class="quick-session-badge">
+          <span class="quick-badge-icon" aria-hidden="true">⏱️</span>
+          <span>IF YOU HAVE 20 MINUTES</span>
+        </div>
+        <div class="quick-session-content">
+          <div class="quick-session-desc">
+            Explore the biological triad of energy and focus in <strong>Vol. {twentyMinuteSuggestion.volRoman} ({twentyMinuteSuggestion.totalTime} min)</strong>:
+          </div>
+          <div class="quick-session-links">
+            <a href={`/ytdecoded/topics/${twentyMinuteSuggestion.topic1.slug}/`} class="quick-link-item">
+              <span class="quick-link-title">{twentyMinuteSuggestion.topic1.title}</span>
+              <span class="quick-link-time">{twentyMinuteSuggestion.topic1.time}m</span>
+            </a>
+            <span class="quick-sep">→</span>
+            <a href={`/ytdecoded/topics/${twentyMinuteSuggestion.topic2.slug}/`} class="quick-link-item">
+              <span class="quick-link-title">{twentyMinuteSuggestion.topic2.title}</span>
+              <span class="quick-link-time">{twentyMinuteSuggestion.topic2.time}m</span>
+            </a>
+            <span class="quick-sep">→</span>
+            <a href={`/ytdecoded/topics/${twentyMinuteSuggestion.topic3.slug}/`} class="quick-link-item">
+              <span class="quick-link-title">{twentyMinuteSuggestion.topic3.title}</span>
+              <span class="quick-link-time">{twentyMinuteSuggestion.topic3.time}m</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ====================================================================
-         SECTION 3: ORIENTATION LAYER — CURRICULUM ARCHITECTURE ROADMAP
-         Allows immediate comparison of all 6 volumes in one glance
+         SECTION 3: "NOT SURE WHERE TO START?" — 4 DIRECT READING ROUTES
          ==================================================================== -->
-    <section class="curriculum-roadmap-section" aria-label="Curriculum Architecture">
-      <div class="roadmap-header">
-        <div class="roadmap-eyebrow">CURRICULUM ARCHITECTURE</div>
-        <h2 class="roadmap-title">The Six Foundational Volumes</h2>
-        <p class="roadmap-subtitle">Compare domains, chapter depth, and study commitments across the complete sequence.</p>
+    <section class="reading-pathways-section" aria-label="Reading Pathway Recommendations">
+      <div class="pathways-card">
+        <div class="pathways-label-group">
+          <span class="pathways-eyebrow">READING PATH FINDER</span>
+          <h2 class="pathways-title">Not sure where to start? Choose what you need today:</h2>
+        </div>
+
+        <div class="pathways-buttons-grid">
+          <a href="#volume-card-1" class="pathway-btn" style="--btn-accent: #2d6a4f;">
+            <span class="pathway-target">I want to restore my energy & focus</span>
+            <span class="pathway-dest">→ Vol. I: Biology of Mind & Energy</span>
+          </a>
+
+          <a href="#volume-card-3" class="pathway-btn" style="--btn-accent: #8a2839;">
+            <span class="pathway-target">I want to overcome procrastination & act</span>
+            <span class="pathway-dest">→ Vol. III: Philosophy of Action</span>
+          </a>
+
+          <a href="#volume-card-5" class="pathway-btn" style="--btn-accent: #3b4d6b;">
+            <span class="pathway-target">I want to communicate with clarity & power</span>
+            <span class="pathway-dest">→ Vol. V: Social Sovereignty</span>
+          </a>
+
+          <a href="#volume-card-6" class="pathway-btn" style="--btn-accent: #2c3e6b;">
+            <span class="pathway-target">I want inner resilience during difficulty</span>
+            <span class="pathway-dest">→ Vol. VI: Existential Sovereignty</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: "THE CODEX AT A GLANCE" — THE READING MAP
+         ==================================================================== -->
+    <section class="codex-glance-section" aria-label="The Codex at a Glance">
+      <div class="glance-header">
+        <div class="glance-eyebrow">THE CODEX AT A GLANCE</div>
+        <h2 class="glance-title">Six Territories. One Connected Body of Knowledge.</h2>
+        <p class="glance-subtitle">Compare territory scope, chapter depth, and reading load across the six volumes.</p>
       </div>
 
-      <div class="roadmap-pills-strip">
+      <div class="glance-grid">
         {volumeCards.map((vol) => (
           <a 
             href={`#volume-card-${vol.volumeNumber}`} 
-            class="roadmap-pill-link"
-            style={`--pill-color: ${vol.visualTheme.accentColor}; --pill-soft: ${vol.visualTheme.accentSoft}; --pill-border: ${vol.visualTheme.accentColor}33;`}
+            class="glance-card-link"
+            style={`--glance-color: ${vol.visualTheme.accentColor}; --glance-soft: ${vol.visualTheme.accentSoft};`}
           >
-            <div class="pill-top-row">
-              <span class="pill-vol-badge">VOL. {vol.romanVol}</span>
-              <span class="pill-metric">{vol.topics.length} Ch • {vol.volReadingTime}m</span>
+            <div class="glance-card-top">
+              <span class="glance-vol-badge">VOL. {vol.romanVol}</span>
+              <span class="glance-vol-metric">{vol.topics.length} {vol.topics.length === 1 ? "ch" : "chs"} · ~{vol.volMinutes}m</span>
             </div>
-            <div class="pill-label">{vol.visualTheme.shortLabel}</div>
+            <div class="glance-vol-title">{vol.visualTheme.shortLabel}</div>
+            <div class="glance-scale-wrap">
+              <div class="glance-scale-meter" title={`Reading load: ${vol.scale.label} (~ ${vol.volMinutes} min)`}>
+                {Array.from({ length: vol.scale.totalBlocks }).map((_, idx) => (
+                  <span class={`scale-block ${idx < vol.scale.filledBlocks ? "filled" : ""}`}></span>
+                ))}
+              </div>
+              <span class="glance-scale-text">{vol.scale.label}</span>
+            </div>
           </a>
         ))}
       </div>
     </section>
 
     <!-- ====================================================================
-         SECTION 4: DECISION-FIRST VOLUME CARDS
+         SECTION 5: VOLUME DECISION CARDS
          ==================================================================== -->
-    <main class="codex-catalog-section" aria-label="Knowledge Volumes Catalog">
+    <main class="codex-catalog-section" aria-label="Volume Decision Catalog">
       <div class="catalog-header-row">
         <div class="catalog-title-group">
-          <h2 class="catalog-heading">Volume Deep Dive & Chapter Indexes</h2>
-          <span class="catalog-caption-inline">Understand what each volume unlocks before entering</span>
+          <h2 class="catalog-heading">Volume Deep Dives & Chapter Selection</h2>
+          <span class="catalog-caption-inline">Understand the intellectual arc and inspect representative chapters before reading</span>
         </div>
         <div class="catalog-control-buttons">
-          <button id="expand-all-btn" class="catalog-action-btn" title="Expand all chapter drawers">
-            <span class="action-icon">⛶</span> Expand All Chapters
+          <button id="expand-all-btn" class="catalog-action-btn" title="Expand all full chapter drawers">
+            <span class="action-icon">⛶</span> Expand All Drawers
           </button>
-          <button id="collapse-all-btn" class="catalog-action-btn" title="Collapse all chapter drawers">
+          <button id="collapse-all-btn" class="catalog-action-btn" title="Collapse all full chapter drawers">
             <span class="action-icon">−</span> Collapse Drawers
           </button>
         </div>
@@ -349,27 +462,33 @@ const volumeCards = rawVolumeGroups.map((group) => {
             style={`--vol-color: ${vol.visualTheme.accentColor}; --vol-soft: ${vol.visualTheme.accentSoft}; --vol-border-light: ${vol.visualTheme.accentColor}25;`}
             aria-labelledby={`vol-title-${vol.volumeNumber}`}
           >
-            <!-- Card Editorial Shell -->
             <div class="editorial-card-frame">
               
-              <!-- 1. Header & Domain Label -->
+              <!-- LAYER A: WHAT IS THIS? -->
               <div class="card-domain-header">
                 <div class="domain-identity-left">
                   <span class="domain-vol-num">VOLUME {vol.romanVol}</span>
                   <span class="domain-bullet">•</span>
                   <span class="domain-title-text">{vol.visualTheme.domainLabel}</span>
                 </div>
+                <!-- LAYER E: HOW MUCH? -->
                 <div class="domain-badge-scale">
+                  <span class="scale-load-label">READING LOAD:</span>
+                  <div class="reading-load-blocks" title={`${vol.scale.label} reading load (~ ${vol.volMinutes} min)`}>
+                    {Array.from({ length: vol.scale.totalBlocks }).map((_, blockIdx) => (
+                      <span class={`load-block ${blockIdx < vol.scale.filledBlocks ? "filled" : ""}`}></span>
+                    ))}
+                  </div>
                   <span class="scale-chapters"><strong>{vol.topics.length}</strong> {vol.topics.length === 1 ? "Chapter" : "Chapters"}</span>
                   <span class="scale-dot">•</span>
-                  <span class="scale-time">~{vol.volReadingTime} min study</span>
+                  <span class="scale-time">~{vol.volMinutes} min</span>
                 </div>
               </div>
 
-              <!-- 2. Main Content Grid (Split Layout) -->
+              <!-- Main Card Body Grid -->
               <div class="card-split-body">
                 
-                <!-- Left Column: Artwork Plate & Foundational Thinkers -->
+                <!-- Left Column: Artwork Plate & Scale Box -->
                 <div class="card-artwork-column">
                   <div class="artwork-plate-frame">
                     <img 
@@ -381,19 +500,17 @@ const volumeCards = rawVolumeGroups.map((group) => {
                     <div class="artwork-watermark-vol">{vol.romanVol}</div>
                   </div>
 
-                  {vol.uniqueCreators.length > 0 && (
-                    <div class="card-thinkers-shelf">
-                      <div class="thinkers-label">KEY MINDS & SOURCES</div>
-                      <div class="thinkers-pills-wrap">
-                        {vol.uniqueCreators.map((creator) => (
-                          <span class="thinker-tag">{creator}</span>
-                        ))}
-                      </div>
+                  <div class="content-load-card">
+                    <div class="load-card-header">CONTENT SIZE</div>
+                    <div class="load-card-status">{vol.scale.label}</div>
+                    <div class="load-card-details">
+                      <div><strong>{vol.topics.length}</strong> {vol.topics.length === 1 ? "Chapter" : "Chapters"}</div>
+                      <div><strong>~{vol.volMinutes}</strong> Minutes of study</div>
                     </div>
-                  )}
+                  </div>
                 </div>
 
-                <!-- Right Column: Title, Thesis, Key Inquiries & Inside Chapter Shelf -->
+                <!-- Right Column: Layers B, C, D -->
                 <div class="card-content-column">
                   
                   <div class="card-headline-group">
@@ -407,46 +524,56 @@ const volumeCards = rawVolumeGroups.map((group) => {
                         {vol.volumeTitle}
                       </a>
                     </h3>
-
                     <p class="card-volume-thesis">{vol.thesis}</p>
                   </div>
 
-                  <!-- 3. Crucial Decision Layer: What Questions Does This Volume Answer? -->
-                  <div class="card-inquiries-box">
-                    <div class="inquiries-box-header">
-                      <span class="inquiries-icon" aria-hidden="true">💡</span>
-                      <span class="inquiries-heading">WHAT QUESTIONS DOES THIS VOLUME ANSWER?</span>
-                    </div>
-                    <ul class="inquiries-list">
-                      {vol.keyInquiries.map((inquiry) => (
-                        <li class="inquiry-item">
-                          <span class="inquiry-marker">›</span>
-                          <span class="inquiry-text">{inquiry}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  <!-- LAYER B: WHY READ IT? -->
+                  <div class="card-read-this-if-box">
+                    <span class="read-if-badge">READ THIS IF...</span>
+                    <p class="read-if-text">{vol.readThisIf}</p>
                   </div>
 
-                  <!-- 4. Inside This Volume (Explicit Chapter Shelf with Time Tags) -->
+                  <!-- LAYER C: THE JOURNEY -->
+                  <div class="card-journey-box">
+                    <div class="journey-box-header">
+                      <span class="journey-icon" aria-hidden="true">➔</span>
+                      <span class="journey-heading">THE INTELLECTUAL JOURNEY</span>
+                    </div>
+                    <div class="journey-steps-flow">
+                      {vol.journey.map((step, sIdx) => (
+                        <span class="journey-step-item">
+                          <span class="step-text">{step}</span>
+                          {sIdx < vol.journey.length - 1 && <span class="step-arrow">→</span>}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <!-- LAYER D: WHAT'S INSIDE -->
                   <div class="card-inside-shelf">
                     <div class="inside-shelf-header">
-                      <span class="inside-shelf-label">INSIDE THIS VOLUME</span>
-                      <span class="inside-shelf-preview-tag">
-                        Showing {vol.previewTopics.length} of {vol.topics.length} {vol.topics.length === 1 ? "Chapter" : "Chapters"}
-                      </span>
+                      <div class="inside-shelf-title-wrap">
+                        <span class="inside-shelf-label">WHAT'S INSIDE</span>
+                        <span class="inside-shelf-preview-tag">SELECTED PREVIEW ({vol.previewTopics.length} of {vol.topics.length} chapters)</span>
+                      </div>
+                      <span class="inside-shelf-hint">Exemplary chapters showing the volume's breadth</span>
                     </div>
 
-                    <div class="inside-chapters-grid">
-                      {vol.previewTopics.map(({ topic: t, readingTime, creator }) => (
-                        <a href={`/ytdecoded/topics/${t.slug}/`} class="inside-chapter-pill">
-                          <div class="chapter-pill-top">
-                            <span class="chapter-order-badge">#{t.data.order_in_volume}</span>
-                            <span class="chapter-time-badge">⏱️ {readingTime}m</span>
+                    <div class="inside-chapters-list">
+                      {vol.previewTopics.map(({ topic: t, readingTime, summary }) => (
+                        <a href={`/ytdecoded/topics/${t.slug}/`} class="inside-chapter-row">
+                          <div class="row-num-badge">
+                            {String(t.data.order_in_volume).padStart(2, "0")}
                           </div>
-                          <div class="chapter-pill-title">{t.data.title}</div>
-                          {creator && (
-                            <div class="chapter-pill-creator">{creator}</div>
-                          )}
+                          <div class="row-main-content">
+                            <div class="row-title-line">
+                              <span class="row-title">{t.data.title}</span>
+                              <span class="row-time-tag">⏱️ {readingTime} min</span>
+                            </div>
+                            {summary && (
+                              <p class="row-summary-line">{summary}</p>
+                            )}
+                          </div>
                         </a>
                       ))}
                     </div>
@@ -459,7 +586,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
                           onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
                           aria-label={`View remaining ${vol.remainingCount} chapters in Volume ${vol.romanVol}`}
                         >
-                          + View {vol.remainingCount} more {vol.remainingCount === 1 ? "chapter" : "chapters"} in Volume {vol.romanVol} ▾
+                          + {vol.remainingCount} more {vol.remainingCount === 1 ? "chapter" : "chapters"} in Volume {vol.romanVol} (click to view full inventory) ▾
                         </button>
                       </div>
                     )}
@@ -468,7 +595,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
                 </div>
               </div>
 
-              <!-- 5. Card Bottom Action Bar -->
+              <!-- Card Action Footer -->
               <footer class="card-action-footer">
                 <div class="footer-left-actions">
                   <a 
@@ -488,7 +615,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
                     aria-controls={`drawer-${vol.volumeNumber}`}
                     onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
                   >
-                    <span class="drawer-btn-label">Preview all {vol.topics.length} chapters ▾</span>
+                    <span class="drawer-btn-label">Full Volume Inventory ({vol.topics.length}) ▾</span>
                   </button>
                 </div>
 
@@ -499,7 +626,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
                 )}
               </footer>
 
-              <!-- 6. Collapsible Full Chapter Index Drawer -->
+              <!-- Collapsible Full Chapter Inventory Drawer -->
               <div 
                 id={`drawer-${vol.volumeNumber}`} 
                 class="volume-full-drawer"
@@ -507,27 +634,30 @@ const volumeCards = rawVolumeGroups.map((group) => {
               >
                 <div class="volume-drawer-inner">
                   <div class="drawer-inner-header">
-                    <span class="drawer-inner-title">COMPLETE VOLUME INDEX ({vol.topics.length} CHAPTERS)</span>
+                    <div>
+                      <span class="drawer-inner-title">COMPLETE VOLUME INVENTORY — ALL {vol.topics.length} CHAPTERS</span>
+                      <div class="drawer-inner-sub">Total study commitment: ~{vol.volMinutes} minutes</div>
+                    </div>
                     <button 
                       type="button" 
                       class="drawer-close-btn"
                       onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
-                      aria-label="Close chapter index"
+                      aria-label="Close chapter inventory"
                     >
-                      ✕ Close Index
+                      ✕ Close Inventory
                     </button>
                   </div>
 
                   <div class="drawer-topics-grid">
-                    {vol.processedTopics.map(({ topic: t, readingTime, creator }) => (
+                    {vol.processedTopics.map(({ topic: t, readingTime, creator, summary }) => (
                       <a href={`/ytdecoded/topics/${t.slug}/`} class="drawer-topic-card">
                         <div class="drawer-topic-header">
                           <span class="drawer-topic-order">Chapter #{t.data.order_in_volume}</span>
                           <span class="drawer-topic-time">⏱️ {readingTime}m</span>
                         </div>
                         <div class="drawer-topic-title">{t.data.title}</div>
-                        {t.data.summary_15s && (
-                          <div class="drawer-topic-summary">{t.data.summary_15s}</div>
+                        {summary && (
+                          <div class="drawer-topic-summary">{summary}</div>
                         )}
                         {creator && (
                           <div class="drawer-topic-creator">Mind: <strong>{creator}</strong></div>
@@ -545,7 +675,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     </main>
 
     <!-- ====================================================================
-         SECTION 5: BOTTOM CORPUS METRIC STRIP
+         SECTION 6: BOTTOM CORPUS STAT STRIP
          ==================================================================== -->
     <section class="bottom-corpus-stat-section" aria-label="Codex Overview Statistics">
       <div class="codex-stat-strip">
@@ -583,7 +713,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     </section>
 
     <!-- ====================================================================
-         SECTION 6: EDITORIAL QUOTE FOOTER
+         SECTION 7: EDITORIAL QUOTE FOOTER
          ==================================================================== -->
     <footer class="codex-quote-banner">
       <div class="quote-content-wrap">
@@ -598,7 +728,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
 <style>
   /* ==========================================================================
-     LIVING CODEX: DECISION-FIRST EDITORIAL ARCHITECTURE
+     LIVING CODEX: READING DECISION SYSTEM & MASTER READING MAP
      ========================================================================== */
 
   .library-app-canvas {
@@ -613,7 +743,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
   .codex-hero-section {
     text-align: center;
     max-width: 860px;
-    margin: 0 auto 36px;
+    margin: 0 auto 32px;
     padding: 10px 0 0;
   }
 
@@ -657,17 +787,17 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
   .codex-hero-subtitle {
     font-family: var(--font-sans);
-    font-size: 1.06rem;
+    font-size: 1.05rem;
     line-height: 1.6;
     color: var(--text-secondary);
     max-width: 680px;
     margin: 0 auto 28px;
   }
 
-  /* Elevated Search Door Field */
+  /* Search Door Field */
   .codex-search-door-wrap {
     max-width: 640px;
-    margin: 0 auto 28px;
+    margin: 0 auto 24px;
   }
 
   .codex-search-door-btn {
@@ -736,14 +866,14 @@ const volumeCards = rawVolumeGroups.map((group) => {
   }
 
   .hero-first-aid-wrap {
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   /* --------------------------------------------------------------------------
      CONTINUE STUDYING BANNER
      -------------------------------------------------------------------------- */
   .continue-study-section {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   .continue-study-banner {
@@ -831,9 +961,175 @@ const volumeCards = rawVolumeGroups.map((group) => {
   }
 
   /* --------------------------------------------------------------------------
-     SECTION 3: ORIENTATION LAYER (ROADMAP STRIP)
+     "IF YOU HAVE 20 MINUTES" QUICK SUGGESTION (SUBTLE, NO PRESSURE)
      -------------------------------------------------------------------------- */
-  .curriculum-roadmap-section {
+  .quick-session-section {
+    margin-bottom: 28px;
+  }
+
+  .quick-session-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 6px var(--shadow);
+  }
+
+  .quick-session-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+  }
+
+  .quick-session-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .quick-session-desc {
+    font-family: var(--font-sans);
+    font-size: 0.84rem;
+    color: var(--text-secondary);
+  }
+
+  .quick-session-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .quick-link-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: border-color 0.15s ease;
+  }
+
+  .quick-link-item:hover {
+    border-color: var(--accent);
+  }
+
+  .quick-link-title {
+    font-weight: 600;
+  }
+
+  .quick-link-time {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+  }
+
+  .quick-sep {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  /* --------------------------------------------------------------------------
+     "NOT SURE WHERE TO START?" — 4 DIRECT PATHWAYS
+     -------------------------------------------------------------------------- */
+  .reading-pathways-section {
+    margin-bottom: 32px;
+  }
+
+  .pathways-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 8px var(--shadow);
+  }
+
+  .pathways-label-group {
+    margin-bottom: 12px;
+  }
+
+  .pathways-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .pathways-title {
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  .pathways-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+  }
+
+  .pathway-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-left: 3.5px solid var(--btn-accent);
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+  }
+
+  .pathway-btn:hover {
+    transform: translateY(-1px);
+    background: var(--bg-card);
+    border-color: var(--btn-accent);
+  }
+
+  .pathway-target {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  .pathway-dest {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--btn-accent);
+    font-weight: 700;
+  }
+
+  /* --------------------------------------------------------------------------
+     "THE CODEX AT A GLANCE" — READING MAP
+     -------------------------------------------------------------------------- */
+  .codex-glance-section {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 12px;
@@ -842,11 +1138,11 @@ const volumeCards = rawVolumeGroups.map((group) => {
     box-shadow: 0 2px 8px var(--shadow);
   }
 
-  .roadmap-header {
+  .glance-header {
     margin-bottom: 16px;
   }
 
-  .roadmap-eyebrow {
+  .glance-eyebrow {
     font-family: var(--font-mono);
     font-size: 0.68rem;
     font-weight: 700;
@@ -855,7 +1151,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     margin-bottom: 4px;
   }
 
-  .roadmap-title {
+  .glance-title {
     font-family: var(--font-serif);
     font-size: 1.25rem;
     font-weight: 700;
@@ -863,66 +1159,102 @@ const volumeCards = rawVolumeGroups.map((group) => {
     margin: 0 0 4px;
   }
 
-  .roadmap-subtitle {
+  .glance-subtitle {
     font-family: var(--font-sans);
     font-size: 0.85rem;
     color: var(--text-secondary);
     margin: 0;
   }
 
-  .roadmap-pills-strip {
+  .glance-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 10px;
   }
 
-  .roadmap-pill-link {
-    display: block;
-    background: var(--pill-soft);
-    border: 1px solid var(--pill-border);
+  .glance-card-link {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: var(--glance-soft);
+    border: 1px solid var(--border);
     border-radius: 8px;
     padding: 10px 12px;
     text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
   }
 
-  .roadmap-pill-link:hover {
+  .glance-card-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px var(--shadow);
+    border-color: var(--glance-color);
   }
 
-  .pill-top-row {
+  .glance-card-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 6px;
-    margin-bottom: 4px;
   }
 
-  .pill-vol-badge {
+  .glance-vol-badge {
     font-family: var(--font-mono);
-    font-size: 0.7rem;
-    font-weight: 700;
-    color: var(--pill-color);
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: var(--glance-color);
   }
 
-  .pill-metric {
+  .glance-vol-metric {
     font-family: var(--font-mono);
-    font-size: 0.65rem;
+    font-size: 0.66rem;
     font-weight: 600;
-    color: var(--text-muted);
+    color: var(--text-secondary);
   }
 
-  .pill-label {
+  .glance-vol-title {
     font-family: var(--font-sans);
-    font-size: 0.82rem;
+    font-size: 0.84rem;
     font-weight: 600;
     color: var(--text-primary);
     line-height: 1.3;
   }
 
+  .glance-scale-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+  }
+
+  .glance-scale-meter {
+    display: flex;
+    gap: 2px;
+  }
+
+  .scale-block {
+    width: 6px;
+    height: 6px;
+    background: var(--border);
+    border-radius: 1px;
+  }
+
+  .scale-block.filled {
+    background: var(--glance-color);
+  }
+
+  .glance-scale-text {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+  }
+
   /* --------------------------------------------------------------------------
-     SECTION 4: CATALOG HEADER & ACTION BAR
+     SECTION 5: CATALOG CONTROL BAR
      -------------------------------------------------------------------------- */
   .codex-catalog-section {
     margin-bottom: 48px;
@@ -989,12 +1321,12 @@ const volumeCards = rawVolumeGroups.map((group) => {
   }
 
   /* --------------------------------------------------------------------------
-     DECISION-FIRST VOLUME CARDS STACK
+     VOLUME DECISION CARDS STACK
      -------------------------------------------------------------------------- */
   .editorial-volumes-stack {
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 32px;
   }
 
   .editorial-volume-card {
@@ -1020,7 +1352,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     flex-direction: column;
   }
 
-  /* Domain Header */
+  /* Layer A: What is this? (Domain Header) */
   .card-domain-header {
     display: flex;
     align-items: center;
@@ -1040,7 +1372,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
   .domain-vol-num {
     font-family: var(--font-mono);
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     font-weight: 800;
     letter-spacing: 0.08em;
     color: var(--vol-color);
@@ -1064,14 +1396,38 @@ const volumeCards = rawVolumeGroups.map((group) => {
     text-overflow: ellipsis;
   }
 
+  /* Layer E: How much? (Reading Load Meter) */
   .domain-badge-scale {
     font-family: var(--font-mono);
     font-size: 0.72rem;
     color: var(--text-secondary);
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     flex-shrink: 0;
+  }
+
+  .scale-load-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+  }
+
+  .reading-load-blocks {
+    display: flex;
+    gap: 2px;
+  }
+
+  .load-block {
+    width: 6px;
+    height: 8px;
+    background: var(--border);
+    border-radius: 1px;
+  }
+
+  .load-block.filled {
+    background: var(--vol-color);
   }
 
   .scale-dot {
@@ -1097,7 +1453,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
   .card-artwork-column {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
   }
 
   .artwork-plate-frame {
@@ -1140,37 +1496,35 @@ const volumeCards = rawVolumeGroups.map((group) => {
     user-select: none;
   }
 
-  .card-thinkers-shelf {
+  .content-load-card {
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: 6px;
-    padding: 10px 12px;
+    padding: 8px 12px;
+    text-align: center;
   }
 
-  .thinkers-label {
+  .load-card-header {
     font-family: var(--font-mono);
-    font-size: 0.64rem;
+    font-size: 0.62rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     color: var(--text-muted);
-    margin-bottom: 6px;
   }
 
-  .thinkers-pills-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
+  .load-card-status {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: var(--vol-color);
+    margin: 2px 0;
   }
 
-  .thinker-tag {
+  .load-card-details {
     font-family: var(--font-sans);
     font-size: 0.72rem;
-    font-weight: 500;
     color: var(--text-secondary);
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    padding: 2px 6px;
-    border-radius: 4px;
+    line-height: 1.4;
   }
 
   /* Right Content Column */
@@ -1228,84 +1582,120 @@ const volumeCards = rawVolumeGroups.map((group) => {
     margin: 0;
   }
 
-  /* Key Inquiries Box (Crucial Decision Element) */
-  .card-inquiries-box {
+  /* LAYER B: READ THIS IF... */
+  .card-read-this-if-box {
     background: var(--vol-soft);
-    border: 1px solid var(--vol-border-light);
-    border-radius: 8px;
-    padding: 12px 16px;
+    border-left: 3.5px solid var(--vol-color);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
   }
 
-  .inquiries-box-header {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 8px;
-  }
-
-  .inquiries-icon {
-    font-size: 0.88rem;
-  }
-
-  .inquiries-heading {
+  .read-if-badge {
     font-family: var(--font-mono);
     font-size: 0.68rem;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0.08em;
     color: var(--vol-color);
+    display: block;
+    margin-bottom: 2px;
   }
 
-  .inquiries-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .inquiry-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
+  .read-if-text {
     font-family: var(--font-sans);
-    font-size: 0.84rem;
-    line-height: 1.45;
+    font-size: 0.88rem;
+    font-weight: 500;
     color: var(--text-primary);
+    line-height: 1.45;
+    margin: 0;
   }
 
-  .inquiry-marker {
-    color: var(--vol-color);
-    font-weight: 800;
-    line-height: 1.2;
-  }
-
-  .inquiry-text {
-    flex: 1;
-  }
-
-  /* Inside Chapter Shelf */
-  .card-inside-shelf {
+  /* LAYER C: THE JOURNEY (Progressive Arc) */
+  .card-journey-box {
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 12px 14px;
+    padding: 10px 14px;
   }
 
-  .inside-shelf-header {
+  .journey-box-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    margin-bottom: 10px;
+    gap: 6px;
+    margin-bottom: 6px;
   }
 
-  .inside-shelf-label {
+  .journey-icon {
+    color: var(--vol-color);
+    font-size: 0.8rem;
+  }
+
+  .journey-heading {
     font-family: var(--font-mono);
     font-size: 0.66rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     color: var(--text-muted);
+  }
+
+  .journey-steps-flow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .journey-step-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .step-text {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .step-arrow {
+    color: var(--vol-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  /* LAYER D: WHAT'S INSIDE (Chapter Rows with 1-line Summaries) */
+  .card-inside-shelf {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+
+  .inside-shelf-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .inside-shelf-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .inside-shelf-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--vol-color);
   }
 
   .inside-shelf-preview-tag {
@@ -1314,70 +1704,94 @@ const volumeCards = rawVolumeGroups.map((group) => {
     color: var(--text-muted);
   }
 
-  .inside-chapters-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  .inside-shelf-hint {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .inside-chapters-list {
+    display: flex;
+    flex-direction: column;
     gap: 8px;
   }
 
-  .inside-chapter-pill {
+  .inside-chapter-row {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
+    align-items: flex-start;
+    gap: 12px;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 6px;
-    padding: 8px 10px;
+    padding: 10px 12px;
     text-decoration: none;
     transition: border-color 0.15s ease, transform 0.15s ease;
   }
 
-  .inside-chapter-pill:hover {
+  .inside-chapter-row:hover {
     border-color: var(--vol-color);
     transform: translateY(-1px);
   }
 
-  .chapter-pill-top {
+  .row-num-badge {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: var(--vol-color);
+    background: var(--vol-soft);
+    padding: 2px 6px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .row-main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  .row-title-line {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 6px;
+    gap: 8px;
   }
 
-  .chapter-order-badge {
-    font-family: var(--font-mono);
-    font-size: 0.66rem;
-    font-weight: 700;
-    color: var(--vol-color);
-  }
-
-  .chapter-time-badge {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    color: var(--text-muted);
-  }
-
-  .chapter-pill-title {
+  .row-title {
     font-family: var(--font-serif);
-    font-size: 0.84rem;
+    font-size: 0.92rem;
     font-weight: 600;
     color: var(--text-primary);
     line-height: 1.3;
+  }
+
+  .row-time-tag {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    flex-shrink: 0;
+  }
+
+  .row-summary-line {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: var(--text-secondary);
+    margin: 0;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  .chapter-pill-creator {
-    font-family: var(--font-sans);
-    font-size: 0.7rem;
-    color: var(--text-muted);
-  }
-
   .inside-shelf-more-row {
-    margin-top: 8px;
-    padding-top: 6px;
+    margin-top: 10px;
+    padding-top: 8px;
     border-top: 1px dashed var(--border);
   }
 
@@ -1385,7 +1799,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     background: transparent;
     border: none;
     font-family: var(--font-sans);
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--vol-color);
     cursor: pointer;
@@ -1461,7 +1875,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     color: var(--text-muted);
   }
 
-  /* Full Chapter Index Drawer */
+  /* Full Chapter Inventory Drawer */
   .volume-full-drawer {
     display: none;
     background: var(--bg-card);
@@ -1500,10 +1914,18 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
   .drawer-inner-title {
     font-family: var(--font-mono);
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     color: var(--vol-color);
+    display: block;
+  }
+
+  .drawer-inner-sub {
+    font-family: var(--font-sans);
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    margin-top: 2px;
   }
 
   .drawer-close-btn {
@@ -1587,7 +2009,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
   }
 
   /* --------------------------------------------------------------------------
-     SECTION 5: BOTTOM CORPUS STAT STRIP
+     SECTION 6: BOTTOM CORPUS STAT STRIP
      -------------------------------------------------------------------------- */
   .bottom-corpus-stat-section {
     margin-top: 48px;
@@ -1660,7 +2082,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
   }
 
   /* --------------------------------------------------------------------------
-     SECTION 6: QUOTE FOOTER
+     SECTION 7: QUOTE FOOTER
      -------------------------------------------------------------------------- */
   .codex-quote-banner {
     background: var(--bg-card);
@@ -1719,6 +2141,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     // Continue Reading restoration from localStorage
     try {
       const saved = localStorage.getItem("codex-last-read");
+      const quickSessionSection = document.getElementById("quick-session-suggestion");
       if (saved) {
         const item = JSON.parse(saved);
         const section = document.getElementById("continue-reading-section");
@@ -1729,6 +2152,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
           titleEl.innerText = item.title || "The Architecture of Memory and Active Recall";
           linkEl.href = `/ytdecoded/topics/${item.slug}/`;
           section.style.display = "block";
+          if (quickSessionSection) quickSessionSection.style.display = "none";
         }
       }
     } catch (_) {}
@@ -1754,7 +2178,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
         document.querySelectorAll(".btn-toggle-drawer").forEach((btn) => {
           btn.setAttribute("aria-expanded", "true");
           const label = btn.querySelector(".drawer-btn-label");
-          if (label) label.innerText = "Hide full index ▴";
+          if (label) label.innerText = "Hide full inventory ▴";
         });
       });
     }
@@ -1770,7 +2194,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
           const count = btn.getAttribute("data-count") || "";
           const label = btn.querySelector(".drawer-btn-label");
           if (label) {
-            label.innerText = count ? `Preview all ${count} chapters ▾` : "Preview chapters ▾";
+            label.innerText = count ? `Full Volume Inventory (${count}) ▾` : "Full Inventory ▾";
           }
         });
       });
@@ -1790,13 +2214,13 @@ const volumeCards = rawVolumeGroups.map((group) => {
       btn.setAttribute("aria-expanded", "false");
       const count = btn.getAttribute("data-count") || "";
       const label = btn.querySelector(".drawer-btn-label");
-      if (label) label.innerText = count ? `Preview all ${count} chapters ▾` : "Preview chapters ▾";
+      if (label) label.innerText = count ? `Full Volume Inventory (${count}) ▾` : "Full Inventory ▾";
     } else {
       drawer.classList.add("open");
       drawer.setAttribute("aria-hidden", "false");
       btn.setAttribute("aria-expanded", "true");
       const label = btn.querySelector(".drawer-btn-label");
-      if (label) label.innerText = "Hide full index ▴";
+      if (label) label.innerText = "Hide full inventory ▴";
     }
   };
 </script>
