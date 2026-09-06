@@ -28,6 +28,16 @@ sources:
       - claim: "The Testing Effect Finding: Active testing without restudy produces over 50% higher retention after 1 week compared to repeated passive reading"
       - claim: "Synaptic Consolidation from Retrieval Friction: The cognitive struggle to extract information signals the hippocampus to induce myelination and long-term potentiation"
       - claim: "Primacy and Recency Segmentation: Dividing marathons into 50-minute blocks triples high-retention primacy and recency windows"
+  - source_id: "SRC-ALI-ABDAAL-EXAM-MASTERCLASS"
+    title: "How to Study for Exams - An Evidence-Based Masterclass"
+    creator: "Dr. Ali Abdaal (Cambridge Medicine Graduate)"
+    url: "https://www.youtube.com/watch?v=Lt54CX9DmS4"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "Retrospective Revision Timetable: Eliminates the guilt and failure of prospective calendar schedules by tracking intervals based on recall difficulty (Red/Amber/Green)"
+      - claim: "The 1-Bible Scoping Rule: Master a single canonical text to build 85% of structural models before skimming supplementary sources"
+      - claim: "Interleaved Practice Discrimination: Interleaving distinct problem types trains the brain to recognize underlying schemas rather than executing automated routines"
+      - claim: "Action-First Motivation Loop: Motivation is an emotional byproduct of competence, not a biological prerequisite for starting"
 active_recall:
   - question: "Why does the 'Testing Effect' established by Roediger and Karpicke produce higher long-term retention than repeated reading?"
     concept: "Desirable Difficulty & Retrieval Effort"
@@ -35,7 +45,10 @@ active_recall:
   - question: "How does segmenting a 3-hour study session into three 50-minute blocks exploit the Serial Position Effect?"
     concept: "Primacy and Recency Multiplier"
     answer: "The human brain naturally retains what occurs at the start (primacy) and end (recency) of a session, while the middle deteriorates into a retention sinkhole. Breaking a marathon block into three 50-minute blocks triples high-retention windows from 2 to 6."
-last_updated: "2026-09-04"
+  - question: "How does a Retrospective Revision Timetable solve the psychological breakdown common to prospective calendar study schedules?"
+    concept: "Retrospective Spacing & Guilt Elimination"
+    answer: "Prospective calendar timetables break when unexpected events occur, creating mounting debt and demoralizing guilt. The retrospective timetable tracks curriculum topics against dates completed with a color rating (Red/Amber/Green), allowing the student to dynamically select the most overdue and lowest-rated topic each day without calendar anxiety."
+last_updated: "2026-09-06"
 ---
 
 There is a widespread misconception that elite performers and top exam scorers possess exceptional photographic memory or spend 14 exhausting hours a day chained to a desk.
@@ -181,5 +194,73 @@ graph LR
 
 ---
 
+### The Retrospective Revision Timetable: Eliminating Calendar Guilt
+
+Traditional study planning relies on **prospective timetables** (e.g., *"On Tuesday 4 PM I will study Cardiac Physiology"*). These schedules almost universally fail: unexpected delays occur, tasks take longer than predicted, and falling behind creates demoralizing guilt that triggers avoidance.
+
+The **Retrospective Revision Timetable** flips the planning architecture:
+* **The Structure**: The rows are your curriculum topics; the columns are dates on which you completed a retrieval session.
+* **The Color-Coded Feedback**: After every active recall session, you score the topic using three objective colors:
+  * 🔴 **Red**: Struggled to retrieve core mechanisms; high friction; critical knowledge gaps.
+  * 🟡 **Amber**: Retrieved the foundation but stumbled on edge cases or specific details.
+  * 🟢 **Green**: Effortless, fluent recall from the blank page.
+* **Algorithmic Study Selection**: When you sit down to study, you do not consult an inflexible calendar. You simply scan your matrix and select:
+  1. The topic with the **oldest date** (maximum elapsed time / highest forgetting risk).
+  2. The topic with **Red or Amber status** (highest marginal return on effort).
+
+```mermaid
+graph LR
+    subgraph SG_1_Prospective_Calendar ["Prospective Calendar Trap: Guilt & Friction"]
+        P1["Draw Complex Calendar Schedule"] --> P2["Life Interrupts / Topic Takes Longer"]
+        P2 --> P3["Schedule Slips & Backlog Mounts"]
+        P3 --> P4["Guilt & Demoralization -> Abandonment"]
+    end
+
+    subgraph SG_2_Retrospective_Revision ["Retrospective Revision Timetable: Adaptive Spacing"]
+        R1["Track Curriculum Topics as Rows"] --> R2["Log Retrieval Date & Score: Red / Amber / Green"]
+        R2 --> R3["Sort by Most Overdue & Weakest Score"]
+        R3 --> R4["Targeted, Guilt-Free Dynamic Mastery"]
+    end
+```
+
+---
+
+### The 1-Bible Scoping Heuristic
+
+A primary driver of study paralysis is **resource saturation**: collecting five textbooks, three question banks, and dozens of video playlists before starting.
+
+* **The 1-Bible Rule**: Select **one canonical textbook or curriculum spine** and designate it as your primary authority. Master that single source until you understand 85–90% of the conceptual terrain.
+* **Targeted Infill**: Treat all other textbooks, lecture notes, and video lectures as *supplementary tools* strictly used to clarify specific points where your primary source is ambiguous.
+* **Syllabus Scoping**: Before reading a single paragraph, map the entire subject hierarchy from the exam specification. Knowing the structural branches in advance allows working memory to file individual facts into pre-constructed mental shelves.
+
+---
+
+### Interleaved Practice: Breaking Pattern Autopilot
+
+When students practice **blocked study** (solving 30 consecutive problems of Type A, then 30 of Type B), the brain takes algorithmic shortcuts. Because it already knows which formula is required, it skips the most cognitively demanding phase: **problem diagnosis**.
+
+* **The Interleaving Principle**: Mix problem types and conceptual domains within the same study session ($A \to B \to C \to A \to C$).
+* **Cognitive Discrimination**: Interleaving forces the brain to analyze each problem from scratch to diagnose *which schema applies*, mimicking the unpredictable environment of an actual exam.
+
+---
+
+### The Action-First Motivation Flywheel
+
+Students frequently wait to "feel motivated" before initiating demanding active recall sessions. In behavioral neuroscience, **motivation is an emotional byproduct of competence, not a biological prerequisite for action**.
+
+```mermaid
+graph LR
+    A["Action: 2-Minute Micro-Start"] --> B["Progress & Competence Signal"]
+    B --> C["Dopamine Release & Intrinsic Motivation"]
+    C --> D["Sustained Focus & Flow State"]
+    D --> A
+```
+
+* **The Friction Inversion**: Eliminate startup friction by setting out your materials the night before.
+* **The 2-Minute Rule**: Commit to only answering 1 question or writing for 120 seconds. Once the baseline activation energy is breached, the brain's internal dopamine flywheel takes over.
+
+---
+
 ### The Core Takeaway to Remember
 > High-yield learning is not a contest of endurance; it is a discipline of cognitive retrieval. Multiply your retention windows through segmented sessions, chunk complex details into unified schemas, anchor ideas visually, and test your mind against the blank page.
+
