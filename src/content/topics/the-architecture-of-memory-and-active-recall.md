@@ -47,6 +47,15 @@ sources:
       - claim: "The No-Answer Question Sheet Protocol: Eradicates transcription overhead by writing only questions, trusting just-in-time reference retrieval when stuck"
       - claim: "Color-Coded Multi-Pass Triage: Testing only flagged or failed questions on successive passes concentrates cognitive energy exclusively on weak nodes"
       - claim: "Socratic Self-Interrogation: Modeling study after the Oxford/Cambridge tutorial format to force real-time verbal and structural derivation"
+  - source_id: "SRC-ALI-ABDAAL-STUDY-CLUB-PLAYLIST"
+    title: "Study Club — The Evidence-Based Revision Canon"
+    creator: "Dr. Ali Abdaal"
+    url: "https://youtube.com/playlist?list=PL7BImOT2srcGCCjBBwNvU5zaB9F30lWye"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The STic Meta-Framework: Unifies all high-yield revision into Spacing, Testing, Interleaving, and Categorization"
+      - claim: "The Essay Memorisation Framework: Modular argument spiders and pre-fabricated thesis openings for qualitative exams"
+      - claim: "Algorithmic Spacing Tools: Differentiating optimal use-cases between Anki flashcards and relational Google Sheets tables"
 active_recall:
   - question: "Why does the 'Testing Effect' established by Roediger and Karpicke produce higher long-term retention than repeated reading?"
     concept: "Desirable Difficulty & Retrieval Effort"
@@ -60,6 +69,9 @@ active_recall:
   - question: "Why does the 'No-Answer Question Sheet' protocol outperform traditional comprehensive note-taking?"
     concept: "Secretarial Inversion & Just-in-Time Retrieval"
     answer: "Writing out answers consumes massive cognitive bandwidth and creates an illusion of competence through transcription. A question-only sheet forces immediate retrieval from scratch, requiring zero maintenance, while prompting just-in-time reference consultation only when a knowledge gap is objectively exposed."
+  - question: "What are the four operational pillars of the STic Meta-Framework?"
+    concept: "STic Learning Architecture"
+    answer: "Spacing (interrupting the Ebbinghaus forgetting curve across time), Testing (generative retrieval against blank paper), Interleaving (alternating between distinct problem types to train diagnostic recognition), and Categorization (clustering discrete facts into unified conceptual schemas)."
 last_updated: "2026-09-06"
 ---
 
@@ -292,6 +304,30 @@ graph LR
 
 ---
 
+### The STic Meta-Framework: The Unified Science of Learning
+
+All evidence-based revision techniques converge into a single four-part operational model—the **STic Framework**:
+* **S — Spacing (The Spacing Effect)**: Distribute retrieval across time to interrupt the exponential forgetting curve (Ebbinghaus).
+* **T — Testing (The Testing Effect)**: Replace passive review with generative retrieval from scratch against blank paper.
+* **i — Interleaving (The Shuffling Effect)**: Alternate between distinct topic schemas within a single study sprint to train diagnostic pattern recognition.
+* **c — Categorization (The Schema Multiplier)**: Cluster isolated factual units into hierarchical conceptual trees (chunking) to prevent working memory saturation.
+
+---
+
+### The Essay Memorisation Framework: Modular Rhetorical Architecture
+
+For qualitative, humanities, and descriptive exam papers (e.g. university dissertations or Officer-level descriptive English), students struggle to synthesize dense arguments under time pressure. The **Essay Memorisation Framework** solves this through modular pre-fabrication:
+1. **Pre-Constructed Thesis Introductions**: Draft and memorize bulletproof introductory frames containing core definitions, historiographical/economic context, and thesis boundaries. In the exam hall, writing the introduction requires zero creative cognitive load.
+2. **Modular Topic Argument Spiders**: Represent each major theme as a radial spider-diagram containing:
+   - Primary Thesis & Axiom
+   - Empirical / Historical Evidence
+   - Critical Counter-Argument / Boundary Condition
+   - Concluding Synthesis
+3. **Dynamic Re-Combination**: In the exam, an unfamiliar prompt is simply addressed by selecting 3 pre-memorized argument modules and linking them via customized transition sentences.
+
+---
+
 ### The Core Takeaway to Remember
 > High-yield learning is not a contest of endurance; it is a discipline of cognitive retrieval. Multiply your retention windows through segmented sessions, chunk complex details into unified schemas, anchor ideas visually, and test your mind against the blank page.
+
 
