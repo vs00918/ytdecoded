@@ -38,6 +38,15 @@ sources:
       - claim: "The 1-Bible Scoping Rule: Master a single canonical text to build 85% of structural models before skimming supplementary sources"
       - claim: "Interleaved Practice Discrimination: Interleaving distinct problem types trains the brain to recognize underlying schemas rather than executing automated routines"
       - claim: "Action-First Motivation Loop: Motivation is an emotional byproduct of competence, not a biological prerequisite for starting"
+  - source_id: "SRC-ALI-ABDAAL-RANK-1-FRAMEWORK"
+    title: "How my friend ranked 1st at Medical School - The Active Recall Framework"
+    creator: "Dr. Ali Abdaal & Dr. Said (Cambridge University)"
+    url: "https://www.youtube.com/watch?v=fDbxPVn02VU"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The No-Answer Question Sheet Protocol: Eradicates transcription overhead by writing only questions, trusting just-in-time reference retrieval when stuck"
+      - claim: "Color-Coded Multi-Pass Triage: Testing only flagged or failed questions on successive passes concentrates cognitive energy exclusively on weak nodes"
+      - claim: "Socratic Self-Interrogation: Modeling study after the Oxford/Cambridge tutorial format to force real-time verbal and structural derivation"
 active_recall:
   - question: "Why does the 'Testing Effect' established by Roediger and Karpicke produce higher long-term retention than repeated reading?"
     concept: "Desirable Difficulty & Retrieval Effort"
@@ -48,6 +57,9 @@ active_recall:
   - question: "How does a Retrospective Revision Timetable solve the psychological breakdown common to prospective calendar study schedules?"
     concept: "Retrospective Spacing & Guilt Elimination"
     answer: "Prospective calendar timetables break when unexpected events occur, creating mounting debt and demoralizing guilt. The retrospective timetable tracks curriculum topics against dates completed with a color rating (Red/Amber/Green), allowing the student to dynamically select the most overdue and lowest-rated topic each day without calendar anxiety."
+  - question: "Why does the 'No-Answer Question Sheet' protocol outperform traditional comprehensive note-taking?"
+    concept: "Secretarial Inversion & Just-in-Time Retrieval"
+    answer: "Writing out answers consumes massive cognitive bandwidth and creates an illusion of competence through transcription. A question-only sheet forces immediate retrieval from scratch, requiring zero maintenance, while prompting just-in-time reference consultation only when a knowledge gap is objectively exposed."
 last_updated: "2026-09-06"
 ---
 
@@ -175,6 +187,25 @@ graph TD
 1. **The Blank Page Protocol (The Blurting Method)**: Read for 20 minutes. Close the book and diagram everything you remember on a blank sheet. Open the notes and fill what you missed in red ink to instantly reveal neural gaps.
 2. **The Feynman Retrieval Loop**: Explain the mechanism out loud in simple terms without notes. The moment you hesitate or use complex jargon as a crutch, you have isolated an explanatory flaw to repair.
 3. **Question-Based Note Taking (Inverted Notes)**: Replace passive bullet points with sharp interrogative questions (e.g., *"Why does chunking expand functional working memory?"*). Test yourself before looking at the answer.
+4. **The No-Answer Question Sheet (The Secretarial Inversion)**: Developed by Cambridge Medicine top-ranker Dr. Said. Students squander hundreds of hours transcribing exhaustive answers into beautiful summary documents. Instead, compile a document composed **strictly of questions with zero written answers**.
+   * **The Flaw of Writing Answers**: Writing answers creates the illusion of learning through clerical labor. Worse, when answers are visible below a question, subsequent testing inevitably lapses into passive verification.
+   * **Just-in-Time Reference Retrieval**: When you fail a question, consult the canonical textbook or lecture slides at that exact moment to resolve the gap, but do not clutter your sheet with the answer.
+   * **Color-Coded Multi-Pass Triage**: On Pass 1, test every question. Highlight failed questions in color. On subsequent passes, test *only* the highlighted questions, concentrating cognitive bandwidth exclusively on weak neural connections.
+
+```mermaid
+graph TD
+    subgraph SG_1_Traditional_Notes ["Traditional Note-Taking: The Secretarial Trap"]
+        T1["Listen to Lecture / Read Text"] --> T2["Spend 40 Hours Transcribing Answers & Summaries"]
+        T2 --> T3["Notes Become Static Trophy & Passive Artifact"]
+        T3 --> T4["Rereading Notes Before Exam -> Illusion of Competence"]
+    end
+
+    subgraph SG_2_The_No_Answer_Bank ["The No-Answer Question Bank: Pure Socratic Retrieval"]
+        S1["Listen to Lecture / Read Text"] --> S2["Compile Question-Only Document: Zero Answers"]
+        S2 --> S3["Force Pure Retrieval from Scratch on Blank Page"]
+        S3 --> S4["Multi-Pass Triage: Re-Test Only Failed Flagged Nodes"]
+    end
+```
 
 ---
 
