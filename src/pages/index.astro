@@ -1,11 +1,11 @@
 ---
-import ReaderLayout from '../layouts/ReaderLayout.astro';
-import PhilosophyFirstAid from '../components/PhilosophyFirstAid.astro';
-import { getCollection } from 'astro:content';
-import { getVolumeGroups } from '../utils/navigation';
+import ReaderLayout from "../layouts/ReaderLayout.astro";
+import PhilosophyFirstAid from "../components/PhilosophyFirstAid.astro";
+import { getCollection } from "astro:content";
+import { getVolumeGroups } from "../utils/navigation";
 
 // Fetch all topics dynamically from Astro Content Collection
-const allTopics = await getCollection('topics');
+const allTopics = await getCollection("topics");
 const rawVolumeGroups = getVolumeGroups(allTopics);
 
 // Compute global corpus metrics dynamically
@@ -20,127 +20,172 @@ function toRoman(num: number): string {
     M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90,
     L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1
   };
-  let roman = '';
+  let roman = "";
   for (const i in lookup) {
     while (num >= lookup[i]) {
       roman += i;
       num -= lookup[i];
     }
   }
-  return roman || 'I';
+  return roman || "I";
 }
 
-// Dynamic Domain Identity, Colors & Illustrations
+// Domain visual themes, labels, colors & illustrations
 function getVolumeVisualTheme(title: string, volumeNumber: number) {
   const t = title.toLowerCase();
-  if (t.includes('biology') || t.includes('energy') || t.includes('brain') || t.includes('mind')) {
+  if (t.includes("biology") || t.includes("energy") || t.includes("brain") || t.includes("mind")) {
     return {
-      key: 'biology',
-      domainLabel: 'COGNITIVE NEUROBIOLOGY & SOMATIC SYSTEMS',
-      accentColor: '#2d6a4f',
-      accentSoft: '#e8f4ec',
-      illustration: '/ytdecoded/assets/volumes/vol1-neurobiology.svg'
+      key: "biology",
+      domainLabel: "COGNITIVE NEUROBIOLOGY & SOMATIC SYSTEMS",
+      shortLabel: "Neurobiology & Energy",
+      accentColor: "#2d6a4f",
+      accentSoft: "#e8f4ec",
+      illustration: "/ytdecoded/assets/volumes/vol1-neurobiology.svg"
     };
   }
-  if (t.includes('wealth') || t.includes('capital') || t.includes('allocation') || t.includes('money')) {
+  if (t.includes("wealth") || t.includes("capital") || t.includes("allocation") || t.includes("money")) {
     return {
-      key: 'wealth',
-      domainLabel: 'CAPITAL DYNAMICS & ASYMMETRIC LEVERAGE',
-      accentColor: '#936639',
-      accentSoft: '#f7ede2',
-      illustration: '/ytdecoded/assets/volumes/vol2-wealth.svg'
+      key: "wealth",
+      domainLabel: "CAPITAL DYNAMICS & ASYMMETRIC LEVERAGE",
+      shortLabel: "Capital & Compounding",
+      accentColor: "#936639",
+      accentSoft: "#f7ede2",
+      illustration: "/ytdecoded/assets/volumes/vol2-wealth.svg"
     };
   }
-  if (t.includes('philosophy') || t.includes('action') || t.includes('metacognition')) {
+  if (t.includes("philosophy") || t.includes("action") || t.includes("metacognition")) {
     return {
-      key: 'metacognition',
-      domainLabel: 'PHILOSOPHY OF ACTION & METACOGNITIVE MASTERY',
-      accentColor: '#8a2839',
-      accentSoft: '#fcedef',
-      illustration: '/ytdecoded/assets/volumes/vol3-metacognition.svg'
+      key: "metacognition",
+      domainLabel: "PHILOSOPHY OF ACTION & METACOGNITIVE MASTERY",
+      shortLabel: "Action & Metacognition",
+      accentColor: "#8a2839",
+      accentSoft: "#fcedef",
+      illustration: "/ytdecoded/assets/volumes/vol3-metacognition.svg"
     };
   }
-  if (t.includes('execution') || t.includes('velocity') || t.includes('leverage')) {
+  if (t.includes("execution") || t.includes("velocity") || t.includes("leverage")) {
     return {
-      key: 'execution',
-      domainLabel: 'EXECUTION PHYSICS & KINETIC SYSTEMS',
-      accentColor: '#a24857',
-      accentSoft: '#fbe9eb',
-      illustration: '/ytdecoded/assets/volumes/vol4-execution.svg'
+      key: "execution",
+      domainLabel: "EXECUTION PHYSICS & KINETIC SYSTEMS",
+      shortLabel: "Execution Physics",
+      accentColor: "#a24857",
+      accentSoft: "#fbe9eb",
+      illustration: "/ytdecoded/assets/volumes/vol4-execution.svg"
     };
   }
-  if (t.includes('social') || t.includes('sovereignty') || t.includes('communication')) {
+  if (t.includes("social") || t.includes("sovereignty") || t.includes("communication")) {
     return {
-      key: 'social',
-      domainLabel: 'SOCIAL SOVEREIGNTY & HUMAN DYNAMICS',
-      accentColor: '#3b4d6b',
-      accentSoft: '#e9eef5',
-      illustration: '/ytdecoded/assets/volumes/vol5-social.svg'
+      key: "social",
+      domainLabel: "SOCIAL SOVEREIGNTY & HUMAN DYNAMICS",
+      shortLabel: "Social Sovereignty",
+      accentColor: "#3b4d6b",
+      accentSoft: "#e9eef5",
+      illustration: "/ytdecoded/assets/volumes/vol5-social.svg"
     };
   }
-  if (t.includes('existential') || t.includes('purpose') || t.includes('summit')) {
+  if (t.includes("existential") || t.includes("purpose") || t.includes("summit")) {
     return {
-      key: 'existential',
-      domainLabel: 'EXISTENTIAL PHILOSOPHY & THE SUMMIT',
-      accentColor: '#2c3e6b',
-      accentSoft: '#e8ecf8',
-      illustration: '/ytdecoded/assets/volumes/vol6-summit.svg'
+      key: "existential",
+      domainLabel: "EXISTENTIAL PHILOSOPHY & THE SUMMIT",
+      shortLabel: "Existential Philosophy",
+      accentColor: "#2c3e6b",
+      accentSoft: "#e8ecf8",
+      illustration: "/ytdecoded/assets/volumes/vol6-summit.svg"
     };
   }
-  
-  // Fallback for new future volumes
-  const fallbacks = [
-    { key: 'alpha', domainLabel: 'THEORETICAL FOUNDATIONS', accentColor: '#7a5901', accentSoft: '#fcf6e8', illustration: '/ytdecoded/assets/volumes/vol2-wealth.svg' },
-    { key: 'beta', domainLabel: 'APPLIED SYSTEMS', accentColor: '#3d6375', accentSoft: '#eaf2f5', illustration: '/ytdecoded/assets/volumes/vol4-execution.svg' },
-    { key: 'gamma', domainLabel: 'ADVANCED SYNTHESIS', accentColor: '#5c4d7d', accentSoft: '#f1eef8', illustration: '/ytdecoded/assets/volumes/vol6-summit.svg' }
-  ];
-  return fallbacks[volumeNumber % fallbacks.length];
+  return {
+    key: "general",
+    domainLabel: "FOUNDATIONAL SYSTEMS & COGNITION",
+    shortLabel: "Foundations",
+    accentColor: "#4a5568",
+    accentSoft: "#edf2f7",
+    illustration: "/ytdecoded/assets/volumes/vol1-neurobiology.svg"
+  };
 }
 
-// Dynamic Domain Thesis / Description Synthesizer
+// Volume Thesis / Core Premise
 function getVolumeThesis(group: { volume: number; volumeTitle: string; topics: any[] }): string {
   const knownTheses: Record<string, string> = {
-    'The Biology of Mind & Energy': 'Physical and neurological foundations of peak cognition: dopamine regulation, circadian rhythm, sleep architecture, and the gut-mind axis.',
-    'The Architecture of Wealth & Capital Allocation': 'Structural mechanisms of capital compounding, asymmetric leverage, the three currencies of wealth, and long-term asset allocation.',
-    'Philosophy of Action & Metacognition': 'The psychology of internal sovereignty: cognitive bias dismantling, emotional granularity, deliberate practice, and the craft-first paradigm.',
-    'High-Velocity Execution & Asymmetric Leverage': 'The operational mechanics of deliberate action: conquering activation energy, eliminating procrastination, and high-agency execution.',
-    'The Architecture of Social Sovereignty': 'Structural analysis of modern human dynamics, difficult conversations, deception detection, the dramaturgical front stage, and relational empathy.',
-    'Existential Sovereignty, Purpose & The Summit': 'Radical resilience, existential philosophy, and classical critiques of societal systems from ancient Athens to the Anthropocene.'
+    "The Biology of Mind & Energy": "Physical and neurological foundations of peak cognition: dopamine regulation, circadian rhythm, sleep architecture, and the gut-mind axis.",
+    "The Architecture of Wealth & Capital Allocation": "Structural mechanisms of capital compounding, asymmetric leverage, the three currencies of wealth, and long-term asset allocation.",
+    "Philosophy of Action & Metacognition": "The psychology of internal sovereignty: cognitive bias dismantling, emotional granularity, deliberate practice, and the craft-first paradigm.",
+    "High-Velocity Execution & Asymmetric Leverage": "The operational mechanics of deliberate action: conquering activation energy, eliminating procrastination, and high-agency execution.",
+    "The Architecture of Social Sovereignty": "Structural analysis of modern human dynamics, difficult conversations, deception detection, the dramaturgical front stage, and relational empathy.",
+    "Existential Sovereignty, Purpose & The Summit": "Radical resilience, existential philosophy, and classical critiques of societal systems from ancient Athens to the Anthropocene."
   };
 
   if (knownTheses[group.volumeTitle]) {
     return knownTheses[group.volumeTitle];
   }
 
-  // Synthesize dynamically from constituent topic metadata
   const tags = Array.from(new Set(group.topics.flatMap((t: any) => t.data.tags || []))).slice(0, 4);
   if (tags.length > 0) {
-    return `Comprehensive treatises and first-principles mental models exploring ${tags.join(', ')}.`;
+    return `Comprehensive treatises and first-principles mental models exploring ${tags.join(", ")}.`;
   }
-  return 'Syntopical chapters exploring first-principles frameworks, mental models, and sovereign mastery.';
+  return "Syntopical chapters exploring first-principles frameworks, mental models, and sovereign mastery.";
 }
 
-// Process all volumes dynamically
+// 3 Curated Inquiries for each volume (What questions does this volume answer?)
+function getVolumeInquiries(volumeNumber: number): string[] {
+  const inquiries: Record<number, string[]> = {
+    1: [
+      "How do gut microbiota and vagus nerve signaling dictate mood, mental clarity, and anxiety?",
+      "What is the exact neurochemical mechanism of dopamine loading, baseline exhaustion, and focus recovery?",
+      "How do circadian light cues and 90-minute sleep stages govern memory consolidation and learning retention?"
+    ],
+    2: [
+      "What separates productive leverage from destructive compounding debt in long-term wealth building?",
+      "How do cashflow velocity and asymmetric risk profile govern financial autonomy?",
+      "How do economic, cultural, and social currencies compound across multi-decade horizons?"
+    ],
+    3: [
+      "How do you mathematically dismantle procrastination and lower activation energy using the 3-second rule?",
+      "Why does standard willpower fail, and how do quad-block circadian routines enable sustainable 10-12 hour deep work?",
+      "How do epistemic razors, cognitive bias firewalls, and metacognitive awareness neutralize overthinking?"
+    ],
+    4: [
+      "Why is physical and psychological comfort a neurological pathology that erodes resilience?",
+      "How does progressive friction retrain baseline homeostasis to thrive under acute pressure?",
+      "How do you engineer high-agency momentum when external conditions and motivation collapse?"
+    ],
+    5: [
+      "How do Erving Goffman's front-stage vs. backstage dynamics explain imposter syndrome in social hierarchies?",
+      "What are the conversational matching principles of supercommunicators during intense interpersonal conflict?",
+      "How do game theory and tit-for-tat strategies create sovereign cooperation without vulnerability?"
+    ],
+    6: [
+      "How does affect labeling and emotional granularity biochemically calm the amygdala during acute crisis?",
+      "What separates Marcus Aurelius's Inner Citadel from passive suppression or emotional detachment?",
+      "How do active nihilism, Spinozan rationalism, and Nietzschean self-overcoming forge unshakeable purpose?"
+    ]
+  };
+  return inquiries[volumeNumber] || [
+    "What are the foundational first principles governing this discipline?",
+    "How can these mental models be tested and applied in high-stakes environments?",
+    "What cognitive biases and structural illusions must be dismantled first?"
+  ];
+}
+
+// Process volumes for the view
 const volumeCards = rawVolumeGroups.map((group) => {
   const volumeNumber = group.volume;
   const romanVol = toRoman(volumeNumber);
   const visualTheme = getVolumeVisualTheme(group.volumeTitle, volumeNumber);
   const thesis = getVolumeThesis(group);
+  const keyInquiries = getVolumeInquiries(volumeNumber);
 
   const volWordCount = group.topics.reduce((acc, t) => acc + (t.body ? t.body.split(/\s+/).filter(Boolean).length : 0), 0);
   const volReadingTime = Math.max(1, Math.ceil(volWordCount / 225));
 
-  // Determine grid row position based on volume characteristics (Vol 3 is Full-Width Hero)
-  const isHeroRow = group.volume === 3 || group.topics.length >= 16;
-  const isHalfRow = !isHeroRow && (group.volume === 1 || group.volume === 2);
-  const isThirdRow = !isHeroRow && (group.volume >= 4);
+  // Flagship featured volume (Volume 3 with 24 topics)
+  const isFlagship = volumeNumber === 3;
 
   // Extract unique thinkers/creators
   const uniqueCreators = Array.from(
     new Set(group.topics.flatMap((t: any) => t.data.sources?.map((s: any) => s.creator) || []).filter(Boolean) as string[])
-  );
+  ).slice(0, 5);
 
-  // Calculate topic list
+  // Calculate processed topics
   const processedTopics = group.topics.map((t: any) => {
     const wordCount = t.body ? t.body.split(/\s+/).filter(Boolean).length : 0;
     const readingTime = Math.max(1, Math.ceil(wordCount / 225));
@@ -152,8 +197,8 @@ const volumeCards = rawVolumeGroups.map((group) => {
     };
   });
 
-  // Display top 1-2 featured topics to ensure uniform height across sibling cards in the same line
-  const previewCount = isHeroRow ? 2 : Math.min(group.topics.length, 2);
+  // Preview shelf
+  const previewCount = isFlagship ? 4 : Math.min(group.topics.length, 3);
   const previewTopics = processedTopics.slice(0, previewCount);
   const remainingCount = group.topics.length - previewCount;
 
@@ -163,10 +208,9 @@ const volumeCards = rawVolumeGroups.map((group) => {
     romanVol,
     visualTheme,
     thesis,
+    keyInquiries,
     volReadingTime,
-    isHeroRow,
-    isHalfRow,
-    isThirdRow,
+    isFlagship,
     uniqueCreators,
     processedTopics,
     previewTopics,
@@ -179,11 +223,11 @@ const volumeCards = rawVolumeGroups.map((group) => {
   <div class="library-app-canvas">
     
     <!-- ====================================================================
-         HERO SECTION: EDITORIAL BANNER & SEARCH
+         SECTION 1: EDITORIAL HERO & PRIMARY SEARCH DOOR
          ==================================================================== -->
     <header class="codex-hero-section">
       <div class="hero-badge-pill">
-        <span class="hero-badge-bold">LIVING CODEX</span>
+        <span class="hero-badge-bold">THE LIVING CODEX</span>
         <span class="hero-badge-dot">•</span>
         <span class="hero-badge-light">PERSONAL KNOWLEDGE LIBRARY</span>
       </div>
@@ -191,31 +235,43 @@ const volumeCards = rawVolumeGroups.map((group) => {
       <h1 class="codex-hero-title">The Living Codex</h1>
       
       <p class="codex-hero-subtitle">
-        Sovereign first-principles frameworks, cognitive mechanisms & mental models distilled from rigorous masterclasses into permanent, interconnected knowledge.
+        A personal library of ideas worth understanding deeply. Explore first principles, mental models, cognitive science, philosophy, and the structural systems that connect them.
       </p>
 
-      <!-- Prominent Library Search Trigger Field -->
-      <div class="codex-search-wrap">
+      <!-- Primary Search Door (Elevated UX) -->
+      <div class="codex-search-door-wrap">
         <button 
           id="library-search-btn" 
-          class="codex-search-input-btn" 
+          class="codex-search-door-btn" 
           aria-label="Open Search across the Living Codex"
           title="Search the Living Codex (Press /)"
         >
-          <span class="search-icon-svg" aria-hidden="true">🔍</span>
-          <span class="search-placeholder-text">Search knowledge, mental models, mechanisms, or authors...</span>
-          <kbd class="search-shortcut-key">/</kbd>
+          <div class="search-door-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </div>
+          <div class="search-door-text-group">
+            <span class="search-door-primary">Search the entire Codex library...</span>
+            <span class="search-door-secondary">Ideas, first principles, mental models, authors & mechanisms</span>
+          </div>
+          <div class="search-door-kbd-group">
+            <kbd class="search-door-kbd">/</kbd>
+          </div>
         </button>
       </div>
 
-      <!-- Interactive Philosophy as First Aid Selector -->
-      <PhilosophyFirstAid />
+      <!-- Interactive Philosophy as First Aid -->
+      <div class="hero-first-aid-wrap">
+        <PhilosophyFirstAid />
+      </div>
     </header>
 
     <!-- ====================================================================
-         SECTION 2: CONTINUE STUDYING (Dynamic from localStorage)
+         SECTION 2: RESUME STUDYING (Dynamic from localStorage)
          ==================================================================== -->
-    <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Continue Studying">
+    <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Resume Studying">
       <div class="continue-study-banner">
         <div class="continue-study-left">
           <div class="continue-book-icon-box">
@@ -231,7 +287,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
           <a id="continue-reading-link" href="#" class="continue-resume-btn">
             Resume Reading →
           </a>
-          <button id="dismiss-continue-btn" class="continue-dismiss-link">
+          <button id="dismiss-continue-btn" class="continue-dismiss-link" aria-label="Dismiss resume prompt">
             ✕ Dismiss
           </button>
         </div>
@@ -239,63 +295,114 @@ const volumeCards = rawVolumeGroups.map((group) => {
     </section>
 
     <!-- ====================================================================
-         SECTION 3: KNOWLEDGE VOLUMES CATALOG (DIRECTLY BELOW SEARCH BAR)
+         SECTION 3: ORIENTATION LAYER — CURRICULUM ARCHITECTURE ROADMAP
+         Allows immediate comparison of all 6 volumes in one glance
+         ==================================================================== -->
+    <section class="curriculum-roadmap-section" aria-label="Curriculum Architecture">
+      <div class="roadmap-header">
+        <div class="roadmap-eyebrow">CURRICULUM ARCHITECTURE</div>
+        <h2 class="roadmap-title">The Six Foundational Volumes</h2>
+        <p class="roadmap-subtitle">Compare domains, chapter depth, and study commitments across the complete sequence.</p>
+      </div>
+
+      <div class="roadmap-pills-strip">
+        {volumeCards.map((vol) => (
+          <a 
+            href={`#volume-card-${vol.volumeNumber}`} 
+            class="roadmap-pill-link"
+            style={`--pill-color: ${vol.visualTheme.accentColor}; --pill-soft: ${vol.visualTheme.accentSoft}; --pill-border: ${vol.visualTheme.accentColor}33;`}
+          >
+            <div class="pill-top-row">
+              <span class="pill-vol-badge">VOL. {vol.romanVol}</span>
+              <span class="pill-metric">{vol.topics.length} Ch • {vol.volReadingTime}m</span>
+            </div>
+            <div class="pill-label">{vol.visualTheme.shortLabel}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: DECISION-FIRST VOLUME CARDS
          ==================================================================== -->
     <main class="codex-catalog-section" aria-label="Knowledge Volumes Catalog">
-      <!-- Compact Top Control Bar Directly Above Cards -->
       <div class="catalog-header-row">
         <div class="catalog-title-group">
-          <h2 class="catalog-heading">Knowledge Volumes</h2>
-          <span class="catalog-caption-inline">Explore the foundational bodies of thought</span>
+          <h2 class="catalog-heading">Volume Deep Dive & Chapter Indexes</h2>
+          <span class="catalog-caption-inline">Understand what each volume unlocks before entering</span>
         </div>
         <div class="catalog-control-buttons">
-          <button id="expand-all-btn" class="catalog-action-btn" title="Expand all volume drawers">
-            <span class="action-icon">⛶</span> Expand All Shelves
+          <button id="expand-all-btn" class="catalog-action-btn" title="Expand all chapter drawers">
+            <span class="action-icon">⛶</span> Expand All Chapters
           </button>
-          <button id="collapse-all-btn" class="catalog-action-btn" title="Collapse all volume drawers">
-            <span class="action-icon">−</span> Collapse Shelves
+          <button id="collapse-all-btn" class="catalog-action-btn" title="Collapse all chapter drawers">
+            <span class="action-icon">−</span> Collapse Drawers
           </button>
         </div>
       </div>
 
-      <!-- Symmetric Shelves Grid Directly Positioned -->
-      <div class="editorial-shelves-grid">
-        {volumeCards.map((vol) => (
+      <div class="editorial-volumes-stack">
+        {volumeCards.map((vol, idx) => (
           <article 
-            class={`editorial-volume-card ${vol.isHeroRow ? 'card-hero-span' : vol.isHalfRow ? 'card-half-span' : 'card-third-span'}`}
+            class={`editorial-volume-card ${vol.isFlagship ? "card-flagship-featured" : ""}`}
             id={`volume-card-${vol.volumeNumber}`}
-            style={`--vol-color: ${vol.visualTheme.accentColor}; --vol-soft: ${vol.visualTheme.accentSoft};`}
+            style={`--vol-color: ${vol.visualTheme.accentColor}; --vol-soft: ${vol.visualTheme.accentSoft}; --vol-border-light: ${vol.visualTheme.accentColor}25;`}
             aria-labelledby={`vol-title-${vol.volumeNumber}`}
           >
-            <!-- Card Frame -->
+            <!-- Card Editorial Shell -->
             <div class="editorial-card-frame">
               
-              <!-- Top Domain Header Banner -->
+              <!-- 1. Header & Domain Label -->
               <div class="card-domain-header">
-                <div class="domain-vol-badge">
-                  <span class="vol-label-text">VOL.</span>
-                  <span class="vol-num-text">{vol.romanVol}</span>
+                <div class="domain-identity-left">
+                  <span class="domain-vol-num">VOLUME {vol.romanVol}</span>
+                  <span class="domain-bullet">•</span>
+                  <span class="domain-title-text">{vol.visualTheme.domainLabel}</span>
                 </div>
-                <div class="domain-title-text">{vol.visualTheme.domainLabel}</div>
+                <div class="domain-badge-scale">
+                  <span class="scale-chapters"><strong>{vol.topics.length}</strong> {vol.topics.length === 1 ? "Chapter" : "Chapters"}</span>
+                  <span class="scale-dot">•</span>
+                  <span class="scale-time">~{vol.volReadingTime} min study</span>
+                </div>
               </div>
 
-              <!-- Card Body: Split Artwork Panel & Content Panel -->
-              <div class={`card-split-body ${vol.isHeroRow ? 'body-hero-split' : ''}`}>
+              <!-- 2. Main Content Grid (Split Layout) -->
+              <div class="card-split-body">
                 
-                <!-- Left Thematic Artwork Panel -->
-                <div class="card-artwork-panel">
-                  <img 
-                    src={vol.visualTheme.illustration} 
-                    alt={`${vol.volumeTitle} Thematic Illustration`}
-                    class="artwork-img"
-                    loading="lazy"
-                  />
+                <!-- Left Column: Artwork Plate & Foundational Thinkers -->
+                <div class="card-artwork-column">
+                  <div class="artwork-plate-frame">
+                    <img 
+                      src={vol.visualTheme.illustration} 
+                      alt={`${vol.volumeTitle} Thematic Plate`}
+                      class="artwork-img"
+                      loading="lazy"
+                    />
+                    <div class="artwork-watermark-vol">{vol.romanVol}</div>
+                  </div>
+
+                  {vol.uniqueCreators.length > 0 && (
+                    <div class="card-thinkers-shelf">
+                      <div class="thinkers-label">KEY MINDS & SOURCES</div>
+                      <div class="thinkers-pills-wrap">
+                        {vol.uniqueCreators.map((creator) => (
+                          <span class="thinker-tag">{creator}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
 
-                <!-- Right Content Panel -->
-                <div class="card-content-panel">
-                  <div class="content-panel-top">
-                    <h3 id={`vol-title-${vol.volumeNumber}`} class="card-volume-title" title={vol.volumeTitle}>
+                <!-- Right Column: Title, Thesis, Key Inquiries & Inside Chapter Shelf -->
+                <div class="card-content-column">
+                  
+                  <div class="card-headline-group">
+                    {vol.isFlagship && (
+                      <div class="flagship-marker-badge">
+                        <span>★ COMPREHENSIVE ANCHOR VOLUME</span>
+                      </div>
+                    )}
+                    <h3 id={`vol-title-${vol.volumeNumber}`} class="card-volume-title">
                       <a href={`/ytdecoded/volumes/${vol.volumeNumber}/`} class="card-title-link">
                         {vol.volumeTitle}
                       </a>
@@ -304,74 +411,118 @@ const volumeCards = rawVolumeGroups.map((group) => {
                     <p class="card-volume-thesis">{vol.thesis}</p>
                   </div>
 
-                  <div class="content-panel-bottom">
-                    <div class="card-meta-indicators">
-                      <span class="meta-item"><strong>{vol.topics.length}</strong> {vol.topics.length === 1 ? 'Topic' : 'Topics'}</span>
-                      <span class="meta-item-sep">⏱️</span>
-                      <span class="meta-item"><strong>{vol.volReadingTime}m</strong></span>
+                  <!-- 3. Crucial Decision Layer: What Questions Does This Volume Answer? -->
+                  <div class="card-inquiries-box">
+                    <div class="inquiries-box-header">
+                      <span class="inquiries-icon" aria-hidden="true">💡</span>
+                      <span class="inquiries-heading">WHAT QUESTIONS DOES THIS VOLUME ANSWER?</span>
                     </div>
-
-                    <!-- Compact Featured Topic Shelf (Uniform Size) -->
-                    <div class="card-featured-shelf">
-                      <div class="featured-shelf-title">
-                        {vol.topics.length === 1 ? 'FEATURED TOPIC' : 'FEATURED TOPICS'}
-                      </div>
-                      <ul class="featured-topics-list">
-                        {vol.previewTopics.map(({ topic: t }) => (
-                          <li class="featured-topic-item">
-                            <a href={`/ytdecoded/topics/${t.slug}/`} class="featured-topic-link">
-                              <span class="topic-hash">#{t.data.order_in_volume}</span>
-                              <span class="topic-name">{t.data.title}</span>
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                      {vol.remainingCount > 0 && (
-                        <div class="featured-remaining-text">
-                          + {vol.remainingCount} {vol.remainingCount === 1 ? 'more' : 'more in volume'}
-                        </div>
-                      )}
-                    </div>
+                    <ul class="inquiries-list">
+                      {vol.keyInquiries.map((inquiry) => (
+                        <li class="inquiry-item">
+                          <span class="inquiry-marker">›</span>
+                          <span class="inquiry-text">{inquiry}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                </div>
 
+                  <!-- 4. Inside This Volume (Explicit Chapter Shelf with Time Tags) -->
+                  <div class="card-inside-shelf">
+                    <div class="inside-shelf-header">
+                      <span class="inside-shelf-label">INSIDE THIS VOLUME</span>
+                      <span class="inside-shelf-preview-tag">
+                        Showing {vol.previewTopics.length} of {vol.topics.length} {vol.topics.length === 1 ? "Chapter" : "Chapters"}
+                      </span>
+                    </div>
+
+                    <div class="inside-chapters-grid">
+                      {vol.previewTopics.map(({ topic: t, readingTime, creator }) => (
+                        <a href={`/ytdecoded/topics/${t.slug}/`} class="inside-chapter-pill">
+                          <div class="chapter-pill-top">
+                            <span class="chapter-order-badge">#{t.data.order_in_volume}</span>
+                            <span class="chapter-time-badge">⏱️ {readingTime}m</span>
+                          </div>
+                          <div class="chapter-pill-title">{t.data.title}</div>
+                          {creator && (
+                            <div class="chapter-pill-creator">{creator}</div>
+                          )}
+                        </a>
+                      ))}
+                    </div>
+
+                    {vol.remainingCount > 0 && (
+                      <div class="inside-shelf-more-row">
+                        <button 
+                          type="button" 
+                          class="link-preview-more"
+                          onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
+                          aria-label={`View remaining ${vol.remainingCount} chapters in Volume ${vol.romanVol}`}
+                        >
+                          + View {vol.remainingCount} more {vol.remainingCount === 1 ? "chapter" : "chapters"} in Volume {vol.romanVol} ▾
+                        </button>
+                      </div>
+                    )}
+                  </div>
+
+                </div>
               </div>
 
-              <!-- Card Bottom Action Bar -->
+              <!-- 5. Card Bottom Action Bar -->
               <footer class="card-action-footer">
-                <a 
-                  href={`/ytdecoded/volumes/${vol.volumeNumber}/`} 
-                  class="btn-enter-volume"
-                  title={`Enter Volume ${vol.romanVol}`}
-                >
-                  Enter ({vol.topics.length}) →
-                </a>
+                <div class="footer-left-actions">
+                  <a 
+                    href={`/ytdecoded/volumes/${vol.volumeNumber}/`} 
+                    class="btn-enter-volume"
+                    title={`Enter Volume ${vol.romanVol} — ${vol.volumeTitle}`}
+                  >
+                    Enter Volume {vol.romanVol} ({vol.topics.length} {vol.topics.length === 1 ? "Chapter" : "Chapters"}) →
+                  </a>
 
-                <button 
-                  type="button"
-                  class="btn-shelf-drawer" 
-                  id={`toggle-btn-${vol.volumeNumber}`}
-                  data-count={vol.topics.length}
-                  aria-expanded="false"
-                  aria-controls={`drawer-${vol.volumeNumber}`}
-                  onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
-                >
-                  <span class="drawer-btn-label">All {vol.topics.length} {vol.topics.length === 1 ? 'Topic' : 'Topics'}</span>
-                </button>
+                  <button 
+                    type="button"
+                    class="btn-toggle-drawer" 
+                    id={`toggle-btn-${vol.volumeNumber}`}
+                    data-count={vol.topics.length}
+                    aria-expanded="false"
+                    aria-controls={`drawer-${vol.volumeNumber}`}
+                    onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
+                  >
+                    <span class="drawer-btn-label">Preview all {vol.topics.length} chapters ▾</span>
+                  </button>
+                </div>
+
+                {idx < volumeCards.length - 1 && (
+                  <div class="footer-next-hint">
+                    <span class="next-hint-text">Next: Vol. {volumeCards[idx + 1].romanVol} — {volumeCards[idx + 1].visualTheme.shortLabel}</span>
+                  </div>
+                )}
               </footer>
 
-              <!-- Collapsible Full Topic Drawer -->
+              <!-- 6. Collapsible Full Chapter Index Drawer -->
               <div 
                 id={`drawer-${vol.volumeNumber}`} 
                 class="volume-full-drawer"
                 aria-hidden="true"
               >
                 <div class="volume-drawer-inner">
+                  <div class="drawer-inner-header">
+                    <span class="drawer-inner-title">COMPLETE VOLUME INDEX ({vol.topics.length} CHAPTERS)</span>
+                    <button 
+                      type="button" 
+                      class="drawer-close-btn"
+                      onclick={`toggleShelfDrawer(${vol.volumeNumber})`}
+                      aria-label="Close chapter index"
+                    >
+                      ✕ Close Index
+                    </button>
+                  </div>
+
                   <div class="drawer-topics-grid">
                     {vol.processedTopics.map(({ topic: t, readingTime, creator }) => (
                       <a href={`/ytdecoded/topics/${t.slug}/`} class="drawer-topic-card">
                         <div class="drawer-topic-header">
-                          <span class="drawer-topic-order">#{t.data.order_in_volume}</span>
+                          <span class="drawer-topic-order">Chapter #{t.data.order_in_volume}</span>
                           <span class="drawer-topic-time">⏱️ {readingTime}m</span>
                         </div>
                         <div class="drawer-topic-title">{t.data.title}</div>
@@ -394,7 +545,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
     </main>
 
     <!-- ====================================================================
-         SECTION 4: BOTTOM CORPUS METRIC STRIP (MOVED TO BOTTOM)
+         SECTION 5: BOTTOM CORPUS METRIC STRIP
          ==================================================================== -->
     <section class="bottom-corpus-stat-section" aria-label="Codex Overview Statistics">
       <div class="codex-stat-strip">
@@ -410,7 +561,7 @@ const volumeCards = rawVolumeGroups.map((group) => {
           <span class="stat-icon" aria-hidden="true">🗂️</span>
           <div class="stat-info">
             <span class="stat-num">{totalTopics}</span>
-            <span class="stat-name">Topics</span>
+            <span class="stat-name">Chapters</span>
           </div>
         </div>
         <div class="stat-divider"></div>
@@ -425,14 +576,14 @@ const volumeCards = rawVolumeGroups.map((group) => {
         <div class="stat-unit">
           <span class="stat-icon stat-accent-icon" aria-hidden="true">⚡</span>
           <div class="stat-info">
-            <span class="stat-badge-text">Offline Semantic Index</span>
+            <span class="stat-badge-text">100% Offline Semantic Index</span>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ====================================================================
-         SECTION 5: QUOTE FOOTER
+         SECTION 6: EDITORIAL QUOTE FOOTER
          ==================================================================== -->
     <footer class="codex-quote-banner">
       <div class="quote-content-wrap">
@@ -447,287 +598,350 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
 <style>
   /* ==========================================================================
-     LIVING CODEX: STREAMLINED EDITORIAL KNOWLEDGE CATALOG
+     LIVING CODEX: DECISION-FIRST EDITORIAL ARCHITECTURE
      ========================================================================== */
 
   .library-app-canvas {
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
-    padding: 6px 14px 40px 14px;
-    font-family: var(--font-body);
+    padding: 24px 20px 80px;
   }
 
   /* --------------------------------------------------------------------------
-     HERO SECTION (COMPACT TIGHT FLOW)
+     HERO BANNER & PRIMARY SEARCH DOOR
      -------------------------------------------------------------------------- */
   .codex-hero-section {
     text-align: center;
-    padding: 12px 12px 14px 12px;
-    margin-bottom: 8px;
+    max-width: 860px;
+    margin: 0 auto 36px;
+    padding: 10px 0 0;
   }
 
   .hero-badge-pill {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     background: var(--bg-surface);
     border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 2px 10px;
-    margin-bottom: 8px;
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
   }
 
   .hero-badge-bold {
-    font-family: var(--font-ui);
-    font-size: 0.64rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
+    font-weight: 700;
     color: var(--accent);
-    text-transform: uppercase;
   }
 
   .hero-badge-dot {
-    color: var(--text-muted);
-    font-size: 0.64rem;
+    opacity: 0.4;
   }
 
   .hero-badge-light {
-    font-family: var(--font-ui);
-    font-size: 0.64rem;
-    font-weight: 600;
-    color: var(--text-muted);
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+    font-weight: 500;
   }
 
   .codex-hero-title {
     font-family: var(--font-serif);
-    font-size: 2.6rem;
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
     font-weight: 700;
-    line-height: 1.1;
     color: var(--text-primary);
-    margin-bottom: 6px;
+    line-height: 1.15;
+    margin: 0 0 12px;
     letter-spacing: -0.02em;
   }
 
-  @media (max-width: 768px) {
-    .codex-hero-title {
-      font-size: 2rem;
-    }
-  }
-
   .codex-hero-subtitle {
-    max-width: 600px;
-    margin: 0 auto 14px auto;
-    font-family: var(--font-serif);
-    font-size: 1rem;
-    line-height: 1.45;
+    font-family: var(--font-sans);
+    font-size: 1.06rem;
+    line-height: 1.6;
     color: var(--text-secondary);
+    max-width: 680px;
+    margin: 0 auto 28px;
   }
 
-  /* Search Input Field */
-  .codex-search-wrap {
-    max-width: 580px;
-    margin: 0 auto;
+  /* Elevated Search Door Field */
+  .codex-search-door-wrap {
+    max-width: 640px;
+    margin: 0 auto 28px;
   }
 
-  .codex-search-input-btn {
+  .codex-search-door-btn {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 14px;
     background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 10px 16px;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 18px;
     cursor: pointer;
-    box-shadow: 0 2px 8px var(--shadow);
-    transition: all 0.15s ease;
+    box-shadow: 0 4px 14px var(--shadow);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
     text-align: left;
   }
 
-  .codex-search-input-btn:hover, .codex-search-input-btn:focus-visible {
+  .codex-search-door-btn:hover {
     border-color: var(--accent);
-    background: var(--bg-surface);
+    box-shadow: 0 6px 20px var(--shadow);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px var(--shadow);
   }
 
-  .search-icon-svg {
-    font-size: 1rem;
-    opacity: 0.75;
+  .search-door-icon {
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
   }
 
-  .search-placeholder-text {
+  .search-door-text-group {
     flex: 1;
-    font-family: var(--font-ui);
-    font-size: 0.88rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .search-door-primary {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  .search-door-secondary {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
     color: var(--text-muted);
   }
 
-  .search-shortcut-key {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    font-weight: 700;
+  .search-door-kbd-group {
+    flex-shrink: 0;
+  }
+
+  .search-door-kbd {
+    display: inline-block;
     background: var(--bg-surface);
     border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 2px 6px;
-    color: var(--text-muted);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .hero-first-aid-wrap {
+    margin-top: 10px;
   }
 
   /* --------------------------------------------------------------------------
-     CONTINUE STUDYING SECTION
+     CONTINUE STUDYING BANNER
      -------------------------------------------------------------------------- */
   .continue-study-section {
-    margin-top: 14px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
 
   .continue-study-banner {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 10px 16px;
-    box-shadow: 0 2px 6px var(--shadow);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 14px;
-    flex-wrap: wrap;
+    gap: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 20px;
+    box-shadow: 0 2px 8px var(--shadow);
   }
 
   .continue-study-left {
     display: flex;
     align-items: center;
-    gap: 12px;
-    flex: 1;
-    min-width: 240px;
+    gap: 14px;
+    min-width: 0;
   }
 
   .continue-book-icon-box {
-    width: 36px;
-    height: 36px;
-    border-radius: 6px;
-    background: var(--accent);
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     flex-shrink: 0;
   }
 
-  .continue-meta-content {
-    flex: 1;
-  }
-
   .continue-label-tag {
-    font-family: var(--font-ui);
-    font-size: 0.6rem;
-    font-weight: 800;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
     letter-spacing: 0.08em;
-    color: var(--text-muted);
-    text-transform: uppercase;
+    color: var(--accent);
     margin-bottom: 2px;
   }
 
   .continue-topic-title {
     font-family: var(--font-serif);
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--text-primary);
-    line-height: 1.25;
-    margin-bottom: 3px;
-  }
-
-  .continue-progress-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .continue-progress-bar-track {
-    flex: 1;
-    max-width: 180px;
-    height: 5px;
-    background: var(--border-subtle);
-    border-radius: 3px;
+    margin: 0;
+    white-space: nowrap;
     overflow: hidden;
-  }
-
-  .continue-progress-bar-fill {
-    height: 100%;
-    background: #2d6a4f;
-    border-radius: 3px;
-  }
-
-  .continue-progress-percent {
-    font-family: var(--font-ui);
-    font-size: 0.66rem;
-    font-weight: 700;
-    color: var(--text-muted);
+    text-overflow: ellipsis;
   }
 
   .continue-study-right {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+    flex-shrink: 0;
   }
 
   .continue-resume-btn {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
     background: var(--accent);
-    color: #ffffff !important;
-    text-decoration: none;
-    font-family: var(--font-ui);
-    font-size: 0.76rem;
+    color: #fff !important;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
     font-weight: 600;
-    padding: 5px 12px;
-    border-radius: 4px;
-    transition: all 0.15s ease;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
   }
 
   .continue-resume-btn:hover {
     opacity: 0.9;
-    transform: translateX(1px);
   }
 
   .continue-dismiss-link {
     background: transparent;
     border: none;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
     color: var(--text-muted);
-    font-family: var(--font-ui);
-    font-size: 0.72rem;
     cursor: pointer;
-    padding: 2px 4px;
+    padding: 4px;
+  }
+
+  .continue-dismiss-link:hover {
+    color: var(--text-primary);
   }
 
   /* --------------------------------------------------------------------------
-     CATALOG SECTION HEADER (COMPACT CONTROL ROW)
+     SECTION 3: ORIENTATION LAYER (ROADMAP STRIP)
+     -------------------------------------------------------------------------- */
+  .curriculum-roadmap-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px var(--shadow);
+  }
+
+  .roadmap-header {
+    margin-bottom: 16px;
+  }
+
+  .roadmap-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  .roadmap-title {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 4px;
+  }
+
+  .roadmap-subtitle {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .roadmap-pills-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px;
+  }
+
+  .roadmap-pill-link {
+    display: block;
+    background: var(--pill-soft);
+    border: 1px solid var(--pill-border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .roadmap-pill-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px var(--shadow);
+  }
+
+  .pill-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+
+  .pill-vol-badge {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--pill-color);
+  }
+
+  .pill-metric {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .pill-label {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.3;
+  }
+
+  /* --------------------------------------------------------------------------
+     SECTION 4: CATALOG HEADER & ACTION BAR
      -------------------------------------------------------------------------- */
   .codex-catalog-section {
-    margin-top: 16px;
+    margin-bottom: 48px;
   }
 
   .catalog-header-row {
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 14px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid var(--border-subtle);
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 16px;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+    border-bottom: 1.5px solid var(--border);
   }
 
   .catalog-title-group {
     display: flex;
-    align-items: baseline;
-    gap: 10px;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .catalog-heading {
@@ -735,518 +949,700 @@ const volumeCards = rawVolumeGroups.map((group) => {
     font-size: 1.45rem;
     font-weight: 700;
     color: var(--text-primary);
+    margin: 0;
+    letter-spacing: -0.01em;
   }
 
   .catalog-caption-inline {
-    font-family: var(--font-ui);
-    font-size: 0.78rem;
-    color: var(--text-muted);
-  }
-
-  @media (max-width: 640px) {
-    .catalog-caption-inline {
-      display: none;
-    }
+    font-family: var(--font-sans);
+    font-size: 0.84rem;
+    color: var(--text-secondary);
   }
 
   .catalog-control-buttons {
     display: flex;
-    gap: 6px;
-  }
-
-  .catalog-action-btn {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    color: var(--text-secondary);
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-family: var(--font-ui);
-    font-size: 0.72rem;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 3px;
-    transition: all 0.15s ease;
-  }
-
-  .catalog-action-btn:hover {
-    background: var(--bg-surface);
-    color: var(--text-primary);
-    border-color: var(--accent);
-  }
-
-  /* --------------------------------------------------------------------------
-     EDITORIAL SHELVES GRID (SYMMETRIC & COMPACT)
-     -------------------------------------------------------------------------- */
-  .editorial-shelves-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 16px;
-    width: 100%;
-    align-items: stretch;
-  }
-
-  /* Grid Spans */
-  .editorial-volume-card.card-half-span {
-    grid-column: span 6;
-  }
-
-  .editorial-volume-card.card-hero-span {
-    grid-column: span 12;
-  }
-
-  .editorial-volume-card.card-third-span {
-    grid-column: span 4;
-  }
-
-  @media (max-width: 960px) {
-    .editorial-volume-card.card-third-span {
-      grid-column: span 6;
-    }
-  }
-
-  @media (max-width: 680px) {
-    .editorial-volume-card.card-half-span,
-    .editorial-volume-card.card-hero-span,
-    .editorial-volume-card.card-third-span {
-      grid-column: span 12;
-    }
-  }
-
-  /* Card Container */
-  .editorial-volume-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    box-shadow: 0 2px 8px var(--shadow);
-    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .editorial-volume-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px var(--shadow);
-    border-color: var(--vol-color, var(--accent));
-  }
-
-  .editorial-card-frame {
-    padding: 12px 14px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-  }
-
-  /* Top Domain Header */
-  .card-domain-header {
-    display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 8px;
-    flex-wrap: wrap;
-  }
-
-  .domain-vol-badge {
-    background: var(--vol-soft, var(--accent-soft));
-    border: 1px solid var(--border-subtle);
-    border-radius: 4px;
-    padding: 2px 6px;
-    display: inline-flex;
-    align-items: baseline;
-    gap: 2px;
-  }
-
-  .vol-label-text {
-    font-family: var(--font-ui);
-    font-size: 0.62rem;
-    font-weight: 700;
-    color: var(--vol-color, var(--accent));
-  }
-
-  .vol-num-text {
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    font-weight: 800;
-    color: var(--vol-color, var(--accent));
-  }
-
-  .domain-title-text {
-    font-family: var(--font-ui);
-    font-size: 0.64rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--text-muted);
-  }
-
-  /* Split Body */
-  .card-split-body {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    margin-bottom: 8px;
-    flex: 1;
-  }
-
-  .card-hero-span .body-hero-split {
-    gap: 18px;
-  }
-
-  @media (max-width: 480px) {
-    .card-split-body {
-      flex-direction: column;
-    }
-  }
-
-  /* Artwork Panel (Standardized Compact Dimensions) */
-  .card-artwork-panel {
-    width: 85px;
-    height: 105px;
-    border-radius: 6px;
-    overflow: hidden;
-    border: 1px solid var(--border-subtle);
-    background: var(--bg-surface);
     flex-shrink: 0;
   }
 
-  .card-hero-span .card-artwork-panel {
-    width: 140px;
-    height: 105px;
+  .catalog-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
   }
 
-  .artwork-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  .catalog-action-btn:hover {
+    background: var(--bg-card);
+    border-color: var(--accent);
+    color: var(--text-primary);
   }
 
-  /* Content Panel */
-  .card-content-panel {
+  /* --------------------------------------------------------------------------
+     DECISION-FIRST VOLUME CARDS STACK
+     -------------------------------------------------------------------------- */
+  .editorial-volumes-stack {
     display: flex;
     flex-direction: column;
+    gap: 28px;
+  }
+
+  .editorial-volume-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 4px 14px var(--shadow);
+    overflow: hidden;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .editorial-volume-card:hover {
+    border-color: var(--vol-color);
+    box-shadow: 0 6px 20px var(--shadow);
+  }
+
+  .card-flagship-featured {
+    border-left: 5px solid var(--vol-color);
+  }
+
+  .editorial-card-frame {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Domain Header */
+  .card-domain-header {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex: 1;
+    gap: 12px;
+    padding: 12px 20px;
+    background: var(--vol-soft);
+    border-bottom: 1px solid var(--vol-border-light);
+  }
+
+  .domain-identity-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     min-width: 0;
   }
 
-  .content-panel-top {
-    margin-bottom: 4px;
+  .domain-vol-num {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--vol-color);
+    flex-shrink: 0;
+  }
+
+  .domain-bullet {
+    color: var(--vol-color);
+    opacity: 0.4;
+  }
+
+  .domain-title-text {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--vol-color);
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .domain-badge-scale {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .scale-dot {
+    opacity: 0.4;
+  }
+
+  /* Card Split Body */
+  .card-split-body {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  @media (max-width: 860px) {
+    .card-split-body {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+
+  /* Left Artwork Column */
+  .card-artwork-column {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .artwork-plate-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: var(--vol-soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .artwork-img {
+    max-width: 85%;
+    max-height: 85%;
+    object-fit: contain;
+    z-index: 1;
+    transition: transform 0.2s ease;
+  }
+
+  .editorial-volume-card:hover .artwork-img {
+    transform: scale(1.04);
+  }
+
+  .artwork-watermark-vol {
+    position: absolute;
+    right: 8px;
+    bottom: -4px;
+    font-family: var(--font-serif);
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--vol-color);
+    opacity: 0.08;
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .card-thinkers-shelf {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+
+  .thinkers-label {
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+
+  .thinkers-pills-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .thinker-tag {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  /* Right Content Column */
+  .card-content-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+  }
+
+  .card-headline-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .flagship-marker-badge {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    background: var(--vol-soft);
+    border: 1px solid var(--vol-border-light);
+    color: var(--vol-color);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 2px 8px;
+    border-radius: 4px;
   }
 
   .card-volume-title {
     font-family: var(--font-serif);
-    font-size: 1.12rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 1.24;
-    color: var(--text-primary);
-    margin-bottom: 3px;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .card-hero-span .card-volume-title {
-    font-size: 1.3rem;
-    -webkit-line-clamp: 1;
+    margin: 0;
+    line-height: 1.25;
   }
 
   .card-title-link {
-    color: inherit;
+    color: var(--text-primary);
     text-decoration: none;
     transition: color 0.15s ease;
   }
 
   .card-title-link:hover {
-    color: var(--vol-color, var(--accent));
-    text-decoration: underline;
+    color: var(--vol-color);
   }
 
   .card-volume-thesis {
-    font-family: var(--font-body);
-    font-size: 0.78rem;
-    line-height: 1.35;
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
+    line-height: 1.55;
     color: var(--text-secondary);
-    margin-bottom: 4px;
+    margin: 0;
+  }
+
+  /* Key Inquiries Box (Crucial Decision Element) */
+  .card-inquiries-box {
+    background: var(--vol-soft);
+    border: 1px solid var(--vol-border-light);
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+
+  .inquiries-box-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .inquiries-icon {
+    font-size: 0.88rem;
+  }
+
+  .inquiries-heading {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--vol-color);
+  }
+
+  .inquiries-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .inquiry-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: var(--font-sans);
+    font-size: 0.84rem;
+    line-height: 1.45;
+    color: var(--text-primary);
+  }
+
+  .inquiry-marker {
+    color: var(--vol-color);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .inquiry-text {
+    flex: 1;
+  }
+
+  /* Inside Chapter Shelf */
+  .card-inside-shelf {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+
+  .inside-shelf-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .inside-shelf-label {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+  }
+
+  .inside-shelf-preview-tag {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    color: var(--text-muted);
+  }
+
+  .inside-chapters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 8px;
+  }
+
+  .inside-chapter-pill {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .inside-chapter-pill:hover {
+    border-color: var(--vol-color);
+    transform: translateY(-1px);
+  }
+
+  .chapter-pill-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+
+  .chapter-order-badge {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 700;
+    color: var(--vol-color);
+  }
+
+  .chapter-time-badge {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--text-muted);
+  }
+
+  .chapter-pill-title {
+    font-family: var(--font-serif);
+    font-size: 0.84rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.3;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  .content-panel-bottom {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-  }
-
-  .card-meta-indicators {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-family: var(--font-ui);
-    font-size: 0.68rem;
+  .chapter-pill-creator {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
     color: var(--text-muted);
   }
 
-  .meta-item-sep {
-    font-size: 0.65rem;
-    opacity: 0.8;
+  .inside-shelf-more-row {
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px dashed var(--border);
   }
 
-  /* Uniform Featured Topics Shelf */
-  .card-featured-shelf {
-    background: var(--bg-surface);
-    border: 1px solid var(--border-subtle);
-    border-radius: 4px;
-    padding: 5px 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    min-height: 40px;
-    justify-content: center;
+  .link-preview-more {
+    background: transparent;
+    border: none;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--vol-color);
+    cursor: pointer;
+    padding: 2px 0;
+    text-align: left;
   }
 
-  .featured-shelf-title {
-    font-family: var(--font-ui);
-    font-size: 0.58rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: var(--text-muted);
-    text-transform: uppercase;
+  .link-preview-more:hover {
+    text-decoration: underline;
   }
 
-  .featured-topics-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .featured-topic-item {
-    display: flex;
-  }
-
-  .featured-topic-link {
-    display: flex;
-    align-items: baseline;
-    gap: 4px;
-    text-decoration: none;
-    color: var(--text-primary);
-    font-family: var(--font-ui);
-    font-size: 0.72rem;
-    line-height: 1.28;
-    transition: color 0.15s ease;
-    width: 100%;
-  }
-
-  .featured-topic-link:hover {
-    color: var(--vol-color, var(--accent));
-  }
-
-  .topic-hash {
-    font-family: var(--font-mono);
-    font-size: 0.62rem;
-    font-weight: 700;
-    color: var(--vol-color, var(--accent));
-  }
-
-  .topic-name {
-    flex: 1;
-    font-weight: 500;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .featured-remaining-text {
-    font-family: var(--font-ui);
-    font-size: 0.64rem;
-    font-style: italic;
-    color: var(--text-muted);
-  }
-
-  /* Action Footer */
+  /* Card Action Footer */
   .card-action-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 6px;
-    margin-top: 6px;
-    padding-top: 6px;
-    border-top: 1px solid var(--border-subtle);
+    gap: 16px;
+    padding: 12px 24px;
+    background: var(--bg-surface);
+    border-top: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+
+  .footer-left-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   .btn-enter-volume {
     display: inline-flex;
     align-items: center;
-    gap: 3px;
-    background: var(--vol-color, var(--accent));
-    color: #ffffff !important;
-    text-decoration: none;
-    font-family: var(--font-ui);
-    font-size: 0.7rem;
+    background: var(--vol-color);
+    color: #fff !important;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
     font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 4px;
-    transition: all 0.15s ease;
+    padding: 7px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.15s ease;
   }
 
   .btn-enter-volume:hover {
-    opacity: 0.9;
-    transform: translateX(1px);
+    opacity: 0.92;
+    transform: translateY(-1px);
   }
 
-  .btn-shelf-drawer {
-    background: var(--bg-surface);
+  .btn-toggle-drawer {
+    display: inline-flex;
+    align-items: center;
+    background: var(--bg-card);
     border: 1px solid var(--border);
     color: var(--text-secondary);
-    padding: 3px 8px;
-    border-radius: 4px;
-    font-family: var(--font-ui);
-    font-size: 0.68rem;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
     font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: all 0.15s ease;
+    transition: border-color 0.15s ease, color 0.15s ease;
   }
 
-  .btn-shelf-drawer:hover {
-    background: var(--bg-card);
-    border-color: var(--vol-color, var(--accent));
-    color: var(--vol-color, var(--accent));
+  .btn-toggle-drawer:hover {
+    border-color: var(--vol-color);
+    color: var(--text-primary);
   }
 
-  /* Full Drawer */
+  .footer-next-hint {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--text-muted);
+  }
+
+  /* Full Chapter Index Drawer */
   .volume-full-drawer {
     display: none;
-    border-top: 1px dashed var(--border);
-    background: var(--bg-surface);
-    padding: 12px;
-    margin: 8px -14px -12px -14px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background: var(--bg-card);
+    border-top: 1.5px solid var(--vol-border-light);
+    animation: drawerSlide 0.2s ease-out;
   }
 
   .volume-full-drawer.open {
     display: block;
   }
 
+  @keyframes drawerSlide {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .volume-drawer-inner {
+    padding: 20px 24px;
+  }
+
+  .drawer-inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .drawer-inner-title {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--vol-color);
+  }
+
+  .drawer-close-btn {
+    background: transparent;
+    border: none;
+    font-family: var(--font-sans);
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+
+  .drawer-close-btn:hover {
+    color: var(--text-primary);
+  }
+
   .drawer-topics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
   }
 
   .drawer-topic-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
-    border-radius: 5px;
-    padding: 8px 10px;
-    text-decoration: none;
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    transition: all 0.15s ease;
+    gap: 6px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease;
   }
 
   .drawer-topic-card:hover {
-    border-color: var(--vol-color, var(--accent));
+    border-color: var(--vol-color);
+    background: var(--bg-card);
     transform: translateY(-1px);
-    box-shadow: 0 2px 6px var(--shadow);
   }
 
   .drawer-topic-header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    font-size: 0.65rem;
+    gap: 8px;
+  }
+
+  .drawer-topic-order {
     font-family: var(--font-mono);
-    color: var(--vol-color, var(--accent));
+    font-size: 0.68rem;
     font-weight: 700;
+    color: var(--vol-color);
+  }
+
+  .drawer-topic-time {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--text-muted);
   }
 
   .drawer-topic-title {
     font-family: var(--font-serif);
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 0.94rem;
+    font-weight: 600;
     color: var(--text-primary);
-    line-height: 1.25;
+    line-height: 1.35;
   }
 
   .drawer-topic-summary {
-    font-family: var(--font-body);
-    font-size: 0.72rem;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    line-height: 1.45;
     color: var(--text-secondary);
-    line-height: 1.35;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 
   .drawer-topic-creator {
-    font-family: var(--font-ui);
-    font-size: 0.65rem;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
     color: var(--text-muted);
-    margin-top: auto;
+    margin-top: 2px;
   }
 
   /* --------------------------------------------------------------------------
-     BOTTOM CORPUS STAT SECTION (MOVED TO BOTTOM)
+     SECTION 5: BOTTOM CORPUS STAT STRIP
      -------------------------------------------------------------------------- */
   .bottom-corpus-stat-section {
-    margin-top: 36px;
-    padding: 16px 20px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px var(--shadow);
+    margin-top: 48px;
+    margin-bottom: 24px;
   }
 
   .codex-stat-strip {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px var(--shadow);
     flex-wrap: wrap;
-    font-family: var(--font-ui);
+    gap: 16px;
   }
 
   .stat-unit {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 12px;
   }
 
   .stat-icon {
-    font-size: 1.05rem;
+    font-size: 1.4rem;
+    line-height: 1;
   }
 
   .stat-info {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    gap: 2px;
   }
 
   .stat-num {
-    font-weight: 800;
-    font-size: 0.92rem;
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    font-weight: 700;
     color: var(--text-primary);
-    line-height: 1.1;
+    line-height: 1;
   }
 
   .stat-name {
-    font-size: 0.68rem;
-    color: var(--text-muted);
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .stat-divider {
     width: 1px;
-    height: 20px;
+    height: 28px;
     background: var(--border);
   }
 
@@ -1257,20 +1653,20 @@ const volumeCards = rawVolumeGroups.map((group) => {
   }
 
   .stat-badge-text {
+    font-family: var(--font-mono);
     font-size: 0.76rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--accent);
   }
 
   /* --------------------------------------------------------------------------
-     QUOTE BANNER FOOTER
+     SECTION 6: QUOTE FOOTER
      -------------------------------------------------------------------------- */
   .codex-quote-banner {
-    margin-top: 20px;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 12px 18px;
+    padding: 14px 20px;
     text-align: center;
     box-shadow: 0 2px 6px var(--shadow);
   }
@@ -1292,13 +1688,13 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
   .quote-text {
     font-family: var(--font-serif);
-    font-size: 0.88rem;
+    font-size: 0.9rem;
     font-style: italic;
     color: var(--text-secondary);
   }
 
   .quote-author {
-    font-family: var(--font-ui);
+    font-family: var(--font-mono);
     font-size: 0.74rem;
     font-weight: 600;
     color: var(--text-muted);
@@ -1306,101 +1702,101 @@ const volumeCards = rawVolumeGroups.map((group) => {
 </style>
 
 <script is:inline>
-  // Setup Search Button click to open Search Modal
-  document.addEventListener('DOMContentLoaded', () => {
-    const searchBtn = document.getElementById('library-search-btn');
+  document.addEventListener("DOMContentLoaded", () => {
+    // Search Trigger Field handler
+    const searchBtn = document.getElementById("library-search-btn");
     if (searchBtn) {
-      searchBtn.addEventListener('click', () => {
+      searchBtn.addEventListener("click", () => {
         if (window.openCodexSearch) {
           window.openCodexSearch();
         } else {
-          const globalSearchTrigger = document.getElementById('search-trigger-btn');
+          const globalSearchTrigger = document.getElementById("search-trigger-btn");
           if (globalSearchTrigger) globalSearchTrigger.click();
         }
       });
     }
 
-    // Client-side Continue Reading restoration from localStorage
+    // Continue Reading restoration from localStorage
     try {
-      const saved = localStorage.getItem('codex-last-read');
+      const saved = localStorage.getItem("codex-last-read");
       if (saved) {
         const item = JSON.parse(saved);
-        const section = document.getElementById('continue-reading-section');
-        const titleEl = document.getElementById('continue-reading-title');
-        const linkEl = document.getElementById('continue-reading-link');
+        const section = document.getElementById("continue-reading-section");
+        const titleEl = document.getElementById("continue-reading-title");
+        const linkEl = document.getElementById("continue-reading-link");
 
         if (section && titleEl && linkEl && item.slug) {
-          titleEl.innerText = item.title || 'The Architecture of Memory and Active Recall';
+          titleEl.innerText = item.title || "The Architecture of Memory and Active Recall";
           linkEl.href = `/ytdecoded/topics/${item.slug}/`;
-          section.style.display = 'block';
+          section.style.display = "block";
         }
       }
     } catch (_) {}
 
-    const dismissBtn = document.getElementById('dismiss-continue-btn');
+    const dismissBtn = document.getElementById("dismiss-continue-btn");
     if (dismissBtn) {
-      dismissBtn.addEventListener('click', () => {
-        const section = document.getElementById('continue-reading-section');
-        if (section) section.style.display = 'none';
+      dismissBtn.addEventListener("click", () => {
+        const section = document.getElementById("continue-reading-section");
+        if (section) section.style.display = "none";
       });
     }
 
-    // Global Expand All / Collapse All handlers
-    const expandAllBtn = document.getElementById('expand-all-btn');
-    const collapseAllBtn = document.getElementById('collapse-all-btn');
+    // Global Expand All / Collapse All drawers
+    const expandAllBtn = document.getElementById("expand-all-btn");
+    const collapseAllBtn = document.getElementById("collapse-all-btn");
 
     if (expandAllBtn) {
-      expandAllBtn.addEventListener('click', () => {
-        document.querySelectorAll('.volume-full-drawer').forEach((drawer) => {
-          drawer.classList.add('open');
-          drawer.setAttribute('aria-hidden', 'false');
+      expandAllBtn.addEventListener("click", () => {
+        document.querySelectorAll(".volume-full-drawer").forEach((drawer) => {
+          drawer.classList.add("open");
+          drawer.setAttribute("aria-hidden", "false");
         });
-        document.querySelectorAll('.btn-shelf-drawer').forEach((btn) => {
-          btn.setAttribute('aria-expanded', 'true');
-          const label = btn.querySelector('.drawer-btn-label');
-          if (label) label.innerText = 'Hide Topics';
+        document.querySelectorAll(".btn-toggle-drawer").forEach((btn) => {
+          btn.setAttribute("aria-expanded", "true");
+          const label = btn.querySelector(".drawer-btn-label");
+          if (label) label.innerText = "Hide full index ▴";
         });
       });
     }
 
     if (collapseAllBtn) {
-      collapseAllBtn.addEventListener('click', () => {
-        document.querySelectorAll('.volume-full-drawer').forEach((drawer) => {
-          drawer.classList.remove('open');
-          drawer.setAttribute('aria-hidden', 'true');
+      collapseAllBtn.addEventListener("click", () => {
+        document.querySelectorAll(".volume-full-drawer").forEach((drawer) => {
+          drawer.classList.remove("open");
+          drawer.setAttribute("aria-hidden", "true");
         });
-        document.querySelectorAll('.btn-shelf-drawer').forEach((btn) => {
-          btn.setAttribute('aria-expanded', 'false');
-          const count = btn.getAttribute('data-count') || '';
-          const label = btn.querySelector('.drawer-btn-label');
+        document.querySelectorAll(".btn-toggle-drawer").forEach((btn) => {
+          btn.setAttribute("aria-expanded", "false");
+          const count = btn.getAttribute("data-count") || "";
+          const label = btn.querySelector(".drawer-btn-label");
           if (label) {
-            label.innerText = count ? `All ${count} Topics` : 'All Topics';
+            label.innerText = count ? `Preview all ${count} chapters ▾` : "Preview chapters ▾";
           }
         });
       });
     }
   });
 
-  // Individual Drawer Toggle Function
+  // Toggle individual shelf drawer
   window.toggleShelfDrawer = function(volNum) {
     const drawer = document.getElementById(`drawer-${volNum}`);
     const btn = document.getElementById(`toggle-btn-${volNum}`);
     if (!drawer || !btn) return;
 
-    const isOpen = drawer.classList.contains('open');
+    const isOpen = drawer.classList.contains("open");
     if (isOpen) {
-      drawer.classList.remove('open');
-      drawer.setAttribute('aria-hidden', 'true');
-      btn.setAttribute('aria-expanded', 'false');
-      const count = btn.getAttribute('data-count') || '';
-      const label = btn.querySelector('.drawer-btn-label');
-      if (label) label.innerText = count ? `All ${count} Topics` : 'All Topics';
+      drawer.classList.remove("open");
+      drawer.setAttribute("aria-hidden", "true");
+      btn.setAttribute("aria-expanded", "false");
+      const count = btn.getAttribute("data-count") || "";
+      const label = btn.querySelector(".drawer-btn-label");
+      if (label) label.innerText = count ? `Preview all ${count} chapters ▾` : "Preview chapters ▾";
     } else {
-      drawer.classList.add('open');
-      drawer.setAttribute('aria-hidden', 'false');
-      btn.setAttribute('aria-expanded', 'true');
-      const label = btn.querySelector('.drawer-btn-label');
-      if (label) label.innerText = 'Hide Topics';
+      drawer.classList.add("open");
+      drawer.setAttribute("aria-hidden", "false");
+      btn.setAttribute("aria-expanded", "true");
+      const label = btn.querySelector(".drawer-btn-label");
+      if (label) label.innerText = "Hide full index ▴";
     }
   };
 </script>
