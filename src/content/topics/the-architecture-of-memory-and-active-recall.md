@@ -86,6 +86,16 @@ sources:
       - claim: "The 80/20 Recitation Rule & Empty-Chair Socratic Teaching: 80% of effective study time should be spent on verbal or written retrieval (recitation) and only 20% on reading"
       - claim: "The Magazine Recognition Test & The Fluency Fallacy: Highlighting text produces superficial recognition rather than recollection; testing prediction before turning pages exposes genuine knowledge gaps"
       - claim: "The SQ3R Pedagogical Architecture: Surveying headings and generating questions prior to reading transforms linear page-turning into active information hunting"
+  - source_id: "SRC-JUSTIN-SUNG-PERRO-SYSTEM"
+    title: "7 Years of Building a Learning System in 12 minutes"
+    creator: "Dr. Justin Sung"
+    url: "https://www.youtube.com/watch?v=6GTt10GDWII"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The PERRO Learning Pipeline: Priming, Encoding, Reference, Retrieval, and Overlearning unifies cognitive load theory with memory consolidation into a sequential 5-stage architecture"
+      - claim: "The Relevance Filtration Gate & Pre-Study Priming: The brain filters out unprimed information as random noise; priming establishes semantic relevance before intake so working memory is prepared to capture concepts"
+      - claim: "The Reference Parking Lot Heuristic: Offloading fine, non-structural details to external secondary tools (reference) prevents cognitive overload during primary schema encoding"
+      - claim: "The Overlearning Inversion Trap: Overlearning (high-volume repetition/flashcards) is an end-stage differentiator for competitive exams, but failing students mistakenly use it as their first step to compensate for defective encoding"
 active_recall:
   - question: "Why does the 'Testing Effect' established by Roediger and Karpicke produce higher long-term retention than repeated reading?"
     concept: "Desirable Difficulty & Retrieval Effort"
@@ -117,6 +127,12 @@ active_recall:
   - question: "Why does the 'Magazine Test' disprove the effectiveness of textbook highlighting as an exam preparation strategy?"
     concept: "Recognition vs Recollection Distinction"
     answer: "Flipping through a highlighted book or old magazine feels completely familiar due to passive visual recognition. However, attempting to predict the next page before turning exposes that zero generative recollection has occurred. True retention requires looking away and stating concepts in your own words."
+  - question: "What is the 'Overlearning Inversion Trap' and why does brute-force repetition fail to rescue poor exam performance?"
+    concept: "The Overlearning Inversion Trap"
+    answer: "Overlearning (high-volume flashcard repetition and past paper drilling) is an end-stage hardening tool to build speed, not a primary learning engine. When students skip relational priming and deep encoding, information lacks semantic relevance. Using repetition as a first strategy futilely attempts to compensate for defective encoding through sheer volume, producing brittle, narrow knowledge."
+  - question: "How does the 'Reference Parking Lot' in the PERRO system protect working memory during deep conceptual encoding?"
+    concept: "Reference Offloading & Cognitive Load Theory"
+    answer: "Attempting to comprehend core mechanisms while simultaneously transcribing and memorizing hyper-specific factual details exceeds working memory bandwidth. The Reference stage acts as an external parking lot (dumping fine dates, stats, and edge cases into secondary files), freeing prefrontal processing to focus 100% on relational schema formation."
 last_updated: "2026-09-06"
 ---
 
@@ -510,6 +526,48 @@ While structural **Concepts** (functional mechanisms) endure for decades once un
 * **Acronyms**: Compress multi-part items into a single pronounceable token (e.g., `RADIO` = Right Atrium Deoxygenated; `ROYGBIV` for light refraction).
 * **Coined Sayings / Acrostics**: Rhymes or mnemonic sentences where first letters map sequentially to complex orders (e.g., cranial nerves).
 * **Interacting Concrete Images**: Couple abstract numbers or facts to vivid, bizarre mental imagery (e.g., associating carbohydrates with a car having 4 wheels $\to$ 4 kcal/g; associating dietary fat with a fat cat possessing 9 lives $\to$ 9 kcal/g).
+
+---
+
+### The PERRO Meta-Framework: Cognitive Architecture & The Overlearning Inversion
+
+Modern evidence-based learning theory reaches its systemic maturity in the **PERRO Framework**, engineered by Dr. Justin Sung. While popular study advice obsessively fetishizes isolated tools (e.g., Anki flashcards, Pomodoro timers, active recall sheets), cognitive psychology recognizes that learning is not a discrete event—it is an interdependent **5-stage cognitive pipeline**.
+
+```mermaid
+graph LR
+    subgraph SG_1_PERRO_Pipeline ["The PERRO 5-Stage Cognitive Architecture"]
+        P["P: Priming<br>Pre-Study Relevance Filter"] --> E["E: Encoding<br>Relational Schema Building"]
+        E --> R1["R: Reference<br>Cognitive Load Offloading"]
+        E --> R2["R: Retrieval & Interleaving<br>Multi-Angle Reconstruction"]
+        R2 --> O["O: Overlearning<br>Competitive Hardening (End-Stage)"]
+    end
+```
+
+#### 1. The Information Filtration Gate & P — Priming
+The human brain is subjected to millions of sensory bits per second and operates a ruthless biological filter: *if incoming information does not appear relevant or connected to existing knowledge structures, it is immediately discarded*.
+* **The Ingestion Dilemma**: Students who enter a lecture or open a textbook cold are "thrown a ball they are not ready to catch." Because the brain perceives the data as arbitrary noise, cognitive load spikes, working memory leaks, and retention collapses.
+* **The Priming Protocol**: Conducted 5 to 15 minutes *before* encountering material. Rapidly survey chapter hierarchies, conceptual relationships, and thematic questions. Priming signals semantic relevance to the brain's executive networks, pre-activating neural categories so that incoming facts slot effortlessly into pre-existing schemas.
+
+#### 2. E — Deep Encoding (Relational Schema Construction)
+Encoding is the active translation of raw data into mental models. It is not binary (learned vs. unlearned), but a continuous spectrum of depth:
+* **The Active Mechanics**: Grouping isolated facts, deriving analogies, identifying structural hierarchies, and linking new mechanisms to lived experience.
+* **The Cognitive Friction Requirement**: Deep encoding demands significant prefrontal metabolic exertion. Many students flee this friction, retreating into passive highlighting or mindless flashcard flipping. Yet skipping relational encoding ensures that facts remain isolated fragments that dissolve within days.
+
+#### 3. R — Reference (The Cognitive Parking Lot)
+A major source of study exhaustion is attempting to consume macro-concepts while simultaneously memorizing hyper-specific micro-details (e.g., statutory dates, fine percentages, isolated nomenclature).
+* **The Cognitive Load Solution**: The Reference stage acts as an external **parking lot** (e.g., secondary reference notes, Obsidian vaults, Anki decks).
+* **The Rule**: When reading complex chapters, do not interrupt your conceptual processing to memorize edge cases. Offload fine details to your Reference parking lot, keeping 100% of conscious executive bandwidth dedicated to grasping the overarching functional mechanism.
+
+#### 4. R — Retrieval & Multi-Perspective Interleaving
+Retrieval is not merely an assessment instrument; it is an active **memory reconsolidation event**. Every successful retrieval forces the brain to repackage and strengthen synaptic pathways.
+* **The Interleaving Imperative**: If retrieval is practiced only in a single uniform format (e.g., identical flashcard prompts), knowledge becomes dangerously brittle. The student can answer only when the prompt matches the exact phrasing of their notes.
+* **Multi-Angle Stress Testing**: Interleave concepts by testing them across multiple qualitative and quantitative perspectives. Cross-pollinate topics (e.g., connecting a monetary policy mechanism to historical inflation spikes and banking capital adequacy). This trains neural flexibility, allowing the candidate to solve unanticipated "curveball" examination questions.
+
+#### 5. O — Overlearning & The Repetition Inversion Trap
+Overlearning is the deliberate, high-volume practice of concepts beyond baseline mastery to produce instantaneous, automated recall fluency.
+* **The Fatal Trap**: Overlearning is inherently repetitive (past-paper drills, high-volume speed testing). In competitive examinations, it is a crucial **end-stage differentiator** to guarantee speed under extreme time pressure.
+* **The Inversion**: Tragically, struggling students adopt overlearning strategies as their *first* step—spending hours grinding flashcards or re-reading past papers without having primed or relationally encoded the underlying schemas. Brute-force repetition cannot compensate for deficient conceptual encoding.
+* **The Law**: *Master Priming, Encoding, and Relational Retrieval first; deploy Overlearning strictly as the final hardening polish.*
 
 ---
 
