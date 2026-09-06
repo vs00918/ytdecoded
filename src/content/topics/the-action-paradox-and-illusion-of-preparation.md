@@ -16,6 +16,7 @@ mental_models:
   - "The ACT Choice Point & Psychological Flexibility"
   - "The Four Playing-It-Safe Saboteurs"
   - "Motion vs Action (James Clear)"
+  - "The Gollwitzer Social Reality Effect & Strategic Silence (Peter Gollwitzer)"
 relationships:
   prerequisites: []
   builds_on: []
@@ -31,6 +32,14 @@ sources:
       - claim: "The Choice Point: Moments of acute resistance offer an immediate divergence between Away Moves (anxiety-soothing avoidance) and Towards Moves (values-driven action in the presence of discomfort)"
       - claim: "Vicarious Accomplishment in Over-Preparation: Simulation of growth creates a temporary drop in acute anxiety while reducing real-world self-efficacy"
       - claim: "Motion vs Action: Organizing, researching, and template tweaking (Motion) carries zero outcome risk but can never deliver results without direct exposure (Action)"
+  - source_id: "YT-XHUMAN-NEVER-SHARE-PLANS"
+    title: "Never share your plans ! 175 year old Chinese philosophy"
+    creator: "Human Behaviour"
+    url: "https://youtu.be/cJhfWwclxq0"
+    evidence_type: "EMPIRICAL_STUDY"
+    key_contributions:
+      - claim: "The Social Reality Effect: Announcing intentions publicly tricks the brain into premature dopamine satiation, collapsing the tension required to execute the actual habit"
+        timestamp: "03:15"
 active_recall:
   - question: "What is the critical distinction between 'Motion' and 'Action' in defeating the preparation trap?"
     concept: "Motion vs Action Execution"
@@ -38,7 +47,10 @@ active_recall:
   - question: "How does the ACT 'Choice Point' handle internal discomfort during difficult study sessions?"
     concept: "Psychological Flexibility & Towards Moves"
     answer: "The Choice Point asserts that you do not need internal resistance or anxiety to disappear before you act. Instead of executing an 'Away Move' (switching tabs or snacking to soothe discomfort), you practice psychological willingness—allowing the physical sensation of discomfort to exist while your hands carry out the 'Towards Move'."
-last_updated: "2026-09-04"
+  - question: "Why does Peter Gollwitzer's 'Social Reality' research prove that announcing your goals publicly sabotages actual performance?"
+    concept: "The Gollwitzer Social Reality Effect"
+    answer: "When you tell someone your ambitious plans, their admiration or acknowledgment creates a 'social reality' in your subconscious. The brain releases premature dopamine as if the identity transformation were already achieved, dramatically dissipating the internal tension and friction required to endure the actual unglamorous execution."
+last_updated: "2026-09-06"
 ---
 
 In the digital era, one of the most insidious forms of procrastination does not disguise itself as video games or television. It disguises itself as **self-improvement and "careful preparation."**
@@ -94,6 +106,24 @@ graph TD
 2. **Perfectionistic Over-Preparation (Ego Shield)**: Reading five more books, watching three more courses, or color-coding notes to delay putting your work into the real world where it can be judged.
 3. **Reassurance Seeking**: Demanding constant validation from mentors, peers, or checklists before making a decision.
 4. **The Short-Term Tradeoff**: Playing-it-safe behaviors work brilliantly in the short term because they lower your immediate anxiety. But they construct a long-term psychological prison, trading acute discomfort for chronic stagnation.
+5. **Premature Goal Broadcasting (The Gollwitzer Hazard)**: Announcing your plans to colleagues, friends, or social media before doing the actual work.
+
+```mermaid
+graph TD
+    A["Have Ambitious Goal"]
+    -->|Path 1: Announce Publicly| B["Social Praise & Premature Validation"]
+    --> C["Brain Registers Identity Shift as 'Already Done'"]
+    --> D["Dopamine & Activation Energy Dissipate"]
+    --> E["Procrastination & Failure to Execute"]
+
+    A -->|Path 2: Strategic Silence / Deep Quiet| F["Keep Intention Completely Secret"]
+    --> G["Internal Kinetic Tension Stays High"]
+    --> H["Energy Can Only Discharge Through Deep Work"]
+    --> I["Tangible Finished Output & Real Results"]
+```
+
+* **The Psychology of Premature Satiation**: Renowned NYU psychologist Peter Gollwitzer demonstrated that when you tell someone your goal and they validate you, your subconscious treats that social acknowledgement as an informal completion. You receive a surrogate dopamine reward before exerting a single ounce of effort, destroying the vital internal friction needed to complete grueling practice.
+* **The Antidote**: **Strategic Silence**. Let your results make the noise.
 
 ---
 
