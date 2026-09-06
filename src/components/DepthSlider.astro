@@ -6,22 +6,21 @@ const { label = 'Cognitive Reading Mode', compact = false } = Astro.props;
 <div class={`depth-slider-card ${compact ? 'depth-slider-compact' : ''}`}>
   <div class="depth-header-strip">
     <div class="depth-label">
-      <span class="depth-icon">⚡</span>
-      <span>{label}</span>
+      <span class="depth-kicker">EDITORIAL READING DEPTH</span>
     </div>
     <div class="depth-mode-hint">
-      📖 Full Deep-Dive: Complete prose, detailed explanations & study notes
+      Full Deep-Dive: Complete prose, detailed explanations & study notes
     </div>
   </div>
   <div class="depth-buttons" role="group" aria-label="Reading Depth Toggle">
     <button class="depth-btn" data-depth="axiom" title="Show 15-second core axiom + visual mindmaps and flowcharts">
-      ⚡ 15-Sec Axiom
+      15-SEC AXIOM
     </button>
     <button class="depth-btn" data-depth="model" title="Show conceptual ladders, structured bullet points & key steps">
-      📊 5-Min Model
+      5-MIN MODEL
     </button>
     <button class="depth-btn active" data-depth="deep" title="Show full uninterrupted text, explanations & study notes (mindmaps hidden to save page space)">
-      📖 Full Deep-Dive
+      FULL DEEP-DIVE
     </button>
   </div>
 </div>
@@ -31,23 +30,26 @@ const { label = 'Cognitive Reading Mode', compact = false } = Astro.props;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 12px 18px;
+    background: var(--wash);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 12px 0;
     margin: 20px 0 28px 0;
-    box-shadow: 0 2px 8px var(--shadow);
+    box-shadow: none;
   }
 
   .depth-slider-card.depth-slider-compact {
-    padding: 8px 14px;
+    padding: 8px 0;
     margin: 14px 0 20px 0;
     gap: 8px;
   }
 
   .depth-header-strip {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 8px;
@@ -56,46 +58,45 @@ const { label = 'Cognitive Reading Mode', compact = false } = Astro.props;
   .depth-label {
     display: flex;
     align-items: center;
-    gap: 6px;
+  }
+
+  .depth-kicker {
     font-family: var(--font-ui);
-    font-size: 0.78rem;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.6px;
-    color: var(--text-muted);
+    letter-spacing: 0.12em;
+    color: var(--accent);
   }
 
   .depth-mode-hint {
-    font-family: var(--font-ui);
-    font-size: 0.78rem;
-    color: var(--accent);
-    font-weight: 500;
-  }
-
-  .depth-icon {
-    font-size: 0.95rem;
-    color: var(--accent);
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--muted);
   }
 
   .depth-buttons {
     display: flex;
     gap: 6px;
-    background: var(--bg-surface);
-    padding: 3px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
     flex-wrap: wrap;
   }
 
   .depth-btn {
-    background: transparent;
-    border: none;
-    color: var(--text-secondary);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--ink);
     font-family: var(--font-ui);
-    font-size: 0.82rem;
-    font-weight: 600;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     padding: 6px 14px;
-    border-radius: 6px;
+    border-radius: 0;
     cursor: pointer;
     transition: all 0.15s ease;
     flex: 1 1 auto;
@@ -103,18 +104,20 @@ const { label = 'Cognitive Reading Mode', compact = false } = Astro.props;
   }
 
   .depth-slider-compact .depth-btn {
-    padding: 5px 10px;
-    font-size: 0.78rem;
+    padding: 4px 10px;
+    font-size: 10px;
   }
 
   .depth-btn:hover {
-    color: var(--text-primary);
+    background: var(--wash);
+    border-color: var(--ink);
   }
 
   .depth-btn.active {
-    background: var(--accent);
-    color: #ffffff !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    background: var(--ink);
+    color: var(--paper) !important;
+    border-color: var(--ink);
+    box-shadow: none;
   }
 </style>
 

@@ -18,9 +18,8 @@ const filteredHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
     <details class="toc-details" id="toc-details" open>
       <summary class="toc-summary">
         <span class="toc-title-wrap">
-          <span class="toc-icon" aria-hidden="true">📑</span>
-          <span class="toc-title">Table of Contents</span>
-          <span class="toc-count">({filteredHeadings.length} sections)</span>
+          <span class="toc-title">IN THIS DISPATCH / SECTIONS</span>
+          <span class="toc-count">({filteredHeadings.length} SECTIONS)</span>
         </span>
         <span class="toc-toggle-indicator" aria-hidden="true">▾</span>
       </summary>
@@ -40,24 +39,25 @@ const filteredHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 
 <style>
   .toc-container {
-    background: var(--bg-surface);
-    border: 1px solid var(--border-subtle);
-    border-radius: 8px;
-    padding: 10px 16px;
+    background: transparent;
+    border-top: 1px solid var(--rule);
+    border-bottom: 3px double var(--rule);
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 10px 0 12px;
     margin: 20px 0 28px;
     font-family: var(--font-ui);
     transition: border-color 0.15s ease;
   }
 
-  .toc-container:hover {
-    border-color: var(--border);
-  }
-
   .toc-details summary {
     cursor: pointer;
-    font-size: 0.82rem;
-    font-weight: 600;
-    color: var(--text-secondary);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
     display: flex;
     align-items: center;
     justify-content: space-between;

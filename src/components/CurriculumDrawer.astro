@@ -138,11 +138,11 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
 
   .drawer-close-btn {
     background: transparent;
-    border: 1px solid var(--border);
-    color: var(--text-secondary);
-    width: 28px;
-    height: 28px;
-    border-radius: 6px;
+    border: 1px solid var(--rule);
+    color: var(--ink);
+    width: 26px;
+    height: 26px;
+    border-radius: 0;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -152,9 +152,9 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   }
 
   .drawer-close-btn:hover, .drawer-close-btn:focus-visible {
-    background: var(--accent-soft);
-    color: var(--accent);
-    border-color: var(--accent);
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
     outline: none;
   }
 
@@ -166,15 +166,15 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
 
   .volume-accordion {
     margin-bottom: 8px;
-    border-radius: 8px;
+    border-radius: 0;
     overflow: hidden;
-    border: 1px solid var(--border-subtle);
-    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    background: var(--wash);
   }
 
   .volume-accordion[open] {
-    border-color: var(--border);
-    background: var(--bg-surface);
+    border-color: var(--ink);
+    background: var(--paper);
   }
 
   .volume-summary {
@@ -184,9 +184,12 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     padding: 9px 12px;
     cursor: pointer;
     user-select: none;
-    font-weight: 600;
-    font-size: 0.84rem;
-    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 0.82rem;
+    font-family: var(--font-ui);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
     list-style: none;
     transition: background 0.15s ease;
   }
@@ -196,12 +199,12 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   }
 
   .volume-summary:hover {
-    background: var(--accent-soft);
+    background: var(--wash);
   }
 
   .volume-caret {
     font-size: 0.75rem;
-    color: var(--text-muted);
+    color: var(--muted);
     transition: transform 0.2s ease;
     display: inline-block;
   }
@@ -215,14 +218,14 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   }
 
   .volume-num-badge {
-    font-size: 0.68rem;
+    font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    background: var(--border);
-    color: var(--text-primary);
+    background: var(--ink);
+    color: var(--paper);
     padding: 1px 5px;
-    border-radius: 3px;
-    letter-spacing: 0.04em;
+    border-radius: 0;
+    letter-spacing: 0.06em;
     flex-shrink: 0;
   }
 
@@ -247,7 +250,7 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
   .topic-sublist {
     list-style: none;
     padding: 4px 6px 6px 14px;
-    border-top: 1px solid var(--border-subtle);
+    border-top: 1px solid var(--rule);
   }
 
   .topic-nav-item {
@@ -259,23 +262,24 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     align-items: baseline;
     gap: 6px;
     padding: 5px 8px;
-    border-radius: 5px;
+    border-radius: 0;
     text-decoration: none;
-    color: var(--text-secondary);
-    font-size: 0.8rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-family: var(--font-serif);
     line-height: 1.3;
     transition: all 0.12s ease;
   }
 
   .topic-nav-link:hover {
-    background: var(--accent-soft);
-    color: var(--accent);
+    background: var(--wash);
+    color: var(--ink);
   }
 
   .topic-nav-item.active .topic-nav-link {
-    background: var(--accent);
-    color: #ffffff !important;
-    font-weight: 600;
+    background: var(--ink);
+    color: var(--paper) !important;
+    font-weight: 700;
   }
 
   .topic-order {

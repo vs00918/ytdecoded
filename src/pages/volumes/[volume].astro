@@ -140,15 +140,15 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
             <!-- Chapter Header -->
             <header class="reader-header">
               <div class="chapter-sequence-strip">
-                <div class="chapter-sequence-badge">
-                  CHAPTER {chapterSeq} OF {renderedTopics.length}
+                <div class="chapter-sequence-badge kicker">
+                  VOLUME {group.volume} • CHAPTER {chapterSeq} OF {renderedTopics.length}
                 </div>
                 <a 
                   href={`/ytdecoded/topics/${topic.slug}/`} 
                   class="chapter-open-standalone-btn" 
                   title={`Open ${topic.data.title} as dedicated single-chapter page`}
                 >
-                  ↗ Open Single Chapter
+                  ↗ Standalone Dispatch
                 </a>
               </div>
 
@@ -190,8 +190,8 @@ const nextVolume = volumeGroups.find(v => v.volume === currentVolNum + 1);
               </div>
 
               <!-- 15-Second Axiomatic Summary Kernel -->
-              <div class="summary-kernel" data-pagefind-meta="summary">
-                <div class="summary-kernel-label">⚡ 15-Second Axiomatic Kernel</div>
+              <div class="summary-kernel intel-box" data-pagefind-meta="summary">
+                <div class="summary-kernel-label">WHAT THIS MEANS / CORE AXIOM</div>
                 <div class="summary-kernel-text">{topic.data.summary_15s}</div>
               </div>
 
