@@ -1,6 +1,5 @@
 ---
 import ReaderLayout from "../layouts/ReaderLayout.astro";
-import PhilosophyFirstAid from "../components/PhilosophyFirstAid.astro";
 import { getCollection } from "astro:content";
 import { getVolumeGroups } from "../utils/navigation";
 
@@ -235,28 +234,6 @@ const volumeCards = rawVolumeGroups.map((group) => {
     remainingCount
   };
 });
-
-const twentyMinuteSuggestion = {
-  volNum: 1,
-  volRoman: "I",
-  volShort: "Biology of Mind & Energy",
-  topic1: {
-    slug: "the-second-brain-and-the-gut-mind-axis",
-    title: "The Second Brain — The Gut-Mind Axis",
-    time: 5
-  },
-  topic2: {
-    slug: "the-neurochemistry-of-focus-and-dopamine-transition",
-    title: "The Neurochemistry of Focus — Dopamine Loading",
-    time: 7
-  },
-  topic3: {
-    slug: "the-neurobiology-of-sleep-architecture",
-    title: "The Neurobiology of Sleep Architecture",
-    time: 7
-  },
-  totalTime: 19
-};
 ---
 
 <ReaderLayout title="Reading Map" description="The Living Codex — Master Reading Decision System & Knowledge Map" isWideLayout={true} hideNavSearch={true}>
@@ -301,16 +278,10 @@ const twentyMinuteSuggestion = {
           </div>
         </button>
       </div>
-
-      <!-- Situational First Aid Selector -->
-      <div class="hero-first-aid-wrap">
-        <PhilosophyFirstAid />
-      </div>
     </header>
 
     <!-- ====================================================================
          SECTION 2: RESUME STUDYING (Dynamic from localStorage)
-         OR 20-MINUTE SUGGESTION IF NO RESUME STATE
          ==================================================================== -->
     <section id="continue-reading-section" class="continue-study-section" style="display: none;" aria-label="Resume Reading">
       <div class="continue-study-banner">
@@ -331,37 +302,6 @@ const twentyMinuteSuggestion = {
           <button id="dismiss-continue-btn" class="continue-dismiss-link" aria-label="Dismiss resume prompt">
             ✕ Dismiss
           </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Fallback: "IF YOU HAVE 20 MINUTES" (Hidden automatically if resume active) -->
-    <section id="quick-session-suggestion" class="quick-session-section" aria-label="Short Reading Suggestion">
-      <div class="quick-session-card">
-        <div class="quick-session-badge">
-          <span class="quick-badge-icon" aria-hidden="true">⏱️</span>
-          <span>IF YOU HAVE 20 MINUTES</span>
-        </div>
-        <div class="quick-session-content">
-          <div class="quick-session-desc">
-            Explore the biological triad of energy and focus in <strong>Vol. {twentyMinuteSuggestion.volRoman} ({twentyMinuteSuggestion.totalTime} min)</strong>:
-          </div>
-          <div class="quick-session-links">
-            <a href={`/ytdecoded/topics/${twentyMinuteSuggestion.topic1.slug}/`} class="quick-link-item">
-              <span class="quick-link-title">{twentyMinuteSuggestion.topic1.title}</span>
-              <span class="quick-link-time">{twentyMinuteSuggestion.topic1.time}m</span>
-            </a>
-            <span class="quick-sep">→</span>
-            <a href={`/ytdecoded/topics/${twentyMinuteSuggestion.topic2.slug}/`} class="quick-link-item">
-              <span class="quick-link-title">{twentyMinuteSuggestion.topic2.title}</span>
-              <span class="quick-link-time">{twentyMinuteSuggestion.topic2.time}m</span>
-            </a>
-            <span class="quick-sep">→</span>
-            <a href={`/ytdecoded/topics/${twentyMinuteSuggestion.topic3.slug}/`} class="quick-link-item">
-              <span class="quick-link-title">{twentyMinuteSuggestion.topic3.title}</span>
-              <span class="quick-link-time">{twentyMinuteSuggestion.topic3.time}m</span>
-            </a>
-          </div>
         </div>
       </div>
     </section>
@@ -865,10 +805,6 @@ const twentyMinuteSuggestion = {
     color: var(--text-secondary);
   }
 
-  .hero-first-aid-wrap {
-    margin-top: 12px;
-  }
-
   /* --------------------------------------------------------------------------
      CONTINUE STUDYING BANNER
      -------------------------------------------------------------------------- */
@@ -958,96 +894,6 @@ const twentyMinuteSuggestion = {
 
   .continue-dismiss-link:hover {
     color: var(--text-primary);
-  }
-
-  /* --------------------------------------------------------------------------
-     "IF YOU HAVE 20 MINUTES" QUICK SUGGESTION (SUBTLE, NO PRESSURE)
-     -------------------------------------------------------------------------- */
-  .quick-session-section {
-    margin-bottom: 28px;
-  }
-
-  .quick-session-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 12px 18px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    box-shadow: 0 2px 6px var(--shadow);
-  }
-
-  .quick-session-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: var(--bg-surface);
-    border: 1px solid var(--border);
-    padding: 4px 10px;
-    border-radius: 6px;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    color: var(--text-secondary);
-    flex-shrink: 0;
-  }
-
-  .quick-session-content {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    flex: 1;
-    flex-wrap: wrap;
-  }
-
-  .quick-session-desc {
-    font-family: var(--font-sans);
-    font-size: 0.84rem;
-    color: var(--text-secondary);
-  }
-
-  .quick-session-links {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  .quick-link-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    padding: 3px 8px;
-    font-family: var(--font-sans);
-    font-size: 0.78rem;
-    color: var(--text-primary);
-    text-decoration: none;
-    transition: border-color 0.15s ease;
-  }
-
-  .quick-link-item:hover {
-    border-color: var(--accent);
-  }
-
-  .quick-link-title {
-    font-weight: 600;
-  }
-
-  .quick-link-time {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    color: var(--text-muted);
-  }
-
-  .quick-sep {
-    font-size: 0.75rem;
-    color: var(--text-muted);
   }
 
   /* --------------------------------------------------------------------------
@@ -2141,7 +1987,6 @@ const twentyMinuteSuggestion = {
     // Continue Reading restoration from localStorage
     try {
       const saved = localStorage.getItem("codex-last-read");
-      const quickSessionSection = document.getElementById("quick-session-suggestion");
       if (saved) {
         const item = JSON.parse(saved);
         const section = document.getElementById("continue-reading-section");
@@ -2152,7 +1997,6 @@ const twentyMinuteSuggestion = {
           titleEl.innerText = item.title || "The Architecture of Memory and Active Recall";
           linkEl.href = `/ytdecoded/topics/${item.slug}/`;
           section.style.display = "block";
-          if (quickSessionSection) quickSessionSection.style.display = "none";
         }
       }
     } catch (_) {}
