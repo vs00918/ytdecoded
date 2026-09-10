@@ -21,6 +21,9 @@ mental_models:
   - "The Polymathic Operator (The Scientific & Geometrical Mind)"
   - "The Geometrical Speed Invariant (Maneuver as Armor)"
   - "The 5-Book Architecture of Self-Authorship"
+  - "The Cognitive Compartmentalization Wardrobe (Cabinet Mind)"
+  - "Strategic Rest & Somatic Reset (Micro-Naps as Leverage)"
+  - "The Asymmetric Flanking Maneuver (Indirect Conceptual Wedge)"
 relationships:
   prerequisites: []
   builds_on: []
@@ -113,6 +116,22 @@ sources:
         timestamp: "04:35"
       - claim: "The 5-Book Napoleonic Reading Canon: Understanding the complete mind of an elite operator requires synthesizing: (1) Emil Ludwig (Inner Drive/Ubermensch), (2) J. Christopher Herold (Aphoristic Dictations), (3) Ruth Scurr (Methodical Scientific Order & Gardens), (4) Cynthia Saltzman (Cultural Leverage & Plunder), and (5) Andrew Roberts (The Geometrical/Tireless Administrator)"
         timestamp: "04:35"
+  - source_id: "YT-Ko7FQTbgE6I"
+    title: "Napoleons Personal 13 Laws Of Power Will Make You Unstoppable"
+    creator: "Nic Munoz"
+    url: "https://youtu.be/Ko7FQTbgE6I"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The Cabinet Mind Invariant (Cognitive Compartmentalization): Napoleon organized his mind like an armoire of drawers; opening one drawer meant total absorption in that topic while closing all others, enabling instant transitions from artillery logistics to legal drafting to sleep without residual cognitive drag"
+        timestamp: "00:53"
+      - claim: "Strategic Rest & Somatic Reset: Conquering extreme cognitive fatigue not through marathon sleep, but through tactical 15-to-20 minute power naps anywhere (even on battlefields), refreshing neurotransmitter pools on demand"
+        timestamp: "02:11"
+      - claim: "Mastery of Minutiae: Micro-details dictate macro-destinies; Napoleon personally memorized troop movements, cannon ball counts, and bridge dimensions, proving that strategic vision without tactical micro-detail collapses"
+        timestamp: "04:17"
+      - claim: "The Asymmetric Flanking Maneuver: In warfare and problem-solving, frontal assaults against entrenched resistance are wasteful; the master operator pins the opponent's attention in front while swinging decisive leverage around the flank"
+        timestamp: "11:26"
+      - claim: "Calculated Audacity & Belief in Destiny: High-stakes execution demands measured risk backed by irrational confidence; self-doubt guarantees defeat, while absolute conviction bends uncertain outcomes in one's favor"
+        timestamp: "12:48"
 active_recall:
   - question: "Why is talent considered a static 'floor' while iteration velocity dictates the performance 'ceiling'?"
     concept: "The Compression Law of Execution"
@@ -168,6 +187,12 @@ active_recall:
   - question: "How does the 'Geometrical Speed Invariant' explain Andrew Roberts' thesis on Napoleon's strategic victories?"
     concept: "The Geometrical Speed Invariant"
     answer: "Andrew Roberts emphasizes that Napoleon won campaigns not through numerical superiority, but through geometrical calculation and march velocity. By calculating spatial distances and moving troops at unprecedented speeds, he repeatedly defeated split enemy coalitions in detail before they could unite, turning speed into decisive tactical armor."
+  - question: "How does the 'Cabinet Mind' mental model eliminate attention residue and mental fatigue?"
+    concept: "The Cognitive Compartmentalization Wardrobe"
+    answer: "Napoleon likened his brain to a wardrobe with distinct drawers for each subject. When opening the drawer for artillery or civil administration, all other drawers remained firmly closed, preventing mental overlap and intrusive thoughts. When wanting to sleep, he closed all drawers simultaneously, plunging instantly into restorative sleep without cognitive lingering."
+  - question: "How did Napoleon utilize 'Strategic Rest' to sustain impossible operational tempos without systemic burnout?"
+    concept: "Somatic Reset via Micro-Naps"
+    answer: "Rather than waiting for full physical collapse or relying on rigid nocturnal schedules, Napoleon weaponized 15-to-20 minute tactical power naps throughout the day—even amidst active cannon fire. This rapid somatic reset clears adenosine buildup and resets working memory, enabling multi-day operational intensity without cognitive decay."
 last_updated: "2026-09-10"
 ---
 
@@ -621,6 +646,57 @@ In Emil Ludwig's classic biography, the defining question is how an impoverished
 
 * **The Consumption of Classical Exemplars**: As an impoverished young lieutenant living on one meal a day in a cold garrison, Napoleon spent his spare hours devouring Plutarch's *Lives*, Caesar's *Commentaries*, and the military histories of Frederick the Great. He did not read for entertainment; he **modeled their minds**, internalizing their decisiveness, stoicism, and grand historical perspective.
 * **Self-Authorship Over Pedigree**: Napoleon rejected the hereditary aristocratic dogma of his era. He proved that an individual can self-author their destiny from zero by acquiring rare, indispensable competence, cultivating iron will, and refusing to accept social or circumstantial limitations as permanent boundaries.
+
+---
+
+### The 13 Laws of Operational Power & Mental Sovereignty (Nic Munoz)
+
+Building on the biographical record, **Nic Munoz** (*Napoleon's Personal 13 Laws of Power*) deconstructs the tactical habits that allowed Napoleon to sustain peak prefrontal velocity across decades of unrelenting crisis:
+
+```mermaid
+graph TD
+    subgraph SG_1_Cognitive_Control ["Tier 1: Internal Operating Architecture"]
+        T1["Law 1: Cognitive Compartmentalization ('The Cabinet Mind')"]
+        T2["Law 2: Strategic Rest (Somatic Micro-Naps)"]
+        T3["Law 3: Relentless Instrumental Reading"]
+        T4["Law 4: Emotional Stoicism & Iron Self-Control"]
+    end
+
+    subgraph SG_2_Execution_Cadence ["Tier 2: Speed & Information Dominance"]
+        E1["Law 5: Mastery of Minutiae & Ground Reality"]
+        E2["Law 6: High-Velocity Rapid Decisions"]
+        E3["Law 7: Tight, Unambiguous Communication"]
+        E4["Law 8: Narrative Control & Reality Shaping"]
+    end
+
+    subgraph SG_3_Maneuver_Force ["Tier 3: Strategic Geometry & Identity"]
+        M1["Law 9: Concentration of Force (Schwerpunkt)"]
+        M2["Law 10: Asymmetric Flanking Maneuver"]
+        M3["Law 11: Calculated Audacity & Asymmetric Risk"]
+        M4["Law 12: Front-Line Exemplary Leadership"]
+        M5["Law 13: Unshakeable Belief in Sovereign Destiny"]
+    end
+
+    SG_1_Cognitive_Control ==> SG_2_Execution_Cadence ==> SG_3_Maneuver_Force
+
+```
+
+#### 9. The Cognitive Compartmentalization Wardrobe: The "Cabinet Mind"
+The fatal leak in modern intellectual execution is **Attention Residue**—the lingering cognitive drag of previous tasks bleeding into current focus. Napoleon solved this through a deliberate cognitive architecture:
+> *"Different subjects and different affairs are arranged in my head as in a cupboard. When I wish to interrupt one train of thought, I shut up that drawer and open another. Do I wish to sleep? I close all drawers, and behold, I am asleep."*
+
+* **The Mechanism**: When engaged in problem-solving or deep synthesis, mentally lock every other problem outside the immediate visual and neural field. No anxiety regarding tomorrow's tasks is permitted inside the open drawer.
+* **Instant Disengagement**: By closing all drawers at once, an operator halts recursive rumination instantly, allowing clean, restorative recovery on demand.
+
+#### 10. Strategic Rest & Somatic Reset (Micro-Naps as Leverage)
+Contrary to the toxic myth of sleep deprivation, Napoleon understood that executive failure stems from neurotransmitter exhaustion.
+* **On-Demand Somatic Reset**: Rather than waiting for total nervous breakdown or sleeping 9 unbroken hours, Napoleon deployed tactical **15-to-20 minute power naps**. He could sleep on a folded cloak amidst artillery roar and wake up completely refreshed with crisp working memory.
+* **The Study Protocol**: In intensive 12-hour preparation regimes, a 20-minute midday somatic reset clears adenosine receptors and flushes cognitive fatigue, restoring morning-level executive function for afternoon and evening blocks.
+
+#### 11. The Asymmetric Flanking Maneuver: The Indirect Approach
+In problem-solving, exam strategy, and competition, frontal attacks against entrenched obstacles waste immense energy:
+* **The Principle**: Never attack the adversary's strongest point directly. Pin their attention in front with a credible secondary force, then swing the decisive mass around the flank to sever supply lines and shatter morale.
+* **Application to Difficult Material**: When a subject or conceptual block offers fierce resistance, do not grind against it fruitlessly. Pin it with light daily active recall drills, while flanking it indirectly through foundational first principles, analogical models, and prerequisite mastery from an unexpected angle.
 
 ---
 
