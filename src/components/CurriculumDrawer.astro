@@ -13,6 +13,28 @@ interface Props {
 
 const { currentSlug = '', currentVolume, allVolumes } = Astro.props;
 const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
+
+// Flatten and sort chronologically (newest first)
+const allTopicsFlattened = allVolumes.flatMap((v) => v.topics);
+const chronologicalTopics = [...allTopicsFlattened].sort((a, b) => {
+  const dateA = a.data.last_updated || '2026-09-01';
+  const dateB = b.data.last_updated || '2026-09-01';
+  if (dateB !== dateA) return dateB.localeCompare(dateA);
+  if (b.data.volume !== a.data.volume) return b.data.volume - a.data.volume;
+  return (b.data.order_in_volume || 0) - (a.data.order_in_volume || 0);
+});
+
+function formatDrawerDate(dateStr?: string): string {
+  if (!dateStr) return 'Sep 2026';
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const mIdx = parseInt(parts[1], 10) - 1;
+    const day = parseInt(parts[2], 10);
+    return `${day} ${months[mIdx] || 'Sep'}`;
+  }
+  return dateStr;
+}
 ---
 
 <aside id="curriculum-drawer" class="curriculum-drawer" aria-label="Curriculum Navigation" aria-hidden="true">
@@ -24,45 +46,80 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close Curriculum Drawer">✕</button>
   </div>
 
+  <div class="drawer-nav-tabs" role="tablist">
+    <button id="drawer-tab-volumes" class="drawer-nav-tab active" role="tab" aria-selected="true" aria-controls="drawer-panel-volumes">
+      By Volume ({allVolumes.length})
+    </button>
+    <button id="drawer-tab-timeline" class="drawer-nav-tab" role="tab" aria-selected="false" aria-controls="drawer-panel-timeline">
+      ⏱️ Timeline ({chronologicalTopics.length})
+    </button>
+  </div>
+
   <div class="drawer-content">
-    {allVolumes.map((volGroup) => {
-      const isCurrentVol = currentVolume ? volGroup.volume === currentVolume : volGroup.topics.some((t) => t.slug === currentSlug);
-      return (
-        <details class="volume-accordion" open={isCurrentVol || allVolumes.length <= 2}>
-          <summary class="volume-summary">
-            <span class="volume-caret">▾</span>
-            <span class="volume-num-badge">Vol {volGroup.volume}</span>
-            <span class="volume-name" title={volGroup.volumeTitle}>{volGroup.volumeTitle}</span>
-            <span class="volume-count-tag">{volGroup.topics.length}</span>
-          </summary>
+    <!-- Panel 1: Structured Hierarchical Volume Accordions -->
+    <div id="drawer-panel-volumes" class="drawer-tab-panel active" role="tabpanel">
+      {allVolumes.map((volGroup) => {
+        const isCurrentVol = currentVolume ? volGroup.volume === currentVolume : volGroup.topics.some((t) => t.slug === currentSlug);
+        return (
+          <details class="volume-accordion" open={isCurrentVol || allVolumes.length <= 2}>
+            <summary class="volume-summary">
+              <span class="volume-caret">▾</span>
+              <span class="volume-num-badge">Vol {volGroup.volume}</span>
+              <span class="volume-name" title={volGroup.volumeTitle}>{volGroup.volumeTitle}</span>
+              <span class="volume-count-tag">{volGroup.topics.length}</span>
+            </summary>
 
-          <ul class="topic-sublist">
-            {volGroup.topics.map((topic, idx) => {
-              const chapterSeq = idx + 1;
-              const isActive = topic.slug === currentSlug;
-              // If we are currently on the volume continuous reader for this volume, link to in-page #chapter-N
-              const targetHref = (currentVolume && currentVolume === volGroup.volume)
-                ? `#chapter-${chapterSeq}`
-                : `/ytdecoded/topics/${topic.slug}/`;
+            <ul class="topic-sublist">
+              {volGroup.topics.map((topic, idx) => {
+                const chapterSeq = idx + 1;
+                const isActive = topic.slug === currentSlug;
+                // If we are currently on the volume continuous reader for this volume, link to in-page #chapter-N
+                const targetHref = (currentVolume && currentVolume === volGroup.volume)
+                  ? `#chapter-${chapterSeq}`
+                  : `/ytdecoded/topics/${topic.slug}/`;
 
-              return (
-                <li class={`topic-nav-item ${isActive ? 'active' : ''}`}>
-                  <a 
-                    href={targetHref} 
-                    class="topic-nav-link" 
-                    data-inpage-chapter={currentVolume && currentVolume === volGroup.volume ? String(chapterSeq) : undefined}
-                    aria-current={isActive ? 'page' : undefined}
-                  >
-                    <span class="topic-order">#{chapterSeq}</span>
-                    <span class="topic-label">{topic.data.title}</span>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </details>
-      );
-    })}
+                return (
+                  <li class={`topic-nav-item ${isActive ? 'active' : ''}`}>
+                    <a 
+                      href={targetHref} 
+                      class="topic-nav-link" 
+                      data-inpage-chapter={currentVolume && currentVolume === volGroup.volume ? String(chapterSeq) : undefined}
+                      aria-current={isActive ? 'page' : undefined}
+                    >
+                      <span class="topic-order">#{chapterSeq}</span>
+                      <span class="topic-label">{topic.data.title}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </details>
+        );
+      })}
+    </div>
+
+    <!-- Panel 2: Chronological Timeline Feed (Newest First) -->
+    <div id="drawer-panel-timeline" class="drawer-tab-panel" role="tabpanel" style="display: none;">
+      <div class="drawer-timeline-note">Showing all {chronologicalTopics.length} chapters ordered by newest addition:</div>
+      <ul class="drawer-timeline-list">
+        {chronologicalTopics.map((topic) => {
+          const isActive = topic.slug === currentSlug;
+          const readingTime = topic.data.reading_time_minutes || Math.max(1, Math.ceil((topic.body?.split(/\s+/).filter(Boolean).length || 0) / 225));
+          return (
+            <li class={`drawer-timeline-item ${isActive ? 'active' : ''}`}>
+              <a href={`/ytdecoded/topics/${topic.slug}/`} class="drawer-timeline-link" aria-current={isActive ? 'page' : undefined}>
+                <div class="drawer-timeline-meta">
+                  <span class="drawer-timeline-date">{formatDrawerDate(topic.data.last_updated)}</span>
+                  <span class="drawer-timeline-vol">Vol {topic.data.volume}</span>
+                  <span class="drawer-timeline-time">⏱️ {readingTime}m</span>
+                </div>
+                <span class="drawer-timeline-title">{topic.data.title}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   </div>
 </aside>
 
@@ -296,6 +353,122 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
+  /* --- DUAL TABS STYLING --- */
+  .drawer-nav-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-sidebar);
+    padding: 6px 10px 0;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .drawer-nav-tab {
+    flex: 1;
+    padding: 8px 6px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    font-family: var(--font-ui);
+  }
+
+  .drawer-nav-tab:hover {
+    color: var(--ink);
+  }
+
+  .drawer-nav-tab.active {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
+    background: var(--wash);
+  }
+
+  .drawer-timeline-note {
+    font-size: 0.72rem;
+    color: var(--muted);
+    padding: 4px 6px 10px;
+    font-family: var(--font-ui);
+    letter-spacing: 0.02em;
+  }
+
+  .drawer-timeline-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .drawer-timeline-item {
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    transition: all 0.15s ease;
+  }
+
+  .drawer-timeline-item:hover {
+    border-color: var(--ink);
+    transform: translateX(2px);
+  }
+
+  .drawer-timeline-item.active {
+    border-color: var(--ink);
+    background: var(--wash);
+  }
+
+  .drawer-timeline-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .drawer-timeline-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+  }
+
+  .drawer-timeline-date {
+    font-weight: 700;
+    color: var(--paper);
+    background: var(--ink);
+    padding: 1px 5px;
+    border-radius: 2px;
+  }
+
+  .drawer-timeline-vol {
+    font-weight: 600;
+    color: var(--muted);
+    background: var(--wash);
+    border: 1px solid var(--rule);
+    padding: 1px 5px;
+  }
+
+  .drawer-timeline-time {
+    margin-left: auto;
+    color: var(--muted);
+  }
+
+  .drawer-timeline-title {
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    line-height: 1.3;
+    color: var(--ink);
+    font-weight: 600;
+  }
 </style>
 
 <script is:inline>
@@ -304,6 +477,41 @@ const totalTopics = allVolumes.reduce((acc, v) => acc + v.topics.length, 0);
     const backdrop = document.getElementById('drawer-backdrop');
     const closeBtn = document.getElementById('drawer-close-btn');
     const toggleBtn = document.getElementById('drawer-toggle-btn');
+
+    // Tab switching logic
+    const tabVolumes = document.getElementById('drawer-tab-volumes');
+    const tabTimeline = document.getElementById('drawer-tab-timeline');
+    const panelVolumes = document.getElementById('drawer-panel-volumes');
+    const panelTimeline = document.getElementById('drawer-panel-timeline');
+
+    function showTab(tabName) {
+      if (tabName === 'timeline') {
+        tabVolumes?.classList.remove('active');
+        tabVolumes?.setAttribute('aria-selected', 'false');
+        tabTimeline?.classList.add('active');
+        tabTimeline?.setAttribute('aria-selected', 'true');
+        if (panelVolumes) panelVolumes.style.display = 'none';
+        if (panelTimeline) panelTimeline.style.display = 'block';
+        sessionStorage.setItem('drawer_active_tab', 'timeline');
+      } else {
+        tabTimeline?.classList.remove('active');
+        tabTimeline?.setAttribute('aria-selected', 'false');
+        tabVolumes?.classList.add('active');
+        tabVolumes?.setAttribute('aria-selected', 'true');
+        if (panelTimeline) panelTimeline.style.display = 'none';
+        if (panelVolumes) panelVolumes.style.display = 'block';
+        sessionStorage.setItem('drawer_active_tab', 'volumes');
+      }
+    }
+
+    if (tabVolumes) tabVolumes.addEventListener('click', () => showTab('volumes'));
+    if (tabTimeline) tabTimeline.addEventListener('click', () => showTab('timeline'));
+
+    // Restore tab preference
+    const savedTab = sessionStorage.getItem('drawer_active_tab');
+    if (savedTab === 'timeline') {
+      showTab('timeline');
+    }
 
     function openDrawer() {
       if (drawer && backdrop) {

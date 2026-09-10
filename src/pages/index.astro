@@ -212,10 +212,23 @@ const volumeCards = rawVolumeGroups.map((group) => {
   });
 
   const targetSlugs = PREVIEW_SLUGS[volumeNumber] || [];
-  let previewTopics = processedTopics.filter(item => targetSlugs.includes(item.topic.slug));
-  if (previewTopics.length === 0) {
-    previewTopics = processedTopics.slice(0, 3);
+  // Sort volume topics by recency
+  const volTopicsByRecency = [...processedTopics].sort((a, b) => {
+    const dateA = a.topic.data.last_updated || '2026-09-01';
+    const dateB = b.topic.data.last_updated || '2026-09-01';
+    if (dateB !== dateA) return dateB.localeCompare(dateA);
+    return (b.topic.data.order_in_volume || 0) - (a.topic.data.order_in_volume || 0);
+  });
+
+  // Guarantee the newest addition in this volume is in previewTopics, alongside target slugs
+  let selected = processedTopics.filter(item => targetSlugs.includes(item.topic.slug));
+  if (volTopicsByRecency.length > 0 && !selected.some(item => item.topic.slug === volTopicsByRecency[0].topic.slug)) {
+    selected.unshift(volTopicsByRecency[0]);
   }
+  if (selected.length === 0) {
+    selected = processedTopics.slice(0, 3);
+  }
+  const previewTopics = selected.slice(0, 4);
   const remainingCount = processedTopics.length - previewTopics.length;
 
   return {
@@ -234,6 +247,29 @@ const volumeCards = rawVolumeGroups.map((group) => {
     remainingCount
   };
 });
+
+// Chronological sort across entire corpus (newest first)
+const recentTopics = [...allTopics].sort((a, b) => {
+  const dateA = a.data.last_updated || '2026-09-01';
+  const dateB = b.data.last_updated || '2026-09-01';
+  if (dateB !== dateA) return dateB.localeCompare(dateA);
+  if (b.data.volume !== a.data.volume) return b.data.volume - a.data.volume;
+  return (b.data.order_in_volume || 0) - (a.data.order_in_volume || 0);
+});
+
+const latestDate = recentTopics.length > 0 ? (recentTopics[0].data.last_updated || '') : '';
+
+function formatTopicDate(dateStr?: string): string {
+  if (!dateStr) return 'Sep 2026';
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const mIdx = parseInt(parts[1], 10) - 1;
+    const day = parseInt(parts[2], 10);
+    return `${day} ${months[mIdx] || 'Sep'} ${parts[0]}`;
+  }
+  return dateStr;
+}
 ---
 
 <ReaderLayout title="Reading Map" description="The Living Codex — Master Reading Decision System & Knowledge Map" isWideLayout={true} hideNavSearch={true}>
@@ -307,6 +343,116 @@ const volumeCards = rawVolumeGroups.map((group) => {
     </section>
 
     <!-- ====================================================================
+         SECTION: CHRONOLOGICAL STREAM (RECENTLY ADDED / UPDATED NOTES)
+         ==================================================================== -->
+    <section id="chronological-feed-section" class="chronological-feed-section" aria-label="Recent Notes Feed">
+      <div class="feed-header-wrap">
+        <div class="feed-header-left">
+          <div class="feed-eyebrow-pill">
+            <span class="feed-live-dot">●</span>
+            <span class="feed-pill-bold">CHRONOLOGICAL FEED</span>
+            <span class="feed-pill-sep">•</span>
+            <span>{recentTopics.length} CHAPTERS TOTAL</span>
+          </div>
+          <h2 class="feed-heading">Recently Added & Updated Notes</h2>
+          <p class="feed-subheading">Chapters ordered chronologically by newest addition. Freshly synthesized masterclasses appear first.</p>
+        </div>
+
+        <!-- View Mode Navigation Switcher -->
+        <div class="codex-view-switcher" role="tablist">
+          <button id="btn-view-timeline" class="view-switch-btn active" type="button" role="tab" aria-selected="true" onclick="switchMainView('timeline')">
+            <span class="view-switch-icon">⏱️</span>
+            <span class="view-switch-label">Chronological Stream</span>
+            <span class="view-switch-count">{recentTopics.length}</span>
+          </button>
+          <button id="btn-view-volumes" class="view-switch-btn" type="button" role="tab" aria-selected="false" onclick="switchMainView('volumes')">
+            <span class="view-switch-icon">🏛️</span>
+            <span class="view-switch-label">Volume Map</span>
+            <span class="view-switch-count">{volumeCards.length}</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Chronological Cards Grid (Recent 6 items shown initially) -->
+      <div id="timeline-stream-container" class="timeline-stream-container">
+        <div class="timeline-cards-grid">
+          {recentTopics.slice(0, 6).map((topic) => {
+            const isNew = topic.data.last_updated === latestDate;
+            const readingTime = topic.data.reading_time_minutes || Math.max(1, Math.ceil((topic.body?.split(/\s+/).filter(Boolean).length || 0) / 225));
+            const creator = topic.data.sources && topic.data.sources.length > 0 ? topic.data.sources[0].creator : null;
+            return (
+              <a href={`/ytdecoded/topics/${topic.slug}/`} class="timeline-card">
+                <div class="timeline-card-top">
+                  <div class="timeline-badge-group">
+                    <span class={`timeline-date-tag ${isNew ? 'is-fresh' : ''}`}>
+                      {formatTopicDate(topic.data.last_updated)}
+                    </span>
+                    {isNew && <span class="timeline-new-pill">NEW</span>}
+                    <span class="timeline-vol-tag">Vol. {toRoman(topic.data.volume)}</span>
+                  </div>
+                  <span class="timeline-time-badge">⏱️ {readingTime}m</span>
+                </div>
+                <h3 class="timeline-card-title">{topic.data.title}</h3>
+                {topic.data.summary_15s && (
+                  <p class="timeline-card-summary">{topic.data.summary_15s}</p>
+                )}
+                <div class="timeline-card-footer">
+                  {creator ? (
+                    <span class="timeline-creator-tag">Source: <strong>{creator}</strong></span>
+                  ) : (
+                    <span class="timeline-creator-tag">Archetype: <strong>{topic.data.archetype.replace('_', ' ')}</strong></span>
+                  )}
+                  <span class="timeline-read-btn">Read Chapter →</span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+
+        {recentTopics.length > 6 && (
+          <div class="timeline-expand-row">
+            <button id="toggle-full-timeline-btn" class="timeline-expand-btn" type="button" onclick="toggleFullTimeline()">
+              <span id="timeline-btn-text">View Full Chronological Archive ({recentTopics.length} Notes) ▾</span>
+            </button>
+          </div>
+        )}
+
+        <!-- Extended Drawer for remaining chronological topics -->
+        <div id="extended-timeline-drawer" class="extended-timeline-drawer" style="display: none;">
+          <div class="timeline-cards-grid extended-grid">
+            {recentTopics.slice(6).map((topic) => {
+              const readingTime = topic.data.reading_time_minutes || Math.max(1, Math.ceil((topic.body?.split(/\s+/).filter(Boolean).length || 0) / 225));
+              const creator = topic.data.sources && topic.data.sources.length > 0 ? topic.data.sources[0].creator : null;
+              return (
+                <a href={`/ytdecoded/topics/${topic.slug}/`} class="timeline-card">
+                  <div class="timeline-card-top">
+                    <div class="timeline-badge-group">
+                      <span class="timeline-date-tag">{formatTopicDate(topic.data.last_updated)}</span>
+                      <span class="timeline-vol-tag">Vol. {toRoman(topic.data.volume)}</span>
+                    </div>
+                    <span class="timeline-time-badge">⏱️ {readingTime}m</span>
+                  </div>
+                  <h3 class="timeline-card-title">{topic.data.title}</h3>
+                  {topic.data.summary_15s && (
+                    <p class="timeline-card-summary">{topic.data.summary_15s}</p>
+                  )}
+                  <div class="timeline-card-footer">
+                    {creator ? (
+                      <span class="timeline-creator-tag">Source: <strong>{creator}</strong></span>
+                    ) : (
+                      <span class="timeline-creator-tag">Archetype: <strong>{topic.data.archetype.replace('_', ' ')}</strong></span>
+                    )}
+                    <span class="timeline-read-btn">Read Chapter →</span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
          SECTION 3: "NOT SURE WHERE TO START?" — 4 DIRECT READING ROUTES
          ==================================================================== -->
     <section class="reading-pathways-section" aria-label="Reading Pathway Recommendations">
@@ -346,8 +492,8 @@ const volumeCards = rawVolumeGroups.map((group) => {
     <section class="codex-glance-section" aria-label="The Codex at a Glance">
       <div class="glance-header">
         <div class="glance-eyebrow">THE CODEX AT A GLANCE</div>
-        <h2 class="glance-title">Six Territories. One Connected Body of Knowledge.</h2>
-        <p class="glance-subtitle">Compare territory scope, chapter depth, and reading load across the six volumes.</p>
+        <h2 class="glance-title">{totalVolumes} Territories. One Connected Body of Knowledge.</h2>
+        <p class="glance-subtitle">Compare territory scope, chapter depth, and reading load across all {totalVolumes} volumes.</p>
       </div>
 
       <div class="glance-grid">
@@ -894,6 +1040,311 @@ const volumeCards = rawVolumeGroups.map((group) => {
 
   .continue-dismiss-link:hover {
     color: var(--text-primary);
+  }
+
+  /* --------------------------------------------------------------------------
+     CHRONOLOGICAL STREAM (RECENTLY ADDED & UPDATED NOTES)
+     -------------------------------------------------------------------------- */
+  .chronological-feed-section {
+    margin-bottom: 40px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 28px;
+    box-shadow: 0 4px 20px var(--shadow);
+  }
+
+  .feed-header-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 18px;
+  }
+
+  .feed-header-left {
+    max-width: 640px;
+  }
+
+  .feed-eyebrow-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+
+  .feed-live-dot {
+    color: #e63946;
+    animation: pulse-dot 2s infinite ease-in-out;
+  }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+
+  .feed-pill-bold {
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .feed-pill-sep {
+    opacity: 0.4;
+  }
+
+  .feed-heading {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 6px;
+    line-height: 1.25;
+  }
+
+  .feed-subheading {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* View Mode Switcher */
+  .codex-view-switcher {
+    display: inline-flex;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 3px;
+    gap: 4px;
+    align-self: center;
+  }
+
+  .view-switch-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .view-switch-btn:hover {
+    color: var(--text-primary);
+  }
+
+  .view-switch-btn.active {
+    background: var(--bg-card);
+    color: var(--text-primary);
+    box-shadow: 0 2px 8px var(--shadow);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .view-switch-icon {
+    font-size: 0.95rem;
+  }
+
+  .view-switch-count {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    padding: 1px 6px;
+    border-radius: 999px;
+    background: var(--wash, rgba(0,0,0,0.05));
+    border: 1px solid var(--rule, rgba(0,0,0,0.1));
+  }
+
+  /* Timeline Grid */
+  .timeline-stream-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .timeline-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  .timeline-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .timeline-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: 0 6px 16px var(--shadow);
+  }
+
+  .timeline-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .timeline-badge-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .timeline-date-tag {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+  }
+
+  .timeline-date-tag.is-fresh {
+    color: var(--paper, #fff);
+    background: var(--ink, #1f2421);
+    border-color: var(--ink, #1f2421);
+  }
+
+  .timeline-new-pill {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background: #e63946;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+
+  .timeline-vol-tag {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    border: 1px solid var(--border-subtle);
+    padding: 1px 6px;
+    border-radius: 4px;
+  }
+
+  .timeline-time-badge {
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    color: var(--text-muted);
+  }
+
+  .timeline-card-title {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.35;
+    margin: 0 0 8px;
+    flex: 1;
+  }
+
+  .timeline-card:hover .timeline-card-title {
+    color: var(--accent);
+  }
+
+  .timeline-card-summary {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    margin: 0 0 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .timeline-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 10px;
+    margin-top: auto;
+    font-size: 0.74rem;
+  }
+
+  .timeline-creator-tag {
+    color: var(--text-muted);
+    font-family: var(--font-sans);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 65%;
+  }
+
+  .timeline-creator-tag strong {
+    color: var(--text-primary);
+  }
+
+  .timeline-read-btn {
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+    transition: transform 0.12s ease;
+  }
+
+  .timeline-card:hover .timeline-read-btn {
+    transform: translateX(3px);
+  }
+
+  .timeline-expand-row {
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .timeline-expand-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-surface);
+    border: 1.5px solid var(--border);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-size: 0.84rem;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .timeline-expand-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--bg-card);
+  }
+
+  .extended-timeline-drawer {
+    margin-top: 12px;
   }
 
   /* --------------------------------------------------------------------------
@@ -2065,6 +2516,53 @@ const volumeCards = rawVolumeGroups.map((group) => {
       btn.setAttribute("aria-expanded", "true");
       const label = btn.querySelector(".drawer-btn-label");
       if (label) label.innerText = "Hide full inventory ▴";
+    }
+  };
+
+  // Main View Switcher: Chronological Timeline vs Volume Architecture
+  window.switchMainView = function(mode) {
+    const btnTimeline = document.getElementById('btn-view-timeline');
+    const btnVolumes = document.getElementById('btn-view-volumes');
+    const glanceSection = document.querySelector('.codex-glance-section');
+    const catalogSection = document.querySelector('.codex-catalog-section');
+
+    if (mode === 'volumes') {
+      btnTimeline?.classList.remove('active');
+      btnTimeline?.setAttribute('aria-selected', 'false');
+      btnVolumes?.classList.add('active');
+      btnVolumes?.setAttribute('aria-selected', 'true');
+
+      const targetEl = glanceSection || catalogSection;
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      try { localStorage.setItem('codex_preferred_view', 'volumes'); } catch (_) {}
+    } else {
+      btnVolumes?.classList.remove('active');
+      btnVolumes?.setAttribute('aria-selected', 'false');
+      btnTimeline?.classList.add('active');
+      btnTimeline?.setAttribute('aria-selected', 'true');
+
+      const feedSec = document.getElementById('chronological-feed-section');
+      if (feedSec) {
+        feedSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      try { localStorage.setItem('codex_preferred_view', 'timeline'); } catch (_) {}
+    }
+  };
+
+  // Toggle Full Chronological Archive Drawer
+  window.toggleFullTimeline = function() {
+    const drawer = document.getElementById('extended-timeline-drawer');
+    const btnText = document.getElementById('timeline-btn-text');
+    if (!drawer || !btnText) return;
+
+    if (drawer.style.display === 'none') {
+      drawer.style.display = 'block';
+      btnText.innerText = 'Collapse Archive ▴';
+    } else {
+      drawer.style.display = 'none';
+      btnText.innerText = 'View Full Chronological Archive ({recentTopics.length} Notes) ▾';
     }
   };
 </script>

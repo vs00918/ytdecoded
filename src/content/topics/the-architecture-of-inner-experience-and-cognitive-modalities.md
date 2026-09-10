@@ -1,4 +1,5 @@
 ---
+last_updated: "2026-09-01"
 id: "the-architecture-of-inner-experience-and-cognitive-modalities"
 title: "The Architecture of Inner Experience & Cognitive Modalities — Inner Speech, Aphantasia & The 5 Operating Systems of Mind"
 volume: 1

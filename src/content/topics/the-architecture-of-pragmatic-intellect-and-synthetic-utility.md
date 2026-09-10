@@ -1,4 +1,5 @@
 ---
+last_updated: "2026-09-01"
 id: "the-architecture-of-pragmatic-intellect-and-synthetic-utility"
 title: "The Architecture of Pragmatic Intellect & Synthetic Utility — The Tie-Tying Principle, The Humble Bridge & The S-Tier Textbook Engine"
 volume: 3

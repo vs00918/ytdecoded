@@ -53,7 +53,7 @@ const topicsCollection = defineCollection({
     id: z.string().optional(),
     legacy_id: z.string().optional(),
     title: z.string(),
-    volume: z.number().int().min(1).max(10),
+    volume: z.number().int().min(1),
     volume_title: z.string(),
     order_in_volume: z.number().int().min(1),
     archetype: z.enum([

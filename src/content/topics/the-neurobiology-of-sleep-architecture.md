@@ -1,4 +1,5 @@
 ---
+last_updated: "2026-09-01"
 title: "The Neurobiology of Sleep — Learning, Memory Consolidation & the Cost of Sleep Loss"
 volume: 1
 volume_title: "The Biology of Mind & Energy"

@@ -1,4 +1,5 @@
 ---
+last_updated: "2026-09-01"
 id: "the-architecture-of-deep-work-and-attention-sovereignty"
 title: "The Architecture of Deep Work & Attention Sovereignty — Cast-Iron Time Blocks, The Any-Benefit Fallacy & The Feynman Protocol"
 volume: 4

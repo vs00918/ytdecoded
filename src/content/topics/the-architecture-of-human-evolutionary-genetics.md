@@ -1,4 +1,5 @@
 ---
+last_updated: "2026-09-01"
 id: "the-architecture-of-human-evolutionary-genetics"
 title: "The Architecture of Human Evolutionary Genetics — Natural Selection, Archaic Introgression & The 11 Adaptive Imperatives"
 volume: 1

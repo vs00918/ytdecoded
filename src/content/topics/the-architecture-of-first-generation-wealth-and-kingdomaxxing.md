@@ -1,4 +1,5 @@
 ---
+last_updated: "2026-09-01"
 id: "the-architecture-of-first-generation-wealth-and-kingdomaxxing"
 title: "The Architecture of First-Generation Wealth & Kingdomaxxing — Asymmetric Capital, Endocrine Sovereignty & Eliminating the Beta-Buxxing Drain"
 volume: 2
