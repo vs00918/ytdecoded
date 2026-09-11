@@ -51,6 +51,15 @@ sources:
       - claim: "Pride as the Most Expensive Trait: Clinging to ego, reputation, and public status prevents individuals from admitting error, changing their mind, or looking foolish while learning high-leverage skills."
       - claim: "Desire as a Contract to Be Unhappy: Every desire you choose to harbor is an explicit psychological contract you make with yourself to be unsatisfied until you obtain it; choose at most one primary desire at any given time."
       - claim: "Radical Authenticity as an Unbeatable Competitive Moat: Escape competition through authenticity; nobody can compete with you on being 100% yourself because no one has your specific combination of genetics, curiosity, and idiosyncratic background."
+  - source_id: "youtube-3qHkcs3kG44"
+    title: "Joe Rogan Experience #1309 - Naval Ravikant"
+    creator: "Naval Ravikant (with Joe Rogan / PowerfulJRE)"
+    url: "https://youtu.be/3qHkcs3kG44"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "Foundational Articulation of Status vs Wealth: The seminal 2-hour dialogue outlining that status games exist to signal relative dominance in a hierarchy, whereas ethical wealth creation leverages specific knowledge, accountability, and scalable leverage without permission."
+      - claim: "The Principal-Agent Problem in Modern Employment: If you are paid for your time, you are an agent whose incentives are misaligned with long-term enterprise value; true autonomy requires owning equity and being accountable for specific outcomes."
+      - claim: "Peace as Happiness at Rest: Happiness is not positive thinking or ecstatic emotional states, but the absence of internal narrative friction and longing (peace is happiness at rest; joy is peace in motion)."
 active_recall:
   - question: "How does the 'Thomas Theorem' explain why socially constructed fictions like paper currency or corporate titles dictate physical behavior?"
     concept: "The Mechanics of Social Reality"
