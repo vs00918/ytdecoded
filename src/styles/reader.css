@@ -225,6 +225,174 @@ body {
   gap: 8px;
 }
 
+/* ==========================================================================
+   RAJPUTANA GAZETTE: EDITORIAL EPIGRAPH WIRE
+   Thin news ticker strip underneath the top-nav masthead
+   ========================================================================== */
+.editorial-epigraph-wire {
+  background-color: var(--wash);
+  border-bottom: 1px solid var(--rule);
+  padding: 8px 24px;
+  font-size: 0.88rem;
+  color: var(--ink);
+  position: relative;
+  z-index: 90;
+}
+
+.epigraph-inner {
+  max-width: var(--content-max-width, 780px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.epigraph-badge-wrapper {
+  flex-shrink: 0;
+}
+
+.epigraph-kicker {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 2px 7px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.epigraph-content-wrapper {
+  flex-grow: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1.42;
+}
+
+.epigraph-quote {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--ink);
+  transition: opacity 0.12s ease-in-out;
+}
+
+.epigraph-fade-out {
+  opacity: 0;
+}
+
+.epigraph-fade-in {
+  opacity: 1;
+}
+
+.epigraph-meta {
+  font-family: var(--font-ui);
+  font-size: 0.76rem;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.epigraph-creator {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.epigraph-dash, .epigraph-sep {
+  color: var(--rule);
+}
+
+.epigraph-source-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+  transition: color 0.12s ease, border-color 0.12s ease;
+}
+
+.epigraph-source-link:hover {
+  color: var(--ink);
+  border-bottom-style: solid;
+}
+
+.epigraph-actions {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.epigraph-shuffle-btn {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  color: var(--ink);
+  padding: 4px 9px;
+  font-family: var(--font-ui);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.12s ease;
+}
+
+.epigraph-shuffle-btn:hover {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+.epigraph-shuffle-btn:active {
+  transform: scale(0.97);
+}
+
+.epigraph-kbd {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  background: var(--wash);
+  border: 1px solid var(--rule);
+  padding: 1px 4px;
+  color: var(--muted);
+}
+
+.epigraph-shuffle-btn:hover .epigraph-kbd {
+  background: var(--muted);
+  color: var(--paper);
+  border-color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .editorial-epigraph-wire {
+    padding: 8px 16px;
+  }
+  .epigraph-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .epigraph-actions {
+    align-self: flex-end;
+  }
+}
+
+@media print {
+  .editorial-epigraph-wire {
+    display: none !important;
+  }
+}
+
 /* Main Centered Reading Column */
 .reader-container {
   width: 100%;

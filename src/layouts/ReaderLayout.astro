@@ -3,6 +3,7 @@ import ThemeController from '../components/ThemeController.astro';
 import CurriculumDrawer from '../components/CurriculumDrawer.astro';
 import SearchModal from '../components/SearchModal.astro';
 import ProgressBar from '../components/ProgressBar.astro';
+import EditorialEpigraph from '../components/EditorialEpigraph.astro';
 import { getCollection } from 'astro:content';
 import { getVolumeGroups } from '../utils/navigation';
 import '../styles/reader.css';
@@ -201,6 +202,8 @@ const allVolumes = getVolumeGroups(allTopics);
       <ThemeController />
     </div>
   </header>
+
+  <EditorialEpigraph />
 
   <main 
     class={`reader-container ${isWideLayout ? 'wide-layout' : ''} ${isVolumeLayout ? 'volume-layout' : ''}`} 

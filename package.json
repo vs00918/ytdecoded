@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "build:aphorisms": "node scripts/extract-aphorisms.mjs",
     "build:astro": "astro build",
     "build:pagefind": "pagefind --site dist --output-path dist/pagefind",
-    "build": "astro build && pagefind --site dist --output-path dist/pagefind",
+    "build": "node scripts/extract-aphorisms.mjs && astro build && pagefind --site dist --output-path dist/pagefind",
     "preview": "astro preview",
     "check": "astro check",
     "test": "tsx --test tests/*.test.js"

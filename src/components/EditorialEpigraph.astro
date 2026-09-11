@@ -1,0 +1,157 @@
+---
+// EditorialEpigraph.astro: Rajputana Gazette Wisdom Wire
+// Displays an authoritative philosophical aphorism, session-persisted until the reader clicks "Draw Another" or hits 'Q'.
+---
+
+<aside class="editorial-epigraph-wire" aria-label="Codex Epigraph & Philosophical Aphorisms">
+  <div class="epigraph-inner">
+    <div class="epigraph-badge-wrapper">
+      <span class="epigraph-kicker">⚡ CODEX APHORISM</span>
+    </div>
+
+    <div class="epigraph-content-wrapper">
+      <blockquote id="epigraph-quote" class="epigraph-quote">
+        "Mind is the master weaver of character and circumstance; man is made or unmade by his own thought choices."
+      </blockquote>
+      <div class="epigraph-meta">
+        <span class="epigraph-dash">—</span>
+        <span id="epigraph-creator" class="epigraph-creator">Master Key Society</span>
+        <span class="epigraph-sep">·</span>
+        <a id="epigraph-link" href="/ytdecoded/topics/as-a-man-thinketh-and-metacognitive-sovereignty/" class="epigraph-source-link">
+          <span id="epigraph-topic">As A Man Thinketh</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="epigraph-actions">
+      <button id="epigraph-shuffle-btn" class="epigraph-shuffle-btn" type="button" title="Draw Another Philosophical Aphorism (Hotkey: Q)" aria-label="Draw Another Aphorism">
+        <span class="shuffle-icon" aria-hidden="true">🔀</span>
+        <span class="shuffle-text">Draw Another</span>
+        <kbd class="epigraph-kbd">Q</kbd>
+      </button>
+    </div>
+  </div>
+</aside>
+
+<script is:inline>
+  (function initEditorialEpigraph() {
+    const STORAGE_KEY = 'codex-active-aphorism';
+    let aphorismsCache = null;
+
+    const quoteEl = document.getElementById('epigraph-quote');
+    const creatorEl = document.getElementById('epigraph-creator');
+    const topicEl = document.getElementById('epigraph-topic');
+    const linkEl = document.getElementById('epigraph-link');
+    const shuffleBtn = document.getElementById('epigraph-shuffle-btn');
+
+    if (!quoteEl || !shuffleBtn) return;
+
+    function renderAphorism(item, animate) {
+      if (!item) return;
+
+      if (animate) {
+        quoteEl.classList.add('epigraph-fade-out');
+        setTimeout(function() {
+          applyData(item);
+          quoteEl.classList.remove('epigraph-fade-out');
+          quoteEl.classList.add('epigraph-fade-in');
+          setTimeout(function() {
+            quoteEl.classList.remove('epigraph-fade-in');
+          }, 200);
+        }, 120);
+      } else {
+        applyData(item);
+      }
+    }
+
+    function applyData(item) {
+      quoteEl.textContent = '"' + item.quote + '"';
+      if (creatorEl) creatorEl.textContent = item.creator || 'The Living Codex';
+      if (topicEl) topicEl.textContent = item.topic_title || 'Canonical Concept';
+      if (linkEl) {
+        linkEl.href = '/ytdecoded/topics/' + item.topic_slug + '/';
+        linkEl.title = 'Read Full Chapter: ' + item.topic_title;
+      }
+    }
+
+    async function loadAphorisms() {
+      if (aphorismsCache && aphorismsCache.length > 0) {
+        return aphorismsCache;
+      }
+      try {
+        const res = await fetch('/ytdecoded/data/codex-aphorisms.json');
+        if (!res.ok) throw new Error('Failed to load aphorisms');
+        aphorismsCache = await res.json();
+        return aphorismsCache;
+      } catch (err) {
+        console.warn('Epigraph notice: could not load aphorisms json', err);
+        return null;
+      }
+    }
+
+    function pickRandom(list, currentId) {
+      if (!list || list.length === 0) return null;
+      if (list.length === 1) return list[0];
+      let candidate = list[Math.floor(Math.random() * list.length)];
+      if (candidate.id === currentId) {
+        candidate = list[(Math.floor(Math.random() * (list.length - 1)) + 1) % list.length];
+      }
+      return candidate;
+    }
+
+    async function shuffleAphorism(animate) {
+      const list = await loadAphorisms();
+      if (!list || list.length === 0) return;
+
+      let currentId = null;
+      try {
+        const stored = sessionStorage.getItem(STORAGE_KEY);
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          currentId = parsed.id;
+        }
+      } catch (_) {}
+
+      const next = pickRandom(list, currentId);
+      if (next) {
+        try {
+          sessionStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+        } catch (_) {}
+        renderAphorism(next, animate);
+      }
+    }
+
+    async function hydrate() {
+      let saved = null;
+      try {
+        const raw = sessionStorage.getItem(STORAGE_KEY);
+        if (raw) saved = JSON.parse(raw);
+      } catch (_) {}
+
+      if (saved && saved.quote) {
+        renderAphorism(saved, false);
+      } else {
+        await shuffleAphorism(false);
+      }
+    }
+
+    shuffleBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      shuffleAphorism(true);
+    });
+
+    window.addEventListener('keydown', function(e) {
+      if (e.key === 'q' || e.key === 'Q') {
+        const target = e.target;
+        const tag = target && target.tagName ? target.tagName.toUpperCase() : '';
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || target.isContentEditable) {
+          return;
+        }
+        e.preventDefault();
+        shuffleAphorism(true);
+      }
+    });
+
+    hydrate();
+  })();
+</script>
