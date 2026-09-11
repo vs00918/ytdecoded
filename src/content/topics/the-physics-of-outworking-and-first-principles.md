@@ -26,6 +26,12 @@ mental_models:
   - "The Asymmetric Flanking Maneuver (Indirect Conceptual Wedge)"
   - "Amor Fati & Battlefield Stoicism (The Rebound Invariant)"
   - "The Calculated Audacity Vector (Conviction Bends Probability)"
+  - "The Vibe Coding Paradigm Shift (Natural Language as Executable Code)"
+  - "Waste Tokens, Save Time: The Asymmetric Compute Arbitrage"
+  - "The Autonomous Software Factory & The Small Swarm Model"
+  - "Humans as Verifiers and Taste Anchors in the Synthetic Era"
+  - "Vibe Coding Atoms: Extending AI Leverage into Physical Hardware"
+  - "The Solution to AI Anxiety is Frontier Action"
 relationships:
   prerequisites: []
   builds_on: []
@@ -40,6 +46,40 @@ sources:
       - claim: "The Compression Law of Iteration: Executing twice as many focused iteration hours compresses 12 months of skill acquisition into 6 months"
       - claim: "First Principles vs Analogy: Reasoning by analogy copies conventional consensus; first principles boils a domain down to fundamental truths and reasons up"
       - claim: "The Rapid Feedback Loop: Real learning velocity is governed by the time delay between executing an action and receiving corrective diagnostic reality"
+  - source_id: "youtube-sXCKgEl9hBo"
+    title: "On Artificial Intelligence"
+    creator: "Naval Ravikant"
+    url: "https://youtu.be/sXCKgEl9hBo"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "The Hottest Programming Language is English: Natural language prompt engineering and intent specification replace manual syntax parsing as the primary interface for software construction."
+      - claim: "Zero Demand for Average: Generative models commoditize median cognitive work to zero; asymmetric economic surplus accrues strictly to elite taste, top-percentile judgment, and frontier execution."
+      - claim: "The Antidote to AI Anxiety is Action: Worrying about theoretical extinction or displacement paralyzes; immersing oneself in daily agentic tooling converts threat into exponential leverage."
+  - source_id: "youtube-hTdSU7q5WCo"
+    title: "On Vibe Coding"
+    creator: "Naval Ravikant"
+    url: "https://youtu.be/hTdSU7q5WCo"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "The Personal App Store & Vibe Coding: Writing software is no longer confined to professional developers; anyone with domain expertise can build bespoke software tools in real-time."
+      - claim: "Pure Software Commoditization: As software creation friction trends to zero, standalone SaaS applications lose defensive moats, forcing defensibility into physical integration, proprietary data, and regulatory mastery."
+  - source_id: "youtube-v6MWNrVbM4E"
+    title: "Full Episode: The AI Industrial Revolution"
+    creator: "Naval Ravikant, Guillermo Rauch, Blake Scholl, Max Hodak"
+    url: "https://youtu.be/v6MWNrVbM4E"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "Waste Tokens, Save Time: Machine inference is cheap and deflationary while human biological attention is finite and scarce; aggressively burn millions of LLM tokens to conserve hours of human labor."
+      - claim: "Vibe Coding Hardware: Frontier engineering teams leverage autonomous AI agents to design supersonic jet turbine blades and neural brain-computer interfaces, compressing multi-year R&D cycles into weeks."
+      - claim: "Humans as Verifiers & Directors: When generation is automated, the human role elevates to steering, verification, taste-holding, and testing against physical reality."
+  - source_id: "youtube-6m-ZZBCiiEE"
+    title: "Riding AGI, AI Anxiety, Who Funded COVID, Defending Taiwan, and California Empire"
+    creator: "Naval Ravikant & Garry Tan"
+    url: "https://youtu.be/6m-ZZBCiiEE"
+    evidence_type: "PRACTITIONER_EXPERIENCE"
+    key_contributions:
+      - claim: "Riding the Wave of AGI: Rather than fighting or fearing macro technological shifts, high-agency builders ride the exponential curve by deploying agents and building autonomous organizations."
+      - claim: "The Autonomous Company Model: Small teams of 1 to 5 operators leveraging AI agent swarms will achieve enterprise-scale productivity previously requiring thousands of employees."
   - source_id: "SRC-DR-ADITYA-GUPTA-12-HOUR-POMODORO"
     title: "WANT TO STUDY 12-14 HOURS/DAY? - THE ONLY TECHNIQUE THAT ACTUALLY WORKS!"
     creator: "Dr. Aditya Sanjay Gupta (AIIMS New Delhi AIR 10 UG, AIR 17 PG, DM Oncology)"
@@ -751,6 +791,43 @@ When entering high-stakes arenas with thousands of competitors, timid half-measu
 
 ---
 
+---
+
+### The AI Industrial Revolution & Vibe Coding: Terminal Iteration Velocity (Naval Ravikant & Frontier Founders)
+
+In deep dialogues with frontier founders Guillermo Rauch (Vercel), Blake Scholl (Boom Supersonic), Max Hodak (Science), and Garry Tan (Y Combinator), Naval Ravikant articulates the foundational phase shift of modern execution:
+
+```mermaid
+flowchart TD
+    subgraph LegacyCoding["The Legacy Engineering Loop (High Friction)"]
+        L1["Mental Concept"] --> L2["Manual Syntax Parsing & Boilerplate Code"]
+        L2 --> L3["Days of Debugging Typos & Setup"]
+        L3 --> L4["Slow Iteration Cycle (Weeks/Months)"]
+    end
+
+    subgraph VibeCoding["The Frontier Vibe Coding Engine (Zero Friction)"]
+        V1["Clear Intent in Plain English"] --> V2["Agentic AI Generates Working Software"]
+        V2 --> V3["Instant Runtime Feedback & Test Loop"]
+        V3 --> V4["Terminal Iteration Velocity (Minutes)"]
+    end
+
+    subgraph FrontierMoat["The New Frontier Moat"]
+        M1["Pure Screen Software Commoditized"] --> M2["Moats Shift to Atoms & Verification"]
+        M2 --> M3["Vibe Coding Hardware: Supersonic Jets, Brain Chips, Robotics"]
+    end
+```
+
+1. **The Vibe Coding Phase Shift ("English is the New Code")**: For seventy years, humans had to contort their thinking into machine-readable syntax (C, Java, Python). Vibe coding inverts the relationship: the compiler now speaks human. An operator describes the desired outcome, architecture, and constraints in natural language; autonomous models draft the code, wire up the databases, and fix dependencies in real time. Programming is no longer about remembering syntax; it is about **clarity of thought and architectural intent**.
+2. **Waste Tokens, Save Time (The Compute Arbitrage)**: Human attention is non-renewable, precious, and finite. Machine tokens are cheap, abundant, and plummeting in price by 10x every year. It is a catastrophic economic mistake to spend three hours manually typing boilerplate code or writing documentation to "save" $0.50 of API credits. **Waste millions of tokens ruthlessly to buy back hours of human life.**
+3. **The Autonomous Software Factory & The 3-Person Unicorn**: The industrial company required thousands of workers organized in hierarchical management layers. The modern software factory consists of 1 to 5 high-agency operators directing autonomous AI agents. One person handles architecture; another handles product taste; AI swarms execute coding, testing, customer support, and deployment 24/7.
+4. **Humans as Verifiers and Taste Anchors**: When generation is automated to near-zero cost, generative output becomes a commodity. The scarce bottleneck is **taste, judgment, and verification**. Can you look at an AI-generated architectural plan, legal contract, or code repository and instantly spot the subtle hallucinations and structural failure modes? The future belongs not to the prompt regurgitator, but to the deep first-principles expert who acts as the ultimate truth verifier.
+5. **Vibe Coding Atoms (The Hardware Frontier)**: Screen software is becoming saturated. The real frontier of outworking is applying AI iteration velocity to the physical world:
+   - **Boom Supersonic**: Using AI models to iterate and simulate aerodynamic fluid dynamics for supersonic turbine blades in days instead of years.
+   - **Science (Max Hodak)**: Deploying AI to decode retinal neural signals and print micro-electrode interfaces.
+   - True sovereignty lies in pairing software leverage with physical reality.
+6. **The Antidote to AI Anxiety Is Action**: Debating whether AGI will destroy humanity or eliminate all jobs creates paralyzing existential anxiety. The high-agency response is simple: **ride the wave in the arena**. Build tools, vibe-code personal applications, automate mundane workflows, and operate at the extreme cutting edge of leverage.
+
+---
 ### The Core Takeaway to Remember
 > Talent sets the floor; iteration velocity dictates the ceiling. Strip away the consensus dogma, boil every challenge down to its first principles, out-iterate the competition with relentless execution volume, and let the compounding mathematics of hard work do the rest.
 
