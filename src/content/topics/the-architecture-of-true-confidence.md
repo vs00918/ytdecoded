@@ -61,6 +61,16 @@ sources:
         timestamp: "08:10"
       - claim: "True composure is cultivated through four somatic and cognitive disciplines: the Reappraisal Question, the Trained Exhale (vagal brake), the Delayed Response Rule, and the No-Feedback Stance."
         timestamp: "11:30"
+  - source_id: "youtube-4ejbsDJRfdo"
+    title: "Be So Calm It Makes People Nervous"
+    creator: "WISE JOE"
+    url: "https://www.youtube.com/watch?v=4ejbsDJRfdo"
+    evidence_type: "PHILOSOPHICAL_ARGUMENT"
+    key_contributions:
+      - claim: "Calm is not weakness or passivity, but radical clarity and power: when an individual ceases flinching at life, life ceases dictating their emotional state."
+        timestamp: "01:20"
+      - claim: "Inner stillness destabilizes individuals who thrive on chaos and emotional reaction by removing the drama fuel they feed upon."
+        timestamp: "04:45"
 active_recall:
   - question: "How does Amy Cuddy's neuroendocrine model (Testosterone-to-Cortisol ratio) explain optimal composure during high-stakes execution?"
     concept: "Endocrine Profile of Agency"
