@@ -237,6 +237,36 @@ graph TD
 
 ---
 
+### The Naval Ravikant Happiness Axioms: Peace From Mind & The Desire Contract
+
+In his seminal discourse on happiness, Naval Ravikant reframes contentment not as an external trophy or genetic accident, but as a **highly trainable cognitive skill**:
+
+```mermaid
+flowchart TD
+    subgraph Trap["The Multi-Desire Trap"]
+        M1["Entertain 10+ Competing Desires Simultaneously"]
+        M2["Continuous Internal Friction & Dissatisfaction"]
+        M3["'Peace of Mind': Exhausting Struggle to Soothe Thoughts"]
+        M1 --> M2 --> M3
+    end
+
+    subgraph SovereignPeace["The Single-Desire Discipline"]
+        S1["Select Exactly One Non-Negotiable Priority"]
+        S2["Accept Reality Completely on All Other Fronts"]
+        S3["'Peace FROM Mind': Stepping Back from the Mental Narrator"]
+        S4["Baseline Serenity: Peace in Motion & Silence of Truth"]
+        S1 --> S2 --> S3 --> S4
+    end
+```
+
+1. **Desire Is a Contract to Be Unhappy**: A desire is a psychological agreement you sign: *"I agree to be discontented until I get X."* The error most ambitious people make is maintaining thirty simultaneous contracts at once (promotions, fitness metrics, social status, romantic outcomes, material luxuries). Entertaining thirty contracts guarantees 29 active sources of suffering at any moment. **Keep only one active desire at a time**, and surrender the rest to reality.
+2. **Happiness Is Peace in Motion; Peace Is Happiness at Rest**: Society confuses happiness with excitement or euphoric dopamine rushes. High-arousal excitement is expensive to maintain and crashes into emotional exhaustion. True happiness is nothing more than your biological baseline when you eliminate the friction of wanting things to be different than they are. When sitting quietly, that state is peace; when moving through work and life, that state manifests as effortless joy.
+3. **Peace *From* Mind (Not Peace *Of* Mind)**: Most psychological approaches attempt to give people "peace of mind"—teaching them how to dispute irrational thoughts, argue with anxieties, and produce calming positive thoughts. Naval points out that this is fighting fire with gasoline. The ultimate liberation is **peace from mind**: recognizing that you are the conscious space in which thoughts appear, not the thoughts themselves. When you stop taking the narrator inside your head seriously, its power dissolves.
+4. **The Silence of Truth**: The closer you get to objective truth, the quieter your mind becomes. Internal chatter, anxiety, and obsessive debates are symptoms of friction between your delusions and reality. When you see reality clearly as it actually is, there is nothing left to argue about, and deep silence naturally ensues.
+5. **The Modern Struggle: Fighting Weaponized Addiction**: Happiness without basic material comfort is playing life on hard mode; financial solvency eliminates survival panic. But once material comfort is achieved, the primary enemy of happiness is **weaponized addiction**. Modern civilization employs thousands of engineers to weaponize sugar, social feeds, outrage, video games, and porn. Breaking these addictions and reclaiming your attention baseline is seen as antisocial, but it is the non-negotiable prerequisite for mental peace.
+
+---
+
 ### The Core Takeaway to Remember
 
 > Lasting fulfillment is never found at the finish line; it is found in mastering the desire for the finish line. Shrink your wants, embrace the daily craft, protect your right to unmonetized play, and recognize that the peace you are chasing in the future is only accessible in the present moment.
