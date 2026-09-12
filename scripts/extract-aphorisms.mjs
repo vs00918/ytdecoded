@@ -1,10 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const repoRoot = 'c:/Users/visha/OneDrive/Documents/mind of aravalli/.cache/ytdecoded_repo';
-const TOPICS_DIR = path.join(repoRoot, 'src/content/topics');
-const OUTPUT_FILE = path.join(repoRoot, 'public/data/codex-aphorisms.json');
-const SCRIPTS_EXTRACTOR = path.join(repoRoot, 'scripts/extract-aphorisms.mjs');
+const TOPICS_DIR = path.resolve('src/content/topics');
+const OUTPUT_FILE = path.resolve('public/data/codex-aphorisms.json');
 
 function clean(str) {
   if (!str) return '';
