@@ -70,7 +70,7 @@
       if (topicEl) topicEl.textContent = item.topic_title || 'Canonical Concept';
       if (linkEl) {
         linkEl.href = '/ytdecoded/topics/' + item.topic_slug + '/';
-        linkEl.title = 'Read Full Chapter: ' + item.topic_title;
+        linkEl.title = 'Read Full Chapter: ' + (item.topic_full_title || item.topic_title);
       }
     }
 

@@ -20,7 +20,12 @@ function parseYamlTopic(content) {
   const volumeTitleMatch = raw.match(/^volume_title:\s*(.*)$/m);
   const summaryMatch = raw.match(/^summary_15s:\s*(?:>-\s*\n|["'])?([^"'\r\n]+(?:\r?\n\s+[^"'\r\n]+)*)["']?/m);
 
-  const title = titleMatch ? clean(titleMatch[1]) : '';
+  const fullTitle = titleMatch ? clean(titleMatch[1]) : '';
+  let shortTitle = fullTitle.split(/\s+[—–]\s+/)[0].trim().replace(/^["']|["']$/g, '');
+  if (shortTitle.length > 50) {
+    shortTitle = shortTitle.slice(0, 48).trim() + '…';
+  }
+  const title = shortTitle || fullTitle;
   const id = idMatch ? clean(idMatch[1]) : '';
   const volume = volumeMatch ? parseInt(volumeMatch[1], 10) : 1;
   const volume_title = volumeTitleMatch ? clean(volumeTitleMatch[1]) : '';
@@ -65,7 +70,7 @@ function parseYamlTopic(content) {
     }
   }
 
-  return { id, title, volume, volume_title, summary_15s, claims };
+  return { id, title, full_title: fullTitle, volume, volume_title, summary_15s, claims };
 }
 
 export function run() {
@@ -87,6 +92,7 @@ export function run() {
         quote: parsed.summary_15s,
         creator: 'Canonical Codex Axiom',
         topic_title: parsed.title,
+        topic_full_title: parsed.full_title,
         topic_slug: slug,
         volume: parsed.volume,
         volume_title: parsed.volume_title,
@@ -113,6 +119,7 @@ export function run() {
           quote: quote,
           creator: c.creator || 'The Living Codex',
           topic_title: parsed.title,
+          topic_full_title: parsed.full_title,
           topic_slug: slug,
           volume: parsed.volume,
           volume_title: parsed.volume_title,

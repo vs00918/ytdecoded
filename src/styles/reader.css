@@ -232,24 +232,30 @@ body {
 .editorial-epigraph-wire {
   background-color: var(--wash);
   border-bottom: 1px solid var(--rule);
-  padding: 8px 24px;
+  padding: 10px 24px;
   font-size: 0.88rem;
   color: var(--ink);
   position: relative;
   z-index: 90;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: clip;
 }
 
 .epigraph-inner {
-  max-width: var(--content-max-width, 780px);
+  max-width: 1240px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
+  box-sizing: border-box;
 }
 
 .epigraph-badge-wrapper {
   flex-shrink: 0;
+  padding-top: 2px;
 }
 
 .epigraph-kicker {
@@ -267,13 +273,12 @@ body {
 }
 
 .epigraph-content-wrapper {
-  flex-grow: 1;
+  flex: 1 1 auto;
   min-width: 0;
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 8px;
-  line-height: 1.42;
+  flex-direction: column;
+  gap: 4px;
+  line-height: 1.45;
 }
 
 .epigraph-quote {
@@ -282,7 +287,10 @@ body {
   font-family: var(--font-serif);
   font-style: italic;
   font-weight: 500;
+  font-size: 0.94rem;
   color: var(--ink);
+  word-break: normal;
+  overflow-wrap: break-word;
   transition: opacity 0.12s ease-in-out;
 }
 
@@ -298,10 +306,12 @@ body {
   font-family: var(--font-ui);
   font-size: 0.76rem;
   color: var(--muted);
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 5px;
-  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.3;
 }
 
 .epigraph-creator {
@@ -318,6 +328,12 @@ body {
   text-decoration: none;
   border-bottom: 1px dotted var(--accent);
   transition: color 0.12s ease, border-color 0.12s ease;
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 .epigraph-source-link:hover {
@@ -328,7 +344,9 @@ body {
 .epigraph-actions {
   flex-shrink: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 1px;
+  margin-left: 8px;
 }
 
 .epigraph-shuffle-btn {
@@ -346,6 +364,7 @@ body {
   align-items: center;
   gap: 6px;
   transition: all 0.12s ease;
+  white-space: nowrap;
 }
 
 .epigraph-shuffle-btn:hover {
@@ -373,17 +392,33 @@ body {
   border-color: var(--muted);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .editorial-epigraph-wire {
-    padding: 8px 16px;
+    padding: 10px 16px;
   }
   .epigraph-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "badge actions"
+      "content content";
+    gap: 8px 12px;
+    align-items: center;
+  }
+  .epigraph-badge-wrapper {
+    grid-area: badge;
+    padding-top: 0;
   }
   .epigraph-actions {
-    align-self: flex-end;
+    grid-area: actions;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .epigraph-content-wrapper {
+    grid-area: content;
+  }
+  .epigraph-source-link {
+    max-width: 100%;
   }
 }
 
