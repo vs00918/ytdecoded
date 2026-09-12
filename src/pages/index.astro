@@ -995,18 +995,30 @@ function formatTopicDate(dateStr?: string): string {
     border-radius: 8px;
     padding: 14px 20px;
     box-shadow: 0 2px 8px var(--shadow);
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
   }
 
   .continue-study-left {
     display: flex;
     align-items: center;
     gap: 14px;
+    flex: 1 1 auto;
     min-width: 0;
+    overflow: hidden;
   }
 
   .continue-book-icon-box {
     font-size: 1.4rem;
     flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .continue-meta-content {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .continue-label-tag {
@@ -1016,17 +1028,20 @@ function formatTopicDate(dateStr?: string): string {
     letter-spacing: 0.08em;
     color: var(--accent);
     margin-bottom: 2px;
+    white-space: nowrap;
   }
 
   .continue-topic-title {
     font-family: var(--font-serif);
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     color: var(--text-primary);
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
   }
 
   .continue-study-right {
@@ -1066,6 +1081,21 @@ function formatTopicDate(dateStr?: string): string {
 
   .continue-dismiss-link:hover {
     color: var(--text-primary);
+  }
+
+  @media (max-width: 680px) {
+    .continue-study-banner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .continue-study-left {
+      width: 100%;
+    }
+    .continue-study-right {
+      width: 100%;
+      justify-content: space-between;
+    }
   }
 
   /* --------------------------------------------------------------------------
@@ -2587,7 +2617,10 @@ function formatTopicDate(dateStr?: string): string {
         const linkEl = document.getElementById("continue-reading-link");
 
         if (section && titleEl && linkEl && item.slug) {
-          titleEl.innerText = item.title || "The Architecture of Memory and Active Recall";
+          const rawTitle = item.title || "The Architecture of Memory and Active Recall";
+          const shortTitle = rawTitle.split(/\s+[—–]\s+/)[0].trim();
+          titleEl.innerText = shortTitle || rawTitle;
+          titleEl.title = rawTitle;
           linkEl.href = `/ytdecoded/topics/${item.slug}/`;
           section.style.display = "block";
         }
