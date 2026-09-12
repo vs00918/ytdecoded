@@ -799,6 +799,32 @@ function formatTopicDate(dateStr?: string): string {
     </section>
 
     <!-- ====================================================================
+         SECTION 6.5: DEDICATED INDEPENDENT VAULT: (RANDOM)
+         ==================================================================== -->
+    <section class="random-vault-section" aria-label="Independent Archive (Random)">
+      <div class="random-vault-box">
+        <div class="random-vault-header">
+          <div class="random-vault-kicker">✦ INDEPENDENT STATIC ARCHIVE</div>
+          <span class="random-vault-badge">STANDALONE NOTES</span>
+        </div>
+        <div class="random-vault-body">
+          <div class="random-vault-info">
+            <h3 class="random-vault-title">(Random)</h3>
+            <p class="random-vault-desc">
+              A completely independent, unlinked knowledge compendium containing comprehensive master distillations, human connection frameworks, and standalone intellectual manuscripts. Completely uncoupled from the main Codex volume network.
+            </p>
+          </div>
+          <div class="random-vault-action">
+            <a href="/ytdecoded/random/" class="random-vault-btn" title="Open Independent (Random) Vault">
+              <span>Enter (Random) Vault</span>
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
          SECTION 7: EDITORIAL QUOTE FOOTER
          ==================================================================== -->
     <footer class="codex-quote-banner">
@@ -2376,6 +2402,122 @@ function formatTopicDate(dateStr?: string): string {
     font-size: 0.76rem;
     font-weight: 700;
     color: var(--accent);
+  }
+
+  /* --------------------------------------------------------------------------
+     SECTION 6.5: DEDICATED INDEPENDENT VAULT (RANDOM)
+     -------------------------------------------------------------------------- */
+  .random-vault-section {
+    margin: 32px 0 24px 0;
+  }
+
+  .random-vault-box {
+    background: var(--wash);
+    border: 2px solid var(--rule);
+    border-left: 6px solid var(--accent);
+    padding: 20px 24px;
+    transition: border-color 0.15s ease;
+  }
+
+  .random-vault-box:hover {
+    border-color: var(--ink);
+    border-left-color: var(--accent);
+  }
+
+  .random-vault-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 6px;
+  }
+
+  .random-vault-kicker {
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  .random-vault-badge {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 2px 6px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  .random-vault-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .random-vault-info {
+    flex: 1;
+    min-width: 260px;
+  }
+
+  .random-vault-title {
+    font-family: var(--font-serif);
+    font-size: 1.55rem;
+    font-weight: 900;
+    color: var(--ink);
+    margin: 0 0 6px 0;
+    letter-spacing: -0.02em;
+  }
+
+  .random-vault-desc {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .random-vault-action {
+    flex-shrink: 0;
+  }
+
+  .random-vault-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 10px 20px;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--ink);
+    transition: all 0.15s ease;
+  }
+
+  .random-vault-btn:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+  }
+
+  .random-vault-btn .btn-arrow {
+    font-size: 1rem;
+    transition: transform 0.15s ease;
+  }
+
+  .random-vault-btn:hover .btn-arrow {
+    transform: translateX(4px);
   }
 
   /* --------------------------------------------------------------------------
